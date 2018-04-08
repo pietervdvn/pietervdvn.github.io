@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Natuurgebieden-Plan</title>
+	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
+	<script src="vendor/leaflet/leaflet.js"></script>
+	<script src="vendor/jquery-3.3.1.min.js"></script>
+   <script src="NatuurgebiedenPlan.js"></script>
+
+	<style>
+		#map{ width: 1500px; height: 1050; }
+	</style>
+
+</head>
+
+
+<body>
+
+
+<div id="map"></div>
+
+	<h1>Natuurgebieden van Natuurpunt Brugge</h1>
+
+
+	<script>
+		console.log("Getting started...");
+		map = initializeMap();
+		searchNature("Natuurpunt.*", map);
+	</script>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
