@@ -128,6 +128,10 @@ function natureReserves(jsonEls, idMap){
 			}
 
 		}
+		if(el.type == "node" && el.tags != undefined){
+			natuurGebieden.push(el);
+
+		}
 
 	}
 	return natuurGebieden;
@@ -206,6 +210,10 @@ function mergeByName(areas){
 
 function drawNatureReserve(area){
 	var points = [];
+	if(area.type == "node"){
+		return new L.marker([area.lat, area.lon]);
+	}
+
 	for(i in area.nodes){
 		var node = area.nodes[i];
 		points.push(new L.latLng(node.lat, node.lon));
@@ -265,7 +273,9 @@ function initializeMap(){
 	map = L.map('map').setView([50.9, 3.9], 9);
 
 	// load the tile layer from GEO6
-	L.tileLayer('http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png',
+	var tileLayer = "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png";
+	// http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png
+	L.tileLayer(tileLayer,
 		{
 		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a> | Tiles hosted by <a href="https://geo6.be/">GEO-6</a>; thx JBelien!',
 		maxZoom: 21,
