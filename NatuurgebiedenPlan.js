@@ -6,25 +6,19 @@ var min_lat = 49.500;
 var max_lat = 51.683 ;
 
 
-function queryOperator(operator){
+function queryOverpass(tags){
+	console.log(tags);
 
-	var opString = "";
-	if(operator){
-		opString = "[\"operator\"~\""+operator+"\"]";
+	var filter = "";
+	for(var i = 0; i < tags.length; i++){
+		filter = filter.concat("["+tags[i]+"]");
 	}
 
 	var query = "[out:json][timeout:25];("+
-		"node"+opString+"[\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
-		"way"+opString+"[\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
-		"relation"+opString+"[\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+"););out body;>;out skel qt;"
-	return "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
-}
-
-function queryGebied(operator, name){
-	var query = "[out:json][timeout:25];("+
-		"node[\"operator\"~\""+operator+"\"][name=\""+name+"\"][\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
-		"way[\"operator\"~\""+operator+"\"][name=\""+name+"\"][\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
-		"relation[\"operator\"~\""+operator+"\"][name=\""+name+"\"][\"leisure\"=\"nature_reserve\"]("+min_lat+","+min_lon+","+max_lat+","+max_lon+"););out body;>;out skel qt;"
+		"node"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
+		"way"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
+		"relation"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+"););out body;>;out skel qt;"
+	console.log(query);
 	return "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
 }
 
@@ -96,14 +90,14 @@ function natureReserves(jsonEls, idMap){
 
 	for(var i = 0; i < jsonEls.length; i++){
 		var el = jsonEls[i];
-		if(el.type == "way" && el.tags != undefined && el.tags.leisure == "nature_reserve"){
+		if(el.type == "way" && el.tags != undefined){
 			el.nodes = lookup(el.nodes, idMap);
 			var center = geoCenter(el.nodes);
 			el.lat = center.lat;
 			el.lon = center.lon;
 			natuurGebieden.push(el);
 		}
-		if(el.type == "relation" && el.tags.leisure == "nature_reserve"){
+		if(el.type == "relation" && el.tags != undefined){
 			// have a look at all the members.
 			var currentWay = undefined;
 			for(j in el.members){
@@ -137,46 +131,30 @@ function natureReserves(jsonEls, idMap){
 	return natuurGebieden;
 }
 
-function addPopup(pin, area){
-	var text = "";
+function addPopup(pin, area, textFunction){
 		if(area.tags){
-			if(area.tags.name){
-				text += "<b>"+area.tags.name+"</b><br />";
-			}
-			if(area.tags.description){
-				text += "<p>"+area.tags.description+"<p>";
-			}
-
-			if(area.tags.wikipedia){
-				text += "<a href='https://wikipedia.org/wiki/"+area.tags.wikipedia+"' target='_blank'>Wikipedia</a><br />";
-			}
-
-			if(area.tags.website){
-				text += "<a href=\""+area.tags.website+"\" target='_blank'>Bekijk op de site</a><br />";
-			}
-			if(area.tags.operator){
-				text += "<p>Beheer door "+area.tags.operator+"</p>";
-			}
+			var text = textFunction(area.tags);
 			if(area.type){
 				var type = area.type;
 				if(area.wasRelation){
 					type = "relation";
 				}
 				text += "<a href='https://openstreetmap.org/"+type+"/"+area.id+"' target='_blank'>Bekijk op OSM</a>"
+				text += "  <a href='https://openstreetmap.org/edit?"+type+"="+area.id+"#map=17/"+area.lat+"/"+area.lon+"' target='_blank'>Wijzig</a>"
 			}else{
 				text += "<p>Zoom verder in om te bekijken op OSM</p>"
 			}
+			pin.bindPopup(L.popup().setContent(text));
 		}
-		pin.bindPopup(L.popup().setContent(text));
 }
 
-function makeLayer(elements){
+function makeLayer(elements, textFunction){
 	var layer = L.featureGroup();
 	for(i in elements){
 		var area = elements[i];
 		var pin = L.marker([parseFloat(area.lat), parseFloat(area.lon)]);
 		pin.addTo(layer);
-		addPopup(pin, area);
+		addPopup(pin, area, textFunction);
 		
 	}
 	return layer;
@@ -186,14 +164,19 @@ function makeLayer(elements){
 function mergeByName(areas){
 	var reprs = [];
 	var hist = Object();
+	var noName = [];
 	for(i in areas){
 		var el = areas[i];
 		if(el.tags){
-			var nm = el.tags.name;
-			if(hist[nm] == undefined){
-				hist[nm] = [];
+			if(el.tags.name){
+				var nm = el.tags.name;
+				if(hist[nm] == undefined){
+					hist[nm] = [];
+				}
+				hist[nm].push(el);
+			}else{
+				noName.push(areas[i]);
 			}
-			hist[nm].push(el);
 		}
 	}
 
@@ -201,6 +184,11 @@ function mergeByName(areas){
 		var representor = geoCenter(hist[area]);
 		representor.tags = hist[area][0].tags;
 		reprs.push(representor);
+	}
+	console.log(noName);
+	for(i in noName){
+		console.log(noName[i]);
+		reprs.push(noName[i]);
 	}
 	return reprs;
 
@@ -222,30 +210,29 @@ function drawNatureReserve(area){
 }
 
 
-function makeDrawnLayer(reserves){
+function makeDrawnLayer(reserves, textFunction){
 	var raw = L.featureGroup();
 	for(i in reserves){
 		var area = reserves[i];
 		var poly = drawNatureReserve(area)
-		addPopup(poly, area);
+		addPopup(poly, area, textFunction);
 		poly.addTo(raw);
 	}
 	return raw;
 }
 
-function searchNature(operator, overviewLayer){
-   var liveQuery  = queryOperator(operator);
-	var notLive=  "NPBrugge.json";
+function searchAndRender(tags, textGenerator, overviewLayer){
+   var liveQuery  = queryOverpass(tags);
 	$.getJSON(liveQuery, function(json) {
 		json = json.elements;
 
  		var ids = idMap(json);
 		var reserves = natureReserves(json, ids);
 
-		var highLevelLayer = makeLayer(mergeByName(reserves));
+		var highLevelLayer = makeLayer(mergeByName(reserves), textGenerator);
 		map.addLayer(highLevelLayer);
-		var midLevelLayer=  makeLayer(reserves);
-		var lowLevelLayer = makeDrawnLayer(reserves);
+		var midLevelLayer=  makeLayer(reserves, textGenerator);
+		var lowLevelLayer = makeDrawnLayer(reserves, textGenerator);
 		map.on('zoomend', function(){
 			map.removeLayer(highLevelLayer);
 			map.removeLayer(midLevelLayer);
@@ -277,11 +264,10 @@ function initializeMap(){
 	// http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png
 	L.tileLayer(tileLayer,
 		{
-		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a> | Tiles hosted by <a href="https://geo6.be/">GEO-6</a>; thx JBelien!',
+		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a>',
 		maxZoom: 21,
 		minZoom: 1
 		}).addTo(map);
-
 
    return map;
 }

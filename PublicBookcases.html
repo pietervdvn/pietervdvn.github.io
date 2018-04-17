@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Natuurgebieden-Plan</title>
+	<title>Bookcases-Map</title>
 	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
 	<script src="vendor/leaflet/leaflet.js"></script>
 	<script src="vendor/jquery-3.3.1.min.js"></script>
@@ -17,9 +17,6 @@
 
 
 <div id="map"></div>
-
-	<h1>Natuurgebieden van Natuurpunt Brugge</h1>
-
 
 	<script>
 		function popupText(tags){
@@ -41,13 +38,16 @@
 			if(tags.operator){
 				text += "<p>Beheer door "+tags.operator+"</p>";
 			}
+			if(tags.brand){
+				text += "Part of the network "+tags.brand;
+			}
 			return text;
 		}
 
 
 		console.log("Getting started...");
 		map = initializeMap();
-		searchAndRender(['"operator"="Natuurpunt Brugge"', '"leisure"="nature_reserve"'], popupText, map);
+		searchAndRender(['"amenity"="public_bookcase"'], popupText, map);
 	</script>
 
 
