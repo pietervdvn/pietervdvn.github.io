@@ -1,0 +1,63 @@
+<html>
+<head>
+	<title>Natuurgebieden-Plan</title>
+	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
+	<script src="vendor/leaflet/leaflet.js"></script>
+	<script src="vendor/jquery-3.3.1.min.js"></script>
+   <script src="LoadFromOverpass.js"></script>
+
+	<style>
+		#map{ width: 1500px; height: 1050; }
+	</style>
+
+</head>
+
+
+<body>
+
+
+<div id="map"></div>
+
+	<h1>Natuurgebieden van België</h1>
+
+
+	<script>
+		function popupText(tags){
+			text = "";
+			if(tags.name){
+				text += "<b>"+tags.name+"</b><br />";
+			}
+			if(tags.description){
+				text += "<p>"+tags.description+"<p>";
+			}
+
+			if(tags.wikipedia){
+				text += "<a href='https://wikipedia.org/wiki/"+tags.wikipedia+"' target='_blank'>Wikipedia</a><br />";
+			}
+
+			if(tags.website){
+				text += "<a href=\""+tags.website+"\" target='_blank'>Bekijk op de site</a><br />";
+			}
+			if(tags.operator){
+				text += "<p>Beheer door "+tags.operator+"</p>";
+			}
+			return text;
+		}
+
+
+		console.log("Getting started...");
+		map = initializeMap();
+		searchAndRender(['"leisure"="nature_reserve"'], popupText, map);
+	</script>
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
