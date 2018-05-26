@@ -1,10 +1,11 @@
 <html>
 <head>
-	<title>Natuurgebieden-Plan</title>
+	<title>Overpasser-testing</title>
+   <meta charset="ISO-8859-1"> 
 	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
 	<script src="vendor/leaflet/leaflet.js"></script>
 	<script src="vendor/jquery-3.3.1.min.js"></script>
-   <script src="LoadFromOverpass.js"></script>
+   <script src="Overpasser.js"></script>
 
 	<style>
 		#map{ width: 1500px; height: 1050; }
@@ -18,7 +19,7 @@
 
 <div id="map"></div>
 
-	<h1>Natuurgebieden van Natuurpunt Brugge</h1>
+	<h1>Overpasser test</h1>
 
 
 	<script>
@@ -46,19 +47,12 @@
 
 
 		console.log("Getting started...");
-		map = initializeMap();
-		map.setView([51.222, 3.227], 12);
-		searchAndRender(['"operator"="Natuurpunt Brugge"', '"leisure"="nature_reserve"'], popupText, map);
+		map = initializeMap({node: 1651558422, zoomlevel: 15});
+		queryBelgium(['"leisure"="playground"'], renderWith(map, function(tags){return tags.playground;}, undefined, undefined));
 	</script>
 
 
 
-
-
-
-
-
 </body>
-
-
 </html>
+

@@ -1,12 +1,12 @@
 
 // Bounding box of Belgium
-var min_lon = 2.367;
-var max_lon = 6.400 ;
-var min_lat = 49.500;
-var max_lat = 51.683 ;
+var min_lon_be = 2.367;
+var max_lon_be = 6.400 ;
+var min_lat_be = 49.500;
+var max_lat_be = 51.683 ;
 
 
-function queryOverpass(tags){
+function queryOverpass(tags, min_lat, max_lat, min_lon, max_lon){
 	console.log(tags);
 
 	var filter = "";
@@ -76,6 +76,9 @@ function geoCenter(nodes){
 	var lonSum = 0;
 	for(var i = 0; i < nodes.length; i++){
 		var node = nodes[i];
+		if(node === undefined){
+			continue;
+		}
 		latSum += node.lat;
 		lonSum += node.lon;
 	}
@@ -102,6 +105,9 @@ function natureReserves(jsonEls, idMap){
 			var currentWay = undefined;
 			for(j in el.members){
 				var way = idMap[el.members[j].ref];
+				if(way === undefined){
+					continue;
+				}
 				if(currentWay != undefined){
 					currentWay = currentWay.concat(way.nodes);
 				}else{
@@ -222,8 +228,12 @@ function makeDrawnLayer(reserves, textFunction){
 }
 
 function searchAndRender(tags, textGenerator, overviewLayer){
-   var liveQuery  = queryOverpass(tags);
-	$.getJSON(liveQuery, function(json) {
+   var liveQuery  = queryOverpass(tags, min_lat_be, max_lat_be, min_lon_be, max_lon_be);
+	executeAndRenderQuery(liveQuery, textGenerator);
+}
+
+function executeAndRenderQuery(queryString, textGenerator){
+	$.getJSON(queryString, function(json) {
 		json = json.elements;
 
  		var ids = idMap(json);
