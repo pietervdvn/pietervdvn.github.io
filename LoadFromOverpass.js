@@ -270,8 +270,8 @@ function initializeMap(){
 	map = L.map('map').setView([50.9, 3.9], 9);
 
 	// load the tile layer from GEO6
-	var tileLayer = "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png";
-	// http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png
+	//var tileLayer = "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png";
+	var tileLayer = "http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png";
 	L.tileLayer(tileLayer,
 		{
 		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a>',
