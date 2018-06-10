@@ -274,7 +274,7 @@ function initializeMap(){
 	var tileLayer = "http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png";
 	L.tileLayer(tileLayer,
 		{
-		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a>',
+		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a> | <a href="https://geo6.be/">Tiles by Geo6</a>',
 		maxZoom: 21,
 		minZoom: 1
 		}).addTo(map);
