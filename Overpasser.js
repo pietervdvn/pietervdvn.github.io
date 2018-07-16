@@ -71,7 +71,7 @@ function queryOSMNode(nodeID, callback){
 // Renders the given features with given options
 function renderWith(map, text, icon, color){
 	return function(features){
-		text = popup === undefined ? function(node){return undefined;} : text;
+		text = text === undefined ? function(node){return undefined;} : text; // popup text
 		icon = icon === undefined ? function(node){return undefined;} : icon;
 		color = color === undefined ? function(node){return undefined;} : color;
 
@@ -79,12 +79,12 @@ function renderWith(map, text, icon, color){
 			var f = features[i];
 			console.log("Attempting rendering of ", f);
 
-			if(f.type == "node"){
+		//	if(f.type == "node"){
 				var pin = L.marker([parseFloat(f.lat), parseFloat(f.lon)]);
 				pin.addTo(map);
 				pin.bindPopup(L.popup().setContent(text(f.tags)));		
-			}
-
+		//	}
+			
 
 		}
 	};
