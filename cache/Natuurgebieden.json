@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-11-20T20:28:03Z",
+    "timestamp_osm_base": "2018-11-20T22:44:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15,6 +15,7 @@
   "tags": {
     "description": "zilte graslanden",
     "leisure": "nature_reserve",
+    "name": "Ter Doest",
     "operator": "Natuurpunt Brugge",
     "website": "https://natuurpuntbrugge.be/ter-doest-lissewege/"
   }
@@ -60,51 +61,6 @@
     "name": "Rode Dopheidereservaat",
     "operator": "Natuurpunt Brugge",
     "website": "https://natuurpuntbrugge.be/rode-dopheidereservaat/"
-  }
-},
-{
-  "type": "way",
-  "id": 374348227,
-  "nodes": [
-    5520632263,
-    5520634232,
-    3777258219,
-    5520609482,
-    3777258186,
-    5520609478,
-    3777258191,
-    5520632257,
-    5520632255,
-    5520632256,
-    5520632267,
-    5520632263
-  ],
-  "tags": {
-    "landuse": "meadow",
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "operator": "Natuurpunt Brugge"
-  }
-},
-{
-  "type": "way",
-  "id": 374348252,
-  "nodes": [
-    3777258188,
-    3777258182,
-    3777258181,
-    5520632259,
-    5520632260,
-    5520632262,
-    3777258196,
-    3777258189,
-    3777258188
-  ],
-  "tags": {
-    "landuse": "meadow",
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "operator": "Natuurpunt Brugge"
   }
 },
 {
@@ -195,118 +151,6 @@
 },
 {
   "type": "way",
-  "id": 575283492,
-  "nodes": [
-    5520584432,
-    5520584443,
-    5520584444,
-    5520584445,
-    5520584704,
-    5520584705,
-    5520584446,
-    5520584447,
-    5520584448,
-    5520584449,
-    5520584450,
-    5520584440,
-    5520584441,
-    5520584431,
-    5520584430,
-    5520584442,
-    5520584429,
-    5520584428,
-    5520584432
-  ],
-  "tags": {
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "natural": "wetland",
-    "operator": "Natuurpunt Brugge",
-    "start_date": "2017-12",
-    "wetland": "wet_meadow"
-  }
-},
-{
-  "type": "way",
-  "id": 575285795,
-  "nodes": [
-    5520602742,
-    5520602740,
-    5520602741,
-    5520602724,
-    5520602725,
-    5520602726,
-    5520602727,
-    5520602728,
-    5520602729,
-    5520602730,
-    5520602731,
-    5520602732,
-    5520602733,
-    5520602734,
-    5520602735,
-    5520602736,
-    5520602737,
-    5520602742
-  ],
-  "tags": {
-    "landuse": "meadow",
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "operator": "Natuurpunt Brugge",
-    "start_date": "2017-12"
-  }
-},
-{
-  "type": "way",
-  "id": 575287032,
-  "nodes": [
-    3777258192,
-    5520609489,
-    5520609492,
-    5520609493,
-    5520609494,
-    5520609495,
-    5520609496,
-    5520609486,
-    5520609485,
-    5520609483,
-    5520609490,
-    3777258192
-  ],
-  "tags": {
-    "landuse": "meadow",
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "operator": "Natuurpunt Brugge"
-  }
-},
-{
-  "type": "way",
-  "id": 575296794,
-  "nodes": [
-    5520602722,
-    5520686755,
-    5520686756,
-    5520686757,
-    5520686752,
-    5520686754,
-    5520686753,
-    5520686750,
-    5520686758,
-    5520686748,
-    5520686759,
-    5520602722
-  ],
-  "tags": {
-    "landuse": "meadow",
-    "leisure": "nature_reserve",
-    "name": "De Polders van Koolkerke en Dudzele",
-    "operator": "Natuurpunt Brugge"
-  }
-},
-{
-  "type": "way",
   "id": 594164689,
   "nodes": [
     5548702658,
@@ -358,6 +202,48 @@
     "type": "multipolygon",
     "website": "https://natuurpuntbrugge.be/wulgenbroeken/",
     "wetland": "wet_meadow"
+  }
+},
+{
+  "type": "relation",
+  "id": 9027729,
+  "members": [
+    {
+      "type": "way",
+      "ref": 575283492,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 575296794,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 575287032,
+      "role": ""
+    },
+    {
+      "type": "way",
+      "ref": 374348227,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 374348252,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 575285795,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "leisure": "nature_reserve",
+    "name": "De Polders van Koolkerke en Dudzele",
+    "operator": "Natuurpunt Brugge",
+    "type": "multipolygon"
   }
 },
 {
@@ -1559,6 +1445,124 @@
     5536620845,
     5536620846,
     5536620837
+  ]
+},
+{
+  "type": "way",
+  "id": 575285795,
+  "nodes": [
+    5520602742,
+    5520602740,
+    5520602741,
+    5520602724,
+    5520602725,
+    5520602726,
+    5520602727,
+    5520602728,
+    5520602729,
+    5520602730,
+    5520602731,
+    5520602732,
+    5520602733,
+    5520602734,
+    5520602735,
+    5520602736,
+    5520602737,
+    5520602742
+  ]
+},
+{
+  "type": "way",
+  "id": 575287032,
+  "nodes": [
+    3777258192,
+    5520609489,
+    5520609492,
+    5520609493,
+    5520609494,
+    5520609495,
+    5520609496,
+    5520609486,
+    5520609485,
+    5520609483,
+    5520609490,
+    3777258192
+  ]
+},
+{
+  "type": "way",
+  "id": 575283492,
+  "nodes": [
+    5520584432,
+    5520584443,
+    5520584444,
+    5520584445,
+    5520584704,
+    5520584705,
+    5520584446,
+    5520584447,
+    5520584448,
+    5520584449,
+    5520584450,
+    5520584440,
+    5520584441,
+    5520584431,
+    5520584430,
+    5520584442,
+    5520584429,
+    5520584428,
+    5520584432
+  ]
+},
+{
+  "type": "way",
+  "id": 374348227,
+  "nodes": [
+    5520632263,
+    5520634232,
+    3777258219,
+    5520609482,
+    3777258186,
+    5520609478,
+    3777258191,
+    5520632257,
+    5520632255,
+    5520632256,
+    5520632267,
+    5520632263
+  ]
+},
+{
+  "type": "way",
+  "id": 374348252,
+  "nodes": [
+    3777258188,
+    3777258182,
+    3777258181,
+    5520632259,
+    5520632260,
+    5520632262,
+    3777258196,
+    3777258189,
+    3777258188
+  ]
+},
+{
+  "type": "way",
+  "id": 575296794,
+  "nodes": [
+    5520602722,
+    5520686755,
+    5520686756,
+    5520686757,
+    5520686752,
+    5520686754,
+    5520686753,
+    5520686750,
+    5520686758,
+    5520686748,
+    5520686759,
+    5520602722
   ]
 }
 
