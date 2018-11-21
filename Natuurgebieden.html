@@ -22,17 +22,21 @@
 
 
 	<script>
-		function popupText(tags){
+
+		function toHa(surface){
+			return Math.floor(surface/100)/100;
+		}
+
+		function popupText(tags, area){
 			text = "";
 			if(tags.name){
-				text += "<b>"+tags.name+"</b><br />";
+				text += "<b>"+tags.name+"</b> ("+toHa(tags.area)+" hectare)<br />";
+			}
+			if(tags.area != area && !isNaN(area)){
+				text += "<p>"+toHa(area)+" hectare geselecteerd</p>";
 			}
 			if(tags.description){
 				text += "<p>"+tags.description+"<p>";
-			}
-
-			if(tags.wikipedia){
-				text += "<a href='https://wikipedia.org/wiki/"+tags.wikipedia+"' target='_blank'>Wikipedia</a><br />";
 			}
 
 			if(tags.website){
@@ -41,6 +45,12 @@
 			if(tags.operator){
 				text += "<p>Beheer door "+tags.operator+"</p>";
 			}
+			if(tags.wikipedia){
+				text += "<h2>Op wikipedia</h2>";
+
+				text += '<div id="" style="overflow:scroll; height:400px;">' + tags.wikipedia_contents + '</div>';
+			}
+
 			return text;
 		}
 
@@ -48,7 +58,10 @@
 		console.log("Getting started...");
 		map = initializeMap();
 		map.setView([51.222, 3.227], 12);
-		searchAndRender(['"operator"="Natuurpunt Brugge"', '"leisure"="nature_reserve"'], popupText, map);
+		//*
+		searchAndRender(['"operator"="Natuurpunt Brugge"', '"leisure"="nature_reserve"'], popupText, map);/*/
+		$.getJSON("https://raw.githubusercontent.com/pietervdvn/pietervdvn.github.io/master/cache/Natuurgebieden.json",
+			function(json){renderQuery(json.elements, popupText)}); //*/
 	</script>
 
 
