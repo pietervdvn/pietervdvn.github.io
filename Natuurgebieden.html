@@ -58,7 +58,7 @@
 		console.log("Getting started...");
 		map = initializeMap();
 		map.setView([51.222, 3.227], 12);
-		//*
+		/*
 		searchAndRender(['"operator"="Natuurpunt Brugge"', '"leisure"="nature_reserve"'], popupText, map);/*/
 		$.getJSON("https://raw.githubusercontent.com/pietervdvn/pietervdvn.github.io/master/cache/Natuurgebieden.json",
 			function(json){renderQuery(json.elements, popupText)}); //*/
