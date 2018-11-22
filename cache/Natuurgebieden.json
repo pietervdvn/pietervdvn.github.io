@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-11-20T23:25:02Z",
+    "timestamp_osm_base": "2018-11-22T00:33:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -200,10 +200,10 @@
     "name": "De Wulgenbroeken",
     "natural": "wetland",
     "operator": "Natuurpunt Brugge",
-    "start_date": "2014",
     "type": "multipolygon",
     "website": "https://natuurpuntbrugge.be/wulgenbroeken/",
-    "wetland": "wet_meadow"
+    "wetland": "wet_meadow",
+    "wikipedia": "nl:Wulgenbroeken"
   }
 },
 {
@@ -223,7 +223,7 @@
     {
       "type": "way",
       "ref": 575287032,
-      "role": ""
+      "role": "outer"
     },
     {
       "type": "way",
@@ -245,7 +245,8 @@
     "leisure": "nature_reserve",
     "name": "De Polders van Koolkerke en Dudzele",
     "operator": "Natuurpunt Brugge",
-    "type": "multipolygon"
+    "type": "multipolygon",
+    "wikipedia": "nl:De Polders van Dudzele en Koolkerke"
   }
 },
 {
