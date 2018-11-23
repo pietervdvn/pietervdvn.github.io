@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-11-23T01:10:02Z",
+    "timestamp_osm_base": "2018-11-23T01:21:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -82,8 +82,10 @@
     2529308542
   ],
   "tags": {
+    "access": "no",
     "alt_name": "Rode Dopheide Reservaat",
     "alt_name_1": "Rode Dopheide",
+    "description": "Waardevol heidegebied",
     "leisure": "nature_reserve",
     "name": "Rode Dopheidereservaat",
     "natural": "heath",
