@@ -19,7 +19,7 @@ function queryOverpass(tags, min_lat, max_lat, min_lon, max_lon){
 		"way"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
 		"relation"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+"););out body;>;out skel qt;"
 	console.log(query);
-	return "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
+	return "http://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
 }
 
 
@@ -284,7 +284,7 @@ function addPopup(pin, area, textFunction){
 		}
 		pin.bindPopup(L.popup().setContent(text), {maxWidth:600, minWidth: 600 });
 	}
-	return function(){loadWikipedia(area)}
+	return trailingFunction;
 }
 
 function makeLayer(elements, textFunction, imageFunction){
@@ -336,9 +336,7 @@ function mergeByName(areas){
 		representor.tags = hist[area][0].tags;
 		reprs.push(representor);
 	}
-	console.log(noName);
 	for(i in noName){
-		console.log(noName[i]);
 		reprs.push(noName[i]);
 	}
 	return reprs;
@@ -395,33 +393,44 @@ function color(poly){
 	}
 }
 
-function searchAndRender(tags, textGenerator, imageFunction, overviewLayer){
+function searchAndRender(tags, textGenerator, imageFunction, overviewLayer, highLevelOnly){
 	console.log("Running query... Hang on")
 	var liveQuery  = queryOverpass(tags, min_lat_be, max_lat_be, min_lon_be, max_lon_be);
-	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator, imageFunction);});	
+	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator, imageFunction, highLevelOnly);});	
 }
 
-function renderQuery(json, textGenerator, imageFunction){
+function renderQuery(json, textGenerator, imageFunction, highLevelOnly){
 	console.log(json)
-	var ids = idMap(json);
-	var reserves = natureReserves(json, ids);
+	let ids = idMap(json);
+	let reserves = natureReserves(json, ids);
 
-	var lowZoomLayer = makeLayer(mergeByName(reserves), textGenerator, imageFunction);
-	var midZoomLayer=  makeLayer(reserves, textGenerator, imageFunction);
-	var highZoomLayer = makeDrawnLayer(reserves, textGenerator);
-	map.addLayer(lowZoomLayer);
+	let lowZoomLayer = makeLayer(mergeByName(reserves), textGenerator, imageFunction);
+	let midZoomLayer=  makeLayer(reserves, textGenerator, imageFunction);
+	let highZoomLayer = makeDrawnLayer(reserves, textGenerator);
 	map.on('zoomend', function(){
 		map.removeLayer(highZoomLayer);
 		map.removeLayer(midZoomLayer);
 		map.removeLayer(lowZoomLayer);
-		if(map.getZoom() < 14){
+		if(highLevelOnly){
+			if(map.getZoom >= 16){
+				map.addLayer(highZoomLayer);
+			}
+		}else if(map.getZoom() < 14){
 			map.addLayer(lowZoomLayer);
 		}else if(map.getZoom() < 16){
 			map.addLayer(midZoomLayer);
 		}else{
 			map.addLayer(highZoomLayer);
 		}
-	});	
+	});
+
+	map.addLayer(lowZoomLayer);
+	if(highLevelOnly){
+		return;
+	}
+		
+	map.fitBounds(highZoomLayer.getBounds(), {padding: L.point(50,50)});
+
 }
 
 
