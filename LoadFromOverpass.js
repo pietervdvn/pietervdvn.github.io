@@ -19,7 +19,7 @@ function queryOverpass(tags, min_lat, max_lat, min_lon, max_lon){
 		"way"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+");"+
 		"relation"+filter+"("+min_lat+","+min_lon+","+max_lat+","+max_lon+"););out body;>;out skel qt;"
 	console.log(query);
-	return "http://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
+	return "https://overpass-api.de/api/interpreter?data=" + encodeURIComponent(query);
 }
 
 
@@ -442,7 +442,7 @@ function initializeMap(tileLayer){
 	// load the tile layer from GEO6
 	//var tileLayer = "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png";
 	if(typeof tileLayer === "undefined"){
-		var tileLayer = "http://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png";
+		var tileLayer = "https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png";
 	}
 
 	L.tileLayer(tileLayer,

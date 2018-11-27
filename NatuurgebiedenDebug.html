@@ -113,9 +113,9 @@ let afd = urlParams.get('operator')
 console.log("Getting started...");
 map = initializeMap();
 map.setView([51.222, 3.227], 12);
-searchAndRender(['"operator"="'+afd+'"', '"leisure"="nature_reserve"'], popupText, imageFunction, map);
+searchAndRender(['"operator"~"'+afd+'"', '"leisure"="nature_reserve"'], popupText, imageFunction, map);
 
-searchAndRender(['"operator"="'+afd+'"', '"tourism"="information"'], infoBoardText, imageBoardFunction, map, true);
+searchAndRender(['"operator"~"'+afd+'"', '"tourism"="information"'], infoBoardText, imageBoardFunction, map, true);
 
 	
 </script>
