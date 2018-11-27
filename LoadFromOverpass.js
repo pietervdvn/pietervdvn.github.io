@@ -204,47 +204,108 @@ function natureReserves(jsonEls, idMap){
 	return natuurGebieden;
 }
 
-function addPopup(pin, area, textFunction){
-		if(area.tags){
-			if(area.tags.wikipedia){
-				var lang = area.tags.wikipedia.split(':')[0];
-				var page = area.tags.wikipedia.split(':')[1];
-				
-				$.ajax({
-      					async: false,
-   					url: "https://"+lang+".wikipedia.org/api/rest_v1/page/html/"+page,
-					    success: function(html){
-						 area.tags.wikipedia_contents = html;
-					    }
-					});
-			}
 
-			var text = textFunction(area.tags, area.area);
-			if(area.type){
-				var type = area.type;
-				if(area.wasRelation){
-					type = "relation";
-				}
-				text += "<a href='https://openstreetmap.org/"+type+"/"+area.id+"' target='_blank'>Bekijk op OSM</a>"
-				text += "  <a href='https://openstreetmap.org/edit?"+type+"="+area.id+"#map=17/"+area.lat+"/"+area.lon+"' target='_blank'>Wijzig kaart</a>"
-				if(area.tags.wikipedia){
-					text += " <a href='https://"+lang+".wikipedia.org/wiki/"+page+"'>Bekijk op wikipedia</a>";				
-				}
+var cachedWikipedia = {};
 
-			}else{
-				text += "<p>Zoom verder in om te bekijken op OSM</p>"
-			}
-			pin.bindPopup(L.popup().setContent(text), {maxWidth:600});
+function loadWikipedia(area){
+	var lang = area.tags.wikipedia.split(':')[0];
+	var page = area.tags.wikipedia.split(':')[1];
+			
+	var element =  document.getElementById('wikipedia_'+lang+"_"+page);
+	if(cachedWikipedia[lang] == undefined){
+		cachedWikipedia[lang] = {};
+	}
+	if(element){
+
+		if(element.innerHTML){
+			return;
 		}
+		if(cachedWikipedia[lang][page] != undefined){
+			element.innerHTML = cachedWikipedia[lang][page];
+			return;
+		}
+	
+		element.innerHTML= "Loading...";
+	}
+	
+	console.log("Loading wikipedia article...")
+
+	$.ajax({
+		url: "https://"+lang+".wikipedia.org/api/rest_v1/page/html/"+page,
+		timeout: 5000,
+		    success: function(html){
+			var element =  document.getElementById('wikipedia_'+lang+"_"+page);
+
+				if(element === null){
+					console.log("No placeholder for wikipedia element "+'wikipedia_'+lang+"_"+page);
+					return;
+				}
+				cachedWikipedia[lang][page] = html;
+				element.innerHTML= html;
+			},
+			fail: function(xhr, textStatus, errorThrown){
+				console.log("Request FAILED");
+				var element =  document.getElementById('wikipedia_'+lang+"_"+page);
+				element.innerHTML = null;
+			}
+		});
 }
 
-function makeLayer(elements, textFunction){
+function addPopup(pin, area, textFunction){
+
+	var trailingFunction = function(ar){ return; };
+
+	if(area.tags){
+		var wikilink = "";
+		if(area.tags.wikipedia){
+			var lang = area.tags.wikipedia.split(':')[0];
+			var page = area.tags.wikipedia.split(':')[1];
+			wikilink = " <a href='https://"+lang+".wikipedia.org/wiki/"+page+"'>Bekijk op wikipedia</a>";				
+
+			area.tags.wikipedia_contents = "<div id='"+'wikipedia_'+lang+"_"+page+"'/>";
+
+			
+			trailingFunction = function(ar) {loadWikipedia(ar)};
+					
+		}
+
+		var text = textFunction(area.tags, area.area);
+		if(area.type){
+			var type = area.type;
+			if(area.wasRelation){
+				type = "relation";
+			}
+			text += "<a href='https://openstreetmap.org/"+type+"/"+area.id+"' target='_blank'>Bekijk op OSM</a>"
+			text += "  <a href='https://openstreetmap.org/edit?"+type+"="+area.id+"#map=17/"+area.lat+"/"+area.lon+"' target='_blank'>Wijzig kaart</a> "
+			text += wikilink;
+
+		}else{
+			text += "<p>Zoom verder in om te bekijken op OSM</p>"
+		}
+		pin.bindPopup(L.popup().setContent(text), {maxWidth:600, minWidth: 600 });
+	}
+	return function(){loadWikipedia(area)}
+}
+
+function makeLayer(elements, textFunction, imageFunction){
 	var layer = L.featureGroup();
 	for(i in elements){
-		var area = elements[i];
-		var pin = L.marker([parseFloat(area.lat), parseFloat(area.lon)]);
+		let area = elements[i];
+
+		let options = {};
+		let icon = undefined;
+		if(imageFunction){
+			icon = imageFunction(area.tags);
+		}
+		if(icon){
+			options = {icon: icon};
+		}
+
+		let pin = L.marker([parseFloat(area.lat), parseFloat(area.lon)], options);
+		
 		pin.addTo(layer);
-		addPopup(pin, area, textFunction);
+		let trailing = addPopup(pin, area, textFunction);
+		pin.on('popupopen', function(){trailing(area)});
 		
 	}
 	return layer;
@@ -304,9 +365,10 @@ var allPolies = [];
 function makeDrawnLayer(reserves, textFunction){
 	var raw = L.featureGroup();
 	for(i in reserves){
-		var area = reserves[i];
-		var poly = drawNatureReserve(area)
-		addPopup(poly, area, textFunction);
+		let area = reserves[i];
+		let poly = drawNatureReserve(area)
+		let trailing = addPopup(poly, area, textFunction);
+		poly.on('popupopen', function(){trailing(area)});		
 		poly.addTo(raw);
 		poly.tags = area.tags;
 		poly.tags.selected = false;
@@ -333,18 +395,19 @@ function color(poly){
 	}
 }
 
-function searchAndRender(tags, textGenerator, overviewLayer){
+function searchAndRender(tags, textGenerator, imageFunction, overviewLayer){
+	console.log("Running query... Hang on")
 	var liveQuery  = queryOverpass(tags, min_lat_be, max_lat_be, min_lon_be, max_lon_be);
-	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator);});	
+	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator, imageFunction);});	
 }
 
-function renderQuery(json, textGenerator){
-	//json = json.elements;
+function renderQuery(json, textGenerator, imageFunction){
+	console.log(json)
 	var ids = idMap(json);
 	var reserves = natureReserves(json, ids);
 
-	var lowZoomLayer = makeLayer(mergeByName(reserves), textGenerator);
-	var midZoomLayer=  makeLayer(reserves, textGenerator);
+	var lowZoomLayer = makeLayer(mergeByName(reserves), textGenerator, imageFunction);
+	var midZoomLayer=  makeLayer(reserves, textGenerator, imageFunction);
 	var highZoomLayer = makeDrawnLayer(reserves, textGenerator);
 	map.addLayer(lowZoomLayer);
 	map.on('zoomend', function(){

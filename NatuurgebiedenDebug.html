@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Natuurgebieden-Plan</title>
+	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
+	<script src="vendor/leaflet/leaflet.js"></script>
+	<script src="vendor/jquery-3.3.1.min.js"></script>
+   <script src="LoadFromOverpass.js"></script>
+
+	<style>
+		#map{ width: 1500px; height: 800; }
+	</style>
+
+</head>
+
+
+<body>
+
+
+<div id="map"></div>
+
+<h1>Debug</h1>
+
+<form>
+Afdelingsnaam: 
+<input type="text" id="operatorField"></input>
+<button onclick="loadAfdeling()">Bekijk</button> 
+</form>
+
+<script>
+
+
+
+function toHa(surface){
+	return Math.floor(surface/100)/100;
+}
+
+function popupText(tags, area){
+	text = "";
+	
+}
+
+var natuurpuntIcon = L.icon({
+    iconUrl: 'natuurpunt_logo_zwart.png',
+
+    iconSize:     [50, 50], // size of the icon
+    iconAnchor:   [25, 35], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -40] // point from which the popup should open relative to the iconAnchor
+});
+
+
+function imageFunction(tags){
+	return natuurpuntIcon;
+}
+
+function loadAfdeling(){
+	var afd = document.getElementById('operatorField').value;
+	searchAndRender(['"operator"="'+afd+'"', '"leisure"="nature_reserve"'], popupText, imageFunction, map);
+ 
+}
+
+
+console.log("Getting started...");
+map = initializeMap();
+map.setView([51.222, 3.227], 12);
+	
+</script>
+
+
+</body>
+
+
+</html>
