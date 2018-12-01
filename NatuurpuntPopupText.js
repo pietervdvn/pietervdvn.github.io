@@ -86,7 +86,7 @@ function popupText(tags, area){
 
 
 var natuurpuntIcon = L.icon({
-    iconUrl: 'natuurpunt_logo_zwart.png',
+    iconUrl: 'Natuurpunt.jpg',
 
     iconSize:     [50, 50], // size of the icon
     iconAnchor:   [25, 35], // point of the icon which will correspond to marker's location
