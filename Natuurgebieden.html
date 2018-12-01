@@ -4,7 +4,8 @@
 	<link rel="stylesheet" href="vendor/leaflet/leaflet.css"/>
 	<script src="vendor/leaflet/leaflet.js"></script>
 	<script src="vendor/jquery-3.3.1.min.js"></script>
-   <script src="LoadFromOverpass.js"></script>
+	<script src="NatuurpuntPopupText.js"></script>
+  	<script src="LoadFromOverpass.js"></script>
 
 	<style>
 		#map{ width: 1500px; height: 800; }
@@ -22,68 +23,6 @@
 
 
 <script>
-
-function toHa(surface){
-	return Math.floor(surface/100)/100;
-}
-
-function popupText(tags, area){
-	text = "";
-	if(tags.name){
-		text += "<h3>"+tags.name+"</h3>";
-	}
-
-
-	text += "<p>";
-	text += toHa(tags.area)+" hectare - "
-	if(tags.operator){
-		text += "beheer door "+tags.operator;
-	}
-	if(tags.area != area && !isNaN(area)){
-		text += "- "+toHa(area)+" hectare geselecteerd";
-	}
-	text += "</p>";
-
-	if(tags.access){
-		if(tags.access == "no"){
-			text += "<p>Niet vrij toegankelijk</p>";
-		}else if(tags.access == "yes"){
-			text += "<p>Toegankelijk op de paden</p>";
-		}else{
-			text += "<p>Toegankelijkheid: "+tags.access+"</p>";				
-		}
-	}
-
-	if(tags.description){
-		text += "<p>Beschrijving: <strong>"+tags.description+"</strong><p>";
-	}
-
-	if(tags.wikipedia){
-		text += "<h2>Op wikipedia</h2>";
-
-		text += '<div id="" style="overflow:scroll; height:400px;">' + tags.wikipedia_contents + '</div>';
-	}
-
-
-	if(tags.website){
-		text += "<a href=\""+tags.website+"\" target='_blank'>Bekijk op de site</a><br />";
-	}
-	return text;
-}
-
-
-var natuurpuntIcon = L.icon({
-    iconUrl: 'natuurpunt_logo_zwart.png',
-
-    iconSize:     [50, 50], // size of the icon
-    iconAnchor:   [25, 35], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0, -40] // point from which the popup should open relative to the iconAnchor
-});
-
-
-function imageFunction(tags){
-	return natuurpuntIcon;
-}
 
 
 console.log("Getting started...");

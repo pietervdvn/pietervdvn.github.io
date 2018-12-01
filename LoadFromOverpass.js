@@ -148,12 +148,110 @@ function geoCenter(nodes){
 	return avg;
 }
 
+
+function firstUnused(relation){
+	let mems = relation.members
+	for(i in mems){
+		var way = mems[i];
+		if(way.type != "way" && way.role != "outer"){
+			continue;
+		}
+		if(way.used){
+			continue;
+		}
+		way.used = true;
+		return way;
+	}
+	return undefined;
+
+}
+
+function searchMatching(relation, currentWay, idMap){
+	var last =  currentWay[currentWay.length - 1];
+	var mems = relation.members;	
+	for(i in mems){
+		var way = mems[i];
+		if(way.used){
+			continue;
+		}
+
+		var nodes =idMap[way.ref].nodes;
+		if(nodes[0] === last){
+			way.used = true;
+			return nodes;
+		}
+
+		if(nodes[nodes.length - 1] === last){
+			way.used = true;
+			nodes.reverse();
+			return nodes;
+		}
+	}
+	return undefined;
+
+}
+
+function renderRelation(relation, idMap){
+
+	var outlines = [];
+
+	var currentLine = firstUnused(relation);
+	var currentWay = undefined;
+	let totalArea = 0.0;
+	while(currentLine){
+		if(currentWay == undefined){
+			currentWay = idMap[currentLine.ref].nodes;
+		}
+		if(currentWay === undefined){
+			currentLine = firstUnused(relation)
+			continue;
+		}
+
+		// Search a matching line
+		var foundNodes = undefined;
+		do{
+			if(currentWay[0] == currentWay[currentWay.length - 1]){
+				break;
+			}
+			foundNodes = searchMatching(relation, currentWay, idMap);
+			currentWay = currentWay.concat(foundNodes);
+		}while(foundNodes);
+
+		// Is the line closed? Then we are done with the segment
+		if(currentWay[0] === currentWay[currentWay.length - 1]){
+			currentWay.tags = relation.tags;
+			currentWay.nodes = lookup(currentWay, idMap);
+			var center = geoCenter(currentWay.nodes);
+			currentWay.lat = center.lat;
+			currentWay.lon = center.lon;
+			currentWay.type = "relation";
+			currentWay.id = relation.id;
+			currentWay.area = surfaceArea(currentWay.nodes);
+			totalArea += currentWay.area;
+			outlines.push(currentWay);
+			currentWay = undefined;
+		}
+
+		currentLine = firstUnused(relation);
+	}
+	relation.tags.area = totalArea;
+	return outlines;
+
+}
+
 function natureReserves(jsonEls, idMap){
 	var natuurGebieden = [];
 
 	for(var i = 0; i < jsonEls.length; i++){
 		var el = jsonEls[i];
-		if(el.type == "way" && el.tags != undefined){
+		if(el.tags == undefined){
+			// Probably a way that is part of a relation
+			continue;
+		}
+		el.tags.type = el.type
+		el.tags.id = el.id;
+
+		if(el.type == "way"){
 			el.nodes = lookup(el.nodes, idMap);
 			var center = geoCenter(el.nodes);
 			el.lat = center.lat;
@@ -162,41 +260,10 @@ function natureReserves(jsonEls, idMap){
 			el.area = el.tags.area;
 			natuurGebieden.push(el);
 		}
-		if(el.type == "relation" && el.tags != undefined){
-			// have a look at all the members.
-			var totalArea = 0;
-			var currentWay = undefined;
-			for(j in el.members){
-				var way = idMap[el.members[j].ref];
-				if(way === undefined){
-					continue;
-				}
-				if(currentWay != undefined){
-					currentWay = currentWay.concat(way.nodes);
-				}else{
-					currentWay = way.nodes;
-				}
-				// is it closed? Add it!
-				if(currentWay[0] == currentWay[currentWay.length - 1]){
-					currentWay.tags = el.tags;
-					currentWay.nodes = lookup(currentWay, idMap);
-					var center = geoCenter(currentWay.nodes);
-					currentWay.lat = center.lat;
-					currentWay.lon = center.lon;
-					currentWay.type = "relation";
-					currentWay.id = el.id;
-					currentWay.area = surfaceArea(currentWay.nodes);
-					totalArea += currentWay.area;
-					natuurGebieden.push(currentWay);
-					currentWay = undefined;
-				}
-			}
-			el.tags.area = totalArea;
-
-0
-
+		if(el.type == "relation"){
+				natuurGebieden = natuurGebieden.concat(renderRelation(el, idMap));
 		}
-		if(el.type == "node" && el.tags != undefined){
+		if(el.type == "node"){
 			natuurGebieden.push(el);
 		}
 
@@ -268,7 +335,6 @@ function addPopup(pin, area, textFunction){
 			trailingFunction = function(ar) {loadWikipedia(ar)};
 					
 		}
-
 		var text = textFunction(area.tags, area.area);
 		if(area.type){
 			var type = area.type;
@@ -393,13 +459,13 @@ function color(poly){
 	}
 }
 
-function searchAndRender(tags, textGenerator, imageFunction, overviewLayer, highLevelOnly){
+function searchAndRender(tags, textGenerator, imageFunction, overviewLayer, highLevelOnly, continuation){
 	console.log("Running query... Hang on")
 	var liveQuery  = queryOverpass(tags, min_lat_be, max_lat_be, min_lon_be, max_lon_be);
-	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator, imageFunction, highLevelOnly);});	
+	$.getJSON(liveQuery, function(json) {renderQuery(json.elements, textGenerator, imageFunction, highLevelOnly, continuation);});	
 }
 
-function renderQuery(json, textGenerator, imageFunction, highLevelOnly){
+function renderQuery(json, textGenerator, imageFunction, highLevelOnly, continuation){
 	console.log(json)
 	let ids = idMap(json);
 	let reserves = natureReserves(json, ids);
@@ -412,12 +478,12 @@ function renderQuery(json, textGenerator, imageFunction, highLevelOnly){
 		map.removeLayer(midZoomLayer);
 		map.removeLayer(lowZoomLayer);
 		if(highLevelOnly){
-			if(map.getZoom >= 16){
+			if(map.getZoom >= 14){
 				map.addLayer(highZoomLayer);
 			}
-		}else if(map.getZoom() < 14){
+		}else if(map.getZoom() < 12){
 			map.addLayer(lowZoomLayer);
-		}else if(map.getZoom() < 16){
+		}else if(map.getZoom() < 14){
 			map.addLayer(midZoomLayer);
 		}else{
 			map.addLayer(highZoomLayer);
@@ -431,27 +497,54 @@ function renderQuery(json, textGenerator, imageFunction, highLevelOnly){
 		
 	map.fitBounds(highZoomLayer.getBounds(), {padding: L.point(50,50)});
 
+	if(continuation){
+		continuation();
+	}
+
 }
 
 
 
 
 function initializeMap(tileLayer){	
-	map = L.map('map').setView([50.9, 3.9], 9);
 
 	// load the tile layer from GEO6
 	//var tileLayer = "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png";
-	if(typeof tileLayer === "undefined"){
-		var tileLayer = "https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png";
-	}
+// https://geoservices.informatievlaanderen.be/raadpleegdiensten/OGW/wms?FORMAT=image/jpeg&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=OGWRGB13_15VL&STYLES=&SRS=EPSG:3857&WIDTH=256&HEIGHT=256&BBOX=354514.9371372979,6655677.799976959,354667.8111938467,6655830.674033508
+	var wmsLayer = L.tileLayer.wms('https://geoservices.informatievlaanderen.be/raadpleegdiensten/OGW/wms?s', 
+		{layers:"OGWRGB13_15VL",
+		 attribution: "Luchtfoto's van © AIV Vlaanderen (2013-2015) | Data van OpenStreetMap | Teksten van Wikipedia"});
 
-	L.tileLayer(tileLayer,
+	var osmLayer = L.tileLayer("https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
 		{
-		attribution: 'Map Data © <a href="osm.org">OpenStreetMap</a> | <a href="https://geo6.be/">Tiles by Geo6</a>',
+		attribution: 'Map Data and background © <a href="osm.org">OpenStreetMap</a> | Teksten Wikipedia',
 		maxZoom: 21,
 		minZoom: 1
-		}).addTo(map);
+		});
 
-   return map;
+	var osmBeLayer = L.tileLayer("https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
+		{
+		attribution: 'Map Data and background © <a href="osm.org">OpenStreetMap</a> | <a href="https://geo6.be/">Tiles by Geo6</a> | Teksten Wikipedia',
+		maxZoom: 21,
+		minZoom: 1
+		});
+
+
+	map = L.map('map', {
+		center: [50.9, 3.9],
+		zoom:9,
+		layers: [osmLayer]			
+		});
+
+	var baseLayers = {
+		"OpenStreetMap Be": osmBeLayer,
+		"OpenStreetMap": osmLayer,
+		"Luchtfoto AIV Vlaanderen": wmsLayer
+	};
+
+	
+	L.control.layers(baseLayers).addTo(map);
+
+	return map;
 }
 
