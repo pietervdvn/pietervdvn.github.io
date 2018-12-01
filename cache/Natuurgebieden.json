@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-12-01T00:05:04Z",
+    "timestamp_osm_base": "2018-12-01T16:29:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -31,11 +31,15 @@
   "lat": 51.1607429,
   "lon": 3.1496434,
   "tags": {
-    "description": "heidegebied",
+    "curator": "Stefaan Verplancke",
+    "description": "Heidegebied",
+    "email": "verplancke-de.neve@skynet.be",
     "leisure": "nature_reserve",
     "name": "Domein Zevenkerken",
     "operator": "Natuurpunt Brugge",
-    "website": "https://natuurpuntbrugge.be/reservaat-domein-zevenkerken/"
+    "phone": "+32 50 38 21 50",
+    "website": "https://natuurpuntbrugge.be/reservaat-domein-zevenkerken/",
+    "wikipedia": "nl:Domein Zevenkerke (natuurgebied)"
   }
 },
 {
@@ -68,7 +72,7 @@
     "leisure": "nature_reserve",
     "name": "Rode Dopheidereservaat",
     "operator": "Natuurpunt Brugge",
-    "phone_number": "+32 50 67 59 29",
+    "phone": "+32 50 67 59 29",
     "website": "https://natuurpuntbrugge.be/rode-dopheidereservaat/",
     "wikipedia": "nl:Rode dopheidereservaat"
   }
@@ -101,7 +105,7 @@
     "name": "Rode Dopheidereservaat",
     "natural": "heath",
     "operator": "Natuurpunt Brugge",
-    "phone_number": "+32 50 67 59 29",
+    "phone": "+32 50 67 59 29",
     "start_date": "1978",
     "website": "https://natuurpuntbrugge.be/rode-dopheidereservaat/",
     "wikipedia": "nl:Rode dopheidereservaat"
@@ -143,7 +147,7 @@
     "leisure": "nature_reserve",
     "name": "Rode Dopheidereservaat",
     "operator": "Natuurpunt Brugge",
-    "phone_number": "+32 50 67 59 29",
+    "phone": "+32 50 67 59 29",
     "website": "https://natuurpuntbrugge.be/rode-dopheidereservaat/",
     "wikipedia": "nl:Rode dopheidereservaat"
   }
@@ -170,7 +174,7 @@
     "leisure": "nature_reserve",
     "name": "Rode Dopheidereservaat",
     "operator": "Natuurpunt Brugge",
-    "phone_number": "+32 50 67 59 29",
+    "phone": "+32 50 67 59 29",
     "website": "https://natuurpuntbrugge.be/rode-dopheidereservaat/",
     "wikipedia": "nl:Rode dopheidereservaat"
   }
@@ -197,6 +201,7 @@
     "barrier": "fence",
     "curator": "Arnout Zwaenepoel",
     "description": "Dit unieke milieu herbergt een enorme verscheidenheid aan planten-, zwammen- en diersoorten. Het doel van het beheer is heide en heischraal grasland bevorderen. In het nieuwe gedeelte werden ook een ven en zandduinen aangebracht.",
+    "dogs": "no",
     "email": "arnoutenregine@skynet.be",
     "leisure": "nature_reserve",
     "name": "Schobbejakshoogte",
@@ -223,7 +228,7 @@
   ],
   "tags": {
     "access": "no",
-    "curator": "WIm Jans",
+    "curator": "Wim Jans",
     "curator:1": "Geert De Clercq",
     "email": "wjans566@gmail.com",
     "email:1": "geert.de.clercq1@pandora.be",
