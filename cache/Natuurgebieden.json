@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.55.5 2ca3f387",
   "osm3s": {
-    "timestamp_osm_base": "2018-12-01T16:29:02Z",
+    "timestamp_osm_base": "2018-12-01T16:44:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15,7 +15,7 @@
   "tags": {
     "access": "guided",
     "curator": "Reinhard Strubbe",
-    "description": "zilte graslanden",
+    "description": "Zilte graslanden",
     "email": "reinhardtstrubbe@gmail.com",
     "leisure": "nature_reserve",
     "name": "Ter Doest",
@@ -200,7 +200,7 @@
     "access": "yes",
     "barrier": "fence",
     "curator": "Arnout Zwaenepoel",
-    "description": "Dit unieke milieu herbergt een enorme verscheidenheid aan planten-, zwammen- en diersoorten. Het doel van het beheer is heide en heischraal grasland bevorderen. In het nieuwe gedeelte werden ook een ven en zandduinen aangebracht.",
+    "description": "Heide en heischraal landschap met landduin en grote soortenverscheidenheid",
     "dogs": "no",
     "email": "arnoutenregine@skynet.be",
     "leisure": "nature_reserve",
@@ -279,6 +279,7 @@
     }
   ],
   "tags": {
+    "description": "Polderlandsschap voor weidevogels",
     "leisure": "nature_reserve",
     "name": "De Polders van Koolkerke en Dudzele",
     "operator": "Natuurpunt Brugge",
