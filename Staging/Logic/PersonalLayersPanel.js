@@ -197,7 +197,7 @@ function () {
       newSource.setData(f(self.data));
     };
 
-    this.addCallbackAndRun(update);
+    this.addCallback(update);
 
     for (var _i = 0, extraSources_1 = extraSources; _i < extraSources_1.length; _i++) {
       var extraSource = extraSources_1[_i];
@@ -665,16 +665,6 @@ function () {
     }
 
     return [a.substr(0, index), a.substr(index + sep.length)];
-  };
-
-  Utils.isRetina = function () {
-    if (UIElement_1.UIElement.runningFromConsole) {
-      return;
-    } // The cause for this line of code: https://github.com/pietervdvn/MapComplete/issues/115
-    // See https://stackoverflow.com/questions/19689715/what-is-the-best-way-to-detect-retina-support-on-a-device-using-javascript
-
-
-    return window.matchMedia && (window.matchMedia('only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx), only screen and (min-resolution: 75.6dpcm)').matches || window.matchMedia('only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2)').matches) || window.devicePixelRatio && window.devicePixelRatio >= 2;
   };
 
   return Utils;
@@ -17345,15 +17335,6 @@ function (_super) {
 
   Combine.prototype.InnerRender = function () {
     return this.uiElements.map(function (ui) {
-      if (ui === undefined || ui === null) {
-        return "";
-      }
-
-      if (ui.Render === undefined) {
-        console.error("Not a UI-element", ui);
-        return "";
-      }
-
       return ui.Render();
     }).join("");
   };
@@ -18542,7 +18523,7 @@ function () {
           return undefined;
         }
 
-        return ("" + fl).substr(0, 8);
+        return ("" + fl).substr(0, 6);
       });
     }
 
@@ -18711,7 +18692,7 @@ function () {
     }
   }
 
-  State.vNumber = "0.0.9"; // The user journey states thresholds when a new feature gets unlocked
+  State.vNumber = "0.0.8g"; // The user journey states thresholds when a new feature gets unlocked
 
   State.userJourney = {
     addNewPointsUnlock: 1,
@@ -18722,8 +18703,7 @@ function () {
     tagsVisibleAndWikiLinked: 150,
     themeGeneratorReadOnlyUnlock: 200,
     themeGeneratorFullUnlock: 500,
-    addNewPointWithUnreadMessagesUnlock: 500,
-    minZoomLevelToAddNewPoints: Utils_1.Utils.isRetina() ? 18 : 19
+    addNewPointWithUnreadMessagesUnlock: 500
   };
   State.runningFromConsole = false;
   State.FromBase64 = undefined;
@@ -18758,6 +18738,19 @@ var State_1 = require("../State");
 var Layout =
 /** @class */
 function () {
+  /**
+   *
+   * @param id: The name used in the query string. If in the query "quests=<name>" is defined, it will select this layout
+   * @param title: Will be used in the <title> of the page
+   * @param layers: The layers to show, a list of LayerDefinitions
+   * @param startzoom: The initial starting zoom of the map
+   * @param startLat:The initial starting latitude of the map
+   * @param startLon: the initial starting longitude of the map
+   * @param welcomeMessage: This message is shown in the collapsable box on the left
+   * @param gettingStartedPlzLogin: This is shown below the welcomemessage and wrapped in a login link.
+   * @param welcomeBackMessage: This is shown when the user is logged in
+   * @param welcomeTail: This text is shown below the login message. It is ideal for extra help
+   */
   function Layout(id, supportedLanguages, title, layers, startzoom, startLat, startLon, welcomeMessage, gettingStartedPlzLogin, welcomeBackMessage, welcomeTail) {
     if (gettingStartedPlzLogin === void 0) {
       gettingStartedPlzLogin = new Combine_1.default([Translations_1.default.t.general.getStartedLogin.SetClass("soft").onClick(function () {
@@ -18779,7 +18772,6 @@ function () {
     this.enableUserBadge = true;
     this.enableSearch = true;
     this.enableLayers = true;
-    this.enableBackgroundLayers = true;
     this.enableMoreQuests = true;
     this.enableShareScreen = true;
     this.enableGeolocation = true;
@@ -19247,12 +19239,12 @@ module.exports = {
     "question": {
       "en": "On what webpage can one find more information about the Ghost bike or the accident?",
       "nl": "Op welke website kan men meer informatie vinden over de Witte fiets of over het ongeval?",
-      "de": "Auf welcher Webseite kann man mehr Informationen über das Geisterrad oder den Unfall finden?"
+      "de": ""
     },
     "render": {
       "en": "<a href='{source}' target='_blank'>More information is available</a>",
       "nl": "<a href='{source}' target='_blank'>Meer informatie</a>",
-      "de": "<a href='{source}' target='_blank'>Mehr Informationen</a>"
+      "de": "Auf welcher Webseite kann man mehr Informationen über das Geisterrad oder den Unfall finden?"
     },
     "freeform": {
       "type": "url",
@@ -19271,19 +19263,6 @@ module.exports = {
     },
     "freeform": {
       "key": "inscription"
-    }
-  }, {
-    "question": {
-      "nl": "Wanneer werd deze witte fiets geplaatst?",
-      "en": "When was this Ghost bike installed?"
-    },
-    "render": {
-      "nl": "Geplaatst op {start_date}",
-      "en": "Placed on {start_date}"
-    },
-    "freeform": {
-      "key": "start_date",
-      "type": "date"
     }
   }]
 };
@@ -23169,7 +23148,7 @@ function () {
   FromJSON.LayoutFromJSON = function (json) {
     var _a;
 
-    var _b, _c, _d, _e, _f, _g, _h;
+    var _b, _c, _d, _e, _f, _g;
 
     var tr = FromJSON.Translation;
     var layers = json.layers.map(FromJSON.Layer);
@@ -23184,13 +23163,12 @@ function () {
     }
 
     var layout = new Layout_1.Layout(json.id, typeof json.language === "string" ? [json.language] : json.language, tr((_d = json.title) !== null && _d !== void 0 ? _d : "Title not defined"), layers, json.startZoom, json.startLat, json.startLon, new Combine_1.default(["<h3>", tr(json.title), "</h3>", tr(json.description)]), undefined, undefined, tr(json.descriptionTail));
-    layout.defaultBackground = (_e = json.defaultBackgroundId) !== null && _e !== void 0 ? _e : "osm";
-    layout.widenFactor = (_f = json.widenFactor) !== null && _f !== void 0 ? _f : 0.07;
+    layout.widenFactor = (_e = json.widenFactor) !== null && _e !== void 0 ? _e : 0.07;
     layout.icon = json.icon;
     layout.maintainer = json.maintainer;
     layout.version = json.version;
     layout.socialImage = json.socialImage;
-    layout.description = (_g = tr(json.shortDescription)) !== null && _g !== void 0 ? _g : (_h = tr(json.description)) === null || _h === void 0 ? void 0 : _h.FirstSentence();
+    layout.description = (_f = tr(json.shortDescription)) !== null && _f !== void 0 ? _f : (_g = tr(json.description)) === null || _g === void 0 ? void 0 : _g.FirstSentence();
     layout.changesetMessage = json.changesetmessage;
     return layout;
   };
@@ -24649,8 +24627,7 @@ module.exports = {
   "startLat": 0,
   "startLon": 0,
   "widenFactor": 0.1,
-  "layers": ["ghost_bike"],
-  "defaultBackgroundId": "CartoDB.Positron"
+  "layers": ["ghost_bike"]
 };
 },{}],"assets/themes/cyclofix/cyclofix.json":[function(require,module,exports) {
 module.exports = {
@@ -25388,7 +25365,7 @@ function (_super) {
         }
       },
       mappings: [{
-        k: new Tags_1.RegexTag("short", "*"),
+        k: new Tags_1.Tag("short", "*"),
         txt: "De totale nodige ruimte voor vlot en veilig verkeer is dus <b>{targetWidth}m</b><br>" + "Er is dus <span class='alert'>{short}m</span> te weinig",
         substitute: true
       }, {
@@ -25526,7 +25503,7 @@ function (_super) {
   __extends(StreetWidth, _super);
 
   function StreetWidth() {
-    var _this = _super.call(this, "width", ["nl"], "Straatbreedtes in Brugge", [new Widths_1.Widths(2, 1.5, 0.75)], 15, 51.20875, 3.22435, "<h3>De straat is opgebruikt</h3>" + "<p>Er is steeds meer druk op de openbare ruimte. Voetgangers, fietsers, steps, auto's, bussen, bestelwagens, buggies, cargobikes, ... willen allemaal hun deel van de openbare ruimte.</p>" + "" + "<p>In deze studie nemen we Brugge onder de loep en kijken we hoe breed elke straat is én hoe breed elke straat zou moeten zijn voor een veilig én vlot verkeer.</p>" + "<h3>Legende</h3>" + "<span style='background: red'>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</span> Straat te smal voor veilig verkeer<br/>" + "<span style='background: #0f0'>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</span> Straat is breed genoeg veilig verkeer<br/>" + "<span style='background: orange'>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</span> Straat zonder voetpad, te smal als ook voetgangers plaats krijgen<br/>" + "<span style='background: lightgrey'>&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;</span> Woonerf, autoluw, autoloos of enkel plaatselijk verkeer<br/>" + "<br/>" + "<br/>" + "Een gestippelde lijn is een straat waar ook voor fietsers éénrichtingsverkeer geldt.<br/>" + "Klik op een straat om meer informatie te zien." + "<h3>Hoe gaan we verder?</h3>" + "Verschillende ingrepen kunnen de stad teruggeven aan de inwoners en de stad leefbaarder en levendiger maken.<br/>" + "Denk aan:" + "<ul>" + "<li>De autovrije zone's uitbreiden</li>" + "<li>De binnenstad fietszone maken</li>" + "<li>Het aantal woonerven uitbreiden</li>" + "<li>Grotere auto's meer belasten - ze nemen immers meer parkeerruimte in.</li>" + "<li>Laat toeristen verplicht parkeren onder het zand; een (fiets)taxi kan hen naar hun hotel brengen</li>" + "<li>Voorzie in elke straat enkele parkeerplaatsen voor kortparkeren. Zo kunnen leveringen, iemand afzetten,... gebeuren zonder op het voetpad en fietspad te parkeren</li>" + "</ul>") || this;
+    var _this = _super.call(this, "width", ["nl"], "Straatbreedtes in Brugge", [new Widths_1.Widths(2, 1.5, 0.75)], 15, 51.20875, 3.22435, "<h3>De straat is opgebruikt</h3>" + "<p>Er is steeds meer druk op de openbare ruimte. Voetgangers, fietsers, steps, auto's, bussen, bestelwagens, buggies, cargobikes, ... willen allemaal hun deel van de openbare ruimte.</p>" + "" + "<p>In deze studie nemen we Brugge onder de loep en kijken we hoe breed elke straat is én hoe breed elke straat zou moeten zijn voor een veilig én vlot verkeer.</p>" + "Verschillende ingrepen kunnen de stad teruggeven aan de inwoners en de stad leefbaarder en levendiger maken.<br/>" + "Denk aan:" + "<ul>" + "<li>De autovrije zone's uitbreiden</li>" + "<li>De binnenstad fietszone maken</li>" + "<li>Het aantal woonerven uitbreiden</li>" + "<li>Grotere auto's meer belasten - ze nemen immers meer parkeerruimte in.</li>" + "<li>Laat toeristen verplicht parkeren onder het zand; een (fiets)taxi kan hen naar hun hotel brengen</li>" + "<li>Voorzie in elke straat enkele parkeerplaatsen voor kortparkeren. Zo kunnen leveringen, iemand afzetten,... gebeuren zonder dat er een fietspad of een straat geblokkeerd wordt</li>" + "</ul>") || this;
 
     _this.icon = "./assets/bug.svg";
     _this.enableSearch = false;
@@ -25535,8 +25512,6 @@ function (_super) {
     _this.hideFromOverview = true;
     _this.enableMoreQuests = false;
     _this.enableShareScreen = false;
-    _this.defaultBackground = "Stadia.AlidadeSmoothDark";
-    _this.enableBackgroundLayers = false;
     return _this;
   }
 
@@ -26003,7 +25978,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36161" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41243" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
