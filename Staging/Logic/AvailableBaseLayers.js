@@ -11410,6 +11410,29 @@ module.exports = {
     "type": "Feature"
   }, {
     "geometry": {
+      "coordinates": [[[16.72794, 52.48838], [16.86925, 52.48982], [16.86879, 52.50779], [16.93948, 52.50845], [16.93926, 52.51743], [16.98639, 52.51784], [16.98784, 52.45494], [17.03491, 52.45534], [17.0353, 52.43736], [17.08235, 52.43774], [17.0831, 52.4018], [17.0596, 52.40161], [17.06129, 52.32075], [17.01438, 52.32035], [17.01518, 52.28441], [16.96829, 52.28401], [16.96787, 52.30198], [16.89752, 52.30134], [16.89662, 52.33728], [16.80273, 52.33638], [16.80176, 52.37232], [16.77828, 52.3721], [16.77603, 52.45294], [16.72897, 52.45244], [16.72794, 52.48838]]],
+      "type": "Polygon"
+    },
+    "properties": {
+      "attribution": {
+        "html": "https://www.geopoz.pl/",
+        "required": true,
+        "text": "Zarząd Geodezji i Katastru Miejskiego GEOPOZ"
+      },
+      "available_projections": ["CRS:84", "EPSG:2177", "EPSG:2180", "EPSG:3857", "EPSG:4326"],
+      "best": true,
+      "country_code": "PL",
+      "id": "poznan-ortofotomapaBiezaca",
+      "license_url": "https://www.geopoz.pl/bip/index.php?t=200&id=2449",
+      "name": "Poznań: Orthophotomap Bieżąca (aerial image)",
+      "privacy_policy_url": "https://www.geopoz.pl/portal/index.php?t=200&id=5142",
+      "start_date": "2018",
+      "type": "wms",
+      "url": "http://wms2.geopoz.poznan.pl/geoserver/gwc/service/wms?LAYERS=ortogpkg:ortofotomapa_biezaca&STYLES=&FORMAT=image/jpeg&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap"
+    },
+    "type": "Feature"
+  }, {
+    "geometry": {
       "coordinates": [[[22.72268, 49.76885], [22.73002, 49.76787], [22.73097, 49.77612], [22.72027, 49.77662], [22.71787, 49.78062], [22.73104, 49.78553], [22.7244, 49.79043], [22.73458, 49.80441], [22.73167, 49.81429], [22.7261, 49.8165], [22.72762, 49.82124], [22.74395, 49.8187], [22.75952, 49.80939], [22.79042, 49.81462], [22.81169, 49.80571], [22.79738, 49.80146], [22.80384, 49.79247], [22.83118, 49.79664], [22.85752, 49.78561], [22.84549, 49.76746], [22.82485, 49.77105], [22.82004, 49.75674], [22.77358, 49.74439], [22.73838, 49.75895], [22.72205, 49.74644], [22.71065, 49.76288], [22.72268, 49.76885]]],
       "type": "Polygon"
     },
@@ -17480,7 +17503,7 @@ module.exports = {
   }],
   "meta": {
     "format_version": "1.0",
-    "generated": "2020-10-05 13:18:16"
+    "generated": "2020-10-06 17:32:40"
   },
   "type": "FeatureCollection"
 };
@@ -60194,7 +60217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46091" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34723" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
