@@ -21,6 +21,26 @@
 }}
 
 {{Software
+|name           = shops
+|author         = MapComplete
+|web            = https://pietervdvn.github.io/MapComplete/shops.html
+|repo           = https://github.com/pietervdvn/MapComplete
+|platform       = web
+|code           = Typescript;HTML;CSS
+|languages      = en
+|genre          = display;editor
+|screenshot     = MapComplete_Screenshot.png
+|description    = A MapComplete theme: An editable map with basic shop information
+|map        = yes
+|findLocation            = yes
+|findNearbyPOI           = yes
+|addPOI          = yes
+|editPOI         = yes
+|editTags        = yes
+|
+}}
+
+{{Software
 |name           = bookcases
 |author         = MapComplete
 |web            = https://pietervdvn.github.io/MapComplete/bookcases.html
