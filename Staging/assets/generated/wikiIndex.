@@ -13,7 +13,7 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/shops.html shops]
 |region= Worldwide
-|lang= {{#language:en|en}}
+|lang= {{#language:en|en}}, {{#language:fr|en}}
 |descr= A MapComplete theme: An editable map with basic shop information
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
@@ -22,7 +22,7 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/bookcases.html bookcases]
 |region= Worldwide
-|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:de|en}}
+|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:de|en}}, {{#language:fr|en}}
 |descr= A MapComplete theme: A public bookcase is a small streetside cabinet, box, old phone boot or some other objects where books are stored
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
@@ -40,7 +40,7 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/toilets.html toilets]
 |region= Worldwide
-|lang= {{#language:en|en}}, {{#language:de|en}}
+|lang= {{#language:en|en}}, {{#language:de|en}}, {{#language:fr|en}}
 |descr= A MapComplete theme: A map of public toilets
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
@@ -94,7 +94,7 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/maps.html maps]
 |region= Worldwide
-|lang= {{#language:en|en}}, {{#language:nl|en}}
+|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:fr|en}}
 |descr= A MapComplete theme: On this map, all the maps known by OpenStreetMap are shown
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
@@ -112,7 +112,7 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/benches.html benches]
 |region= Worldwide
-|lang= {{#language:en|en}}, {{#language:de|en}}
+|lang= {{#language:en|en}}, {{#language:de|en}}, {{#language:fr|en}}
 |descr= A MapComplete theme: A map of benches
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes, by Florian Edelmann;]}}
 |image= MapComplete_Screenshot.png
@@ -127,14 +127,6 @@
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, charging_stations
 }}
-{{service_item
-|name= [https://pietervdvn.github.io/MapComplete/width.html width]
-|region= Worldwide
-|lang= {{#language:nl|en}}
-|descr= A MapComplete theme: Is de straat breed genoeg?
-|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
-|image= MapComplete_Screenshot.png
-|genre= POI, editor, width
-}}
+
 
 |}
