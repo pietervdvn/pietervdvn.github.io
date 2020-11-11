@@ -4,29 +4,20 @@
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/personal.html personal]
 |region= Worldwide
-|lang= {{#language:en|en}}
-|descr= A MapComplete theme: The personal theme allows to select one or more layers from all the layouts, creating a truly personal editor
+|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:es|en}}, {{#language:ca|en}}, {{#language:gl|en}}, {{#language:de|en}}
+|descr= A MapComplete theme: Create a personal theme based on all the available layers of all themes
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, personal
 }}
 {{service_item
-|name= [https://pietervdvn.github.io/MapComplete/shops.html shops]
+|name= [https://pietervdvn.github.io/MapComplete/cyclofix.html cyclofix]
 |region= Worldwide
-|lang= {{#language:en|en}}, {{#language:fr|en}}
-|descr= A MapComplete theme: An editable map with basic shop information
+|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:fr|en}}, {{#language:gl|en}}, {{#language:de|en}}
+|descr= A MapComplete theme: The goal of this map is to present cyclists with an easy-to-use solution to find the appropriate infrastructure for their needs.<br><br>You can track your precise location (mobile only) and select layers that are relevant for you in the bottom left corner. You can also use this tool to add or edit pins (points of interest) to the map and provide more data by answering the questions.<br><br>All changes you make will automatically be saved in the global database of OpenStreetMap and can be freely re-used by others.<br><br>For more information about the cyclofix project, go to <a href='https://cyclofix.osm.be/'>cyclofix.osm.be</a>.
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
-|genre= POI, editor, shops
-}}
-{{service_item
-|name= [https://pietervdvn.github.io/MapComplete/bookcases.html bookcases]
-|region= Worldwide
-|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:de|en}}, {{#language:fr|en}}
-|descr= A MapComplete theme: A public bookcase is a small streetside cabinet, box, old phone boot or some other objects where books are stored
-|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
-|image= MapComplete_Screenshot.png
-|genre= POI, editor, bookcases
+|genre= POI, editor, cyclofix
 }}
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/aed.html aed]
@@ -36,6 +27,15 @@
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, aed
+}}
+{{service_item
+|name= [https://pietervdvn.github.io/MapComplete/bookcases.html bookcases]
+|region= Worldwide
+|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:de|en}}, {{#language:fr|en}}
+|descr= A MapComplete theme: A public bookcase is a small streetside cabinet, box, old phone boot or some other objects where books are stored. Everyone can place or take a book. This map aims to collect all these bookcases. You can discover new bookcases nearby and, with a free OpenStreetMap account, quickly add your favourite bookcases.
+|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
+|image= MapComplete_Screenshot.png
+|genre= POI, editor, bookcases
 }}
 {{service_item
 |name= [https://pietervdvn.github.io/MapComplete/toilets.html toilets]
@@ -50,34 +50,43 @@
 |name= [https://pietervdvn.github.io/MapComplete/artworks.html artworks]
 |region= Worldwide
 |lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:fr|en}}, {{#language:de|en}}
-|descr= A MapComplete theme: Welcome to Open Artwork Map, a map of statues, busts, grafittis, 
+|descr= A MapComplete theme: Welcome to Open Artwork Map, a map of statues, busts, grafittis, ... all over the world
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, artworks
 }}
 {{service_item
-|name= [https://pietervdvn.github.io/MapComplete/cyclofix.html cyclofix]
-|region= Worldwide
-|lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:fr|en}}, {{#language:gl|en}}, {{#language:de|en}}
-|descr= A MapComplete theme: The goal of this map is to present cyclists with an easy-to-use solution to find the appropriate infrastructure for their needs
-|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
-|image= MapComplete_Screenshot.png
-|genre= POI, editor, cyclofix
-}}
-{{service_item
 |name= [https://pietervdvn.github.io/MapComplete/ghostbikes.html ghostbikes]
 |region= Worldwide
 |lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:de|en}}
-|descr= A MapComplete theme: A <b>ghost bike</b> is a memorial for a cyclist who died in a traffic accident, in the form of a white bicycle placed permanently near the accident location
+|descr= A MapComplete theme: A <b>ghost bike</b> is a memorial for a cyclist who died in a traffic accident, in the form of a white bicycle placed permanently near the accident location.<br/><br/>On this map, one can see all the ghost bikes which are known by OpenStreetMap. Is a ghost bike missing? Everyone can add or update information here - you only need to have a (free) OpenStreetMap account.
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, ghostbikes
 }}
 {{service_item
+|name= [https://pietervdvn.github.io/MapComplete/shops.html shops]
+|region= Worldwide
+|lang= {{#language:en|en}}, {{#language:fr|en}}
+|descr= A MapComplete theme: On this map, one can mark basic information about shops, add opening hours and phone numbers
+|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
+|image= MapComplete_Screenshot.png
+|genre= POI, editor, shops
+}}
+{{service_item
+|name= [https://pietervdvn.github.io/MapComplete/drinking_water.html drinking_water]
+|region= Worldwide
+|lang= {{#language:en|en}}, {{#language:nl|en}}
+|descr= A MapComplete theme: On this map, publicly accessible drinkging water spots are shown and can be easily added
+|material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
+|image= MapComplete_Screenshot.png
+|genre= POI, editor, drinking_water
+}}
+{{service_item
 |name= [https://pietervdvn.github.io/MapComplete/nature.html nature]
 |region= Worldwide
 |lang= {{#language:nl|en}}
-|descr= A MapComplete theme: Deze kaart bevat informatie voor natuurliefhebbers
+|descr= A MapComplete theme: Op deze kaart vind je informatie voor natuurliefhebbers, zoals info over het natuurgebied waar je inzit, vogelkijkhutten, informatieborden, ...
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, nature
@@ -86,7 +95,7 @@
 |name= [https://pietervdvn.github.io/MapComplete/fietsstraten.html fietsstraten]
 |region= Worldwide
 |lang= {{#language:nl|en}}
-|descr= A MapComplete theme: Een kaart met alle gekende fietsstraten
+|descr= A MapComplete theme: Een fietsstraat is een straat waar <ul><li><b>automobilisten geen fietsers mogen inhalen</b></li><li>Er een maximumsnelheid van <b>30km/u</b> geldt</li><li>Fietsers gemotoriseerde voortuigen links mogen inhalen</li><li>Fietsers nog steeds voorrang aan rechts moeten verlenen - ook aan auto's en voetgangers op het zebrapad</li></ul><br/><br/>Op deze open kaart kan je alle gekende fietsstraten zien en kan je ontbrekende fietsstraten aanduiden. Om de kaart aan te passen, moet je je aanmelden met OpenStreetMap en helemaal inzoomen tot straatniveau.
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, fietsstraten
@@ -95,7 +104,7 @@
 |name= [https://pietervdvn.github.io/MapComplete/maps.html maps]
 |region= Worldwide
 |lang= {{#language:en|en}}, {{#language:nl|en}}, {{#language:fr|en}}
-|descr= A MapComplete theme: On this map, all the maps known by OpenStreetMap are shown
+|descr= A MapComplete theme: On this map you can find all maps OpenStreetMap knows.<br/><br/>If a map is missing, you can easily map this map on OpenStreetMap.
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, maps
@@ -113,7 +122,7 @@
 |name= [https://pietervdvn.github.io/MapComplete/benches.html benches]
 |region= Worldwide
 |lang= {{#language:en|en}}, {{#language:de|en}}, {{#language:fr|en}}
-|descr= A MapComplete theme: A map of benches
+|descr= A MapComplete theme: This map shows all benches that are recorded in OpenStreetMap: Individual benches, and benches belonging to public transport stops or shelters. With an OpenStreetMap account, you can map new benches or edit details of existing benches.
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes, by Florian Edelmann;]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, benches
@@ -122,7 +131,7 @@
 |name= [https://pietervdvn.github.io/MapComplete/charging_stations.html charging_stations]
 |region= Worldwide
 |lang= {{#language:en|en}}
-|descr= A MapComplete theme: A worldwide map of charging stations
+|descr= A MapComplete theme: On this open map, one can find and mark information about charging stations
 |material= {{yes|[https://github.com/pietervdvn/MapComplete Yes]}}
 |image= MapComplete_Screenshot.png
 |genre= POI, editor, charging_stations
