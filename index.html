@@ -28,6 +28,25 @@ Clone <a href='https://github.com/osmandapp/OsmAnd-resources'>this repo</a> if y
 <li><a href='https://github.com/pietervdvn/pietervdvn.github.io/tree/master/Slideshows'>All presentations here</a></li>
 <li><a href='routing_radical_hiking.xml'>Radical hiking (by Joost Schouppe)</a></li>
 
+<button type="button" id="share">Share me!</button>
+
+<script>
+document.getElementById("share").onclick = () => {
+console.log("Clicked");
+  if (navigator.share) {
+    navigator.share({
+      title, url
+    }).then(() => {
+      console.log('Thanks! 😄');
+    }).catch(err => {
+      console.log(`Couldn't share 🙁`);
+    });
+  } else {
+    console.log('Not supported 🙅‍');
+  }
+}
+</script>
+
 </ul>
 </body>
 </html>
