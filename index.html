@@ -29,6 +29,7 @@ Clone <a href='https://github.com/osmandapp/OsmAnd-resources'>this repo</a> if y
 <li><a href='routing_radical_hiking.xml'>Radical hiking (by Joost Schouppe)</a></li>
 
 <button type="button" id="share">Share me 3</button>
+<span id="test">Hello world</span>
 
 <script>
 const shareBtn = document.getElementById("share")
@@ -48,6 +49,10 @@ shareBtn.addEventListener('click', () => {
     console.log('web share not supported');
   }
 });
+
+if(navigator.share) {
+	alert("Is defined");
+}
 </script>
 
 </ul>
