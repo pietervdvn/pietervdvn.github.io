@@ -28,25 +28,26 @@ Clone <a href='https://github.com/osmandapp/OsmAnd-resources'>this repo</a> if y
 <li><a href='https://github.com/pietervdvn/pietervdvn.github.io/tree/master/Slideshows'>All presentations here</a></li>
 <li><a href='routing_radical_hiking.xml'>Radical hiking (by Joost Schouppe)</a></li>
 
-<button type="button" id="share">Share me 2!</button>
+<button type="button" id="share">Share me 3</button>
 
 <script>
 const shareBtn = document.getElementById("share")
 shareBtn.addEventListener('click', () => {
-
-console.log("Clicked");
   if (navigator.share) {
     navigator.share({
-      title, url
+      title: 'My awesome post!',
+      text: 'This post may or may not contain the answer to the universe',
+      url: window.location.href
     }).then(() => {
-      console.log('Thanks! 😄');
-    }).catch(err => {
-      console.log(`Couldn't share 🙁`);
+      console.log('Thanks for sharing!');
+    })
+    .catch(err => {
+      console.log(`Couldn't share because of`, err.message);
     });
   } else {
-    console.log('Not supported 🙅‍');
+    console.log('web share not supported');
   }
-})
+});
 </script>
 
 </ul>
