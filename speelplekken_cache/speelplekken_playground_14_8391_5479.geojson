@@ -1,0 +1,58 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/688873108",
+   "properties": {
+    "leisure": "playground",
+    "playground": "soccer",
+    "surface": "grass",
+    "id": "way/688873108",
+    "_lat": "51.07897305",
+    "_lon": "4.3945195",
+    "_surface": "307.2055956857194",
+    "_surface:ha": "0",
+    "_length": "78.00202750354431",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:55:20",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3945389,
+       51.079108
+      ],
+      [
+       4.3943602,
+       51.0788817
+      ],
+      [
+       4.3945002,
+       51.0788381
+      ],
+      [
+       4.3946788,
+       51.0790644
+      ],
+      [
+       4.3945389,
+       51.079108
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:55:20Z",
+   "_lon": 4.3945195,
+   "_lat": 51.07897305,
+   "area": 307.2055956857194
+  }
+ ]
+}

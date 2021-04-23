@@ -1,0 +1,116 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/116974462",
+   "properties": {
+    "leisure": "playground",
+    "name": "Chiro Zwijndrecht",
+    "id": "way/116974462",
+    "_lat": "51.21523015",
+    "_lon": "4.33731495",
+    "_surface": "7134.010059226466",
+    "_surface:ha": "0.7",
+    "_length": "344.2853884904485",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:44:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3381713,
+       51.2148511
+      ],
+      [
+       4.3374794,
+       51.2156013
+      ],
+      [
+       4.3373796,
+       51.2157057
+      ],
+      [
+       4.3371427,
+       51.2156142
+      ],
+      [
+       4.3364586,
+       51.2153434
+      ],
+      [
+       4.3365633,
+       51.2152143
+      ],
+      [
+       4.3367243,
+       51.2150329
+      ],
+      [
+       4.3369768,
+       51.2147546
+      ],
+      [
+       4.3371259,
+       51.2147667
+      ],
+      [
+       4.3374002,
+       51.2147876
+      ],
+      [
+       4.3379338,
+       51.2148326
+      ],
+      [
+       4.3381713,
+       51.2148511
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:44:13Z",
+   "_lon": 4.33731495,
+   "_lat": 51.21523015,
+   "area": 7134.010059226466
+  },
+  {
+   "type": "Feature",
+   "id": "node/1567216693",
+   "properties": {
+    "leisure": "playground",
+    "id": "node/1567216693",
+    "_lat": "51.2180846",
+    "_lon": "4.3352511",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:44:13",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3352511,
+     51.2180846
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:44:13Z",
+   "_lon": 4.3352511,
+   "_lat": 51.2180846,
+   "area": 0
+  }
+ ]
+}

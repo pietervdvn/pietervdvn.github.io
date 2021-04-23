@@ -1,0 +1,161 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/909168622",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/909168622",
+    "_lat": "51.11408845",
+    "_lon": "4.4514554",
+    "_surface": "125.17134168782559",
+    "_surface:ha": "0",
+    "_length": "49.460841211031145",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4513208,
+       51.1141017
+      ],
+      [
+       4.4513435,
+       51.1140397
+      ],
+      [
+       4.45159,
+       51.1140752
+      ],
+      [
+       4.4515674,
+       51.1141372
+      ],
+      [
+       4.4513208,
+       51.1141017
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4514554,
+   "_lat": 51.11408845,
+   "area": 125.17134168782559
+  },
+  {
+   "type": "Feature",
+   "id": "way/909345444",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "id": "way/909345444",
+    "_lat": "51.114499949999995",
+    "_lon": "4.4546632",
+    "_surface": "150.408323325487",
+    "_surface:ha": "0",
+    "_length": "52.17596025406859",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4545365,
+       51.1145369
+      ],
+      [
+       4.4545389,
+       51.1144599
+      ],
+      [
+       4.4547899,
+       51.114463
+      ],
+      [
+       4.4547875,
+       51.11454
+      ],
+      [
+       4.4545365,
+       51.1145369
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4546632,
+   "_lat": 51.114499949999995,
+   "area": 150.408323325487
+  },
+  {
+   "type": "Feature",
+   "id": "way/909348920",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/909348920",
+    "_lat": "51.11693665",
+    "_lon": "4.4441201",
+    "_surface": "1371.2140654073012",
+    "_surface:ha": "0.1",
+    "_length": "157.6037987839306",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4437559,
+       51.1168026
+      ],
+      [
+       4.444064,
+       51.116674
+      ],
+      [
+       4.4444843,
+       51.1170707
+      ],
+      [
+       4.4441762,
+       51.1171993
+      ],
+      [
+       4.4437559,
+       51.1168026
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4441201,
+   "_lat": 51.11693665,
+   "area": 1371.2140654073012
+  }
+ ]
+}

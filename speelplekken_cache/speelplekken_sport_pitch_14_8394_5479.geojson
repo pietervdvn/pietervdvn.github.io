@@ -1,0 +1,271 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/46883397",
+   "properties": {
+    "addr:city": "Walem",
+    "addr:housenumber": "13",
+    "addr:postcode": "2800",
+    "addr:street": "Battenbroek",
+    "leisure": "pitch",
+    "name": "FC Walem",
+    "sport": "soccer",
+    "website": "http://www.fcwalem.eu/",
+    "id": "way/46883397",
+    "_lat": "51.06860115",
+    "_lon": "4.4400457499999995",
+    "_surface": "6985.106463421154",
+    "_surface:ha": "0.6",
+    "_length": "346.1964110038238",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.440135,
+       51.0691676
+      ],
+      [
+       4.4393057,
+       51.0689294
+      ],
+      [
+       4.4399564,
+       51.0680347
+      ],
+      [
+       4.4407858,
+       51.068273
+      ],
+      [
+       4.440135,
+       51.0691676
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4400457499999995,
+   "_lat": 51.06860115,
+   "area": 6985.106463421154
+  },
+  {
+   "type": "Feature",
+   "id": "way/75277229",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/75277229",
+    "_lat": "51.079412",
+    "_lon": "4.4478773",
+    "_surface": "535.1754463523408",
+    "_surface:ha": "0",
+    "_length": "100.12973595251435",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4476086,
+       51.0794363
+      ],
+      [
+       4.4480286,
+       51.0792704
+      ],
+      [
+       4.448146,
+       51.0793877
+      ],
+      [
+       4.447726,
+       51.0795536
+      ],
+      [
+       4.4476086,
+       51.0794363
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4478773,
+   "_lat": 51.079412,
+   "area": 535.1754463523408
+  },
+  {
+   "type": "Feature",
+   "id": "way/75277240",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/75277240",
+    "_lat": "51.07926585",
+    "_lon": "4.44845225",
+    "_surface": "1140.9172258170115",
+    "_surface:ha": "0.1",
+    "_length": "135.0517538220408",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4483866,
+       51.0794767
+      ],
+      [
+       4.4481224,
+       51.0792091
+      ],
+      [
+       4.4485179,
+       51.079055
+      ],
+      [
+       4.4487821,
+       51.0793226
+      ],
+      [
+       4.4483866,
+       51.0794767
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.44845225,
+   "_lat": 51.07926585,
+   "area": 1140.9172258170115
+  },
+  {
+   "type": "Feature",
+   "id": "way/75277347",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/75277347",
+    "_lat": "51.07977315",
+    "_lon": "4.4479591",
+    "_surface": "1177.7679012364415",
+    "_surface:ha": "0.1",
+    "_length": "137.21990382397868",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4477029,
+       51.0796257
+      ],
+      [
+       4.4482126,
+       51.0796238
+      ],
+      [
+       4.4482153,
+       51.0799206
+      ],
+      [
+       4.4477056,
+       51.0799225
+      ],
+      [
+       4.4477029,
+       51.0796257
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4479591,
+   "_lat": 51.07977315,
+   "area": 1177.7679012364415
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039827",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/282039827",
+    "_lat": "51.081186599999995",
+    "_lon": "4.4390526999999995",
+    "_surface": "5749.910861702672",
+    "_surface:ha": "0.5",
+    "_length": "313.21625544692586",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4387929,
+       51.0816771
+      ],
+      [
+       4.4384961,
+       51.0808208
+      ],
+      [
+       4.4393105,
+       51.0806961
+      ],
+      [
+       4.4396093,
+       51.0815649
+      ],
+      [
+       4.4387929,
+       51.0816771
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4390526999999995,
+   "_lat": 51.081186599999995,
+   "area": 5749.910861702672
+  }
+ ]
+}

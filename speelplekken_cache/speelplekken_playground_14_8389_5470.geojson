@@ -1,0 +1,89 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/27605450",
+   "properties": {
+    "created_by": "Potlatch 0.10d",
+    "leisure": "playground",
+    "id": "way/27605450",
+    "_lat": "51.2039851",
+    "_lon": "4.3455001499999995",
+    "_surface": "630.8306020067636",
+    "_surface:ha": "0",
+    "_length": "104.03722861945838",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:44:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3452641,
+       51.2040604
+      ],
+      [
+       4.3455044,
+       51.203813
+      ],
+      [
+       4.3457362,
+       51.2038937
+      ],
+      [
+       4.3455044,
+       51.2041572
+      ],
+      [
+       4.3452641,
+       51.2040604
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:44:13Z",
+   "_lon": 4.3455001499999995,
+   "_lat": 51.2039851,
+   "area": 630.8306020067636
+  },
+  {
+   "type": "Feature",
+   "id": "node/303119531",
+   "properties": {
+    "created_by": "Potlatch 0.10d",
+    "leisure": "playground",
+    "id": "node/303119531",
+    "_lat": "51.1996236",
+    "_lon": "4.340655",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:44:13",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.340655,
+     51.1996236
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:44:13Z",
+   "_lon": 4.340655,
+   "_lat": 51.1996236,
+   "area": 0
+  }
+ ]
+}

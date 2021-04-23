@@ -1,0 +1,146 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/44957321",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/44957321",
+    "_lat": "51.18672545",
+    "_lon": "4.445183050000001",
+    "_surface": "1806.4404566408168",
+    "_surface:ha": "0.1",
+    "_length": "177.73814573762792",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4447443,
+       51.1866682
+      ],
+      [
+       4.4447294,
+       51.1866535
+      ],
+      [
+       4.4447243,
+       51.1866386
+      ],
+      [
+       4.4447238,
+       51.1866199
+      ],
+      [
+       4.4449651,
+       51.1864568
+      ],
+      [
+       4.4449924,
+       51.1864548
+      ],
+      [
+       4.4450142,
+       51.1864561
+      ],
+      [
+       4.445034,
+       51.1864652
+      ],
+      [
+       4.4456423,
+       51.1868006
+      ],
+      [
+       4.4453668,
+       51.1869961
+      ],
+      [
+       4.4447443,
+       51.1866682
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:08:35Z",
+   "_lon": 4.445183050000001,
+   "_lat": 51.18672545,
+   "area": 1806.4404566408168
+  },
+  {
+   "type": "Feature",
+   "id": "node/2311692245",
+   "properties": {
+    "leisure": "playground",
+    "lit": "no",
+    "operator": "Stad Antwerpen",
+    "surface": "sand",
+    "wheelchair": "limited",
+    "id": "node/2311692245",
+    "_lat": "51.1900344",
+    "_lon": "4.4446054",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4446054,
+     51.1900344
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:08:35Z",
+   "_lon": 4.4446054,
+   "_lat": 51.1900344,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "node/2406698390",
+   "properties": {
+    "leisure": "playground",
+    "id": "node/2406698390",
+    "_lat": "51.1897697",
+    "_lon": "4.4453038",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4453038,
+     51.1897697
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:08:35Z",
+   "_lon": 4.4453038,
+   "_lat": 51.1897697,
+   "area": 0
+  }
+ ]
+}

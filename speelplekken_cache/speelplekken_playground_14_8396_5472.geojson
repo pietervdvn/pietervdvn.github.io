@@ -1,0 +1,71 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/909164116",
+   "properties": {
+    "landuse": "recreation_ground",
+    "leisure": "playground",
+    "mapillary": "LyXcsh9rkJP_Gen1NCkkNQ",
+    "name": "Speelplein Mussenhoevelaan",
+    "id": "way/909164116",
+    "_lat": "51.17113415",
+    "_lon": "4.501420850000001",
+    "_surface": "4808.491714285257",
+    "_surface:ha": "0.4",
+    "_length": "342.12733103404366",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:14:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.501314,
+       51.1705566
+      ],
+      [
+       4.5018236,
+       51.1705844
+      ],
+      [
+       4.5018268,
+       51.1706011
+      ],
+      [
+       4.5015597,
+       51.1717117
+      ],
+      [
+       4.5010149,
+       51.1717061
+      ],
+      [
+       4.5010833,
+       51.1710578
+      ],
+      [
+       4.5012711,
+       51.1710628
+      ],
+      [
+       4.501314,
+       51.1705566
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:14:42Z",
+   "_lon": 4.501420850000001,
+   "_lat": 51.17113415,
+   "area": 4808.491714285257
+  }
+ ]
+}

@@ -1,0 +1,301 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/149830460",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/149830460",
+    "_lat": "51.14941455",
+    "_lon": "4.3060693",
+    "_surface": "6531.173912884941",
+    "_surface:ha": "0.6",
+    "_length": "330.9907448488792",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3066552,
+       51.1498085
+      ],
+      [
+       4.3057448,
+       51.1499134
+      ],
+      [
+       4.3054834,
+       51.1490207
+      ],
+      [
+       4.3063938,
+       51.1489157
+      ],
+      [
+       4.3066552,
+       51.1498085
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.3060693,
+   "_lat": 51.14941455,
+   "area": 6531.173912884941
+  },
+  {
+   "type": "Feature",
+   "id": "way/149830462",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "id": "way/149830462",
+    "_lat": "51.1492978",
+    "_lon": "4.30706165",
+    "_surface": "6173.131447725063",
+    "_surface:ha": "0.6",
+    "_length": "324.4422007246946",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3067592,
+       51.1497948
+      ],
+      [
+       4.3065079,
+       51.1488949
+      ],
+      [
+       4.307364,
+       51.1488008
+      ],
+      [
+       4.3076154,
+       51.1497008
+      ],
+      [
+       4.3067592,
+       51.1497948
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.30706165,
+   "_lat": 51.1492978,
+   "area": 6173.131447725063
+  },
+  {
+   "type": "Feature",
+   "id": "way/452733941",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/452733941",
+    "_lat": "51.14836965",
+    "_lon": "4.307217850000001",
+    "_surface": "1777.9429651144608",
+    "_surface:ha": "0.1",
+    "_length": "171.02376078768617",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3069979,
+       51.1485985
+      ],
+      [
+       4.3069335,
+       51.1481475
+      ],
+      [
+       4.3074485,
+       51.1481408
+      ],
+      [
+       4.3075022,
+       51.148585
+      ],
+      [
+       4.3069979,
+       51.1485985
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.307217850000001,
+   "_lat": 51.14836965,
+   "area": 1777.9429651144608
+  },
+  {
+   "type": "Feature",
+   "id": "way/607671395",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "beachvolleyball",
+    "surface": "sand",
+    "id": "way/607671395",
+    "_lat": "51.14865435",
+    "_lon": "4.3068025500000005",
+    "_surface": "474.00879087669745",
+    "_surface:ha": "0",
+    "_length": "87.22690376079647",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3066257,
+       51.1485613
+      ],
+      [
+       4.3069591,
+       51.1485587
+      ],
+      [
+       4.3069794,
+       51.1487347
+      ],
+      [
+       4.306646,
+       51.14875
+      ],
+      [
+       4.3066257,
+       51.1485613
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.3068025500000005,
+   "_lat": 51.14865435,
+   "area": 474.00879087669745
+  },
+  {
+   "type": "Feature",
+   "id": "way/607671397",
+   "properties": {
+    "access": "yes",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "asphalt",
+    "id": "way/607671397",
+    "_lat": "51.14826085",
+    "_lon": "4.306749549999999",
+    "_surface": "885.5401435197832",
+    "_surface:ha": "0",
+    "_length": "120.73894544837789",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3065851,
+       51.1484236
+      ],
+      [
+       4.3065563,
+       51.1481031
+      ],
+      [
+       4.3069139,
+       51.1480981
+      ],
+      [
+       4.3069428,
+       51.1484134
+      ],
+      [
+       4.3065851,
+       51.1484236
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.306749549999999,
+   "_lat": 51.14826085,
+   "area": 885.5401435197832
+  },
+  {
+   "type": "Feature",
+   "id": "node/4218235300",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "skateboard",
+    "surface": "asphalt",
+    "id": "node/4218235300",
+    "_lat": "51.1486565",
+    "_lon": "4.3072958",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:43:13",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3072958,
+     51.1486565
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:43:13Z",
+   "_lon": 4.3072958,
+   "_lat": 51.1486565,
+   "area": 0
+  }
+ ]
+}

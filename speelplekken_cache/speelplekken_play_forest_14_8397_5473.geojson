@@ -1,0 +1,59 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/104024449",
+   "properties": {
+    "landuse": "forest",
+    "leisure": "playground",
+    "name": "Alexianenbos",
+    "playground": "forest",
+    "website": "https://www.boechout.be/node/3590",
+    "id": "way/104024449",
+    "_lat": "51.15924005",
+    "_lon": "4.5051707",
+    "_surface": "3445.394848174179",
+    "_surface:ha": "0.3",
+    "_length": "254.50121539825489",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:49:18"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.5047155,
+       51.1589047
+      ],
+      [
+       4.5057993,
+       51.1591766
+      ],
+      [
+       4.5057234,
+       51.1595754
+      ],
+      [
+       4.5045421,
+       51.1592197
+      ],
+      [
+       4.5047155,
+       51.1589047
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "play_forest",
+   "_timestamp": "2021-04-23T11:49:18Z",
+   "_lon": 4.5051707,
+   "_lat": 51.15924005,
+   "area": 3445.394848174179
+  }
+ ]
+}

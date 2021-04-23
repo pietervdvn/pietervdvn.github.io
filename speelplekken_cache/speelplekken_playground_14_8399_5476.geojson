@@ -1,0 +1,57 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/184876876",
+   "properties": {
+    "leisure": "playground",
+    "name": "Waterschrans",
+    "id": "way/184876876",
+    "_lat": "51.12212585",
+    "_lon": "4.5499002",
+    "_surface": "1011.471608049855",
+    "_surface:ha": "0.1",
+    "_length": "128.8217524773246",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:32:58",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.5495747,
+       51.1221472
+      ],
+      [
+       4.5497679,
+       51.1219317
+      ],
+      [
+       4.5502257,
+       51.1221186
+      ],
+      [
+       4.5500232,
+       51.12232
+      ],
+      [
+       4.5495747,
+       51.1221472
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:32:58Z",
+   "_lon": 4.5499002,
+   "_lat": 51.12212585,
+   "area": 1011.471608049855
+  }
+ ]
+}

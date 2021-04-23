@@ -1,0 +1,111 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/498535373",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/498535373",
+    "_lat": "51.2163944",
+    "_lon": "4.372063300000001",
+    "_surface": "226.29718178799678",
+    "_surface:ha": "0",
+    "_length": "60.43477773471969",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:33:58",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3719174,
+       51.21642
+      ],
+      [
+       4.3720295,
+       51.2162986
+      ],
+      [
+       4.3722092,
+       51.2163922
+      ],
+      [
+       4.3721158,
+       51.2164902
+      ],
+      [
+       4.3719174,
+       51.21642
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:33:58Z",
+   "_lon": 4.372063300000001,
+   "_lat": 51.2163944,
+   "area": 226.29718178799678
+  },
+  {
+   "type": "Feature",
+   "id": "way/587263988",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/587263988",
+    "_lat": "51.21600625",
+    "_lon": "4.36891915",
+    "_surface": "3028.597239320487",
+    "_surface:ha": "0.3",
+    "_length": "297.60566924076716",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:33:58",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3680178,
+       51.2158506
+      ],
+      [
+       4.3680292,
+       51.2157244
+      ],
+      [
+       4.3687985,
+       51.2157155
+      ],
+      [
+       4.3698205,
+       51.2162561
+      ],
+      [
+       4.3696984,
+       51.216297
+      ],
+      [
+       4.3680178,
+       51.2158506
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:33:58Z",
+   "_lon": 4.36891915,
+   "_lat": 51.21600625,
+   "area": 3028.597239320487
+  }
+ ]
+}

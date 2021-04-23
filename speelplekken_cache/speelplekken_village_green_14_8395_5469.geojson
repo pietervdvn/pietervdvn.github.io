@@ -1,0 +1,56 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/488305237",
+   "properties": {
+    "landuse": "village_green",
+    "leisure": "park",
+    "id": "way/488305237",
+    "_lat": "51.2203041",
+    "_lon": "4.4708744",
+    "_surface": "895.4149096737077",
+    "_surface:ha": "0",
+    "_length": "220.34909693804158",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4711543,
+       51.2207271
+      ],
+      [
+       4.4704843,
+       51.2199168
+      ],
+      [
+       4.4705997,
+       51.2198811
+      ],
+      [
+       4.4712645,
+       51.2206909
+      ],
+      [
+       4.4711543,
+       51.2207271
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "village_green",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4708744,
+   "_lat": 51.2203041,
+   "area": 895.4149096737077
+  }
+ ]
+}

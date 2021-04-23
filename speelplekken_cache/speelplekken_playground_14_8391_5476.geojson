@@ -1,0 +1,73 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/465646238",
+   "properties": {
+    "access": "yes",
+    "dog": "no",
+    "leisure": "playground",
+    "name": "Speeltuin Cederlaan",
+    "operator": "Municipality",
+    "surface": "grass",
+    "id": "way/465646238",
+    "_lat": "51.11421355",
+    "_lon": "4.37961205",
+    "_surface": "3442.7494973492226",
+    "_surface:ha": "0.3",
+    "_length": "234.47960373919366",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:55:20",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3801901,
+       51.1143191
+      ],
+      [
+       4.3800026,
+       51.1143656
+      ],
+      [
+       4.3793978,
+       51.1145448
+      ],
+      [
+       4.3793146,
+       51.1144961
+      ],
+      [
+       4.3792531,
+       51.1144043
+      ],
+      [
+       4.379034,
+       51.1141074
+      ],
+      [
+       4.3799072,
+       51.1138823
+      ],
+      [
+       4.3801901,
+       51.1143191
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:55:20Z",
+   "_lon": 4.37961205,
+   "_lat": 51.11421355,
+   "area": 3442.7494973492226
+  }
+ ]
+}

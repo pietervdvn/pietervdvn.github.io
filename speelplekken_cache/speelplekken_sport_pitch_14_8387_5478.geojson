@@ -1,0 +1,63 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/446233195",
+   "properties": {
+    "leisure": "pitch",
+    "name": "Sint Donatius Gilde",
+    "sport": "archery",
+    "surface": "grass",
+    "id": "way/446233195",
+    "_lat": "51.09155105",
+    "_lon": "4.3035977",
+    "_surface": "652.9609475334678",
+    "_surface:ha": "0",
+    "_length": "103.29541972317652",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:42:09",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3034112,
+       51.0916758
+      ],
+      [
+       4.303459,
+       51.091403
+      ],
+      [
+       4.3037842,
+       51.0914342
+      ],
+      [
+       4.3036989,
+       51.0916899
+      ],
+      [
+       4.303687,
+       51.0916991
+      ],
+      [
+       4.3034112,
+       51.0916758
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:42:09Z",
+   "_lon": 4.3035977,
+   "_lat": 51.09155105,
+   "area": 652.9609475334678
+  }
+ ]
+}

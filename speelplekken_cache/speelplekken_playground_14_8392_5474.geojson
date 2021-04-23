@@ -1,0 +1,120 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/912517580",
+   "properties": {
+    "fixme": "Is dit echt een speeltuin? Ziet er wat vaag uit vanaf luchtfotos",
+    "leisure": "playground",
+    "id": "way/912517580",
+    "_lat": "51.1406798",
+    "_lon": "4.4016942",
+    "_surface": "856.3811457754517",
+    "_surface:ha": "0",
+    "_length": "134.14768024459997",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:58:28",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4014377,
+       51.1408327
+      ],
+      [
+       4.4014971,
+       51.1407092
+      ],
+      [
+       4.4013528,
+       51.1406719
+      ],
+      [
+       4.4014429,
+       51.1405269
+      ],
+      [
+       4.4015628,
+       51.1405367
+      ],
+      [
+       4.4016443,
+       51.1405303
+      ],
+      [
+       4.4020356,
+       51.1407005
+      ],
+      [
+       4.4014377,
+       51.1408327
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:58:28Z",
+   "_lon": 4.4016942,
+   "_lat": 51.1406798,
+   "area": 856.3811457754517
+  },
+  {
+   "type": "Feature",
+   "id": "way/914750190",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/914750190",
+    "_lat": "51.139889800000006",
+    "_lon": "4.3992987",
+    "_surface": "1171.7978027872568",
+    "_surface:ha": "0.1",
+    "_length": "148.31427703563895",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:58:28",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3992684,
+       51.1396377
+      ],
+      [
+       4.3995755,
+       51.1397061
+      ],
+      [
+       4.3993291,
+       51.1401419
+      ],
+      [
+       4.3990219,
+       51.1400735
+      ],
+      [
+       4.3992684,
+       51.1396377
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:58:28Z",
+   "_lon": 4.3992987,
+   "_lat": 51.139889800000006,
+   "area": 1171.7978027872568
+  }
+ ]
+}

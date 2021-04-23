@@ -1,0 +1,228 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/495068906",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/495068906",
+    "_lat": "51.19817725",
+    "_lon": "4.4734984",
+    "_surface": "1992.22603461148",
+    "_surface:ha": "0.1",
+    "_length": "175.6020224951582",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4731178,
+       51.1983243
+      ],
+      [
+       4.4731551,
+       51.1981792
+      ],
+      [
+       4.4732018,
+       51.1980498
+      ],
+      [
+       4.4736307,
+       51.197927
+      ],
+      [
+       4.473879,
+       51.1982595
+      ],
+      [
+       4.4737516,
+       51.1983141
+      ],
+      [
+       4.4736564,
+       51.1984082
+      ],
+      [
+       4.4735236,
+       51.1984275
+      ],
+      [
+       4.4733681,
+       51.198388
+      ],
+      [
+       4.4731307,
+       51.1984116
+      ],
+      [
+       4.4731178,
+       51.1983243
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4734984,
+   "_lat": 51.19817725,
+   "area": 1992.22603461148
+  },
+  {
+   "type": "Feature",
+   "id": "way/912455546",
+   "properties": {
+    "leisure": "playground",
+    "playground": "sandpit",
+    "surface": "sand",
+    "id": "way/912455546",
+    "_lat": "51.1983108",
+    "_lon": "4.4735352",
+    "_surface": "130.9981977064604",
+    "_surface:ha": "0",
+    "_length": "58.21682196047564",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4734117,
+       51.1983351
+      ],
+      [
+       4.4734123,
+       51.1982824
+      ],
+      [
+       4.4734893,
+       51.1982828
+      ],
+      [
+       4.4734896,
+       51.1982569
+      ],
+      [
+       4.4735684,
+       51.1982573
+      ],
+      [
+       4.4735681,
+       51.1982813
+      ],
+      [
+       4.4736587,
+       51.1982818
+      ],
+      [
+       4.4736581,
+       51.1983305
+      ],
+      [
+       4.4735691,
+       51.19833
+      ],
+      [
+       4.4735687,
+       51.1983647
+      ],
+      [
+       4.4734923,
+       51.1983643
+      ],
+      [
+       4.4734926,
+       51.1983355
+      ],
+      [
+       4.4734117,
+       51.1983351
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4735352,
+   "_lat": 51.1983108,
+   "area": 130.9981977064604
+  },
+  {
+   "type": "Feature",
+   "id": "node/180498601",
+   "properties": {
+    "created_by": "Potlatch 0.5d",
+    "leisure": "playground",
+    "id": "node/180498601",
+    "_lat": "51.1980384",
+    "_lon": "4.4625466",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4625466,
+     51.1980384
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4625466,
+   "_lat": 51.1980384,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "node/7040083874",
+   "properties": {
+    "leisure": "playground",
+    "id": "node/7040083874",
+    "_lat": "51.2018371",
+    "_lon": "4.4713808",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:11:42",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4713808,
+     51.2018371
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:11:42Z",
+   "_lon": 4.4713808,
+   "_lat": 51.2018371,
+   "area": 0
+  }
+ ]
+}

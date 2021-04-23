@@ -1,0 +1,108 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/78174621",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/78174621",
+    "_lat": "51.071852",
+    "_lon": "4.35271895",
+    "_surface": "3108.854181119712",
+    "_surface:ha": "0.3",
+    "_length": "215.7356805091194",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:53:15",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3526003,
+       51.072189
+      ],
+      [
+       4.3522297,
+       51.071768
+      ],
+      [
+       4.3522433,
+       51.0716577
+      ],
+      [
+       4.3523034,
+       51.0716095
+      ],
+      [
+       4.3524086,
+       51.0715453
+      ],
+      [
+       4.3525529,
+       51.071515
+      ],
+      [
+       4.352708,
+       51.0715301
+      ],
+      [
+       4.3528528,
+       51.0715807
+      ],
+      [
+       4.3532082,
+       51.0719894
+      ],
+      [
+       4.3526003,
+       51.072189
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:53:15Z",
+   "_lon": 4.35271895,
+   "_lat": 51.071852,
+   "area": 3108.854181119712
+  },
+  {
+   "type": "Feature",
+   "id": "node/2336244523",
+   "properties": {
+    "leisure": "playground",
+    "name": "Speelplein Klein Willebroek",
+    "id": "node/2336244523",
+    "_lat": "51.0795254",
+    "_lon": "4.3638355",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:53:15",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3638355,
+     51.0795254
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:53:15Z",
+   "_lon": 4.3638355,
+   "_lat": 51.0795254,
+   "area": 0
+  }
+ ]
+}

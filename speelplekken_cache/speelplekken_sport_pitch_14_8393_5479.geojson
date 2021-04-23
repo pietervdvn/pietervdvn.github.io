@@ -1,0 +1,109 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/122235723",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "skateboard",
+    "id": "way/122235723",
+    "_lat": "51.0743473",
+    "_lon": "4.4221964499999995",
+    "_surface": "388.2093582083101",
+    "_surface:ha": "0",
+    "_length": "80.5290941688302",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4219986,
+       51.0743881
+      ],
+      [
+       4.4222168,
+       51.0742171
+      ],
+      [
+       4.4223943,
+       51.0743065
+      ],
+      [
+       4.4221761,
+       51.0744775
+      ],
+      [
+       4.4219986,
+       51.0743881
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4221964499999995,
+   "_lat": 51.0743473,
+   "area": 388.2093582083101
+  },
+  {
+   "type": "Feature",
+   "id": "way/139081305",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "id": "way/139081305",
+    "_lat": "51.0755561",
+    "_lon": "4.4244692",
+    "_surface": "813.8721202490393",
+    "_surface:ha": "0",
+    "_length": "116.64842888735875",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4241735,
+       51.0755938
+      ],
+      [
+       4.4242941,
+       51.0754017
+      ],
+      [
+       4.4247649,
+       51.0755183
+      ],
+      [
+       4.4246443,
+       51.0757105
+      ],
+      [
+       4.4241735,
+       51.0755938
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4244692,
+   "_lat": 51.0755561,
+   "area": 813.8721202490393
+  }
+ ]
+}

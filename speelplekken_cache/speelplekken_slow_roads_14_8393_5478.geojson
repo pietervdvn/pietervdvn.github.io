@@ -1,0 +1,2783 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/109882703",
+   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "track",
+    "name": "Voetweg 26",
+    "surface": "unpaved",
+    "id": "way/109882703",
+    "_lat": "51.088924899999995",
+    "_lon": "4.422646",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "124.445221845178",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4235313,
+      51.0889813
+     ],
+     [
+      4.4233582,
+      51.0889697
+     ],
+     [
+      4.4228059,
+      51.0889495
+     ],
+     [
+      4.422013,
+      51.0889025
+     ],
+     [
+      4.4217607,
+      51.0888685
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.422646,
+   "_lat": 51.088924899999995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/109882705",
+   "properties": {
+    "highway": "path",
+    "surface": "unpaved",
+    "id": "way/109882705",
+    "_lat": "51.0893265",
+    "_lon": "4.42697705",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "94.61721849740832",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4275615,
+      51.0894326
+     ],
+     [
+      4.4274726,
+      51.0892781
+     ],
+     [
+      4.4273764,
+      51.0892466
+     ],
+     [
+      4.4263926,
+      51.0892204
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42697705,
+   "_lat": 51.0893265,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/110307246",
+   "properties": {
+    "highway": "path",
+    "name": "Buurtweg 23",
+    "surface": "asphalt",
+    "id": "way/110307246",
+    "_lat": "51.08951075",
+    "_lon": "4.4363037",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "385.3583241892282",
+    "_length:km": "0.4",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4375718,
+      51.0880927
+     ],
+     [
+      4.437539,
+      51.088185
+     ],
+     [
+      4.4374216,
+      51.088404
+     ],
+     [
+      4.4368225,
+      51.0893786
+     ],
+     [
+      4.4366278,
+      51.0899928
+     ],
+     [
+      4.4365316,
+      51.0901963
+     ],
+     [
+      4.4363921,
+      51.0903352
+     ],
+     [
+      4.4361607,
+      51.0904097
+     ],
+     [
+      4.435904,
+      51.0905989
+     ],
+     [
+      4.435591,
+      51.0908374
+     ],
+     [
+      4.4354352,
+      51.0908877
+     ],
+     [
+      4.435284,
+      51.0909201
+     ],
+     [
+      4.4351465,
+      51.0909288
+     ],
+     [
+      4.4350356,
+      51.0909029
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4363037,
+   "_lat": 51.08951075,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/115095192",
+   "properties": {
+    "highway": "path",
+    "surface": "ground",
+    "tracktype": "grade4",
+    "id": "way/115095192",
+    "_lat": "51.0838313",
+    "_lon": "4.4368511",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "326.19884423589747",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4347938,
+      51.0843574
+     ],
+     [
+      4.4350745,
+      51.0843791
+     ],
+     [
+      4.4352512,
+      51.0843221
+     ],
+     [
+      4.4355808,
+      51.0843011
+     ],
+     [
+      4.4357192,
+      51.0843011
+     ],
+     [
+      4.4360917,
+      51.0841631
+     ],
+     [
+      4.4367948,
+      51.0838581
+     ],
+     [
+      4.437214,
+      51.0838301
+     ],
+     [
+      4.4375244,
+      51.0838301
+     ],
+     [
+      4.4377728,
+      51.0837971
+     ],
+     [
+      4.4378749,
+      51.0837473
+     ],
+     [
+      4.4381493,
+      51.0837237
+     ],
+     [
+      4.4385828,
+      51.0835179
+     ],
+     [
+      4.4388555,
+      51.0833102
+     ],
+     [
+      4.4389084,
+      51.0832835
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4368511,
+   "_lat": 51.0838313,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/115095196",
+   "properties": {
+    "highway": "path",
+    "surface": "gravel",
+    "tracktype": "grade2",
+    "id": "way/115095196",
+    "_lat": "51.0844864",
+    "_lon": "4.43667325",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "46.812333016603674",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4365395,
+      51.0843112
+     ],
+     [
+      4.4366924,
+      51.0843856
+     ],
+     [
+      4.436807,
+      51.0845104
+     ],
+     [
+      4.4367497,
+      51.0846616
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43667325,
+   "_lat": 51.0844864,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/115095197",
+   "properties": {
+    "highway": "path",
+    "surface": "gravel",
+    "tracktype": "grade2",
+    "id": "way/115095197",
+    "_lat": "51.08481485",
+    "_lon": "4.4360969",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "92.56062110124167",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4366198,
+      51.0845752
+     ],
+     [
+      4.4364478,
+      51.0847096
+     ],
+     [
+      4.4362568,
+      51.0848488
+     ],
+     [
+      4.4359626,
+      51.0849496
+     ],
+     [
+      4.435574,
+      51.0850545
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4360969,
+   "_lat": 51.08481485,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/115095198",
+   "properties": {
+    "highway": "path",
+    "surface": "gravel",
+    "tracktype": "grade2",
+    "id": "way/115095198",
+    "_lat": "51.08455435",
+    "_lon": "4.4366556",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "125.58822070105933",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4360917,
+      51.0841631
+     ],
+     [
+      4.436402,
+      51.0842272
+     ],
+     [
+      4.4365395,
+      51.0843112
+     ],
+     [
+      4.4365663,
+      51.0844504
+     ],
+     [
+      4.4366198,
+      51.0845752
+     ],
+     [
+      4.4367497,
+      51.0846616
+     ],
+     [
+      4.4370438,
+      51.0847912
+     ],
+     [
+      4.4372195,
+      51.0849456
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4366556,
+   "_lat": 51.08455435,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/137678768",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "intermediate",
+    "id": "way/137678768",
+    "_lat": "51.08856165",
+    "_lon": "4.422685599999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "236.97569862696423",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4233582,
+      51.0889697
+     ],
+     [
+      4.4233214,
+      51.0889188
+     ],
+     [
+      4.4232461,
+      51.0888756
+     ],
+     [
+      4.4231491,
+      51.0887795
+     ],
+     [
+      4.4231879,
+      51.0886469
+     ],
+     [
+      4.4231933,
+      51.0885352
+     ],
+     [
+      4.4232148,
+      51.0883987
+     ],
+     [
+      4.423247,
+      51.0882842
+     ],
+     [
+      4.4232255,
+      51.0882387
+     ],
+     [
+      4.4231469,
+      51.0882165
+     ],
+     [
+      4.4227347,
+      51.0881864
+     ],
+     [
+      4.4225576,
+      51.0881713
+     ],
+     [
+      4.4223685,
+      51.0881536
+     ],
+     [
+      4.4222867,
+      51.0881831
+     ],
+     [
+      4.4222251,
+      51.0882538
+     ],
+     [
+      4.4221821,
+      51.0883381
+     ],
+     [
+      4.4221419,
+      51.0884813
+     ],
+     [
+      4.4220936,
+      51.0886632
+     ],
+     [
+      4.42204,
+      51.0888132
+     ],
+     [
+      4.422013,
+      51.0889025
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.422685599999999,
+   "_lat": 51.08856165,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/137678776",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/137678776",
+    "_lat": "51.08999175",
+    "_lon": "4.42691485",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "1.8934516870930747",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4269182,
+      51.09
+     ],
+     [
+      4.4269115,
+      51.0899835
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42691485,
+   "_lat": 51.08999175,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/137678781",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "lit": "yes",
+    "surface": "ground",
+    "trail_visibility": "good",
+    "id": "way/137678781",
+    "_lat": "51.089470950000006",
+    "_lon": "4.4216495",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "154.08284503456778",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.422013,
+      51.0889025
+     ],
+     [
+      4.4219647,
+      51.0891069
+     ],
+     [
+      4.4219163,
+      51.0892581
+     ],
+     [
+      4.4218764,
+      51.0894356
+     ],
+     [
+      4.4217741,
+      51.0896797
+     ],
+     [
+      4.4216702,
+      51.090025
+     ],
+     [
+      4.421286,
+      51.0900394
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4216495,
+   "_lat": 51.089470950000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/160208744",
+   "properties": {
+    "highway": "path",
+    "name": "Voetweg 26",
+    "surface": "unpaved",
+    "id": "way/160208744",
+    "_lat": "51.0890927",
+    "_lon": "4.42496195",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "217.48640312205043",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4263926,
+      51.0892204
+     ],
+     [
+      4.4255993,
+      51.0892091
+     ],
+     [
+      4.4252774,
+      51.089204
+     ],
+     [
+      4.4252023,
+      51.0891653
+     ],
+     [
+      4.4251862,
+      51.089108
+     ],
+     [
+      4.4251701,
+      51.0890187
+     ],
+     [
+      4.4251138,
+      51.0889816
+     ],
+     [
+      4.4250066,
+      51.0889726
+     ],
+     [
+      4.424355,
+      51.088965
+     ],
+     [
+      4.4235313,
+      51.0889813
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42496195,
+   "_lat": 51.0890927,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/160208765",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "tracktype": "grade4",
+    "id": "way/160208765",
+    "_lat": "51.089539450000004",
+    "_lon": "4.4265886000000005",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "76.25153939814585",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4263926,
+      51.0892204
+     ],
+     [
+      4.4265032,
+      51.0893455
+     ],
+     [
+      4.4265649,
+      51.0894483
+     ],
+     [
+      4.4267846,
+      51.0898585
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4265886000000005,
+   "_lat": 51.089539450000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/160208766",
+   "properties": {
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/160208766",
+    "_lat": "51.089969350000004",
+    "_lon": "4.42689555",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "3.855674008394519",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4269115,
+      51.0899835
+     ],
+     [
+      4.4268796,
+      51.0899552
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42689555,
+   "_lat": 51.089969350000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/160208767",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/160208767",
+    "_lat": "51.08990685",
+    "_lon": "4.4268321",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "12.634883608420255",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4268796,
+      51.0899552
+     ],
+     [
+      4.4267846,
+      51.0898585
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4268321,
+   "_lat": 51.08990685,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/160208768",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/160208768",
+    "_lat": "51.09003865",
+    "_lon": "4.4256348",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "276.3946217518762",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4267846,
+      51.0898585
+     ],
+     [
+      4.4267191,
+      51.0898274
+     ],
+     [
+      4.4266641,
+      51.0898029
+     ],
+     [
+      4.4265488,
+      51.0897541
+     ],
+     [
+      4.4263637,
+      51.0897861
+     ],
+     [
+      4.4262886,
+      51.0898358
+     ],
+     [
+      4.4262524,
+      51.0898417
+     ],
+     [
+      4.426133,
+      51.0898333
+     ],
+     [
+      4.4259949,
+      51.0898484
+     ],
+     [
+      4.4259211,
+      51.08984
+     ],
+     [
+      4.4258605,
+      51.0898101
+     ],
+     [
+      4.4257978,
+      51.0897549
+     ],
+     [
+      4.4257025,
+      51.0897137
+     ],
+     [
+      4.4255698,
+      51.089696
+     ],
+     [
+      4.4253807,
+      51.0897356
+     ],
+     [
+      4.4252801,
+      51.0897743
+     ],
+     [
+      4.4251969,
+      51.0898299
+     ],
+     [
+      4.4251513,
+      51.0898442
+     ],
+     [
+      4.4250923,
+      51.0898307
+     ],
+     [
+      4.4249663,
+      51.0897524
+     ],
+     [
+      4.424918,
+      51.0897254
+     ],
+     [
+      4.4248469,
+      51.0897263
+     ],
+     [
+      4.4247343,
+      51.089685
+     ],
+     [
+      4.4246136,
+      51.0896328
+     ],
+     [
+      4.4245339,
+      51.08963
+     ],
+     [
+      4.424485,
+      51.0896683
+     ],
+     [
+      4.4245148,
+      51.089846
+     ],
+     [
+      4.4246471,
+      51.090289
+     ],
+     [
+      4.4246927,
+      51.0904473
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4256348,
+   "_lat": 51.09003865,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/162125050",
+   "properties": {
+    "highway": "track",
+    "name": "Voetweg 26",
+    "surface": "unpaved",
+    "id": "way/162125050",
+    "_lat": "51.0888627",
+    "_lon": "4.4217211",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.679978813796794",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4217607,
+      51.0888685
+     ],
+     [
+      4.4216815,
+      51.0888569
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4217211,
+   "_lat": 51.0888627,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/185998087",
+   "properties": {
+    "highway": "footway",
+    "id": "way/185998087",
+    "_lat": "51.08591955",
+    "_lon": "4.4354873",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "13.696124455880806",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.435571,
+      51.0859428
+     ],
+     [
+      4.4354895,
+      51.0858963
+     ],
+     [
+      4.4354036,
+      51.0858987
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4354873,
+   "_lat": 51.08591955,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/269114533",
+   "properties": {
+    "highway": "footway",
+    "id": "way/269114533",
+    "_lat": "51.09332775",
+    "_lon": "4.4187578",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "67.12110407132039",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4189881,
+      51.0933954
+     ],
+     [
+      4.418834,
+      51.0933638
+     ],
+     [
+      4.4187974,
+      51.0934029
+     ],
+     [
+      4.4187608,
+      51.0934221
+     ],
+     [
+      4.4187156,
+      51.0934329
+     ],
+     [
+      4.4186679,
+      51.0934359
+     ],
+     [
+      4.4186179,
+      51.093426
+     ],
+     [
+      4.41858,
+      51.0934137
+     ],
+     [
+      4.418547,
+      51.0933922
+     ],
+     [
+      4.4185377,
+      51.0933696
+     ],
+     [
+      4.4185275,
+      51.0933332
+     ],
+     [
+      4.418536,
+      51.0933048
+     ],
+     [
+      4.4185629,
+      51.0932664
+     ],
+     [
+      4.4185886,
+      51.0932419
+     ],
+     [
+      4.4186276,
+      51.0932273
+     ],
+     [
+      4.4186875,
+      51.0932196
+     ],
+     [
+      4.4187253,
+      51.0932235
+     ],
+     [
+      4.4187434,
+      51.0932271
+     ],
+     [
+      4.4187632,
+      51.0932311
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4187578,
+   "_lat": 51.09332775,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039788",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039788",
+    "_lat": "51.0828141",
+    "_lon": "4.4317705499999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "6.407776399302816",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4317472,
+      51.0827893
+     ],
+     [
+      4.4317939,
+      51.0828389
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4317705499999995,
+   "_lat": 51.0828141,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039791",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039791",
+    "_lat": "51.08331035",
+    "_lon": "4.4325031",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "9.28404253692866",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4325437,
+      51.0833434
+     ],
+     [
+      4.4324625,
+      51.0832773
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4325031,
+   "_lat": 51.08331035,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039793",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039793",
+    "_lat": "51.0834769",
+    "_lon": "4.4319825",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "9.35369561221008",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4319623,
+      51.0834368
+     ],
+     [
+      4.4320027,
+      51.083517
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4319825,
+   "_lat": 51.0834769,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039795",
+   "properties": {
+    "highway": "path",
+    "tunnel": "building_passage",
+    "id": "way/282039795",
+    "_lat": "51.08287765",
+    "_lon": "4.431827",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "9.779916131748678",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4317939,
+      51.0828389
+     ],
+     [
+      4.4318601,
+      51.0829164
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.431827,
+   "_lat": 51.08287765,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039797",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039797",
+    "_lat": "51.08368165",
+    "_lon": "4.43310005",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "70.9060010872066",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4326953,
+      51.0837897
+     ],
+     [
+      4.4332375,
+      51.083804
+     ],
+     [
+      4.4335048,
+      51.0835593
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43310005,
+   "_lat": 51.08368165,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039799",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039799",
+    "_lat": "51.0837804",
+    "_lon": "4.432070850000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "32.02735724522903",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4322955,
+      51.0837568
+     ],
+     [
+      4.4320727,
+      51.0837968
+     ],
+     [
+      4.4318462,
+      51.083804
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.432070850000001,
+   "_lat": 51.0837804,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039801",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039801",
+    "_lat": "51.08332515",
+    "_lon": "4.43252995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "25.323412650734273",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4323996,
+      51.0834019
+     ],
+     [
+      4.4325437,
+      51.0833434
+     ],
+     [
+      4.4326603,
+      51.0832484
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43252995,
+   "_lat": 51.08332515,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039803",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039803",
+    "_lat": "51.08332345",
+    "_lon": "4.432192349999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "101.73032999759691",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4318601,
+      51.0829164
+     ],
+     [
+      4.4324701,
+      51.0836636
+     ],
+     [
+      4.4325246,
+      51.0837305
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.432192349999999,
+   "_lat": 51.08332345,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039804",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039804",
+    "_lat": "51.083285849999996",
+    "_lon": "4.432307",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "76.18621352996742",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4320626,
+      51.0829796
+     ],
+     [
+      4.4323394,
+      51.0833265
+     ],
+     [
+      4.4323996,
+      51.0834019
+     ],
+     [
+      4.4325514,
+      51.0835921
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.432307,
+   "_lat": 51.083285849999996,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039806",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039806",
+    "_lat": "51.083503750000006",
+    "_lon": "4.431984",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "26.334009283356586",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4321634,
+      51.0834721
+     ],
+     [
+      4.4320027,
+      51.083517
+     ],
+     [
+      4.4319124,
+      51.0835313
+     ],
+     [
+      4.4318046,
+      51.0835354
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.431984,
+   "_lat": 51.083503750000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039807",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039807",
+    "_lat": "51.08336505",
+    "_lon": "4.43207595",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "83.5502325722389",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4318029,
+      51.0830308
+     ],
+     [
+      4.4321049,
+      51.0834005
+     ],
+     [
+      4.4321634,
+      51.0834721
+     ],
+     [
+      4.432349,
+      51.0836993
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43207595,
+   "_lat": 51.08336505,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039810",
+   "properties": {
+    "highway": "path",
+    "surface": "earth",
+    "tracktype": "grade4",
+    "id": "way/282039810",
+    "_lat": "51.08380045",
+    "_lon": "4.438357249999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "71.06021115682795",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4388396,
+      51.0838344
+     ],
+     [
+      4.4383712,
+      51.08382
+     ],
+     [
+      4.4381701,
+      51.0838536
+     ],
+     [
+      4.4378749,
+      51.0837473
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.438357249999999,
+   "_lat": 51.08380045,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039812",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039812",
+    "_lat": "51.083424750000006",
+    "_lon": "4.431954599999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "21.945737196428627",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4321049,
+      51.0834005
+     ],
+     [
+      4.4319989,
+      51.0834314
+     ],
+     [
+      4.4319623,
+      51.0834368
+     ],
+     [
+      4.4319073,
+      51.083445
+     ],
+     [
+      4.4318043,
+      51.083449
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.431954599999999,
+   "_lat": 51.083424750000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039813",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039813",
+    "_lat": "51.08324425",
+    "_lon": "4.43262005",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "128.97026857667305",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4318601,
+      51.0829164
+     ],
+     [
+      4.4320626,
+      51.0829796
+     ],
+     [
+      4.4325518,
+      51.0831996
+     ],
+     [
+      4.4326603,
+      51.0832484
+     ],
+     [
+      4.43338,
+      51.0835721
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43262005,
+   "_lat": 51.08324425,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039814",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039814",
+    "_lat": "51.08326305",
+    "_lon": "4.432445599999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "20.931064128460374",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4323394,
+      51.0833265
+     ],
+     [
+      4.4324521,
+      51.0832843
+     ],
+     [
+      4.4324625,
+      51.0832773
+     ],
+     [
+      4.4324966,
+      51.0832547
+     ],
+     [
+      4.4325518,
+      51.0831996
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.432445599999999,
+   "_lat": 51.08326305,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039816",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039816",
+    "_lat": "51.083532950000006",
+    "_lon": "4.43212545",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "215.54009049733835",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4325409,
+      51.0838671
+     ],
+     [
+      4.4322471,
+      51.0841495
+     ],
+     [
+      4.432158,
+      51.0841463
+     ],
+     [
+      4.431723,
+      51.0841481
+     ],
+     [
+      4.43171,
+      51.0830076
+     ],
+     [
+      4.4318601,
+      51.0829164
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43212545,
+   "_lat": 51.083532950000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039818",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039818",
+    "_lat": "51.083904950000004",
+    "_lon": "4.4323140500000004",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "64.16871937475644",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4324701,
+      51.0836636
+     ],
+     [
+      4.432349,
+      51.0836993
+     ],
+     [
+      4.4322955,
+      51.0837568
+     ],
+     [
+      4.432293,
+      51.0838056
+     ],
+     [
+      4.4323375,
+      51.0838952
+     ],
+     [
+      4.432158,
+      51.0840735
+     ],
+     [
+      4.432158,
+      51.0841463
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4323140500000004,
+   "_lat": 51.083904950000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039819",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039819",
+    "_lat": "51.08349015",
+    "_lon": "4.4318314999999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "129.29428398544837",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4318601,
+      51.0829164
+     ],
+     [
+      4.4318029,
+      51.0830308
+     ],
+     [
+      4.4318043,
+      51.083449
+     ],
+     [
+      4.4318046,
+      51.0835354
+     ],
+     [
+      4.4318054,
+      51.0837752
+     ],
+     [
+      4.4318462,
+      51.083804
+     ],
+     [
+      4.4318487,
+      51.0840639
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4318314999999995,
+   "_lat": 51.08349015,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/282039820",
+   "properties": {
+    "highway": "path",
+    "id": "way/282039820",
+    "_lat": "51.08379535",
+    "_lon": "4.4325843",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "51.676311144813205",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4325246,
+      51.0837305
+     ],
+     [
+      4.4326192,
+      51.0837236
+     ],
+     [
+      4.4326924,
+      51.0837619
+     ],
+     [
+      4.4326953,
+      51.0837897
+     ],
+     [
+      4.4326986,
+      51.0838216
+     ],
+     [
+      4.4326341,
+      51.0838656
+     ],
+     [
+      4.4325409,
+      51.0838671
+     ],
+     [
+      4.4324737,
+      51.0838264
+     ],
+     [
+      4.43247,
+      51.0837723
+     ],
+     [
+      4.4325246,
+      51.0837305
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4325843,
+   "_lat": 51.08379535,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689141384",
+   "properties": {
+    "highway": "track",
+    "surface": "gravel",
+    "tracktype": "grade3",
+    "id": "way/689141384",
+    "_lat": "51.0958528",
+    "_lon": "4.43582645",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "78.0899817976505",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4354752,
+      51.096126
+     ],
+     [
+      4.4361777,
+      51.0955796
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43582645,
+   "_lat": 51.0958528,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689141385",
+   "properties": {
+    "highway": "track",
+    "surface": "unpaved",
+    "tracktype": "grade5",
+    "id": "way/689141385",
+    "_lat": "51.0964149",
+    "_lon": "4.43510705",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "82.33626589435603",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4347389,
+      51.0967038
+     ],
+     [
+      4.4347724,
+      51.0966684
+     ],
+     [
+      4.4354752,
+      51.096126
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.43510705,
+   "_lat": 51.0964149,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146592",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146592",
+    "_lat": "51.08952495",
+    "_lon": "4.4261785499999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "61.29563487855132",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4257922,
+      51.0895879
+     ],
+     [
+      4.4259319,
+      51.0896016
+     ],
+     [
+      4.4260901,
+      51.0895999
+     ],
+     [
+      4.4261867,
+      51.089546
+     ],
+     [
+      4.4262645,
+      51.0894837
+     ],
+     [
+      4.4264308,
+      51.0894972
+     ],
+     [
+      4.4265649,
+      51.0894483
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4261785499999995,
+   "_lat": 51.08952495,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146593",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146593",
+    "_lat": "51.089713149999994",
+    "_lon": "4.4258232",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "117.80536813113342",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4255993,
+      51.0892091
+     ],
+     [
+      4.4256985,
+      51.0892832
+     ],
+     [
+      4.4257361,
+      51.0894298
+     ],
+     [
+      4.4257922,
+      51.0895879
+     ],
+     [
+      4.4258605,
+      51.0898101
+     ],
+     [
+      4.425956,
+      51.0900919
+     ],
+     [
+      4.4260471,
+      51.0902172
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4258232,
+   "_lat": 51.089713149999994,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146594",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146594",
+    "_lat": "51.08931665",
+    "_lon": "4.42441585",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "79.06805870891948",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.424485,
+      51.0896683
+     ],
+     [
+      4.4243655,
+      51.0892849
+     ],
+     [
+      4.4243467,
+      51.0891131
+     ],
+     [
+      4.424355,
+      51.088965
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42441585,
+   "_lat": 51.08931665,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146595",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/689146595",
+    "_lat": "51.08970515",
+    "_lon": "4.42356345",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "168.15018468783808",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4237687,
+      51.0904406
+     ],
+     [
+      4.4236379,
+      51.089927
+     ],
+     [
+      4.4236423,
+      51.0898319
+     ],
+     [
+      4.42361,
+      51.0897115
+     ],
+     [
+      4.4235842,
+      51.0896317
+     ],
+     [
+      4.423554,
+      51.0895343
+     ],
+     [
+      4.4235002,
+      51.0893111
+     ],
+     [
+      4.4234965,
+      51.0892312
+     ],
+     [
+      4.4234916,
+      51.0891231
+     ],
+     [
+      4.4234636,
+      51.0890501
+     ],
+     [
+      4.4234285,
+      51.0890114
+     ],
+     [
+      4.4233582,
+      51.0889697
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42356345,
+   "_lat": 51.08970515,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146596",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146596",
+    "_lat": "51.0905646",
+    "_lon": "4.42380155",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "27.955524386997887",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4238344,
+      51.0906886
+     ],
+     [
+      4.4237687,
+      51.0904406
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42380155,
+   "_lat": 51.0905646,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146597",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146597",
+    "_lat": "51.09037995",
+    "_lon": "4.423610399999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "231.6998707208735",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4225281,
+      51.090006
+     ],
+     [
+      4.4229572,
+      51.0900036
+     ],
+     [
+      4.4231423,
+      51.0900026
+     ],
+     [
+      4.4232255,
+      51.0905973
+     ],
+     [
+      4.4232886,
+      51.0907228
+     ],
+     [
+      4.4233569,
+      51.0907573
+     ],
+     [
+      4.4235796,
+      51.0907438
+     ],
+     [
+      4.4238344,
+      51.0906886
+     ],
+     [
+      4.4240463,
+      51.0906428
+     ],
+     [
+      4.4244701,
+      51.0905366
+     ],
+     [
+      4.4246659,
+      51.0904895
+     ],
+     [
+      4.4246927,
+      51.0904473
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.423610399999999,
+   "_lat": 51.09037995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/689146598",
+   "properties": {
+    "highway": "path",
+    "id": "way/689146598",
+    "_lat": "51.08948725",
+    "_lon": "4.422238050000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "179.13934256135934",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4228059,
+      51.0889495
+     ],
+     [
+      4.4227266,
+      51.0892647
+     ],
+     [
+      4.4225335,
+      51.0899049
+     ],
+     [
+      4.4225281,
+      51.090006
+     ],
+     [
+      4.4216702,
+      51.090025
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.422238050000001,
+   "_lat": 51.08948725,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/786437953",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/786437953",
+    "_lat": "51.089964800000004",
+    "_lon": "4.423390100000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "36.21581878353583",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4236379,
+      51.089927
+     ],
+     [
+      4.4234481,
+      51.0899857
+     ],
+     [
+      4.4231423,
+      51.0900026
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.423390100000001,
+   "_lat": 51.089964800000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/913495889",
+   "properties": {
+    "highway": "path",
+    "surface": "unpaved",
+    "tracktype": "grade5",
+    "id": "way/913495889",
+    "_lat": "51.08865195",
+    "_lon": "4.4334041",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "349.30169222434074",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.432757,
+      51.0899887
+     ],
+     [
+      4.4337666,
+      51.0891029
+     ],
+     [
+      4.4339007,
+      51.0889581
+     ],
+     [
+      4.4339222,
+      51.0888839
+     ],
+     [
+      4.433493,
+      51.0887828
+     ],
+     [
+      4.4334769,
+      51.0887357
+     ],
+     [
+      4.4336271,
+      51.088301
+     ],
+     [
+      4.4339436,
+      51.0874182
+     ],
+     [
+      4.4340512,
+      51.0873152
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.4334041,
+   "_lat": 51.08865195,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/913495890",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "id": "way/913495890",
+    "_lat": "51.0896174",
+    "_lon": "4.42322685",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "99.59018439646667",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4229572,
+      51.0900036
+     ],
+     [
+      4.4231236,
+      51.0896825
+     ],
+     [
+      4.4231772,
+      51.0893826
+     ],
+     [
+      4.4232577,
+      51.0893152
+     ],
+     [
+      4.4234965,
+      51.0892312
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.42322685,
+   "_lat": 51.0896174,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/913496165",
+   "properties": {
+    "highway": "path",
+    "id": "way/913496165",
+    "_lat": "51.084182",
+    "_lon": "4.437488549999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "122.19703691422148",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:06:28",
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.436807,
+      51.0845104
+     ],
+     [
+      4.4370282,
+      51.0844225
+     ],
+     [
+      4.4371247,
+      51.0843602
+     ],
+     [
+      4.4371676,
+      51.0842911
+     ],
+     [
+      4.4372615,
+      51.0842119
+     ],
+     [
+      4.4374815,
+      51.0841159
+     ],
+     [
+      4.4376665,
+      51.0840519
+     ],
+     [
+      4.4378543,
+      51.0839845
+     ],
+     [
+      4.4380072,
+      51.0839154
+     ],
+     [
+      4.4381701,
+      51.0838536
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_timestamp": "2021-04-23T11:06:28Z",
+   "_lon": 4.437488549999999,
+   "_lat": 51.084182,
+   "area": 0
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/77637951",
+   "properties": {
+    "leisure": "pitch",
+    "name": "VK Kontich",
+    "sport": "soccer",
+    "id": "way/77637951",
+    "_lat": "51.124190049999996",
+    "_lon": "4.4805753500000005",
+    "_surface": "5794.198355735868",
+    "_surface:ha": "0.5",
+    "_length": "316.3584130932108",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:12:43",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4804295,
+       51.1236765
+      ],
+      [
+       4.4812037,
+       51.1238486
+      ],
+      [
+       4.4807212,
+       51.1247036
+      ],
+      [
+       4.479947,
+       51.1245315
+      ],
+      [
+       4.4804295,
+       51.1236765
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:12:43Z",
+   "_lon": 4.4805753500000005,
+   "_lat": 51.124190049999996,
+   "area": 5794.198355735868
+  }
+ ]
+}

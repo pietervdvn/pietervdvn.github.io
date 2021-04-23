@@ -1,0 +1,56 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/41052633",
+   "properties": {
+    "landuse": "village_green",
+    "name": "Nello en Patracheplein",
+    "id": "way/41052633",
+    "_lat": "51.1758102",
+    "_lon": "4.342890049999999",
+    "_surface": "1692.5006175371586",
+    "_surface:ha": "0.1",
+    "_length": "167.1944509621115",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:45:13"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.342624,
+       51.1755788
+      ],
+      [
+       4.3432162,
+       51.1756165
+      ],
+      [
+       4.3431647,
+       51.1760416
+      ],
+      [
+       4.3425639,
+       51.175864
+      ],
+      [
+       4.342624,
+       51.1755788
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "village_green",
+   "_timestamp": "2021-04-23T10:45:13Z",
+   "_lon": 4.342890049999999,
+   "_lat": 51.1758102,
+   "area": 1692.5006175371586
+  }
+ ]
+}

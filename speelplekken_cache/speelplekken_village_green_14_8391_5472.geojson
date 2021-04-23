@@ -1,0 +1,55 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/27913641",
+   "properties": {
+    "landuse": "village_green",
+    "id": "way/27913641",
+    "_lat": "51.1691722",
+    "_lon": "4.38320315",
+    "_surface": "2165.3874204390054",
+    "_surface:ha": "0.2",
+    "_length": "188.33094269569972",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:54:16"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3827316,
+       51.1692216
+      ],
+      [
+       4.3829673,
+       51.1689041
+      ],
+      [
+       4.3836747,
+       51.1691109
+      ],
+      [
+       4.3834341,
+       51.1694403
+      ],
+      [
+       4.3827316,
+       51.1692216
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "village_green",
+   "_timestamp": "2021-04-23T10:54:16Z",
+   "_lon": 4.38320315,
+   "_lat": 51.1691722,
+   "area": 2165.3874204390054
+  }
+ ]
+}

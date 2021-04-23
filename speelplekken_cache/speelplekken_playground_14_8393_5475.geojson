@@ -1,0 +1,57 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/32573038",
+   "properties": {
+    "created_by": "Potlatch 0.10f",
+    "leisure": "playground",
+    "id": "way/32573038",
+    "_lat": "51.13094545",
+    "_lon": "4.43407445",
+    "_surface": "1455.2402617521402",
+    "_surface:ha": "0.1",
+    "_length": "192.88646602424424",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:05:28",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4335337,
+       51.1310855
+      ],
+      [
+       4.4346152,
+       51.1307246
+      ],
+      [
+       4.4343405,
+       51.131134
+      ],
+      [
+       4.4342461,
+       51.1311663
+      ],
+      [
+       4.4335337,
+       51.1310855
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:05:28Z",
+   "_lon": 4.43407445,
+   "_lat": 51.13094545,
+   "area": 1455.2402617521402
+  }
+ ]
+}

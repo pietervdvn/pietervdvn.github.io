@@ -1,0 +1,99 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/613050564",
+   "properties": {
+    "access": "private",
+    "leisure": "playground",
+    "name": "Chiro Ruisbroek",
+    "operator": "Chiro Ruisbroek",
+    "surface": "grass",
+    "id": "way/613050564",
+    "_lat": "51.08450055",
+    "_lon": "4.3308845",
+    "_surface": "5893.790661150333",
+    "_surface:ha": "0.5",
+    "_length": "348.2687234225144",
+    "_length:km": "0.3",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:47:13",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3308469,
+       51.0850515
+      ],
+      [
+       4.3301496,
+       51.084637
+      ],
+      [
+       4.3311956,
+       51.0839496
+      ],
+      [
+       4.3316194,
+       51.0841889
+      ],
+      [
+       4.3311527,
+       51.0844719
+      ],
+      [
+       4.3314531,
+       51.0846707
+      ],
+      [
+       4.3308469,
+       51.0850515
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:47:13Z",
+   "_lon": 4.3308845,
+   "_lat": 51.08450055,
+   "area": 5893.790661150333
+  },
+  {
+   "type": "Feature",
+   "id": "node/2340411871",
+   "properties": {
+    "leisure": "playground",
+    "id": "node/2340411871",
+    "_lat": "51.094551",
+    "_lon": "4.3456988",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:47:13",
+    "_size_classification": "small"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3456988,
+     51.094551
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:47:13Z",
+   "_lon": 4.3456988,
+   "_lat": 51.094551,
+   "area": 0
+  }
+ ]
+}

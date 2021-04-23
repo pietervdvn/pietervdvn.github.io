@@ -1,0 +1,58 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/483939839",
+   "properties": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis",
+    "id": "way/483939839",
+    "_lat": "51.1876917",
+    "_lon": "4.53224895",
+    "_surface": "589.0216964931112",
+    "_surface:ha": "0",
+    "_length": "103.37310723801926",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:25:58",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.5319776,
+       51.1877281
+      ],
+      [
+       4.5320354,
+       51.1875806
+      ],
+      [
+       4.5325203,
+       51.1876553
+      ],
+      [
+       4.5324624,
+       51.1878028
+      ],
+      [
+       4.5319776,
+       51.1877281
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:25:58Z",
+   "_lon": 4.53224895,
+   "_lat": 51.1876917,
+   "area": 589.0216964931112
+  }
+ ]
+}

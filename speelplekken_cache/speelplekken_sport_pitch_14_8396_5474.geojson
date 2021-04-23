@@ -1,0 +1,61 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/399220493",
+   "properties": {
+    "leisure": "pitch",
+    "sport": "equestrian",
+    "id": "way/399220493",
+    "_lat": "51.137998350000004",
+    "_lon": "4.48318305",
+    "_surface": "1195.1125852940227",
+    "_surface:ha": "0.1",
+    "_length": "139.138392941505",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:14:42",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4828456,
+       51.1380872
+      ],
+      [
+       4.483166,
+       51.1377871
+      ],
+      [
+       4.4835205,
+       51.1379023
+      ],
+      [
+       4.4832742,
+       51.1382096
+      ],
+      [
+       4.4830649,
+       51.1381551
+      ],
+      [
+       4.4828456,
+       51.1380872
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T11:14:42Z",
+   "_lon": 4.48318305,
+   "_lat": 51.137998350000004,
+   "area": 1195.1125852940227
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/626486676",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/626486676",
+    "_lat": "51.1854412",
+    "_lon": "4.2896313",
+    "_surface": "128.90198894795518",
+    "_surface:ha": "0",
+    "_length": "47.2277514292675",
+    "_length:km": "0.0",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:39:02",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.2896899,
+       51.1854994
+      ],
+      [
+       4.289501,
+       51.1854422
+      ],
+      [
+       4.2895564,
+       51.185383
+      ],
+      [
+       4.2897616,
+       51.1854208
+      ],
+      [
+       4.2896899,
+       51.1854994
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T10:39:02Z",
+   "_lon": 4.2896313,
+   "_lat": 51.1854412,
+   "area": 128.90198894795518
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/141003918",
+   "properties": {
+    "leisure": "pitch",
+    "source": "bing2011",
+    "sport": "basketball",
+    "id": "way/141003918",
+    "_lat": "51.10660045",
+    "_lon": "4.327427950000001",
+    "_surface": "366.07052787685376",
+    "_surface:ha": "0",
+    "_length": "80.81687111554764",
+    "_length:km": "0.1",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:30",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 10:44:13",
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.3272524,
+       51.1066785
+      ],
+      [
+       4.3274303,
+       51.1064654
+      ],
+      [
+       4.3276035,
+       51.1065223
+      ],
+      [
+       4.3274256,
+       51.1067355
+      ],
+      [
+       4.3272524,
+       51.1066785
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_timestamp": "2021-04-23T10:44:13Z",
+   "_lon": 4.327427950000001,
+   "_lat": 51.10660045,
+   "area": 366.07052787685376
+  }
+ ]
+}

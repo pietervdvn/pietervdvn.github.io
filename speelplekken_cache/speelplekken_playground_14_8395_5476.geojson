@@ -1,0 +1,61 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "way/783897639",
+   "properties": {
+    "leisure": "playground",
+    "name": "Deken Jozef van Herckstraat",
+    "id": "way/783897639",
+    "_lat": "51.12190925",
+    "_lon": "4.4683891",
+    "_surface": "1951.4423499328736",
+    "_surface:ha": "0.1",
+    "_length": "192.90432297326313",
+    "_length:km": "0.2",
+    "_now:date": "2021-04-23",
+    "_now:datetime": "2021-04-23 16:26:31",
+    "_loaded:date": "2021-04-23",
+    "_loaded:datetime": "2021-04-23 11:12:43",
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.468093,
+       51.1216212
+      ],
+      [
+       4.4681545,
+       51.121642
+      ],
+      [
+       4.4688894,
+       51.1218957
+      ],
+      [
+       4.4685889,
+       51.1221973
+      ],
+      [
+       4.4678888,
+       51.1217445
+      ],
+      [
+       4.468093,
+       51.1216212
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_timestamp": "2021-04-23T11:12:43Z",
+   "_lon": 4.4683891,
+   "_lat": 51.12190925,
+   "area": 1951.4423499328736
+  }
+ ]
+}
