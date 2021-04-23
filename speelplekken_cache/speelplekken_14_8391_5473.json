@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-04-22T11:30:43Z",
-    "timestamp_areas_base": "2021-04-22T11:11:26Z",
+    "timestamp_osm_base": "2021-04-23T10:54:16Z",
+    "timestamp_areas_base": "2021-04-23T10:07:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1208,10 +1208,13 @@
     4332611792,
     5651667577,
     4332611794,
+    8658729155,
     1972016787
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "motor_vehicle": "no",
     "name": "Michel Wittockstraat"
   }
@@ -1224,7 +1227,9 @@
     4332611791
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Karreveld"
   }
 },
@@ -1237,7 +1242,9 @@
     4332611793
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Haverloosveld"
   }
 },
@@ -1250,7 +1257,9 @@
     4332611795
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Bosveld"
   }
 },
@@ -1339,7 +1348,9 @@
     4914924422
   ],
   "tags": {
-    "highway": "pedestrian"
+    "emergency": "yes",
+    "highway": "pedestrian",
+    "lit": "yes"
   }
 },
 {
@@ -1415,7 +1426,9 @@
     6522097010
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Flor Huysmansstraat"
   }
 },
@@ -1836,7 +1849,9 @@
     6522097006
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Huisveld"
   }
 },
@@ -1848,7 +1863,9 @@
     6522097007
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Langendries"
   }
 },
@@ -1860,7 +1877,9 @@
     4332611794
   ],
   "tags": {
-    "highway": "pedestrian"
+    "emergency": "yes",
+    "highway": "pedestrian",
+    "lit": "yes"
   }
 },
 {
@@ -2181,7 +2200,9 @@
     4914924424
   ],
   "tags": {
-    "highway": "pedestrian"
+    "emergency": "yes",
+    "highway": "pedestrian",
+    "lit": "yes"
   }
 },
 {
@@ -2194,7 +2215,9 @@
     6522097008
   ],
   "tags": {
+    "emergency": "yes",
     "highway": "pedestrian",
+    "lit": "yes",
     "name": "Bosveld"
   }
 },
@@ -2206,7 +2229,9 @@
     8409591083
   ],
   "tags": {
-    "highway": "pedestrian"
+    "emergency": "yes",
+    "highway": "pedestrian",
+    "lit": "yes"
   }
 },
 {
@@ -6857,6 +6882,12 @@
   "id": 8409591089,
   "lat": 51.1622274,
   "lon": 4.3911250
+},
+{
+  "type": "node",
+  "id": 8658729155,
+  "lat": 51.1618982,
+  "lon": 4.3922985
 }
 
   ]

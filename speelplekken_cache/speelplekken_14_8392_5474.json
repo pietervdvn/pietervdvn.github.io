@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.56.9 76e5016d",
   "osm3s": {
-    "timestamp_osm_base": "2021-04-22T12:07:13Z",
-    "timestamp_areas_base": "2021-04-22T11:11:26Z",
+    "timestamp_osm_base": "2021-04-23T10:58:28Z",
+    "timestamp_areas_base": "2021-04-23T10:07:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -742,46 +742,36 @@
     {
       "type": "way",
       "ref": 24215945,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 836514478,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 836503446,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 836514484,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 8545775,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 8545775,
       "role": "backward"
     },
     {
       "type": "way",
-      "ref": 836514482,
+      "ref": 24215945,
       "role": "forward"
     },
     {
       "type": "way",
-      "ref": 529288576,
+      "ref": 194690451,
       "role": "forward"
     },
     {
       "type": "way",
-      "ref": 8545784,
+      "ref": 930683323,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 333631066,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 930683325,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 333631072,
       "role": "forward"
     },
     {
@@ -802,46 +792,6 @@
     {
       "type": "way",
       "ref": 930688576,
-      "role": "backward"
-    },
-    {
-      "type": "way",
-      "ref": 529288577,
-      "role": "backward"
-    },
-    {
-      "type": "way",
-      "ref": 22921199,
-      "role": "backward"
-    },
-    {
-      "type": "way",
-      "ref": 333631072,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 930683325,
-      "role": "backward"
-    },
-    {
-      "type": "way",
-      "ref": 333631066,
-      "role": "backward"
-    },
-    {
-      "type": "way",
-      "ref": 930683323,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 194690451,
-      "role": "forward"
-    },
-    {
-      "type": "way",
-      "ref": 24215945,
       "role": "backward"
     },
     {
@@ -923,6 +873,86 @@
       "type": "way",
       "ref": 24216030,
       "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 8545775,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 836514484,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 836503446,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 836514478,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 836514477,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 836514481,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 836514482,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 8545775,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 22921195,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 22921195,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 8545784,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 529288576,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 22921197,
+      "role": "forward"
+    },
+    {
+      "type": "way",
+      "ref": 22921199,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 529288577,
+      "role": "backward"
+    },
+    {
+      "type": "way",
+      "ref": 22921197,
+      "role": "backward"
     }
   ],
   "tags": {
@@ -1851,6 +1881,12 @@
   "id": 38265248,
   "lat": 51.1374962,
   "lon": 4.4017428
+},
+{
+  "type": "node",
+  "id": 130758472,
+  "lat": 51.1379454,
+  "lon": 4.4006935
 },
 {
   "type": "node",
@@ -3099,6 +3135,12 @@
   "id": 7128415780,
   "lat": 51.1407673,
   "lon": 4.4105726
+},
+{
+  "type": "node",
+  "id": 8655512582,
+  "lat": 51.1397651,
+  "lon": 4.4046374
 },
 {
   "type": "node",
@@ -5725,6 +5767,14 @@
 },
 {
   "type": "way",
+  "id": 836514477,
+  "nodes": [
+    7807483104,
+    130758472
+  ]
+},
+{
+  "type": "way",
   "id": 836514478,
   "nodes": [
     7807483104,
@@ -5733,6 +5783,14 @@
     7807472853,
     7807472852,
     7807472851
+  ]
+},
+{
+  "type": "way",
+  "id": 836514481,
+  "nodes": [
+    7807476630,
+    130758472
   ]
 },
 {
@@ -5911,6 +5969,23 @@
     5559893111,
     38265044,
     2655402642
+  ]
+},
+{
+  "type": "way",
+  "id": 22921195,
+  "nodes": [
+    246809258,
+    246679253
+  ]
+},
+{
+  "type": "way",
+  "id": 22921197,
+  "nodes": [
+    246679253,
+    8655512582,
+    246809664
   ]
 },
 {
