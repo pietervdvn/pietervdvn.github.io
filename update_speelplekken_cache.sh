@@ -1,6 +1,6 @@
 #! /bin/bash
 
-
+cd /home/pietervdvn/git/pietervdvn.github.io
 rm speelplekken_cache/*.json
 cd ../MapComplete
 git pull
