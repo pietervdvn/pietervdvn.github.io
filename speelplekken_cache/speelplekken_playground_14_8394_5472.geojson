@@ -13,10 +13,11 @@
     "_surface:ha": "0.2",
     "_length": "210.38918402844058",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 101423225,
+    "_last_edit:timestamp": "2021-03-21T01:19:05Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
@@ -51,7 +52,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.455348000000001,
    "_lat": 51.177606049999994,
    "area": 2642.868406902906
@@ -69,10 +69,11 @@
     "_surface:ha": "0",
     "_length": "159.31928082008727",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "RobSmits",
+    "_last_edit:contributor:uid": 3105444,
+    "_last_edit:changeset": 32967863,
+    "_last_edit:timestamp": "2015-07-29T23:50:16Z",
+    "_version_number": 1,
     "_size_classification": "large"
    },
    "geometry": {
@@ -103,7 +104,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.46026695,
    "_lat": 51.1733262,
    "area": 921.7230719140922
@@ -122,10 +122,11 @@
     "_surface:ha": "0",
     "_length": "67.99930120506217",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "escada",
+    "_last_edit:contributor:uid": 436365,
+    "_last_edit:changeset": 41233993,
+    "_last_edit:timestamp": "2016-08-04T10:16:54Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
@@ -156,7 +157,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.45632835,
    "_lat": 51.1723935,
    "area": 116.99738223608776
@@ -173,10 +173,11 @@
     "_surface:ha": "0",
     "_length": "63.30005479449044",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 83368130,
+    "_last_edit:timestamp": "2020-04-10T13:57:19Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
@@ -207,7 +208,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.4484509,
    "_lat": 51.166123150000004,
    "area": 200.36362462382198
@@ -228,10 +228,11 @@
     "_surface:ha": "0.1",
     "_length": "173.02910613826867",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 101421763,
+    "_last_edit:timestamp": "2021-03-20T23:31:12Z",
+    "_version_number": 3,
     "_size_classification": "large"
    },
    "geometry": {
@@ -266,7 +267,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.4483701,
    "_lat": 51.1662392,
    "area": 1521.8728722333442
@@ -283,10 +283,11 @@
     "_surface:ha": "0",
     "_length": "64.63790625562861",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 100535293,
+    "_last_edit:timestamp": "2021-03-06T13:15:35Z",
+    "_version_number": 1,
     "_size_classification": "large"
    },
    "geometry": {
@@ -361,7 +362,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.4548728,
    "_lat": 51.16585105,
    "area": 220.79714710467684
@@ -370,6 +370,7 @@
    "type": "Feature",
    "id": "way/914512923",
    "properties": {
+    "access": "yes",
     "leisure": "playground",
     "id": "way/914512923",
     "_lat": "51.1704511",
@@ -378,10 +379,11 @@
     "_surface:ha": "0",
     "_length": "46.988567053998",
     "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Rainbow Tux",
+    "_last_edit:contributor:uid": 8354101,
+    "_last_edit:changeset": 103566684,
+    "_last_edit:timestamp": "2021-04-25T09:59:10Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
@@ -416,7 +418,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.4475788000000005,
    "_lat": 51.1704511,
    "area": 139.32247921374565
@@ -435,10 +436,11 @@
     "_surface:ha": "0",
     "_length": "66.03547895783196",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:31",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:08:35",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 100596034,
+    "_last_edit:timestamp": "2021-03-07T23:53:05Z",
+    "_version_number": 1,
     "_size_classification": "large"
    },
    "geometry": {
@@ -473,7 +475,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:08:35Z",
    "_lon": 4.4402387999999995,
    "_lat": 51.1739051,
    "area": 250.59654134857132

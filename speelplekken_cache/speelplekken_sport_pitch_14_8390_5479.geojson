@@ -13,45 +13,21 @@
     "_surface:ha": "0.5",
     "_length": "314.26881562212634",
     "_length:km": "0.3",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 10:53:15",
+    "_last_edit:contributor": "JanFi",
+    "_last_edit:contributor:uid": 672253,
+    "_last_edit:changeset": 50418152,
+    "_last_edit:timestamp": "2017-07-19T21:55:08Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
-    "type": "Polygon",
+    "type": "Point",
     "coordinates": [
-     [
-      [
-       4.3598767,
-       51.0823253
-      ],
-      [
-       4.3597791,
-       51.0822878
-      ],
-      [
-       4.359579,
-       51.0814518
-      ],
-      [
-       4.3604231,
-       51.081372
-      ],
-      [
-       4.3606341,
-       51.0822537
-      ],
-      [
-       4.3598767,
-       51.0823253
-      ]
-     ]
+     4.36010655,
+     51.08184865
     ]
    },
    "_matching_layer_id": "sport_pitch",
-   "_timestamp": "2021-04-23T10:53:15Z",
    "_lon": 4.36010655,
    "_lat": 51.08184865,
    "area": 5908.947881706042
@@ -69,10 +45,11 @@
     "_surface:ha": "0",
     "_length": "0",
     "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 10:53:15",
+    "_last_edit:contributor": "koninklijke",
+    "_last_edit:contributor:uid": 2029979,
+    "_last_edit:changeset": 61740962,
+    "_last_edit:timestamp": "2018-08-17T10:06:53Z",
+    "_version_number": 2,
     "_size_classification": "small"
    },
    "geometry": {
@@ -83,7 +60,6 @@
     ]
    },
    "_matching_layer_id": "sport_pitch",
-   "_timestamp": "2021-04-23T10:53:15Z",
    "_lon": 4.3665649,
    "_lat": 51.0816876,
    "area": 0

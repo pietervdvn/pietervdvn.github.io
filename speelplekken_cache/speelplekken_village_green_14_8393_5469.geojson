@@ -13,10 +13,11 @@
     "_surface:ha": "0.1",
     "_length": "240.71039748289525",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 83562613,
+    "_last_edit:timestamp": "2020-04-15T04:31:39Z",
+    "_version_number": 4
    },
    "geometry": {
     "type": "Polygon",
@@ -118,7 +119,6 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.41953835,
    "_lat": 51.20676125,
    "area": 1753.3212476118997
@@ -135,10 +135,11 @@
     "_surface:ha": "0.1",
     "_length": "242.59932037806195",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 81982936,
+    "_last_edit:timestamp": "2020-03-09T21:17:20Z",
+    "_version_number": 4
    },
    "geometry": {
     "type": "Polygon",
@@ -240,7 +241,6 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.41942315,
    "_lat": 51.20681675,
    "area": 1769.491357368245
@@ -257,10 +257,11 @@
     "_surface:ha": "0",
     "_length": "138.5411709156494",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 82384125,
+    "_last_edit:timestamp": "2020-03-19T09:42:45Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "Polygon",
@@ -326,10 +327,193 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.4213021999999995,
    "_lat": 51.2185655,
    "area": 856.1139256026462
+  },
+  {
+   "type": "Feature",
+   "id": "way/489255082",
+   "properties": {
+    "landuse": "village_green",
+    "id": "way/489255082",
+    "_lat": "51.218220099999996",
+    "_lon": "4.4212282",
+    "_surface": "612.990436322364",
+    "_surface:ha": "0",
+    "_length": "106.02608987147366",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 83530789,
+    "_last_edit:timestamp": "2020-04-14T11:18:30Z",
+    "_version_number": 4
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4212129,
+       51.2181086
+      ],
+      [
+       4.4212535,
+       51.2181107
+      ],
+      [
+       4.4212843,
+       51.2181128
+      ],
+      [
+       4.4213242,
+       51.2181216
+      ],
+      [
+       4.4213547,
+       51.2181308
+      ],
+      [
+       4.4213972,
+       51.218151
+      ],
+      [
+       4.4214227,
+       51.2181726
+      ],
+      [
+       4.4214425,
+       51.2181997
+      ],
+      [
+       4.4214526,
+       51.2182236
+      ],
+      [
+       4.4214592,
+       51.2182622
+      ],
+      [
+       4.4213737,
+       51.2182636
+      ],
+      [
+       4.4213806,
+       51.2183311
+      ],
+      [
+       4.4212317,
+       51.2183331
+      ],
+      [
+       4.4212281,
+       51.2182874
+      ],
+      [
+       4.4210135,
+       51.2182949
+      ],
+      [
+       4.4209972,
+       51.2181187
+      ],
+      [
+       4.4210485,
+       51.218113
+      ],
+      [
+       4.4211044,
+       51.2181099
+      ],
+      [
+       4.4211578,
+       51.2181071
+      ],
+      [
+       4.4212129,
+       51.2181086
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "village_green",
+   "_lon": 4.4212282,
+   "_lat": 51.218220099999996,
+   "area": 612.990436322364
+  },
+  {
+   "type": "Feature",
+   "id": "way/489255083",
+   "properties": {
+    "landuse": "village_green",
+    "id": "way/489255083",
+    "_lat": "51.21822725",
+    "_lon": "4.42088025",
+    "_surface": "138.85682630922975",
+    "_surface:ha": "0",
+    "_length": "51.86784966654375",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Squizie3",
+    "_last_edit:contributor:uid": 650396,
+    "_last_edit:changeset": 78945741,
+    "_last_edit:timestamp": "2019-12-28T01:08:12Z",
+    "_version_number": 2
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4209449,
+       51.2183147
+      ],
+      [
+       4.4208164,
+       51.2183174
+      ],
+      [
+       4.4208156,
+       51.2182862
+      ],
+      [
+       4.4208184,
+       51.2182559
+      ],
+      [
+       4.4208249,
+       51.2182253
+      ],
+      [
+       4.4208337,
+       51.2181997
+      ],
+      [
+       4.4208497,
+       51.2181783
+      ],
+      [
+       4.4208766,
+       51.2181598
+      ],
+      [
+       4.4209034,
+       51.2181468
+      ],
+      [
+       4.4209306,
+       51.2181371
+      ],
+      [
+       4.4209449,
+       51.2183147
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "village_green",
+   "_lon": 4.42088025,
+   "_lat": 51.21822725,
+   "area": 138.85682630922975
   },
   {
    "type": "Feature",
@@ -343,10 +527,11 @@
     "_surface:ha": "0.1",
     "_length": "599.1209914026874",
     "_length:km": "0.6",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 82361668,
+    "_last_edit:timestamp": "2020-03-18T19:47:27Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "Polygon",
@@ -444,7 +629,6 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.434528,
    "_lat": 51.208927200000005,
    "area": 1341.8256813151572
@@ -461,10 +645,11 @@
     "_surface:ha": "0",
     "_length": "16.958948269260976",
     "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 67718701,
+    "_last_edit:timestamp": "2019-03-02T17:10:04Z",
+    "_version_number": 1
    },
    "geometry": {
     "type": "Polygon",
@@ -494,7 +679,6 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.420025949999999,
    "_lat": 51.20724825,
    "area": 17.10620055267224
@@ -511,10 +695,11 @@
     "_surface:ha": "0",
     "_length": "21.63912573922951",
     "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 67718701,
+    "_last_edit:timestamp": "2019-03-02T17:10:05Z",
+    "_version_number": 1
    },
    "geometry": {
     "type": "Polygon",
@@ -544,194 +729,9 @@
     ]
    },
    "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.42014535,
    "_lat": 51.207178400000004,
    "area": 25.589408386514133
-  },
-  {
-   "type": "Feature",
-   "id": "way/489255082",
-   "properties": {
-    "landuse": "village_green",
-    "id": "way/489255082",
-    "_lat": "51.218220099999996",
-    "_lon": "4.4212282",
-    "_surface": "612.990436322364",
-    "_surface:ha": "0",
-    "_length": "106.02608987147366",
-    "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4212129,
-       51.2181086
-      ],
-      [
-       4.4212535,
-       51.2181107
-      ],
-      [
-       4.4212843,
-       51.2181128
-      ],
-      [
-       4.4213242,
-       51.2181216
-      ],
-      [
-       4.4213547,
-       51.2181308
-      ],
-      [
-       4.4213972,
-       51.218151
-      ],
-      [
-       4.4214227,
-       51.2181726
-      ],
-      [
-       4.4214425,
-       51.2181997
-      ],
-      [
-       4.4214526,
-       51.2182236
-      ],
-      [
-       4.4214592,
-       51.2182622
-      ],
-      [
-       4.4213737,
-       51.2182636
-      ],
-      [
-       4.4213806,
-       51.2183311
-      ],
-      [
-       4.4212317,
-       51.2183331
-      ],
-      [
-       4.4212281,
-       51.2182874
-      ],
-      [
-       4.4210135,
-       51.2182949
-      ],
-      [
-       4.4209972,
-       51.2181187
-      ],
-      [
-       4.4210485,
-       51.218113
-      ],
-      [
-       4.4211044,
-       51.2181099
-      ],
-      [
-       4.4211578,
-       51.2181071
-      ],
-      [
-       4.4212129,
-       51.2181086
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
-   "_lon": 4.4212282,
-   "_lat": 51.218220099999996,
-   "area": 612.990436322364
-  },
-  {
-   "type": "Feature",
-   "id": "way/489255083",
-   "properties": {
-    "landuse": "village_green",
-    "id": "way/489255083",
-    "_lat": "51.21822725",
-    "_lon": "4.42088025",
-    "_surface": "138.85682630922975",
-    "_surface:ha": "0",
-    "_length": "51.86784966654375",
-    "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4209449,
-       51.2183147
-      ],
-      [
-       4.4208164,
-       51.2183174
-      ],
-      [
-       4.4208156,
-       51.2182862
-      ],
-      [
-       4.4208184,
-       51.2182559
-      ],
-      [
-       4.4208249,
-       51.2182253
-      ],
-      [
-       4.4208337,
-       51.2181997
-      ],
-      [
-       4.4208497,
-       51.2181783
-      ],
-      [
-       4.4208766,
-       51.2181598
-      ],
-      [
-       4.4209034,
-       51.2181468
-      ],
-      [
-       4.4209306,
-       51.2181371
-      ],
-      [
-       4.4209449,
-       51.2183147
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "village_green",
-   "_timestamp": "2021-04-23T11:03:27Z",
-   "_lon": 4.42088025,
-   "_lat": 51.21822725,
-   "area": 138.85682630922975
   }
  ]
 }

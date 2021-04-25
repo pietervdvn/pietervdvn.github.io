@@ -13,10 +13,11 @@
     "_surface:ha": "0",
     "_length": "106.87619955207327",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 81961518,
+    "_last_edit:timestamp": "2020-03-09T11:45:19Z",
+    "_version_number": 3,
     "_size_classification": "large"
    },
    "geometry": {
@@ -79,7 +80,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.43100235,
    "_lat": 51.2012841,
    "area": 558.4156497849008
@@ -97,10 +97,11 @@
     "_surface:ha": "0",
     "_length": "55.91934394736918",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
+    "_last_edit:contributor": "AbcNc",
+    "_last_edit:contributor:uid": 5696982,
+    "_last_edit:changeset": 66310779,
+    "_last_edit:timestamp": "2019-01-14T18:41:47Z",
+    "_version_number": 2,
     "_size_classification": "large"
    },
    "geometry": {
@@ -163,7 +164,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.42494795,
    "_lat": 51.1941702,
    "area": 143.80985344261512
@@ -180,10 +180,11 @@
     "_surface:ha": "0.2",
     "_length": "232.84116216139995",
     "_length:km": "0.2",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
+    "_last_edit:contributor": "StijnDA",
+    "_last_edit:contributor:uid": 5010941,
+    "_last_edit:changeset": 45469045,
+    "_last_edit:timestamp": "2017-01-25T09:37:11Z",
+    "_version_number": 1,
     "_size_classification": "large"
    },
    "geometry": {
@@ -214,61 +215,9 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.436965799999999,
    "_lat": 51.19839455,
    "area": 2734.1773248284967
-  },
-  {
-   "type": "Feature",
-   "id": "way/677224612",
-   "properties": {
-    "leisure": "playground",
-    "id": "way/677224612",
-    "_lat": "51.20251155",
-    "_lon": "4.4259141",
-    "_surface": "55.09536066574023",
-    "_surface:ha": "0",
-    "_length": "38.18657742940218",
-    "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4259358,
-       51.2025845
-      ],
-      [
-       4.4258907,
-       51.2025128
-      ],
-      [
-       4.425864,
-       51.2024639
-      ],
-      [
-       4.4259642,
-       51.2024386
-      ],
-      [
-       4.4259358,
-       51.2025845
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
-   "_lon": 4.4259141,
-   "_lat": 51.20251155,
-   "area": 55.09536066574023
   },
   {
    "type": "Feature",
@@ -283,10 +232,11 @@
     "_surface:ha": "0",
     "_length": "80.83333959329858",
     "_length:km": "0.1",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
+    "_last_edit:contributor": "AbcNc",
+    "_last_edit:contributor:uid": 5696982,
+    "_last_edit:changeset": 66310779,
+    "_last_edit:timestamp": "2019-01-14T18:41:32Z",
+    "_version_number": 3,
     "_size_classification": "large"
    },
    "geometry": {
@@ -321,10 +271,60 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.4173744,
    "_lat": 51.195191300000005,
    "area": 296.56303664946427
+  },
+  {
+   "type": "Feature",
+   "id": "way/677224612",
+   "properties": {
+    "leisure": "playground",
+    "id": "way/677224612",
+    "_lat": "51.20251155",
+    "_lon": "4.4259141",
+    "_surface": "55.09536066574023",
+    "_surface:ha": "0",
+    "_length": "38.18657742940218",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 81646103,
+    "_last_edit:timestamp": "2020-03-01T15:09:24Z",
+    "_version_number": 2,
+    "_size_classification": "medium"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4259358,
+       51.2025845
+      ],
+      [
+       4.4258907,
+       51.2025128
+      ],
+      [
+       4.425864,
+       51.2024639
+      ],
+      [
+       4.4259642,
+       51.2024386
+      ],
+      [
+       4.4259358,
+       51.2025845
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_lon": 4.4259141,
+   "_lat": 51.20251155,
+   "area": 55.09536066574023
   },
   {
    "type": "Feature",
@@ -338,10 +338,11 @@
     "_surface:ha": "0",
     "_length": "0",
     "_length:km": "0.0",
-    "_now:date": "2021-04-23",
-    "_now:datetime": "2021-04-23 16:26:30",
-    "_loaded:date": "2021-04-23",
-    "_loaded:datetime": "2021-04-23 11:03:27",
+    "_last_edit:contributor": "Jorisbo",
+    "_last_edit:contributor:uid": 1983103,
+    "_last_edit:changeset": 81896116,
+    "_last_edit:timestamp": "2020-03-07T10:51:49Z",
+    "_version_number": 1,
     "_size_classification": "small"
    },
    "geometry": {
@@ -352,7 +353,6 @@
     ]
    },
    "_matching_layer_id": "playground",
-   "_timestamp": "2021-04-23T11:03:27Z",
    "_lon": 4.4245285,
    "_lat": 51.1947425,
    "area": 0
