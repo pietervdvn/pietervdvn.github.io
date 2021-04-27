@@ -13,5 +13,6 @@ echo "Caching done, commiting now"
 cd ../pietervdvn.github.io
 git status
 git pull
+git add *
 git commit -am "Update of the speelplekken cache"
 echo "All done!"
