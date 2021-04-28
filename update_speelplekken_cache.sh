@@ -15,4 +15,5 @@ git status
 git pull
 git add *
 git commit -am "Update of the speelplekken cache"
+git push
 echo "All done!"
