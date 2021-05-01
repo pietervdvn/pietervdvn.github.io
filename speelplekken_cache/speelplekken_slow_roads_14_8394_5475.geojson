@@ -4319,7 +4319,9 @@
    "id": "way/829200749",
    "properties": {
     "bicycle": "official",
+    "cycleway:surface": "paving_stones",
     "foot": "official",
+    "footway:surface": "paving_stones",
     "highway": "path",
     "segregated": "yes",
     "traffic_sign": "BE:D09",
@@ -4330,11 +4332,11 @@
     "_surface:ha": "0",
     "_length": "102.0665626576611",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Jakka",
-    "_last_edit:contributor:uid": 2403313,
-    "_last_edit:changeset": 88395961,
-    "_last_edit:timestamp": "2020-07-23T09:58:15Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "dejakke",
+    "_last_edit:contributor:uid": 803526,
+    "_last_edit:changeset": 103959146,
+    "_last_edit:timestamp": "2021-05-01T14:17:55Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
