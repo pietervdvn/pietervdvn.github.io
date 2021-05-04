@@ -4255,30 +4255,22 @@
     "maxspeed": "20",
     "name": "Jan Verbertlei",
     "id": "way/684566644",
-    "_lat": "51.1529254",
-    "_lon": "4.4576902",
+    "_lat": "51.153078",
+    "_lon": "4.4576407499999995",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "113.66732716489824",
+    "_length": "79.01770758076243",
     "_length:km": "0.1",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 69341466,
-    "_last_edit:timestamp": "2019-04-18T11:45:17Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104111011,
+    "_last_edit:timestamp": "2021-05-04T09:27:57Z",
+    "_version_number": 2,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.457775,
-      51.1524184
-     ],
-     [
-      4.457708,
-      51.1525998
-     ],
      [
       4.4576761,
       51.1527236
@@ -4306,8 +4298,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4576902,
-   "_lat": 51.1529254,
+   "_lon": 4.4576407499999995,
+   "_lat": 51.153078,
    "area": 0
   },
   {
@@ -7843,6 +7835,49 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4425032,
    "_lat": 51.1560286,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938766722",
+   "properties": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "name": "Jan Verbertlei",
+    "id": "way/938766722",
+    "_lat": "51.152571",
+    "_lon": "4.457725549999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "34.64961958413582",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104111011,
+    "_last_edit:timestamp": "2021-05-04T09:27:57Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.457775,
+      51.1524184
+     ],
+     [
+      4.457708,
+      51.1525998
+     ],
+     [
+      4.4576761,
+      51.1527236
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.457725549999999,
+   "_lat": 51.152571,
    "area": 0
   }
  ]

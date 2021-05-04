@@ -4425,6 +4425,55 @@
    "_lon": 4.3534916,
    "_lat": 51.10430825,
    "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938775143",
+   "properties": {
+    "highway": "track",
+    "id": "way/938775143",
+    "_lat": "51.09854395",
+    "_lon": "4.3668072",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "31.107788537532514",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Ben Abelshausen",
+    "_last_edit:contributor:uid": 137772,
+    "_last_edit:changeset": 104113358,
+    "_last_edit:timestamp": "2021-05-04T09:57:08Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.3666229,
+      51.098619
+     ],
+     [
+      4.366698,
+      51.0986055
+     ],
+     [
+      4.3668602,
+      51.0985448
+     ],
+     [
+      4.3669139,
+      51.0985162
+     ],
+     [
+      4.3669915,
+      51.0984689
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.3668072,
+   "_lat": 51.09854395,
+   "area": 0
   }
  ]
 }

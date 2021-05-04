@@ -134,6 +134,61 @@
   },
   {
    "type": "Feature",
+   "id": "way/36737835",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/36737835",
+    "_lat": "51.1080183",
+    "_lon": "4.4606657",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "168.85966776319233",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 13,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4611468,
+      51.1073286
+     ],
+     [
+      4.4609076,
+      51.1076115
+     ],
+     [
+      4.4603419,
+      51.1082981
+     ],
+     [
+      4.4602712,
+      51.1085911
+     ],
+     [
+      4.4601846,
+      51.108708
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4606657,
+   "_lat": 51.1080183,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/110893304",
    "properties": {
     "highway": "path",
@@ -2031,6 +2086,315 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.46056595,
    "_lat": 51.108402850000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500253",
+   "properties": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500253",
+    "_lat": "51.1097782",
+    "_lon": "4.45950685",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "4.407802132839521",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4595362,
+      51.1097855
+     ],
+     [
+      4.4594775,
+      51.1097709
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.45950685,
+   "_lat": 51.1097782,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500254",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500254",
+    "_lat": "51.10976575",
+    "_lon": "4.4594593499999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "2.7809558375828582",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 5,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4594775,
+      51.1097709
+     ],
+     [
+      4.4594412,
+      51.1097606
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4594593499999995,
+   "_lat": 51.10976575,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500270",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500270",
+    "_lat": "51.11109405",
+    "_lon": "4.45835235",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "353.34759191602126",
+    "_length:km": "0.4",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.459382,
+      51.1097451
+     ],
+     [
+      4.4593258,
+      51.1097304
+     ],
+     [
+      4.4590045,
+      51.1102052
+     ],
+     [
+      4.4584483,
+      51.111016
+     ],
+     [
+      4.4583946,
+      51.1112939
+     ],
+     [
+      4.4581908,
+      51.1114033
+     ],
+     [
+      4.457995,
+      51.1116761
+     ],
+     [
+      4.4580084,
+      51.1118529
+     ],
+     [
+      4.4576436,
+      51.1124002
+     ],
+     [
+      4.4575075,
+      51.1124577
+     ],
+     [
+      4.4573227,
+      51.1124268
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.45835235,
+   "_lat": 51.11109405,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500272",
+   "properties": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500272",
+    "_lat": "51.10975285",
+    "_lon": "4.459411599999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "4.477833294160643",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 3,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4594412,
+      51.1097606
+     ],
+     [
+      4.459382,
+      51.1097451
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.459411599999999,
+   "_lat": 51.10975285,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500552",
+   "properties": {
+    "bicycle": "no",
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500552",
+    "_lat": "51.108726950000005",
+    "_lon": "4.46024725",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "9.70982575418534",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4601846,
+      51.108708
+     ],
+     [
+      4.4603099,
+      51.1087459
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.46024725,
+   "_lat": 51.108726950000005,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665500553",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "name": "Oude Spoorwegberm",
+    "note": "nature reserve",
+    "id": "way/665500553",
+    "_lat": "51.109275350000004",
+    "_lon": "4.45992305",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "133.13636859733427",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4603099,
+      51.1087459
+     ],
+     [
+      4.4603071,
+      51.1087847
+     ],
+     [
+      4.4598618,
+      51.1094281
+     ],
+     [
+      4.4596047,
+      51.1098048
+     ],
+     [
+      4.4595362,
+      51.1097855
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.45992305,
+   "_lat": 51.109275350000004,
    "area": 0
   },
   {
