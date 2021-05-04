@@ -92,16 +92,16 @@
     "tracktype": "grade3",
     "id": "way/123448789",
     "_lat": "51.080090850000005",
-    "_lon": "4.49151825",
+    "_lon": "4.4914967",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "65.84934025759217",
+    "_length": "64.12449134252006",
     "_length:km": "0.1",
-    "_last_edit:contributor": "PeeGee50",
-    "_last_edit:contributor:uid": 11035016,
-    "_last_edit:changeset": 96933976,
-    "_last_edit:timestamp": "2021-01-04T21:23:22Z",
-    "_version_number": 3,
+    "_last_edit:contributor": "pointseven",
+    "_last_edit:contributor:uid": 4355310,
+    "_last_edit:changeset": 104133553,
+    "_last_edit:timestamp": "2021-05-04T15:34:24Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -112,13 +112,13 @@
       51.0803303
      ],
      [
-      4.4917955,
+      4.4917524,
       51.0798514
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.49151825,
+   "_lon": 4.4914967,
    "_lat": 51.080090850000005,
    "area": 0
   },
@@ -131,16 +131,16 @@
     "tracktype": "grade3",
     "id": "way/123448795",
     "_lat": "51.0795736",
-    "_lon": "4.49212",
+    "_lon": "4.49209845",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "81.58153394742398",
+    "_length": "82.7254631163139",
     "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 8853363,
-    "_last_edit:timestamp": "2011-07-28T10:59:26Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "pointseven",
+    "_last_edit:contributor:uid": 4355310,
+    "_last_edit:changeset": 104133553,
+    "_last_edit:timestamp": "2021-05-04T15:34:24Z",
+    "_version_number": 2,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -163,13 +163,17 @@
       51.0796922
      ],
      [
-      4.4917955,
+      4.4918232,
+      51.0797759
+     ],
+     [
+      4.4917524,
       51.0798514
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.49212,
+   "_lon": 4.49209845,
    "_lat": 51.0795736,
    "area": 0
   },
@@ -187,7 +191,7 @@
     "_lon": "4.4964968",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "426.2153436626235",
+    "_length": "426.2226888657044",
     "_length:km": "0.4",
     "_last_edit:contributor": "staf",
     "_last_edit:contributor:uid": 377797,
@@ -220,8 +224,8 @@
       51.0835049
      ],
      [
-      4.4962298,
-      51.0831082
+      4.4962593,
+      51.0829903
      ],
      [
       4.4962903,
@@ -350,11 +354,11 @@
     "surface": "dirt",
     "tracktype": "grade5",
     "id": "way/168563223",
-    "_lat": "51.082340099999996",
-    "_lon": "4.496612750000001",
+    "_lat": "51.0823207",
+    "_lon": "4.4965953",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "54.6635171497301",
+    "_length": "50.713365175327276",
     "_length:km": "0.1",
     "_last_edit:contributor": "staf",
     "_last_edit:contributor:uid": 377797,
@@ -367,12 +371,12 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.4967472,
-      51.0825285
+      4.4966828,
+      51.0824897
      ],
      [
-      4.4968046,
-      51.0824632
+      4.4967697,
+      51.0824076
      ],
      [
       4.4967364,
@@ -389,8 +393,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.496612750000001,
-   "_lat": 51.082340099999996,
+   "_lon": 4.4965953,
+   "_lat": 51.0823207,
    "area": 0
   },
   {
@@ -402,32 +406,40 @@
     "tracktype": "grade5",
     "id": "way/168563229",
     "_lat": "51.0830208",
-    "_lon": "4.4975357",
+    "_lon": "4.49757595",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "278.4714130685308",
+    "_length": "273.77441532700396",
     "_length:km": "0.3",
-    "_last_edit:contributor": "Willem1982",
-    "_last_edit:contributor:uid": 2306403,
-    "_last_edit:changeset": 68877333,
-    "_last_edit:timestamp": "2019-04-04T11:09:11Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "pointseven",
+    "_last_edit:contributor:uid": 4355310,
+    "_last_edit:changeset": 104133553,
+    "_last_edit:timestamp": "2021-05-04T15:34:24Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.4962724,
-      51.0831556
+      4.4963529,
+      51.083041
+     ],
+     [
+      4.496465,
+      51.0829164
      ],
      [
       4.4964712,
       51.0827141
      ],
      [
-      4.4967472,
-      51.0825285
+      4.4964708,
+      51.0826151
+     ],
+     [
+      4.4966828,
+      51.0824897
      ],
      [
       4.4971811,
@@ -442,8 +454,8 @@
       51.0826959
      ],
      [
-      4.4986034,
-      51.0834261
+      4.4986946,
+      51.0834194
      ],
      [
       4.498799,
@@ -452,7 +464,7 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4975357,
+   "_lon": 4.49757595,
    "_lat": 51.0830208,
    "area": 0
   },
@@ -837,35 +849,35 @@
     "highway": "path",
     "surface": "dirt",
     "id": "way/347166466",
-    "_lat": "51.079939949999996",
-    "_lon": "4.494820450000001",
+    "_lat": "51.08003085",
+    "_lon": "4.4949423",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "15.601826099168",
+    "_length": "18.905908159232972",
     "_length:km": "0.0",
-    "_last_edit:contributor": "staf",
-    "_last_edit:contributor:uid": 377797,
-    "_last_edit:changeset": 103946425,
-    "_last_edit:timestamp": "2021-05-01T09:35:45Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "pointseven",
+    "_last_edit:contributor:uid": 4355310,
+    "_last_edit:changeset": 104133159,
+    "_last_edit:timestamp": "2021-05-04T15:25:55Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.494728,
-      51.0799793
+      4.4948577,
+      51.0800972
      ],
      [
-      4.4949129,
-      51.0799006
+      4.4950269,
+      51.0799645
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.494820450000001,
-   "_lat": 51.079939949999996,
+   "_lon": 4.4949423,
+   "_lat": 51.08003085,
    "area": 0
   },
   {
@@ -875,11 +887,11 @@
     "highway": "path",
     "surface": "unpaved",
     "id": "way/347166468",
-    "_lat": "51.08017865",
-    "_lon": "4.49520785",
+    "_lat": "51.08012735",
+    "_lon": "4.49520475",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "20.81364555448989",
+    "_length": "25.71469612069712",
     "_length:km": "0.0",
     "_last_edit:contributor": "escada",
     "_last_edit:contributor:uid": 436365,
@@ -892,8 +904,8 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.495061,
-      51.0801629
+      4.4950548,
+      51.0800603
      ],
      [
       4.4953547,
@@ -902,8 +914,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.49520785,
-   "_lat": 51.08017865,
+   "_lon": 4.49520475,
+   "_lat": 51.08012735,
    "area": 0
   },
   {
@@ -996,11 +1008,11 @@
    "properties": {
     "highway": "track",
     "id": "way/514674340",
-    "_lat": "51.08142",
-    "_lon": "4.492728850000001",
+    "_lat": "51.08141515",
+    "_lon": "4.4927150000000005",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "47.9111782407202",
+    "_length": "47.36727909113249",
     "_length:km": "0.0",
     "_last_edit:contributor": "Willem1982",
     "_last_edit:contributor:uid": 2306403,
@@ -1013,8 +1025,8 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.4929698,
-      51.0812667
+      4.4929421,
+      51.081257
      ],
      [
       4.4924879,
@@ -1023,8 +1035,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.492728850000001,
-   "_lat": 51.08142,
+   "_lon": 4.4927150000000005,
+   "_lat": 51.08141515,
    "area": 0
   },
   {
@@ -1734,7 +1746,7 @@
     "_lon": "4.4969149999999996",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "113.21581319601725",
+    "_length": "108.19250950109475",
     "_length:km": "0.1",
     "_last_edit:contributor": "staf",
     "_last_edit:contributor:uid": 377797,
@@ -1759,16 +1771,16 @@
       51.0819095
      ],
      [
-      4.496669,
-      51.0820797
+      4.4966851,
+      51.0819584
      ],
      [
-      4.4967468,
-      51.0821943
+      4.4969265,
+      51.0821303
      ],
      [
-      4.4968809,
-      51.0823004
+      4.4971947,
+      51.0823375
      ],
      [
       4.4973962,
