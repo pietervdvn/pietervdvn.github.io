@@ -185,7 +185,7 @@
     "_last_edit:changeset": 67984229,
     "_last_edit:timestamp": "2019-03-10T10:23:24Z",
     "_version_number": 8,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -222,7 +222,7 @@
     "_last_edit:changeset": 53523467,
     "_last_edit:timestamp": "2017-11-05T10:13:12Z",
     "_version_number": 12,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -505,7 +505,7 @@
     "_last_edit:changeset": 67984814,
     "_last_edit:timestamp": "2019-03-10T10:48:46Z",
     "_version_number": 7,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -549,7 +549,7 @@
     "_last_edit:changeset": 1987400,
     "_last_edit:timestamp": "2009-07-30T19:20:14Z",
     "_version_number": 5,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -804,7 +804,7 @@
     "_last_edit:changeset": 1978174,
     "_last_edit:timestamp": "2009-07-29T19:13:54Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -851,7 +851,7 @@
     "_last_edit:changeset": 67984229,
     "_last_edit:timestamp": "2019-03-10T10:23:24Z",
     "_version_number": 3,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1348,18 +1348,18 @@
     "oneway": "yes",
     "oneway:bicycle": "no",
     "id": "way/215068268",
-    "_lat": "51.15282035",
-    "_lon": "4.45602685",
+    "_lat": "51.15288705",
+    "_lon": "4.4565931",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "230.33310706128842",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 69341466,
-    "_last_edit:timestamp": "2019-04-18T11:45:18Z",
-    "_version_number": 5,
-    "_part_of_walking_routes": ""
+    "_length": "149.93543638334606",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 6,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1391,24 +1391,12 @@
      [
       4.4555547,
       51.1527256
-     ],
-     [
-      4.4555402,
-      51.1527244
-     ],
-     [
-      4.4552739,
-      51.1526848
-     ],
-     [
-      4.4544222,
-      51.1525922
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.45602685,
-   "_lat": 51.15282035,
+   "_lon": 4.4565931,
+   "_lat": 51.15288705,
    "area": 0
   },
   {
@@ -3419,18 +3407,18 @@
    "properties": {
     "highway": "path",
     "id": "way/554842242",
-    "_lat": "51.152597549999996",
+    "_lat": "51.15262585",
     "_lon": "4.4555876",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "28.946847121683792",
+    "_length": "22.65317079784667",
     "_length:km": "0.0",
-    "_last_edit:contributor": "JanFi",
-    "_last_edit:contributor:uid": 672253,
-    "_last_edit:changeset": 55651252,
-    "_last_edit:timestamp": "2018-01-22T11:04:27Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3442,16 +3430,12 @@
      [
       4.4556205,
       51.1525261
-     ],
-     [
-      4.4556202,
-      51.1524695
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4555876,
-   "_lat": 51.152597549999996,
+   "_lat": 51.15262585,
    "area": 0
   },
   {
@@ -3461,82 +3445,22 @@
     "highway": "path",
     "loc_name": "Schapenweg",
     "id": "way/554842243",
-    "_lat": "51.1526898",
-    "_lon": "4.456053900000001",
+    "_lat": "51.1527274",
+    "_lon": "4.4566342",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "241.70663796850076",
+    "_length": "157.31271039666183",
     "_length:km": "0.2",
-    "_last_edit:contributor": "Jakka",
-    "_last_edit:contributor:uid": 2403313,
-    "_last_edit:changeset": 101933253,
-    "_last_edit:timestamp": "2021-03-29T17:55:33Z",
-    "_version_number": 3,
-    "_part_of_walking_routes": ""
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4544599,
-      51.1524587
-     ],
-     [
-      4.4545681,
-      51.1524509
-     ],
-     [
-      4.4546432,
-      51.152453
-     ],
-     [
-      4.4547317,
-      51.1524699
-     ],
-     [
-      4.4548136,
-      51.1525008
-     ],
-     [
-      4.4548842,
-      51.1525318
-     ],
-     [
-      4.4549133,
-      51.152543
-     ],
-     [
-      4.4549447,
-      51.1525493
-     ],
-     [
-      4.4549794,
-      51.1525472
-     ],
-     [
-      4.4550164,
-      51.1525416
-     ],
-     [
-      4.4551128,
-      51.1525268
-     ],
-     [
-      4.4552451,
-      51.1525128
-     ],
-     [
-      4.4553538,
-      51.1525156
-     ],
-     [
-      4.4554446,
-      51.1525261
-     ],
-     [
-      4.4555309,
-      51.1525325
-     ],
      [
       4.4556205,
       51.1525261
@@ -3644,8 +3568,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.456053900000001,
-   "_lat": 51.1526898,
+   "_lon": 4.4566342,
+   "_lat": 51.1527274,
    "area": 0
   },
   {
@@ -4255,30 +4179,22 @@
     "maxspeed": "20",
     "name": "Jan Verbertlei",
     "id": "way/684566644",
-    "_lat": "51.153078",
-    "_lon": "4.4576407499999995",
+    "_lat": "51.15324045",
+    "_lon": "4.45761845",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "79.01770758076243",
-    "_length:km": "0.1",
+    "_length": "42.75675155812836",
+    "_length:km": "0.0",
     "_last_edit:contributor": "Globelotter",
     "_last_edit:contributor:uid": 6141733,
-    "_last_edit:changeset": 104111011,
-    "_last_edit:timestamp": "2021-05-04T09:27:57Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 3,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4576761,
-      51.1527236
-     ],
-     [
-      4.4576479,
-      51.1529287
-     ],
      [
       4.4576315,
       51.1530485
@@ -4298,8 +4214,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4576407499999995,
-   "_lat": 51.153078,
+   "_lon": 4.45761845,
+   "_lat": 51.15324045,
    "area": 0
   },
   {
@@ -7878,6 +7794,264 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.457725549999999,
    "_lat": 51.152571,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938888888",
+   "properties": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "name": "Jan Verbertlei",
+    "id": "way/938888888",
+    "_lat": "51.152826149999996",
+    "_lon": "4.457662",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "22.89076692850286",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12665843'>Buizegempad</a>, <a href='#relation/12665843'>Buizegempad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4576761,
+      51.1527236
+     ],
+     [
+      4.4576479,
+      51.1529287
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.457662,
+   "_lat": 51.152826149999996,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938888889",
+   "properties": {
+    "highway": "path",
+    "id": "way/938888889",
+    "_lat": "51.152497800000006",
+    "_lon": "4.45562035",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "6.293676323837124",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4556205,
+      51.1525261
+     ],
+     [
+      4.4556202,
+      51.1524695
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.45562035,
+   "_lat": 51.152497800000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938888890",
+   "properties": {
+    "highway": "path",
+    "loc_name": "Schapenweg",
+    "id": "way/938888890",
+    "_lat": "51.1525001",
+    "_lon": "4.4550402",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "84.39392757183894",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4544599,
+      51.1524587
+     ],
+     [
+      4.4545681,
+      51.1524509
+     ],
+     [
+      4.4546432,
+      51.152453
+     ],
+     [
+      4.4547317,
+      51.1524699
+     ],
+     [
+      4.4548136,
+      51.1525008
+     ],
+     [
+      4.4548842,
+      51.1525318
+     ],
+     [
+      4.4549133,
+      51.152543
+     ],
+     [
+      4.4549447,
+      51.1525493
+     ],
+     [
+      4.4549794,
+      51.1525472
+     ],
+     [
+      4.4550164,
+      51.1525416
+     ],
+     [
+      4.4551128,
+      51.1525268
+     ],
+     [
+      4.4552451,
+      51.1525128
+     ],
+     [
+      4.4553538,
+      51.1525156
+     ],
+     [
+      4.4554446,
+      51.1525261
+     ],
+     [
+      4.4555309,
+      51.1525325
+     ],
+     [
+      4.4556205,
+      51.1525261
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4550402,
+   "_lat": 51.1525001,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938888891",
+   "properties": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "name": "Keltenheuvel",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "id": "way/938888891",
+    "_lat": "51.1526589",
+    "_lon": "4.45498845",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "80.39767067794239",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4555547,
+      51.1527256
+     ],
+     [
+      4.4555402,
+      51.1527244
+     ],
+     [
+      4.4552739,
+      51.1526848
+     ],
+     [
+      4.4544222,
+      51.1525922
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.45498845,
+   "_lat": 51.1526589,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938888892",
+   "properties": {
+    "highway": "living_street",
+    "maxspeed": "20",
+    "name": "Jan Verbertlei",
+    "id": "way/938888892",
+    "_lat": "51.1529886",
+    "_lon": "4.4576397",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "13.370189094131206",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104134354,
+    "_last_edit:timestamp": "2021-05-04T15:53:17Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4576479,
+      51.1529287
+     ],
+     [
+      4.4576315,
+      51.1530485
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4576397,
+   "_lat": 51.1529886,
    "area": 0
   }
  ]
