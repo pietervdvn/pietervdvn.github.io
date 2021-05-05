@@ -364,6 +364,7 @@
    "id": "way/83377221",
    "properties": {
     "highway": "path",
+    "surface": "compacted",
     "id": "way/83377221",
     "_lat": "51.0937938",
     "_lon": "4.5062034",
@@ -371,11 +372,11 @@
     "_surface:ha": "0",
     "_length": "80.78132096339684",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Eimai",
-    "_last_edit:contributor:uid": 6072,
-    "_last_edit:changeset": 6229404,
-    "_last_edit:timestamp": "2010-10-30T15:29:43Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103946425,
+    "_last_edit:timestamp": "2021-05-01T08:21:03Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -417,6 +418,7 @@
    "id": "way/83377231",
    "properties": {
     "highway": "path",
+    "surface": "compacted",
     "id": "way/83377231",
     "_lat": "51.09389795",
     "_lon": "4.5053312000000005",
@@ -424,11 +426,11 @@
     "_surface:ha": "0",
     "_length": "120.61011228737571",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Toi",
-    "_last_edit:contributor:uid": 8323,
-    "_last_edit:changeset": 6860028,
-    "_last_edit:timestamp": "2011-01-04T12:32:41Z",
-    "_version_number": 3,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103946425,
+    "_last_edit:timestamp": "2021-05-01T08:21:10Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -494,6 +496,7 @@
    "id": "way/83377258",
    "properties": {
     "highway": "path",
+    "surface": "compacted",
     "id": "way/83377258",
     "_lat": "51.09383675",
     "_lon": "4.504238",
@@ -501,11 +504,11 @@
     "_surface:ha": "0",
     "_length": "148.55320894085912",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Toi",
-    "_last_edit:contributor:uid": 8323,
-    "_last_edit:changeset": 6860028,
-    "_last_edit:timestamp": "2011-01-04T12:32:36Z",
-    "_version_number": 4,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103946425,
+    "_last_edit:timestamp": "2021-05-01T08:22:28Z",
+    "_version_number": 5,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -629,11 +632,11 @@
    "properties": {
     "highway": "path",
     "id": "way/93321583",
-    "_lat": "51.0943954",
-    "_lon": "4.50532775",
+    "_lat": "51.09440225",
+    "_lon": "4.5053406",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "72.9901879552021",
+    "_length": "75.33438892633839",
     "_length:km": "0.1",
     "_last_edit:contributor": "Runner42",
     "_last_edit:contributor:uid": 749457,
@@ -674,14 +677,14 @@
       51.0944755
      ],
      [
-      4.5058112,
-      51.0945079
+      4.5058369,
+      51.0945216
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.50532775,
-   "_lat": 51.0943954,
+   "_lon": 4.5053406,
+   "_lat": 51.09440225,
    "area": 0
   },
   {
@@ -2384,6 +2387,8 @@
    "id": "way/242651954",
    "properties": {
     "highway": "footway",
+    "lit": "no",
+    "surface": "paving_stones",
     "id": "way/242651954",
     "_lat": "51.09477785",
     "_lon": "4.50604505",
@@ -2391,11 +2396,11 @@
     "_surface:ha": "0",
     "_length": "13.832356618682697",
     "_length:km": "0.0",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 29403621,
-    "_last_edit:timestamp": "2015-03-11T11:52:23Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103947118,
+    "_last_edit:timestamp": "2021-05-01T10:39:03Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -2441,6 +2446,8 @@
    "id": "way/242651955",
    "properties": {
     "highway": "footway",
+    "lit": "yes",
+    "surface": "asphalt",
     "id": "way/242651955",
     "_lat": "51.094755750000004",
     "_lon": "4.506270450000001",
@@ -2448,11 +2455,11 @@
     "_surface:ha": "0",
     "_length": "26.288368994440496",
     "_length:km": "0.0",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 29403621,
-    "_last_edit:timestamp": "2015-03-11T11:52:23Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103947118,
+    "_last_edit:timestamp": "2021-05-01T10:38:51Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -2502,6 +2509,8 @@
    "id": "way/242651956",
    "properties": {
     "highway": "footway",
+    "lit": "yes",
+    "surface": "paving_stones",
     "id": "way/242651956",
     "_lat": "51.0947467",
     "_lon": "4.5063742",
@@ -2509,11 +2518,11 @@
     "_surface:ha": "0",
     "_length": "101.84411860284544",
     "_length:km": "0.1",
-    "_last_edit:contributor": "zors1843",
-    "_last_edit:contributor:uid": 233248,
-    "_last_edit:changeset": 55514865,
-    "_last_edit:timestamp": "2018-01-17T08:27:16Z",
-    "_version_number": 4,
+    "_last_edit:contributor": "staf",
+    "_last_edit:contributor:uid": 377797,
+    "_last_edit:changeset": 103947118,
+    "_last_edit:timestamp": "2021-05-01T10:38:32Z",
+    "_version_number": 6,
     "_part_of_walking_routes": ""
    },
    "geometry": {

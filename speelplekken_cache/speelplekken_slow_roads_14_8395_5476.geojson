@@ -508,6 +508,127 @@
   },
   {
    "type": "Feature",
+   "id": "way/330184073",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "name": "Voetweg 48",
+    "surface": "unpaved",
+    "id": "way/330184073",
+    "_lat": "51.1232536",
+    "_lon": "4.48186475",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "58.50957575565788",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104112130,
+    "_last_edit:timestamp": "2021-05-04T09:41:44Z",
+    "_version_number": 7,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.482251,
+      51.1233491
+     ],
+     [
+      4.4820147,
+      51.1232959
+     ],
+     [
+      4.4816886,
+      51.1232443
+     ],
+     [
+      4.4814785,
+      51.1231581
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.48186475,
+   "_lat": 51.1232536,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/330184085",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "surface": "unpaved",
+    "id": "way/330184085",
+    "_lat": "51.121745649999994",
+    "_lon": "4.4784878",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "137.17719167306856",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104112130,
+    "_last_edit:timestamp": "2021-05-04T09:41:44Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4793994,
+      51.1218661
+     ],
+     [
+      4.4792154,
+      51.1217571
+     ],
+     [
+      4.4789165,
+      51.1216809
+     ],
+     [
+      4.4786806,
+      51.1216545
+     ],
+     [
+      4.4784588,
+      51.1216252
+     ],
+     [
+      4.4782487,
+      51.1216266
+     ],
+     [
+      4.4779428,
+      51.1216252
+     ],
+     [
+      4.4777607,
+      51.121631
+     ],
+     [
+      4.4776586,
+      51.1216591
+     ],
+     [
+      4.4775762,
+      51.1217083
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4784878,
+   "_lat": 51.121745649999994,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/564016032",
    "properties": {
     "highway": "track",
@@ -550,6 +671,222 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.47986635,
    "_lat": 51.1211025,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/564016033",
+   "properties": {
+    "bridge": "boardwalk",
+    "foot": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "id": "way/564016033",
+    "_lat": "51.1212717",
+    "_lon": "4.48067095",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "262.6962412948558",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104112130,
+    "_last_edit:timestamp": "2021-05-04T09:41:44Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.48166,
+      51.1209491
+     ],
+     [
+      4.4815367,
+      51.1208744
+     ],
+     [
+      4.4814751,
+      51.1208525
+     ],
+     [
+      4.4814,
+      51.1208154
+     ],
+     [
+      4.4812122,
+      51.1207868
+     ],
+     [
+      4.4811773,
+      51.1207548
+     ],
+     [
+      4.481129,
+      51.120743
+     ],
+     [
+      4.4810835,
+      51.1207515
+     ],
+     [
+      4.4810298,
+      51.1207548
+     ],
+     [
+      4.4809225,
+      51.1207835
+     ],
+     [
+      4.4808286,
+      51.1207784
+     ],
+     [
+      4.4807026,
+      51.1207919
+     ],
+     [
+      4.4806758,
+      51.1207801
+     ],
+     [
+      4.480665,
+      51.1207565
+     ],
+     [
+      4.4806328,
+      51.120738
+     ],
+     [
+      4.4806114,
+      51.1207144
+     ],
+     [
+      4.4806007,
+      51.1206892
+     ],
+     [
+      4.4805524,
+      51.1206723
+     ],
+     [
+      4.4805041,
+      51.1206875
+     ],
+     [
+      4.4803619,
+      51.1206925
+     ],
+     [
+      4.4802734,
+      51.1207498
+     ],
+     [
+      4.4802171,
+      51.1208104
+     ],
+     [
+      4.4801956,
+      51.1208609
+     ],
+     [
+      4.4801608,
+      51.1209282
+     ],
+     [
+      4.4801608,
+      51.1209922
+     ],
+     [
+      4.4801876,
+      51.1210394
+     ],
+     [
+      4.4802251,
+      51.1210545
+     ],
+     [
+      4.4802627,
+      51.1210865
+     ],
+     [
+      4.4803083,
+      51.1211101
+     ],
+     [
+      4.4803029,
+      51.1211623
+     ],
+     [
+      4.4802815,
+      51.1212043
+     ],
+     [
+      4.4802573,
+      51.1212144
+     ],
+     [
+      4.4801983,
+      51.121238
+     ],
+     [
+      4.4801688,
+      51.1212565
+     ],
+     [
+      4.4800428,
+      51.1213895
+     ],
+     [
+      4.4799864,
+      51.1214165
+     ],
+     [
+      4.4799381,
+      51.1214552
+     ],
+     [
+      4.479914,
+      51.1215107
+     ],
+     [
+      4.4798845,
+      51.1215225
+     ],
+     [
+      4.4798899,
+      51.1215478
+     ],
+     [
+      4.4798577,
+      51.121605
+     ],
+     [
+      4.4798309,
+      51.121632
+     ],
+     [
+      4.4797879,
+      51.1216572
+     ],
+     [
+      4.4797263,
+      51.1217145
+     ],
+     [
+      4.4797397,
+      51.1218239
+     ],
+     [
+      4.4796819,
+      51.1218711
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.48067095,
+   "_lat": 51.1212717,
    "area": 0
   },
   {
@@ -932,6 +1269,222 @@
   },
   {
    "type": "Feature",
+   "id": "way/595197352",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "surface": "grass",
+    "id": "way/595197352",
+    "_lat": "51.11764185",
+    "_lon": "4.4615728",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "494.90811510994183",
+    "_length:km": "0.5",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 11,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4593104,
+      51.1167739
+     ],
+     [
+      4.4598536,
+      51.1168345
+     ],
+     [
+      4.4598538,
+      51.1168724
+     ],
+     [
+      4.4596794,
+      51.1171316
+     ],
+     [
+      4.4598135,
+      51.1171653
+     ],
+     [
+      4.4611305,
+      51.1176165
+     ],
+     [
+      4.4612324,
+      51.1176856
+     ],
+     [
+      4.4612972,
+      51.1176913
+     ],
+     [
+      4.4616043,
+      51.1177933
+     ],
+     [
+      4.4616241,
+      51.117806
+     ],
+     [
+      4.4617907,
+      51.1179702
+     ],
+     [
+      4.4618178,
+      51.117985
+     ],
+     [
+      4.46187,
+      51.1179968
+     ],
+     [
+      4.4619397,
+      51.1180204
+     ],
+     [
+      4.46198,
+      51.1180566
+     ],
+     [
+      4.4620202,
+      51.1181552
+     ],
+     [
+      4.4620791,
+      51.118343
+     ],
+     [
+      4.462082,
+      51.1184078
+     ],
+     [
+      4.4620712,
+      51.118492
+     ],
+     [
+      4.4620749,
+      51.1185013
+     ],
+     [
+      4.462087,
+      51.1185072
+     ],
+     [
+      4.4621019,
+      51.1185098
+     ],
+     [
+      4.462212,
+      51.1185069
+     ],
+     [
+      4.4622737,
+      51.1185046
+     ],
+     [
+      4.4623631,
+      51.1184954
+     ],
+     [
+      4.4624465,
+      51.1184884
+     ],
+     [
+      4.4625537,
+      51.1184808
+     ],
+     [
+      4.4627325,
+      51.1184792
+     ],
+     [
+      4.4628353,
+      51.118486
+     ],
+     [
+      4.4630189,
+      51.1185064
+     ],
+     [
+      4.4630579,
+      51.1185079
+     ],
+     [
+      4.4630861,
+      51.1184995
+     ],
+     [
+      4.4631277,
+      51.1184751
+     ],
+     [
+      4.4637998,
+      51.1177207
+     ],
+     [
+      4.4638352,
+      51.1176868
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4615728,
+   "_lat": 51.11764185,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/665018623",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "surface": "grass",
+    "id": "way/665018623",
+    "_lat": "51.11758825",
+    "_lon": "4.46132515",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "23.247086768387973",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 3,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4612972,
+      51.1176913
+     ],
+     [
+      4.4613531,
+      51.1174852
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.46132515,
+   "_lat": 51.11758825,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/666304407",
    "properties": {
     "highway": "footway",
@@ -1111,6 +1664,239 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.46444405,
    "_lat": 51.123138850000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/798285168",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "surface": "grass",
+    "id": "way/798285168",
+    "_lat": "51.11888985",
+    "_lon": "4.462850250000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "101.88080823091805",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104111357,
+    "_last_edit:timestamp": "2021-05-04T09:32:00Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4628353,
+      51.118486
+     ],
+     [
+      4.4628797,
+      51.1185579
+     ],
+     [
+      4.46292,
+      51.1185899
+     ],
+     [
+      4.4629629,
+      51.1186185
+     ],
+     [
+      4.4630192,
+      51.1186471
+     ],
+     [
+      4.463046,
+      51.1186875
+     ],
+     [
+      4.4630514,
+      51.1187684
+     ],
+     [
+      4.4630326,
+      51.1188424
+     ],
+     [
+      4.4629897,
+      51.1189266
+     ],
+     [
+      4.4629092,
+      51.1190091
+     ],
+     [
+      4.4627263,
+      51.119191
+     ],
+     [
+      4.4626839,
+      51.1192532
+     ],
+     [
+      4.4626491,
+      51.1192937
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.462850250000001,
+   "_lat": 51.11888985,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/866986283",
+   "properties": {
+    "foot": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "name": "Voetweg 48",
+    "surface": "unpaved",
+    "id": "way/866986283",
+    "_lat": "51.12245245",
+    "_lon": "4.48011915",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "332.85183617078866",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104112130,
+    "_last_edit:timestamp": "2021-05-04T09:41:44Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4814964,
+      51.1231091
+     ],
+     [
+      4.4809962,
+      51.1230341
+     ],
+     [
+      4.4808908,
+      51.1230294
+     ],
+     [
+      4.480657,
+      51.1230714
+     ],
+     [
+      4.4805012,
+      51.1230645
+     ],
+     [
+      4.4802871,
+      51.1230562
+     ],
+     [
+      4.4799659,
+      51.1230613
+     ],
+     [
+      4.4794171,
+      51.123069
+     ],
+     [
+      4.4791909,
+      51.1230719
+     ],
+     [
+      4.4790079,
+      51.1230637
+     ],
+     [
+      4.478881,
+      51.123057
+     ],
+     [
+      4.4787503,
+      51.1230351
+     ],
+     [
+      4.4787541,
+      51.1229324
+     ],
+     [
+      4.4787553,
+      51.122738
+     ],
+     [
+      4.4787419,
+      51.1225495
+     ],
+     [
+      4.4788063,
+      51.1221773
+     ],
+     [
+      4.4787633,
+      51.1221387
+     ],
+     [
+      4.4787954,
+      51.1217958
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.48011915,
+   "_lat": 51.12245245,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/866986284",
+   "properties": {
+    "bridge": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "motor_vehicle": "no",
+    "name": "Voetweg 48",
+    "surface": "unpaved",
+    "id": "way/866986284",
+    "_lat": "51.1231336",
+    "_lon": "4.4814874499999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.589942992914503",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104112130,
+    "_last_edit:timestamp": "2021-05-04T09:41:44Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12612127'>Boskapellenpad</a>, <a href='#relation/12612127'>Boskapellenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4814785,
+      51.1231581
+     ],
+     [
+      4.4814964,
+      51.1231091
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4814874499999995,
+   "_lat": 51.1231336,
    "area": 0
   },
   {

@@ -520,30 +520,22 @@
     "surface": "unpaved",
     "vehicle": "no",
     "id": "way/27270030",
-    "_lat": "51.1659248",
-    "_lon": "4.43589595",
+    "_lat": "51.16601155",
+    "_lon": "4.43630475",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "340.5629677095212",
+    "_length": "263.99275693174616",
     "_length:km": "0.3",
-    "_last_edit:contributor": "pointseven",
-    "_last_edit:contributor:uid": 4355310,
-    "_last_edit:changeset": 84518502,
-    "_last_edit:timestamp": "2020-05-02T12:07:24Z",
-    "_version_number": 7,
-    "_part_of_walking_routes": ""
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104059274,
+    "_last_edit:timestamp": "2021-05-03T13:08:23Z",
+    "_version_number": 8,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4338539,
-      51.1652932
-     ],
-     [
-      4.4344017,
-      51.1656097
-     ],
      [
       4.4346715,
       51.1654667
@@ -583,8 +575,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.43589595,
-   "_lat": 51.1659248,
+   "_lon": 4.43630475,
+   "_lat": 51.16601155,
    "area": 0
   },
   {
@@ -607,7 +599,7 @@
     "_last_edit:changeset": 101746705,
     "_last_edit:timestamp": "2021-03-25T21:45:33Z",
     "_version_number": 4,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -688,16 +680,16 @@
     "width": "2",
     "id": "way/38249451",
     "_lat": "51.1585747",
-    "_lon": "4.4370404",
+    "_lon": "4.43829095",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "503.0027031188442",
-    "_length:km": "0.5",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 85235443,
-    "_last_edit:timestamp": "2020-05-15T05:19:06Z",
-    "_version_number": 13,
+    "_length": "318.04913554975064",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 14,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -734,23 +726,11 @@
      [
       4.4362409,
       51.1581705
-     ],
-     [
-      4.4360063,
-      51.1582209
-     ],
-     [
-      4.4349072,
-      51.1584745
-     ],
-     [
-      4.4337398,
-      51.1587234
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4370404,
+   "_lon": 4.43829095,
    "_lat": 51.1585747,
    "area": 0
   },
@@ -1490,10 +1470,9 @@
    "id": "way/200585028",
    "properties": {
     "highway": "living_street",
-    "maxspeed": "50",
+    "maxspeed": "20",
     "name": "Jozef de Veusterstraat",
-    "source:maxspeed": "BE:urban",
-    "zone:traffic": "BE:urban",
+    "source:maxspeed": "BE:living_street",
     "id": "way/200585028",
     "_lat": "51.1572134",
     "_lon": "4.4221764",
@@ -1501,11 +1480,11 @@
     "_surface:ha": "0",
     "_length": "75.81069013367006",
     "_length:km": "0.1",
-    "_last_edit:contributor": "lodde1949",
-    "_last_edit:contributor:uid": 138772,
-    "_last_edit:changeset": 36290848,
-    "_last_edit:timestamp": "2015-12-31T23:19:04Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "Thibault Rommel",
+    "_last_edit:contributor:uid": 5846458,
+    "_last_edit:changeset": 103625497,
+    "_last_edit:timestamp": "2021-04-26T09:53:01Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -2693,7 +2672,7 @@
     "_last_edit:changeset": 101370911,
     "_last_edit:timestamp": "2021-03-20T01:41:34Z",
     "_version_number": 7,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -2932,16 +2911,16 @@
     "surface": "paving_stones",
     "id": "way/594185514",
     "_lat": "51.16488915",
-    "_lon": "4.4321983",
+    "_lon": "4.432907200000001",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "412.4623000975625",
-    "_length:km": "0.4",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 83765104,
-    "_last_edit:timestamp": "2020-04-19T09:01:30Z",
-    "_version_number": 6,
+    "_length": "311.41886663357997",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 7,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -3010,27 +2989,11 @@
      [
       4.4308408,
       51.1651078
-     ],
-     [
-      4.4301644,
-      51.1650225
-     ],
-     [
-      4.4301201,
-      51.1650217
-     ],
-     [
-      4.4300841,
-      51.1650227
-     ],
-     [
-      4.429423,
-      51.1651193
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4321983,
+   "_lon": 4.432907200000001,
    "_lat": 51.16488915,
    "area": 0
   },
@@ -3051,26 +3014,22 @@
     "oneway": "no",
     "surface": "gravel",
     "id": "way/613057167",
-    "_lat": "51.16321225",
-    "_lon": "4.431448550000001",
+    "_lat": "51.163614949999996",
+    "_lon": "4.43136485",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "576.7981701086562",
-    "_length:km": "0.6",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 95640620,
-    "_last_edit:timestamp": "2020-12-10T20:40:43Z",
-    "_version_number": 4,
-    "_part_of_walking_routes": ""
+    "_length": "476.11365261999225",
+    "_length:km": "0.5",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 5,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4307925,
-      51.1651492
-     ],
      [
       4.4308408,
       51.1651078
@@ -3222,28 +3181,12 @@
      [
       4.4327387,
       51.1621221
-     ],
-     [
-      4.4327496,
-      51.1620936
-     ],
-     [
-      4.4328326,
-      51.1616563
-     ],
-     [
-      4.4329061,
-      51.16135
-     ],
-     [
-      4.4329024,
-      51.1612753
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.431448550000001,
-   "_lat": 51.16321225,
+   "_lon": 4.43136485,
+   "_lat": 51.163614949999996,
    "area": 0
   },
   {
@@ -4390,7 +4333,7 @@
     "_last_edit:changeset": 84518126,
     "_last_edit:timestamp": "2020-05-02T11:56:23Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4432,7 +4375,7 @@
     "_last_edit:changeset": 88333724,
     "_last_edit:timestamp": "2020-07-22T08:08:28Z",
     "_version_number": 3,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4504,7 +4447,7 @@
     "_last_edit:changeset": 68497008,
     "_last_edit:timestamp": "2019-03-25T08:19:14Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4549,7 +4492,7 @@
     "_last_edit:changeset": 68497008,
     "_last_edit:timestamp": "2019-03-25T08:19:14Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4609,7 +4552,7 @@
     "_last_edit:changeset": 70155994,
     "_last_edit:timestamp": "2019-05-12T10:06:33Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5569,7 +5512,7 @@
     "_last_edit:changeset": 101746705,
     "_last_edit:timestamp": "2021-03-25T21:45:33Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5786,6 +5729,302 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.41781485,
    "_lat": 51.159659649999995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938399503",
+   "properties": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "lit": "no",
+    "name": "Kasteelweg",
+    "oneway": "no",
+    "surface": "paved",
+    "width": "2",
+    "id": "way/938399503",
+    "_lat": "51.15859895",
+    "_lon": "4.4343235",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "85.98776950463377",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4349072,
+      51.1584745
+     ],
+     [
+      4.4337398,
+      51.1587234
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4343235,
+   "_lat": 51.15859895,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938399504",
+   "properties": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "lit": "no",
+    "name": "Kasteelweg",
+    "oneway": "no",
+    "surface": "paved",
+    "width": "2",
+    "id": "way/938399504",
+    "_lat": "51.1583225",
+    "_lon": "4.43557405",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "98.96579806445979",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4362409,
+      51.1581705
+     ],
+     [
+      4.4360063,
+      51.1582209
+     ],
+     [
+      4.4349072,
+      51.1584745
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.43557405,
+   "_lat": 51.1583225,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938399505",
+   "properties": {
+    "bicycle": "yes",
+    "est_width": "2.5 m",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "lit": "no",
+    "motor_vehicle": "no",
+    "name": "Bostulpenpad",
+    "note": "pad deels aangelegd in gravel, klein deel slechts uitgezet in afwachting aanleg wegenis Elysia Park appartementen najaar 2018",
+    "note_1": "inschatting dat pad minder dan 6m van juiste locatie ligt, gezien vier aparte GPS tracks maximaal 8 meter uit elkaar liggen in bosgebied",
+    "oneway": "no",
+    "surface": "gravel",
+    "id": "way/938399505",
+    "_lat": "51.1616987",
+    "_lon": "4.4328224",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "94.98061634087811",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4327387,
+      51.1621221
+     ],
+     [
+      4.4327496,
+      51.1620936
+     ],
+     [
+      4.4328326,
+      51.1616563
+     ],
+     [
+      4.4329061,
+      51.16135
+     ],
+     [
+      4.4329024,
+      51.1612753
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4328224,
+   "_lat": 51.1616987,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938399506",
+   "properties": {
+    "highway": "footway",
+    "lit": "yes",
+    "surface": "paving_stones",
+    "id": "way/938399506",
+    "_lat": "51.1650705",
+    "_lon": "4.4301319",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "101.04343346398254",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4308408,
+      51.1651078
+     ],
+     [
+      4.4301644,
+      51.1650225
+     ],
+     [
+      4.4301201,
+      51.1650217
+     ],
+     [
+      4.4300841,
+      51.1650227
+     ],
+     [
+      4.429423,
+      51.1651193
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4301319,
+   "_lat": 51.1650705,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938399507",
+   "properties": {
+    "bicycle": "yes",
+    "est_width": "2.5 m",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "lit": "no",
+    "motor_vehicle": "no",
+    "name": "Bostulpenpad",
+    "note": "pad deels aangelegd in gravel, klein deel slechts uitgezet in afwachting aanleg wegenis Elysia Park appartementen najaar 2018",
+    "note_1": "inschatting dat pad minder dan 6m van juiste locatie ligt, gezien vier aparte GPS tracks maximaal 8 meter uit elkaar liggen in bosgebied",
+    "oneway": "no",
+    "surface": "gravel",
+    "id": "way/938399507",
+    "_lat": "51.1651285",
+    "_lon": "4.430816650000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.703901147785777",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104057872,
+    "_last_edit:timestamp": "2021-05-03T12:45:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>, <a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4307925,
+      51.1651492
+     ],
+     [
+      4.4308408,
+      51.1651078
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.430816650000001,
+   "_lat": 51.1651285,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/938407084",
+   "properties": {
+    "highway": "footway",
+    "lit": "no",
+    "name": "FIT-O-METER",
+    "surface": "unpaved",
+    "vehicle": "no",
+    "id": "way/938407084",
+    "_lat": "51.16545145",
+    "_lon": "4.4342627",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "76.57021077777502",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104059274,
+    "_last_edit:timestamp": "2021-05-03T13:08:23Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4338539,
+      51.1652932
+     ],
+     [
+      4.4344017,
+      51.1656097
+     ],
+     [
+      4.4346715,
+      51.1654667
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4342627,
+   "_lat": 51.16545145,
    "area": 0
   }
  ]

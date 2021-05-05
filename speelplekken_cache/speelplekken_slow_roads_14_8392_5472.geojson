@@ -3321,48 +3321,62 @@
    "type": "Feature",
    "id": "way/186485114",
    "properties": {
+    "access": "permissive",
+    "bicycle": "private",
+    "foot": "private",
     "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "private",
     "id": "way/186485114",
-    "_lat": "51.167410200000006",
-    "_lon": "4.405801500000001",
+    "_lat": "51.16747345",
+    "_lon": "4.40590615",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "29.046395773098872",
+    "_length": "43.28082167955519",
     "_length:km": "0.0",
-    "_last_edit:contributor": "EnriceV",
-    "_last_edit:contributor:uid": 514888,
-    "_last_edit:changeset": 13543370,
-    "_last_edit:timestamp": "2012-10-18T11:43:55Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 2,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.4058954,
-      51.1674901
+      4.4059006,
+      51.1672802
      ],
      [
       4.405882,
       51.1673388
      ],
      [
-      4.4057076,
-      51.1673303
+      4.4058954,
+      51.1674901
+     ],
+     [
+      4.4059303,
+      51.1676667
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.405801500000001,
-   "_lat": 51.167410200000006,
+   "_lon": 4.40590615,
+   "_lat": 51.16747345,
    "area": 0
   },
   {
    "type": "Feature",
    "id": "way/186485121",
    "properties": {
+    "access": "permissive",
     "highway": "path",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "speed_pedelec": "no",
     "id": "way/186485121",
     "_lat": "51.1665126",
     "_lon": "4.4061518",
@@ -3370,11 +3384,11 @@
     "_surface:ha": "0",
     "_length": "19.39264013159474",
     "_length:km": "0.0",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 32539560,
-    "_last_edit:timestamp": "2015-07-10T10:35:42Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -4713,6 +4727,116 @@
   },
   {
    "type": "Feature",
+   "id": "way/359783458",
+   "properties": {
+    "access": "permissive",
+    "bicycle": "permissive",
+    "foot": "permissive",
+    "highway": "path",
+    "horse": "no",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "speed_pedelec": "no",
+    "id": "way/359783458",
+    "_lat": "51.166906299999994",
+    "_lon": "4.4059618",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "76.60606412905595",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4061897,
+      51.1665965
+     ],
+     [
+      4.4061622,
+      51.1667064
+     ],
+     [
+      4.406104,
+      51.1668079
+     ],
+     [
+      4.405992,
+      51.1669334
+     ],
+     [
+      4.4058821,
+      51.167044
+     ],
+     [
+      4.4057965,
+      51.1671364
+     ],
+     [
+      4.4057339,
+      51.1672161
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4059618,
+   "_lat": 51.166906299999994,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/359783460",
+   "properties": {
+    "access": "permissive",
+    "bicycle": "permissive",
+    "foot": "permissive",
+    "highway": "path",
+    "horse": "no",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "speed_pedelec": "no",
+    "id": "way/359783460",
+    "_lat": "51.16724815",
+    "_lon": "4.40581725",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "13.634504368403038",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4059006,
+      51.1672802
+     ],
+     [
+      4.4057339,
+      51.1672161
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.40581725,
+   "_lat": 51.16724815,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/359783463",
    "properties": {
     "highway": "path",
@@ -4758,6 +4882,63 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.405259,
    "_lat": 51.16846005,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/359783464",
+   "properties": {
+    "access": "permissive",
+    "bicycle": "permissive",
+    "foot": "permissive",
+    "highway": "path",
+    "horse": "no",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "private",
+    "speed_pedelec": "no",
+    "id": "way/359783464",
+    "_lat": "51.1672449",
+    "_lon": "4.4062129",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "46.107134964065715",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4065252,
+      51.1672299
+     ],
+     [
+      4.4063817,
+      51.1672096
+     ],
+     [
+      4.4060567,
+      51.1672176
+     ],
+     [
+      4.4059611,
+      51.1672423
+     ],
+     [
+      4.4059006,
+      51.1672802
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4062129,
+   "_lat": 51.1672449,
    "area": 0
   },
   {
@@ -5003,6 +5184,11 @@
    "id": "way/424073366",
    "properties": {
     "highway": "path",
+    "horse": "no",
+    "informal": "yes",
+    "surface": "ground",
+    "trail_visibility": "bad",
+    "width": "0.5",
     "id": "way/424073366",
     "_lat": "51.166733449999995",
     "_lon": "4.40523055",
@@ -5010,11 +5196,11 @@
     "_surface:ha": "0",
     "_length": "75.49176677527299",
     "_length:km": "0.1",
-    "_last_edit:contributor": "joost schouppe",
-    "_last_edit:contributor:uid": 67832,
-    "_last_edit:changeset": 39929087,
-    "_last_edit:timestamp": "2016-06-10T12:40:29Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 2,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -7403,6 +7589,46 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.40261105,
    "_lat": 51.17203,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/937964824",
+   "properties": {
+    "bicycle": "private",
+    "foot": "private",
+    "highway": "path",
+    "horse": "no",
+    "id": "way/937964824",
+    "_lat": "51.16733455000001",
+    "_lon": "4.405794800000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "12.196656738608777",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "H4N5-antw",
+    "_last_edit:contributor:uid": 10846743,
+    "_last_edit:changeset": 103981504,
+    "_last_edit:timestamp": "2021-05-02T07:03:19Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.405882,
+      51.1673388
+     ],
+     [
+      4.4057076,
+      51.1673303
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.405794800000001,
+   "_lat": 51.16733455000001,
    "area": 0
   }
  ]

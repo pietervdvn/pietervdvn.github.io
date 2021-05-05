@@ -60,7 +60,7 @@
     "_last_edit:changeset": 68035542,
     "_last_edit:timestamp": "2019-03-11T19:32:42Z",
     "_version_number": 8,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -102,7 +102,7 @@
     "_last_edit:changeset": 68035542,
     "_last_edit:timestamp": "2019-03-11T19:32:42Z",
     "_version_number": 8,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -142,7 +142,7 @@
     "_last_edit:changeset": 68296770,
     "_last_edit:timestamp": "2019-03-19T14:29:32Z",
     "_version_number": 7,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12635088'>Broekbospad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -187,7 +187,7 @@
     "_last_edit:changeset": 89149708,
     "_last_edit:timestamp": "2020-08-09T10:40:07Z",
     "_version_number": 8,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -354,74 +354,22 @@
     "surface": "asphalt",
     "width": "1.2",
     "id": "way/24610813",
-    "_lat": "51.1309726",
-    "_lon": "4.4509355",
+    "_lat": "51.13129135",
+    "_lon": "4.45203245",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "600.7003385476323",
-    "_length:km": "0.6",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 78328702,
-    "_last_edit:timestamp": "2019-12-12T16:25:27Z",
-    "_version_number": 13,
-    "_part_of_walking_routes": ""
+    "_length": "312.11453206808267",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103781338,
+    "_last_edit:timestamp": "2021-04-28T13:42:01Z",
+    "_version_number": 14,
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4485622,
-      51.1315965
-     ],
-     [
-      4.4485895,
-      51.1315961
-     ],
-     [
-      4.4486212,
-      51.1315982
-     ],
-     [
-      4.4486511,
-      51.1316027
-     ],
-     [
-      4.4491144,
-      51.1317656
-     ],
-     [
-      4.449274,
-      51.1318237
-     ],
-     [
-      4.4494002,
-      51.1318665
-     ],
-     [
-      4.449518,
-      51.1318984
-     ],
-     [
-      4.450025,
-      51.1320541
-     ],
-     [
-      4.4503822,
-      51.1321689
-     ],
-     [
-      4.4506799,
-      51.1322708
-     ],
-     [
-      4.4507631,
-      51.1323024
-     ],
-     [
-      4.4508313,
-      51.1323338
-     ],
      [
       4.4509585,
       51.1323943
@@ -445,24 +393,12 @@
      [
       4.4526076,
       51.1301884
-     ],
-     [
-      4.4531039,
-      51.1298525
-     ],
-     [
-      4.4533088,
-      51.1297138
-     ],
-     [
-      4.4530302,
-      51.1295509
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4509355,
-   "_lat": 51.1309726,
+   "_lon": 4.45203245,
+   "_lat": 51.13129135,
    "area": 0
   },
   {
@@ -472,30 +408,22 @@
     "highway": "living_street",
     "name": "Sleutelstraat",
     "id": "way/24934072",
-    "_lat": "51.1331013",
-    "_lon": "4.446801349999999",
+    "_lat": "51.1333008",
+    "_lon": "4.44714145",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "182.34677682807776",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 68258393,
-    "_last_edit:timestamp": "2019-03-18T13:41:31Z",
-    "_version_number": 9,
-    "_part_of_walking_routes": ""
+    "_length": "117.35986323812192",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103786769,
+    "_last_edit:timestamp": "2021-04-28T15:19:54Z",
+    "_version_number": 10,
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4464027,
-      51.1323846
-     ],
-     [
-      4.4464874,
-      51.1324284
-     ],
      [
       4.4470829,
       51.1327836
@@ -515,8 +443,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.446801349999999,
-   "_lat": 51.1331013,
+   "_lon": 4.44714145,
+   "_lat": 51.1333008,
    "area": 0
   },
   {
@@ -538,7 +466,7 @@
     "_last_edit:changeset": 78887216,
     "_last_edit:timestamp": "2019-12-26T15:12:40Z",
     "_version_number": 4,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -580,7 +508,7 @@
     "_last_edit:changeset": 86933642,
     "_last_edit:timestamp": "2020-06-21T12:18:14Z",
     "_version_number": 9,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -703,7 +631,7 @@
     "_last_edit:changeset": 99472674,
     "_last_edit:timestamp": "2021-02-17T19:03:20Z",
     "_version_number": 8,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -871,7 +799,7 @@
     "_last_edit:changeset": 86933642,
     "_last_edit:timestamp": "2020-06-21T12:18:14Z",
     "_version_number": 6,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1107,7 +1035,7 @@
     "_last_edit:changeset": 45567483,
     "_last_edit:timestamp": "2017-01-27T17:11:59Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1197,7 +1125,7 @@
     "_last_edit:changeset": 45567483,
     "_last_edit:timestamp": "2017-01-27T17:11:59Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1600,34 +1528,22 @@
    "properties": {
     "highway": "footway",
     "id": "way/355235475",
-    "_lat": "51.13619344999999",
-    "_lon": "4.44480935",
+    "_lat": "51.13628405",
+    "_lon": "4.44470725",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "145.63363931013438",
+    "_length": "78.6943555858432",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Jurion_style",
-    "_last_edit:contributor:uid": 5209065,
-    "_last_edit:changeset": 45567483,
-    "_last_edit:timestamp": "2017-01-27T17:11:59Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103781338,
+    "_last_edit:timestamp": "2021-04-28T13:42:01Z",
+    "_version_number": 3,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4450027,
-      51.1359782
-     ],
-     [
-      4.4453111,
-      51.1360691
-     ],
-     [
-      4.4453621,
-      51.1362525
-     ],
      [
       4.4451579,
       51.1364087
@@ -1651,8 +1567,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.44480935,
-   "_lat": 51.13619344999999,
+   "_lon": 4.44470725,
+   "_lat": 51.13628405,
    "area": 0
   },
   {
@@ -3605,26 +3521,22 @@
    "properties": {
     "highway": "footway",
     "id": "way/674671376",
-    "_lat": "51.1376667",
-    "_lon": "4.44158165",
+    "_lat": "51.13769385",
+    "_lon": "4.44160295",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "214.24286884825963",
+    "_length": "207.51305923723623",
     "_length:km": "0.2",
-    "_last_edit:contributor": "H4N5-antw",
-    "_last_edit:contributor:uid": 10846743,
-    "_last_edit:changeset": 102689621,
-    "_last_edit:timestamp": "2021-04-10T09:58:37Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103707838,
+    "_last_edit:timestamp": "2021-04-27T12:45:12Z",
+    "_version_number": 3,
+    "_part_of_walking_routes": "<a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12635088'>Broekbospad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4410329,
-      51.1367778
-     ],
      [
       4.4410755,
       51.1368321
@@ -3684,8 +3596,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.44158165,
-   "_lat": 51.1376667,
+   "_lon": 4.44160295,
+   "_lat": 51.13769385,
    "area": 0
   },
   {
@@ -4342,7 +4254,7 @@
     "_last_edit:changeset": 97052181,
     "_last_edit:timestamp": "2021-01-06T13:23:54Z",
     "_version_number": 6,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4407,7 +4319,9 @@
    "id": "way/829200749",
    "properties": {
     "bicycle": "official",
+    "cycleway:surface": "paving_stones",
     "foot": "official",
+    "footway:surface": "paving_stones",
     "highway": "path",
     "segregated": "yes",
     "traffic_sign": "BE:D09",
@@ -4418,11 +4332,11 @@
     "_surface:ha": "0",
     "_length": "102.0665626576611",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Jakka",
-    "_last_edit:contributor:uid": 2403313,
-    "_last_edit:changeset": 88395961,
-    "_last_edit:timestamp": "2020-07-23T09:58:15Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "dejakke",
+    "_last_edit:contributor:uid": 803526,
+    "_last_edit:changeset": 103959146,
+    "_last_edit:timestamp": "2021-05-01T14:17:55Z",
+    "_version_number": 4,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -4503,7 +4417,7 @@
     "_last_edit:changeset": 88470016,
     "_last_edit:timestamp": "2020-07-24T17:11:29Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4613,7 +4527,7 @@
     "_last_edit:changeset": 88470016,
     "_last_edit:timestamp": "2020-07-24T17:11:29Z",
     "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4658,7 +4572,7 @@
     "_last_edit:changeset": 88470016,
     "_last_edit:timestamp": "2020-07-24T17:11:29Z",
     "_version_number": 2,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4750,7 +4664,7 @@
     "_last_edit:changeset": 89152028,
     "_last_edit:timestamp": "2020-08-09T12:12:50Z",
     "_version_number": 4,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4794,7 +4708,7 @@
     "_last_edit:changeset": 89152028,
     "_last_edit:timestamp": "2020-08-09T12:12:50Z",
     "_version_number": 2,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4879,7 +4793,7 @@
     "_last_edit:changeset": 89418325,
     "_last_edit:timestamp": "2020-08-14T15:07:06Z",
     "_version_number": 3,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4946,7 +4860,7 @@
     "_last_edit:changeset": 89149708,
     "_last_edit:timestamp": "2020-08-09T10:40:07Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4987,7 +4901,7 @@
     "_last_edit:changeset": 103421547,
     "_last_edit:timestamp": "2021-04-22T15:04:52Z",
     "_version_number": 2,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5072,7 +4986,7 @@
     "_last_edit:changeset": 89251590,
     "_last_edit:timestamp": "2020-08-11T12:30:43Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5276,7 +5190,7 @@
     "_last_edit:changeset": 89418325,
     "_last_edit:timestamp": "2020-08-14T15:07:06Z",
     "_version_number": 1,
-    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>"
+    "_part_of_walking_routes": "<a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>, <a href='#relation/12614506'>Oude Spoorwegpad</a>, <a href='#relation/12635088'>Broekbospad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5401,7 +5315,7 @@
     "_last_edit:changeset": 99472674,
     "_last_edit:timestamp": "2021-02-17T19:03:20Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5488,7 +5402,7 @@
     "_last_edit:changeset": 103421547,
     "_last_edit:timestamp": "2021-04-22T15:04:52Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -5506,6 +5420,270 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4438395,
    "_lat": 51.1273374,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/935809134",
+   "properties": {
+    "highway": "footway",
+    "id": "way/935809134",
+    "_lat": "51.13680495",
+    "_lon": "4.4410542",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "6.729809611023392",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103707838,
+    "_last_edit:timestamp": "2021-04-27T12:45:12Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4410329,
+      51.1367778
+     ],
+     [
+      4.4410755,
+      51.1368321
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4410542,
+   "_lat": 51.13680495,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/936359960",
+   "properties": {
+    "highway": "footway",
+    "id": "way/936359960",
+    "_lat": "51.13619344999999",
+    "_lon": "4.4451824",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "66.93928372429117",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103781338,
+    "_last_edit:timestamp": "2021-04-28T13:42:01Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4450027,
+      51.1359782
+     ],
+     [
+      4.4453111,
+      51.1360691
+     ],
+     [
+      4.4453621,
+      51.1362525
+     ],
+     [
+      4.4451579,
+      51.1364087
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4451824,
+   "_lat": 51.13619344999999,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/936359967",
+   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "segregated": "no",
+    "surface": "asphalt",
+    "width": "1.2",
+    "id": "way/936359967",
+    "_lat": "51.131995200000006",
+    "_lon": "4.44976035",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "190.04722656139168",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103781338,
+    "_last_edit:timestamp": "2021-04-28T13:42:01Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12641237'>Dorpswandeling</a>, <a href='#relation/12641237'>Dorpswandeling</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4485622,
+      51.1315965
+     ],
+     [
+      4.4485895,
+      51.1315961
+     ],
+     [
+      4.4486212,
+      51.1315982
+     ],
+     [
+      4.4486511,
+      51.1316027
+     ],
+     [
+      4.4491144,
+      51.1317656
+     ],
+     [
+      4.449274,
+      51.1318237
+     ],
+     [
+      4.4494002,
+      51.1318665
+     ],
+     [
+      4.449518,
+      51.1318984
+     ],
+     [
+      4.450025,
+      51.1320541
+     ],
+     [
+      4.4503822,
+      51.1321689
+     ],
+     [
+      4.4506799,
+      51.1322708
+     ],
+     [
+      4.4507631,
+      51.1323024
+     ],
+     [
+      4.4508313,
+      51.1323338
+     ],
+     [
+      4.4509585,
+      51.1323943
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44976035,
+   "_lat": 51.131995200000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/936359968",
+   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "segregated": "no",
+    "surface": "asphalt",
+    "width": "1.2",
+    "id": "way/936359968",
+    "_lat": "51.12986965",
+    "_lon": "4.4529582",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "98.53857991815795",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103781338,
+    "_last_edit:timestamp": "2021-04-28T13:42:01Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4526076,
+      51.1301884
+     ],
+     [
+      4.4531039,
+      51.1298525
+     ],
+     [
+      4.4533088,
+      51.1297138
+     ],
+     [
+      4.4530302,
+      51.1295509
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4529582,
+   "_lat": 51.12986965,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/936391887",
+   "properties": {
+    "highway": "living_street",
+    "name": "Sleutelstraat",
+    "id": "way/936391887",
+    "_lat": "51.1325841",
+    "_lon": "4.4467428",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "64.98691358995586",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 103786769,
+    "_last_edit:timestamp": "2021-04-28T15:19:54Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4464027,
+      51.1323846
+     ],
+     [
+      4.4464874,
+      51.1324284
+     ],
+     [
+      4.4470829,
+      51.1327836
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4467428,
+   "_lat": 51.1325841,
    "area": 0
   }
  ]
