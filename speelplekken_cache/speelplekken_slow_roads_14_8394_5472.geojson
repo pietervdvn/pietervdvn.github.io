@@ -394,13 +394,13 @@
     "_lon": "4.4490506",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "165.58515082312624",
+    "_length": "165.58515456341073",
     "_length:km": "0.2",
-    "_last_edit:contributor": "JanFi",
-    "_last_edit:contributor:uid": 672253,
-    "_last_edit:changeset": 55651252,
-    "_last_edit:timestamp": "2018-01-22T11:04:32Z",
-    "_version_number": 14,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 15,
     "_part_of_walking_routes": ""
    },
    "geometry": {
@@ -429,6 +429,10 @@
      [
       4.4491982,
       51.1720442
+     ],
+     [
+      4.449188,
+      51.1720323
      ],
      [
       4.4490401,
@@ -7632,6 +7636,568 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.447994899999999,
    "_lat": 51.17012065,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976112",
+   "properties": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "surface": "paving_stones",
+    "id": "way/939976112",
+    "_lat": "51.17212865",
+    "_lon": "4.44888405",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "47.63946001886928",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4485801,
+      51.172225
+     ],
+     [
+      4.4490948,
+      51.1720761
+     ],
+     [
+      4.449188,
+      51.1720323
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44888405,
+   "_lat": 51.17212865,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976113",
+   "properties": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "surface": "paving_stones",
+    "id": "way/939976113",
+    "_lat": "51.1719952",
+    "_lon": "4.4480661",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "30.31885343965981",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4479529,
+      51.1718788
+     ],
+     [
+      4.4481793,
+      51.1721116
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4480661,
+   "_lat": 51.1719952,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976114",
+   "properties": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "id": "way/939976114",
+    "_lat": "51.1717407",
+    "_lon": "4.44773715",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "8.62491330149979",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4476861,
+      51.1717188
+     ],
+     [
+      4.4477882,
+      51.1717626
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44773715,
+   "_lat": 51.1717407,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976115",
+   "properties": {
+    "bicycle": "yes",
+    "highway": "footway",
+    "surface": "wood",
+    "tunnel": "building_passage",
+    "id": "way/939976115",
+    "_lat": "51.1718207",
+    "_lon": "4.447870549999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "17.511089672904347",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4477882,
+      51.1717626
+     ],
+     [
+      4.4479112,
+      51.1718314
+     ],
+     [
+      4.4479529,
+      51.1718788
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.447870549999999,
+   "_lat": 51.1718207,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976116",
+   "properties": {
+    "highway": "footway",
+    "id": "way/939976116",
+    "_lat": "51.17219865",
+    "_lon": "4.44603135",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.343832445082735",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4460545,
+      51.1722178
+     ],
+     [
+      4.4460082,
+      51.1721795
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44603135,
+   "_lat": 51.17219865,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976117",
+   "properties": {
+    "highway": "footway",
+    "tunnel": "building_passage",
+    "id": "way/939976117",
+    "_lat": "51.172278750000004",
+    "_lon": "4.44612925",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "17.098608676548398",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.446204,
+      51.1723397
+     ],
+     [
+      4.4460545,
+      51.1722178
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44612925,
+   "_lat": 51.172278750000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976118",
+   "properties": {
+    "highway": "footway",
+    "id": "way/939976118",
+    "_lat": "51.1723695",
+    "_lon": "4.446237099999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "8.075941808553878",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4462702,
+      51.1723993
+     ],
+     [
+      4.446204,
+      51.1723397
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.446237099999999,
+   "_lat": 51.1723695,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976122",
+   "properties": {
+    "highway": "path",
+    "id": "way/939976122",
+    "_lat": "51.1715976",
+    "_lon": "4.44480725",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "198.65590447843266",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4438665,
+      51.1717552
+     ],
+     [
+      4.4450319,
+      51.1712394
+     ],
+     [
+      4.4453524,
+      51.171485
+     ],
+     [
+      4.4454436,
+      51.1715085
+     ],
+     [
+      4.4454087,
+      51.1716321
+     ],
+     [
+      4.4455723,
+      51.1717969
+     ],
+     [
+      4.445748,
+      51.1719558
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44480725,
+   "_lat": 51.1715976,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939976125",
+   "properties": {
+    "highway": "footway",
+    "surface": "paved",
+    "id": "way/939976125",
+    "_lat": "51.1688603",
+    "_lon": "4.439613100000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "46.1432852629216",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104257869,
+    "_last_edit:timestamp": "2021-05-06T13:55:46Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4398565,
+      51.16876
+     ],
+     [
+      4.4395307,
+      51.1688177
+     ],
+     [
+      4.4393697,
+      51.1688875
+     ],
+     [
+      4.4394214,
+      51.1689606
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.439613100000001,
+   "_lat": 51.1688603,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939987940",
+   "properties": {
+    "access": "permissive",
+    "highway": "pedestrian",
+    "note": "Doorheen een school, soms dicht",
+    "id": "way/939987940",
+    "_lat": "51.175666050000004",
+    "_lon": "4.44253765",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.461042875207603",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104259791,
+    "_last_edit:timestamp": "2021-05-06T14:32:34Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4425723,
+      51.1756546
+     ],
+     [
+      4.442503,
+      51.1756775
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44253765,
+   "_lat": 51.175666050000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939987941",
+   "properties": {
+    "access": "permissive",
+    "highway": "pedestrian",
+    "note": "Doorheen een school, soms dicht",
+    "tunnel": "building_passage",
+    "id": "way/939987941",
+    "_lat": "51.17562685",
+    "_lon": "4.4426479",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "12.214206210722441",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104259791,
+    "_last_edit:timestamp": "2021-05-06T14:32:34Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4427235,
+      51.1755991
+     ],
+     [
+      4.4425723,
+      51.1756546
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4426479,
+   "_lat": 51.17562685,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939987942",
+   "properties": {
+    "access": "permissive",
+    "highway": "pedestrian",
+    "note": "Doorheen een school, soms dicht",
+    "id": "way/939987942",
+    "_lat": "51.17546865",
+    "_lon": "4.4430949",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "59.3555010855303",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104259791,
+    "_last_edit:timestamp": "2021-05-06T14:32:34Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4434663,
+      51.1753382
+     ],
+     [
+      4.443267,
+      51.1754091
+     ],
+     [
+      4.4427235,
+      51.1755991
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4430949,
+   "_lat": 51.17546865,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/939989312",
+   "properties": {
+    "highway": "footway",
+    "id": "way/939989312",
+    "_lat": "51.1757734",
+    "_lon": "4.459384050000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "51.86999072410369",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104259989,
+    "_last_edit:timestamp": "2021-05-06T14:36:16Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4595544,
+      51.1756122
+     ],
+     [
+      4.4595145,
+      51.1757513
+     ],
+     [
+      4.4595037,
+      51.1757753
+     ],
+     [
+      4.4594642,
+      51.1757996
+     ],
+     [
+      4.459436,
+      51.1758265
+     ],
+     [
+      4.4593891,
+      51.1759018
+     ],
+     [
+      4.4592268,
+      51.1758858
+     ],
+     [
+      4.4592137,
+      51.1759346
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.459384050000001,
+   "_lat": 51.1757734,
    "area": 0
   }
  ]
