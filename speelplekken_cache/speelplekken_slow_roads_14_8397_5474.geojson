@@ -697,6 +697,221 @@
    "_lon": 4.5047305,
    "_lat": 51.14340045,
    "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/940001814",
+   "properties": {
+    "access": "public",
+    "highway": "track",
+    "id": "way/940001814",
+    "_lat": "51.1465079",
+    "_lon": "4.520531999999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "130.03853908775793",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104261726,
+    "_last_edit:timestamp": "2021-05-06T15:13:12Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.521464,
+      51.1465162
+     ],
+     [
+      4.5196,
+      51.1464996
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.520531999999999,
+   "_lat": 51.1465079,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/940007610",
+   "properties": {
+    "access": "public",
+    "highway": "path",
+    "surface": "grass",
+    "id": "way/940007610",
+    "_lat": "51.14645375",
+    "_lon": "4.51851635",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "151.53040172777833",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104262571,
+    "_last_edit:timestamp": "2021-05-06T15:32:55Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5196,
+      51.1464996
+     ],
+     [
+      4.5190863,
+      51.1464735
+     ],
+     [
+      4.5174327,
+      51.1464079
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.51851635,
+   "_lat": 51.14645375,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/940007611",
+   "properties": {
+    "highway": "track",
+    "id": "way/940007611",
+    "_lat": "51.149875550000004",
+    "_lon": "4.51882715",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "176.5169251155009",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104262571,
+    "_last_edit:timestamp": "2021-05-06T15:32:55Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5199399,
+      51.1502351
+     ],
+     [
+      4.519885,
+      51.1502054
+     ],
+     [
+      4.5198313,
+      51.1501823
+     ],
+     [
+      4.5197482,
+      51.1501785
+     ],
+     [
+      4.5196208,
+      51.1501642
+     ],
+     [
+      4.5195329,
+      51.150139
+     ],
+     [
+      4.5192587,
+      51.1500283
+     ],
+     [
+      4.5190488,
+      51.1499387
+     ],
+     [
+      4.5186867,
+      51.1497802
+     ],
+     [
+      4.5185325,
+      51.1497293
+     ],
+     [
+      4.5182877,
+      51.1496607
+     ],
+     [
+      4.5180302,
+      51.1496056
+     ],
+     [
+      4.5179231,
+      51.1495793
+     ],
+     [
+      4.517823,
+      51.149556
+     ],
+     [
+      4.5177144,
+      51.149516
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.51882715,
+   "_lat": 51.149875550000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/940011762",
+   "properties": {
+    "highway": "track",
+    "id": "way/940011762",
+    "_lat": "51.1505527",
+    "_lon": "4.503746899999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "96.30839018761296",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 104263068,
+    "_last_edit:timestamp": "2021-05-06T15:45:23Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5044055,
+      51.1506821
+     ],
+     [
+      4.5037226,
+      51.1505596
+     ],
+     [
+      4.5031178,
+      51.15043
+     ],
+     [
+      4.5030883,
+      51.1504233
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.503746899999999,
+   "_lat": 51.1505527,
+   "area": 0
   }
  ]
 }
