@@ -808,7 +808,7 @@
     "_last_edit:changeset": 80190563,
     "_last_edit:timestamp": "2020-01-28T10:22:28Z",
     "_version_number": 7,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1052,42 +1052,22 @@
     "oneway:bicycle": "no",
     "sidewalk": "right",
     "id": "way/194442182",
-    "_lat": "51.1551676",
-    "_lon": "4.4256063",
+    "_lat": "51.15537965",
+    "_lon": "4.4255715",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "302.51690937817574",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "frans2650",
-    "_last_edit:contributor:uid": 9514585,
-    "_last_edit:changeset": 70344965,
-    "_last_edit:timestamp": "2019-05-17T07:02:35Z",
-    "_version_number": 8,
+    "_length": "111.07798468440706",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104437071,
+    "_last_edit:timestamp": "2021-05-10T09:12:27Z",
+    "_version_number": 9,
     "_part_of_walking_routes": ""
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4255551,
-      51.1546145
-     ],
-     [
-      4.4256397,
-      51.1546109
-     ],
-     [
-      4.4259162,
-      51.1546328
-     ],
-     [
-      4.4259698,
-      51.1546661
-     ],
-     [
-      4.4259997,
-      51.1547107
-     ],
      [
       4.425911,
       51.155035
@@ -1111,28 +1091,12 @@
      [
       4.425232,
       51.1556523
-     ],
-     [
-      4.4252129,
-      51.1555963
-     ],
-     [
-      4.4253025,
-      51.1552905
-     ],
-     [
-      4.4255002,
-      51.1546546
-     ],
-     [
-      4.4255551,
-      51.1546145
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.4256063,
-   "_lat": 51.1551676,
+   "_lon": 4.4255715,
+   "_lat": 51.15537965,
    "area": 0
   },
   {
@@ -1629,7 +1593,7 @@
     "_last_edit:changeset": 82574658,
     "_last_edit:timestamp": "2020-03-24T14:08:14Z",
     "_version_number": 4,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1688,7 +1652,7 @@
     "_last_edit:changeset": 102136077,
     "_last_edit:timestamp": "2021-04-01T15:20:31Z",
     "_version_number": 4,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3756,7 +3720,7 @@
     "_last_edit:changeset": 95639537,
     "_last_edit:timestamp": "2020-12-10T20:14:41Z",
     "_version_number": 3,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4088,7 +4052,7 @@
     "_last_edit:changeset": 68201459,
     "_last_edit:timestamp": "2019-03-16T12:16:41Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4127,7 +4091,7 @@
     "_last_edit:changeset": 102136077,
     "_last_edit:timestamp": "2021-04-01T15:20:31Z",
     "_version_number": 3,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4255,7 +4219,7 @@
     "_last_edit:changeset": 68202408,
     "_last_edit:timestamp": "2019-03-16T12:57:22Z",
     "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -6025,6 +5989,128 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4342627,
    "_lat": 51.16545145,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941375331",
+   "properties": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "living_street",
+    "maxspeed": "20",
+    "motor_vehicle": "yes",
+    "name": "Theo Mertensplein",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "right",
+    "id": "way/941375331",
+    "_lat": "51.1549507",
+    "_lon": "4.4256511",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "150.49823024578814",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104437071,
+    "_last_edit:timestamp": "2021-05-10T09:12:27Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4253025,
+      51.1552905
+     ],
+     [
+      4.4255002,
+      51.1546546
+     ],
+     [
+      4.4255551,
+      51.1546145
+     ],
+     [
+      4.4256397,
+      51.1546109
+     ],
+     [
+      4.4259162,
+      51.1546328
+     ],
+     [
+      4.4259698,
+      51.1546661
+     ],
+     [
+      4.4259997,
+      51.1547107
+     ],
+     [
+      4.425911,
+      51.155035
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4256511,
+   "_lat": 51.1549507,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941375332",
+   "properties": {
+    "access": "yes",
+    "bicycle": "yes",
+    "cycleway": "no",
+    "foot": "yes",
+    "highway": "living_street",
+    "maxspeed": "20",
+    "motor_vehicle": "yes",
+    "name": "Theo Mertensplein",
+    "oneway": "yes",
+    "oneway:bicycle": "no",
+    "sidewalk": "right",
+    "id": "way/941375332",
+    "_lat": "51.155471399999996",
+    "_lon": "4.4252576999999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "40.94069444798052",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104437071,
+    "_last_edit:timestamp": "2021-05-10T09:12:27Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12671204'>Pelgrimspad</a>, <a href='#relation/12671204'>Pelgrimspad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.425232,
+      51.1556523
+     ],
+     [
+      4.4252129,
+      51.1555963
+     ],
+     [
+      4.4253025,
+      51.1552905
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4252576999999995,
+   "_lat": 51.155471399999996,
    "area": 0
   }
  ]
