@@ -785,80 +785,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/547847351",
-   "properties": {
-    "highway": "track",
-    "tracktype": "grade4",
-    "id": "way/547847351",
-    "_lat": "51.0978977",
-    "_lon": "4.4662308500000005",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "322.0036080926761",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "PeeGee50",
-    "_last_edit:contributor:uid": 11035016,
-    "_last_edit:changeset": 84144269,
-    "_last_edit:timestamp": "2020-04-26T14:18:06Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.4664225,
-      51.0965151
-     ],
-     [
-      4.4667146,
-      51.0968313
-     ],
-     [
-      4.4666773,
-      51.0969666
-     ],
-     [
-      4.4665873,
-      51.0972363
-     ],
-     [
-      4.4664459,
-      51.0976599
-     ],
-     [
-      4.4664091,
-      51.09777
-     ],
-     [
-      4.4661731,
-      51.0984067
-     ],
-     [
-      4.4660765,
-      51.0986746
-     ],
-     [
-      4.4660566,
-      51.0987206
-     ],
-     [
-      4.465878,
-      51.0991327
-     ],
-     [
-      4.4657471,
-      51.0992803
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.4662308500000005,
-   "_lat": 51.0978977,
-   "area": 0
-  },
-  {
-   "type": "Feature",
    "id": "way/547847575",
    "properties": {
     "highway": "path",
@@ -1455,6 +1381,44 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4638159,
    "_lat": 51.10310165,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941193260",
+   "properties": {
+    "highway": "track",
+    "tracktype": "grade4",
+    "id": "way/941193260",
+    "_lat": "51.0966732",
+    "_lon": "4.46656855",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "40.64832193400691",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Sammelmuetze",
+    "_last_edit:contributor:uid": 325416,
+    "_last_edit:changeset": 104420817,
+    "_last_edit:timestamp": "2021-05-10T05:00:05Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4664225,
+      51.0965151
+     ],
+     [
+      4.4667146,
+      51.0968313
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.46656855,
+   "_lat": 51.0966732,
    "area": 0
   }
  ]
