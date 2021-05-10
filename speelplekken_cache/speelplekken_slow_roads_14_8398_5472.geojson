@@ -1840,6 +1840,44 @@
    "_lon": 4.53174985,
    "_lat": 51.176249999999996,
    "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941446410",
+   "properties": {
+    "highway": "track",
+    "surface": "unpaved",
+    "id": "way/941446410",
+    "_lat": "51.17536705",
+    "_lon": "4.54271255",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "244.67951984579432",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "JuliaJäpel",
+    "_last_edit:contributor:uid": 13263237,
+    "_last_edit:changeset": 104453771,
+    "_last_edit:timestamp": "2021-05-10T12:55:50Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5409852,
+      51.1751728
+     ],
+     [
+      4.5444399,
+      51.1755613
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.54271255,
+   "_lat": 51.17536705,
+   "area": 0
   }
  ]
 }
