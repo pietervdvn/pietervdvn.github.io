@@ -3595,6 +3595,108 @@
    "_lon": 4.2913993999999995,
    "_lat": 51.1439536,
    "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941945619",
+   "properties": {
+    "highway": "path",
+    "surface": "grass",
+    "tracktype": "grade5",
+    "id": "way/941945619",
+    "_lat": "51.140930100000006",
+    "_lon": "4.2920622999999996",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "106.95557928731323",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "wegspotter",
+    "_last_edit:contributor:uid": 428001,
+    "_last_edit:changeset": 104533005,
+    "_last_edit:timestamp": "2021-05-11T19:52:43Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.2915856,
+      51.1412284
+     ],
+     [
+      4.2921071,
+      51.140833
+     ],
+     [
+      4.29226,
+      51.1409078
+     ],
+     [
+      4.2923377,
+      51.1408397
+     ],
+     [
+      4.292539,
+      51.1406318
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.2920622999999996,
+   "_lat": 51.140930100000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/941945620",
+   "properties": {
+    "highway": "path",
+    "surface": "paved",
+    "tracktype": "grade1",
+    "id": "way/941945620",
+    "_lat": "51.1405934",
+    "_lon": "4.2924997000000005",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "40.87267334850001",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "wegspotter",
+    "_last_edit:contributor:uid": 428001,
+    "_last_edit:changeset": 104533005,
+    "_last_edit:timestamp": "2021-05-11T19:52:43Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.2922768,
+      51.1404767
+     ],
+     [
+      4.292374,
+      51.1405427
+     ],
+     [
+      4.292539,
+      51.1406318
+     ],
+     [
+      4.2926529,
+      51.1406933
+     ],
+     [
+      4.2927226,
+      51.1407101
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.2924997000000005,
+   "_lat": 51.1405934,
+   "area": 0
   }
  ]
 }
