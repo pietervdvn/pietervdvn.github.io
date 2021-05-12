@@ -486,6 +486,58 @@
    "_lon": 4.4402387999999995,
    "_lat": 51.1739051,
    "area": 250.59654134857132
+  },
+  {
+   "type": "Feature",
+   "id": "way/941908608",
+   "properties": {
+    "leisure": "playground",
+    "operator": "stad Mortsel",
+    "id": "way/941908608",
+    "_lat": "51.17341535",
+    "_lon": "4.440401850000001",
+    "_surface": "126.81053329671931",
+    "_surface:ha": "0",
+    "_length": "51.234326013731014",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104528264,
+    "_last_edit:timestamp": "2021-05-11T17:57:55Z",
+    "_version_number": 1,
+    "_size_classification": "large"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.4403772,
+       51.1735028
+      ],
+      [
+       4.4403321,
+       51.1733413
+      ],
+      [
+       4.4404287,
+       51.1733279
+      ],
+      [
+       4.4404716,
+       51.1735014
+      ],
+      [
+       4.4403772,
+       51.1735028
+      ]
+     ]
+    ]
+   },
+   "_matching_layer_id": "playground",
+   "_lon": 4.440401850000001,
+   "_lat": 51.17341535,
+   "area": 126.81053329671931
   }
  ]
 }
