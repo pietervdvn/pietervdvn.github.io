@@ -6819,6 +6819,43 @@
    "_lon": 4.4676358,
    "_lat": 51.16755915,
    "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/942140326",
+   "properties": {
+    "highway": "path",
+    "id": "way/942140326",
+    "_lat": "51.165798499999994",
+    "_lon": "4.46987335",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.708870744146274",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "wegspotter",
+    "_last_edit:contributor:uid": 428001,
+    "_last_edit:changeset": 104561911,
+    "_last_edit:timestamp": "2021-05-12T09:34:15Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": ""
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4698622,
+      51.1658232
+     ],
+     [
+      4.4698845,
+      51.1657738
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.46987335,
+   "_lat": 51.165798499999994,
+   "area": 0
   }
  ]
 }
