@@ -3,201 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/23280934",
-   "properties": {
-    "highway": "pedestrian",
-    "name": "Vorstenhuislaan",
-    "surface": "concrete",
-    "id": "way/23280934",
-    "_lat": "51.1517606",
-    "_lon": "4.38855355",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "28.724431146787197",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "clupu",
-    "_last_edit:contributor:uid": 4565459,
-    "_last_edit:changeset": 49487877,
-    "_last_edit:timestamp": "2017-06-13T05:32:09Z",
-    "_version_number": 3,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.3885902,
-      51.1516335
-     ],
-     [
-      4.3885169,
-      51.1518877
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.38855355,
-   "_lat": 51.1517606,
-   "area": 0
-  },
-  {
-   "type": "Feature",
-   "id": "way/41050446",
-   "properties": {
-    "highway": "footway",
-    "surface": "paving_stones",
-    "id": "way/41050446",
-    "_lat": "51.151602049999994",
-    "_lon": "4.3902321",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "35.38371190764509",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "Pieter Vander Vennet",
-    "_last_edit:contributor:uid": 3818858,
-    "_last_edit:changeset": 82982690,
-    "_last_edit:timestamp": "2020-04-02T13:10:28Z",
-    "_version_number": 3,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.3902129,
-      51.1517607
-     ],
-     [
-      4.3902513,
-      51.1514434
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.3902321,
-   "_lat": 51.151602049999994,
-   "area": 0
-  },
-  {
-   "type": "Feature",
-   "id": "way/53763548",
-   "properties": {
-    "bicycle": "designated",
-    "highway": "path",
-    "id": "way/53763548",
-    "_lat": "51.14811865",
-    "_lon": "4.38490365",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "285.0671142739488",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "henke54",
-    "_last_edit:contributor:uid": 71942,
-    "_last_edit:changeset": 52550507,
-    "_last_edit:timestamp": "2017-10-02T01:21:32Z",
-    "_version_number": 5,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.3845076,
-      51.1493121
-     ],
-     [
-      4.3845233,
-      51.1492037
-     ],
-     [
-      4.3845503,
-      51.1491345
-     ],
-     [
-      4.3846375,
-      51.1489496
-     ],
-     [
-      4.3847632,
-      51.1486894
-     ],
-     [
-      4.3848491,
-      51.1483991
-     ],
-     [
-      4.3848647,
-      51.1483005
-     ],
-     [
-      4.3848629,
-      51.1482034
-     ],
-     [
-      4.3848494,
-      51.14813
-     ],
-     [
-      4.3848045,
-      51.1480524
-     ],
-     [
-      4.3847437,
-      51.147972
-     ],
-     [
-      4.3846646,
-      51.1478973
-     ],
-     [
-      4.3846223,
-      51.1478267
-     ],
-     [
-      4.3846283,
-      51.1477077
-     ],
-     [
-      4.3847841,
-      51.1475411
-     ],
-     [
-      4.3848242,
-      51.1475016
-     ],
-     [
-      4.3848342,
-      51.147421
-     ],
-     [
-      4.3848576,
-      51.147392
-     ],
-     [
-      4.3849678,
-      51.1473039
-     ],
-     [
-      4.3851925,
-      51.1470591
-     ],
-     [
-      4.3852463,
-      51.1470004
-     ],
-     [
-      4.3852997,
-      51.1469252
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.38490365,
-   "_lat": 51.14811865,
-   "area": 0
-  },
-  {
-   "type": "Feature",
    "id": "way/61300850",
    "properties": {
     "bicycle": "yes",
@@ -214,8 +19,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 100226675,
     "_last_edit:timestamp": "2021-03-01T19:17:36Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -265,8 +69,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 102352004,
     "_last_edit:timestamp": "2021-04-05T18:24:58Z",
-    "_version_number": 6,
-    "_part_of_walking_routes": ""
+    "_version_number": 6
    },
    "geometry": {
     "type": "LineString",
@@ -384,8 +187,7 @@
     "_last_edit:contributor:uid": 436365,
     "_last_edit:changeset": 20993756,
     "_last_edit:timestamp": "2014-03-08T20:09:12Z",
-    "_version_number": 5,
-    "_part_of_walking_routes": ""
+    "_version_number": 5
    },
    "geometry": {
     "type": "LineString",
@@ -439,8 +241,7 @@
     "_last_edit:contributor:uid": 1112163,
     "_last_edit:changeset": 14598939,
     "_last_edit:timestamp": "2013-01-10T15:06:39Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -478,8 +279,7 @@
     "_last_edit:contributor:uid": 1112163,
     "_last_edit:changeset": 14598939,
     "_last_edit:timestamp": "2013-01-10T15:06:39Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -521,8 +321,7 @@
     "_last_edit:contributor:uid": 1112163,
     "_last_edit:changeset": 14598939,
     "_last_edit:timestamp": "2013-01-10T15:06:39Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -568,8 +367,7 @@
     "_last_edit:contributor:uid": 2069104,
     "_last_edit:changeset": 53098310,
     "_last_edit:timestamp": "2017-10-20T13:26:38Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -607,8 +405,7 @@
     "_last_edit:contributor:uid": 436365,
     "_last_edit:changeset": 14615820,
     "_last_edit:timestamp": "2013-01-11T21:39:55Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -664,8 +461,7 @@
     "_last_edit:contributor:uid": 672253,
     "_last_edit:changeset": 78633928,
     "_last_edit:timestamp": "2019-12-19T11:07:34Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -709,8 +505,7 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 56648700,
     "_last_edit:timestamp": "2018-02-24T23:44:18Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -754,8 +549,7 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 56648719,
     "_last_edit:timestamp": "2018-02-24T23:45:20Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -799,8 +593,7 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 56648719,
     "_last_edit:timestamp": "2018-02-24T23:45:20Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -848,8 +641,7 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 56648719,
     "_last_edit:timestamp": "2018-02-24T23:45:20Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -901,8 +693,7 @@
     "_last_edit:contributor:uid": 2403313,
     "_last_edit:changeset": 86200375,
     "_last_edit:timestamp": "2020-06-04T17:01:32Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -946,8 +737,7 @@
     "_last_edit:contributor:uid": 8982454,
     "_last_edit:changeset": 92772163,
     "_last_edit:timestamp": "2020-10-20T13:29:47Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -986,8 +776,7 @@
     "_last_edit:contributor:uid": 6141733,
     "_last_edit:changeset": 102861764,
     "_last_edit:timestamp": "2021-04-13T11:00:46Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -1023,8 +812,7 @@
     "_last_edit:contributor:uid": 6141733,
     "_last_edit:changeset": 102935422,
     "_last_edit:timestamp": "2021-04-14T14:06:01Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",

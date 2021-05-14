@@ -3,38 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/45037471",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "soccer",
-    "id": "way/45037471",
-    "_lat": "51.19309715",
-    "_lon": "4.46253645",
-    "_surface": "6380.164624092635",
-    "_surface:ha": "0.6",
-    "_length": "326.7586551411189",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "Eimai",
-    "_last_edit:contributor:uid": 6072,
-    "_last_edit:changeset": 3215126,
-    "_last_edit:timestamp": "2009-11-25T19:08:38Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.46253645,
-     51.19309715
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.46253645,
-   "_lat": 51.19309715,
-   "area": 6380.164624092635
-  },
-  {
-   "type": "Feature",
    "id": "way/87743109",
    "properties": {
     "leisure": "pitch",
@@ -50,8 +18,7 @@
     "_last_edit:contributor:uid": 6457,
     "_last_edit:changeset": 6539515,
     "_last_edit:timestamp": "2010-12-04T15:55:28Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -64,292 +31,6 @@
    "_lon": 4.474734249999999,
    "_lat": 51.1978584,
    "area": 400.4281143058776
-  },
-  {
-   "type": "Feature",
-   "id": "way/487126523",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "tennis",
-    "id": "way/487126523",
-    "_lat": "51.19808105",
-    "_lon": "4.461445449999999",
-    "_surface": "508.57789536645697",
-    "_surface:ha": "0",
-    "_length": "98.01063583504036",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Spanholz",
-    "_last_edit:contributor:uid": 2209894,
-    "_last_edit:changeset": 47834519,
-    "_last_edit:timestamp": "2017-04-16T10:07:59Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.461445449999999,
-     51.19808105
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.461445449999999,
-   "_lat": 51.19808105,
-   "area": 508.57789536645697
-  },
-  {
-   "type": "Feature",
-   "id": "way/487126524",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "tennis",
-    "id": "way/487126524",
-    "_lat": "51.1977732",
-    "_lon": "4.4615528",
-    "_surface": "508.57442162470363",
-    "_surface:ha": "0",
-    "_length": "98.01576704547948",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Spanholz",
-    "_last_edit:contributor:uid": 2209894,
-    "_last_edit:changeset": 47834519,
-    "_last_edit:timestamp": "2017-04-16T10:07:59Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4615528,
-     51.1977732
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.4615528,
-   "_lat": 51.1977732,
-   "area": 508.57442162470363
-  },
-  {
-   "type": "Feature",
-   "id": "way/487126525",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "tennis",
-    "id": "way/487126525",
-    "_lat": "51.197742950000006",
-    "_lon": "4.46133825",
-    "_surface": "508.5401612802068",
-    "_surface:ha": "0",
-    "_length": "98.00229793286974",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Spanholz",
-    "_last_edit:contributor:uid": 2209894,
-    "_last_edit:changeset": 47834519,
-    "_last_edit:timestamp": "2017-04-16T10:07:59Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.46133825,
-     51.197742950000006
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.46133825,
-   "_lat": 51.197742950000006,
-   "area": 508.5401612802068
-  },
-  {
-   "type": "Feature",
-   "id": "way/487126526",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "tennis",
-    "id": "way/487126526",
-    "_lat": "51.19771435",
-    "_lon": "4.461123649999999",
-    "_surface": "508.6877841640751",
-    "_surface:ha": "0",
-    "_length": "98.01625318002199",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Spanholz",
-    "_last_edit:contributor:uid": 2209894,
-    "_last_edit:changeset": 47834519,
-    "_last_edit:timestamp": "2017-04-16T10:07:59Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.461123649999999,
-     51.19771435
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.461123649999999,
-   "_lat": 51.19771435,
-   "area": 508.6877841640751
-  },
-  {
-   "type": "Feature",
-   "id": "way/705652068",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "volleyball",
-    "id": "way/705652068",
-    "_lat": "51.19650075",
-    "_lon": "4.4642747",
-    "_surface": "215.8081148823026",
-    "_surface:ha": "0",
-    "_length": "61.18050007378335",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 72412290,
-    "_last_edit:timestamp": "2019-07-19T03:39:39Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4642747,
-     51.19650075
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.4642747,
-   "_lat": 51.19650075,
-   "area": 215.8081148823026
-  },
-  {
-   "type": "Feature",
-   "id": "way/710627180",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "korfball",
-    "id": "way/710627180",
-    "_lat": "51.195332949999994",
-    "_lon": "4.47184715",
-    "_surface": "2969.2229623864055",
-    "_surface:ha": "0.2",
-    "_length": "223.1061450042126",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 72986393,
-    "_last_edit:timestamp": "2019-08-04T10:21:05Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.47184715,
-     51.195332949999994
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.47184715,
-   "_lat": 51.195332949999994,
-   "area": 2969.2229623864055
-  },
-  {
-   "type": "Feature",
-   "id": "way/753482265",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "basketball",
-    "id": "way/753482265",
-    "_lat": "51.200966550000004",
-    "_lon": "4.47108215",
-    "_surface": "458.6305149516903",
-    "_surface:ha": "0",
-    "_length": "89.2504402522155",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "QuercE",
-    "_last_edit:contributor:uid": 551808,
-    "_last_edit:changeset": 78081814,
-    "_last_edit:timestamp": "2019-12-07T09:07:59Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.47108215,
-     51.200966550000004
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.47108215,
-   "_lat": 51.200966550000004,
-   "area": 458.6305149516903
-  },
-  {
-   "type": "Feature",
-   "id": "way/754641371",
-   "properties": {
-    "leisure": "pitch",
-    "id": "way/754641371",
-    "_lat": "51.19421575",
-    "_lon": "4.46160435",
-    "_surface": "541.6630878570908",
-    "_surface:ha": "0",
-    "_length": "94.40950614785345",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 78273073,
-    "_last_edit:timestamp": "2019-12-11T17:10:01Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.46160435,
-     51.19421575
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.46160435,
-   "_lat": 51.19421575,
-   "area": 541.6630878570908
-  },
-  {
-   "type": "Feature",
-   "id": "way/785021037",
-   "properties": {
-    "leisure": "pitch",
-    "id": "way/785021037",
-    "_lat": "51.1939546",
-    "_lon": "4.472663900000001",
-    "_surface": "113.16672726976381",
-    "_surface:ha": "0",
-    "_length": "44.808887001503805",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 82701809,
-    "_last_edit:timestamp": "2020-03-27T08:18:24Z",
-    "_version_number": 1,
-    "_size_classification": "small"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.472663900000001,
-     51.1939546
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.472663900000001,
-   "_lat": 51.1939546,
-   "area": 113.16672726976381
   },
   {
    "type": "Feature",
@@ -368,8 +49,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 99653573,
     "_last_edit:timestamp": "2021-02-20T17:39:27Z",
-    "_version_number": 1,
-    "_size_classification": "small"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -401,8 +81,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 99653573,
     "_last_edit:timestamp": "2021-02-20T17:39:27Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -434,8 +113,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 99653573,
     "_last_edit:timestamp": "2021-02-20T17:39:27Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -466,8 +144,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 99654326,
     "_last_edit:timestamp": "2021-02-20T17:58:45Z",
-    "_version_number": 1,
-    "_size_classification": "small"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -498,8 +175,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 100218608,
     "_last_edit:timestamp": "2021-03-01T16:22:44Z",
-    "_version_number": 1,
-    "_size_classification": "large"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -512,99 +188,6 @@
    "_lon": 4.4743789,
    "_lat": 51.1980515,
    "area": 807.8524809646317
-  },
-  {
-   "type": "Feature",
-   "id": "way/940149783",
-   "properties": {
-    "leisure": "pitch",
-    "id": "way/940149783",
-    "_lat": "51.1956498",
-    "_lon": "4.4696022",
-    "_surface": "791.2800775764167",
-    "_surface:ha": "0",
-    "_length": "119.74294224570826",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 104272285,
-    "_last_edit:timestamp": "2021-05-06T19:51:24Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4696022,
-     51.1956498
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.4696022,
-   "_lat": 51.1956498,
-   "area": 791.2800775764167
-  },
-  {
-   "type": "Feature",
-   "id": "way/940149784",
-   "properties": {
-    "leisure": "pitch",
-    "id": "way/940149784",
-    "_lat": "51.1958652",
-    "_lon": "4.46959755",
-    "_surface": "791.189092582175",
-    "_surface:ha": "0",
-    "_length": "119.74539635632462",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 104272285,
-    "_last_edit:timestamp": "2021-05-06T19:51:24Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.46959755,
-     51.1958652
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.46959755,
-   "_lat": 51.1958652,
-   "area": 791.189092582175
-  },
-  {
-   "type": "Feature",
-   "id": "way/940149785",
-   "properties": {
-    "leisure": "pitch",
-    "id": "way/940149785",
-    "_lat": "51.1957593",
-    "_lon": "4.47006605",
-    "_surface": "805.1897385953242",
-    "_surface:ha": "0",
-    "_length": "120.49030367142349",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 104272285,
-    "_last_edit:timestamp": "2021-05-06T19:51:24Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.47006605,
-     51.1957593
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.47006605,
-   "_lat": 51.1957593,
-   "area": 805.1897385953242
   },
   {
    "type": "Feature",
@@ -623,8 +206,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 99616223,
     "_last_edit:timestamp": "2021-02-19T20:26:52Z",
-    "_version_number": 1,
-    "_size_classification": "small"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",

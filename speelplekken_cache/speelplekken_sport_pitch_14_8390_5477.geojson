@@ -3,102 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/237806601",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "basketball",
-    "id": "way/237806601",
-    "_lat": "51.1083238",
-    "_lon": "4.3624429",
-    "_surface": "1066.3780466043154",
-    "_surface:ha": "0.1",
-    "_length": "136.48638010697695",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 17815656,
-    "_last_edit:timestamp": "2013-09-13T11:26:12Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.3624429,
-     51.1083238
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.3624429,
-   "_lat": 51.1083238,
-   "area": 1066.3780466043154
-  },
-  {
-   "type": "Feature",
-   "id": "way/237806602",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "soccer",
-    "id": "way/237806602",
-    "_lat": "51.10895815",
-    "_lon": "4.3623674999999995",
-    "_surface": "5043.584559390841",
-    "_surface:ha": "0.5",
-    "_length": "297.63726576941394",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 17815656,
-    "_last_edit:timestamp": "2013-09-13T11:26:12Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.3623674999999995,
-     51.10895815
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.3623674999999995,
-   "_lat": 51.10895815,
-   "area": 5043.584559390841
-  },
-  {
-   "type": "Feature",
-   "id": "way/559247694",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "soccer",
-    "id": "way/559247694",
-    "_lat": "51.1041544",
-    "_lon": "4.3665194",
-    "_surface": "237.1474543948568",
-    "_surface:ha": "0",
-    "_length": "63.21503171301762",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Netzty",
-    "_last_edit:contributor:uid": 5687014,
-    "_last_edit:changeset": 56130858,
-    "_last_edit:timestamp": "2018-02-06T21:39:32Z",
-    "_version_number": 1,
-    "_size_classification": "medium"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.3665194,
-     51.1041544
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.3665194,
-   "_lat": 51.1041544,
-   "area": 237.1474543948568
-  },
-  {
-   "type": "Feature",
    "id": "way/924781701",
    "properties": {
     "leisure": "pitch",
@@ -114,8 +18,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 102122351,
     "_last_edit:timestamp": "2021-04-01T11:32:41Z",
-    "_version_number": 1,
-    "_size_classification": "small"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",
@@ -146,8 +49,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 102122351,
     "_last_edit:timestamp": "2021-04-01T11:32:41Z",
-    "_version_number": 1,
-    "_size_classification": "large"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Point",

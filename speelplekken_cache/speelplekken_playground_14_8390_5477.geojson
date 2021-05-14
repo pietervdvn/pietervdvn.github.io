@@ -3,57 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/141956531",
-   "properties": {
-    "leisure": "playground",
-    "id": "way/141956531",
-    "_lat": "51.1041294",
-    "_lon": "4.370794650000001",
-    "_surface": "208.33932772327847",
-    "_surface:ha": "0",
-    "_length": "61.22163409052556",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 10155043,
-    "_last_edit:timestamp": "2011-12-19T12:24:48Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.3707046,
-       51.1042151
-      ],
-      [
-       4.3706315,
-       51.104136
-      ],
-      [
-       4.3708847,
-       51.1040437
-      ],
-      [
-       4.3709578,
-       51.1041228
-      ],
-      [
-       4.3707046,
-       51.1042151
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.370794650000001,
-   "_lat": 51.1041294,
-   "area": 208.33932772327847
-  },
-  {
-   "type": "Feature",
    "id": "way/149727193",
    "properties": {
     "leisure": "playground",
@@ -68,8 +17,7 @@
     "_last_edit:contributor:uid": 436365,
     "_last_edit:changeset": 10642964,
     "_last_edit:timestamp": "2012-02-10T12:32:06Z",
-    "_version_number": 1,
-    "_size_classification": "large"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Polygon",
@@ -122,69 +70,6 @@
    "_lon": 4.36034045,
    "_lat": 51.1103461,
    "area": 924.9110232179964
-  },
-  {
-   "type": "Feature",
-   "id": "way/237806604",
-   "properties": {
-    "leisure": "playground",
-    "id": "way/237806604",
-    "_lat": "51.1084174",
-    "_lon": "4.36314665",
-    "_surface": "963.0707499064014",
-    "_surface:ha": "0",
-    "_length": "123.83934408385018",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 17815656,
-    "_last_edit:timestamp": "2013-09-13T11:26:13Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.362818,
-       51.1085018
-      ],
-      [
-       4.3629554,
-       51.1082701
-      ],
-      [
-       4.3634753,
-       51.1083916
-      ],
-      [
-       4.3634018,
-       51.1085155
-      ],
-      [
-       4.3633128,
-       51.1085425
-      ],
-      [
-       4.3632107,
-       51.1085634
-      ],
-      [
-       4.3631282,
-       51.1085647
-      ],
-      [
-       4.362818,
-       51.1085018
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.36314665,
-   "_lat": 51.1084174,
-   "area": 963.0707499064014
   }
  ]
 }

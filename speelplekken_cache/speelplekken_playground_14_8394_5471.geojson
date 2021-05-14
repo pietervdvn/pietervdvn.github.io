@@ -17,8 +17,7 @@
     "_last_edit:contributor:uid": 1983103,
     "_last_edit:changeset": 82697214,
     "_last_edit:timestamp": "2020-03-27T06:54:55Z",
-    "_version_number": 2,
-    "_size_classification": "large"
+    "_version_number": 2
    },
    "geometry": {
     "type": "Polygon",
@@ -75,72 +74,6 @@
    "_lon": 4.445183050000001,
    "_lat": 51.18672545,
    "area": 1806.4404566408168
-  },
-  {
-   "type": "Feature",
-   "id": "node/2311692245",
-   "properties": {
-    "leisure": "playground",
-    "lit": "no",
-    "operator": "Stad Antwerpen",
-    "surface": "sand",
-    "wheelchair": "limited",
-    "id": "node/2311692245",
-    "_lat": "51.1900344",
-    "_lon": "4.4446054",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "0",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "Michel Stuyts",
-    "_last_edit:contributor:uid": 62284,
-    "_last_edit:changeset": 102194677,
-    "_last_edit:timestamp": "2021-04-02T12:48:18Z",
-    "_version_number": 4,
-    "_size_classification": "small"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4446054,
-     51.1900344
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.4446054,
-   "_lat": 51.1900344,
-   "area": 0
-  },
-  {
-   "type": "Feature",
-   "id": "node/2406698390",
-   "properties": {
-    "leisure": "playground",
-    "id": "node/2406698390",
-    "_lat": "51.1897697",
-    "_lon": "4.4453038",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "0",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "D!zzy",
-    "_last_edit:contributor:uid": 586389,
-    "_last_edit:changeset": 17212329,
-    "_last_edit:timestamp": "2013-08-04T09:28:01Z",
-    "_version_number": 1,
-    "_size_classification": "small"
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4453038,
-     51.1897697
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.4453038,
-   "_lat": 51.1897697,
-   "area": 0
   }
  ]
 }

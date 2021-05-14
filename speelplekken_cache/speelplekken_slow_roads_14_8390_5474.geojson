@@ -23,8 +23,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 102352004,
     "_last_edit:timestamp": "2021-04-05T18:24:58Z",
-    "_version_number": 6,
-    "_part_of_walking_routes": ""
+    "_version_number": 6
    },
    "geometry": {
     "type": "LineString",
@@ -141,8 +140,7 @@
     "_last_edit:contributor:uid": 194111,
     "_last_edit:changeset": 13289429,
     "_last_edit:timestamp": "2012-09-28T19:48:19Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",
@@ -296,8 +294,7 @@
     "_last_edit:contributor:uid": 2069104,
     "_last_edit:changeset": 53098310,
     "_last_edit:timestamp": "2017-10-20T13:26:38Z",
-    "_version_number": 2,
-    "_part_of_walking_routes": ""
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -343,151 +340,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/259704196",
-   "properties": {
-    "bicycle": "designated",
-    "foot": "designated",
-    "highway": "path",
-    "segregated": "no",
-    "id": "way/259704196",
-    "_lat": "51.14863475",
-    "_lon": "4.35125695",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "91.70007151137654",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "Lucapersempre",
-    "_last_edit:contributor:uid": 171749,
-    "_last_edit:changeset": 20348246,
-    "_last_edit:timestamp": "2014-02-03T08:25:07Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.3519127,
-      51.1486064
-     ],
-     [
-      4.3513161,
-      51.1486294
-     ],
-     [
-      4.3506012,
-      51.1486631
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.35125695,
-   "_lat": 51.14863475,
-   "area": 0
-  },
-  {
-   "type": "Feature",
-   "id": "way/458637393",
-   "properties": {
-    "highway": "track",
-    "id": "way/458637393",
-    "_lat": "51.15008845",
-    "_lon": "4.3668054000000005",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "606.8915676324702",
-    "_length:km": "0.6",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 83161815,
-    "_last_edit:timestamp": "2020-04-06T18:50:20Z",
-    "_version_number": 4,
-    "_part_of_walking_routes": ""
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.3631737,
-      51.1509473
-     ],
-     [
-      4.3642098,
-      51.15083
-     ],
-     [
-      4.3642465,
-      51.1508236
-     ],
-     [
-      4.364277,
-      51.1508151
-     ],
-     [
-      4.364467,
-      51.1507445
-     ],
-     [
-      4.3646895,
-      51.1506565
-     ],
-     [
-      4.3648773,
-      51.1505993
-     ],
-     [
-      4.3649631,
-      51.1505589
-     ],
-     [
-      4.3650114,
-      51.150505
-     ],
-     [
-      4.3650275,
-      51.1504243
-     ],
-     [
-      4.3648934,
-      51.1499094
-     ],
-     [
-      4.3648987,
-      51.1498691
-     ],
-     [
-      4.3649524,
-      51.1498455
-     ],
-     [
-      4.3650168,
-      51.1498287
-     ],
-     [
-      4.3680919,
-      51.1495015
-     ],
-     [
-      4.3682618,
-      51.1494926
-     ],
-     [
-      4.3703003,
-      51.1492839
-     ],
-     [
-      4.3704371,
-      51.1492296
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.3668054000000005,
-   "_lat": 51.15008845,
-   "area": 0
-  },
-  {
-   "type": "Feature",
    "id": "way/563959504",
    "properties": {
     "highway": "path",
@@ -502,8 +354,7 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 56648719,
     "_last_edit:timestamp": "2018-02-24T23:45:20Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": ""
+    "_version_number": 1
    },
    "geometry": {
     "type": "LineString",

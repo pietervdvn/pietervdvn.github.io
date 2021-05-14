@@ -3,196 +3,6 @@
  "features": [
   {
    "type": "Feature",
-   "id": "way/27937602",
-   "properties": {
-    "leisure": "playground",
-    "name": "Drie Bunderkes",
-    "note": "naam: gemeenteraad 20061120",
-    "id": "way/27937602",
-    "_lat": "51.174963950000006",
-    "_lon": "4.4215286",
-    "_surface": "5217.729252517098",
-    "_surface:ha": "0.5",
-    "_length": "329.0310228516811",
-    "_length:km": "0.3",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 82906059,
-    "_last_edit:timestamp": "2020-04-01T07:10:08Z",
-    "_version_number": 5,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4220792,
-       51.1746928
-      ],
-      [
-       4.4220571,
-       51.1749776
-      ],
-      [
-       4.4221914,
-       51.1749787
-      ],
-      [
-       4.4221635,
-       51.1751714
-      ],
-      [
-       4.4220641,
-       51.1751672
-      ],
-      [
-       4.4220596,
-       51.1752313
-      ],
-      [
-       4.421976,
-       51.1752288
-      ],
-      [
-       4.4219653,
-       51.175316
-      ],
-      [
-       4.4215578,
-       51.1752891
-      ],
-      [
-       4.4215189,
-       51.1752817
-      ],
-      [
-       4.421474,
-       51.1752731
-      ],
-      [
-       4.4208658,
-       51.1752467
-      ],
-      [
-       4.420969,
-       51.1750115
-      ],
-      [
-       4.4210201,
-       51.1748944
-      ],
-      [
-       4.4211206,
-       51.1746647
-      ],
-      [
-       4.4211461,
-       51.1746119
-      ],
-      [
-       4.4214876,
-       51.1746197
-      ],
-      [
-       4.421479,
-       51.1747423
-      ],
-      [
-       4.4215302,
-       51.1747453
-      ],
-      [
-       4.4216612,
-       51.1747496
-      ],
-      [
-       4.4216667,
-       51.174683
-      ],
-      [
-       4.4220792,
-       51.1746928
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.4215286,
-   "_lat": 51.174963950000006,
-   "area": 5217.729252517098
-  },
-  {
-   "type": "Feature",
-   "id": "way/70283701",
-   "properties": {
-    "leisure": "playground",
-    "name": "Monnikenplein",
-    "source": "http://www.gva.be/cnt/blllu_02037626/monnikenplein-krijgt-speeltuin-als-kerstgeschenk",
-    "id": "way/70283701",
-    "_lat": "51.17525225",
-    "_lon": "4.43053475",
-    "_surface": "2130.995762662404",
-    "_surface:ha": "0.2",
-    "_length": "184.14811622815319",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "henke54",
-    "_last_edit:contributor:uid": 71942,
-    "_last_edit:changeset": 50337192,
-    "_last_edit:timestamp": "2017-07-17T00:03:23Z",
-    "_version_number": 3,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4300508,
-       51.1751144
-      ],
-      [
-       4.4301175,
-       51.1750719
-      ],
-      [
-       4.430967,
-       51.1751204
-      ],
-      [
-       4.4310187,
-       51.1751728
-      ],
-      [
-       4.4308832,
-       51.175405
-      ],
-      [
-       4.4308175,
-       51.1754326
-      ],
-      [
-       4.4301745,
-       51.1753928
-      ],
-      [
-       4.4301121,
-       51.1753553
-      ],
-      [
-       4.4300508,
-       51.1751144
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.43053475,
-   "_lat": 51.17525225,
-   "area": 2130.995762662404
-  },
-  {
-   "type": "Feature",
    "id": "way/205199623",
    "properties": {
     "access": "yes",
@@ -210,8 +20,7 @@
     "_last_edit:contributor:uid": 2221769,
     "_last_edit:changeset": 74856897,
     "_last_edit:timestamp": "2019-09-24T13:00:33Z",
-    "_version_number": 2,
-    "_size_classification": "large"
+    "_version_number": 2
    },
    "geometry": {
     "type": "Polygon",
@@ -300,8 +109,7 @@
     "_last_edit:contributor:uid": 2221769,
     "_last_edit:changeset": 75001442,
     "_last_edit:timestamp": "2019-09-27T11:04:50Z",
-    "_version_number": 3,
-    "_size_classification": "large"
+    "_version_number": 3
    },
    "geometry": {
     "type": "Polygon",
@@ -352,8 +160,7 @@
     "_last_edit:contributor:uid": 2221769,
     "_last_edit:changeset": 75001442,
     "_last_edit:timestamp": "2019-09-27T11:04:25Z",
-    "_version_number": 2,
-    "_size_classification": "large"
+    "_version_number": 2
    },
    "geometry": {
     "type": "Polygon",
@@ -389,108 +196,6 @@
   },
   {
    "type": "Feature",
-   "id": "way/727746182",
-   "properties": {
-    "leisure": "playground",
-    "id": "way/727746182",
-    "_lat": "51.171549850000005",
-    "_lon": "4.4303311",
-    "_surface": "239.63921689858995",
-    "_surface:ha": "0",
-    "_length": "63.19345559429523",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "dderycker",
-    "_last_edit:contributor:uid": 2221769,
-    "_last_edit:changeset": 74855582,
-    "_last_edit:timestamp": "2019-09-24T12:36:47Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.4301883,
-       51.1715998
-      ],
-      [
-       4.4302016,
-       51.1714872
-      ],
-      [
-       4.4304739,
-       51.1714998
-      ],
-      [
-       4.4304606,
-       51.1716125
-      ],
-      [
-       4.4301883,
-       51.1715998
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.4303311,
-   "_lat": 51.171549850000005,
-   "area": 239.63921689858995
-  },
-  {
-   "type": "Feature",
-   "id": "way/727746183",
-   "properties": {
-    "leisure": "playground",
-    "id": "way/727746183",
-    "_lat": "51.1715781",
-    "_lon": "4.4307888",
-    "_surface": "239.52811891038536",
-    "_surface:ha": "0",
-    "_length": "63.18152149033104",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "dderycker",
-    "_last_edit:contributor:uid": 2221769,
-    "_last_edit:changeset": 74855582,
-    "_last_edit:timestamp": "2019-09-24T12:36:47Z",
-    "_version_number": 1,
-    "_size_classification": "large"
-   },
-   "geometry": {
-    "type": "Polygon",
-    "coordinates": [
-     [
-      [
-       4.430646,
-       51.1716281
-      ],
-      [
-       4.4306593,
-       51.1715155
-      ],
-      [
-       4.4309316,
-       51.1715281
-      ],
-      [
-       4.4309183,
-       51.1716407
-      ],
-      [
-       4.430646,
-       51.1716281
-      ]
-     ]
-    ]
-   },
-   "_matching_layer_id": "playground",
-   "_lon": 4.4307888,
-   "_lat": 51.1715781,
-   "area": 239.52811891038536
-  },
-  {
-   "type": "Feature",
    "id": "way/914131979",
    "properties": {
     "leisure": "playground",
@@ -505,8 +210,7 @@
     "_last_edit:contributor:uid": 3818858,
     "_last_edit:changeset": 100534807,
     "_last_edit:timestamp": "2021-03-06T13:02:56Z",
-    "_version_number": 1,
-    "_size_classification": "large"
+    "_version_number": 1
    },
    "geometry": {
     "type": "Polygon",
@@ -590,8 +294,7 @@
     "_last_edit:contributor:uid": 9451067,
     "_last_edit:changeset": 68506719,
     "_last_edit:timestamp": "2019-03-25T13:29:20Z",
-    "_version_number": 5,
-    "_size_classification": "small"
+    "_version_number": 5
    },
    "geometry": {
     "type": "Point",
