@@ -1522,25 +1522,22 @@
    "properties": {
     "highway": "track",
     "id": "way/626398045",
-    "_lat": "51.176613950000004",
-    "_lon": "4.48671695",
+    "_lat": "51.17663015",
+    "_lon": "4.48689585",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "239.94643909200633",
+    "_length": "209.66721345987744",
     "_length:km": "0.2",
-    "_last_edit:contributor": "JanFi",
-    "_last_edit:contributor:uid": 672253,
-    "_last_edit:changeset": 62695506,
-    "_last_edit:timestamp": "2018-09-18T12:32:22Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837164,
+    "_last_edit:timestamp": "2021-05-17T16:09:48Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4873838,
-      51.1757047
-     ],
      [
       4.4873762,
       51.1757371
@@ -1556,16 +1553,12 @@
      [
       4.4864155,
       51.1775232
-     ],
-     [
-      4.4860501,
-      51.1774531
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.48671695,
-   "_lat": 51.176613950000004,
+   "_lon": 4.48689585,
+   "_lat": 51.17663015,
    "area": 0
   },
   {
@@ -2633,6 +2626,168 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.501613750000001,
    "_lat": 51.17167355,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/943948999",
+   "properties": {
+    "highway": "track",
+    "id": "way/943948999",
+    "_lat": "51.17748815",
+    "_lon": "4.4862328",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "26.637756774952194",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837164,
+    "_last_edit:timestamp": "2021-05-17T16:09:48Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4864155,
+      51.1775232
+     ],
+     [
+      4.4860501,
+      51.1774531
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4862328,
+   "_lat": 51.17748815,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/943949000",
+   "properties": {
+    "highway": "track",
+    "id": "way/943949000",
+    "_lat": "51.1757209",
+    "_lon": "4.48738",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "3.6414688571766733",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837164,
+    "_last_edit:timestamp": "2021-05-17T16:09:48Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4873838,
+      51.1757047
+     ],
+     [
+      4.4873762,
+      51.1757371
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.48738,
+   "_lat": 51.1757209,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/943949949",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "id": "way/943949949",
+    "_lat": "51.179328600000005",
+    "_lon": "4.485551900000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "282.60455473867586",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837311,
+    "_last_edit:timestamp": "2021-05-17T16:12:43Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4849085,
+      51.1805328
+     ],
+     [
+      4.4849271,
+      51.1804657
+     ],
+     [
+      4.4856608,
+      51.1790189
+     ],
+     [
+      4.4859776,
+      51.1785046
+     ],
+     [
+      4.4861953,
+      51.1781244
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.485551900000001,
+   "_lat": 51.179328600000005,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/943949950",
+   "properties": {
+    "highway": "path",
+    "id": "way/943949950",
+    "_lat": "51.1778238",
+    "_lon": "4.4863054",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "68.59012830696008",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837311,
+    "_last_edit:timestamp": "2021-05-17T16:12:43Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4861953,
+      51.1781244
+     ],
+     [
+      4.4864155,
+      51.1775232
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4863054,
+   "_lat": 51.1778238,
    "area": 0
   }
  ]

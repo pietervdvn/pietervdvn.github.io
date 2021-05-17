@@ -1045,7 +1045,8 @@
     "_last_edit:contributor:uid": 436365,
     "_last_edit:changeset": 40539361,
     "_last_edit:timestamp": "2016-07-07T10:56:36Z",
-    "_version_number": 4
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -2136,7 +2137,8 @@
     "_last_edit:contributor:uid": 436365,
     "_last_edit:changeset": 40438950,
     "_last_edit:timestamp": "2016-07-02T12:03:28Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3503,6 +3505,58 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.49212865,
    "_lat": 51.17917235,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/943949949",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "id": "way/943949949",
+    "_lat": "51.179328600000005",
+    "_lon": "4.485551900000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "282.60455473867586",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104837311,
+    "_last_edit:timestamp": "2021-05-17T16:12:43Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12722733'>Koude beekpad</a>, <a href='#relation/12722733'>Koude beekpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4849085,
+      51.1805328
+     ],
+     [
+      4.4849271,
+      51.1804657
+     ],
+     [
+      4.4856608,
+      51.1790189
+     ],
+     [
+      4.4859776,
+      51.1785046
+     ],
+     [
+      4.4861953,
+      51.1781244
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.485551900000001,
+   "_lat": 51.179328600000005,
    "area": 0
   }
  ]
