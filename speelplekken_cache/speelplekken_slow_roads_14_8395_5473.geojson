@@ -437,17 +437,17 @@
     "foot": "yes",
     "highway": "footway",
     "id": "way/27288222",
-    "_lat": "51.154997050000006",
-    "_lon": "4.47010545",
+    "_lat": "51.15490605",
+    "_lon": "4.47031035",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "122.23443374752696",
+    "_length": "70.83552418305226",
     "_length:km": "0.1",
-    "_last_edit:contributor": "H4N5-antw",
-    "_last_edit:contributor:uid": 10846743,
-    "_last_edit:changeset": 100803667,
-    "_last_edit:timestamp": "2021-03-10T22:09:19Z",
-    "_version_number": 8
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 9
    },
    "geometry": {
     "type": "LineString",
@@ -475,28 +475,12 @@
      [
       4.4704353,
       51.1552146
-     ],
-     [
-      4.4701689,
-      51.1552691
-     ],
-     [
-      4.469961,
-      51.1553096
-     ],
-     [
-      4.4698802,
-      51.1553253
-     ],
-     [
-      4.4697756,
-      51.1553966
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.47010545,
-   "_lat": 51.154997050000006,
+   "_lon": 4.47031035,
+   "_lat": 51.15490605,
    "area": 0
   },
   {
@@ -691,7 +675,8 @@
     "_last_edit:contributor:uid": 291362,
     "_last_edit:changeset": 4805537,
     "_last_edit:timestamp": "2010-05-25T17:02:23Z",
-    "_version_number": 2
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -884,17 +869,18 @@
     "highway": "path",
     "surface": "sand",
     "id": "way/73019262",
-    "_lat": "51.152693150000005",
-    "_lon": "4.47538245",
+    "_lat": "51.15267915",
+    "_lon": "4.47536165",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "140.81106617746033",
+    "_length": "136.55523645188933",
     "_length:km": "0.1",
-    "_last_edit:contributor": "escada",
-    "_last_edit:contributor:uid": 436365,
-    "_last_edit:changeset": 27198324,
-    "_last_edit:timestamp": "2014-12-03T12:02:20Z",
-    "_version_number": 3
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -926,16 +912,12 @@
      [
       4.476163,
       51.1528645
-     ],
-     [
-      4.4762046,
-      51.1528925
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.47538245,
-   "_lat": 51.152693150000005,
+   "_lon": 4.47536165,
+   "_lat": 51.15267915,
    "area": 0
   },
   {
@@ -3198,17 +3180,17 @@
     "highway": "path",
     "surface": "grass",
     "id": "way/840294995",
-    "_lat": "51.1595428",
+    "_lat": "51.159566",
     "_lon": "4.476057600000001",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "216.6548002152601",
+    "_length": "206.30832475779093",
     "_length:km": "0.2",
-    "_last_edit:contributor": "H4N5-antw",
-    "_last_edit:contributor:uid": 10846743,
-    "_last_edit:changeset": 104822737,
-    "_last_edit:timestamp": "2021-05-17T11:43:48Z",
-    "_version_number": 2
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "LineString",
@@ -3268,16 +3250,12 @@
      [
       4.4758401,
       51.1587925
-     ],
-     [
-      4.4757115,
-      51.1587461
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
    "_lon": 4.476057600000001,
-   "_lat": 51.1595428,
+   "_lat": 51.159566,
    "area": 0
   },
   {
@@ -3297,7 +3275,8 @@
     "_last_edit:contributor:uid": 10846743,
     "_last_edit:changeset": 89874731,
     "_last_edit:timestamp": "2020-08-24T19:19:45Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3350,7 +3329,8 @@
     "_last_edit:contributor:uid": 10846743,
     "_last_edit:changeset": 89874731,
     "_last_edit:timestamp": "2020-08-24T19:19:45Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3389,7 +3369,8 @@
     "_last_edit:contributor:uid": 2403313,
     "_last_edit:changeset": 89901112,
     "_last_edit:timestamp": "2020-08-25T08:38:04Z",
-    "_version_number": 2
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3426,7 +3407,8 @@
     "_last_edit:contributor:uid": 10846743,
     "_last_edit:changeset": 89874731,
     "_last_edit:timestamp": "2020-08-24T19:19:45Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -4859,6 +4841,133 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4755996499999995,
    "_lat": 51.160175550000005,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/944610152",
+   "properties": {
+    "foot": "yes",
+    "highway": "footway",
+    "id": "way/944610152",
+    "_lat": "51.155305600000005",
+    "_lon": "4.47010545",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "51.39890956447473",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4704353,
+      51.1552146
+     ],
+     [
+      4.4701689,
+      51.1552691
+     ],
+     [
+      4.469961,
+      51.1553096
+     ],
+     [
+      4.4698802,
+      51.1553253
+     ],
+     [
+      4.4697756,
+      51.1553966
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.47010545,
+   "_lat": 51.155305600000005,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/944610157",
+   "properties": {
+    "highway": "path",
+    "surface": "grass",
+    "id": "way/944610157",
+    "_lat": "51.1587693",
+    "_lon": "4.4757758",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "10.346475457469186",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4758401,
+      51.1587925
+     ],
+     [
+      4.4757115,
+      51.1587461
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4757758,
+   "_lat": 51.1587693,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/944610163",
+   "properties": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "highway": "path",
+    "surface": "sand",
+    "id": "way/944610163",
+    "_lat": "51.1528785",
+    "_lon": "4.476183799999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "4.255829725570996",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 104952583,
+    "_last_edit:timestamp": "2021-05-19T10:34:35Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.476163,
+      51.1528645
+     ],
+     [
+      4.4762046,
+      51.1528925
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.476183799999999,
+   "_lat": 51.1528785,
    "area": 0
   }
  ]
