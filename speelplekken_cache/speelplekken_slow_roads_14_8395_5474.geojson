@@ -779,6 +779,7 @@
    "properties": {
     "bicycle": "yes",
     "highway": "path",
+    "surface": "compacted",
     "id": "way/28309744",
     "_lat": "51.14450985",
     "_lon": "4.47406585",
@@ -786,11 +787,11 @@
     "_surface:ha": "0",
     "_length": "44.984900869049746",
     "_length:km": "0.0",
-    "_last_edit:contributor": "woutersw",
-    "_last_edit:contributor:uid": 7164024,
-    "_last_edit:changeset": 54403916,
-    "_last_edit:timestamp": "2017-12-06T14:59:38Z",
-    "_version_number": 5
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105415810,
+    "_last_edit:timestamp": "2021-05-27T10:00:58Z",
+    "_version_number": 6
    },
    "geometry": {
     "type": "LineString",
@@ -1731,7 +1732,7 @@
     "bridge": "yes",
     "foot": "yes",
     "highway": "path",
-    "surface": "ground",
+    "surface": "metal",
     "tracktype": "grade4",
     "id": "way/237993704",
     "_lat": "51.1453954",
@@ -1740,11 +1741,11 @@
     "_surface:ha": "0",
     "_length": "22.9780192524496",
     "_length:km": "0.0",
-    "_last_edit:contributor": "El_Burro",
-    "_last_edit:contributor:uid": 1809304,
-    "_last_edit:changeset": 18958850,
-    "_last_edit:timestamp": "2013-11-17T19:24:21Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105415810,
+    "_last_edit:timestamp": "2021-05-27T10:01:30Z",
+    "_version_number": 3,
     "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
@@ -2403,6 +2404,7 @@
    "properties": {
     "bicycle": "yes",
     "highway": "path",
+    "surface": "compacted",
     "id": "way/267026782",
     "_lat": "51.14486905",
     "_lon": "4.4758270499999995",
@@ -2410,11 +2412,11 @@
     "_surface:ha": "0",
     "_length": "89.10438067145797",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Globelotter",
-    "_last_edit:contributor:uid": 6141733,
-    "_last_edit:changeset": 104956683,
-    "_last_edit:timestamp": "2021-05-19T11:26:46Z",
-    "_version_number": 5,
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105415810,
+    "_last_edit:timestamp": "2021-05-27T10:01:10Z",
+    "_version_number": 6,
     "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
@@ -4009,6 +4011,7 @@
     "highway": "living_street",
     "maxspeed": "20",
     "name": "Felix Timmermansstraat",
+    "surface": "paving_stones",
     "id": "way/691907781",
     "_lat": "51.14545065",
     "_lon": "4.46821575",
@@ -4016,11 +4019,11 @@
     "_surface:ha": "0",
     "_length": "255.4644290247674",
     "_length:km": "0.3",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 102405212,
-    "_last_edit:timestamp": "2021-04-06T11:51:23Z",
-    "_version_number": 2
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105416297,
+    "_last_edit:timestamp": "2021-05-27T10:04:47Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "LineString",
@@ -4758,6 +4761,7 @@
    "properties": {
     "foot": "yes",
     "highway": "path",
+    "surface": "compacted",
     "id": "way/944629919",
     "_lat": "51.14524915",
     "_lon": "4.47616995",
@@ -4765,11 +4769,11 @@
     "_surface:ha": "0",
     "_length": "57.2535289936852",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Globelotter",
-    "_last_edit:contributor:uid": 6141733,
-    "_last_edit:changeset": 104956683,
-    "_last_edit:timestamp": "2021-05-19T11:26:46Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105415810,
+    "_last_edit:timestamp": "2021-05-27T10:01:14Z",
+    "_version_number": 2,
     "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>, <a href='#relation/12731308'>Natuurvriendenpad</a>"
    },
    "geometry": {
@@ -4845,6 +4849,7 @@
    "properties": {
     "bicycle": "yes",
     "highway": "path",
+    "surface": "compacted",
     "id": "way/944629921",
     "_lat": "51.1445944",
     "_lon": "4.474824399999999",
@@ -4852,11 +4857,11 @@
     "_surface:ha": "0",
     "_length": "67.56858561381725",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Globelotter",
-    "_last_edit:contributor:uid": 6141733,
-    "_last_edit:changeset": 104956683,
-    "_last_edit:timestamp": "2021-05-19T11:26:46Z",
-    "_version_number": 1
+    "_last_edit:contributor": "tijsvandenheuvel",
+    "_last_edit:contributor:uid": 12727706,
+    "_last_edit:changeset": 105415810,
+    "_last_edit:timestamp": "2021-05-27T10:00:41Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
