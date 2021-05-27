@@ -2484,49 +2484,21 @@
    "properties": {
     "highway": "footway",
     "id": "way/537706277",
-    "_lat": "51.1617392",
-    "_lon": "4.44607745",
+    "_lat": "51.1615988",
+    "_lon": "4.446199249999999",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "145.99324397849125",
+    "_length": "101.85546575830072",
     "_length:km": "0.1",
-    "_last_edit:contributor": "WoutLever",
-    "_last_edit:contributor:uid": 6521774,
-    "_last_edit:changeset": 53449387,
-    "_last_edit:timestamp": "2017-11-02T11:59:31Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Sammelmuetze",
+    "_last_edit:contributor:uid": 325416,
+    "_last_edit:changeset": 105214598,
+    "_last_edit:timestamp": "2021-05-24T09:53:39Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.4455241,
-      51.162146
-     ],
-     [
-      4.445525,
-      51.1620666
-     ],
-     [
-      4.4455074,
-      51.1619759
-     ],
-     [
-      4.4454968,
-      51.1619183
-     ],
-     [
-      4.4455268,
-      51.1618962
-     ],
-     [
-      4.4455709,
-      51.1618807
-     ],
-     [
-      4.4456645,
-      51.1618707
-     ],
      [
       4.4457404,
       51.1618652
@@ -2614,8 +2586,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.44607745,
-   "_lat": 51.1617392,
+   "_lon": 4.446199249999999,
+   "_lat": 51.1615988,
    "area": 0
   },
   {
@@ -7970,6 +7942,58 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4408262,
    "_lat": 51.1554772,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/946398444",
+   "properties": {
+    "highway": "footway",
+    "id": "way/946398444",
+    "_lat": "51.162013349999995",
+    "_lon": "4.44553385",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "32.1887936410672",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Sammelmuetze",
+    "_last_edit:contributor:uid": 325416,
+    "_last_edit:changeset": 105214598,
+    "_last_edit:timestamp": "2021-05-24T09:53:39Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4455241,
+      51.162146
+     ],
+     [
+      4.445525,
+      51.1620666
+     ],
+     [
+      4.4455074,
+      51.1619759
+     ],
+     [
+      4.4454968,
+      51.1619183
+     ],
+     [
+      4.4455268,
+      51.1618962
+     ],
+     [
+      4.4455709,
+      51.1618807
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44553385,
+   "_lat": 51.162013349999995,
    "area": 0
   }
  ]
