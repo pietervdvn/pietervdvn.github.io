@@ -6,7 +6,7 @@ PATH=/home/pietervdvn/.local/bin:/home/pietervdvn/.nvm/versions/node/v16.0.0/bin
 cd /home/pietervdvn/git/pietervdvn.github.io
 rm speelplekken_cache/*.json
 cd ../MapComplete
-git pull
+# git pull # The CD-script should be doing the pull and deploying!
 echo "Starting the caching script"
 npm run generate:cache:speelplekken
 echo "Caching done, commiting now"
