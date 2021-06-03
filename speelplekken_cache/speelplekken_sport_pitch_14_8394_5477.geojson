@@ -65,6 +65,41 @@
    "_lon": 4.45526675,
    "_lat": 51.1070096,
    "area": 648.396568579693
+  },
+  {
+   "type": "Feature",
+   "id": "way/720585231",
+   "properties": {
+    "boules": "petanque",
+    "indoor": "yes",
+    "leisure": "pitch",
+    "source:geometry:date": "2014-10-09",
+    "source:geometry:ref": "Gbg/4865588",
+    "sport": "boules",
+    "id": "way/720585231",
+    "_lat": "51.10394205",
+    "_lon": "4.4565877",
+    "_surface": "137.47840691033588",
+    "_surface:ha": "0",
+    "_length": "47.64449535951379",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105769368,
+    "_last_edit:timestamp": "2021-06-03T09:59:33Z",
+    "_version_number": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4565877,
+     51.10394205
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_lon": 4.4565877,
+   "_lat": 51.10394205,
+   "area": 137.47840691033588
   }
  ]
 }

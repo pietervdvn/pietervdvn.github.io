@@ -80,7 +80,8 @@
     "_last_edit:contributor:uid": 672253,
     "_last_edit:changeset": 66664266,
     "_last_edit:timestamp": "2019-01-26T21:02:28Z",
-    "_version_number": 15
+    "_version_number": 15,
+    "_part_of_walking_routes": "<a href='#relation/22443'>Boshoekpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -245,7 +246,8 @@
     "_last_edit:contributor:uid": 4816382,
     "_last_edit:changeset": 67526862,
     "_last_edit:timestamp": "2019-02-24T19:46:44Z",
-    "_version_number": 5
+    "_version_number": 5,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -291,7 +293,8 @@
     "_last_edit:contributor:uid": 6072,
     "_last_edit:changeset": 1927601,
     "_last_edit:timestamp": "2009-07-24T18:38:30Z",
-    "_version_number": 4
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -336,7 +339,8 @@
     "_last_edit:contributor:uid": 138772,
     "_last_edit:changeset": 54265727,
     "_last_edit:timestamp": "2017-12-02T10:38:01Z",
-    "_version_number": 6
+    "_version_number": 6,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -578,7 +582,8 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 104579691,
     "_last_edit:timestamp": "2021-05-12T14:16:28Z",
-    "_version_number": 3
+    "_version_number": 3,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -693,7 +698,8 @@
     "_last_edit:contributor:uid": 138772,
     "_last_edit:changeset": 54153763,
     "_last_edit:timestamp": "2017-11-28T16:39:43Z",
-    "_version_number": 6
+    "_version_number": 6,
+    "_part_of_walking_routes": "<a href='#relation/22443'>Boshoekpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -747,25 +753,22 @@
     "surface": "asphalt",
     "width": "4",
     "id": "way/234070699",
-    "_lat": "51.170447800000005",
-    "_lon": "4.5066556",
+    "_lat": "51.17037595",
+    "_lon": "4.5066761",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "68.67174926063163",
+    "_length": "52.43934335568189",
     "_length:km": "0.1",
-    "_last_edit:contributor": "lodde1949",
-    "_last_edit:contributor:uid": 138772,
-    "_last_edit:changeset": 54153763,
-    "_last_edit:timestamp": "2017-11-28T16:39:43Z",
-    "_version_number": 6
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105720084,
+    "_last_edit:timestamp": "2021-06-02T11:49:30Z",
+    "_version_number": 7,
+    "_part_of_walking_routes": "<a href='#relation/22443'>Boshoekpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.5063149,
-      51.170611
-     ],
      [
       4.5063559,
       51.1704673
@@ -797,8 +800,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5066556,
-   "_lat": 51.170447800000005,
+   "_lon": 4.5066761,
+   "_lat": 51.17037595,
    "area": 0
   },
   {
@@ -1292,17 +1295,18 @@
    "properties": {
     "highway": "path",
     "id": "way/473920976",
-    "_lat": "51.169502699999995",
+    "_lat": "51.1694899",
     "_lon": "4.5175741",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "178.862773846664",
+    "_length": "175.99657509012073",
     "_length:km": "0.2",
-    "_last_edit:contributor": "JanFi",
-    "_last_edit:contributor:uid": 672253,
-    "_last_edit:changeset": 66664266,
-    "_last_edit:timestamp": "2019-01-26T21:02:31Z",
-    "_version_number": 3
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105788329,
+    "_last_edit:timestamp": "2021-06-03T15:42:12Z",
+    "_version_number": 4,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -1326,16 +1330,12 @@
      [
       4.5187415,
       51.1697907
-     ],
-     [
-      4.5187367,
-      51.1698163
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
    "_lon": 4.5175741,
-   "_lat": 51.169502699999995,
+   "_lat": 51.1694899,
    "area": 0
   },
   {
@@ -2017,7 +2017,8 @@
     "_last_edit:contributor:uid": 428001,
     "_last_edit:changeset": 55300356,
     "_last_edit:timestamp": "2018-01-09T18:22:02Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -2047,25 +2048,22 @@
    "properties": {
     "highway": "path",
     "id": "way/551961013",
-    "_lat": "51.16983335",
-    "_lon": "4.5193232000000005",
+    "_lat": "51.169770799999995",
+    "_lon": "4.5191177499999995",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "97.11520660311666",
+    "_length": "65.26831493183455",
     "_length:km": "0.1",
-    "_last_edit:contributor": "wegspotter",
-    "_last_edit:contributor:uid": 428001,
-    "_last_edit:changeset": 55300356,
-    "_last_edit:timestamp": "2018-01-09T18:22:02Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105788329,
+    "_last_edit:timestamp": "2021-06-03T15:42:12Z",
+    "_version_number": 2,
+    "_part_of_walking_routes": "<a href='#relation/12803492'>Bloemenhofpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
-     [
-      4.5199049,
-      51.1699863
-     ],
      [
       4.519494,
       51.1698612
@@ -2089,8 +2087,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5193232000000005,
-   "_lat": 51.16983335,
+   "_lon": 4.5191177499999995,
+   "_lat": 51.169770799999995,
    "area": 0
   },
   {
@@ -2750,7 +2748,8 @@
     "_last_edit:contributor:uid": 672253,
     "_last_edit:changeset": 66664266,
     "_last_edit:timestamp": "2019-01-26T21:02:27Z",
-    "_version_number": 1
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/22443'>Boshoekpad</a>"
    },
    "geometry": {
     "type": "LineString",
@@ -3324,6 +3323,122 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.5198022,
    "_lat": 51.1703443,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/949698198",
+   "properties": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "path",
+    "horse": "yes",
+    "motor_vehicle": "no",
+    "name": "Rollebeekwegel",
+    "sidewalk": "none",
+    "surface": "asphalt",
+    "width": "4",
+    "id": "way/949698198",
+    "_lat": "51.170539149999996",
+    "_lon": "4.506335399999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "16.232405904949744",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105720084,
+    "_last_edit:timestamp": "2021-06-02T11:49:30Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5063149,
+      51.170611
+     ],
+     [
+      4.5063559,
+      51.1704673
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.506335399999999,
+   "_lat": 51.170539149999996,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/950105298",
+   "properties": {
+    "highway": "path",
+    "id": "way/950105298",
+    "_lat": "51.1698035",
+    "_lon": "4.5187390999999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "2.866198756543268",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105788329,
+    "_last_edit:timestamp": "2021-06-03T15:42:12Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5187415,
+      51.1697907
+     ],
+     [
+      4.5187367,
+      51.1698163
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.5187390999999995,
+   "_lat": 51.1698035,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/950105299",
+   "properties": {
+    "highway": "path",
+    "id": "way/950105299",
+    "_lat": "51.169923749999995",
+    "_lon": "4.51969945",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "31.84689167128211",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105788329,
+    "_last_edit:timestamp": "2021-06-03T15:42:12Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5199049,
+      51.1699863
+     ],
+     [
+      4.519494,
+      51.1698612
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.51969945,
+   "_lat": 51.169923749999995,
    "area": 0
   }
  ]

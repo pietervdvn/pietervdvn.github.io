@@ -313,6 +313,38 @@
    "_lon": 4.51353325,
    "_lat": 51.1252864,
    "area": 476.17485911453747
+  },
+  {
+   "type": "Feature",
+   "id": "node/8795036102",
+   "properties": {
+    "fixme": "Toegevoegd met MapComplete, geometry nog uit te tekenen",
+    "leisure": "pitch",
+    "sport": "petanque",
+    "id": "node/8795036102",
+    "_lat": "51.1271267",
+    "_lon": "4.5099118",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "0",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105770108,
+    "_last_edit:timestamp": "2021-06-03T11:38:30Z",
+    "_version_number": 2
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5099118,
+     51.1271267
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_lon": 4.5099118,
+   "_lat": 51.1271267,
+   "area": 0
   }
  ]
 }

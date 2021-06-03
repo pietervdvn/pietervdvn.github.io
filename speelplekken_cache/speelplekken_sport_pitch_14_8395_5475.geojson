@@ -195,6 +195,38 @@
    "_lon": 4.4736377,
    "_lat": 51.127487099999996,
    "area": 561.6333752837368
+  },
+  {
+   "type": "Feature",
+   "id": "way/950001918",
+   "properties": {
+    "access": "yes",
+    "leisure": "pitch",
+    "sport": "boules",
+    "id": "way/950001918",
+    "_lat": "51.12794435",
+    "_lon": "4.4713139",
+    "_surface": "85.47280894976731",
+    "_surface:ha": "0",
+    "_length": "38.54191305641254",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105769368,
+    "_last_edit:timestamp": "2021-06-03T09:59:33Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4713139,
+     51.12794435
+    ]
+   },
+   "_matching_layer_id": "sport_pitch",
+   "_lon": 4.4713139,
+   "_lat": 51.12794435,
+   "area": 85.47280894976731
   }
  ]
 }

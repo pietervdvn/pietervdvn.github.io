@@ -5,8 +5,10 @@
    "type": "Feature",
    "id": "way/40553083",
    "properties": {
+    "access": "private",
     "leisure": "pitch",
     "sport": "soccer",
+    "surface": "grass",
     "id": "way/40553083",
     "_lat": "51.1312181",
     "_lon": "4.49863455",
@@ -14,11 +16,11 @@
     "_surface:ha": "0.5",
     "_length": "315.1034074597104",
     "_length:km": "0.3",
-    "_last_edit:contributor": "lodde1949",
-    "_last_edit:contributor:uid": 138772,
-    "_last_edit:changeset": 7648850,
-    "_last_edit:timestamp": "2011-03-23T18:32:18Z",
-    "_version_number": 2
+    "_last_edit:contributor": "Globelotter",
+    "_last_edit:contributor:uid": 6141733,
+    "_last_edit:changeset": 105770108,
+    "_last_edit:timestamp": "2021-06-03T11:26:22Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "Point",
@@ -40,6 +42,7 @@
     "lit": "no",
     "sport": "soccer",
     "surface": "grass",
+    "video": "https://www.youtube.com/watch?v=yPkE0oLnE5I&list=PLpTlCwUs8-qzH_ZK2Hh3VI4ODGaFFJIox&index=19",
     "id": "way/65590461",
     "_lat": "51.1262968",
     "_lon": "4.49276245",
@@ -47,11 +50,11 @@
     "_surface:ha": "0.2",
     "_length": "216.10045147681373",
     "_length:km": "0.2",
-    "_last_edit:contributor": "Justiciarius",
-    "_last_edit:contributor:uid": 5665660,
-    "_last_edit:changeset": 47752067,
-    "_last_edit:timestamp": "2017-04-13T18:34:40Z",
-    "_version_number": 2
+    "_last_edit:contributor": "Siel Createlli",
+    "_last_edit:contributor:uid": 13457794,
+    "_last_edit:changeset": 105776011,
+    "_last_edit:timestamp": "2021-06-03T12:40:04Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "Point",
@@ -64,37 +67,6 @@
    "_lon": 4.49276245,
    "_lat": 51.1262968,
    "area": 2693.281256475782
-  },
-  {
-   "type": "Feature",
-   "id": "way/73041566",
-   "properties": {
-    "leisure": "pitch",
-    "sport": "tennis",
-    "id": "way/73041566",
-    "_lat": "51.131988050000004",
-    "_lon": "4.4955847",
-    "_surface": "558.3204617981536",
-    "_surface:ha": "0",
-    "_length": "101.33956333923705",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "henke54",
-    "_last_edit:contributor:uid": 71942,
-    "_last_edit:changeset": 35432202,
-    "_last_edit:timestamp": "2015-11-19T11:35:22Z",
-    "_version_number": 2
-   },
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     4.4955847,
-     51.131988050000004
-    ]
-   },
-   "_matching_layer_id": "sport_pitch",
-   "_lon": 4.4955847,
-   "_lat": 51.131988050000004,
-   "area": 558.3204617981536
   },
   {
    "type": "Feature",
@@ -165,6 +137,7 @@
     "leisure": "pitch",
     "sport": "basketball",
     "surface": "asphalt",
+    "video": "https://www.youtube.com/watch?v=yPkE0oLnE5I&list=PLpTlCwUs8-qzH_ZK2Hh3VI4ODGaFFJIox&index=19",
     "id": "way/549018387",
     "_lat": "51.12670935",
     "_lon": "4.4943297",
@@ -172,11 +145,11 @@
     "_surface:ha": "0",
     "_length": "87.57886319387441",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Xaphar",
-    "_last_edit:contributor:uid": 7352975,
-    "_last_edit:changeset": 54913114,
-    "_last_edit:timestamp": "2017-12-25T18:29:02Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Siel Createlli",
+    "_last_edit:contributor:uid": 13457794,
+    "_last_edit:changeset": 105776011,
+    "_last_edit:timestamp": "2021-06-03T12:39:34Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "Point",
@@ -196,6 +169,7 @@
    "properties": {
     "leisure": "pitch",
     "sport": "tennis",
+    "video": "https://www.youtube.com/watch?v=yPkE0oLnE5I&list=PLpTlCwUs8-qzH_ZK2Hh3VI4ODGaFFJIox&index=19",
     "id": "way/549018389",
     "_lat": "51.126469549999996",
     "_lon": "4.49431255",
@@ -203,11 +177,11 @@
     "_surface:ha": "0",
     "_length": "54.231592187308806",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Xaphar",
-    "_last_edit:contributor:uid": 7352975,
-    "_last_edit:changeset": 54913114,
-    "_last_edit:timestamp": "2017-12-25T18:29:02Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Siel Createlli",
+    "_last_edit:contributor:uid": 13457794,
+    "_last_edit:changeset": 105776011,
+    "_last_edit:timestamp": "2021-06-03T12:39:34Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "Point",
