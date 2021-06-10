@@ -125,6 +125,48 @@
   },
   {
    "type": "Feature",
+   "id": "way/55847765",
+   "properties": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "footway",
+    "motor_vehicle": "destination",
+    "segregated": "no",
+    "surface": "concrete",
+    "id": "way/55847765",
+    "_lat": "51.12516455",
+    "_lon": "4.3830887",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "130.5882346116031",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106167046,
+    "_last_edit:timestamp": "2021-06-10T16:20:51Z",
+    "_version_number": 8,
+    "_part_of_walking_routes": "<a href='#relation/12571145'>Reukenswandeling</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.3829421,
+      51.1245846
+     ],
+     [
+      4.3832353,
+      51.1257445
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.3830887,
+   "_lat": 51.12516455,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/100016274",
    "properties": {
     "bicycle": "yes",
@@ -1698,6 +1740,47 @@
   },
   {
    "type": "Feature",
+   "id": "way/655710761",
+   "properties": {
+    "bicycle": "designated",
+    "foot": "designated",
+    "highway": "footway",
+    "motor_vehicle": "destination",
+    "segregated": "no",
+    "surface": "concrete",
+    "id": "way/655710761",
+    "_lat": "51.1245317",
+    "_lon": "4.3829362",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "11.79322738828384",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106167046,
+    "_last_edit:timestamp": "2021-06-10T16:20:51Z",
+    "_version_number": 3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.3829303,
+      51.1244788
+     ],
+     [
+      4.3829421,
+      51.1245846
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.3829362,
+   "_lat": 51.1245317,
+   "area": 0
+  },
+  {
+   "type": "Feature",
    "id": "way/659701181",
    "properties": {
     "highway": "living_street",
@@ -1990,20 +2073,21 @@
    "properties": {
     "bicycle": "designated",
     "foot": "designated",
-    "highway": "path",
+    "highway": "footway",
+    "segregated": "no",
     "surface": "concrete",
     "id": "way/761986846",
     "_lat": "51.1264676",
-    "_lon": "4.3830652",
+    "_lon": "4.383057",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "177.05055281420118",
+    "_length": "181.13946764837175",
     "_length:km": "0.2",
-    "_last_edit:contributor": "Jorisbo",
-    "_last_edit:contributor:uid": 1983103,
-    "_last_edit:changeset": 79377937,
-    "_last_edit:timestamp": "2020-01-09T13:01:35Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106167046,
+    "_last_edit:timestamp": "2021-06-10T16:20:51Z",
+    "_version_number": 2,
     "_part_of_walking_routes": "<a href='#relation/12571145'>Reukenswandeling</a>"
    },
    "geometry": {
@@ -2030,16 +2114,20 @@
       51.1258775
      ],
      [
-      4.3829006,
-      51.1260277
+      4.3828955,
+      51.125965
      ],
      [
-      4.3828712,
-      51.1260556
+      4.3828535,
+      51.1260014
      ],
      [
-      4.3828575,
-      51.1260817
+      4.3828398,
+      51.1260273
+     ],
+     [
+      4.3828397,
+      51.1260712
      ],
      [
       4.3828561,
@@ -2064,7 +2152,7 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.3830652,
+   "_lon": 4.383057,
    "_lat": 51.1264676,
    "area": 0
   },

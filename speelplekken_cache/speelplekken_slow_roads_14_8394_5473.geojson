@@ -1830,15 +1830,17 @@
    "type": "Feature",
    "id": "way/367257235",
    "properties": {
+    "agricultural": "yes",
     "bicycle": "yes",
     "foot": "yes",
-    "highway": "track",
+    "highway": "footway",
     "horse": "no",
     "mofa": "no",
     "moped": "no",
     "motor_vehicle": "no",
     "name": "Dwaallichtjespad",
     "note": "recently resurfaced",
+    "segregated": "no",
     "smoothness": "good",
     "surface": "compacted",
     "trail_visibility": "excellent",
@@ -1849,11 +1851,11 @@
     "_surface:ha": "0",
     "_length": "198.97105042153112",
     "_length:km": "0.2",
-    "_last_edit:contributor": "s8evq",
-    "_last_edit:contributor:uid": 3710738,
-    "_last_edit:changeset": 78675479,
-    "_last_edit:timestamp": "2019-12-20T09:16:42Z",
-    "_version_number": 7,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 8,
     "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>"
    },
    "geometry": {
@@ -2129,6 +2131,110 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.44070535,
    "_lat": 51.155479400000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/537701234",
+   "properties": {
+    "bicycle": "designated",
+    "dog": "leashed",
+    "highway": "footway",
+    "horse": "no",
+    "incline": "0%",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "name": "Dwaallichtjespad",
+    "note": "recently resurfaced",
+    "oneway": "no",
+    "segregated": "no",
+    "smoothness": "good",
+    "surface": "compacted",
+    "trail_visibility": "excellent",
+    "width": "1.8",
+    "id": "way/537701234",
+    "_lat": "51.1631151",
+    "_lon": "4.4369948",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "476.5838156907925",
+    "_length:km": "0.5",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 10,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4389895,
+      51.1616998
+     ],
+     [
+      4.4381648,
+      51.1626085
+     ],
+     [
+      4.4381338,
+      51.1626456
+     ],
+     [
+      4.4380923,
+      51.1626716
+     ],
+     [
+      4.4380289,
+      51.1626775
+     ],
+     [
+      4.4373366,
+      51.1625635
+     ],
+     [
+      4.4372511,
+      51.1625573
+     ],
+     [
+      4.4371741,
+      51.1625734
+     ],
+     [
+      4.4350465,
+      51.1638863
+     ],
+     [
+      4.4350181,
+      51.1639113
+     ],
+     [
+      4.4350001,
+      51.1639463
+     ],
+     [
+      4.4350041,
+      51.1639777
+     ],
+     [
+      4.4350211,
+      51.1640084
+     ],
+     [
+      4.4352129,
+      51.1642789
+     ],
+     [
+      4.4353627,
+      51.1645304
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4369948,
+   "_lat": 51.1631151,
    "area": 0
   },
   {
@@ -3046,24 +3152,24 @@
    "properties": {
     "highway": "footway",
     "id": "way/537706297",
-    "_lat": "51.16169615",
-    "_lon": "4.44407055",
+    "_lat": "51.16155555",
+    "_lon": "4.4436872",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "122.72827476986157",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "WoutLever",
-    "_last_edit:contributor:uid": 6521774,
-    "_last_edit:changeset": 53449387,
-    "_last_edit:timestamp": "2017-11-02T11:59:32Z",
-    "_version_number": 1
+    "_length": "192.22371178908983",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.4442832,
-      51.1616836
+      4.444307,
+      51.1616822
      ],
      [
       4.4442244,
@@ -3110,14 +3216,34 @@
       51.1618799
      ],
      [
-      4.4438605,
-      51.1613799
+      4.4438561,
+      51.16143
+     ],
+     [
+      4.4436638,
+      51.1613037
+     ],
+     [
+      4.4435513,
+      51.1612954
+     ],
+     [
+      4.4434599,
+      51.1612739
+     ],
+     [
+      4.4432262,
+      51.1610987
+     ],
+     [
+      4.4430674,
+      51.1611814
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.44407055,
-   "_lat": 51.16169615,
+   "_lon": 4.4436872,
+   "_lat": 51.16155555,
    "area": 0
   },
   {
@@ -4047,13 +4173,13 @@
     "_lon": "4.44197735",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "78.65846903510578",
+    "_length": "78.65846970522497",
     "_length:km": "0.1",
-    "_last_edit:contributor": "frans2650",
-    "_last_edit:contributor:uid": 9514585,
-    "_last_edit:changeset": 68497293,
-    "_last_edit:timestamp": "2019-03-25T08:31:43Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -4069,6 +4195,10 @@
      [
       4.4419753,
       51.1613722
+     ],
+     [
+      4.4420735,
+      51.161432
      ],
      [
       4.4423475,
@@ -7996,6 +8126,416 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.44553385,
    "_lat": 51.162013349999995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056266",
+   "properties": {
+    "bicycle": "designated",
+    "dog": "leashed",
+    "highway": "footway",
+    "horse": "no",
+    "incline": "0%",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "name": "Dwaallichtjespad",
+    "note": "recently resurfaced",
+    "oneway": "no",
+    "segregated": "no",
+    "smoothness": "good",
+    "surface": "compacted",
+    "trail_visibility": "excellent",
+    "width": "1.8",
+    "id": "way/953056266",
+    "_lat": "51.1615092",
+    "_lon": "4.43982925",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "146.69156229904382",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.440601,
+      51.1617346
+     ],
+     [
+      4.4394927,
+      51.1612883
+     ],
+     [
+      4.4394318,
+      51.1612838
+     ],
+     [
+      4.4393868,
+      51.161304
+     ],
+     [
+      4.4390575,
+      51.1616698
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.43982925,
+   "_lat": 51.1615092,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056267",
+   "properties": {
+    "bicycle": "designated",
+    "bridge": "yes",
+    "dog": "leashed",
+    "highway": "footway",
+    "horse": "no",
+    "incline": "0%",
+    "layer": "1",
+    "mofa": "no",
+    "moped": "no",
+    "motor_vehicle": "no",
+    "name": "Dwaallichtjespad",
+    "oneway": "no",
+    "segregated": "no",
+    "smoothness": "good",
+    "surface": "wood",
+    "trail_visibility": "excellent",
+    "width": "1.8",
+    "id": "way/953056267",
+    "_lat": "51.1616848",
+    "_lon": "4.439023499999999",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "5.797682505120026",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1,
+    "_part_of_walking_routes": "<a href='#relation/12650220'>Terlindenpad</a>"
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4390575,
+      51.1616698
+     ],
+     [
+      4.4389895,
+      51.1616998
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.439023499999999,
+   "_lat": 51.1616848,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056268",
+   "properties": {
+    "highway": "footway",
+    "id": "way/953056268",
+    "_lat": "51.161211800000004",
+    "_lon": "4.44196225",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "46.49760309655572",
+    "_length:km": "0.0",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4417439,
+      51.1610538
+     ],
+     [
+      4.4421806,
+      51.1613698
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44196225,
+   "_lat": 51.161211800000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056269",
+   "properties": {
+    "highway": "footway",
+    "id": "way/953056269",
+    "_lat": "51.1612755",
+    "_lon": "4.442352850000001",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "52.2440272449131",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4426322,
+      51.161119
+     ],
+     [
+      4.4421806,
+      51.1613698
+     ],
+     [
+      4.4420735,
+      51.161432
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.442352850000001,
+   "_lat": 51.1612755,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056270",
+   "properties": {
+    "footway": "sidewalk",
+    "highway": "footway",
+    "id": "way/953056270",
+    "_lat": "51.16109795",
+    "_lon": "4.44351535",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "194.00877186736741",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4425563,
+      51.1604828
+     ],
+     [
+      4.4429086,
+      51.1607154
+     ],
+     [
+      4.4431254,
+      51.1608675
+     ],
+     [
+      4.444307,
+      51.1616822
+     ],
+     [
+      4.4443518,
+      51.1617131
+     ],
+     [
+      4.4444744,
+      51.1617126
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44351535,
+   "_lat": 51.16109795,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056272",
+   "properties": {
+    "highway": "footway",
+    "id": "way/953056272",
+    "_lat": "51.161192400000004",
+    "_lon": "4.44292135",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "55.92689030502095",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4427553,
+      51.161367
+     ],
+     [
+      4.4430874,
+      51.1611962
+     ],
+     [
+      4.4430674,
+      51.1611814
+     ],
+     [
+      4.4428469,
+      51.1610178
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.44292135,
+   "_lat": 51.161192400000004,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056274",
+   "properties": {
+    "highway": "footway",
+    "id": "way/953056274",
+    "_lat": "51.16369485",
+    "_lon": "4.4434441",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "181.34176914598171",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4439293,
+      51.1635432
+     ],
+     [
+      4.4437998,
+      51.1636142
+     ],
+     [
+      4.4438068,
+      51.1636405
+     ],
+     [
+      4.4436949,
+      51.1637055
+     ],
+     [
+      4.4435089,
+      51.1638136
+     ],
+     [
+      4.442966,
+      51.1638759
+     ],
+     [
+      4.4429624,
+      51.1636994
+     ],
+     [
+      4.4429589,
+      51.1635967
+     ],
+     [
+      4.4435172,
+      51.1635497
+     ],
+     [
+      4.44359,
+      51.1635247
+     ],
+     [
+      4.443926,
+      51.1635138
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4434441,
+   "_lat": 51.16369485,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953056275",
+   "properties": {
+    "highway": "footway",
+    "id": "way/953056275",
+    "_lat": "51.16362435",
+    "_lon": "4.4434474",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "80.26298244268783",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106165581,
+    "_last_edit:timestamp": "2021-06-10T15:48:38Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.4429624,
+      51.1636994
+     ],
+     [
+      4.4436949,
+      51.1637055
+     ],
+     [
+      4.4437781,
+      51.1637042
+     ],
+     [
+      4.4439324,
+      51.1636337
+     ],
+     [
+      4.4439293,
+      51.1635432
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.4434474,
+   "_lat": 51.16362435,
    "area": 0
   }
  ]

@@ -1862,17 +1862,17 @@
    "properties": {
     "highway": "path",
     "id": "way/644516900",
-    "_lat": "51.1313642",
-    "_lon": "4.51536215",
+    "_lat": "51.131366299999996",
+    "_lon": "4.51548285",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "127.06436957646322",
+    "_length": "143.70497639042375",
     "_length:km": "0.1",
-    "_last_edit:contributor": "wegspotter",
-    "_last_edit:contributor:uid": 428001,
-    "_last_edit:changeset": 64497764,
-    "_last_edit:timestamp": "2018-11-14T18:54:17Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106164567,
+    "_last_edit:timestamp": "2021-06-10T15:26:17Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -1886,14 +1886,18 @@
       51.1313568
      ],
      [
-      4.516207,
-      51.1315352
+      4.5158368,
+      51.1314704
+     ],
+     [
+      4.5164484,
+      51.1315394
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51536215,
-   "_lat": 51.1313642,
+   "_lon": 4.51548285,
+   "_lat": 51.131366299999996,
    "area": 0
   },
   {
@@ -2296,17 +2300,17 @@
     "fixme": "Ingetekend met hoogtmodellen/verkleuring bomen - vermoedelijk een dreef maar te controleren",
     "highway": "path",
     "id": "way/912801854",
-    "_lat": "51.1304487",
-    "_lon": "4.516534200000001",
+    "_lat": "51.13075165",
+    "_lon": "4.5165329",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "200.9821574588499",
-    "_length:km": "0.2",
+    "_length": "282.5594623305271",
+    "_length:km": "0.3",
     "_last_edit:contributor": "Pieter Vander Vennet",
     "_last_edit:contributor:uid": 3818858,
-    "_last_edit:changeset": 100288760,
-    "_last_edit:timestamp": "2021-03-02T15:09:00Z",
-    "_version_number": 1
+    "_last_edit:changeset": 106164567,
+    "_last_edit:timestamp": "2021-06-10T15:26:17Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -2314,6 +2318,10 @@
      [
       4.5178351,
       51.1305387
+     ],
+     [
+      4.5176554,
+      51.1304806
      ],
      [
       4.5176098,
@@ -2338,12 +2346,28 @@
      [
       4.5152333,
       51.1306347
+     ],
+     [
+      4.515283,
+      51.1308021
+     ],
+     [
+      4.5152307,
+      51.1309705
+     ],
+     [
+      4.5156169,
+      51.1312204
+     ],
+     [
+      4.5156786,
+      51.1312406
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.516534200000001,
-   "_lat": 51.1304487,
+   "_lon": 4.5165329,
+   "_lat": 51.13075165,
    "area": 0
   },
   {
@@ -3254,6 +3278,66 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.507662549999999,
    "_lat": 51.131965449999996,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/953050698",
+   "properties": {
+    "highway": "path",
+    "id": "way/953050698",
+    "_lat": "51.1309755",
+    "_lon": "4.516667",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "190.7126201521641",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106164567,
+    "_last_edit:timestamp": "2021-06-10T15:26:17Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5176554,
+      51.1304806
+     ],
+     [
+      4.5173684,
+      51.1305463
+     ],
+     [
+      4.5168145,
+      51.1307163
+     ],
+     [
+      4.5164068,
+      51.1309225
+     ],
+     [
+      4.5158704,
+      51.1311421
+     ],
+     [
+      4.5156786,
+      51.1312406
+     ],
+     [
+      4.5157041,
+      51.1312717
+     ],
+     [
+      4.5158368,
+      51.1314704
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.516667,
+   "_lat": 51.1309755,
    "area": 0
   }
  ]

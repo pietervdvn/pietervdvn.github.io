@@ -950,7 +950,9 @@
     "highway": "path",
     "motor_vehicle": "no",
     "name": "Fabriekstraat",
+    "source:maxspeed": "sign",
     "surface": "asphalt",
+    "zone:traffic": "BE:rural",
     "id": "way/37003156",
     "_lat": "51.137973849999995",
     "_lon": "4.474808899999999",
@@ -958,11 +960,11 @@
     "_surface:ha": "0",
     "_length": "11.069346396440375",
     "_length:km": "0.0",
-    "_last_edit:contributor": "M!dgard",
-    "_last_edit:contributor:uid": 763799,
-    "_last_edit:changeset": 55041163,
-    "_last_edit:timestamp": "2017-12-30T18:10:40Z",
-    "_version_number": 7,
+    "_last_edit:contributor": "orchi_osm",
+    "_last_edit:contributor:uid": 8887512,
+    "_last_edit:changeset": 105914820,
+    "_last_edit:timestamp": "2021-06-06T12:23:24Z",
+    "_version_number": 8,
     "_part_of_walking_routes": "<a href='#relation/164292'>Eugeen Goeyvaerts Wandelpad</a>"
    },
    "geometry": {
@@ -4256,52 +4258,6 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.4653376,
    "_lat": 51.1417014,
-   "area": 0
-  },
-  {
-   "type": "Feature",
-   "id": "way/867266822",
-   "properties": {
-    "highway": "living_street",
-    "name": "Hugo Verrieststraat",
-    "id": "way/867266822",
-    "_lat": "51.142047000000005",
-    "_lon": "4.4648404500000005",
-    "_surface": "0",
-    "_surface:ha": "0",
-    "_length": "24.06281919125778",
-    "_length:km": "0.0",
-    "_last_edit:contributor": "A127",
-    "_last_edit:contributor:uid": 9374269,
-    "_last_edit:changeset": 93597576,
-    "_last_edit:timestamp": "2020-11-05T10:52:12Z",
-    "_version_number": 1,
-    "_part_of_walking_routes": "<a href='#relation/12731308'>Natuurvriendenpad</a>"
-   },
-   "geometry": {
-    "type": "LineString",
-    "coordinates": [
-     [
-      4.4647208,
-      51.1421161
-     ],
-     [
-      4.4647482,
-      51.1420637
-     ],
-     [
-      4.4647696,
-      51.1420417
-     ],
-     [
-      4.4649601,
-      51.1419779
-     ]
-    ]
-   },
-   "_matching_layer_id": "slow_roads",
-   "_lon": 4.4648404500000005,
-   "_lat": 51.142047000000005,
    "area": 0
   },
   {
