@@ -234,11 +234,11 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/145173557",
-    "_lat": "51.13423745",
-    "_lon": "4.519304",
+    "_lat": "51.13427405",
+    "_lon": "4.5193071499999995",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "198.20479138898773",
+    "_length": "190.66602599938923",
     "_length:km": "0.2",
     "_last_edit:contributor": "sh85",
     "_last_edit:contributor:uid": 1721850,
@@ -250,8 +250,8 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.5184457,
-      51.1338318
+      4.518452,
+      51.133905
      ],
      [
       4.5190358,
@@ -264,8 +264,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.519304,
-   "_lat": 51.13423745,
+   "_lon": 4.5193071499999995,
+   "_lat": 51.13427405,
    "area": 0
   },
   {
@@ -279,42 +279,50 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/145173918",
-    "_lat": "51.1326691",
-    "_lon": "4.51803995",
+    "_lat": "51.13295195",
+    "_lon": "4.51783575",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "180.5708362865277",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 100636645,
-    "_last_edit:timestamp": "2021-03-08T12:14:03Z",
-    "_version_number": 4
+    "_length": "87.34530561142503",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 5
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5175223,
-      51.1332285
+      4.5174582,
+      51.1332326
      ],
      [
-      4.5185576,
-      51.1327078
+      4.5178565,
+      51.1331232
      ],
      [
-      4.5181022,
-      51.1323779
+      4.5180389,
+      51.1329642
      ],
      [
-      4.5177319,
-      51.1321097
+      4.5180832,
+      51.132832
+     ],
+     [
+      4.5181623,
+      51.1327117
+     ],
+     [
+      4.5182133,
+      51.1326713
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51803995,
-   "_lat": 51.1326691,
+   "_lon": 4.51783575,
+   "_lat": 51.13295195,
    "area": 0
   },
   {
@@ -370,28 +378,32 @@
     "highway": "footway",
     "surface": "dirt",
     "id": "way/145175673",
-    "_lat": "51.1326868",
-    "_lon": "4.517675349999999",
+    "_lat": "51.132620599999996",
+    "_lon": "4.517239",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "246.22861946933145",
+    "_length": "202.18179536435622",
     "_length:km": "0.2",
-    "_last_edit:contributor": "M!dgard",
-    "_last_edit:contributor:uid": 763799,
-    "_last_edit:changeset": 55041163,
-    "_last_edit:timestamp": "2017-12-30T18:10:41Z",
-    "_version_number": 4
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 5
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5186917,
-      51.1319628
+      4.5179089,
+      51.131868
      ],
      [
-      4.5177319,
-      51.1321097
+      4.5178203,
+      51.1319837
+     ],
+     [
+      4.5176716,
+      51.1321021
      ],
      [
       4.5169768,
@@ -402,14 +414,14 @@
       51.1325585
      ],
      [
-      4.516659,
-      51.1334108
+      4.5165691,
+      51.1333732
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.517675349999999,
-   "_lat": 51.1326868,
+   "_lon": 4.517239,
+   "_lat": 51.132620599999996,
    "area": 0
   },
   {
@@ -692,12 +704,12 @@
    "properties": {
     "highway": "path",
     "id": "way/297325092",
-    "_lat": "51.1338402",
-    "_lon": "4.5181743999999995",
+    "_lat": "51.1339252",
+    "_lon": "4.5180785",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "39.330064488561696",
-    "_length:km": "0.0",
+    "_length": "53.834370140867534",
+    "_length:km": "0.1",
     "_last_edit:contributor": "Dejokke",
     "_last_edit:contributor:uid": 2117603,
     "_last_edit:changeset": 24696445,
@@ -709,22 +721,22 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.5179031,
-      51.1338749
+      4.517705,
+      51.1339723
      ],
      [
-      4.518285,
-      51.1338055
+      4.5182937,
+      51.1338781
      ],
      [
-      4.5184457,
-      51.1338318
+      4.518452,
+      51.133905
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5181743999999995,
-   "_lat": 51.1338402,
+   "_lon": 4.5180785,
+   "_lat": 51.1339252,
    "area": 0
   },
   {
@@ -981,13 +993,13 @@
     "_lon": "4.5055833",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "455.86078077752444",
+    "_length": "456.04969891211334",
     "_length:km": "0.5",
-    "_last_edit:contributor": "wegspotter",
-    "_last_edit:contributor:uid": 428001,
-    "_last_edit:changeset": 87045591,
-    "_last_edit:timestamp": "2020-06-23T17:44:52Z",
-    "_version_number": 7,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 8,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
@@ -1014,20 +1026,16 @@
       51.1347417
      ],
      [
-      4.506968,
-      51.1348451
+      4.5070392,
+      51.1349359
      ],
      [
-      4.5065035,
-      51.1354262
+      4.506344,
+      51.1354883
      ],
      [
-      4.5062944,
-      51.1355337
-     ],
-     [
-      4.5062569,
-      51.1356104
+      4.5062274,
+      51.1355919
      ],
      [
       4.5060363,
@@ -1101,11 +1109,11 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/406210983",
-    "_lat": "51.13399665",
-    "_lon": "4.51381795",
+    "_lat": "51.1340055",
+    "_lon": "4.51381325",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "95.45161475571214",
+    "_length": "95.71950620363539",
     "_length:km": "0.1",
     "_last_edit:contributor": "eggie",
     "_last_edit:contributor:uid": 334075,
@@ -1126,14 +1134,14 @@
       51.1338932
      ],
      [
-      4.5144404,
-      51.1341744
+      4.514431,
+      51.1341921
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51381795,
-   "_lat": 51.13399665,
+   "_lon": 4.51381325,
+   "_lat": 51.1340055,
    "area": 0
   },
   {
@@ -1147,38 +1155,58 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/406210986",
-    "_lat": "51.1335517",
-    "_lon": "4.517281049999999",
+    "_lat": "51.1336012",
+    "_lon": "4.517080050000001",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "140.18741034648934",
-    "_length:km": "0.1",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 101923205,
-    "_last_edit:timestamp": "2021-03-29T14:11:28Z",
-    "_version_number": 4
+    "_length": "156.62016169315865",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 5
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.516659,
-      51.1334108
+      4.5164551,
+      51.1333513
      ],
      [
-      4.5175223,
-      51.1332285
+      4.5165691,
+      51.1333732
      ],
      [
-      4.5179031,
-      51.1338749
+      4.5170304,
+      51.1332924
+     ],
+     [
+      4.5173831,
+      51.1332301
+     ],
+     [
+      4.5174582,
+      51.1332326
+     ],
+     [
+      4.5175306,
+      51.1334977
+     ],
+     [
+      4.5176165,
+      51.133719
+     ],
+     [
+      4.517705,
+      51.1339723
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.517281049999999,
-   "_lat": 51.1335517,
+   "_lon": 4.517080050000001,
+   "_lat": 51.1336012,
    "area": 0
   },
   {
@@ -1348,52 +1376,64 @@
     "highway": "track",
     "tracktype": "grade5",
     "id": "way/551969173",
-    "_lat": "51.13583595",
-    "_lon": "4.50802135",
+    "_lat": "51.135883",
+    "_lon": "4.5080475",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "605.296036119855",
+    "_length": "603.9508603783619",
     "_length:km": "0.6",
-    "_last_edit:contributor": "wegspotter",
-    "_last_edit:contributor:uid": 428001,
-    "_last_edit:changeset": 55301392,
-    "_last_edit:timestamp": "2018-01-09T19:02:23Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.506968,
-      51.1348451
+      4.5070392,
+      51.1349359
      ],
      [
-      4.5071948,
-      51.1350159
+      4.5071412,
+      51.1349696
      ],
      [
-      4.5081885,
-      51.1353439
+      4.50821,
+      51.1353146
      ],
      [
-      4.5084822,
-      51.1354467
+      4.5086512,
+      51.1354509
      ],
      [
-      4.5090294,
-      51.1355881
+      4.509775,
+      51.1358195
      ],
      [
-      4.5092225,
-      51.1356554
+      4.5098408,
+      51.1358523
      ],
      [
-      4.5097858,
-      51.1358473
+      4.5098676,
+      51.1358986
      ],
      [
-      4.509598,
-      51.1367898
+      4.5098662,
+      51.1359727
+     ],
+     [
+      4.5097724,
+      51.1363715
+     ],
+     [
+      4.5096114,
+      51.1367982
+     ],
+     [
+      4.5095859,
+      51.1368301
      ],
      [
       4.5095336,
@@ -1404,14 +1444,14 @@
       51.1361873
      ],
      [
-      4.5062569,
-      51.1356104
+      4.5062274,
+      51.1355919
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.50802135,
-   "_lat": 51.13583595,
+   "_lon": 4.5080475,
+   "_lat": 51.135883,
    "area": 0
   },
   {
@@ -1524,11 +1564,11 @@
    "properties": {
     "highway": "path",
     "id": "way/564013827",
-    "_lat": "51.1327881",
-    "_lon": "4.5186782",
+    "_lat": "51.13274095",
+    "_lon": "4.5184394999999995",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "24.538961882315174",
+    "_length": "26.872064236969074",
     "_length:km": "0.0",
     "_last_edit:contributor": "wegspotter",
     "_last_edit:contributor:uid": 428001,
@@ -1540,18 +1580,18 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.5187988,
-      51.1328684
+      4.5185869,
+      51.1328187
      ],
      [
-      4.5185576,
-      51.1327078
+      4.5182921,
+      51.1326632
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5186782,
-   "_lat": 51.1327881,
+   "_lon": 4.5184394999999995,
+   "_lat": 51.13274095,
    "area": 0
   },
   {
@@ -1560,34 +1600,46 @@
    "properties": {
     "highway": "path",
     "id": "way/564013828",
-    "_lat": "51.1337903",
-    "_lon": "4.5165894",
+    "_lat": "51.133799249999996",
+    "_lon": "4.516494",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "84.95411611747663",
+    "_length": "97.54564439567775",
     "_length:km": "0.1",
-    "_last_edit:contributor": "wegspotter",
-    "_last_edit:contributor:uid": 428001,
-    "_last_edit:changeset": 56655809,
-    "_last_edit:timestamp": "2018-02-25T09:38:47Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5165198,
-      51.1341698
+      4.5165359,
+      51.1342253
      ],
      [
-      4.516659,
-      51.1334108
+      4.5164685,
+      51.1341642
+     ],
+     [
+      4.5164189,
+      51.1340817
+     ],
+     [
+      4.5164832,
+      51.1337578
+     ],
+     [
+      4.5165691,
+      51.1333732
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5165894,
-   "_lat": 51.1337903,
+   "_lon": 4.516494,
+   "_lat": 51.133799249999996,
    "area": 0
   },
   {
@@ -1964,13 +2016,13 @@
     "_lon": "4.50491065",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "315.9729797647507",
+    "_length": "319.63896859893373",
     "_length:km": "0.3",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 100636645,
-    "_last_edit:timestamp": "2021-03-08T12:14:03Z",
-    "_version_number": 2
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 3
    },
    "geometry": {
     "type": "LineString",
@@ -2004,6 +2056,22 @@
       51.1318539
      ],
      [
+      4.5045407,
+      51.1321377
+     ],
+     [
+      4.5045588,
+      51.1322084
+     ],
+     [
+      4.5045856,
+      51.1322518
+     ],
+     [
+      4.5048062,
+      51.1323149
+     ],
+     [
       4.505893,
       51.1327482
      ]
@@ -2025,37 +2093,41 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/796490313",
-    "_lat": "51.13322355",
-    "_lon": "4.512692400000001",
+    "_lat": "51.13320375",
+    "_lon": "4.512701",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "166.74030723185325",
+    "_length": "169.61995563931475",
     "_length:km": "0.2",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 100636645,
-    "_last_edit:timestamp": "2021-03-08T12:14:03Z",
-    "_version_number": 3,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 4,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.512319,
-      51.1326282
+      4.5123673,
+      51.1325886
      ],
      [
-      4.5121893,
-      51.1332519
+      4.5122065,
+      51.1331594
      ],
      [
-      4.5125914,
-      51.1335516
+      4.5122293,
+      51.1332528
      ],
      [
-      4.5130107,
-      51.1336661
+      4.512696,
+      51.1336425
+     ],
+     [
+      4.5128891,
+      51.1337418
      ],
      [
       4.5131955,
@@ -2064,8 +2136,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.512692400000001,
-   "_lat": 51.13322355,
+   "_lon": 4.512701,
+   "_lat": 51.13320375,
    "area": 0
   },
   {
@@ -2081,11 +2153,11 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/796490314",
-    "_lat": "51.1325778",
-    "_lon": "4.5123295",
+    "_lat": "51.132558",
+    "_lon": "4.51235365",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "11.303841499153005",
+    "_length": "7.066726844179328",
     "_length:km": "0.0",
     "_last_edit:contributor": "mjardin",
     "_last_edit:contributor:uid": 629627,
@@ -2102,14 +2174,14 @@
       51.1325274
      ],
      [
-      4.512319,
-      51.1326282
+      4.5123673,
+      51.1325886
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5123295,
-   "_lat": 51.1325778,
+   "_lon": 4.51235365,
+   "_lat": 51.132558,
    "area": 0
   },
   {
@@ -2122,11 +2194,11 @@
     "surface": "grass",
     "id": "way/796870160",
     "_lat": "51.133106850000004",
-    "_lon": "4.5070548",
+    "_lon": "4.50702435",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "243.5375993759839",
-    "_length:km": "0.2",
+    "_length": "253.54193665562204",
+    "_length:km": "0.3",
     "_last_edit:contributor": "sh85",
     "_last_edit:contributor:uid": 1721850,
     "_last_edit:changeset": 101923205,
@@ -2142,12 +2214,12 @@
       51.1321103
      ],
      [
-      4.5065408,
-      51.1336988
+      4.5064799,
+      51.1337561
      ],
      [
-      4.5069353,
-      51.1341001
+      4.5069896,
+      51.1340582
      ],
      [
       4.5069312,
@@ -2156,7 +2228,7 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5070548,
+   "_lon": 4.50702435,
    "_lat": 51.133106850000004,
    "area": 0
   },
@@ -2214,17 +2286,17 @@
     "motor_vehicle": "no",
     "name": "Laarzenpad",
     "id": "way/843119894",
-    "_lat": "51.1332235",
-    "_lon": "4.5062169",
+    "_lat": "51.133252150000004",
+    "_lon": "4.50618645",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "121.46940654762915",
+    "_length": "126.62953272797998",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Globelotter",
-    "_last_edit:contributor:uid": 6141733,
-    "_last_edit:changeset": 90244736,
-    "_last_edit:timestamp": "2020-09-01T12:02:27Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -2234,22 +2306,26 @@
       51.1327482
      ],
      [
-      4.5060283,
-      51.1333422
+      4.5059878,
+      51.1334169
      ],
      [
-      4.506191,
-      51.1335361
+      4.5060508,
+      51.133512
      ],
      [
-      4.5065408,
-      51.1336988
+      4.5062774,
+      51.1336593
+     ],
+     [
+      4.5064799,
+      51.1337561
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5062169,
-   "_lat": 51.1332235,
+   "_lon": 4.50618645,
+   "_lat": 51.133252150000004,
    "area": 0
   },
   {
@@ -2381,38 +2457,34 @@
     "motor_vehicle": "no",
     "surface": "sand",
     "id": "way/914683263",
-    "_lat": "51.132002650000004",
-    "_lon": "4.518761850000001",
+    "_lat": "51.1319997",
+    "_lon": "4.51887385",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "23.758526076068872",
+    "_length": "8.52035405021733",
     "_length:km": "0.0",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 100636645,
-    "_last_edit:timestamp": "2021-03-08T12:14:03Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5188959,
-      51.1320683
+      4.5188919,
+      51.1320363
      ],
      [
-      4.5186917,
-      51.1319628
-     ],
-     [
-      4.5186278,
-      51.131937
+      4.5188558,
+      51.1319631
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.518761850000001,
-   "_lat": 51.132002650000004,
+   "_lon": 4.51887385,
+   "_lat": 51.1319997,
    "area": 0
   },
   {
@@ -2567,21 +2639,25 @@
    "properties": {
     "highway": "path",
     "id": "way/914683273",
-    "_lat": "51.132841299999995",
-    "_lon": "4.5233139",
+    "_lat": "51.13281",
+    "_lon": "4.52311385",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "119.88487246221543",
+    "_length": "148.65742047301208",
     "_length:km": "0.1",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 100636645,
-    "_last_edit:timestamp": "2021-03-08T12:14:03Z",
-    "_version_number": 1
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
+     [
+      4.5221519,
+      51.132543
+     ],
      [
       4.522552,
       51.1326056
@@ -2609,8 +2685,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5233139,
-   "_lat": 51.132841299999995,
+   "_lon": 4.52311385,
+   "_lat": 51.13281,
    "area": 0
   },
   {
@@ -2624,16 +2700,16 @@
     "surface": "dirt",
     "id": "way/920693000",
     "_lat": "51.132883050000004",
-    "_lon": "4.5217091499999995",
+    "_lon": "4.5216981999999994",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "162.16388050053067",
+    "_length": "157.89437403560368",
     "_length:km": "0.2",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 101923205,
-    "_last_edit:timestamp": "2021-03-29T14:11:28Z",
-    "_version_number": 2,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 3,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
@@ -2644,16 +2720,36 @@
       51.1334877
      ],
      [
-      4.521685,
-      51.1331107
+      4.5216331,
+      51.1331022
+     ],
+     [
+      4.5217337,
+      51.1329179
      ],
      [
       4.5218459,
       51.1327909
      ],
      [
-      4.5222054,
-      51.1326327
+      4.521959,
+      51.1327336
+     ],
+     [
+      4.5220676,
+      51.1326822
+     ],
+     [
+      4.5221561,
+      51.1326115
+     ],
+     [
+      4.5221519,
+      51.132543
+     ],
+     [
+      4.5221092,
+      51.1324416
      ],
      [
       4.5221249,
@@ -2666,7 +2762,7 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5217091499999995,
+   "_lon": 4.5216981999999994,
    "_lat": 51.132883050000004,
    "area": 0
   },
@@ -2681,12 +2777,12 @@
     "motor_vehicle": "no",
     "surface": "sand",
     "id": "way/920693001",
-    "_lat": "51.1322899",
-    "_lon": "4.51925515",
+    "_lat": "51.1321792",
+    "_lon": "4.51911635",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "70.30094182171598",
-    "_length:km": "0.1",
+    "_length": "44.621586975287066",
+    "_length:km": "0.0",
     "_last_edit:contributor": "Marlies5",
     "_last_edit:contributor:uid": 3058041,
     "_last_edit:changeset": 101490258,
@@ -2697,18 +2793,18 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.5196144,
-      51.1325115
+      4.5193408,
+      51.1323221
      ],
      [
-      4.5188959,
-      51.1320683
+      4.5188919,
+      51.1320363
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51925515,
-   "_lat": 51.1322899,
+   "_lon": 4.51911635,
+   "_lat": 51.1321792,
    "area": 0
   },
   {
@@ -2722,59 +2818,63 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/920693002",
-    "_lat": "51.13422995",
-    "_lon": "4.5153751",
+    "_lat": "51.134247599999995",
+    "_lon": "4.5153807",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "139.1254005187808",
+    "_length": "135.09920636847144",
     "_length:km": "0.1",
-    "_last_edit:contributor": "Marlies5",
-    "_last_edit:contributor:uid": 3058041,
-    "_last_edit:changeset": 101490258,
-    "_last_edit:timestamp": "2021-03-22T09:36:14Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5144404,
-      51.1341744
+      4.514431,
+      51.1341921
      ],
      [
-      4.5145477,
-      51.134203
+      4.5145333,
+      51.1342273
      ],
      [
-      4.5149929,
-      51.134267
+      4.5147814,
+      51.1342795
      ],
      [
-      4.5161087,
-      51.1342855
+      4.5150147,
+      51.1342904
      ],
      [
-      4.5161962,
-      51.1342787
+      4.5157523,
+      51.1343031
      ],
      [
-      4.5162874,
-      51.1342652
+      4.5161158,
+      51.1343005
      ],
      [
-      4.5163098,
-      51.1342265
+      4.5162298,
+      51.134282
      ],
      [
-      4.516305,
-      51.1341909
+      4.5162298,
+      51.1342846
+     ],
+     [
+      4.5163304,
+      51.1342829
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5153751,
-   "_lat": 51.13422995,
+   "_lon": 4.5153807,
+   "_lat": 51.134247599999995,
    "area": 0
   },
   {
@@ -2787,11 +2887,11 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/923402879",
-    "_lat": "51.132999600000005",
-    "_lon": "4.52041365",
+    "_lat": "51.1329049",
+    "_lon": "4.52027685",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "155.63897606256333",
+    "_length": "184.01742022509805",
     "_length:km": "0.2",
     "_last_edit:contributor": "sh85",
     "_last_edit:contributor:uid": 1721850,
@@ -2803,8 +2903,8 @@
     "type": "LineString",
     "coordinates": [
      [
-      4.5196144,
-      51.1325115
+      4.5193408,
+      51.1323221
      ],
      [
       4.5212129,
@@ -2813,8 +2913,8 @@
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.52041365,
-   "_lat": 51.132999600000005,
+   "_lon": 4.52027685,
+   "_lat": 51.1329049,
    "area": 0
   },
   {
@@ -2827,17 +2927,17 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/923402880",
-    "_lat": "51.13324195",
-    "_lon": "4.5195874499999995",
+    "_lat": "51.13314725",
+    "_lon": "4.5194814999999995",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "234.4805627346391",
-    "_length:km": "0.2",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 101923205,
-    "_last_edit:timestamp": "2021-03-29T14:11:28Z",
-    "_version_number": 1
+    "_length": "255.2715618439685",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2
    },
    "geometry": {
     "type": "LineString",
@@ -2847,26 +2947,18 @@
       51.1339724
      ],
      [
-      4.5187988,
-      51.1328684
+      4.5185869,
+      51.1328187
      ],
      [
-      4.5192057,
-      51.1326595
-     ],
-     [
-      4.5195077,
-      51.1325501
-     ],
-     [
-      4.5196144,
-      51.1325115
+      4.5193408,
+      51.1323221
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.5195874499999995,
-   "_lat": 51.13324195,
+   "_lon": 4.5194814999999995,
+   "_lat": 51.13314725,
    "area": 0
   },
   {
@@ -2879,17 +2971,17 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/923402881",
-    "_lat": "51.1339062",
-    "_lon": "4.51934465",
+    "_lat": "51.1339428",
+    "_lon": "4.5193478",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "126.53523182261686",
+    "_length": "125.71208356106357",
     "_length:km": "0.1",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 101923205,
-    "_last_edit:timestamp": "2021-03-29T14:11:28Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
@@ -2900,14 +2992,18 @@
       51.1339806
      ],
      [
-      4.5184457,
-      51.1338318
+      4.5190649,
+      51.1339749
+     ],
+     [
+      4.518452,
+      51.133905
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51934465,
-   "_lat": 51.1339062,
+   "_lon": 4.5193478,
+   "_lat": 51.1339428,
    "area": 0
   },
   {
@@ -3002,43 +3098,47 @@
     "motor_vehicle": "no",
     "surface": "dirt",
     "id": "way/923402884",
-    "_lat": "51.1340329",
-    "_lon": "4.51710405",
+    "_lat": "51.1341276",
+    "_lon": "4.5170177",
     "_surface": "0",
     "_surface:ha": "0",
-    "_length": "117.1709540379066",
+    "_length": "102.16625520058811",
     "_length:km": "0.1",
-    "_last_edit:contributor": "sh85",
-    "_last_edit:contributor:uid": 1721850,
-    "_last_edit:changeset": 101923205,
-    "_last_edit:timestamp": "2021-03-29T14:11:28Z",
-    "_version_number": 1,
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 2,
     "_part_of_walking_routes": "<a href='#relation/12506038'>Bosbeemdenpad</a>"
    },
    "geometry": {
     "type": "LineString",
     "coordinates": [
      [
-      4.5179031,
-      51.1338749
+      4.517705,
+      51.1339723
      ],
      [
-      4.5165771,
-      51.1341642
+      4.5172128,
+      51.1341003
      ],
      [
-      4.5165198,
-      51.1341698
+      4.5166388,
+      51.1342139
      ],
      [
-      4.516305,
-      51.1341909
+      4.5165359,
+      51.1342253
+     ],
+     [
+      4.5163304,
+      51.1342829
      ]
     ]
    },
    "_matching_layer_id": "slow_roads",
-   "_lon": 4.51710405,
-   "_lat": 51.1340329,
+   "_lon": 4.5170177,
+   "_lat": 51.1341276,
    "area": 0
   },
   {
@@ -3338,6 +3438,507 @@
    "_matching_layer_id": "slow_roads",
    "_lon": 4.516667,
    "_lat": 51.1309755,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634641",
+   "properties": {
+    "highway": "path",
+    "id": "way/954634641",
+    "_lat": "51.134894849999995",
+    "_lon": "4.5084896",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "108.89306914957778",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5085062,
+      51.1344339
+     ],
+     [
+      4.5085318,
+      51.1344579
+     ],
+     [
+      4.5085413,
+      51.1345467
+     ],
+     [
+      4.5085841,
+      51.1345968
+     ],
+     [
+      4.5086002,
+      51.1346245
+     ],
+     [
+      4.5085881,
+      51.1346677
+     ],
+     [
+      4.5085488,
+      51.1346971
+     ],
+     [
+      4.5085305,
+      51.1348509
+     ],
+     [
+      4.5085725,
+      51.1348816
+     ],
+     [
+      4.5085549,
+      51.13503
+     ],
+     [
+      4.5085413,
+      51.135144
+     ],
+     [
+      4.5084406,
+      51.1352717
+     ],
+     [
+      4.508379,
+      51.1353558
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.5084896,
+   "_lat": 51.134894849999995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634642",
+   "properties": {
+    "highway": "track",
+    "id": "way/954634642",
+    "_lat": "51.1334097",
+    "_lon": "4.5100835",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "299.0909274105928",
+    "_length:km": "0.3",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5098698,
+      51.1323173
+     ],
+     [
+      4.5099836,
+      51.1323801
+     ],
+     [
+      4.5100292,
+      51.132415
+     ],
+     [
+      4.5104992,
+      51.1329473
+     ],
+     [
+      4.5106501,
+      51.1331645
+     ],
+     [
+      4.510695,
+      51.1331792
+     ],
+     [
+      4.5107152,
+      51.1332027
+     ],
+     [
+      4.5107131,
+      51.1332499
+     ],
+     [
+      4.5106287,
+      51.1332802
+     ],
+     [
+      4.5103383,
+      51.1333378
+     ],
+     [
+      4.5100842,
+      51.1334371
+     ],
+     [
+      4.5099085,
+      51.1335667
+     ],
+     [
+      4.5098555,
+      51.1336517
+     ],
+     [
+      4.5098005,
+      51.1338335
+     ],
+     [
+      4.5096671,
+      51.1340906
+     ],
+     [
+      4.5096248,
+      51.1341911
+     ],
+     [
+      4.5096128,
+      51.1343022
+     ],
+     [
+      4.5095839,
+      51.1343708
+     ],
+     [
+      4.5094518,
+      51.1345021
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.5100835,
+   "_lat": 51.1334097,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634643",
+   "properties": {
+    "highway": "track",
+    "id": "way/954634643",
+    "_lat": "51.133192699999995",
+    "_lon": "4.5089562999999995",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "503.71518436550366",
+    "_length:km": "0.5",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5097303,
+      51.1318694
+     ],
+     [
+      4.5097654,
+      51.1318873
+     ],
+     [
+      4.5099655,
+      51.1319854
+     ],
+     [
+      4.5100473,
+      51.1320473
+     ],
+     [
+      4.5100647,
+      51.1321045
+     ],
+     [
+      4.5100332,
+      51.1321424
+     ],
+     [
+      4.5098698,
+      51.1323173
+     ],
+     [
+      4.5097616,
+      51.1324331
+     ],
+     [
+      4.509248,
+      51.1330391
+     ],
+     [
+      4.5090099,
+      51.1332553
+     ],
+     [
+      4.508729,
+      51.1334914
+     ],
+     [
+      4.5085566,
+      51.1336357
+     ],
+     [
+      4.5085949,
+      51.1336803
+     ],
+     [
+      4.5086713,
+      51.1337359
+     ],
+     [
+      4.5086324,
+      51.1338007
+     ],
+     [
+      4.5084567,
+      51.1339555
+     ],
+     [
+      4.5081604,
+      51.1341432
+     ],
+     [
+      4.5079122,
+      51.1342829
+     ],
+     [
+      4.5078479,
+      51.1344293
+     ],
+     [
+      4.5082757,
+      51.1344419
+     ],
+     [
+      4.5085062,
+      51.1344339
+     ],
+     [
+      4.5085654,
+      51.1344318
+     ],
+     [
+      4.5089006,
+      51.1344209
+     ],
+     [
+      4.5090669,
+      51.1344251
+     ],
+     [
+      4.5094518,
+      51.1345021
+     ],
+     [
+      4.5097201,
+      51.134516
+     ],
+     [
+      4.5100433,
+      51.1345151
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.5089562999999995,
+   "_lat": 51.133192699999995,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634646",
+   "properties": {
+    "highway": "path",
+    "id": "way/954634646",
+    "_lat": "51.132616600000006",
+    "_lon": "4.52053725",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "190.81739862358717",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5193408,
+      51.1323221
+     ],
+     [
+      4.5194712,
+      51.132317
+     ],
+     [
+      4.5196335,
+      51.1323153
+     ],
+     [
+      4.5198561,
+      51.1323507
+     ],
+     [
+      4.5203684,
+      51.1323599
+     ],
+     [
+      4.5206957,
+      51.1323751
+     ],
+     [
+      4.5208499,
+      51.1324096
+     ],
+     [
+      4.5210135,
+      51.1324727
+     ],
+     [
+      4.5211154,
+      51.1325535
+     ],
+     [
+      4.5213823,
+      51.1327369
+     ],
+     [
+      4.5215352,
+      51.1328278
+     ],
+     [
+      4.5217337,
+      51.1329179
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.52053725,
+   "_lat": 51.132616600000006,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634647",
+   "properties": {
+    "bicycle": "no",
+    "foot": "yes",
+    "highway": "path",
+    "horse": "no",
+    "motor_vehicle": "no",
+    "surface": "dirt",
+    "id": "way/954634647",
+    "_lat": "51.1323867",
+    "_lon": "4.51798185",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "81.9839368256309",
+    "_length:km": "0.1",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5182133,
+      51.1326713
+     ],
+     [
+      4.5182921,
+      51.1326632
+     ],
+     [
+      4.5180419,
+      51.1323703
+     ],
+     [
+      4.5176716,
+      51.1321021
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.51798185,
+   "_lat": 51.1323867,
+   "area": 0
+  },
+  {
+   "type": "Feature",
+   "id": "way/954634648",
+   "properties": {
+    "highway": "track",
+    "id": "way/954634648",
+    "_lat": "51.1333631",
+    "_lon": "4.5164142",
+    "_surface": "0",
+    "_surface:ha": "0",
+    "_length": "206.9155659136793",
+    "_length:km": "0.2",
+    "_last_edit:contributor": "Pieter Vander Vennet",
+    "_last_edit:contributor:uid": 3818858,
+    "_last_edit:changeset": 106405839,
+    "_last_edit:timestamp": "2021-06-15T13:51:18Z",
+    "_version_number": 1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.5162298,
+      51.1342846
+     ],
+     [
+      4.5162687,
+      51.1342172
+     ],
+     [
+      4.5163894,
+      51.1336728
+     ],
+     [
+      4.5164551,
+      51.1333513
+     ],
+     [
+      4.5164926,
+      51.1331611
+     ],
+     [
+      4.5165423,
+      51.1326284
+     ],
+     [
+      4.5165986,
+      51.1324416
+     ]
+    ]
+   },
+   "_matching_layer_id": "slow_roads",
+   "_lon": 4.5164142,
+   "_lat": 51.1333631,
    "area": 0
   }
  ]
