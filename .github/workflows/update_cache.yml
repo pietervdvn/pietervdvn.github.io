@@ -14,17 +14,7 @@ jobs:
             node-version: '15'
         env:
             ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-          
-      - name: Clone deployment repo
-        env:
-          DEPLOY_KEY_PIETERVDVN: ${{ secrets.DEPLOY_KEY_PIETERVDVN }}
-        run: | 
-          echo "Cloning destination repo"
-          git config --global user.email "pietervdvn@posteo.net"
-          git config --global user.name "pietervdvn"
-          git clone --depth 1 --single-branch --branch master "https://x-access-token:$DEPLOY_KEY_PIETERVDVN@github.com/pietervdvn/pietervdvn.github.io.git"
-          echo "Destination repo is cloned"
-          
+
       - name: "Clone mapcomplete"
         run: |
           # No write access is needed here
@@ -37,6 +27,16 @@ jobs:
           cd MapComplete
           npm ci
           cd -
+          
+      - name: Clone deployment repo
+        env:
+          DEPLOY_KEY_PIETERVDVN: ${{ secrets.DEPLOY_KEY_PIETERVDVN }}
+        run: | 
+          echo "Cloning destination repo"
+          git config --global user.email "pietervdvn@posteo.net"
+          git config --global user.name "pietervdvn"
+          git clone --depth 1 --single-branch --branch master "https://x-access-token:$DEPLOY_KEY_PIETERVDVN@github.com/pietervdvn/pietervdvn.github.io.git"
+          echo "Destination repo is cloned"
           
       - name: "Update the cache"
         run: |
