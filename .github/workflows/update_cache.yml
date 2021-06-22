@@ -45,7 +45,6 @@ jobs:
           cd pietervdvn.github.io
           ls
           pwd
-          rm speelplekken_cache/*.json
           cd ../MapComplete
           # git pull # The CD-script should be doing the pull and deploying!
           echo "Starting the caching script"
