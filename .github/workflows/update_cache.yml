@@ -43,7 +43,16 @@ jobs:
         run: |
           # here, we move into the cloned (and updatable!) repo
           cd pietervdvn.github.io
-          pwd
-          ls
+          rm speelplekken_cache/*.json
+          cd ../MapComplete
+          # git pull # The CD-script should be doing the pull and deploying!
+          echo "Starting the caching script"
+          npm run generate:cache:speelplekken
+          echo "Caching done, commiting now"
+          cd ../pietervdvn.github.io
           git status
-          update_speelplekken_cache.sh
+          git pull
+          git add *
+          git commit -am "Update of the speelplekken cache"
+          # git push
+          echo "All done!"
