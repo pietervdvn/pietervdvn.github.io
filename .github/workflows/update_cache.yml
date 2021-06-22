@@ -48,6 +48,7 @@ jobs:
           cd ../MapComplete
           # git pull # The CD-script should be doing the pull and deploying!
           echo "Starting the caching script"
+          npm run init
           npm run generate:cache:speelplekken
           echo "Caching done, commiting now"
           cd ../pietervdvn.github.io
