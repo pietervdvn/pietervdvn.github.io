@@ -15,9 +15,6 @@ jobs:
         env:
             ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
           
-      - name: install deps
-        run: npm ci
-        
       - name: Clone deployment repo
         env:
           DEPLOY_KEY_PIETERVDVN: ${{ secrets.DEPLOY_KEY_PIETERVDVN }}
