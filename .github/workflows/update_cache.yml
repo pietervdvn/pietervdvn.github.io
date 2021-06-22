@@ -43,6 +43,8 @@ jobs:
         run: |
           # here, we move into the cloned (and updatable!) repo
           cd pietervdvn.github.io
+          ls
+          pwd
           rm speelplekken_cache/*.json
           cd ../MapComplete
           # git pull # The CD-script should be doing the pull and deploying!
