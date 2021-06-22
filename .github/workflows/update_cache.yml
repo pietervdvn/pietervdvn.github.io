@@ -25,7 +25,9 @@ jobs:
         run: |
           cd MapComplete
           npm ci
-          cd -
+          cd ..
+          ls
+          pwd
           
       - name: Clone deployment repo
         env:
