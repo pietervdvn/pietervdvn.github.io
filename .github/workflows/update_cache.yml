@@ -28,6 +28,8 @@ jobs:
       - name: "Clone mapcomplete"
         run: |
           # No write access is needed here
+          pwd
+          ls
           git clone  --depth 1 --single-branch --branch master https://github.com/pietervdvn/MapComplete.git
           
       - name: "Installing deps"
