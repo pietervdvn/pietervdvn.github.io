@@ -1,6 +1,7 @@
 name: Deployment on pietervdvn
 on:
-  push
+  schedule:
+  - cron: 4 */8 * * *
       
 jobs:
   build:
@@ -56,5 +57,5 @@ jobs:
           git pull
           git add *
           git commit -am "Update of the speelplekken cache"
-          # git push
+          git push
           echo "All done!"
