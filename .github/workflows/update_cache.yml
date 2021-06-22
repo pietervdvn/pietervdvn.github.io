@@ -42,5 +42,7 @@ jobs:
       - name: "Update the cache"
         run: |
           # here, we move into the cloned (and updatable!) repo
-          cd pietervdvn.github.io
+          pwd
+          ls
+          git status
           ./update_speeplekken_cache.sh
