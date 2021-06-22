@@ -18,8 +18,7 @@ jobs:
       - name: "Clone mapcomplete"
         run: |
           # No write access is needed here
-          pwd
-          ls
+          rm -rf MapComplete/ # We remove the already existing file. This one won't be committed
           git clone  --depth 1 --single-branch --branch master https://github.com/pietervdvn/MapComplete.git
           
       - name: "Installing deps"
@@ -40,5 +39,6 @@ jobs:
           
       - name: "Update the cache"
         run: |
+          # here, we move into the cloned (and updatable!) repo
           cd pietervdvn.github.io
           ./update_speeplekken_cache.sh
