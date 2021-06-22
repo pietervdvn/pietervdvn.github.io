@@ -1,8 +1,8 @@
 name: Deployment on pietervdvn
 on:
-  schedule:
+  - schedule:
     - cron: 0 15 * * *
-  push
+  - push
       
 jobs:
   build:
