@@ -56,6 +56,6 @@ jobs:
           git status
           git pull
           git add *
-          git commit -am "Update of the speelplekken cache"
+          git commit -am "Update of the speelplekken cache" || echo "No changes to commit"
           git push
           echo "All done!"
