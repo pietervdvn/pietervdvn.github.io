@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Publieke tuinen, parken, speeltuinen</title>
+	<link rel="stylesheet" href="../vendor/leaflet/leaflet.css"/>
+	<script src="../vendor/leaflet/leaflet.js"></script>
+	<script src="../vendor/jquery-3.3.1.min.js"></script>
+  	<script src="../LoadFromOverpass.js"></script>
+
+	<style>
+		#map{ width: 100%; height: 600; }
+	</style>
+
+</head>
+
+<body>
+
+
+<div id="map"></div>
+
+<script>
+
+function popupText(tags){
+	let text = "";
+	text += "<h1>"+tags.name+"</h1>";
+	text += "<table><tr><td width=600px>"
+	text+="<p>"
+	if(tags.description)
+    	text+= tags.description+"</p><br /><p>"
+    if(tags.description_1)
+    	text+= tags.description_1+"</p><br /><p>"
+	if(tags.brand){
+    	text+= "Deel van het netwerk "+tags.brand
+    	if(tags.ref)
+    	    text+=" (referentienummer "+tags.ref+")"
+    	text+="<br />"
+	}
+    if(tags.start_date)
+        text+= "Geplaatst op "+tags.start_date+"<br />"
+    if(tags.operator)
+        text+="Uitgebaat door <strong>"+tags.operator+"</strong><br/>"
+    if(tags.capacity)
+        text += "Plaats voor ongeveer <strong>"+tags.capacity+"</strong> boeken<br/>"
+    if(tags.website)
+        text += "Meer informatie op <a href='"+tags.website+"'>"+tags.website+"</a>"
+	text+="</p><br/>"
+	
+	if(tags.image){
+	    text += "</td><td><img width=300px src='"+tags.image+"' /></td>"
+	}
+	
+	text +="</td></table>"
+	return text;
+}
+
+function image(tags){
+    if(tags.image){
+        var icon = L.icon({
+            iconUrl: tags.image,
+
+            iconSize:     [75], // size of the icon
+            iconAnchor:   [35, 35], // point of the icon which will correspond to marker's location
+            popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+        });
+        return icon;
+    }
+}
+
+console.log("Getting started...");
+map = initializeMap();
+map.setView([51.222, 3.227], 12);
+CachedFirstRender(['"leisure"="park"'],"Brugge" ,popupText, image);
+CachedFirstRender(['"leisure"="playground"'],"Brugge" ,popupText, image);
+CachedFirstRender(['"leisure"="garden"','"access"="public"'],"Brugge" ,popupText, image);
+
+
+</script>
+
+
+
+</body>
+
+
+</html>

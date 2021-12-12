@@ -1,0 +1,522 @@
+Updating map...
+Thu Apr 25 00:42:36 CEST 2019
+mkdir: cannot create directory ‘Ski’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski
+--2019-04-25 00:42:36--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3603914986)-%3E.searchArea;(node[%22aerialway%22](area.searchArea);way[%22aerialway%22](area.searchArea);relation[%22aerialway%22](area.searchArea);node[%22piste:type%22](area.searchArea);way[%22piste:type%22](area.searchArea);relation[%22piste:type%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:120:6464::2, 2a01:4f8:110:502c::2, 178.63.48.217, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:120:6464::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘France - Bourg-Saint-Maurice.osm’
+
+     0K .......... .......... .......... .......... ..........  779K
+    50K .......... .......... .......... .......... .......... 1.42M
+   100K .......... .......... .......... .......... .......... 10.6M
+   150K .......... .......... .......... .......... .......... 1.78M
+   200K .......... .......... .......... .......... .......... 4.32M
+   250K .......... .......... .......... .......... .......... 12.6M
+   300K .......... .......... .......... .......... .......... 3.21M
+   350K .......... .......... .......... .......... .......... 6.55M
+   400K .......... .......... .......... .......... .......... 8.28M
+   450K .......... .......... .......... .......... .......... 3.53M
+   500K .......... .......... .......... .......... .......... 3.45M
+   550K .......... .......... .......... .......... .......... 5.45M
+   600K .......... .......... .......... .......... .......... 5.57M
+   650K .......... .......... .......... .......... .......... 3.49M
+   700K .......... .......... .......... .......... .......... 12.7M
+   750K .......... .......... .......... .......... .......... 4.98M
+   800K .......... .......... .......... .......... .......... 3.26M
+   850K .......... .......... .......... .......... .......... 6.29M
+   900K .......... .......... .......... .......... .......... 10.1M
+   950K .......... .......... .......... .......... .......... 6.85M
+  1000K .......... .......... .......... .......... .......... 4.03M
+  1050K .......... .......... .......... .......... .......... 4.45M
+  1100K .......... .......... .......... .......... .......... 5.26M
+  1150K .......... .......... .......... .......... .......... 5.64M
+  1200K .......... .......... .......... .......... .......... 4.04M
+  1250K .......... .......... .......... .......... .......... 8.33M
+  1300K .......... .......... .......... .......... .......... 5.66M
+  1350K .......... .......... .......... .......... .......... 3.04M
+  1400K .......... .......... .......... .......... .......... 4.78M
+  1450K .......... .......... .......... .......... .......... 16.0M
+  1500K .......... .......... .......... .......... .......... 7.36M
+  1550K .......... .......... .......... .......... .......... 3.58M
+  1600K .......... .......... .......... .......... .......... 5.65M
+  1650K .......... .......... .......... .......... .......... 6.05M
+  1700K .......... .......... .......... .......... .......... 5.02M
+  1750K .......... .......... .......... .......... .......... 4.05M
+  1800K .......... .......... .......... .......... .......... 8.77M
+  1850K .......... .......... .......... .......... .......... 5.46M
+  1900K .......... .......... .......... .......... .......... 2.07M
+  1950K .......... .......... .......... .......... .......... 13.5M
+  2000K .......... .......... .......... .......... .......... 3.80M
+  2050K .......... .......... .......... .......... .......... 5.68M
+  2100K .......... .......... .......... .......... .......... 6.58M
+  2150K .......... .......... .......... .......... .......... 5.29M
+  2200K .......... .......... .......... .......... .......... 5.46M
+  2250K .......... .......... .......... .......... .......... 5.20M
+  2300K .......... .......... .......... .......... .......... 5.72M
+  2350K .......... .......... .......... .......... .......... 5.40M
+  2400K .......... .......... .......... .......... .......... 3.04M
+  2450K .......... .......... .......... .......... .......... 5.00M
+  2500K .......... .......... .......... .......... .......... 27.0M
+  2550K .......... .......... .......... .......... .......... 6.06M
+  2600K .......... .......... .......... .......... .......... 5.97M
+  2650K .......... .......... .......... .......... ..........  279K
+  2700K .......... .......... .......... .......... .......... 2.30M
+  2750K .......... .......... .......... .......... .......... 8.88M
+  2800K .......... .......... .......... .......... .......... 6.08M
+  2850K .......... .......... .......... .......... .......... 4.29M
+  2900K .......... .......... .......... .......... .......... 28.2M
+  2950K .......... .......... .......... .........             11.8M=0.8s
+
+2019-04-25 00:42:39 (3.53 MB/s) - ‘France - Bourg-Saint-Maurice.osm’ saved [3060844]
+
+Bad level value for property: .level
+Apr 25, 2019 12:42:40 AM net.osmand.util.IndexBatchCreator generatedIndexes
+INFO: Check if /tmp/France - bourg-saint-maurice_2.obf.zip exists
+Apr 25, 2019 12:42:40 AM net.osmand.util.IndexBatchCreator generateIndex
+WARNING: -------------------------------------------
+Apr 25, 2019 12:42:40 AM net.osmand.util.IndexBatchCreator generateIndex
+WARNING: ----------- Generate France - Bourg-Saint-Maurice.osm
+
+
+
+Tiff reader: com.sun.imageio.plugins.tiff.TIFFImageReader@5fcd892a
+Tiff reader: com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReader@133e16fd
+Apr 25, 2019 12:42:40 AM net.osmand.osm.MapRenderingTypes initFromInputStream
+INFO: Time to init poi types 83
+Apr 25, 2019 12:42:41 AM net.osmand.osm.MapRenderingTypes init
+INFO: Time to init 1249
+Apr 25, 2019 12:42:41 AM net.osmand.obf.preparation.IndexCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:41 AM net.osmand.obf.preparation.IndexPoiCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:41 AM net.osmand.obf.preparation.IndexCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 165580096
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/France - Bourg-Saint-Maurice.osm started - -1
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/France - Bourg-Saint-Maurice.osm: work total has changed to -1
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/France - Bourg-Saint-Maurice.osm: work total has changed to 3060844
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/France - Bourg-Saint-Maurice.osm is finished 
+Apr 25, 2019 12:42:41 AM net.osmand.obf.preparation.IndexCreator extractOsmToNodesDB
+INFO: File parsed : 123
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task null is finished 
+Apr 25, 2019 12:42:41 AM net.osmand.obf.preparation.IndexCreator extractOsmToNodesDB
+INFO: File indexed : 125
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 134975112
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: preindex_boundaries_relations started after 120 ms - 0
+Apr 25, 2019 12:42:41 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task preindex_boundaries_relations: work total has changed to 0
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 134258336
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_nodes started after 156 ms - 0
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 133609776
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_ways started after 154 ms - 0
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 132685472
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_rel started after 155 ms - 0
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 131636896
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: index_lo_level_ways started after 162 ms - -1
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task index_lo_level_ways: work total has changed to -1
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 131636896
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: pack_rtree_map started after 4 ms - -1
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 130984224
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing map index to binary file... started after 46 ms - -1
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapIndex
+INFO: MAP INDEX SIZE : 30
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 130984224
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing route index to binary file... started after 14 ms - -1
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter simulateWriteEndRouteIndex
+INFO: PREROUTE INDEX SIZE : 30
+All objects in base file 0 to keep isolated 0 to add 0 to remove 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE TYPE SIZE SIZE 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE COORDINATES SIZE 0 COUNT 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE POINTS SIZE 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE STRING SIZE 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE ID SIZE 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: -- ROUTE_DATA 0
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: ROUTE INDEX SIZE : 30
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 192937984 free : 127835424
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing poi index to binary file... started after 189 ms - -1
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task null: work total has changed to 1000000
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.IndexPoiCreator processPOIIntoTree
+INFO: Poi processing finished
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.IndexPoiCreator writeBinaryPoiIndex
+INFO: Poi box processing finished
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWritePoiIndex
+INFO: POI INDEX SIZE : 60
+Apr 25, 2019 12:42:42 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task Writing poi index to binary file... is finished 
+Apr 25, 2019 12:42:42 AM net.osmand.obf.preparation.IndexCreator generateIndexes
+INFO: Finish writing binary file
+Apr 25, 2019 12:42:42 AM net.osmand.util.IndexBatchCreator generatedIndexes
+INFO: Check if /tmp/Sintcristinajosm_2.obf.zip exists
+Apr 25, 2019 12:42:42 AM net.osmand.util.IndexBatchCreator generateIndex
+WARNING: -------------------------------------------
+Apr 25, 2019 12:42:42 AM net.osmand.util.IndexBatchCreator generateIndex
+WARNING: ----------- Generate SintCristinaJOSM.osm
+
+
+
+Tiff reader: com.sun.imageio.plugins.tiff.TIFFImageReader@65e98b1c
+Tiff reader: com.twelvemonkeys.imageio.plugins.tiff.TIFFImageReader@510f3d34
+Apr 25, 2019 12:42:43 AM net.osmand.osm.MapRenderingTypes init
+INFO: Time to init 911
+Apr 25, 2019 12:42:43 AM net.osmand.obf.preparation.IndexCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:43 AM net.osmand.obf.preparation.IndexPoiCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:43 AM net.osmand.obf.preparation.IndexCreator getDatabaseConnection
+INFO: SQLITE running in native mode
+Apr 25, 2019 12:42:43 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 134217728 free : 82896328
+Apr 25, 2019 12:42:43 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/SintCristinaJOSM.osm started - -1
+Apr 25, 2019 12:42:43 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/SintCristinaJOSM.osm: work total has changed to -1
+Apr 25, 2019 12:42:43 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/SintCristinaJOSM.osm: work total has changed to 2608716
+Apr 25, 2019 12:42:43 AM net.osmand.impl.ConsoleProgressImplementation printIfNeeded
+INFO: Done 7.537 %.
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task loading_file/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Ski/SintCristinaJOSM.osm is finished 
+Apr 25, 2019 12:42:44 AM net.osmand.obf.preparation.IndexCreator extractOsmToNodesDB
+INFO: File parsed : 495
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task null is finished 
+Apr 25, 2019 12:42:44 AM net.osmand.obf.preparation.IndexCreator extractOsmToNodesDB
+INFO: File indexed : 496
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 134217728 free : 53536200
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: preindex_boundaries_relations started after 495 ms - 20
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task preindex_boundaries_relations: work total has changed to 20
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 134217728 free : 49341896
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_nodes started after 224 ms - 642
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task process_osm_nodes: work total has changed to 642
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation printIfNeeded
+INFO: Done 99.221 %.
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 134217728 free : 101231928
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_ways started after 329 ms - 1045
+Apr 25, 2019 12:42:44 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task process_osm_ways: work total has changed to 1045
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 116074840
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: process_osm_rel started after 651 ms - 20
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task process_osm_rel: work total has changed to 20
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 115024216
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: index_lo_level_ways started after 161 ms - 2425
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task index_lo_level_ways: work total has changed to 2425
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task index_lo_level_ways: work total has changed to -1
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 104540504
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: pack_rtree_map started after 105 ms - -1
+Pack.packTree : Size of elmts: 1688
+Pack.packTree : Size of elmts: 1292
+Pack.packTree : Size of elmts: 556
+Pack.packTree : Size of elmts: 448
+Pack.packTree : Size of elmts: 1041
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 97722712
+Apr 25, 2019 12:42:45 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing map index to binary file... started after 114 ms - -1
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapLevelIndex
+INFO: MAP level SIZE : 81362
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapLevelIndex
+INFO: MAP level SIZE : 57686
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapLevelIndex
+INFO: MAP level SIZE : 24245
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapLevelIndex
+INFO: MAP level SIZE : 17143
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteMapIndex
+INFO: MAP INDEX SIZE : 182711
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 89860440
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing route index to binary file... started after 145 ms - -1
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter simulateWriteEndRouteIndex
+INFO: PREROUTE INDEX SIZE : 77385
+All objects in base file 0 to keep isolated 0 to add 0 to remove 0
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE TYPE SIZE SIZE 17986
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE COORDINATES SIZE 92422 COUNT 25946
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE POINTS SIZE 0
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE STRING SIZE 16568
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: - ROUTE ID SIZE 4164
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: -- ROUTE_DATA 150272
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWriteRouteIndex
+INFO: ROUTE INDEX SIZE : 77385
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+FINE: Memory before task exec: 171966464 free : 81471832
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation startTaskLong
+INFO: Writing poi index to binary file... started after 71 ms - -1
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation startWorkLong
+INFO: Task null: work total has changed to 1000000
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.IndexPoiCreator processPOIIntoTree
+INFO: Poi processing finished
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.IndexPoiCreator writeBinaryPoiIndex
+INFO: Poi box processing finished
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.BinaryMapIndexWriter endWritePoiIndex
+INFO: POI INDEX SIZE : 88047
+Apr 25, 2019 12:42:46 AM net.osmand.impl.ConsoleProgressImplementation finishTask
+INFO: Task Writing poi index to binary file... is finished 
+Apr 25, 2019 12:42:46 AM net.osmand.obf.preparation.IndexCreator generateIndexes
+INFO: Finish writing binary file
+Apr 25, 2019 12:42:46 AM net.osmand.util.IndexBatchCreator generatedIndexes
+INFO: GENERATING INDEXES FINISHED 
+/tmp/France - bourg-saint-maurice_2.obf.rte
+java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.seek0(Native Method)
+	at java.base/java.io.RandomAccessFile.seek(RandomAccessFile.java:591)
+	at rtree.FileHdr.writeFileHeader(FileHdr.java:243)
+	at rtree.FileHdr.flush(FileHdr.java:333)
+	at rtree.FileHdr.finalize(FileHdr.java:318)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2117)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+/tmp/France - bourg-saint-maurice_2.obf.rtree3
+java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.seek0(Native Method)
+	at java.base/java.io.RandomAccessFile.seek(RandomAccessFile.java:591)
+	at rtree.FileHdr.writeFileHeader(FileHdr.java:243)
+	at rtree.FileHdr.flush(FileHdr.java:333)
+	at rtree.FileHdr.finalize(FileHdr.java:318)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2117)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+/tmp/France - bourg-saint-maurice_2.obf.rtree2
+java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.seek0(Native Method)
+	at java.base/java.io.RandomAccessFile.seek(RandomAccessFile.java:591)
+	at rtree.FileHdr.writeFileHeader(FileHdr.java:243)
+	at rtree.FileHdr.flush(FileHdr.java:333)
+	at rtree.FileHdr.finalize(FileHdr.java:318)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2117)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+/tmp/France - bourg-saint-maurice_2.obf.rtree1
+java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.seek0(Native Method)
+	at java.base/java.io.RandomAccessFile.seek(RandomAccessFile.java:591)
+	at rtree.FileHdr.writeFileHeader(FileHdr.java:243)
+	at rtree.FileHdr.flush(FileHdr.java:333)
+	at rtree.FileHdr.finalize(FileHdr.java:318)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2117)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+/tmp/France - bourg-saint-maurice_2.obf.rtree0
+java.io.IOException: Stream Closed
+	at java.base/java.io.RandomAccessFile.seek0(Native Method)
+	at java.base/java.io.RandomAccessFile.seek(RandomAccessFile.java:591)
+	at rtree.FileHdr.writeFileHeader(FileHdr.java:243)
+	at rtree.FileHdr.flush(FileHdr.java:333)
+	at rtree.FileHdr.finalize(FileHdr.java:318)
+	at java.base/java.lang.System$2.invokeFinalize(System.java:2117)
+	at java.base/java.lang.ref.Finalizer.runFinalizer(Finalizer.java:87)
+	at java.base/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:171)
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache
+mkdir: cannot create directory ‘West-Vlaanderen’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/West-Vlaanderen
+--2019-04-25 00:42:46--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600416271)-%3E.searchArea;(node[%22name%22=%22De%20Leiemeersen%22][%22leisure%22=%22nature_reserve%22](area.searchArea);way[%22name%22=%22De%20Leiemeersen%22][%22leisure%22=%22nature_reserve%22](area.searchArea);relation[%22name%22=%22De%20Leiemeersen%22][%22leisure%22=%22nature_reserve%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["name"="De Leiemeersen"]["leisure"="nature_reserve"].json’
+
+     0K .......... .                                            548K=0.02s
+
+2019-04-25 00:42:48 (548 KB/s) - ‘["name"="De Leiemeersen"]["leisure"="nature_reserve"].json’ saved [11972]
+
+mkdir: cannot create directory ‘De Leiemeersen’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/De Leiemeersen
+--2019-04-25 00:42:48--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3609118029)-%3E.searchArea;(node[%22natural%22](area.searchArea);way[%22natural%22](area.searchArea);relation[%22natural%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["natural"].json’
+
+     0K .......... .......... .......... .......... ..........  752K
+    50K .......... .......... .......... .......... .......... 1.60M
+   100K .......... .......... .......... .......... .......... 4.00M
+   150K .......... .......... .....                            4.38M=0.1s
+
+2019-04-25 00:42:50 (1.49 MB/s) - ‘["natural"].json’ saved [179830]
+
+mkdir: cannot create directory ‘Brugge’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Brugge
+--2019-04-25 00:42:50--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600562654)-%3E.searchArea;(node[%22amenity%22=%22public_bookcase%22](area.searchArea);way[%22amenity%22=%22public_bookcase%22](area.searchArea);relation[%22amenity%22=%22public_bookcase%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["amenity"="public_bookcase"].json’
+
+     0K ..........                                              199K=0.05s
+
+2019-04-25 00:42:52 (199 KB/s) - ‘["amenity"="public_bookcase"].json’ saved [10343]
+
+mkdir: cannot create directory ‘Belgie’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Belgie
+--2019-04-25 00:42:52--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600052411)-%3E.searchArea;(node[%22amenity%22=%22public_bookcase%22](area.searchArea);way[%22amenity%22=%22public_bookcase%22](area.searchArea);relation[%22amenity%22=%22public_bookcase%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["amenity"="public_bookcase"].json’
+
+     0K .......... .......... .......... .......... ....        441K=0.1s
+
+2019-04-25 00:42:59 (441 KB/s) - ‘["amenity"="public_bookcase"].json’ saved [45065]
+
+mkdir: cannot create directory ‘Brugge’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Brugge
+--2019-04-25 00:42:59--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600562654)-%3E.searchArea;(node[%22leisure%22=%22nature_reserve%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);way[%22leisure%22=%22nature_reserve%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);relation[%22leisure%22=%22nature_reserve%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["leisure"="nature_reserve"]["operator"="Natuurpunt Brugge"].json’
+
+     0K .......... .......... .......... ..                     355K=0.09s
+
+2019-04-25 00:43:01 (355 KB/s) - ‘["leisure"="nature_reserve"]["operator"="Natuurpunt Brugge"].json’ saved [32807]
+
+mkdir: cannot create directory ‘Brugge’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Brugge
+--2019-04-25 00:43:01--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600562654)-%3E.searchArea;(node[%22tourism%22=%22information%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);way[%22tourism%22=%22information%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);relation[%22tourism%22=%22information%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["tourism"="information"]["operator"="Natuurpunt Brugge"].json’
+
+     0K                                                        55.9M=0s
+
+2019-04-25 00:43:03 (55.9 MB/s) - ‘["tourism"="information"]["operator"="Natuurpunt Brugge"].json’ saved [676]
+
+mkdir: cannot create directory ‘Brugge’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Brugge
+--2019-04-25 00:43:03--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600562654)-%3E.searchArea;(node[%22leisure%22=%22bird_hide%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);way[%22leisure%22=%22bird_hide%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea);relation[%22leisure%22=%22bird_hide%22][%22operator%22=%22Natuurpunt%20Brugge%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["leisure"="bird_hide"]["operator"="Natuurpunt Brugge"].json’
+
+     0K                                                        61.9M=0s
+
+2019-04-25 00:43:05 (61.9 MB/s) - ‘["leisure"="bird_hide"]["operator"="Natuurpunt Brugge"].json’ saved [500]
+
+mkdir: cannot create directory ‘Gent’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Gent
+--2019-04-25 00:43:05--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3602524008)-%3E.searchArea;(node[%22natural%22=%22tree%22][%22species%22](area.searchArea);way[%22natural%22=%22tree%22][%22species%22](area.searchArea);relation[%22natural%22=%22tree%22][%22species%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["natural"="tree"]["species"].json’
+
+     0K .......... .......... .......... .                      982K=0.03s
+
+2019-04-25 00:43:07 (982 KB/s) - ‘["natural"="tree"]["species"].json’ saved [31933]
+
+mkdir: cannot create directory ‘Gent’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Gent
+--2019-04-25 00:43:07--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3602524008)-%3E.searchArea;(node[%22natural%22=%22tree%22][%22species:nl%22](area.searchArea);way[%22natural%22=%22tree%22][%22species:nl%22](area.searchArea);relation[%22natural%22=%22tree%22][%22species:nl%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["natural"="tree"]["species:nl"].json’
+
+     0K ..                                                      114M=0s
+
+2019-04-25 00:43:10 (114 MB/s) - ‘["natural"="tree"]["species:nl"].json’ saved [2103]
+
+mkdir: cannot create directory ‘Gent’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Gent
+--2019-04-25 00:43:10--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3602524008)-%3E.searchArea;(node[%22landuse%22=%22orchard%22](area.searchArea);way[%22landuse%22=%22orchard%22](area.searchArea);relation[%22landuse%22=%22orchard%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["landuse"="orchard"].json’
+
+     0K .......... .......... .......... .......... ..........  762K
+    50K .......... .......... .......... .......... .......... 1.15M
+   100K .......... .......... .......... ...                   1.09M=0.1s
+
+2019-04-25 00:43:14 (966 KB/s) - ‘["landuse"="orchard"].json’ saved [136833]
+
+mkdir: cannot create directory ‘Belgie’: File exists
+/home/pietervdvn/git/pietervdvn.github.io/Quickmaps/cache/Belgie
+--2019-04-25 00:43:14--  https://overpass-api.de/api/interpreter?data=[out:json][timeout:25];area(3600052411)-%3E.searchArea;(node[%22religion%22=%22muslim%22](area.searchArea);way[%22religion%22=%22muslim%22](area.searchArea);relation[%22religion%22=%22muslim%22](area.searchArea););out%20body;%3E;out%20skel%20qt;
+Resolving overpass-api.de (overpass-api.de)... 2a01:4f8:110:502c::2, 2a01:4f8:120:6464::2, 178.63.11.215, ...
+Connecting to overpass-api.de (overpass-api.de)|2a01:4f8:110:502c::2|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘["religion"="muslim"].json’
+
+     0K .......... .......... .......... .......... .......... 91.0K
+    50K .......... .......... .......... .....                  360K=0.6s
+
+2019-04-25 00:43:26 (132 KB/s) - ‘["religion"="muslim"].json’ saved [87850]
+
+[master c92237b] Update of the cache
+ 16 files changed, 238 insertions(+), 238 deletions(-)
+ rewrite Quickmaps/cache/SkiObf/France - bourg-saint-maurice_2.obf.gen.log (63%)
+ rewrite Quickmaps/cache/SkiObf/Sintcristinajosm_2.obf.gen.log (61%)
+To github.com:pietervdvn/pietervdvn.github.io
+   f6ebe30..c92237b  master -> master

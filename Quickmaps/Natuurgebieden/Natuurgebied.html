@@ -1,0 +1,105 @@
+<html>
+
+<head>
+	<title>Natuurgebied</title>
+	<link rel="stylesheet" href="../vendor/leaflet/leaflet.css"/>
+	<script src="../vendor/leaflet/leaflet.js"></script>
+	<script src="../vendor/jquery-3.3.1.min.js"></script>
+	<script src="NatuurpuntPopupText.js"></script>
+  	<script src="../LoadFromOverpass.js"></script>
+  	<script src="Slideshow.js"></script>
+  	<style src="Slideshow.css"></style>
+
+	<style>
+		#map{ width: 100%; height: 40vh }
+		
+		.wrapper { display: flex; margin: 1vh }
+		.left { }
+		.right { flex: 1}
+	</style>
+	
+	
+</head>
+
+
+<body>
+
+<div id="title"></div>
+
+<div class="wrapper">
+    
+    <div id="overview" class="left">Loading...</div></td>
+
+    <div class="right">
+        <div id="map"></div>
+    </div>
+</div>
+
+
+
+<h2>Informatie en geschiedenis (Wikipedia)</h2>
+<div id="MoreInfo">Wikipedia is loading...</div>
+
+
+<script>
+var urlParams = new URLSearchParams(window.location.search);
+let nrName = urlParams.get('name')
+console.log("This is about "+nrName);
+if(nrName === undefined  || nrName === null || nrName === ""){
+    alert("No '?name' in the URL.")
+}
+
+map = initializeMap();
+map.setView([51.222, 3.227], 12);
+
+var options = {};
+var nrData = undefined;
+options.preprocessing = function(areas){
+    var newAreas = []
+    for(var i in areas){
+        let area = areas[i];
+        console.log("> ",area)
+        if(area.tags.name === nrName){
+            newAreas.push(area);
+            nrData = area;
+        }
+    }
+    return newAreas;
+}
+
+options.continuation = function(areas){
+    var totalSurface = 0.0;
+    let area = undefined;
+    for(var i in areas){
+        area = areas[i];
+        totalSurface += area.tags.area;
+    }
+    
+    var tags = area.tags;
+    document.getElementById("title").innerHTML = "<h1>" + tags.name + "</h1>";
+    document.getElementById("overview").innerHTML = contactInfo(tags) + accessInfo(tags);
+    
+    if(tags.wikipedia){
+    
+        var lang = area.tags.wikipedia.split(':')[0];
+	    var page = area.tags.wikipedia.split(':')[1];
+	    
+
+        document.getElementById("MoreInfo").innerHTML = tags.wikipedia_contents;
+        loadWikipedia(area, "?printable=yes");
+    }
+}
+
+
+
+CachedFirstRender(['"leisure"="nature_reserve"','"operator"="Natuurpunt Brugge"'],"Brugge", function(tags, area){return toHa(area)+" Ha geselecteerd"}, imageFunction, options);
+// CachedFirstRender(['"tourism"="information"','"operator"="Natuurpunt Brugge"'], "Brugge", infoBoardText, imageBoardFunction, {iconsOnly : true, highLevelOnly : true});
+// CachedFirstRender(['"leisure"="bird_hide"','"operator"="Natuurpunt Brugge"'], "Brugge", birdHideText, birdHideImage, {iconsOnly : true, highLevelOnly : true});
+
+
+                
+</script>
+
+</body>
+
+</html>
