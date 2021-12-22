@@ -1,0 +1,69 @@
+{
+  "id": "trees",
+  "title": {
+    "nl": "Bomen",
+    "en": "Trees",
+    "fr": "Arbres",
+    "it": "Alberi",
+    "ru": "Деревья",
+    "ja": "樹木",
+    "zh_Hant": "樹木",
+    "pl": "Drzewa",
+    "de": "Bäume",
+    "nb_NO": "Trær",
+    "id": "Pohon"
+  },
+  "shortDescription": {
+    "nl": "Breng bomen in kaart",
+    "en": "Map all the trees",
+    "fr": "Carte des arbres",
+    "it": "Mappa tutti gli alberi",
+    "ja": "すべての樹木をマッピングする",
+    "zh_Hant": "所有樹木的地圖",
+    "ru": "Карта деревьев",
+    "pl": "Sporządzić mapę wszystkich drzew",
+    "de": "Kartieren Sie alle Bäume",
+    "nb_NO": "Kartlegg alle trærne"
+  },
+  "description": {
+    "nl": "Breng bomen in kaart!",
+    "en": "Map all the trees!",
+    "fr": "Cartographions tous les arbres !",
+    "it": "Mappa tutti gli alberi!",
+    "ja": "すべての樹木をマッピングします!",
+    "zh_Hant": "繪製所有樹木！",
+    "ru": "Нанесите все деревья на карту!",
+    "de": "Kartieren Sie alle Bäume!",
+    "nb_NO": "Kartlegg trærne."
+  },
+  "language": [
+    "nl",
+    "en",
+    "fr",
+    "it",
+    "ru",
+    "ja",
+    "zh_Hant",
+    "pl",
+    "de",
+    "nb_NO",
+    "id"
+  ],
+  "maintainer": "Midgard",
+  "icon": "./assets/themes/trees/logo.svg",
+  "version": "0",
+  "startLat": 50.642,
+  "startLon": 4.482,
+  "startZoom": 8,
+  "widenFactor": 0.2,
+  "socialImage": "./assets/themes/trees/logo.svg",
+  "clustering": {
+    "maxZoom": 19,
+    "minNeededElements": 25
+  },
+  "osmApiTileSize": 18,
+  "layers": [
+    "tree_node"
+  ],
+  "defaultBackgroundId": "AGIV"
+}
