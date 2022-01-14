@@ -1,0 +1,60 @@
+{
+  "id": "fritures",
+  "title": {
+    "nl": "Friturenkaart",
+    "fr": "Carte des friteries"
+  },
+  "description": {
+    "nl": "Op deze kaart vind je je favoriete frituur!"
+  },
+  "language": [
+    "nl",
+    "fr",
+    "en",
+    "de",
+    "it"
+  ],
+  "maintainer": "",
+  "icon": "./assets/themes/fritures/logo.svg",
+  "version": "0",
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "widenFactor": 3,
+  "socialImage": "",
+  "layers": [
+    {
+      "builtin": "food",
+      "override": {
+        "id": "friture",
+        "name": {
+          "nl": "Frituren",
+          "en": "Fries shop",
+          "fr": "Friteries",
+          "de": "Pommesbude",
+          "it": "Friggitoria"
+        },
+        "source": {
+          "osmTags": {
+            "and": [
+              "cuisine=friture",
+              {
+                "or": [
+                  "amenity=fast_food",
+                  "amenity=restaurant"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "builtin": "food",
+      "override": {
+        "minzoom": 19,
+        "filter": null
+      }
+    }
+  ]
+}

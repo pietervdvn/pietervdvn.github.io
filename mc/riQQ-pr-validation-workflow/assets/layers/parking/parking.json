@@ -1,0 +1,65 @@
+{
+  "id": "parking",
+  "name": {
+    "nl": "Parking"
+  },
+  "minzoom": 12,
+  "source": {
+    "osmTags": "amenity=parking"
+  },
+  "title": {
+    "render": {
+      "nl": "Parking voor auto's",
+      "en": "Car parking"
+    }
+  },
+  "description": {
+    "en": "A layer showing car parkings",
+    "nl": "Deze laag toont autoparkings"
+  },
+  "tagRenderings": [
+    "images"
+  ],
+  "presets": [
+    {
+      "tags": [
+        "amenity=parking"
+      ],
+      "title": {
+        "nl": "parking voor auto's",
+        "en": "car parking"
+      }
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity:={amenity}",
+        "amenity="
+      ]
+    },
+    "neededChangesets": 1
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuraccy": true
+  },
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/layers/parking/parking.svg"
+      },
+      "iconSize": {
+        "render": "36,36,center"
+      },
+      "location": [
+        "point",
+        "centroid"
+      ]
+    },
+    {
+      "width": 2,
+      "color": "#ddcc00"
+    }
+  ]
+}
