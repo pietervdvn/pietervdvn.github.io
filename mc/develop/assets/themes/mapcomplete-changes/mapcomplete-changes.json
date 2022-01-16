@@ -47,6 +47,12 @@
       },
       "tagRenderings": [
         {
+          "id": "render_id",
+          "render": {
+            "en": "Changeset <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>"
+          }
+        },
+        {
           "id": "contributor",
           "render": {
             "en": "Change made by <a href='https://openstreetmap.org/user/{_last_edit:contributor}' target='_blank'>{_last_edit:contributor}</a>"
@@ -298,7 +304,7 @@
               }
             ]
           },
-          "iconSize": "30,30,bottom"
+          "iconSize": "30,30,center"
         }
       ],
       "filter": [
