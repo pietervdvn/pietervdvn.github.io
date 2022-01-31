@@ -1,0 +1,46 @@
+:root {
+    --subtle-detail-color: #007759;
+    --subtle-detail-color-contrast: #ffffff;
+    --subtle-detail-color-light-contrast: lightgrey;
+
+    --catch-detail-color: #0fff00;
+    --catch-detail-color-contrast: #ffffff;
+    --alert-color: #fee4d1;
+    --background-color: white;
+    --foreground-color: #007759;
+    --popup-border: white;
+    --shadow-color: #00000066;
+    --variable-title-height: 0px; /* Set by javascript */
+    --return-to-the-map-height: 2em;
+
+    --image-carousel-height: 350px;
+}
+
+@font-face{
+    font-family:"Open Sans Regular";
+    src:url("./assets/themes/natuurpunt/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face{
+    font-family:"Amaranth";
+    src:url("./assets/themes/natuurpunt/fonts/Amaranth-Regular.otf");
+}
+
+body {
+    --non-active-tab-svg: #556c5c;
+	font-family: 'Open Sans Regular', sans-serif;
+}
+
+h1 h2 h3 h4 {
+    font-family: 'Amaranth', sans-serif;
+}
+
+.tab-non-active svg {
+    fill: white !important;
+    stroke: white !important;
+}
+
+.tab-non-active svg path {
+    fill: white !important;
+    stroke: white !important;
+}
