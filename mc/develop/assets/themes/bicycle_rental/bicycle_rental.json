@@ -261,8 +261,8 @@
               "id": "rental-capacity-bicycle-type",
               "group": "",
               "question": {
-                "en": "How much bicycle_type ",
-                "nl": "Hoeveel "
+                "en": "How much type_plural can be rented here? ",
+                "nl": "Hoeveel type_plural kunnen hier uitgeleend worden?"
               },
               "render": {
                 "en": "{capacity:bicycle_type} type_plural can be rented here",
