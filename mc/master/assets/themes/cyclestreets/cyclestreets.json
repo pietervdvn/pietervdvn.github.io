@@ -31,18 +31,6 @@
     "hu": "A kerékpárosutca (cyclestreet, Fahrradstraße) olyan utca, ahol <b>gépjármű nem előzhet meg kerékpárost</b>. Az ilyen utcákat külön közlekedési tábla jelzi. Kerékpárosutcák találhatók Hollandiában és Belgiumban, valamint Németországban és Franciaországban is. "
   },
   "icon": "./assets/themes/cyclestreets/F111.svg",
-  "language": [
-    "nl",
-    "en",
-    "ja",
-    "zh_Hant",
-    "de",
-    "it",
-    "nb_NO",
-    "hu",
-    "ru",
-    "eo"
-  ],
   "startLat": 51.2095,
   "startZoom": 14,
   "startLon": 3.2228,
@@ -286,7 +274,8 @@
               "de": "Diese Straße ist eine Fahrradstraße (mit einer Geschwindigkeitsbegrenzung von 30 km/h)",
               "it": "Questa è una strada ciclabile (e ha un limite di velocità massima di 30 km/h)",
               "hu": "Ez az utca kerékpárosutca (és 30 km/h a sebességkorlátozás)"
-            }
+            },
+            "hideInAnswer": "_country!=be"
           },
           {
             "if": {
@@ -304,7 +293,7 @@
               "it": "Questa è una strada ciclabile",
               "hu": "Ez az utca kerékpárosutca"
             },
-            "hideInAnswer": true
+            "hideInAnswer": "_country=be"
           },
           {
             "if": {
