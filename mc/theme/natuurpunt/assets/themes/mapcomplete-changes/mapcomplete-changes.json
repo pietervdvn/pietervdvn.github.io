@@ -9,9 +9,6 @@
   "description": {
     "en": "This maps shows all the changes made with MapComplete"
   },
-  "language": [
-    "en"
-  ],
   "maintainer": "",
   "icon": "./assets/svg/logo.svg",
   "hideFromOverview": true,
@@ -97,6 +94,10 @@
               {
                 "if": "theme=benches",
                 "then": "./assets/themes/benches/bench_poi.svg"
+              },
+              {
+                "if": "theme=bicycle_rental",
+                "then": "./assets/themes/bicycle_rental/logo.svg"
               },
               {
                 "if": "theme=bicyclelib",
