@@ -119,7 +119,11 @@
             ]
           }
         ]
-      }
+      },
+      "hideTagRenderingsWithLabels": [
+        "operator-info",
+        "bike_repair_station-valves"
+      ]
     },
     {
       "builtin": [
@@ -143,6 +147,22 @@
               "centroid"
             ],
             "icon": "./assets/themes/toerisme_vlaanderen/charging_station_ebike.svg"
+          }
+        ],
+        "=presets": [
+          {
+            "tags": [
+              "amenity=charging_station",
+              "motorcar=no",
+              "bicycle=yes",
+              "socket:typee=1"
+            ],
+            "title": {
+              "nl": "laadpunt met gewone stekker(s) <img src='./assets/layers/charging_station/TypeE.svg' style='width: 2rem; height: 2rem; float: left; background: white; border-radius: 1rem; margin-right: 0.5rem'/> (bedoeld om electrische fietsen op te laden)"
+            },
+            "preciseInput": {
+              "preferredBackground": "map"
+            }
           }
         ]
       }
