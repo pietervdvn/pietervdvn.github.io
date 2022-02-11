@@ -1,0 +1,231 @@
+{
+  "id": "cafe_pub",
+  "name": {
+    "nl": "Cafés",
+    "en": "Cafés and pubs",
+    "de": "Cafés und Kneipen",
+    "fr": "Cafés et pubs",
+    "zh_Hant": "咖啡廳與酒吧",
+    "hu": "Kávézók és kocsmák"
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "amenity=bar",
+        "amenity=pub",
+        "amenity=cafe",
+        "amenity=biergarten"
+      ]
+    }
+  },
+  "presets": [
+    {
+      "tags": [
+        "amenity=pub"
+      ],
+      "title": {
+        "en": "pub",
+        "nl": "bruin cafe of kroeg",
+        "de": "Kneipe",
+        "ru": "паб",
+        "hu": "kocsma"
+      },
+      "description": {
+        "nl": "Dit is <b>een bruin café of een kroeg</b> waar voornamelijk bier wordt gedronken. De inrichting is typisch gezellig met veel houtwerk "
+      },
+      "preciseInput": {
+        "preferredBackground": "map"
+      }
+    },
+    {
+      "tags": [
+        "amenity=bar"
+      ],
+      "title": {
+        "en": "bar",
+        "nl": "bar",
+        "de": "Bar",
+        "ru": "бар",
+        "hu": "bár"
+      },
+      "description": {
+        "nl": "Dit is een <b>bar</b> waar men ter plaatse alcoholische drank nuttigt. De inrichting is typisch modern en commercieel, soms met lichtinstallatie en feestmuziek"
+      },
+      "preciseInput": {
+        "preferredBackground": "map"
+      }
+    },
+    {
+      "tags": [
+        "amenity=cafe"
+      ],
+      "title": {
+        "en": "cafe",
+        "nl": "cafe",
+        "de": "Café",
+        "ru": "кафе",
+        "hu": "kávézó"
+      },
+      "description": {
+        "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen."
+      },
+      "preciseInput": {
+        "preferredBackground": "map"
+      }
+    }
+  ],
+  "title": {
+    "render": {
+      "nl": "Café"
+    },
+    "mappings": [
+      {
+        "if": {
+          "and": [
+            "name~*"
+          ]
+        },
+        "then": {
+          "nl": "<i>{name}</i>",
+          "en": "<i>{name}</i>",
+          "de": "<i>{name}</i>",
+          "ru": "<i>{name}</i>"
+        }
+      }
+    ]
+  },
+  "tagRenderings": [
+    "images",
+    {
+      "question": {
+        "nl": "Wat is de naam van dit café?",
+        "en": "What is the name of this pub?",
+        "de": "Wie heißt diese Kneipe?",
+        "fr": "Quel est le nom de ce pub ?",
+        "hu": "Mi a neve ennek a kocsmának?"
+      },
+      "render": {
+        "nl": "De naam van dit café is {name}",
+        "en": "This pub is named {name}",
+        "de": "Diese Kneipe heißt {name}",
+        "fr": "Ce pub se nomme {name}",
+        "hu": "A kocsma neve: {name}"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "Name"
+    },
+    {
+      "question": {
+        "en": "What kind of cafe is this",
+        "nl": "Welk soort café is dit?",
+        "de": "Was ist das für ein Café",
+        "hu": "Milyen fajta kávézó ez?"
+      },
+      "mappings": [
+        {
+          "if": "amenity=pub",
+          "then": {
+            "nl": "Dit is <b>een bruin café of een kroeg</b> waar voornamelijk bier wordt gedronken. De inrichting is typisch gezellig met veel houtwerk "
+          }
+        },
+        {
+          "if": "amenity=bar",
+          "then": {
+            "nl": "Dit is een <b>bar</b> waar men ter plaatse alcoholische drank nuttigt. De inrichting is typisch modern en commercieel, soms met lichtinstallatie en feestmuziek"
+          }
+        },
+        {
+          "if": "amenity=cafe",
+          "then": {
+            "nl": "Dit is een <b>cafe</b> - een plaats waar men rustig kan zitten om een thee, koffie of alcoholische drank te nuttigen."
+          }
+        },
+        {
+          "if": "amenity=restaurant",
+          "then": {
+            "nl": "Dit is een <b>restaurant</b> waar men een maaltijd geserveerd krijgt"
+          }
+        },
+        {
+          "if": "amenity=biergarten",
+          "then": {
+            "nl": "Een open ruimte waar bier geserveerd wordt. Typisch in Duitsland"
+          },
+          "hideInAnswer": "_country!=de"
+        }
+      ],
+      "id": "Classification"
+    },
+    "opening_hours",
+    "website",
+    "email",
+    "phone",
+    "payment-options",
+    "wheelchair-access",
+    "service:electricity",
+    "dog-access"
+  ],
+  "filter": [
+    {
+      "id": "opened-now",
+      "options": [
+        {
+          "question": {
+            "en": "Opened now",
+            "nl": "Nu geopened",
+            "de": "Jetzt geöffnet",
+            "fr": "Ouvert maintenant",
+            "hu": "Most nyitva van"
+          },
+          "osmTags": "_isOpen=yes"
+        }
+      ]
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "amenity=",
+        "disused:amenity:={amenity}"
+      ]
+    }
+  },
+  "allowMove": true,
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "circle:white;./assets/layers/cafe_pub/pub.svg",
+        "mappings": [
+          {
+            "if": "amenity=cafe",
+            "then": "circle:white;./assets/layers/cafe_pub/cafe.svg"
+          }
+        ]
+      },
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "isOpen"
+        }
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      },
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "description": {
+    "en": "A layer showing cafés and pubs where one can gather around a drink. The layer asks for some relevant questions",
+    "hu": "Egy olyan réteg, amely kávézókat és kocsmákat jelenít meg, ahol össze lehet gyűlni egy ital köré. A réteg néhány lényeges kérdést tesz fel"
+  }
+}
