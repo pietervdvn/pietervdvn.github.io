@@ -1,0 +1,98 @@
+{
+  "id": "ticket_machine",
+  "name": {
+    "en": "Ticket Machines",
+    "de": "Fahrkartenautomaten",
+    "nl": "Kaartautomaten"
+  },
+  "description": {
+    "en": "Find ticket machines for public transport tickets",
+    "de": "Fahrkartenautomaten für ÖPNV-Tickets finden",
+    "nl": "Zoek kaartautomaten voor het openbaar vervoer"
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        "amenity=vending_machine",
+        "vending=public_transport_tickets"
+      ]
+    }
+  },
+  "minzoom": 19,
+  "title": {
+    "render": {
+      "en": "Ticket Machine",
+      "de": "Fahrkartenautomat",
+      "nl": "Kaartautomaat"
+    }
+  },
+  "tagRenderings": [
+    "images",
+    "level",
+    {
+      "id": "operator",
+      "question": {
+        "en": "Who is the operator of this ticket machine?",
+        "de": "Wer ist der Betreiber dieses Fahrkartenautomaten?",
+        "nl": "Wie is de beheerder van deze kaartautomaat?",
+        "ca": "Qui és l'operador d'aquesta màquina de venda de bitllets?"
+      },
+      "render": {
+        "en": "This ticket machine is operated by {operator}",
+        "de": "Dieser Fahrkartenautomat wird betrieben von {operator}",
+        "nl": "Deze kaartautomaat wordt beheerd door {operator}"
+      },
+      "freeform": {
+        "key": "operator",
+        "type": "string",
+        "placeholder": {
+          "en": "Name of the operator",
+          "de": "Name des Betreibers",
+          "nl": "Naam van de beheerder"
+        }
+      },
+      "mappings": [
+        {
+          "if": "operator=Nederlandse Spoorwegen",
+          "then": {
+            "en": "Dutch Railways (NS)",
+            "nl": "Nederlandse Spoorwegen (NS)",
+            "de": "Niederländische Eisenbahn (NS)"
+          },
+          "addExtraTags": [
+            "operator:wikidata=Q23076"
+          ],
+          "hideInAnswer": "_country!=nl"
+        }
+      ]
+    },
+    "payment-options-split",
+    "denominations-coins",
+    "denominations-notes"
+  ],
+  "presets": [
+    {
+      "tags": [
+        "amenity=vending_machine",
+        "vending=public_transport_tickets"
+      ],
+      "title": {
+        "en": "a ticket machine",
+        "de": "einen Fahrkartenautomat",
+        "nl": "een kaartautomaat"
+      }
+    }
+  ],
+  "mapRendering": [
+    {
+      "icon": "square:lightblue;./assets/themes/stations/public_transport_tickets.svg",
+      "iconSize": "20,20,center",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "allowMove": true,
+  "deletion": true
+}

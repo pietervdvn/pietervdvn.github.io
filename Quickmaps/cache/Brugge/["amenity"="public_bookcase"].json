@@ -1,0 +1,304 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.3 eb200aeb",
+  "osm3s": {
+    "timestamp_osm_base": "2020-05-13T23:25:03Z",
+    "timestamp_areas_base": "2020-05-13T23:11:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5536410522,
+  "lat": 51.1985248,
+  "lon": 3.2037440,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "100",
+    "description": "Dit boekenruilkastje op het pleintje in de Ontmijnerslaan is een initiatief van de wijkvereniging. Naast het boekenkastje werd een leesbank geplaatst zodat je er op een zonnige dag rustig in de boeken kan snuisteren.",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00Pd000000ekd8PEAQ",
+    "name": "Little Free Library Sanderkwartier",
+    "opening_hours": "24/7",
+    "operator": "Sanderskwartier",
+    "public_bookcase:type": "reading_box",
+    "ref": "40403",
+    "start_date": "2016-09-04",
+    "website": "http://sanderkwartier.brugsebuurten.be/OnsLittleFreeLibrary"
+  }
+},
+{
+  "type": "node",
+  "id": 5568693115,
+  "lat": 51.2179199,
+  "lon": 3.2154662,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "25",
+    "description": "Deze boekenruilkast vindt je recht tegenover de Pim Pam Poem",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ruilboekenkast_Stubbekwartier.jpg",
+    "name": "Stubbekwartier-buurtbibliotheek",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 5667505626,
+  "lat": 51.2003035,
+  "lon": 3.2671270,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "150",
+    "description": "Sinds 2014 vind je een boekenruilkastje in Hoeve Hangerijn. Het kastje is te vinden in de stallen en werd gerealiseerd met de steun van de Brugse buurtcheques.",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00Pd000000R03iTEAR",
+    "name": "Little Free Library Hoeve Hangerijn",
+    "opening_hours": "24/7",
+    "operator": "Hoeve Hangerijn",
+    "public_bookcase:type": "woorden_closet",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 6116480535,
+  "lat": 51.2123460,
+  "lon": 3.2327525,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "40",
+    "description": "In 2018 we started a facebook-like city district-wide community IT platform and someone suggested there to place a little free library. Another person offered to build it and a third person had connection to the city council .",
+    "email": "hennonr@gmail.com",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Boekenruilkast_Sint-Anna.jpg/576px-Boekenruilkast_Sint-Anna.jpg",
+    "name": "Little Free Library Sint-Anna",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "ref": "81342",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "node",
+  "id": 6153533949,
+  "lat": 51.2163913,
+  "lon": 3.2063610,
+  "tags": {
+    "amenity": "public_bookcase",
+    "books": "children",
+    "brand": "Little Free Library",
+    "capacity": "70",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Boekenkast_Sint-Lodewijks.jpg/1024px-Boekenkast_Sint-Lodewijks.jpg",
+    "mapillary": "wweALGY5g8_T8UjGkcWCfw",
+    "name": "Little Free Library Sint-Lodewijks",
+    "opening_hours": "24/7",
+    "operator": "Sint-Lodewijkscollege",
+    "public_bookcase:type": "reading_box",
+    "ref": "48318",
+    "wikimedia_commons": "File:Boekenkast Sint-Lodewijks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6156187094,
+  "lat": 51.2037968,
+  "lon": 3.1862056,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "capacity:adult_books": "20",
+    "capacity:children_books": "30",
+    "description": "De kast bestaat uit 2 delen. In het ene deel vindt je boeken voor volwassenen, in het onderste deel vinden kinderen hun gading.",
+    "image": "https://i1.wp.com/www.brugsalternatiefforum.be/wp-content/uploads/2018/12/boekenruilkastMoutstraat7.jpg",
+    "name": "Boekenruilkast Moutstraat",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6156873339,
+  "lat": 51.1842679,
+  "lon": 3.1907591,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "40",
+    "description": "De eigenaar van dit kastje vindt in deze drukke tijden zelfzorg erg belangrijk. Zelfzorg betekent voor haar in alle rust een boek lezen, zich helemaal inleven in het verhaal en even de realiteit vergeten.",
+    "description_1": "Met deze little free library hoopt ze mensen te kunnen aanzetten om terug meer te lezen (en te ontspannen).",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00P0W000011VJGjUAO",
+    "name": "Minibib Sint-Michiels",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "ref": "65231",
+    "start_date": "2018-07-27"
+  }
+},
+{
+  "type": "node",
+  "id": 6221170102,
+  "lat": 51.2185334,
+  "lon": 3.2188596,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "35",
+    "description": "In samenwerking met het OCMW dienstencentrum ’t Werftje werd tijdens de Kattefeesten het project “Little Free Library” officieel in gebruik genomen. Een wijkbibliotheekje waar iedereen van de buurt samen zorg voor draagt.",
+    "image": "https://i2.wp.com/www.stubbekwartier.be/wp-content/uploads/2016/03/bibliotheekhuisje.jpg?zoom=2&resize=682%2C351",
+    "name": "Boekenruilkastje Werfplein",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6223608165,
+  "lat": 51.2302709,
+  "lon": 3.2431685,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "description": "Hallo, welkom bij de boekenruilkast (t.h.v Zagersweg 16). Ik wens jullie veel lees- en ruilgenot. Hopelijk beleven jullie enig leesplezier aan deze kast.",
+    "description_1": "Om dit plezier te bevorderen zien we volgende boeken liever niet in de kast verschijnen: encyclopedieën, woordenboeken, (teveel) kookboeken en te oude of versleten boeken. Ruil boeken voor wat je zelf zou meenemen.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Boekenruilkastje_De_Zagersweg.jpg",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_Boekenruilkast_zagersweg.jpg",
+    "name": "Ruilkast Zagersweg",
+    "opening_hours": "24/7",
+    "operator": "De Huisbewoner",
+    "start_date": "2019-01-01",
+    "website": "https://www.facebook.com/Boekenruilkast-Zagersweg-1152033248293786/"
+  }
+},
+{
+  "type": "node",
+  "id": 6272057134,
+  "lat": 51.1908646,
+  "lon": 3.2439454,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Boekenruilkast_in_Odegemstraat.jpg",
+    "name": "Boekenruilkast",
+    "opening_hours": "24/7",
+    "operator": "De huisbewoner"
+  }
+},
+{
+  "type": "node",
+  "id": 6277341776,
+  "lat": 51.1845721,
+  "lon": 3.2098215,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "140",
+    "email": "monique.van.parys@gmail.com",
+    "image": "https://i.imgur.com/Q3rNBbP.jpg",
+    "name": "MoniqueBib",
+    "opening_hours": "24/7",
+    "operator": "Monique Van Parys",
+    "public_bookcase:type": "wooden_box",
+    "start_date": "2018-10"
+  }
+},
+{
+  "type": "node",
+  "id": 6277384689,
+  "lat": 51.1821803,
+  "lon": 3.2223278,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "40",
+    "image": "https://i.pinimg.com/564x/ee/46/88/ee4688e255bb96f7f7efe4f84192102e.jpg",
+    "name": "Minibib",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6356999270,
+  "lat": 51.2046194,
+  "lon": 3.1845657,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Boekenruilkast_Koude_Keuken.jpg",
+    "lit": "no",
+    "name": "Boekenruilkast Sint-Hubertus",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6357001212,
+  "lat": 51.1998555,
+  "lon": 3.1768209,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "40",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Boekenruilkast_Zandstraat.jpg",
+    "lit": "no",
+    "name": "Boekenruilkast Zandstraat"
+  }
+},
+{
+  "type": "node",
+  "id": 6416756432,
+  "lat": 51.2079878,
+  "lon": 3.2882667,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Minibieb_Pelderijnstraat.jpg",
+    "name": "Minibieb",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6417074014,
+  "lat": 51.2149122,
+  "lon": 3.2740142,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ruilkast.jpg",
+    "name": "Ruilkast",
+    "opening_hours": "24/7",
+    "operator": "Brugge Plus - Uitwijken"
+  }
+},
+{
+  "type": "node",
+  "id": 6779447190,
+  "lat": 51.2156570,
+  "lon": 3.2245804,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "email": "rappe.joannes@telenet.be",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Boekenruilkast_Sint-Gillis.jpg",
+    "name": "Ruilbib 't Reitje",
+    "opening_hours": "24/7",
+    "operator": "Joannes Rappe",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7326292429,
+  "lat": 51.2264494,
+  "lon": 3.1929597,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Boekenruilbox_Sint-Pieters.jpg",
+    "image:1": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Boekenruilkast_Sint-Pieters_geopend.jpg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+}
+
+  ]
+}

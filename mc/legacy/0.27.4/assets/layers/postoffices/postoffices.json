@@ -1,0 +1,460 @@
+{
+  "id": "postoffices",
+  "name": {
+    "en": "Post offices",
+    "de": "Poststellen",
+    "ru": "Почтовые отделения",
+    "zh_Hant": "郵局",
+    "id": "Kantor pos",
+    "hu": "Posták",
+    "nl": "Postkantoren",
+    "ca": "Oficines de correus",
+    "es": "Oficinas de correo",
+    "fr": "Bureaux de poste",
+    "nb_NO": "Postkontor"
+  },
+  "minzoom": 12,
+  "source": {
+    "osmTags": {
+      "or": [
+        "amenity=post_office",
+        "post_office=post_partner"
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "en": "Post Office",
+      "de": "Poststelle",
+      "ru": "Почтовое отделение",
+      "zh_Hant": "郵局",
+      "id": "Kantor Pos",
+      "hu": "Posta",
+      "nl": "Postkantoor",
+      "ca": "Oficina de correus",
+      "es": "Oficina de Correo",
+      "fr": "Bureau de poste",
+      "nb_NO": "Postkontor"
+    },
+    "mappings": [
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name="
+          ]
+        },
+        "then": {
+          "en": "Post partner at a shop",
+          "de": "Postfiliale im Einzelhandel",
+          "nl": "Postpartner in een winkel"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "post_office=post_partner",
+            "name~*"
+          ]
+        },
+        "then": {
+          "en": "Post partner at {name}",
+          "de": "Postfiliale im {name}"
+        }
+      }
+    ]
+  },
+  "description": {
+    "en": "A layer showing post offices.",
+    "de": "Eine Ebene mit Postämtern.",
+    "zh_Hant": "圖層顯示郵局。",
+    "id": "Layer yang menunjukkan kantor pos.",
+    "hu": "Postákat megjelenítő réteg.",
+    "nl": "Een laag die postkantoren toont.",
+    "es": "Una capa que muestra oficinas de correo.",
+    "fr": "Un claque montrant les bureaux de poste.",
+    "nb_NO": "Et lag som viser postkontor."
+  },
+  "tagRenderings": [
+    "images",
+    {
+      "id": "minimap",
+      "render": "{minimap(18): height: 5rem; overflow: hidden; border-radius:3rem; }"
+    },
+    {
+      "builtin": "opening_hours",
+      "override": {
+        "question": {
+          "en": "What are the opening hours for this post office?",
+          "zh_Hant": "這間郵局的開放時間是？",
+          "id": "Jam berapa kantor pos ini buka?",
+          "hu": "Mikor van nyitva ez a posta?",
+          "de": "Wie sind die Öffnungszeiten dieser Poststelle?",
+          "es": "¿Cuáles son las horas de apertura para esta oficina de correos?",
+          "nl": "Wat zijn de openingsuren voor dit postkantoor?",
+          "fr": "Quelles sont les heures d’ouverture de ce bureau de poste ?"
+        }
+      }
+    },
+    {
+      "id": "post_partner",
+      "question": {
+        "en": "Is this a post partner?",
+        "de": "Ist dies ein Post-Partner?",
+        "ca": "Aquesta botiga és un col·laborador postal?"
+      },
+      "condition": "post_office=post_partner",
+      "mappings": [
+        {
+          "if": "post_office=post_partner",
+          "then": {
+            "en": "This shop is a post partner",
+            "de": "Dieses Geschäft ist ein Post-Partner",
+            "ca": "Aquesta botiga és un col·laborador postal"
+          }
+        },
+        {
+          "if": "post_office=",
+          "then": {
+            "en": "This shop is not a post partner",
+            "de": "Dieses Geschäft ist kein Post-Partner",
+            "ca": "Aquesta botiga no és un col·laborador postal"
+          },
+          "addExtraTags": [
+            "was:post_office=post_partner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "partner-brand",
+      "render": {
+        "en": "This location offers services for {post_office:brand}",
+        "de": "Dieser Standort bietet Dienstleistungen für {post_office:brand} an"
+      },
+      "question": {
+        "en": "For which brand does this location offer services?",
+        "de": "Für welche Marke bietet dieser Standort Dienstleistungen an?",
+        "ca": "Per a quina marca ofereix serveis aquesta localització?"
+      },
+      "condition": "post_office=post_partner",
+      "freeform": {
+        "key": "post_office:brand",
+        "type": "string"
+      },
+      "multiAnswer": true,
+      "mappings": [
+        {
+          "if": "post_office:brand=DHL",
+          "then": {
+            "en": "This location offers services for DHL",
+            "de": "Dieser Standort bietet Dienstleistungen für DHL an",
+            "nl": "Deze locatie biedt diensten aan voor DHL",
+            "ca": "Aquesta localització ofereix serveis per a DHL"
+          },
+          "hideInAnswer": "_country=de"
+        },
+        {
+          "if": "post_office:brand=DPD",
+          "then": {
+            "en": "This location offers services for DPD",
+            "de": "Dieser Standort bietet Dienstleistungen für DPD an",
+            "nl": "Deze locatie biedt diensten aan voor DPD",
+            "ca": "Aquesta localització ofereix serveis per a DPD"
+          }
+        },
+        {
+          "if": "post_office:brand=GLS",
+          "then": {
+            "en": "This location offers services for GLS",
+            "de": "Dieser Standort bietet Dienstleistungen für GLS an",
+            "nl": "Deze locatie biedt diensten aan voor GLS",
+            "ca": "Aquesta localització ofereix serveis per a GLS"
+          }
+        },
+        {
+          "if": "post_office:brand=UPS",
+          "then": {
+            "en": "This location offers services for UPS",
+            "de": "Dieser Standort bietet Dienstleistungen für UPS an",
+            "nl": "Deze locatie biedt diensten aan voor UPS",
+            "ca": "Aquesta localització ofereix serveis per a UPS"
+          }
+        },
+        {
+          "if": "post_office:brand=DHL Paketshop",
+          "then": {
+            "en": "This location is a DHL Paketshop",
+            "de": "Dieser Standort ist ein DHL Paketshop",
+            "ca": "Aquesta ubicació és una botiga DHL Paketshop"
+          },
+          "hideInAnswer": "_country!=de"
+        },
+        {
+          "if": "post_office:brand=Hermes PaketShop",
+          "then": {
+            "en": "This location is a Hermes PaketShop",
+            "de": "Dieser Standort ist ein Hermes PaketShop",
+            "ca": "Aquesta ubicació és una botiga Hermes PaketShop"
+          },
+          "hideInAnswer": "_country!=de"
+        },
+        {
+          "if": "post_office:brand=PostNL",
+          "then": {
+            "en": "This location is a PostNL-point",
+            "de": "Dieser Standort ist ein PostNL-Punkt",
+            "nl": "Deze locatie is een PostNL-punt",
+            "ca": "Aquesta ubicació és un punt PostNL"
+          },
+          "hideInAnswer": {
+            "and": [
+              "_country!=nl",
+              "_country!=be"
+            ]
+          }
+        },
+        {
+          "if": "post_office:brand=bpost",
+          "then": {
+            "en": "This location offers services for bpost",
+            "de": "Dieser Standort bietet Dienstleistungen für bpost an",
+            "nl": "Deze locatie biedt diensten aan voor bpost"
+          },
+          "hideInAnswer": "_country!=be"
+        }
+      ]
+    },
+    {
+      "id": "letter-from",
+      "render": {
+        "en": "You can post letters with these companies: {post_office:letter_from}",
+        "de": "Mit diesen Unternehmen können Sie Briefe aufgeben: {post_office:letter_from}",
+        "nl": "Je kan brieven posten met de volgende bedrijven: {post_office:letter_from}"
+      },
+      "question": {
+        "en": "Can you post a letter here?",
+        "de": "Können Sie hier einen Brief aufgeben?",
+        "nl": "Kan je hier een brief posten?",
+        "ca": "Pots enviar cartes des d'aquí?"
+      },
+      "freeform": {
+        "key": "post_office:letter_from",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "post_office:letter_from=yes",
+          "then": {
+            "en": "You can post letters here",
+            "de": "Sie können Briefe hier aufgeben",
+            "nl": "Je kan hier brieven posten",
+            "ca": "Pots enviar cartes des d'aquí"
+          }
+        },
+        {
+          "if": "post_office:letter_from=no",
+          "then": {
+            "en": "You can't post letters here",
+            "de": "Sie können hier keine Briefe aufgeben",
+            "nl": "Je kan hier geen brieven posten",
+            "ca": "No pots enviar cartes des d'aquí"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parcel-from",
+      "render": {
+        "en": "You can post parcels with these companies: {post_office:parcel_from}",
+        "de": "Sie können Pakete mit diesen Unternehmen versenden: {post_office:parcel_from}",
+        "nl": "Je kan pakketten versturen met deze bedrijven: {post_office:parcel_from}"
+      },
+      "question": {
+        "en": "Can you send a parcel here?",
+        "de": "Können Sie hier Pakete versenden?",
+        "nl": "Kan je hier pakketten versturen?",
+        "ca": "Pots enviar un paquet des d'aquí?"
+      },
+      "freeform": {
+        "key": "post_office:parcel_from",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "post_office:parcel_from=yes",
+          "then": {
+            "en": "You can send parcels here",
+            "de": "Hier können Sie Pakete versenden",
+            "nl": "Je kan hier pakketten versturen",
+            "ca": "Pots enviar paquets des d'aquí"
+          }
+        },
+        {
+          "if": "post_office:parcel_from=no",
+          "then": {
+            "en": "You can't send parcels here",
+            "de": "Sie können hier keine Pakete versenden",
+            "nl": "Je kan hier geen pakketten versturen",
+            "ca": "No pots enviar paquets des d'aquí"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parcel-pickup",
+      "render": {
+        "en": "You can pick up parcels from these companies: {post_office:parcel_pickup}",
+        "de": "Sie können Pakete von diesen Unternehmen abholen: {post_office:parcel_pickup}"
+      },
+      "question": {
+        "en": "Can you pick up missed parcels here?",
+        "de": "Können Sie hier verpasste Pakete abholen?",
+        "ca": "Es poden recollir els paquets perduts aquí?"
+      },
+      "freeform": {
+        "key": "post_office:parcel_pickup",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "post_office:parcel_pickup=yes",
+          "then": {
+            "en": "You can pick up missed parcels here",
+            "de": "Hier können Sie verpasste Pakete abholen",
+            "ca": "Podeu recollir els paquets perduts aquí"
+          }
+        },
+        {
+          "if": "post_office:parcel_pickup=no",
+          "then": {
+            "en": "You can't pick up missed parcels here",
+            "de": "Sie können hier keine verpassten Pakete abholen",
+            "ca": "No podeu recollir paquets perduts aquí"
+          }
+        }
+      ]
+    },
+    {
+      "id": "parcel-to",
+      "render": {
+        "en": "You can send parcels to here for pickup with these companies: {post_office:parcel_to}",
+        "de": "Mit diesen Unternehmen können Sie Pakete zur Abholung hierher senden: {post_office:parcel_to}"
+      },
+      "question": {
+        "en": "Can you send parcels to here for pickup?",
+        "de": "Können Sie Pakete zur Abholung hierher schicken?",
+        "ca": "Pots enviar paquets aquí per a arreplegar-los?"
+      },
+      "freeform": {
+        "key": "post_office:parcel_to",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "post_office:parcel_to=yes",
+          "then": {
+            "en": "You can send parcels to here for pickup",
+            "de": "Sie können Pakete zur Abholung hierher schicken",
+            "ca": "Pots enviar paquets aquí per a arreplegar-los"
+          }
+        },
+        {
+          "if": "post_office:parcel_to=no",
+          "then": {
+            "en": "You can't send parcels to here for pickup",
+            "de": "Sie können keine Pakete zur Abholung hierher schicken",
+            "ca": "No pots enviar paquets ací per a arreplegar-los"
+          }
+        }
+      ]
+    },
+    {
+      "id": "stamps",
+      "render": {
+        "en": "You can buy stamps from companies: {post_office:stamps}",
+        "de": "Sie können Briefmarken folgender Unternehmen kaufen: {post_office:stamps}",
+        "nl": "Je kan hier postzegels kopen van de volgende bedrijven: {post_office:stamps}"
+      },
+      "question": {
+        "en": "Can you buy stamps here?",
+        "de": "Kann man hier Briefmarken kaufen?",
+        "nl": "Kan je hier postzegels kopen?",
+        "ca": "Pots comprar segells aquí?"
+      },
+      "freeform": {
+        "key": "post_office:stamps",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "post_office:stamps=yes",
+          "then": {
+            "en": "You can buy stamps here",
+            "de": "Sie können hier Briefmarken kaufen",
+            "nl": "Je kan hier postzegels kopen",
+            "ca": "Pots comprar segells aquí"
+          }
+        },
+        {
+          "if": "post_office:stamps=no",
+          "then": {
+            "en": "You can't buy stamps here",
+            "de": "Sie können hier keine Briefmarken kaufen",
+            "nl": "Je kan hier geen postzegels kopen",
+            "ca": "No pots comprar segells aquí"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "tags": [
+        "amenity=post_office"
+      ],
+      "title": {
+        "en": "a post office",
+        "de": "eine Poststelle",
+        "ru": "Почтовое отделение",
+        "zh_Hant": "郵局",
+        "id": "Kantor Pos",
+        "hu": "Posta",
+        "nl": "een postkantoor",
+        "ca": "una oficina de correus",
+        "es": "una oficina de correo",
+        "nb_NO": "et postkontor",
+        "fr": "un bureau de poste"
+      }
+    }
+  ],
+  "filter": [
+    "open_now"
+  ],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "square:white;./assets/layers/postoffices/post_office.svg"
+      },
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "icons.isOpen"
+        },
+        {
+          "if": "shop~*",
+          "then": "./assets/themes/shops/shop.svg"
+        }
+      ],
+      "iconSize": "40,40,center",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    },
+    {
+      "color": "#DADADA",
+      "width": "1"
+    }
+  ]
+}

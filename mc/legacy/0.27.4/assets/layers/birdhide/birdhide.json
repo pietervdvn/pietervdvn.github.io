@@ -1,0 +1,415 @@
+{
+  "id": "birdhide",
+  "name": {
+    "en": "Bird watching places",
+    "nl": "Vogelkijkhutten",
+    "de": "Orte zur Vogelbeobachtung",
+    "es": "Lugares para ver pájaros",
+    "da": "Steder til fugleobservation",
+    "fr": "Lieu pour observer des oiseaux",
+    "ca": "Llocs per a vore ocells"
+  },
+  "minzoom": 14,
+  "source": {
+    "osmTags": {
+      "and": [
+        "leisure=bird_hide"
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "en": "Bird watching place",
+      "nl": "Vogelkijkplaats",
+      "de": "Ort zur Vogelbeobachtung",
+      "fr": "Lieu d’observation d’oiseaux",
+      "da": "Plads til fugleobservation"
+    },
+    "mappings": [
+      {
+        "if": {
+          "and": [
+            "name~(((V|v)ogel)|(B|b)ird).*"
+          ]
+        },
+        "then": {
+          "*": "{name}",
+          "nl": "{name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "name~*",
+            {
+              "or": [
+                "building!~no",
+                "shelter=yes"
+              ]
+            }
+          ]
+        },
+        "then": {
+          "en": "Bird hide {name}",
+          "nl": "Vogelkijkhut {name}",
+          "da": "Fugleskjul {name}",
+          "de": "Vogelbeobachtungsplatz {name}",
+          "fr": "Observatoire ornithologique {name}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "name~*"
+          ]
+        },
+        "then": {
+          "en": "Bird blind {name}",
+          "nl": "Vogelkijkwand {name}",
+          "de": "Vogelversteck {name}",
+          "fr": "Camouflage d’observation ornithologique {name}",
+          "da": "Fugletårn {name}"
+        }
+      }
+    ]
+  },
+  "description": {
+    "en": "A birdhide",
+    "nl": "Een vogelkijkhut",
+    "da": "Et fugleskjul",
+    "de": "Ein Vogelbeobachtungsturm",
+    "fr": "Un observatoire ornithologique",
+    "ca": "Un observatori d'ocells"
+  },
+  "tagRenderings": [
+    "images",
+    {
+      "id": "bird-hide-shelter-or-wall",
+      "question": {
+        "en": "Is this a bird blind or a bird watching shelter?",
+        "nl": "Is dit een kijkwand of kijkhut?",
+        "de": "Ist dies nur ein Sichtschutz oder ein überdachter Unterstand zur Vogelbeobachtung?",
+        "fr": "S’agit-il d’un camouflage ou d’un abris d’observation ?",
+        "da": "Er dette en fugletårn eller et fuglekiggerskjul?"
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "shelter=no",
+              "building=",
+              "amenity="
+            ]
+          },
+          "then": {
+            "en": "Bird blind",
+            "nl": "Vogelkijkwand",
+            "de": "Sichtschutz zur Vogelbeobachtung",
+            "fr": "Camouflage d’observation ornithologique",
+            "da": "Fugletårn"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "amenity=shelter",
+              "building=yes",
+              "shelter=yes"
+            ]
+          },
+          "then": {
+            "en": "Bird hide",
+            "nl": "Vogelkijkhut",
+            "da": "Fugleskjul",
+            "de": "Vogelbeobachtungsturm",
+            "fr": "Observatoire ornithologique",
+            "ca": "Observatori d'ocells"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "building=tower",
+              "bird_hide=tower"
+            ]
+          },
+          "then": {
+            "en": "Bird tower hide",
+            "nl": "Vogelkijktoren",
+            "de": "Turm zur Vogelbeobachtung",
+            "fr": "Tour d’observation ornithologique",
+            "da": "Fugletårn skjul"
+          }
+        },
+        {
+          "if": {
+            "or": [
+              "amenity=shelter",
+              "building=yes",
+              "shelter=yes"
+            ]
+          },
+          "then": {
+            "en": "Bird hide shelter",
+            "nl": "Vogelkijkhut",
+            "de": "Unterstand zur Vogelbeobachtung",
+            "fr": "Abris d’observation ornithologique",
+            "da": "Fuglekigger skjul"
+          },
+          "hideInAnswer": true
+        }
+      ]
+    },
+    {
+      "id": "bird-hide-wheelchair",
+      "question": {
+        "en": "Is this bird hide accessible to wheelchair users?",
+        "nl": "Is deze vogelkijkplaats rolstoeltoegankelijk?",
+        "da": "Er dette fugleskjul tilgængeligt for kørestolsbrugere?",
+        "de": "Ist der Ort rollstuhlgerecht gestaltet?",
+        "fr": "Cet observatoire ornithologique est-il accessible en chaise roulante ?"
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "wheelchair=designated"
+            ]
+          },
+          "then": {
+            "en": "There are special provisions for wheelchair users",
+            "nl": "Er zijn speciale voorzieningen voor rolstoelen",
+            "es": "Hay provisiones especiales para usuarios de sillas de ruedas",
+            "de": "Für Rollstuhlfahrer gibt es besondere Vorrichtungen",
+            "fr": "L’infrastructure est adaptée aux utilisateurs de chaises roulantes",
+            "da": "Der er særlige bestemmelser for kørestolsbrugere"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "wheelchair=yes"
+            ]
+          },
+          "then": {
+            "en": "A wheelchair can easily use this birdhide",
+            "nl": "Een rolstoel raakt er vlot",
+            "da": "En kørestolsbruger kan sagtens bruge dette fugleskjul",
+            "de": "Der Ort ist rollstuhlgerecht gestaltet",
+            "fr": "Cet observatoire ornithologique est facilement accessible en chaise roulante"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "wheelchair=limited"
+            ]
+          },
+          "then": {
+            "en": "This birdhide is reachable by wheelchair, but it is not easy",
+            "nl": "Je kan er raken met een rolstoel, maar het is niet makkelijk",
+            "da": "Dette fugleskjul kan nås med kørestol, men det er ikke nemt",
+            "de": "Der Ort ist nur eingeschränkt rollstuhlgerecht gestaltet",
+            "fr": "Cet observatoire ornithologique est accessible en chaise roulante mais difficilement"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "wheelchair=no"
+            ]
+          },
+          "then": {
+            "en": "Not accessible to wheelchair users",
+            "nl": "Niet rolstoeltoegankelijk",
+            "de": "Nicht zugänglich für Rollstuhlfahrer",
+            "es": "No accesible a usuarios con sillas de ruedas",
+            "da": "Ikke tilgængelig for kørestolsbrugere",
+            "fr": "Pas accessible en chaise roulante",
+            "ca": "No accessible per a persones amb cadira de rodes"
+          }
+        }
+      ]
+    },
+    {
+      "render": {
+        "en": "Operated by {operator}",
+        "nl": "Beheer door {operator}",
+        "de": "Betrieben von {operator}",
+        "es": "Operado por {operator}",
+        "da": "Drives af {operator}",
+        "fr": "Opéré par {operator}"
+      },
+      "freeform": {
+        "key": "operator"
+      },
+      "question": {
+        "en": "Who operates this birdhide?",
+        "nl": "Wie beheert deze vogelkijkplaats?",
+        "da": "Hvem driver dette fugleskjul?",
+        "de": "Wer betreibt diesen Ort zur Vogelbeobachtung?",
+        "fr": "Qui opère cet observatoire ornithologique ?"
+      },
+      "mappings": [
+        {
+          "if": "operator=Natuurpunt",
+          "then": {
+            "en": "Operated by Natuurpunt",
+            "nl": "Beheer door Natuurpunt",
+            "de": "Betrieben von Natuurpunt",
+            "es": "Operado por Natuurpunt",
+            "da": "Drives af Natuurpunt",
+            "fr": "Opéré par Natuurpunt"
+          }
+        },
+        {
+          "if": "operator=Agentschap Natuur en Bos",
+          "then": {
+            "en": "Operated by the Agency for Nature and Forests",
+            "nl": "Beheer door het Agentschap Natuur en Bos",
+            "de": "Betrieben von einer Forst- bzw. Naturschutzbehörde",
+            "fr": "Opéré par l’Agence Nature et Forêts",
+            "da": "Drives af Natur- og Skovstyrelsen"
+          }
+        }
+      ],
+      "id": "birdhide-operator"
+    }
+  ],
+  "presets": [
+    {
+      "tags": [
+        "leisure=bird_hide",
+        "building=yes",
+        "shelter=yes",
+        "amenity=shelter"
+      ],
+      "title": {
+        "en": "a birdhide",
+        "nl": "een vogelkijkhut",
+        "da": "et fugleskjul",
+        "de": "ein Gebäude zur Vogelbeobachtung",
+        "fr": "un observatoire ornithologique",
+        "ca": "un observatori d'ocells"
+      },
+      "description": {
+        "en": "A covered shelter where one can watch birds comfortably",
+        "nl": "Een overdekte hut waarbinnen er warm en droog naar vogels gekeken kan worden",
+        "de": "Ein überdachter Unterstand, in dem man bequem Vögel beobachten kann",
+        "es": "Un refugio cubierto donde se pueden ver pájaros confortablemente",
+        "da": "Et overdækket ly, hvor man kan se fugle i ro og mag",
+        "fr": "Un abris couvert pour observer les oiseaux confortablement",
+        "ca": "Un refugi cobert on es poden veure ocells confortablement"
+      }
+    },
+    {
+      "tags": [
+        "leisure=bird_hide",
+        "building=no",
+        "shelter=no"
+      ],
+      "title": {
+        "en": "a bird blind",
+        "nl": "een vogelkijkwand",
+        "de": "einen Sichtschutz zur Vogelbeobachtung",
+        "fr": "un camouflage d’observation ornithologique",
+        "da": "et fugletårn"
+      },
+      "description": {
+        "en": "A screen or wall with openings to watch birds",
+        "nl": "Een vogelkijkwand waarachter men kan staan om vogels te kijken",
+        "es": "Una pantalla o pared con aperturas para ver pájaros",
+        "da": "En skærm eller væg med åbninger til at se på fugle",
+        "de": "Ein Schirm oder eine Wand mit Öffnungen zum Beobachten von Vögeln",
+        "fr": "Un écran ou un mur avec des ouvertures pour observer les oiseaux",
+        "ca": "Una pantalla o paret amb obertures per a observar ocells"
+      }
+    }
+  ],
+  "filter": [
+    {
+      "id": "wheelchair",
+      "options": [
+        {
+          "question": {
+            "nl": "Rolstoeltoegankelijk",
+            "en": "Wheelchair accessible",
+            "de": "Zugänglich für Rollstuhlfahrer",
+            "fr": "Accessible aux fauteuils roulants",
+            "ca": "Accessible per a cadires de rodes",
+            "es": "Accesible con sillas de ruedas",
+            "da": "Tilgængelig for kørestolsbrugere"
+          },
+          "osmTags": {
+            "or": [
+              "wheelchair=yes",
+              "wheelchair=designated",
+              "wheelchair=permissive"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "shelter",
+      "options": [
+        {
+          "question": {
+            "en": "Only covered birdhides",
+            "nl": "Enkel overdekte kijkhutten",
+            "de": "Nur überdachte Vogelbeobachtungsstellen",
+            "da": "Kun overdækkede fugleskjul",
+            "fr": "Seulement les observatoires ornithologiques couverts",
+            "ca": "Només observatoris d'ocells coberts"
+          },
+          "osmTags": {
+            "and": [
+              {
+                "or": [
+                  "shelter=yes",
+                  "building~*"
+                ]
+              },
+              "covered!=no"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity:={amenity}",
+        "amenity="
+      ]
+    }
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuracy": true
+  },
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/layers/birdhide/birdhide.svg",
+        "mappings": [
+          {
+            "if": {
+              "or": [
+                "building=yes",
+                "shelter=yes",
+                "amenity=shelter"
+              ]
+            },
+            "then": "./assets/layers/birdhide/birdshelter.svg"
+          }
+        ]
+      },
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ]
+}

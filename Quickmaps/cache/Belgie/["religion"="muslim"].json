@@ -1,0 +1,6449 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.3 eb200aeb",
+  "osm3s": {
+    "timestamp_osm_base": "2020-05-13T23:27:03Z",
+    "timestamp_areas_base": "2020-05-13T23:11:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 302349982,
+  "lat": 50.8555536,
+  "lon": 4.3456011,
+  "tags": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Omar Ben Khatab",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346178687,
+  "lat": 50.8524448,
+  "lon": 4.3313681,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Al-Khalil",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346179405,
+  "lat": 50.8548660,
+  "lon": 4.3321268,
+  "tags": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Al Imrane",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346180597,
+  "lat": 50.8545331,
+  "lon": 4.3272317,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "ASBL Annajah",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346180871,
+  "lat": 50.8564087,
+  "lon": 4.3311478,
+  "tags": {
+    "addr:city": "Molenbeek-Saint-Jean - Sint-Jans-Molenbeek",
+    "addr:housenumber": "36",
+    "addr:postcode": "1080",
+    "addr:street": "Rue des Étangs Noirs - Zwarte Vijversstraat",
+    "amenity": "place_of_worship",
+    "name": "Mosquée Attadamoun",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346182562,
+  "lat": 50.8561176,
+  "lon": 4.3412850,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée El Mostakbal",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346185661,
+  "lat": 50.8575942,
+  "lon": 4.3427987,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Rue des Ateliers - Werkhuizenstraat",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Dar Ulum Camia Causia",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346290403,
+  "lat": 50.8414556,
+  "lon": 4.3421494,
+  "tags": {
+    "addr:housenumber": "181",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée El Jadid",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346293091,
+  "lat": 50.8696181,
+  "lon": 4.3605082,
+  "tags": {
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Arrahma",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346568380,
+  "lat": 50.8685410,
+  "lon": 4.3752076,
+  "tags": {
+    "addr:street": "Rue des Ailes - Vleugelsstraat",
+    "amenity": "place_of_worship",
+    "name": "Mosquée de la Foi albanaise",
+    "name:ku": "Mizgefta",
+    "name:tr": "Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346650863,
+  "lat": 50.8462155,
+  "lon": 4.3422687,
+  "tags": {
+    "addr:city": "Bruxelles - Brussel",
+    "addr:housenumber": "6",
+    "addr:postcode": "1000",
+    "addr:street": "Rue de la Buanderie - Washuisstraat",
+    "amenity": "place_of_worship",
+    "name": "Pakistan Muslim Center",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346652120,
+  "lat": 50.8425249,
+  "lon": 4.3334977,
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:street": "Rue Bissé - Bisséstraat",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Assouna",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346653003,
+  "lat": 50.8537532,
+  "lon": 4.3423928,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Boulevard de Nieuport - Nieuwpoortlaan",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Hamza",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346653577,
+  "lat": 50.8604792,
+  "lon": 4.3417755,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Badr",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346654889,
+  "lat": 50.8630022,
+  "lon": 4.3666863,
+  "tags": {
+    "addr:housenumber": "122",
+    "addr:street": "Rue des Palais - Paleizenstraat",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Zaid Ibn Haritha",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346656536,
+  "lat": 50.8754386,
+  "lon": 4.3774483,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Rue Georges Garnir - Georges Garnirstraat",
+    "amenity": "place_of_worship",
+    "name": "Mosquée Ahl Allah",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346657486,
+  "lat": 50.8570980,
+  "lon": 4.3729388,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Rue Josaphat - Josafatstraat",
+    "amenity": "place_of_worship",
+    "name": "Mosquée blanche turque",
+    "name:ku": "Mizgeft",
+    "name:tr": "Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346659070,
+  "lat": 50.8618842,
+  "lon": 4.3750789,
+  "tags": {
+    "addr:housenumber": "50",
+    "addr:street": "Rue de l'Est - Ooststraat",
+    "amenity": "place_of_worship",
+    "created_by": "Potlatch 0.10f",
+    "name": "Mosquée Schaerbeek",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346881199,
+  "lat": 50.8330524,
+  "lon": 4.3348464,
+  "tags": {
+    "addr:housenumber": "81",
+    "addr:street": "Avenue Fonsny - Fonsnylaan",
+    "amenity": "place_of_worship",
+    "name": "Mosquée Assalam",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 346881915,
+  "lat": 50.8337383,
+  "lon": 4.3388206,
+  "tags": {
+    "addr:city": "Saint-Gilles - Sint-Gillis",
+    "addr:housenumber": "42",
+    "addr:postcode": "1060",
+    "addr:street": "Rue de Suède - Zwedenstraat",
+    "amenity": "place_of_worship",
+    "name": "Centre Islamique El Mouhsinine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 417830048,
+  "lat": 50.8366310,
+  "lon": 4.3317382,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Zembili Ali Efendi Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 420279959,
+  "lat": 50.8376175,
+  "lon": 4.3296525,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Islam Cemiyeti Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427872669,
+  "lat": 50.8426021,
+  "lon": 4.3356218,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Rida",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427873053,
+  "lat": 50.8430165,
+  "lon": 4.3127436,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée El Ghofrane",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427873391,
+  "lat": 50.8698865,
+  "lon": 4.3725066,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Kouba",
+    "name:ku": "Mizgefta Kuba",
+    "name:tr": "Kuba Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427873529,
+  "lat": 50.8719186,
+  "lon": 4.3544181,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Zaouiya / Si Lahcen",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427873623,
+  "lat": 50.8398204,
+  "lon": 4.3443260,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Attawhid",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427874052,
+  "lat": 50.8618835,
+  "lon": 4.3461876,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Yougoslave",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427874121,
+  "lat": 50.8762132,
+  "lon": 4.3985819,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Attaouba",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427875763,
+  "lat": 50.8599774,
+  "lon": 4.3387369,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Mohamed Ali",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427877506,
+  "lat": 50.8453463,
+  "lon": 4.3339003,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Al Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427877932,
+  "lat": 50.8375036,
+  "lon": 4.3279093,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "sunni",
+    "name": "Mosquée Arrahmane",
+    "name:ar": "مسجد الرحمن",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427878637,
+  "lat": 50.8310591,
+  "lon": 4.3735175,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée El Mouhagirine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427879244,
+  "lat": 50.8568564,
+  "lon": 4.3738632,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Rue Massaux - Massauxstraat",
+    "amenity": "place_of_worship",
+    "name": "Mosquée Annour",
+    "name:ku": "Mizgefta",
+    "name:tr": "Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427880185,
+  "lat": 50.8681086,
+  "lon": 4.3417980,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Maison du Devoir et du Culte",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427880607,
+  "lat": 50.8578364,
+  "lon": 4.3393980,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Mevlana",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427881097,
+  "lat": 50.8575976,
+  "lon": 4.3370691,
+  "tags": {
+    "addr:city": "Molenbeek-Saint-Jean - Sint-Jans-Molenbeek",
+    "addr:housenumber": "54",
+    "addr:street": "Chaussée de Merchtem - Steenweg op Merchtem",
+    "amenity": "place_of_worship",
+    "name": "Mosquée El Moutakine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 427881288,
+  "lat": 50.8668348,
+  "lon": 4.3417899,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Al Aziz",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 470962226,
+  "lat": 50.8358381,
+  "lon": 4.3783042,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Bangladesh Islamic Cultural Centre",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 1625352934,
+  "lat": 51.0674490,
+  "lon": 4.0383910,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "Zwaanstraat",
+    "amenity": "place_of_worship",
+    "denomination": "muslim",
+    "name": "Eyyub El-Ensari Moskee Zele",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 1735521786,
+  "lat": 50.4263959,
+  "lon": 4.5534836,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 1849526881,
+  "lat": 51.0081284,
+  "lon": 3.8836548,
+  "tags": {
+    "addr:city": "Wetteren",
+    "addr:housenumber": "14",
+    "addr:postcode": "9230",
+    "addr:street": "Kattestraat",
+    "amenity": "place_of_worship",
+    "name": "Moskee Wetteren",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 1888748597,
+  "lat": 50.8847114,
+  "lon": 4.6950234,
+  "tags": {
+    "addr:city": "Leuven",
+    "addr:housenumber": "33",
+    "addr:postcode": "3000",
+    "addr:street": "Penitentienenstraat",
+    "amenity": "place_of_worship",
+    "name": "Moskee Al Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 2232155556,
+  "lat": 50.8725249,
+  "lon": 4.3535697,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 2825796855,
+  "lat": 51.2060517,
+  "lon": 4.3985426,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3015995397,
+  "lat": 51.2231287,
+  "lon": 4.4312082,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "El Mouslimine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3370717226,
+  "lat": 50.6725798,
+  "lon": 5.6253227,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Ertugrul Gazi Camii - Centre Culturel Turc d'Herstal",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3423376187,
+  "lat": 50.4705209,
+  "lon": 4.8613447,
+  "tags": {
+    "addr:city": "Namur",
+    "addr:housenumber": "13",
+    "addr:postcode": "5000",
+    "addr:street": "Rue Denis-Georges Bayar",
+    "amenity": "place_of_worship",
+    "name": "Mosquée Turque",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3931135057,
+  "lat": 51.0613824,
+  "lon": 3.7023878,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Moskee Al Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4335995208,
+  "lat": 50.4704217,
+  "lon": 4.8583846,
+  "tags": {
+    "addr:city": "Namur",
+    "addr:housenumber": "9",
+    "addr:postcode": "5000",
+    "addr:street": "Rue Marie Henriette",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Mosquée Marocaine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4453463839,
+  "lat": 50.8764032,
+  "lon": 4.6968623,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4533742979,
+  "lat": 50.6425925,
+  "lon": 5.5944491,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée El Itissam",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 4564143431,
+  "lat": 50.6290686,
+  "lon": 5.5879188,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Attakwa",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473563,
+  "lat": 51.2088623,
+  "lon": 4.3906718,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Taoubat",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473564,
+  "lat": 51.1846526,
+  "lon": 4.3761263,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Al Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473565,
+  "lat": 51.2107011,
+  "lon": 4.4330528,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Masjid Assalam",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473566,
+  "lat": 51.1739332,
+  "lon": 4.3517627,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee El Ouahda",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473567,
+  "lat": 51.2132255,
+  "lon": 4.4234296,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Al Iman",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473568,
+  "lat": 51.2103535,
+  "lon": 4.4284683,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Hamza",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473569,
+  "lat": 51.2141416,
+  "lon": 4.4296303,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee En Nassr",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473570,
+  "lat": 51.2113521,
+  "lon": 4.4252096,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "El Nour",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473573,
+  "lat": 51.1713572,
+  "lon": 4.3377006,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee van Hoboken",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5032473574,
+  "lat": 51.2265821,
+  "lon": 4.4246198,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Islamitisch Cultuur Centrum van Republiek Bosnië Herzegovina",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5092060505,
+  "lat": 51.3565801,
+  "lon": 4.3407252,
+  "tags": {
+    "addr:housenumber": "95",
+    "addr:postcode": "2040",
+    "addr:street": "Steenovenstraat",
+    "alt_name": "Het Gezin",
+    "amenity": "community_centre",
+    "contact:facebook": "https://www.facebook.com/pg/hetgezin/",
+    "disused:amenity": "school",
+    "email": "het.gezin@telenet.be",
+    "name": "Islamitisch Sociaal en Cultureel Centrum",
+    "old_name": "Bosschool",
+    "operator": "Het Gezin vzw",
+    "phone": "+32 495 47 42 68",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5195941594,
+  "lat": 51.2144819,
+  "lon": 4.4444456,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:postcode": "2140",
+    "addr:street": "Stenenbrug",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "email": "info@de-koepel.be",
+    "name": "De-Koepel moskee",
+    "religion": "muslim",
+    "website": "https://www.de-koepel.be/",
+    "wikidata": "Q18039995"
+  }
+},
+{
+  "type": "node",
+  "id": 5295684352,
+  "lat": 50.8763535,
+  "lon": 4.3984433,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mosquée Attaouba",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5663442791,
+  "lat": 50.9804060,
+  "lon": 5.0600935,
+  "tags": {
+    "addr:city": "Diest",
+    "addr:housenumber": "17",
+    "addr:postcode": "3290",
+    "addr:street": "Vervoortplaats",
+    "amenity": "place_of_worship",
+    "name": "Beraat",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5663444023,
+  "lat": 50.9818382,
+  "lon": 5.0494472,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Ennasr",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5663444841,
+  "lat": 50.9774446,
+  "lon": 5.0591343,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "B.I.F. Takwa",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5700712703,
+  "lat": 51.0226048,
+  "lon": 5.3989760,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Marokaanse moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5700712710,
+  "lat": 51.0233753,
+  "lon": 5.3962947,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Turkse moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5740687433,
+  "lat": 51.0694010,
+  "lon": 5.1293479,
+  "tags": {
+    "addr:city": "Tessenderlo",
+    "addr:housenumber": "8",
+    "addr:postcode": "3980",
+    "addr:street": "Tushoekstraat",
+    "amenity": "place_of_worship",
+    "name": "Diyanet Tessenderlo",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 5740687434,
+  "lat": 51.0693412,
+  "lon": 5.1311643,
+  "tags": {
+    "addr:city": "Tessenderlo",
+    "addr:housenumber": "28",
+    "addr:postcode": "3980",
+    "addr:street": "Tushoekstraat",
+    "addr:unit": "001",
+    "amenity": "place_of_worship",
+    "name": "Essalaam",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6324816111,
+  "lat": 51.0431131,
+  "lon": 5.3067320,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Sultan Ahmed moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6708264171,
+  "lat": 51.2273522,
+  "lon": 4.4228418,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Khatim-Ul-Anbia",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6708264172,
+  "lat": 51.2269376,
+  "lon": 4.4266615,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Omar Masjid",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6818268803,
+  "lat": 51.2251850,
+  "lon": 4.4254388,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "El Gazali",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 6835438263,
+  "lat": 51.2219991,
+  "lon": 4.4258795,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Al Gheri",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 23216211,
+  "nodes": [
+    5599352195,
+    5599352196,
+    5599352197,
+    5599352198,
+    5599352199,
+    5599352200,
+    5599352201,
+    251131782,
+    5599352193,
+    6685267823,
+    6685267824,
+    5599352194,
+    251131831,
+    251131832,
+    251131785,
+    251131786,
+    5599352195
+  ],
+  "tags": {
+    "addr:city": "Bruxelles - Brussel",
+    "addr:housenumber": "14",
+    "addr:postcode": "1000",
+    "addr:street": "Parc du Cinquantenaire - Jubelpark",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "heritage:website": "http://www.irismonument.be/nl.Brussel_Uitbreiding_Oost.Jubelpark.14.html",
+    "name": "Grande mosquée de Bruxelles - Grote Moskee van Brussel",
+    "name:fr": "Grande mosquée de Bruxelles",
+    "name:nl": "Grote Moskee van Brussel",
+    "religion": "muslim",
+    "wikidata": "Q1548310",
+    "wikipedia": "fr:Grande mosquée de Bruxelles"
+  }
+},
+{
+  "type": "way",
+  "id": 48565699,
+  "nodes": [
+    616896239,
+    616896240,
+    616896216,
+    616896217,
+    616896218,
+    616896241,
+    616896246,
+    616896248,
+    616896247,
+    616896249,
+    616896245,
+    616896242,
+    616896243,
+    616896244,
+    616896257,
+    616896258,
+    616896259,
+    616896260,
+    616896261,
+    616896262,
+    616896263,
+    616896250,
+    616896251,
+    616896252,
+    616896253,
+    616896254,
+    616896255,
+    616896256,
+    616896229,
+    616896237,
+    616896238,
+    616896215,
+    616896230,
+    616896231,
+    616896232,
+    616896233,
+    616896234,
+    616896235,
+    616896236,
+    616896219,
+    616896220,
+    616896221,
+    616896222,
+    616896223,
+    616896224,
+    616896225,
+    616896226,
+    616896227,
+    616896228,
+    616896239
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Yunus Emre-moskee",
+    "religion": "muslim",
+    "wikidata": "Q15884160"
+  }
+},
+{
+  "type": "way",
+  "id": 77762294,
+  "nodes": [
+    914488796,
+    914488795,
+    914488793,
+    914488797,
+    914488796
+  ],
+  "tags": {
+    "addr:housenumber": "45",
+    "addr:postcode": "3012",
+    "addr:street": "Kolonel begaultlaan",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Moskee Al Ihsaan",
+    "religion": "muslim",
+    "website": "http://alihsaan.be/"
+  }
+},
+{
+  "type": "way",
+  "id": 95800466,
+  "nodes": [
+    4963750441,
+    1110316390,
+    1110316524,
+    4963750439,
+    4963750440,
+    4963750438,
+    4963750446,
+    4963750429,
+    1110316429,
+    1110316426,
+    4963750444,
+    4963750443,
+    4963750442,
+    4963750441
+  ],
+  "tags": {
+    "addr:city": "Lebbeke",
+    "addr:housenumber": "28",
+    "addr:postcode": "9280",
+    "addr:street": "Konkelgoedstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Moskee Al Hoedah",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 104011807,
+  "nodes": [
+    1200373366,
+    1200373079,
+    1200373038,
+    1200372989,
+    1200373423,
+    1200373377,
+    1200373341,
+    1200373290,
+    1200373366
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Ahmadia gemeenschap",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 111490293,
+  "nodes": [
+    1270106724,
+    1270106825,
+    1270106816,
+    1270106832,
+    1270106724
+  ],
+  "tags": {
+    "addr:city": "bastogne",
+    "addr:housenumber": "100",
+    "addr:street": "avenue de l'independence",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 133031638,
+  "nodes": [
+    1463867148,
+    4964371551,
+    4964371550,
+    1463867163,
+    1463867172,
+    1463867165,
+    4964371549,
+    4964371402,
+    4964371400,
+    4964371401,
+    4964371398,
+    4964371399,
+    4964371397,
+    4964371396,
+    1463867156,
+    1463867157,
+    1463867147,
+    4964371404,
+    4964371403,
+    1463867168,
+    1463867148
+  ],
+  "tags": {
+    "addr:housename": "Al Hidaya",
+    "addr:housenumber": "31",
+    "addr:postcode": "3680",
+    "addr:street": "Sportlaan",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Al Hidaya",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 143873264,
+  "nodes": [
+    1574393700,
+    1574393690,
+    1574393688,
+    4862281192,
+    4862281200,
+    4862281199,
+    4862281189,
+    4862281196,
+    4862281195,
+    4862281194,
+    4862281193,
+    1574393693,
+    4862281198,
+    4862281197,
+    1574393700
+  ],
+  "tags": {
+    "addr:city": "Geel",
+    "addr:housenumber": "4",
+    "addr:postcode": "2440",
+    "addr:street": "Zwanenstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 158419706,
+  "nodes": [
+    1706142211,
+    1706142153,
+    1706142287,
+    1706142095,
+    1706142211
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "alevi",
+    "name": "Centre Culturel Alévi de Verviers",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 192569373,
+  "nodes": [
+    2031193338,
+    2031193330,
+    2031193336,
+    2031193337,
+    2031193341,
+    2031193345,
+    2031193338
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "denomination": "Turks Diyanet",
+    "image": "File:Zolder Lindeman Turkse Moskee.jpg",
+    "name": "Selimiye Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 202040276,
+  "nodes": [
+    2120218266,
+    2120218275,
+    2120218267,
+    2120218261,
+    2120218266
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Turkse moskee Winterslag",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 208922993,
+  "nodes": [
+    2191773603,
+    2191773607,
+    2191773604,
+    2191773605,
+    2191773609,
+    2191773602,
+    2191773600,
+    2191773606,
+    2191773601,
+    2191773599,
+    2191773608,
+    2191773610,
+    2191773598,
+    2191773603
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Alaadin Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 208925423,
+  "nodes": [
+    2191789197,
+    2191789204,
+    2191789198,
+    2191789199,
+    2191789205,
+    2191789201,
+    2191789200,
+    2191789203,
+    2191789202,
+    2191789197
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 220214532,
+  "nodes": [
+    2293459669,
+    2293459679,
+    2293459696,
+    2293459693,
+    2293459669
+  ],
+  "tags": {
+    "addr:housenumber": "130",
+    "addr:street": "Leysestraat",
+    "amenity": "place_of_worship",
+    "building": "house",
+    "religion": "muslim",
+    "source": "AGIV"
+  }
+},
+{
+  "type": "way",
+  "id": 228246949,
+  "nodes": [
+    2368784212,
+    2368784226,
+    2368784219,
+    2368784215,
+    2368784208,
+    2368784201,
+    2368784197,
+    2368784191,
+    2368784184,
+    2368784182,
+    2368784170,
+    2368784149,
+    2368784212
+  ],
+  "tags": {
+    "addr:city": "Schaerbeek - Schaarbeek",
+    "addr:housenumber": "88",
+    "addr:postcode": "1030",
+    "addr:street": "Chaussée de Haecht - Haachtsesteenweg",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Moskee Fatih Camii",
+    "name:fr": "Mosquée Fatih Camii",
+    "name:ku": "Mizgefta Fatîh",
+    "name:tr": "Fatih Camii",
+    "ref:UrbIS": "8409759",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 240904579,
+  "nodes": [
+    2485985165,
+    2485985170,
+    2485985171,
+    2485985173,
+    2485985166,
+    2485985167,
+    2485985165
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Mosque Tevhid Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 242846762,
+  "nodes": [
+    2502959693,
+    2502959687,
+    2502959692,
+    2502959694,
+    2502959693
+  ],
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "Rue François Fetis",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "An Nour",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 245005631,
+  "nodes": [
+    2522686301,
+    2522686303,
+    2522686297,
+    2522686296,
+    2522686298,
+    2522686299,
+    2522686300,
+    2522686302,
+    2522686301
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Islamitische moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 254079399,
+  "nodes": [
+    2599625597,
+    2599056234,
+    2599056217,
+    2599056227,
+    2599056248,
+    2599625598,
+    2599056251,
+    2599056247,
+    2599056264,
+    2599056269,
+    2599056257,
+    2599056256,
+    2599625597
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "house",
+    "building:levels": "3",
+    "name": "Turkse moskee Waterschei",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 260437686,
+  "nodes": [
+    2653483437,
+    2659254377,
+    2659254379,
+    2659254380,
+    2659254378,
+    2659254381,
+    2644574737,
+    2644574719,
+    2644574716,
+    2653483446,
+    2653483452,
+    2653483450,
+    2653483448,
+    2653483437
+  ],
+  "tags": {
+    "addr:city": "Anderlecht",
+    "addr:country": "BE",
+    "addr:housenumber": "11",
+    "addr:postcode": "1070",
+    "addr:street": "Rue du Libre Examen - Vrij-Onderzoekstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Mosquée Al Amal - Al Amal Moskee",
+    "name:fr": "Mosquée Al Amal",
+    "name:nl": "Al Amal Moskee",
+    "phone": "+32 2 522 05 43",
+    "religion": "muslim",
+    "url": "http://www.alamal.be"
+  }
+},
+{
+  "type": "way",
+  "id": 260729754,
+  "nodes": [
+    2662931102,
+    2662931103,
+    2662931104,
+    2662931101,
+    2662931100,
+    6931785654,
+    6931785655,
+    6931785656,
+    6931785657,
+    2662931093,
+    2662931091,
+    2662931102
+  ],
+  "tags": {
+    "addr:city": "Hechtel-Eksel",
+    "addr:country": "BE",
+    "addr:housenumber": "27",
+    "addr:postcode": "3940",
+    "addr:street": "Hasseltsebaan",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 313528268,
+  "nodes": [
+    4128970107,
+    4128970110,
+    4128970108,
+    4128970194,
+    4129053389,
+    3195272868,
+    3195272865,
+    3195272839,
+    3195272837,
+    3195272836,
+    4129053093,
+    4128970104,
+    4128970103,
+    4128970102,
+    3195272790,
+    6207358253,
+    6207358255,
+    6207358254,
+    3195272787,
+    3195272794,
+    3195272798,
+    3195272833,
+    3195272832,
+    3195272840,
+    3195272842,
+    4128970193,
+    3213742551,
+    3213744962,
+    4128970107
+  ],
+  "tags": {
+    "addr:city": "Beringen",
+    "addr:country": "BE",
+    "addr:housenumber": "6",
+    "addr:postcode": "3581",
+    "addr:street": "Kerkstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "denomination": "sufi",
+    "name": "Semersah Vakfi Beringen",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 314953159,
+  "nodes": [
+    4347737878,
+    4347737879,
+    3210358314,
+    4347737881,
+    4347737880,
+    3210358329,
+    3210358313,
+    4347737877,
+    4347737876,
+    4347737875,
+    4347737874,
+    4347737873,
+    4347737872,
+    4347737869,
+    4347737867,
+    4347737868,
+    4347737870,
+    4347737871,
+    3210358304,
+    4347737878
+  ],
+  "tags": {
+    "addr:city": "Beringen",
+    "addr:country": "BE",
+    "addr:housenumber": "1",
+    "addr:postcode": "3582",
+    "addr:street": "Klimopstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Fatih Moskee",
+    "religion": "muslim",
+    "source:geometry:date": "2009-11-10",
+    "source:geometry:ref": "Gbg/1806282",
+    "wikipedia:nl": "Fatih-moskee (Beringen)"
+  }
+},
+{
+  "type": "way",
+  "id": 336741438,
+  "nodes": [
+    3438112149,
+    3438112150,
+    3438112151,
+    3438112152,
+    3438112149
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 344731728,
+  "nodes": [
+    3514753678,
+    4003012778,
+    4003012777,
+    3514753679,
+    4003012786,
+    4003012782,
+    3514753680,
+    3514753681,
+    3514753678
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 373783205,
+  "nodes": [
+    3771953608,
+    3771953606,
+    3771953605,
+    5454396074,
+    5454396075,
+    5454396076,
+    5454396077,
+    5454396053,
+    5454396078,
+    3772514734,
+    5454396061,
+    5454396059,
+    5454396060,
+    3771953607,
+    3771953608
+  ],
+  "tags": {
+    "addr:housenumber": "131",
+    "addr:street": "Borrewaterstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Essalam",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 377194570,
+  "nodes": [
+    3805738413,
+    3805738414,
+    3805738415,
+    6174764040,
+    6174764039,
+    5362036579,
+    6174764045,
+    4262702293,
+    6174764029,
+    6174764044,
+    6174764043,
+    6174764042,
+    6174764041,
+    3805738417,
+    3805738418,
+    6174764046,
+    3805738413
+  ],
+  "tags": {
+    "addr:housenumber": "6A",
+    "addr:street": "Spinnersstraat",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "El Nour",
+    "religion": "muslim",
+    "website": "http://www.vzwelnour.be/"
+  }
+},
+{
+  "type": "way",
+  "id": 385179680,
+  "nodes": [
+    3885348188,
+    5380381881,
+    5380381872,
+    5380381873,
+    5380381871,
+    5380381870,
+    5380381874,
+    5380381875,
+    3885348195,
+    3885348204,
+    3885348203,
+    3885348188
+  ],
+  "tags": {
+    "addr:housenumber": "172",
+    "addr:street": "Boterlaarbaan",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Inaba",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 385984199,
+  "nodes": [
+    3893267454,
+    5431094644,
+    5431094645,
+    5431094646,
+    5431094647,
+    3893267559,
+    3893267576,
+    3893267572,
+    3893267454
+  ],
+  "tags": {
+    "addr:housenumber": "223-225",
+    "addr:street": "Ten Eekhovelei",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Ikc Gazi Husrev-beg Antwerpen",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 386207319,
+  "nodes": [
+    3895338437,
+    3895338429,
+    3895338453,
+    5435075677,
+    5431560271,
+    5431560276,
+    5435075679,
+    3895338462,
+    3895338437
+  ],
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:street": "Van Duyststraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Attaqwa",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 386917523,
+  "nodes": [
+    3902769882,
+    3902769749,
+    5381136379,
+    5381136378,
+    5381136396,
+    5381136397,
+    5381136395,
+    5381136392,
+    3902769747,
+    3902769880,
+    3902769882
+  ],
+  "tags": {
+    "addr:housenumber": "110",
+    "addr:street": "Mattheus Corvensstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Al-Ridaa",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 402413624,
+  "nodes": [
+    4048260615,
+    4048260614,
+    4048260609,
+    4048260613,
+    4048260615
+  ],
+  "tags": {
+    "addr:city": "Liège",
+    "addr:country": "BE",
+    "addr:housenumber": "39",
+    "addr:postcode": "4020",
+    "addr:street": "Rue de Pitteurs",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Mosquée Almowahidine",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 426608603,
+  "nodes": [
+    4258876411,
+    5270572944,
+    5270572936,
+    5270572937,
+    5270572943,
+    5270572940,
+    5270572939,
+    5270572938,
+    5270572941,
+    5270572942,
+    5270572954,
+    5270572953,
+    5270572952,
+    5270572951,
+    5270572950,
+    5270572949,
+    5270572948,
+    5270572947,
+    5270572946,
+    5270572945,
+    5270572955,
+    4258876413,
+    5270572958,
+    5270572957,
+    5270572956,
+    5270572959,
+    4258876414,
+    5270572929,
+    5270572934,
+    5270572930,
+    5270572931,
+    5270572932,
+    5270572933,
+    5270572935,
+    4258876411
+  ],
+  "tags": {
+    "alt_name": "Moskee Hassan Ibn Tabet",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "denomination": "Marokaans",
+    "name": "Moskee Hassan Ebno Tabit",
+    "religion": "muslim",
+    "wikipedia": "nl:Hassan Ibn Tabet moskee"
+  }
+},
+{
+  "type": "way",
+  "id": 442649261,
+  "nodes": [
+    4403235581,
+    4403235582,
+    4403235583,
+    4403235584,
+    4403235585,
+    4403235586,
+    4403235587,
+    4403235588,
+    4403235589,
+    4403235590,
+    4403235591,
+    4403235581
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Mosquée Yavuz Sultan Selim",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 445805229,
+  "nodes": [
+    4431549826,
+    4431549827,
+    1709244351,
+    4431549828,
+    4431549829,
+    4431549826
+  ],
+  "tags": {
+    "addr:city": "Verviers",
+    "addr:housenumber": "39",
+    "addr:postcode": "4800",
+    "addr:street": "Rue Lucien Defays",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Mosquée Sultan Ahmet",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 445810208,
+  "nodes": [
+    4431592359,
+    4431592360,
+    4431592361,
+    4431592362,
+    4431592359
+  ],
+  "tags": {
+    "addr:city": "Verviers",
+    "addr:housenumber": "3",
+    "addr:postcode": "4800",
+    "addr:street": "Rue du Chat Volant",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "sunni",
+    "name": "Mosquée El Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 447847427,
+  "nodes": [
+    3599036104,
+    4449129182,
+    4449129183,
+    3599035829,
+    3599036104
+  ],
+  "tags": {
+    "addr:city": "Arlon",
+    "addr:housenumber": "1",
+    "addr:postcode": "6700",
+    "addr:street": "Place de l'Yser",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Association des Musulmans d’Arlon - AMA",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 456230699,
+  "nodes": [
+    4525112818,
+    4525112817,
+    4525112816,
+    4525112815,
+    4525112814,
+    4525112813,
+    4525112812,
+    4525112811,
+    4525112810,
+    4525112818
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "house",
+    "religion": "muslim",
+    "source:geometry": "GRB",
+    "source:geometry:date": "2015-09-05",
+    "source:geometry:ref": "Gbg/5293900"
+  }
+},
+{
+  "type": "way",
+  "id": 475890731,
+  "nodes": [
+    4695732133,
+    4695732134,
+    4695732135,
+    7200400345,
+    4695732136,
+    4695732133
+  ],
+  "tags": {
+    "addr:city": "Verviers",
+    "addr:housenumber": "30",
+    "addr:postcode": "4800",
+    "addr:street": "Rue du Peignage",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "building:levels": "2",
+    "name": "Mosquée Errhama",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 503965925,
+  "nodes": [
+    4941948446,
+    4941948440,
+    4941948449,
+    4941948450,
+    4941948451,
+    4941948520,
+    4941948521,
+    4941948535,
+    4941948536,
+    4941948538,
+    4941948439,
+    4941928369,
+    4941948438,
+    4941948437,
+    4941948427,
+    4941948436,
+    4941948434,
+    4941948435,
+    4941948445,
+    4941948446
+  ],
+  "tags": {
+    "addr:housenumber": "26,26B",
+    "addr:street": "Ieperstraat",
+    "alt_name": "Huzur - Vrede",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "email": "info@huzur.be",
+    "name": "Huzur",
+    "operator": "Huzur vzw",
+    "religion": "muslim",
+    "website": "http://huzur.be/"
+  }
+},
+{
+  "type": "way",
+  "id": 506992650,
+  "nodes": [
+    4965946931,
+    4965946926,
+    4965946925,
+    4965946924,
+    4965946923,
+    4965946922,
+    4965946921,
+    4965946720,
+    4965946719,
+    4965946718,
+    4965946717,
+    4965946716,
+    4965946715,
+    4965946714,
+    4965946713,
+    4965946712,
+    4965946711,
+    4965946710,
+    4965946709,
+    4966505069,
+    4965946708,
+    4966505347,
+    4965946707,
+    4966505330,
+    4965946706,
+    4965946705,
+    4965946704,
+    4965946930,
+    4965946931
+  ],
+  "tags": {
+    "addr:housenumber": "87-89",
+    "addr:street": "Van Kerckhovenstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Noor-Ul-Haram moskee",
+    "operator": "Antwerp Islamic Association vzw",
+    "religion": "muslim",
+    "website": "https://www.noorulharam.be/"
+  }
+},
+{
+  "type": "way",
+  "id": 508231190,
+  "nodes": [
+    4975659609,
+    4975659603,
+    4975659608,
+    4975659607,
+    4975659606,
+    4975659610,
+    4975659609
+  ],
+  "tags": {
+    "addr:housenumber": "315",
+    "addr:postcode": "2140",
+    "addr:street": "Turnhoutsebaan",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Bangladesh Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 508236735,
+  "nodes": [
+    4975746959,
+    4975746956,
+    4975746955,
+    4975746954,
+    4975746953,
+    4975746952,
+    4975746951,
+    4975746958,
+    4975746959
+  ],
+  "tags": {
+    "addr:housenumber": "271",
+    "addr:postcode": "2140",
+    "addr:street": "Turnhoutsebaan",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee Alkafaalah",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 518736653,
+  "nodes": [
+    5059604034,
+    5059604035,
+    5059604036,
+    5059604037,
+    5059604038,
+    5059604039,
+    5059604034
+  ],
+  "tags": {
+    "addr:city": "Sint-Andries",
+    "addr:housenumber": "169",
+    "addr:postcode": "8200",
+    "addr:street": "Diksmuidse Heerweg",
+    "amenity": "place_of_worship",
+    "building": "house",
+    "email": "aziz.rajput@telenet.be",
+    "phone": "+32 50 81 30 95",
+    "religion": "muslim",
+    "source:geometry:date": "2011/08/09",
+    "source:geometry:ref": "Gbg/3097748",
+    "website": "http://dehelewereldinbrugge.be/cultureel%20islamitisch%20centrum.html"
+  }
+},
+{
+  "type": "way",
+  "id": 561872640,
+  "nodes": [
+    5417259327,
+    5651283027,
+    5651283028,
+    5651283029,
+    5417259334,
+    5417259328,
+    5417259337,
+    5417259329,
+    5651283033,
+    5651283032,
+    5417259338,
+    5651283031,
+    5651283030,
+    5417259336,
+    5417259330,
+    5417259335,
+    5417259331,
+    5417259332,
+    5417259333,
+    5417259339,
+    5417259327
+  ],
+  "tags": {
+    "addr:street": "Avenue Georges Lemaître",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Centre Culturel Islamique d’Ottignies Louvain-la-Neuve",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 589599190,
+  "nodes": [
+    5630138495,
+    5630138458,
+    5630138478,
+    5630138465,
+    5630138495
+  ],
+  "tags": {
+    "addr:city": "Oostende",
+    "addr:housenumber": "5",
+    "addr:postcode": "8400",
+    "addr:street": "Hendrik Conscienceplein",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "5 - Aïsja Moskee",
+    "religion": "muslim",
+    "source": "AGIV"
+  }
+},
+{
+  "type": "way",
+  "id": 595925057,
+  "nodes": [
+    5678406366,
+    5678406367,
+    5678406368,
+    5678406369,
+    5678406370,
+    5678406371,
+    5678406372,
+    5678406373,
+    5678406374,
+    5678406375,
+    5678406366
+  ],
+  "tags": {
+    "addr:city": "Verviers",
+    "addr:housenumber": "28",
+    "addr:postcode": "4800",
+    "addr:street": "Rue des Fabriques",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Mosquée Kobaa",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 619167019,
+  "nodes": [
+    1751171836,
+    5851390174,
+    5851390175,
+    5851390176,
+    5851390177,
+    1751171821,
+    1751171790,
+    567046359,
+    567046358,
+    567046357,
+    567046356,
+    5851390178,
+    1751171834,
+    5851390179,
+    1751171836
+  ],
+  "tags": {
+    "landuse": "cemetery",
+    "name": "Cimetière de Verviers - Parcelle multiconfessionnelle",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 619459728,
+  "nodes": [
+    5853859677,
+    5853859678,
+    5853859679,
+    5853859680,
+    5853859677
+  ],
+  "tags": {
+    "landuse": "religious",
+    "name": "Mosquée de la rue d'Othée",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 622314901,
+  "nodes": [
+    5878310954,
+    5878310964,
+    5878310965,
+    5878310966,
+    5878310963,
+    5878310960,
+    5878310956,
+    5878310958,
+    5878310959,
+    5878310955,
+    5878310957,
+    5878310961,
+    5878310962,
+    5878310954
+  ],
+  "tags": {
+    "addr:city": "Maasmechelen",
+    "addr:country": "BE",
+    "addr:housenumber": "15",
+    "addr:postcode": "3630",
+    "addr:street": "Paul Lambertlaan",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Diyanet moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 622314908,
+  "nodes": [
+    5878311527,
+    5878311526,
+    5878311525,
+    5878311528,
+    5878311529,
+    5878311530,
+    5878311527
+  ],
+  "tags": {
+    "addr:city": "Maasmechelen",
+    "addr:country": "BE",
+    "addr:housenumber": "19B",
+    "addr:postcode": "3630",
+    "addr:street": "Valkeniersstraat",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 622314909,
+  "nodes": [
+    5878311534,
+    7038961036,
+    7038961035,
+    7038961033,
+    7038961034,
+    5878311531,
+    7038961037,
+    5878311532,
+    5878311533,
+    5878311534
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 625515972,
+  "nodes": [
+    5905876934,
+    5903250388,
+    5905876947,
+    5905876935,
+    5907349318,
+    5905876936,
+    5151287379,
+    5151287375,
+    5905876937,
+    5905876938,
+    5905876939,
+    5905876940,
+    5905876934
+  ],
+  "tags": {
+    "addr:city": "Visé",
+    "addr:housenumber": "129",
+    "addr:postcode": "4602",
+    "addr:street": "Rue de Visé",
+    "addr:suburb": "Cheratte",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "building:levels": "2",
+    "name": "Mimar Sinan Camii",
+    "name:fr": "Mosquée Mimar Sinan",
+    "name:tr": "Diyanet Mimar Sinan Camii",
+    "religion": "muslim",
+    "roof:levels": "1",
+    "roof:shape": "gabled"
+  }
+},
+{
+  "type": "way",
+  "id": 638513984,
+  "nodes": [
+    6017699527,
+    6017699524,
+    6017699525,
+    6017699526,
+    6017699527
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "name": "Marokkaanse El Houda Moskee",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 642975654,
+  "nodes": [
+    6051861044,
+    6051861054,
+    6051861057,
+    6051861046,
+    6051861053,
+    6051861052,
+    6051861047,
+    6051861056,
+    6051861055,
+    6051861045,
+    6051861051,
+    6051861042,
+    6051861049,
+    6051861048,
+    6051861043,
+    6051861050,
+    6051861044
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "description": "vroegere cinema van mijn",
+    "image": "File:Winterslag vroegere cinema.jpg",
+    "name": "Moskee BIF Milli Görüs Genclik",
+    "old_name": "Cinema",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 647850238,
+  "nodes": [
+    6083367731,
+    6083367732,
+    6083367730,
+    6083367729,
+    6083367728,
+    6083367731
+  ],
+  "tags": {
+    "addr:city": "Namur",
+    "addr:housenumber": "9",
+    "addr:postcode": "5000",
+    "addr:street": "Rue Marie Henriette",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Mosquée de Namur - Centre culturel Marocain de Namur",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 727332920,
+  "nodes": [
+    6816210119,
+    6816210118,
+    6816210117,
+    6816210116,
+    6816210119
+  ],
+  "tags": {
+    "addr:city": "Seilles",
+    "addr:country": "BE",
+    "addr:housenumber": "2",
+    "addr:postcode": "5300",
+    "addr:street": "Rue de la Caserne",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "El Fath",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 792347813,
+  "nodes": [
+    7409053266,
+    7409053265,
+    7409053264,
+    7409053263,
+    7409053262,
+    7409053261,
+    7409053260,
+    7409053259,
+    7409053258,
+    7409053257,
+    7409053256,
+    7409053255,
+    7409053254,
+    7409053253,
+    7409053252,
+    7409053251,
+    7409053250,
+    7409053249,
+    7409053248,
+    7409053247,
+    7409053246,
+    7409053245,
+    7409053244,
+    7409053243,
+    7409053266
+  ],
+  "tags": {
+    "addr:housenumber": "188",
+    "addr:street": "Rue des Hotteuses",
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "capacity": "1000",
+    "name": "Mosquée Bilal",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 3514753678,
+  "lat": 49.8448018,
+  "lon": 5.4377776
+},
+{
+  "type": "node",
+  "id": 3514753679,
+  "lat": 49.8448654,
+  "lon": 5.4379628
+},
+{
+  "type": "node",
+  "id": 3514753680,
+  "lat": 49.8449476,
+  "lon": 5.4377360
+},
+{
+  "type": "node",
+  "id": 3514753681,
+  "lat": 49.8448748,
+  "lon": 5.4376109
+},
+{
+  "type": "node",
+  "id": 4003012777,
+  "lat": 49.8448266,
+  "lon": 5.4378961
+},
+{
+  "type": "node",
+  "id": 4003012778,
+  "lat": 49.8448517,
+  "lon": 5.4378609
+},
+{
+  "type": "node",
+  "id": 4003012782,
+  "lat": 49.8449091,
+  "lon": 5.4377901
+},
+{
+  "type": "node",
+  "id": 4003012786,
+  "lat": 49.8449448,
+  "lon": 5.4378515
+},
+{
+  "type": "node",
+  "id": 3599035829,
+  "lat": 49.6787303,
+  "lon": 5.8046243
+},
+{
+  "type": "node",
+  "id": 3599036104,
+  "lat": 49.6788343,
+  "lon": 5.8045395
+},
+{
+  "type": "node",
+  "id": 4449129182,
+  "lat": 49.6788813,
+  "lon": 5.8046773
+},
+{
+  "type": "node",
+  "id": 4449129183,
+  "lat": 49.6787774,
+  "lon": 5.8047621
+},
+{
+  "type": "node",
+  "id": 3805738413,
+  "lat": 50.9498596,
+  "lon": 3.1339241
+},
+{
+  "type": "node",
+  "id": 3805738414,
+  "lat": 50.9498329,
+  "lon": 3.1338449
+},
+{
+  "type": "node",
+  "id": 3805738415,
+  "lat": 50.9498416,
+  "lon": 3.1338373
+},
+{
+  "type": "node",
+  "id": 3805738417,
+  "lat": 50.9497629,
+  "lon": 3.1338612
+},
+{
+  "type": "node",
+  "id": 3805738418,
+  "lat": 50.9498002,
+  "lon": 3.1339749
+},
+{
+  "type": "node",
+  "id": 4262702293,
+  "lat": 50.9497105,
+  "lon": 3.1337315
+},
+{
+  "type": "node",
+  "id": 5362036579,
+  "lat": 50.9497774,
+  "lon": 3.1337708
+},
+{
+  "type": "node",
+  "id": 6174764029,
+  "lat": 50.9497173,
+  "lon": 3.1337532
+},
+{
+  "type": "node",
+  "id": 6174764039,
+  "lat": 50.9497910,
+  "lon": 3.1338183
+},
+{
+  "type": "node",
+  "id": 6174764040,
+  "lat": 50.9498249,
+  "lon": 3.1337890
+},
+{
+  "type": "node",
+  "id": 6174764041,
+  "lat": 50.9497531,
+  "lon": 3.1338317
+},
+{
+  "type": "node",
+  "id": 6174764042,
+  "lat": 50.9497426,
+  "lon": 3.1338392
+},
+{
+  "type": "node",
+  "id": 6174764043,
+  "lat": 50.9497316,
+  "lon": 3.1338060
+},
+{
+  "type": "node",
+  "id": 6174764044,
+  "lat": 50.9497340,
+  "lon": 3.1338042
+},
+{
+  "type": "node",
+  "id": 6174764045,
+  "lat": 50.9497492,
+  "lon": 3.1336995
+},
+{
+  "type": "node",
+  "id": 6174764046,
+  "lat": 50.9498602,
+  "lon": 3.1339254
+},
+{
+  "type": "node",
+  "id": 5630138458,
+  "lat": 51.2171275,
+  "lon": 2.9024525
+},
+{
+  "type": "node",
+  "id": 5630138465,
+  "lat": 51.2170775,
+  "lon": 2.9026315
+},
+{
+  "type": "node",
+  "id": 5630138478,
+  "lat": 51.2170414,
+  "lon": 2.9025538
+},
+{
+  "type": "node",
+  "id": 5630138495,
+  "lat": 51.2171648,
+  "lon": 2.9025318
+},
+{
+  "type": "node",
+  "id": 5059604034,
+  "lat": 51.1951010,
+  "lon": 3.1947119
+},
+{
+  "type": "node",
+  "id": 5059604035,
+  "lat": 51.1950291,
+  "lon": 3.1946910
+},
+{
+  "type": "node",
+  "id": 5059604036,
+  "lat": 51.1950110,
+  "lon": 3.1948457
+},
+{
+  "type": "node",
+  "id": 5059604037,
+  "lat": 51.1950297,
+  "lon": 3.1948528
+},
+{
+  "type": "node",
+  "id": 5059604038,
+  "lat": 51.1950135,
+  "lon": 3.1949843
+},
+{
+  "type": "node",
+  "id": 5059604039,
+  "lat": 51.1950685,
+  "lon": 3.1950000
+},
+{
+  "type": "node",
+  "id": 2502959687,
+  "lat": 50.4524980,
+  "lon": 3.9458541
+},
+{
+  "type": "node",
+  "id": 2502959692,
+  "lat": 50.4525271,
+  "lon": 3.9459882
+},
+{
+  "type": "node",
+  "id": 2502959693,
+  "lat": 50.4524243,
+  "lon": 3.9459306
+},
+{
+  "type": "node",
+  "id": 2502959694,
+  "lat": 50.4524721,
+  "lon": 3.9460390
+},
+{
+  "type": "node",
+  "id": 4403235581,
+  "lat": 50.4692334,
+  "lon": 4.1735156
+},
+{
+  "type": "node",
+  "id": 4403235582,
+  "lat": 50.4693162,
+  "lon": 4.1736256
+},
+{
+  "type": "node",
+  "id": 4403235583,
+  "lat": 50.4692855,
+  "lon": 4.1736806
+},
+{
+  "type": "node",
+  "id": 4403235584,
+  "lat": 50.4693008,
+  "lon": 4.1737047
+},
+{
+  "type": "node",
+  "id": 4403235585,
+  "lat": 50.4692419,
+  "lon": 4.1738147
+},
+{
+  "type": "node",
+  "id": 4403235586,
+  "lat": 50.4690806,
+  "lon": 4.1740011
+},
+{
+  "type": "node",
+  "id": 4403235587,
+  "lat": 50.4690268,
+  "lon": 4.1738898
+},
+{
+  "type": "node",
+  "id": 4403235588,
+  "lat": 50.4690892,
+  "lon": 4.1737772
+},
+{
+  "type": "node",
+  "id": 4403235589,
+  "lat": 50.4690678,
+  "lon": 4.1737503
+},
+{
+  "type": "node",
+  "id": 4403235590,
+  "lat": 50.4691113,
+  "lon": 4.1736712
+},
+{
+  "type": "node",
+  "id": 4403235591,
+  "lat": 50.4691310,
+  "lon": 4.1736940
+},
+{
+  "type": "node",
+  "id": 2191773598,
+  "lat": 50.4122557,
+  "lon": 4.3977756
+},
+{
+  "type": "node",
+  "id": 2191773599,
+  "lat": 50.4121976,
+  "lon": 4.3976991
+},
+{
+  "type": "node",
+  "id": 2191773600,
+  "lat": 50.4121027,
+  "lon": 4.3978539
+},
+{
+  "type": "node",
+  "id": 2191773601,
+  "lat": 50.4121464,
+  "lon": 4.3977205
+},
+{
+  "type": "node",
+  "id": 2191773602,
+  "lat": 50.4121102,
+  "lon": 4.3978985
+},
+{
+  "type": "node",
+  "id": 2191773603,
+  "lat": 50.4122672,
+  "lon": 4.3978562
+},
+{
+  "type": "node",
+  "id": 2191773604,
+  "lat": 50.4121967,
+  "lon": 4.3979115
+},
+{
+  "type": "node",
+  "id": 2191773605,
+  "lat": 50.4121676,
+  "lon": 4.3979274
+},
+{
+  "type": "node",
+  "id": 2191773606,
+  "lat": 50.4121266,
+  "lon": 4.3978419
+},
+{
+  "type": "node",
+  "id": 2191773607,
+  "lat": 50.4122007,
+  "lon": 4.3978906
+},
+{
+  "type": "node",
+  "id": 2191773608,
+  "lat": 50.4122404,
+  "lon": 4.3977286
+},
+{
+  "type": "node",
+  "id": 2191773609,
+  "lat": 50.4121350,
+  "lon": 4.3978889
+},
+{
+  "type": "node",
+  "id": 2191773610,
+  "lat": 50.4122445,
+  "lon": 4.3977617
+},
+{
+  "type": "node",
+  "id": 2191789197,
+  "lat": 50.4080542,
+  "lon": 4.4010357
+},
+{
+  "type": "node",
+  "id": 2191789198,
+  "lat": 50.4077978,
+  "lon": 4.4007702
+},
+{
+  "type": "node",
+  "id": 2191789199,
+  "lat": 50.4078388,
+  "lon": 4.4006468
+},
+{
+  "type": "node",
+  "id": 2191789200,
+  "lat": 50.4079182,
+  "lon": 4.4008215
+},
+{
+  "type": "node",
+  "id": 2191789201,
+  "lat": 50.4079311,
+  "lon": 4.4008050
+},
+{
+  "type": "node",
+  "id": 2191789202,
+  "lat": 50.4080525,
+  "lon": 4.4009418
+},
+{
+  "type": "node",
+  "id": 2191789203,
+  "lat": 50.4079226,
+  "lon": 4.4009043
+},
+{
+  "type": "node",
+  "id": 2191789204,
+  "lat": 50.4078029,
+  "lon": 4.4009499
+},
+{
+  "type": "node",
+  "id": 2191789205,
+  "lat": 50.4079209,
+  "lon": 4.4006388
+},
+{
+  "type": "node",
+  "id": 6083367728,
+  "lat": 50.4705827,
+  "lon": 4.8582858
+},
+{
+  "type": "node",
+  "id": 6083367729,
+  "lat": 50.4705266,
+  "lon": 4.8581459
+},
+{
+  "type": "node",
+  "id": 6083367730,
+  "lat": 50.4704689,
+  "lon": 4.8582031
+},
+{
+  "type": "node",
+  "id": 6083367731,
+  "lat": 50.4705263,
+  "lon": 4.8583450
+},
+{
+  "type": "node",
+  "id": 6083367732,
+  "lat": 50.4704703,
+  "lon": 4.8582098
+},
+{
+  "type": "node",
+  "id": 5417259327,
+  "lat": 50.6702512,
+  "lon": 4.6194802
+},
+{
+  "type": "node",
+  "id": 5417259328,
+  "lat": 50.6702685,
+  "lon": 4.6195765
+},
+{
+  "type": "node",
+  "id": 5417259329,
+  "lat": 50.6702478,
+  "lon": 4.6196291
+},
+{
+  "type": "node",
+  "id": 5417259330,
+  "lat": 50.6701563,
+  "lon": 4.6196000
+},
+{
+  "type": "node",
+  "id": 5417259331,
+  "lat": 50.6701349,
+  "lon": 4.6193530
+},
+{
+  "type": "node",
+  "id": 5417259332,
+  "lat": 50.6702129,
+  "lon": 4.6193434
+},
+{
+  "type": "node",
+  "id": 5417259333,
+  "lat": 50.6702181,
+  "lon": 4.6194540
+},
+{
+  "type": "node",
+  "id": 5417259334,
+  "lat": 50.6702712,
+  "lon": 4.6195571
+},
+{
+  "type": "node",
+  "id": 5417259335,
+  "lat": 50.6701466,
+  "lon": 4.6195547
+},
+{
+  "type": "node",
+  "id": 5417259336,
+  "lat": 50.6701687,
+  "lon": 4.6196223
+},
+{
+  "type": "node",
+  "id": 5417259337,
+  "lat": 50.6702554,
+  "lon": 4.6196164
+},
+{
+  "type": "node",
+  "id": 5417259338,
+  "lat": 50.6702005,
+  "lon": 4.6196483
+},
+{
+  "type": "node",
+  "id": 5417259339,
+  "lat": 50.6702406,
+  "lon": 4.6194650
+},
+{
+  "type": "node",
+  "id": 5651283027,
+  "lat": 50.6702604,
+  "lon": 4.6194972
+},
+{
+  "type": "node",
+  "id": 5651283028,
+  "lat": 50.6702672,
+  "lon": 4.6195215
+},
+{
+  "type": "node",
+  "id": 5651283029,
+  "lat": 50.6702714,
+  "lon": 4.6195370
+},
+{
+  "type": "node",
+  "id": 5651283030,
+  "lat": 50.6701812,
+  "lon": 4.6196360
+},
+{
+  "type": "node",
+  "id": 5651283031,
+  "lat": 50.6701919,
+  "lon": 4.6196442
+},
+{
+  "type": "node",
+  "id": 5651283032,
+  "lat": 50.6702135,
+  "lon": 4.6196481
+},
+{
+  "type": "node",
+  "id": 5651283033,
+  "lat": 50.6702370,
+  "lon": 4.6196403
+},
+{
+  "type": "node",
+  "id": 2485985165,
+  "lat": 51.0715649,
+  "lon": 3.7077453
+},
+{
+  "type": "node",
+  "id": 2485985166,
+  "lat": 51.0713176,
+  "lon": 3.7076965
+},
+{
+  "type": "node",
+  "id": 2485985167,
+  "lat": 51.0713551,
+  "lon": 3.7075776
+},
+{
+  "type": "node",
+  "id": 2485985170,
+  "lat": 51.0714918,
+  "lon": 3.7079772
+},
+{
+  "type": "node",
+  "id": 2485985171,
+  "lat": 51.0712539,
+  "lon": 3.7077870
+},
+{
+  "type": "node",
+  "id": 2485985173,
+  "lat": 51.0712895,
+  "lon": 3.7076740
+},
+{
+  "type": "node",
+  "id": 1110316390,
+  "lat": 51.0020576,
+  "lon": 4.1364147
+},
+{
+  "type": "node",
+  "id": 1110316426,
+  "lat": 51.0022649,
+  "lon": 4.1368112
+},
+{
+  "type": "node",
+  "id": 1110316429,
+  "lat": 51.0021822,
+  "lon": 4.1368997
+},
+{
+  "type": "node",
+  "id": 1110316524,
+  "lat": 51.0020440,
+  "lon": 4.1364278
+},
+{
+  "type": "node",
+  "id": 4963750429,
+  "lat": 51.0020873,
+  "lon": 4.1366598
+},
+{
+  "type": "node",
+  "id": 4963750438,
+  "lat": 51.0020274,
+  "lon": 4.1365069
+},
+{
+  "type": "node",
+  "id": 4963750439,
+  "lat": 51.0020478,
+  "lon": 4.1364578
+},
+{
+  "type": "node",
+  "id": 4963750440,
+  "lat": 51.0020556,
+  "lon": 4.1364769
+},
+{
+  "type": "node",
+  "id": 4963750441,
+  "lat": 51.0020685,
+  "lon": 4.1364182
+},
+{
+  "type": "node",
+  "id": 4963750442,
+  "lat": 51.0020772,
+  "lon": 4.1364339
+},
+{
+  "type": "node",
+  "id": 4963750443,
+  "lat": 51.0020852,
+  "lon": 4.1364541
+},
+{
+  "type": "node",
+  "id": 4963750444,
+  "lat": 51.0021181,
+  "lon": 4.1364206
+},
+{
+  "type": "node",
+  "id": 4963750446,
+  "lat": 51.0020793,
+  "lon": 4.1366394
+},
+{
+  "type": "node",
+  "id": 4525112810,
+  "lat": 51.0998130,
+  "lon": 3.9942157
+},
+{
+  "type": "node",
+  "id": 4525112811,
+  "lat": 51.0998126,
+  "lon": 3.9942137
+},
+{
+  "type": "node",
+  "id": 4525112812,
+  "lat": 51.0997456,
+  "lon": 3.9938960
+},
+{
+  "type": "node",
+  "id": 4525112813,
+  "lat": 51.0997061,
+  "lon": 3.9939158
+},
+{
+  "type": "node",
+  "id": 4525112814,
+  "lat": 51.0997105,
+  "lon": 3.9939381
+},
+{
+  "type": "node",
+  "id": 4525112815,
+  "lat": 51.0996530,
+  "lon": 3.9939670
+},
+{
+  "type": "node",
+  "id": 4525112816,
+  "lat": 51.0996643,
+  "lon": 3.9940241
+},
+{
+  "type": "node",
+  "id": 4525112817,
+  "lat": 51.0996565,
+  "lon": 3.9940280
+},
+{
+  "type": "node",
+  "id": 4525112818,
+  "lat": 51.0997093,
+  "lon": 3.9942723
+},
+{
+  "type": "node",
+  "id": 2644574716,
+  "lat": 50.8386407,
+  "lon": 4.3137738
+},
+{
+  "type": "node",
+  "id": 2644574719,
+  "lat": 50.8386453,
+  "lon": 4.3138148
+},
+{
+  "type": "node",
+  "id": 2644574737,
+  "lat": 50.8387282,
+  "lon": 4.3137795
+},
+{
+  "type": "node",
+  "id": 2653483437,
+  "lat": 50.8385615,
+  "lon": 4.3133931
+},
+{
+  "type": "node",
+  "id": 2653483446,
+  "lat": 50.8385810,
+  "lon": 4.3136127
+},
+{
+  "type": "node",
+  "id": 2653483448,
+  "lat": 50.8386161,
+  "lon": 4.3135165
+},
+{
+  "type": "node",
+  "id": 2653483450,
+  "lat": 50.8386249,
+  "lon": 4.3135364
+},
+{
+  "type": "node",
+  "id": 2653483452,
+  "lat": 50.8386333,
+  "lon": 4.3135554
+},
+{
+  "type": "node",
+  "id": 2659254377,
+  "lat": 50.8386404,
+  "lon": 4.3133046
+},
+{
+  "type": "node",
+  "id": 2659254378,
+  "lat": 50.8387182,
+  "lon": 4.3135099
+},
+{
+  "type": "node",
+  "id": 2659254379,
+  "lat": 50.8387430,
+  "lon": 4.3132564
+},
+{
+  "type": "node",
+  "id": 2659254380,
+  "lat": 50.8387712,
+  "lon": 4.3134510
+},
+{
+  "type": "node",
+  "id": 2659254381,
+  "lat": 50.8388179,
+  "lon": 4.3137414
+},
+{
+  "type": "node",
+  "id": 251131782,
+  "lat": 50.8432003,
+  "lon": 4.3879979
+},
+{
+  "type": "node",
+  "id": 251131785,
+  "lat": 50.8436330,
+  "lon": 4.3876104
+},
+{
+  "type": "node",
+  "id": 251131786,
+  "lat": 50.8436634,
+  "lon": 4.3877070
+},
+{
+  "type": "node",
+  "id": 251131831,
+  "lat": 50.8435124,
+  "lon": 4.3875008
+},
+{
+  "type": "node",
+  "id": 251131832,
+  "lat": 50.8435789,
+  "lon": 4.3875371
+},
+{
+  "type": "node",
+  "id": 5599352193,
+  "lat": 50.8433148,
+  "lon": 4.3874465
+},
+{
+  "type": "node",
+  "id": 5599352194,
+  "lat": 50.8434530,
+  "lon": 4.3875073
+},
+{
+  "type": "node",
+  "id": 5599352195,
+  "lat": 50.8436696,
+  "lon": 4.3878210
+},
+{
+  "type": "node",
+  "id": 5599352196,
+  "lat": 50.8436474,
+  "lon": 4.3879247
+},
+{
+  "type": "node",
+  "id": 5599352197,
+  "lat": 50.8436001,
+  "lon": 4.3880091
+},
+{
+  "type": "node",
+  "id": 5599352198,
+  "lat": 50.8435387,
+  "lon": 4.3880587
+},
+{
+  "type": "node",
+  "id": 5599352199,
+  "lat": 50.8434804,
+  "lon": 4.3880635
+},
+{
+  "type": "node",
+  "id": 5599352200,
+  "lat": 50.8434794,
+  "lon": 4.3880728
+},
+{
+  "type": "node",
+  "id": 5599352201,
+  "lat": 50.8434697,
+  "lon": 4.3881401
+},
+{
+  "type": "node",
+  "id": 6685267823,
+  "lat": 50.8434075,
+  "lon": 4.3874921
+},
+{
+  "type": "node",
+  "id": 6685267824,
+  "lat": 50.8433977,
+  "lon": 4.3875459
+},
+{
+  "type": "node",
+  "id": 2368784149,
+  "lat": 50.8573635,
+  "lon": 4.3702989
+},
+{
+  "type": "node",
+  "id": 2368784170,
+  "lat": 50.8573926,
+  "lon": 4.3703168
+},
+{
+  "type": "node",
+  "id": 2368784182,
+  "lat": 50.8574056,
+  "lon": 4.3703248
+},
+{
+  "type": "node",
+  "id": 2368784184,
+  "lat": 50.8574139,
+  "lon": 4.3702908
+},
+{
+  "type": "node",
+  "id": 2368784191,
+  "lat": 50.8574283,
+  "lon": 4.3702367
+},
+{
+  "type": "node",
+  "id": 2368784197,
+  "lat": 50.8574430,
+  "lon": 4.3701752
+},
+{
+  "type": "node",
+  "id": 2368784201,
+  "lat": 50.8574577,
+  "lon": 4.3701140
+},
+{
+  "type": "node",
+  "id": 2368784208,
+  "lat": 50.8574749,
+  "lon": 4.3700420
+},
+{
+  "type": "node",
+  "id": 2368784212,
+  "lat": 50.8574879,
+  "lon": 4.3698048
+},
+{
+  "type": "node",
+  "id": 2368784215,
+  "lat": 50.8574951,
+  "lon": 4.3699630
+},
+{
+  "type": "node",
+  "id": 2368784219,
+  "lat": 50.8575000,
+  "lon": 4.3699420
+},
+{
+  "type": "node",
+  "id": 2368784226,
+  "lat": 50.8575270,
+  "lon": 4.3698269
+},
+{
+  "type": "node",
+  "id": 1200372989,
+  "lat": 50.8758681,
+  "lon": 4.2394749
+},
+{
+  "type": "node",
+  "id": 1200373038,
+  "lat": 50.8757842,
+  "lon": 4.2395391
+},
+{
+  "type": "node",
+  "id": 1200373079,
+  "lat": 50.8758197,
+  "lon": 4.2396554
+},
+{
+  "type": "node",
+  "id": 1200373290,
+  "lat": 50.8758947,
+  "lon": 4.2391569
+},
+{
+  "type": "node",
+  "id": 1200373341,
+  "lat": 50.8758319,
+  "lon": 4.2392049
+},
+{
+  "type": "node",
+  "id": 1200373366,
+  "lat": 50.8760036,
+  "lon": 4.2395146
+},
+{
+  "type": "node",
+  "id": 1200373377,
+  "lat": 50.8758154,
+  "lon": 4.2391506
+},
+{
+  "type": "node",
+  "id": 1200373423,
+  "lat": 50.8757780,
+  "lon": 4.2391791
+},
+{
+  "type": "node",
+  "id": 3438112149,
+  "lat": 51.0595438,
+  "lon": 4.3534656
+},
+{
+  "type": "node",
+  "id": 3438112150,
+  "lat": 51.0594712,
+  "lon": 4.3534841
+},
+{
+  "type": "node",
+  "id": 3438112151,
+  "lat": 51.0595075,
+  "lon": 4.3538453
+},
+{
+  "type": "node",
+  "id": 3438112152,
+  "lat": 51.0595800,
+  "lon": 4.3538268
+},
+{
+  "type": "node",
+  "id": 914488793,
+  "lat": 50.8931270,
+  "lon": 4.7046955
+},
+{
+  "type": "node",
+  "id": 914488795,
+  "lat": 50.8938410,
+  "lon": 4.7046868
+},
+{
+  "type": "node",
+  "id": 914488796,
+  "lat": 50.8938397,
+  "lon": 4.7044186
+},
+{
+  "type": "node",
+  "id": 914488797,
+  "lat": 50.8931257,
+  "lon": 4.7044273
+},
+{
+  "type": "node",
+  "id": 1574393688,
+  "lat": 51.1710797,
+  "lon": 4.9723388
+},
+{
+  "type": "node",
+  "id": 1574393690,
+  "lat": 51.1711281,
+  "lon": 4.9723708
+},
+{
+  "type": "node",
+  "id": 1574393693,
+  "lat": 51.1710113,
+  "lon": 4.9718942
+},
+{
+  "type": "node",
+  "id": 1574393700,
+  "lat": 51.1711961,
+  "lon": 4.9720953
+},
+{
+  "type": "node",
+  "id": 4862281189,
+  "lat": 51.1710522,
+  "lon": 4.9720395
+},
+{
+  "type": "node",
+  "id": 4862281192,
+  "lat": 51.1710811,
+  "lon": 4.9723329
+},
+{
+  "type": "node",
+  "id": 4862281193,
+  "lat": 51.1709905,
+  "lon": 4.9719713
+},
+{
+  "type": "node",
+  "id": 4862281194,
+  "lat": 51.1710246,
+  "lon": 4.9719954
+},
+{
+  "type": "node",
+  "id": 4862281195,
+  "lat": 51.1710107,
+  "lon": 4.9720591
+},
+{
+  "type": "node",
+  "id": 4862281196,
+  "lat": 51.1710427,
+  "lon": 4.9720779
+},
+{
+  "type": "node",
+  "id": 4862281197,
+  "lat": 51.1711528,
+  "lon": 4.9720692
+},
+{
+  "type": "node",
+  "id": 4862281198,
+  "lat": 51.1711705,
+  "lon": 4.9720001
+},
+{
+  "type": "node",
+  "id": 4862281199,
+  "lat": 51.1710586,
+  "lon": 4.9720135
+},
+{
+  "type": "node",
+  "id": 4862281200,
+  "lat": 51.1711465,
+  "lon": 4.9720732
+},
+{
+  "type": "node",
+  "id": 4941928369,
+  "lat": 51.2029964,
+  "lon": 4.3902094
+},
+{
+  "type": "node",
+  "id": 4941948427,
+  "lat": 51.2030213,
+  "lon": 4.3903080
+},
+{
+  "type": "node",
+  "id": 4941948434,
+  "lat": 51.2030098,
+  "lon": 4.3905143
+},
+{
+  "type": "node",
+  "id": 4941948435,
+  "lat": 51.2028993,
+  "lon": 4.3906481
+},
+{
+  "type": "node",
+  "id": 4941948436,
+  "lat": 51.2030804,
+  "lon": 4.3904288
+},
+{
+  "type": "node",
+  "id": 4941948437,
+  "lat": 51.2029912,
+  "lon": 4.3902448
+},
+{
+  "type": "node",
+  "id": 4941948438,
+  "lat": 51.2030048,
+  "lon": 4.3902256
+},
+{
+  "type": "node",
+  "id": 4941948439,
+  "lat": 51.2032847,
+  "lon": 4.3899698
+},
+{
+  "type": "node",
+  "id": 4941948440,
+  "lat": 51.2031273,
+  "lon": 4.3905272
+},
+{
+  "type": "node",
+  "id": 4941948445,
+  "lat": 51.2029467,
+  "lon": 4.3907473
+},
+{
+  "type": "node",
+  "id": 4941948446,
+  "lat": 51.2030556,
+  "lon": 4.3906151
+},
+{
+  "type": "node",
+  "id": 4941948449,
+  "lat": 51.2031544,
+  "lon": 4.3905824
+},
+{
+  "type": "node",
+  "id": 4941948450,
+  "lat": 51.2031884,
+  "lon": 4.3906534
+},
+{
+  "type": "node",
+  "id": 4941948451,
+  "lat": 51.2032476,
+  "lon": 4.3905790
+},
+{
+  "type": "node",
+  "id": 4941948520,
+  "lat": 51.2033200,
+  "lon": 4.3906043
+},
+{
+  "type": "node",
+  "id": 4941948521,
+  "lat": 51.2033345,
+  "lon": 4.3905157
+},
+{
+  "type": "node",
+  "id": 4941948535,
+  "lat": 51.2033731,
+  "lon": 4.3902731
+},
+{
+  "type": "node",
+  "id": 4941948536,
+  "lat": 51.2033990,
+  "lon": 4.3901076
+},
+{
+  "type": "node",
+  "id": 4941948538,
+  "lat": 51.2033204,
+  "lon": 4.3900746
+},
+{
+  "type": "node",
+  "id": 4965946704,
+  "lat": 51.2264293,
+  "lon": 4.4262975
+},
+{
+  "type": "node",
+  "id": 4965946705,
+  "lat": 51.2264616,
+  "lon": 4.4262836
+},
+{
+  "type": "node",
+  "id": 4965946706,
+  "lat": 51.2264623,
+  "lon": 4.4262894
+},
+{
+  "type": "node",
+  "id": 4965946707,
+  "lat": 51.2265333,
+  "lon": 4.4262606
+},
+{
+  "type": "node",
+  "id": 4965946708,
+  "lat": 51.2265480,
+  "lon": 4.4263441
+},
+{
+  "type": "node",
+  "id": 4965946709,
+  "lat": 51.2265143,
+  "lon": 4.4263570
+},
+{
+  "type": "node",
+  "id": 4965946710,
+  "lat": 51.2265246,
+  "lon": 4.4264288
+},
+{
+  "type": "node",
+  "id": 4965946711,
+  "lat": 51.2263679,
+  "lon": 4.4264919
+},
+{
+  "type": "node",
+  "id": 4965946712,
+  "lat": 51.2263674,
+  "lon": 4.4264881
+},
+{
+  "type": "node",
+  "id": 4965946713,
+  "lat": 51.2263776,
+  "lon": 4.4264838
+},
+{
+  "type": "node",
+  "id": 4965946714,
+  "lat": 51.2263741,
+  "lon": 4.4264617
+},
+{
+  "type": "node",
+  "id": 4965946715,
+  "lat": 51.2263708,
+  "lon": 4.4264617
+},
+{
+  "type": "node",
+  "id": 4965946716,
+  "lat": 51.2263682,
+  "lon": 4.4264591
+},
+{
+  "type": "node",
+  "id": 4965946717,
+  "lat": 51.2263654,
+  "lon": 4.4264540
+},
+{
+  "type": "node",
+  "id": 4965946718,
+  "lat": 51.2263628,
+  "lon": 4.4264551
+},
+{
+  "type": "node",
+  "id": 4965946719,
+  "lat": 51.2263451,
+  "lon": 4.4263536
+},
+{
+  "type": "node",
+  "id": 4965946720,
+  "lat": 51.2263482,
+  "lon": 4.4263523
+},
+{
+  "type": "node",
+  "id": 4965946921,
+  "lat": 51.2263479,
+  "lon": 4.4263490
+},
+{
+  "type": "node",
+  "id": 4965946922,
+  "lat": 51.2263490,
+  "lon": 4.4263439
+},
+{
+  "type": "node",
+  "id": 4965946923,
+  "lat": 51.2263502,
+  "lon": 4.4263407
+},
+{
+  "type": "node",
+  "id": 4965946924,
+  "lat": 51.2263524,
+  "lon": 4.4263382
+},
+{
+  "type": "node",
+  "id": 4965946925,
+  "lat": 51.2263483,
+  "lon": 4.4263174
+},
+{
+  "type": "node",
+  "id": 4965946926,
+  "lat": 51.2263386,
+  "lon": 4.4263210
+},
+{
+  "type": "node",
+  "id": 4965946930,
+  "lat": 51.2264264,
+  "lon": 4.4262809
+},
+{
+  "type": "node",
+  "id": 4965946931,
+  "lat": 51.2263381,
+  "lon": 4.4263184
+},
+{
+  "type": "node",
+  "id": 4966505069,
+  "lat": 51.2265440,
+  "lon": 4.4263456
+},
+{
+  "type": "node",
+  "id": 4966505330,
+  "lat": 51.2264893,
+  "lon": 4.4262784
+},
+{
+  "type": "node",
+  "id": 4966505347,
+  "lat": 51.2265347,
+  "lon": 4.4262683
+},
+{
+  "type": "node",
+  "id": 4975659603,
+  "lat": 51.2142006,
+  "lon": 4.4409051
+},
+{
+  "type": "node",
+  "id": 4975659606,
+  "lat": 51.2139746,
+  "lon": 4.4409708
+},
+{
+  "type": "node",
+  "id": 4975659607,
+  "lat": 51.2141738,
+  "lon": 4.4408724
+},
+{
+  "type": "node",
+  "id": 4975659608,
+  "lat": 51.2141973,
+  "lon": 4.4408916
+},
+{
+  "type": "node",
+  "id": 4975659609,
+  "lat": 51.2142077,
+  "lon": 4.4409444
+},
+{
+  "type": "node",
+  "id": 4975659610,
+  "lat": 51.2139916,
+  "lon": 4.4410381
+},
+{
+  "type": "node",
+  "id": 4975746951,
+  "lat": 51.2142572,
+  "lon": 4.4393134
+},
+{
+  "type": "node",
+  "id": 4975746952,
+  "lat": 51.2140862,
+  "lon": 4.4392407
+},
+{
+  "type": "node",
+  "id": 4975746953,
+  "lat": 51.2140951,
+  "lon": 4.4391833
+},
+{
+  "type": "node",
+  "id": 4975746954,
+  "lat": 51.2143520,
+  "lon": 4.4392920
+},
+{
+  "type": "node",
+  "id": 4975746955,
+  "lat": 51.2143504,
+  "lon": 4.4393037
+},
+{
+  "type": "node",
+  "id": 4975746956,
+  "lat": 51.2143428,
+  "lon": 4.4393022
+},
+{
+  "type": "node",
+  "id": 4975746958,
+  "lat": 51.2142526,
+  "lon": 4.4393436
+},
+{
+  "type": "node",
+  "id": 4975746959,
+  "lat": 51.2143330,
+  "lon": 4.4393722
+},
+{
+  "type": "node",
+  "id": 3893267454,
+  "lat": 51.2273681,
+  "lon": 4.4478330
+},
+{
+  "type": "node",
+  "id": 3893267559,
+  "lat": 51.2274122,
+  "lon": 4.4477480
+},
+{
+  "type": "node",
+  "id": 3893267572,
+  "lat": 51.2274841,
+  "lon": 4.4480315
+},
+{
+  "type": "node",
+  "id": 3893267576,
+  "lat": 51.2275323,
+  "lon": 4.4479596
+},
+{
+  "type": "node",
+  "id": 3895338429,
+  "lat": 51.2314050,
+  "lon": 4.4452329
+},
+{
+  "type": "node",
+  "id": 3895338437,
+  "lat": 51.2314258,
+  "lon": 4.4453463
+},
+{
+  "type": "node",
+  "id": 3895338453,
+  "lat": 51.2315687,
+  "lon": 4.4451473
+},
+{
+  "type": "node",
+  "id": 3895338462,
+  "lat": 51.2315913,
+  "lon": 4.4452551
+},
+{
+  "type": "node",
+  "id": 5431094644,
+  "lat": 51.2273297,
+  "lon": 4.4477657
+},
+{
+  "type": "node",
+  "id": 5431094645,
+  "lat": 51.2273511,
+  "lon": 4.4477339
+},
+{
+  "type": "node",
+  "id": 5431094646,
+  "lat": 51.2273445,
+  "lon": 4.4477225
+},
+{
+  "type": "node",
+  "id": 5431094647,
+  "lat": 51.2273731,
+  "lon": 4.4476802
+},
+{
+  "type": "node",
+  "id": 5431560271,
+  "lat": 51.2317160,
+  "lon": 4.4450696
+},
+{
+  "type": "node",
+  "id": 5431560276,
+  "lat": 51.2317626,
+  "lon": 4.4450473
+},
+{
+  "type": "node",
+  "id": 5435075677,
+  "lat": 51.2317004,
+  "lon": 4.4450778
+},
+{
+  "type": "node",
+  "id": 5435075679,
+  "lat": 51.2317853,
+  "lon": 4.4451560
+},
+{
+  "type": "node",
+  "id": 3771953605,
+  "lat": 51.2392398,
+  "lon": 4.4452444
+},
+{
+  "type": "node",
+  "id": 3771953606,
+  "lat": 51.2392743,
+  "lon": 4.4453573
+},
+{
+  "type": "node",
+  "id": 3771953607,
+  "lat": 51.2392670,
+  "lon": 4.4451952
+},
+{
+  "type": "node",
+  "id": 3771953608,
+  "lat": 51.2393048,
+  "lon": 4.4453375
+},
+{
+  "type": "node",
+  "id": 3772514734,
+  "lat": 51.2392108,
+  "lon": 4.4449891
+},
+{
+  "type": "node",
+  "id": 5454396053,
+  "lat": 51.2391247,
+  "lon": 4.4449440
+},
+{
+  "type": "node",
+  "id": 5454396059,
+  "lat": 51.2392338,
+  "lon": 4.4450731
+},
+{
+  "type": "node",
+  "id": 5454396060,
+  "lat": 51.2392486,
+  "lon": 4.4451273
+},
+{
+  "type": "node",
+  "id": 5454396061,
+  "lat": 51.2392294,
+  "lon": 4.4450577
+},
+{
+  "type": "node",
+  "id": 5454396074,
+  "lat": 51.2392244,
+  "lon": 4.4451936
+},
+{
+  "type": "node",
+  "id": 5454396075,
+  "lat": 51.2391966,
+  "lon": 4.4452151
+},
+{
+  "type": "node",
+  "id": 5454396076,
+  "lat": 51.2391699,
+  "lon": 4.4451231
+},
+{
+  "type": "node",
+  "id": 5454396077,
+  "lat": 51.2391204,
+  "lon": 4.4449461
+},
+{
+  "type": "node",
+  "id": 5454396078,
+  "lat": 51.2391927,
+  "lon": 4.4449245
+},
+{
+  "type": "node",
+  "id": 3885348188,
+  "lat": 51.2088070,
+  "lon": 4.4675434
+},
+{
+  "type": "node",
+  "id": 3885348195,
+  "lat": 51.2088121,
+  "lon": 4.4674547
+},
+{
+  "type": "node",
+  "id": 3885348203,
+  "lat": 51.2089626,
+  "lon": 4.4676139
+},
+{
+  "type": "node",
+  "id": 3885348204,
+  "lat": 51.2089769,
+  "lon": 4.4675295
+},
+{
+  "type": "node",
+  "id": 5380381870,
+  "lat": 51.2085663,
+  "lon": 4.4674682
+},
+{
+  "type": "node",
+  "id": 5380381871,
+  "lat": 51.2085907,
+  "lon": 4.4674786
+},
+{
+  "type": "node",
+  "id": 5380381872,
+  "lat": 51.2086004,
+  "lon": 4.4675577
+},
+{
+  "type": "node",
+  "id": 5380381873,
+  "lat": 51.2086056,
+  "lon": 4.4674845
+},
+{
+  "type": "node",
+  "id": 5380381874,
+  "lat": 51.2085599,
+  "lon": 4.4674661
+},
+{
+  "type": "node",
+  "id": 5380381875,
+  "lat": 51.2085685,
+  "lon": 4.4673455
+},
+{
+  "type": "node",
+  "id": 5380381881,
+  "lat": 51.2087914,
+  "lon": 4.4676405
+},
+{
+  "type": "node",
+  "id": 3902769747,
+  "lat": 51.2260502,
+  "lon": 4.4643376
+},
+{
+  "type": "node",
+  "id": 3902769749,
+  "lat": 51.2260530,
+  "lon": 4.4644228
+},
+{
+  "type": "node",
+  "id": 3902769880,
+  "lat": 51.2261850,
+  "lon": 4.4642922
+},
+{
+  "type": "node",
+  "id": 3902769882,
+  "lat": 51.2261973,
+  "lon": 4.4643745
+},
+{
+  "type": "node",
+  "id": 5381136378,
+  "lat": 51.2259016,
+  "lon": 4.4644753
+},
+{
+  "type": "node",
+  "id": 5381136379,
+  "lat": 51.2259305,
+  "lon": 4.4644653
+},
+{
+  "type": "node",
+  "id": 5381136392,
+  "lat": 51.2259873,
+  "lon": 4.4643593
+},
+{
+  "type": "node",
+  "id": 5381136395,
+  "lat": 51.2259655,
+  "lon": 4.4643668
+},
+{
+  "type": "node",
+  "id": 5381136396,
+  "lat": 51.2258444,
+  "lon": 4.4644952
+},
+{
+  "type": "node",
+  "id": 5381136397,
+  "lat": 51.2258337,
+  "lon": 4.4644079
+},
+{
+  "type": "node",
+  "id": 1270106724,
+  "lat": 50.0117479,
+  "lon": 5.7272798
+},
+{
+  "type": "node",
+  "id": 1270106816,
+  "lat": 50.0116786,
+  "lon": 5.7275898
+},
+{
+  "type": "node",
+  "id": 1270106825,
+  "lat": 50.0116263,
+  "lon": 5.7275276
+},
+{
+  "type": "node",
+  "id": 1270106832,
+  "lat": 50.0118002,
+  "lon": 5.7273419
+},
+{
+  "type": "node",
+  "id": 6816210116,
+  "lat": 50.5004865,
+  "lon": 5.0931908
+},
+{
+  "type": "node",
+  "id": 6816210117,
+  "lat": 50.5003419,
+  "lon": 5.0932368
+},
+{
+  "type": "node",
+  "id": 6816210118,
+  "lat": 50.5003651,
+  "lon": 5.0934006
+},
+{
+  "type": "node",
+  "id": 6816210119,
+  "lat": 50.5005095,
+  "lon": 5.0933547
+},
+{
+  "type": "node",
+  "id": 7409053243,
+  "lat": 50.6415610,
+  "lon": 5.5364435
+},
+{
+  "type": "node",
+  "id": 7409053244,
+  "lat": 50.6415999,
+  "lon": 5.5363507
+},
+{
+  "type": "node",
+  "id": 7409053245,
+  "lat": 50.6416288,
+  "lon": 5.5363782
+},
+{
+  "type": "node",
+  "id": 7409053246,
+  "lat": 50.6416268,
+  "lon": 5.5365567
+},
+{
+  "type": "node",
+  "id": 7409053247,
+  "lat": 50.6415401,
+  "lon": 5.5366911
+},
+{
+  "type": "node",
+  "id": 7409053248,
+  "lat": 50.6415810,
+  "lon": 5.5367288
+},
+{
+  "type": "node",
+  "id": 7409053249,
+  "lat": 50.6415182,
+  "lon": 5.5368199
+},
+{
+  "type": "node",
+  "id": 7409053250,
+  "lat": 50.6414942,
+  "lon": 5.5367665
+},
+{
+  "type": "node",
+  "id": 7409053251,
+  "lat": 50.6414658,
+  "lon": 5.5369787
+},
+{
+  "type": "node",
+  "id": 7409053252,
+  "lat": 50.6414967,
+  "lon": 5.5371100
+},
+{
+  "type": "node",
+  "id": 7409053253,
+  "lat": 50.6414140,
+  "lon": 5.5371610
+},
+{
+  "type": "node",
+  "id": 7409053254,
+  "lat": 50.6414115,
+  "lon": 5.5371445
+},
+{
+  "type": "node",
+  "id": 7409053255,
+  "lat": 50.6413936,
+  "lon": 5.5371469
+},
+{
+  "type": "node",
+  "id": 7409053256,
+  "lat": 50.6413911,
+  "lon": 5.5371901
+},
+{
+  "type": "node",
+  "id": 7409053257,
+  "lat": 50.6413347,
+  "lon": 5.5371917
+},
+{
+  "type": "node",
+  "id": 7409053258,
+  "lat": 50.6413342,
+  "lon": 5.5370164
+},
+{
+  "type": "node",
+  "id": 7409053259,
+  "lat": 50.6414135,
+  "lon": 5.5370141
+},
+{
+  "type": "node",
+  "id": 7409053260,
+  "lat": 50.6414135,
+  "lon": 5.5369441
+},
+{
+  "type": "node",
+  "id": 7409053261,
+  "lat": 50.6414509,
+  "lon": 5.5366628
+},
+{
+  "type": "node",
+  "id": 7409053262,
+  "lat": 50.6413342,
+  "lon": 5.5365512
+},
+{
+  "type": "node",
+  "id": 7409053263,
+  "lat": 50.6413457,
+  "lon": 5.5362336
+},
+{
+  "type": "node",
+  "id": 7409053264,
+  "lat": 50.6414010,
+  "lon": 5.5362352
+},
+{
+  "type": "node",
+  "id": 7409053265,
+  "lat": 50.6413896,
+  "lon": 5.5362753
+},
+{
+  "type": "node",
+  "id": 7409053266,
+  "lat": 50.6414554,
+  "lon": 5.5362894
+},
+{
+  "type": "node",
+  "id": 4048260609,
+  "lat": 50.6389812,
+  "lon": 5.5805680
+},
+{
+  "type": "node",
+  "id": 4048260613,
+  "lat": 50.6390374,
+  "lon": 5.5806611
+},
+{
+  "type": "node",
+  "id": 4048260614,
+  "lat": 50.6391016,
+  "lon": 5.5804044
+},
+{
+  "type": "node",
+  "id": 4048260615,
+  "lat": 50.6391549,
+  "lon": 5.5804952
+},
+{
+  "type": "node",
+  "id": 5853859677,
+  "lat": 50.6682927,
+  "lon": 5.5287718
+},
+{
+  "type": "node",
+  "id": 5853859678,
+  "lat": 50.6681654,
+  "lon": 5.5291360
+},
+{
+  "type": "node",
+  "id": 5853859679,
+  "lat": 50.6680293,
+  "lon": 5.5290473
+},
+{
+  "type": "node",
+  "id": 5853859680,
+  "lat": 50.6681684,
+  "lon": 5.5286597
+},
+{
+  "type": "node",
+  "id": 4695732135,
+  "lat": 50.5904900,
+  "lon": 5.8461962
+},
+{
+  "type": "node",
+  "id": 4695732136,
+  "lat": 50.5904518,
+  "lon": 5.8459888
+},
+{
+  "type": "node",
+  "id": 7200400345,
+  "lat": 50.5904648,
+  "lon": 5.8460594
+},
+{
+  "type": "node",
+  "id": 4695732133,
+  "lat": 50.5905659,
+  "lon": 5.8459445
+},
+{
+  "type": "node",
+  "id": 4695732134,
+  "lat": 50.5905978,
+  "lon": 5.8461545
+},
+{
+  "type": "node",
+  "id": 1706142095,
+  "lat": 50.5932402,
+  "lon": 5.8537973
+},
+{
+  "type": "node",
+  "id": 1706142153,
+  "lat": 50.5934478,
+  "lon": 5.8541160
+},
+{
+  "type": "node",
+  "id": 1706142211,
+  "lat": 50.5933645,
+  "lon": 5.8537168
+},
+{
+  "type": "node",
+  "id": 1706142287,
+  "lat": 50.5933307,
+  "lon": 5.8541853
+},
+{
+  "type": "node",
+  "id": 1709244351,
+  "lat": 50.5918735,
+  "lon": 5.8529047
+},
+{
+  "type": "node",
+  "id": 4431549826,
+  "lat": 50.5920032,
+  "lon": 5.8529229
+},
+{
+  "type": "node",
+  "id": 4431549827,
+  "lat": 50.5918813,
+  "lon": 5.8528286
+},
+{
+  "type": "node",
+  "id": 4431549828,
+  "lat": 50.5918795,
+  "lon": 5.8529917
+},
+{
+  "type": "node",
+  "id": 4431549829,
+  "lat": 50.5919623,
+  "lon": 5.8530571
+},
+{
+  "type": "node",
+  "id": 5678406367,
+  "lat": 50.5969377,
+  "lon": 5.8547163
+},
+{
+  "type": "node",
+  "id": 5678406368,
+  "lat": 50.5969244,
+  "lon": 5.8546276
+},
+{
+  "type": "node",
+  "id": 5678406369,
+  "lat": 50.5969007,
+  "lon": 5.8546392
+},
+{
+  "type": "node",
+  "id": 5678406370,
+  "lat": 50.5968873,
+  "lon": 5.8545879
+},
+{
+  "type": "node",
+  "id": 5678406371,
+  "lat": 50.5966969,
+  "lon": 5.8546862
+},
+{
+  "type": "node",
+  "id": 5678406372,
+  "lat": 50.5967536,
+  "lon": 5.8549144
+},
+{
+  "type": "node",
+  "id": 5678406373,
+  "lat": 50.5968755,
+  "lon": 5.8548704
+},
+{
+  "type": "node",
+  "id": 5678406374,
+  "lat": 50.5968992,
+  "lon": 5.8549872
+},
+{
+  "type": "node",
+  "id": 4431592359,
+  "lat": 50.5912501,
+  "lon": 5.8689786
+},
+{
+  "type": "node",
+  "id": 4431592360,
+  "lat": 50.5912409,
+  "lon": 5.8691198
+},
+{
+  "type": "node",
+  "id": 4431592361,
+  "lat": 50.5911490,
+  "lon": 5.8691050
+},
+{
+  "type": "node",
+  "id": 4431592362,
+  "lat": 50.5911582,
+  "lon": 5.8689638
+},
+{
+  "type": "node",
+  "id": 5678406366,
+  "lat": 50.5971064,
+  "lon": 5.8546669
+},
+{
+  "type": "node",
+  "id": 5678406375,
+  "lat": 50.5971363,
+  "lon": 5.8548914
+},
+{
+  "type": "node",
+  "id": 5151287375,
+  "lat": 50.6830516,
+  "lon": 5.6700572
+},
+{
+  "type": "node",
+  "id": 5151287379,
+  "lat": 50.6830221,
+  "lon": 5.6702062
+},
+{
+  "type": "node",
+  "id": 5903250388,
+  "lat": 50.6829726,
+  "lon": 5.6699176
+},
+{
+  "type": "node",
+  "id": 5905876934,
+  "lat": 50.6829827,
+  "lon": 5.6698669
+},
+{
+  "type": "node",
+  "id": 5905876935,
+  "lat": 50.6829098,
+  "lon": 5.6702347
+},
+{
+  "type": "node",
+  "id": 5905876936,
+  "lat": 50.6830069,
+  "lon": 5.6702826
+},
+{
+  "type": "node",
+  "id": 5905876937,
+  "lat": 50.6830793,
+  "lon": 5.6699175
+},
+{
+  "type": "node",
+  "id": 5905876938,
+  "lat": 50.6831015,
+  "lon": 5.6698065
+},
+{
+  "type": "node",
+  "id": 5905876939,
+  "lat": 50.6830643,
+  "lon": 5.6697862
+},
+{
+  "type": "node",
+  "id": 5905876940,
+  "lat": 50.6830430,
+  "lon": 5.6698967
+},
+{
+  "type": "node",
+  "id": 5905876947,
+  "lat": 50.6829631,
+  "lon": 5.6699658
+},
+{
+  "type": "node",
+  "id": 5907349318,
+  "lat": 50.6829919,
+  "lon": 5.6702752
+},
+{
+  "type": "node",
+  "id": 567046356,
+  "lat": 50.5997450,
+  "lon": 5.8877018
+},
+{
+  "type": "node",
+  "id": 567046357,
+  "lat": 50.5994497,
+  "lon": 5.8875579
+},
+{
+  "type": "node",
+  "id": 567046358,
+  "lat": 50.5990515,
+  "lon": 5.8874389
+},
+{
+  "type": "node",
+  "id": 567046359,
+  "lat": 50.5987954,
+  "lon": 5.8872415
+},
+{
+  "type": "node",
+  "id": 1751171790,
+  "lat": 50.5989851,
+  "lon": 5.8880884
+},
+{
+  "type": "node",
+  "id": 1751171821,
+  "lat": 50.5991325,
+  "lon": 5.8889472
+},
+{
+  "type": "node",
+  "id": 1751171834,
+  "lat": 50.5997141,
+  "lon": 5.8884841
+},
+{
+  "type": "node",
+  "id": 1751171836,
+  "lat": 50.5997758,
+  "lon": 5.8894077
+},
+{
+  "type": "node",
+  "id": 5851390174,
+  "lat": 50.5993480,
+  "lon": 5.8893776
+},
+{
+  "type": "node",
+  "id": 5851390175,
+  "lat": 50.5992807,
+  "lon": 5.8893511
+},
+{
+  "type": "node",
+  "id": 5851390176,
+  "lat": 50.5992414,
+  "lon": 5.8892716
+},
+{
+  "type": "node",
+  "id": 5851390177,
+  "lat": 50.5991685,
+  "lon": 5.8890949
+},
+{
+  "type": "node",
+  "id": 5851390178,
+  "lat": 50.5996901,
+  "lon": 5.8881406
+},
+{
+  "type": "node",
+  "id": 5851390179,
+  "lat": 50.5997415,
+  "lon": 5.8888948
+},
+{
+  "type": "node",
+  "id": 3195272787,
+  "lat": 51.0754329,
+  "lon": 5.2222627
+},
+{
+  "type": "node",
+  "id": 3195272790,
+  "lat": 51.0754627,
+  "lon": 5.2225940
+},
+{
+  "type": "node",
+  "id": 6207358253,
+  "lat": 51.0754406,
+  "lon": 5.2223513
+},
+{
+  "type": "node",
+  "id": 6207358254,
+  "lat": 51.0754386,
+  "lon": 5.2223265
+},
+{
+  "type": "node",
+  "id": 6207358255,
+  "lat": 51.0754317,
+  "lon": 5.2223397
+},
+{
+  "type": "node",
+  "id": 3210358304,
+  "lat": 51.0733347,
+  "lon": 5.2242932
+},
+{
+  "type": "node",
+  "id": 3210358313,
+  "lat": 51.0734651,
+  "lon": 5.2244623
+},
+{
+  "type": "node",
+  "id": 3210358314,
+  "lat": 51.0735007,
+  "lon": 5.2240201
+},
+{
+  "type": "node",
+  "id": 3210358329,
+  "lat": 51.0736093,
+  "lon": 5.2241848
+},
+{
+  "type": "node",
+  "id": 4347737867,
+  "lat": 51.0733901,
+  "lon": 5.2243776
+},
+{
+  "type": "node",
+  "id": 4347737868,
+  "lat": 51.0733904,
+  "lon": 5.2243735
+},
+{
+  "type": "node",
+  "id": 4347737869,
+  "lat": 51.0733909,
+  "lon": 5.2243829
+},
+{
+  "type": "node",
+  "id": 4347737870,
+  "lat": 51.0733910,
+  "lon": 5.2243704
+},
+{
+  "type": "node",
+  "id": 4347737871,
+  "lat": 51.0733920,
+  "lon": 5.2243676
+},
+{
+  "type": "node",
+  "id": 4347737872,
+  "lat": 51.0733937,
+  "lon": 5.2243901
+},
+{
+  "type": "node",
+  "id": 4347737873,
+  "lat": 51.0733968,
+  "lon": 5.2243928
+},
+{
+  "type": "node",
+  "id": 4347737874,
+  "lat": 51.0733993,
+  "lon": 5.2243937
+},
+{
+  "type": "node",
+  "id": 4347737875,
+  "lat": 51.0734013,
+  "lon": 5.2243937
+},
+{
+  "type": "node",
+  "id": 4347737876,
+  "lat": 51.0734042,
+  "lon": 5.2243924
+},
+{
+  "type": "node",
+  "id": 4347737877,
+  "lat": 51.0734082,
+  "lon": 5.2243885
+},
+{
+  "type": "node",
+  "id": 4347737878,
+  "lat": 51.0734773,
+  "lon": 5.2240170
+},
+{
+  "type": "node",
+  "id": 4347737879,
+  "lat": 51.0734927,
+  "lon": 5.2240351
+},
+{
+  "type": "node",
+  "id": 4347737880,
+  "lat": 51.0735930,
+  "lon": 5.2241647
+},
+{
+  "type": "node",
+  "id": 4347737881,
+  "lat": 51.0736018,
+  "lon": 5.2241484
+},
+{
+  "type": "node",
+  "id": 3195272794,
+  "lat": 51.0755238,
+  "lon": 5.2222435
+},
+{
+  "type": "node",
+  "id": 3195272798,
+  "lat": 51.0755367,
+  "lon": 5.2223837
+},
+{
+  "type": "node",
+  "id": 3195272832,
+  "lat": 51.0757900,
+  "lon": 5.2223191
+},
+{
+  "type": "node",
+  "id": 3195272833,
+  "lat": 51.0757888,
+  "lon": 5.2223431
+},
+{
+  "type": "node",
+  "id": 3195272836,
+  "lat": 51.0758061,
+  "lon": 5.2225366
+},
+{
+  "type": "node",
+  "id": 3195272837,
+  "lat": 51.0758067,
+  "lon": 5.2225453
+},
+{
+  "type": "node",
+  "id": 3195272839,
+  "lat": 51.0758294,
+  "lon": 5.2225734
+},
+{
+  "type": "node",
+  "id": 3195272840,
+  "lat": 51.0758030,
+  "lon": 5.2222899
+},
+{
+  "type": "node",
+  "id": 3195272842,
+  "lat": 51.0758186,
+  "lon": 5.2222768
+},
+{
+  "type": "node",
+  "id": 3195272865,
+  "lat": 51.0758588,
+  "lon": 5.2225673
+},
+{
+  "type": "node",
+  "id": 3195272868,
+  "lat": 51.0758782,
+  "lon": 5.2225333
+},
+{
+  "type": "node",
+  "id": 3213742551,
+  "lat": 51.0758674,
+  "lon": 5.2222405
+},
+{
+  "type": "node",
+  "id": 3213744962,
+  "lat": 51.0759139,
+  "lon": 5.2221713
+},
+{
+  "type": "node",
+  "id": 4128970102,
+  "lat": 51.0757000,
+  "lon": 5.2225554
+},
+{
+  "type": "node",
+  "id": 4128970103,
+  "lat": 51.0757114,
+  "lon": 5.2227351
+},
+{
+  "type": "node",
+  "id": 4128970104,
+  "lat": 51.0757661,
+  "lon": 5.2227263
+},
+{
+  "type": "node",
+  "id": 4128970107,
+  "lat": 51.0759471,
+  "lon": 5.2222203
+},
+{
+  "type": "node",
+  "id": 4128970108,
+  "lat": 51.0759346,
+  "lon": 5.2223646
+},
+{
+  "type": "node",
+  "id": 4128970110,
+  "lat": 51.0759688,
+  "lon": 5.2222622
+},
+{
+  "type": "node",
+  "id": 4128970193,
+  "lat": 51.0758452,
+  "lon": 5.2222747
+},
+{
+  "type": "node",
+  "id": 4128970194,
+  "lat": 51.0759069,
+  "lon": 5.2224732
+},
+{
+  "type": "node",
+  "id": 4129053093,
+  "lat": 51.0757545,
+  "lon": 5.2225444
+},
+{
+  "type": "node",
+  "id": 4129053389,
+  "lat": 51.0758746,
+  "lon": 5.2224764
+},
+{
+  "type": "node",
+  "id": 2293459669,
+  "lat": 51.0796304,
+  "lon": 5.2284964
+},
+{
+  "type": "node",
+  "id": 2293459679,
+  "lat": 51.0796713,
+  "lon": 5.2286959
+},
+{
+  "type": "node",
+  "id": 2293459693,
+  "lat": 51.0797900,
+  "lon": 5.2284135
+},
+{
+  "type": "node",
+  "id": 2293459696,
+  "lat": 51.0798309,
+  "lon": 5.2286129
+},
+{
+  "type": "node",
+  "id": 2031193330,
+  "lat": 51.0532506,
+  "lon": 5.3279711
+},
+{
+  "type": "node",
+  "id": 2031193336,
+  "lat": 51.0533565,
+  "lon": 5.3278075
+},
+{
+  "type": "node",
+  "id": 2031193337,
+  "lat": 51.0533798,
+  "lon": 5.3278455
+},
+{
+  "type": "node",
+  "id": 2031193341,
+  "lat": 51.0534163,
+  "lon": 5.3277891
+},
+{
+  "type": "node",
+  "id": 2031193345,
+  "lat": 51.0535548,
+  "lon": 5.3280160
+},
+{
+  "type": "node",
+  "id": 2031193338,
+  "lat": 51.0534124,
+  "lon": 5.3282360
+},
+{
+  "type": "node",
+  "id": 2662931091,
+  "lat": 51.1229920,
+  "lon": 5.3683737
+},
+{
+  "type": "node",
+  "id": 2662931093,
+  "lat": 51.1230059,
+  "lon": 5.3685132
+},
+{
+  "type": "node",
+  "id": 2662931100,
+  "lat": 51.1231253,
+  "lon": 5.3686450
+},
+{
+  "type": "node",
+  "id": 2662931101,
+  "lat": 51.1231253,
+  "lon": 5.3686452
+},
+{
+  "type": "node",
+  "id": 2662931102,
+  "lat": 51.1231354,
+  "lon": 5.3683376
+},
+{
+  "type": "node",
+  "id": 2662931103,
+  "lat": 51.1231594,
+  "lon": 5.3685793
+},
+{
+  "type": "node",
+  "id": 2662931104,
+  "lat": 51.1231649,
+  "lon": 5.3686352
+},
+{
+  "type": "node",
+  "id": 6931785654,
+  "lat": 51.1230802,
+  "lon": 5.3686564
+},
+{
+  "type": "node",
+  "id": 6931785655,
+  "lat": 51.1230700,
+  "lon": 5.3685536
+},
+{
+  "type": "node",
+  "id": 6931785656,
+  "lat": 51.1230251,
+  "lon": 5.3685649
+},
+{
+  "type": "node",
+  "id": 6931785657,
+  "lat": 51.1230197,
+  "lon": 5.3685097
+},
+{
+  "type": "node",
+  "id": 4258876411,
+  "lat": 50.9733865,
+  "lon": 5.4630757
+},
+{
+  "type": "node",
+  "id": 4258876413,
+  "lat": 50.9732290,
+  "lon": 5.4634085
+},
+{
+  "type": "node",
+  "id": 4258876414,
+  "lat": 50.9732629,
+  "lon": 5.4630503
+},
+{
+  "type": "node",
+  "id": 5270572929,
+  "lat": 50.9732701,
+  "lon": 5.4629987
+},
+{
+  "type": "node",
+  "id": 5270572930,
+  "lat": 50.9732897,
+  "lon": 5.4629608
+},
+{
+  "type": "node",
+  "id": 5270572931,
+  "lat": 50.9733495,
+  "lon": 5.4629757
+},
+{
+  "type": "node",
+  "id": 5270572932,
+  "lat": 50.9733509,
+  "lon": 5.4629480
+},
+{
+  "type": "node",
+  "id": 5270572933,
+  "lat": 50.9733575,
+  "lon": 5.4629481
+},
+{
+  "type": "node",
+  "id": 5270572934,
+  "lat": 50.9732876,
+  "lon": 5.4630001
+},
+{
+  "type": "node",
+  "id": 5270572935,
+  "lat": 50.9733453,
+  "lon": 5.4630672
+},
+{
+  "type": "node",
+  "id": 5270572936,
+  "lat": 50.9733940,
+  "lon": 5.4631466
+},
+{
+  "type": "node",
+  "id": 5270572937,
+  "lat": 50.9733939,
+  "lon": 5.4631387
+},
+{
+  "type": "node",
+  "id": 5270572938,
+  "lat": 50.9733909,
+  "lon": 5.4632282
+},
+{
+  "type": "node",
+  "id": 5270572939,
+  "lat": 50.9733919,
+  "lon": 5.4632403
+},
+{
+  "type": "node",
+  "id": 5270572940,
+  "lat": 50.9733968,
+  "lon": 5.4632406
+},
+{
+  "type": "node",
+  "id": 5270572941,
+  "lat": 50.9733741,
+  "lon": 5.4632286
+},
+{
+  "type": "node",
+  "id": 5270572942,
+  "lat": 50.9733536,
+  "lon": 5.4634396
+},
+{
+  "type": "node",
+  "id": 5270572943,
+  "lat": 50.9733978,
+  "lon": 5.4631382
+},
+{
+  "type": "node",
+  "id": 5270572944,
+  "lat": 50.9733812,
+  "lon": 5.4631445
+},
+{
+  "type": "node",
+  "id": 5270572945,
+  "lat": 50.9732723,
+  "lon": 5.4634273
+},
+{
+  "type": "node",
+  "id": 5270572946,
+  "lat": 50.9732731,
+  "lon": 5.4634347
+},
+{
+  "type": "node",
+  "id": 5270572947,
+  "lat": 50.9732774,
+  "lon": 5.4634439
+},
+{
+  "type": "node",
+  "id": 5270572948,
+  "lat": 50.9732814,
+  "lon": 5.4634497
+},
+{
+  "type": "node",
+  "id": 5270572949,
+  "lat": 50.9732873,
+  "lon": 5.4634523
+},
+{
+  "type": "node",
+  "id": 5270572950,
+  "lat": 50.9732926,
+  "lon": 5.4634526
+},
+{
+  "type": "node",
+  "id": 5270572951,
+  "lat": 50.9732986,
+  "lon": 5.4634497
+},
+{
+  "type": "node",
+  "id": 5270572952,
+  "lat": 50.9733042,
+  "lon": 5.4634455
+},
+{
+  "type": "node",
+  "id": 5270572953,
+  "lat": 50.9733086,
+  "lon": 5.4634365
+},
+{
+  "type": "node",
+  "id": 5270572954,
+  "lat": 50.9733107,
+  "lon": 5.4634297
+},
+{
+  "type": "node",
+  "id": 5270572955,
+  "lat": 50.9732708,
+  "lon": 5.4634205
+},
+{
+  "type": "node",
+  "id": 5270572956,
+  "lat": 50.9732271,
+  "lon": 5.4631084
+},
+{
+  "type": "node",
+  "id": 5270572957,
+  "lat": 50.9732162,
+  "lon": 5.4632725
+},
+{
+  "type": "node",
+  "id": 5270572958,
+  "lat": 50.9732397,
+  "lon": 5.4632810
+},
+{
+  "type": "node",
+  "id": 5270572959,
+  "lat": 50.9732587,
+  "lon": 5.4631137
+},
+{
+  "type": "node",
+  "id": 6051861042,
+  "lat": 50.9771373,
+  "lon": 5.4848782
+},
+{
+  "type": "node",
+  "id": 6051861043,
+  "lat": 50.9771402,
+  "lon": 5.4847802
+},
+{
+  "type": "node",
+  "id": 6051861044,
+  "lat": 50.9771486,
+  "lon": 5.4847034
+},
+{
+  "type": "node",
+  "id": 6051861045,
+  "lat": 50.9771412,
+  "lon": 5.4849542
+},
+{
+  "type": "node",
+  "id": 6051861048,
+  "lat": 50.9771143,
+  "lon": 5.4847782
+},
+{
+  "type": "node",
+  "id": 6051861049,
+  "lat": 50.9771113,
+  "lon": 5.4848762
+},
+{
+  "type": "node",
+  "id": 6051861050,
+  "lat": 50.9771426,
+  "lon": 5.4847029
+},
+{
+  "type": "node",
+  "id": 6051861051,
+  "lat": 50.9771350,
+  "lon": 5.4849537
+},
+{
+  "type": "node",
+  "id": 6051861054,
+  "lat": 50.9771536,
+  "lon": 5.4845417
+},
+{
+  "type": "node",
+  "id": 6051861055,
+  "lat": 50.9771383,
+  "lon": 5.4850500
+},
+{
+  "type": "node",
+  "id": 616896215,
+  "lat": 50.9328378,
+  "lon": 5.5276791
+},
+{
+  "type": "node",
+  "id": 616896216,
+  "lat": 50.9327587,
+  "lon": 5.5281495
+},
+{
+  "type": "node",
+  "id": 616896217,
+  "lat": 50.9327760,
+  "lon": 5.5281458
+},
+{
+  "type": "node",
+  "id": 616896218,
+  "lat": 50.9327935,
+  "lon": 5.5281469
+},
+{
+  "type": "node",
+  "id": 616896219,
+  "lat": 50.9328118,
+  "lon": 5.5280373
+},
+{
+  "type": "node",
+  "id": 616896220,
+  "lat": 50.9327901,
+  "lon": 5.5280546
+},
+{
+  "type": "node",
+  "id": 616896221,
+  "lat": 50.9327691,
+  "lon": 5.5280653
+},
+{
+  "type": "node",
+  "id": 616896222,
+  "lat": 50.9327477,
+  "lon": 5.5280678
+},
+{
+  "type": "node",
+  "id": 616896223,
+  "lat": 50.9327311,
+  "lon": 5.5280649
+},
+{
+  "type": "node",
+  "id": 616896224,
+  "lat": 50.9327165,
+  "lon": 5.5280602
+},
+{
+  "type": "node",
+  "id": 616896225,
+  "lat": 50.9327103,
+  "lon": 5.5280805
+},
+{
+  "type": "node",
+  "id": 616896226,
+  "lat": 50.9327066,
+  "lon": 5.5281102
+},
+{
+  "type": "node",
+  "id": 616896227,
+  "lat": 50.9327076,
+  "lon": 5.5281312
+},
+{
+  "type": "node",
+  "id": 616896228,
+  "lat": 50.9327099,
+  "lon": 5.5281570
+},
+{
+  "type": "node",
+  "id": 616896229,
+  "lat": 50.9329871,
+  "lon": 5.5281236
+},
+{
+  "type": "node",
+  "id": 616896230,
+  "lat": 50.9328558,
+  "lon": 5.5278520
+},
+{
+  "type": "node",
+  "id": 616896231,
+  "lat": 50.9328590,
+  "lon": 5.5278885
+},
+{
+  "type": "node",
+  "id": 616896232,
+  "lat": 50.9328582,
+  "lon": 5.5279146
+},
+{
+  "type": "node",
+  "id": 616896233,
+  "lat": 50.9328566,
+  "lon": 5.5279441
+},
+{
+  "type": "node",
+  "id": 616896234,
+  "lat": 50.9328499,
+  "lon": 5.5279758
+},
+{
+  "type": "node",
+  "id": 616896235,
+  "lat": 50.9328406,
+  "lon": 5.5279964
+},
+{
+  "type": "node",
+  "id": 616896236,
+  "lat": 50.9328262,
+  "lon": 5.5280177
+},
+{
+  "type": "node",
+  "id": 616896237,
+  "lat": 50.9331324,
+  "lon": 5.5280745
+},
+{
+  "type": "node",
+  "id": 616896238,
+  "lat": 50.9330658,
+  "lon": 5.5276158
+},
+{
+  "type": "node",
+  "id": 616896239,
+  "lat": 50.9327203,
+  "lon": 5.5281817
+},
+{
+  "type": "node",
+  "id": 616896240,
+  "lat": 50.9327418,
+  "lon": 5.5281596
+},
+{
+  "type": "node",
+  "id": 616896241,
+  "lat": 50.9328121,
+  "lon": 5.5281512
+},
+{
+  "type": "node",
+  "id": 616896242,
+  "lat": 50.9328638,
+  "lon": 5.5282246
+},
+{
+  "type": "node",
+  "id": 616896243,
+  "lat": 50.9328694,
+  "lon": 5.5282549
+},
+{
+  "type": "node",
+  "id": 616896244,
+  "lat": 50.9328717,
+  "lon": 5.5282822
+},
+{
+  "type": "node",
+  "id": 616896245,
+  "lat": 50.9328617,
+  "lon": 5.5282114
+},
+{
+  "type": "node",
+  "id": 616896246,
+  "lat": 50.9328239,
+  "lon": 5.5281579
+},
+{
+  "type": "node",
+  "id": 616896247,
+  "lat": 50.9328322,
+  "lon": 5.5282093
+},
+{
+  "type": "node",
+  "id": 616896248,
+  "lat": 50.9328228,
+  "lon": 5.5281836
+},
+{
+  "type": "node",
+  "id": 616896249,
+  "lat": 50.9328496,
+  "lon": 5.5282177
+},
+{
+  "type": "node",
+  "id": 616896250,
+  "lat": 50.9329201,
+  "lon": 5.5282862
+},
+{
+  "type": "node",
+  "id": 616896251,
+  "lat": 50.9329208,
+  "lon": 5.5282584
+},
+{
+  "type": "node",
+  "id": 616896252,
+  "lat": 50.9329234,
+  "lon": 5.5282272
+},
+{
+  "type": "node",
+  "id": 616896253,
+  "lat": 50.9329284,
+  "lon": 5.5282022
+},
+{
+  "type": "node",
+  "id": 616896254,
+  "lat": 50.9329387,
+  "lon": 5.5281815
+},
+{
+  "type": "node",
+  "id": 616896255,
+  "lat": 50.9329540,
+  "lon": 5.5281585
+},
+{
+  "type": "node",
+  "id": 616896256,
+  "lat": 50.9329683,
+  "lon": 5.5281372
+},
+{
+  "type": "node",
+  "id": 616896257,
+  "lat": 50.9328738,
+  "lon": 5.5283259
+},
+{
+  "type": "node",
+  "id": 616896258,
+  "lat": 50.9328720,
+  "lon": 5.5283522
+},
+{
+  "type": "node",
+  "id": 616896259,
+  "lat": 50.9328908,
+  "lon": 5.5283597
+},
+{
+  "type": "node",
+  "id": 616896260,
+  "lat": 50.9329123,
+  "lon": 5.5283587
+},
+{
+  "type": "node",
+  "id": 616896261,
+  "lat": 50.9329295,
+  "lon": 5.5283550
+},
+{
+  "type": "node",
+  "id": 616896262,
+  "lat": 50.9329265,
+  "lon": 5.5283342
+},
+{
+  "type": "node",
+  "id": 616896263,
+  "lat": 50.9329213,
+  "lon": 5.5283121
+},
+{
+  "type": "node",
+  "id": 2522686296,
+  "lat": 50.9530860,
+  "lon": 5.5059803
+},
+{
+  "type": "node",
+  "id": 2522686297,
+  "lat": 50.9531561,
+  "lon": 5.5060952
+},
+{
+  "type": "node",
+  "id": 2522686298,
+  "lat": 50.9531759,
+  "lon": 5.5058423
+},
+{
+  "type": "node",
+  "id": 2522686299,
+  "lat": 50.9531925,
+  "lon": 5.5058695
+},
+{
+  "type": "node",
+  "id": 2522686300,
+  "lat": 50.9532121,
+  "lon": 5.5058397
+},
+{
+  "type": "node",
+  "id": 2522686301,
+  "lat": 50.9532194,
+  "lon": 5.5059138
+},
+{
+  "type": "node",
+  "id": 2522686302,
+  "lat": 50.9532389,
+  "lon": 5.5058841
+},
+{
+  "type": "node",
+  "id": 2522686303,
+  "lat": 50.9532459,
+  "lon": 5.5059573
+},
+{
+  "type": "node",
+  "id": 2120218261,
+  "lat": 50.9806600,
+  "lon": 5.4679888
+},
+{
+  "type": "node",
+  "id": 2120218266,
+  "lat": 50.9807576,
+  "lon": 5.4685000
+},
+{
+  "type": "node",
+  "id": 2120218267,
+  "lat": 50.9807828,
+  "lon": 5.4679296
+},
+{
+  "type": "node",
+  "id": 2120218275,
+  "lat": 50.9808804,
+  "lon": 5.4684409
+},
+{
+  "type": "node",
+  "id": 6051861046,
+  "lat": 50.9772768,
+  "lon": 5.4847132
+},
+{
+  "type": "node",
+  "id": 6051861047,
+  "lat": 50.9772694,
+  "lon": 5.4849640
+},
+{
+  "type": "node",
+  "id": 6051861052,
+  "lat": 50.9772766,
+  "lon": 5.4849645
+},
+{
+  "type": "node",
+  "id": 6051861053,
+  "lat": 50.9772843,
+  "lon": 5.4847138
+},
+{
+  "type": "node",
+  "id": 6051861056,
+  "lat": 50.9772665,
+  "lon": 5.4850599
+},
+{
+  "type": "node",
+  "id": 6051861057,
+  "lat": 50.9772818,
+  "lon": 5.4845516
+},
+{
+  "type": "node",
+  "id": 2599056217,
+  "lat": 51.0050598,
+  "lon": 5.5151924
+},
+{
+  "type": "node",
+  "id": 2599056227,
+  "lat": 51.0051152,
+  "lon": 5.5148752
+},
+{
+  "type": "node",
+  "id": 2599056234,
+  "lat": 51.0051495,
+  "lon": 5.5152320
+},
+{
+  "type": "node",
+  "id": 2599056247,
+  "lat": 51.0052032,
+  "lon": 5.5150616
+},
+{
+  "type": "node",
+  "id": 2599056248,
+  "lat": 51.0052050,
+  "lon": 5.5149148
+},
+{
+  "type": "node",
+  "id": 2599056251,
+  "lat": 51.0052156,
+  "lon": 5.5151015
+},
+{
+  "type": "node",
+  "id": 2599056256,
+  "lat": 51.0052643,
+  "lon": 5.5152587
+},
+{
+  "type": "node",
+  "id": 2599056257,
+  "lat": 51.0052840,
+  "lon": 5.5153224
+},
+{
+  "type": "node",
+  "id": 2599056264,
+  "lat": 51.0053738,
+  "lon": 5.5149281
+},
+{
+  "type": "node",
+  "id": 2599056269,
+  "lat": 51.0054546,
+  "lon": 5.5151888
+},
+{
+  "type": "node",
+  "id": 2599625597,
+  "lat": 51.0051535,
+  "lon": 5.5152093
+},
+{
+  "type": "node",
+  "id": 2599625598,
+  "lat": 51.0051755,
+  "lon": 5.5150836
+},
+{
+  "type": "node",
+  "id": 6017699524,
+  "lat": 51.0116178,
+  "lon": 5.5091279
+},
+{
+  "type": "node",
+  "id": 6017699525,
+  "lat": 51.0113984,
+  "lon": 5.5089080
+},
+{
+  "type": "node",
+  "id": 6017699526,
+  "lat": 51.0114546,
+  "lon": 5.5087665
+},
+{
+  "type": "node",
+  "id": 6017699527,
+  "lat": 51.0116740,
+  "lon": 5.5089864
+},
+{
+  "type": "node",
+  "id": 5878311525,
+  "lat": 50.9830119,
+  "lon": 5.6872826
+},
+{
+  "type": "node",
+  "id": 5878311526,
+  "lat": 50.9831704,
+  "lon": 5.6873830
+},
+{
+  "type": "node",
+  "id": 5878311527,
+  "lat": 50.9832048,
+  "lon": 5.6872460
+},
+{
+  "type": "node",
+  "id": 5878311528,
+  "lat": 50.9829374,
+  "lon": 5.6875739
+},
+{
+  "type": "node",
+  "id": 5878311529,
+  "lat": 50.9828094,
+  "lon": 5.6874913
+},
+{
+  "type": "node",
+  "id": 5878311530,
+  "lat": 50.9829194,
+  "lon": 5.6870609
+},
+{
+  "type": "node",
+  "id": 5878310954,
+  "lat": 50.9976898,
+  "lon": 5.6877644
+},
+{
+  "type": "node",
+  "id": 5878310955,
+  "lat": 50.9977458,
+  "lon": 5.6880430
+},
+{
+  "type": "node",
+  "id": 5878310956,
+  "lat": 50.9977677,
+  "lon": 5.6881079
+},
+{
+  "type": "node",
+  "id": 5878310957,
+  "lat": 50.9977116,
+  "lon": 5.6879427
+},
+{
+  "type": "node",
+  "id": 5878310958,
+  "lat": 50.9977254,
+  "lon": 5.6881444
+},
+{
+  "type": "node",
+  "id": 5878310959,
+  "lat": 50.9977033,
+  "lon": 5.6880797
+},
+{
+  "type": "node",
+  "id": 5878310960,
+  "lat": 50.9977945,
+  "lon": 5.6881864
+},
+{
+  "type": "node",
+  "id": 5878310961,
+  "lat": 50.9977001,
+  "lon": 5.6879526
+},
+{
+  "type": "node",
+  "id": 5878310962,
+  "lat": 50.9976482,
+  "lon": 5.6878003
+},
+{
+  "type": "node",
+  "id": 5878310963,
+  "lat": 50.9978248,
+  "lon": 5.6881603
+},
+{
+  "type": "node",
+  "id": 5878310964,
+  "lat": 50.9976780,
+  "lon": 5.6877299
+},
+{
+  "type": "node",
+  "id": 5878310965,
+  "lat": 50.9977868,
+  "lon": 5.6876363
+},
+{
+  "type": "node",
+  "id": 5878310966,
+  "lat": 50.9979336,
+  "lon": 5.6880666
+},
+{
+  "type": "node",
+  "id": 5878311531,
+  "lat": 50.9826313,
+  "lon": 5.6906602
+},
+{
+  "type": "node",
+  "id": 5878311532,
+  "lat": 50.9826211,
+  "lon": 5.6909045
+},
+{
+  "type": "node",
+  "id": 5878311533,
+  "lat": 50.9825262,
+  "lon": 5.6908955
+},
+{
+  "type": "node",
+  "id": 5878311534,
+  "lat": 50.9825336,
+  "lon": 5.6906578
+},
+{
+  "type": "node",
+  "id": 7038961033,
+  "lat": 50.9826349,
+  "lon": 5.6906300
+},
+{
+  "type": "node",
+  "id": 7038961034,
+  "lat": 50.9826351,
+  "lon": 5.6906585
+},
+{
+  "type": "node",
+  "id": 7038961035,
+  "lat": 50.9825372,
+  "lon": 5.6906229
+},
+{
+  "type": "node",
+  "id": 7038961036,
+  "lat": 50.9825370,
+  "lon": 5.6906571
+},
+{
+  "type": "node",
+  "id": 7038961037,
+  "lat": 50.9826267,
+  "lon": 5.6908472
+},
+{
+  "type": "node",
+  "id": 1463867147,
+  "lat": 51.1051704,
+  "lon": 5.7922321
+},
+{
+  "type": "node",
+  "id": 1463867148,
+  "lat": 51.1053756,
+  "lon": 5.7922109
+},
+{
+  "type": "node",
+  "id": 1463867156,
+  "lat": 51.1050194,
+  "lon": 5.7922961
+},
+{
+  "type": "node",
+  "id": 1463867157,
+  "lat": 51.1051146,
+  "lon": 5.7921442
+},
+{
+  "type": "node",
+  "id": 1463867163,
+  "lat": 51.1052652,
+  "lon": 5.7923764
+},
+{
+  "type": "node",
+  "id": 1463867165,
+  "lat": 51.1052247,
+  "lon": 5.7926198
+},
+{
+  "type": "node",
+  "id": 1463867168,
+  "lat": 51.1052772,
+  "lon": 5.7920575
+},
+{
+  "type": "node",
+  "id": 1463867172,
+  "lat": 51.1053212,
+  "lon": 5.7924648
+},
+{
+  "type": "node",
+  "id": 4964371396,
+  "lat": 51.1051159,
+  "lon": 5.7924482
+},
+{
+  "type": "node",
+  "id": 4964371397,
+  "lat": 51.1051217,
+  "lon": 5.7924390
+},
+{
+  "type": "node",
+  "id": 4964371398,
+  "lat": 51.1051274,
+  "lon": 5.7924663
+},
+{
+  "type": "node",
+  "id": 4964371399,
+  "lat": 51.1051332,
+  "lon": 5.7924566
+},
+{
+  "type": "node",
+  "id": 4964371400,
+  "lat": 51.1051504,
+  "lon": 5.7925377
+},
+{
+  "type": "node",
+  "id": 4964371401,
+  "lat": 51.1051615,
+  "lon": 5.7925203
+},
+{
+  "type": "node",
+  "id": 4964371402,
+  "lat": 51.1051813,
+  "lon": 5.7925869
+},
+{
+  "type": "node",
+  "id": 4964371403,
+  "lat": 51.1051817,
+  "lon": 5.7922098
+},
+{
+  "type": "node",
+  "id": 4964371404,
+  "lat": 51.1051831,
+  "lon": 5.7922121
+},
+{
+  "type": "node",
+  "id": 4964371549,
+  "lat": 51.1051924,
+  "lon": 5.7925692
+},
+{
+  "type": "node",
+  "id": 4964371550,
+  "lat": 51.1052765,
+  "lon": 5.7923581
+},
+{
+  "type": "node",
+  "id": 4964371551,
+  "lat": 51.1052794,
+  "lon": 5.7923624
+}
+
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <link href="./vendor/leaflet.css" rel="stylesheet"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <!-- THEME-SPECIFIC -->
+    <!-- Every theme gets their own html page, this is created by a script; this part will be removed except for the index -->
+    <title>MapComplete</title>
+    <link href="./index.webmanifest" rel="manifest">
+    
+    <!-- Mastodon link verification: https://docs.joinmastodon.org/user/profile/#Link%20verification -->
+    <a rel="me" href="https://en.osm.town/@MapComplete" style="display: none">Mastodon</a>
+    <link href="/mc/legacy/0.27.4/assets/add-aa4bd0ba.svg" rel="icon" sizes="any" type="image/svg+xml">
+    <meta content="./assets/SocialImage.png" property="og:image">
+    <meta content="MapComplete - editable, thematic maps with OpenStreetMap" property="og:title">
+    <meta content="MapComplete is a platform to visualize OpenStreetMap on a specific topic and to easily contribute data back to it."
+          property="og:description">
+
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo512.png" rel="apple-touch-icon" sizes="512x512">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo384.png" rel="apple-touch-icon" sizes="384x384">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo192.png" rel="apple-touch-icon" sizes="192x192">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo180.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo152.png" rel="apple-touch-icon" sizes="152x152">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo144.png" rel="apple-touch-icon" sizes="144x144">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo128.png" rel="apple-touch-icon" sizes="128x128">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo120.png" rel="apple-touch-icon" sizes="120x120">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo96.png" rel="apple-touch-icon" sizes="96x96">
+    <link href="./assets/generated/images/assets_svg_mapcomplete_logo72.png" rel="apple-touch-icon" sizes="72x72">
+
+
+    <!-- THEME-SPECIFIC-END-->
+
+    <style>
+        #decoration-desktop img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+  <script type="module" crossorigin src="/mc/legacy/0.27.4/assets/index-7ead2264.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/SvelteUIElement-65e2316e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ToSvelte-f31dc93e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/SubtleButton-eb81d210.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/List-1747898b.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/_commonjsHelpers-edff4021.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/BBox-aa5284c9.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/defineProperty-bf1f4e26.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ChartJs-49671581.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/language_translations-d2c4c2fc.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/theme_overview-565fd281.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/MoreScreen-67292bb5.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/language_native-373a312a.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/LanguagePicker-6f35b94e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/UserInformation-6fea1f2a.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/AllThemesGui-90c5364f.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/mapcomplete-changes-af0c9e94.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/FlowStep-bf3619c0.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/AllKnownLayouts-8b6d720e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/BackToIndex-6df98ec5.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/LeftIndex-7e97769c.js">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/SvelteUIElement-dd8cb05b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/ToSvelte-c55834a1.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/theme_overview-bd547c90.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/SubtleButton-1a3bbdfd.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/MoreScreen-2dd360f1.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tabbedComponent-82c5367b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <!-- DECORATION 0 START -->
+    <img src="/mc/legacy/0.27.4/assets/add-aa4bd0ba.svg"/>
+    <!-- DECORATION 0 END -->
+</div>
+
+<div id="top-left">
+</div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    Loading MapComplete, hang on...
+</div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>

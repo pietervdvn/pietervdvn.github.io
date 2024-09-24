@@ -1,0 +1,56 @@
+{
+  "id": "sport_pitches",
+  "title": {
+    "en": "Sport pitches",
+    "nl": "Sportvelden",
+    "fr": "Terrains de sport",
+    "ja": "スポーツ競技場",
+    "zh_Hant": "運動場地",
+    "ru": "Спортивные площадки",
+    "de": "Sportplätze",
+    "it": "Campi sportivi",
+    "hu": "Sportpályák",
+    "ca": "Camps d'esports",
+    "es": "Pistas de deportes",
+    "da": "Sportspladser",
+    "cs": "Sportovní hřiště"
+  },
+  "shortDescription": {
+    "nl": "Deze kaart toont sportvelden",
+    "fr": "Une carte montrant les terrains de sport",
+    "en": "A map showing sport pitches",
+    "ja": "スポーツ競技場を示す地図",
+    "zh_Hant": "顯示運動場地的地圖",
+    "ru": "Карта, отображающая спортивные площадки",
+    "de": "Eine Karte mit Sportplätzen",
+    "it": "Una cartina che mostra i campi sportivi",
+    "hu": "Sportpályatérkép",
+    "es": "Un mapa que muestra pistas de deportes",
+    "da": "Et kort, der viser sportspladser",
+    "ca": "Un mapa que mostra pistes d'esports",
+    "cs": "Mapa sportovních hřišť"
+  },
+  "description": {
+    "nl": "Een sportveld is een ingerichte plaats met infrastructuur om een sport te beoefenen",
+    "fr": "Un terrain de sport est une zone faite pour pratiquer un sport",
+    "en": "A sport pitch is an area where sports are played",
+    "ja": "スポーツ競技場は、スポーツが行われる場所です",
+    "zh_Hant": "運動場地是進行運動的地方",
+    "de": "Ein Sportplatz ist eine Fläche, auf der Sportarten gespielt werden",
+    "it": "Un campo sportivo è un'area dove vengono praticati sport",
+    "hu": "A sportpálya egy olyan terület, amelyen valamilyen sportot űznek",
+    "ru": "Спортивная площадка - пространство для занятий спортом",
+    "es": "Una pista de deportes es una área donde se practican deportes",
+    "da": "En sportsplads er et område, hvor der dyrkes sport",
+    "ca": "Una pista d'esports és un àrea on es practiquen esports",
+    "cs": "Sportovní hřiště je plocha, na které se provozují sporty"
+  },
+  "icon": "./assets/layers/sport_pitch/table_tennis.svg",
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "widenFactor": 2,
+  "layers": [
+    "sport_pitch"
+  ]
+}

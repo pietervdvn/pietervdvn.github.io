@@ -1,0 +1,278 @@
+{
+  "id": "climbing_gym",
+  "name": {
+    "de": "Kletterhallen",
+    "en": "Climbing gyms",
+    "nl": "Klimzalen",
+    "ja": "クライミングジム",
+    "fr": "Salle d’escalade",
+    "it": "Palestre di arrampicata",
+    "ru": "Комплексы скалолазания",
+    "ca": "Gimnasos d'escalada"
+  },
+  "minzoom": 10,
+  "source": {
+    "osmTags": {
+      "and": [
+        "sport=climbing",
+        "leisure=sports_centre"
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "nl": "Klimzaal",
+      "de": "Kletterhalle",
+      "en": "Climbing gym",
+      "ja": "クライミングジム",
+      "fr": "Salle d’escalade",
+      "it": "Palestra di arrampicata",
+      "ru": "Комплекс скалолазания"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "nl": "Klimzaal <strong>{name}</strong>",
+          "de": "Kletterhalle <strong>{name}</strong>",
+          "en": "Climbing gym <strong>{name}</strong>",
+          "ja": "クライミングジム<strong>{name}</strong>",
+          "fr": "Salle d’escalade <strong>{name}</strong>",
+          "it": "Palestra di arrampicata <strong>{name}</strong>"
+        }
+      }
+    ]
+  },
+  "description": {
+    "de": "Eine Kletterhalle",
+    "en": "A climbing gym",
+    "ja": "クライミングジム",
+    "nl": "Een klimzaal",
+    "fr": "Une salle d’escalade",
+    "it": "Una palestra di arrampicata",
+    "ru": "Комплекс скалолазания",
+    "ca": "Un gimnàs d'escalada"
+  },
+  "tagRenderings": [
+    "images",
+    {
+      "render": {
+        "*": "<strong>{name}</strong>"
+      },
+      "question": {
+        "en": "What is the name of this climbing gym?",
+        "nl": "Wat is de naam van dit Klimzaal?",
+        "de": "Wie heißt diese Kletterhalle?",
+        "ja": "このクライミングジムは何という名前ですか?",
+        "fr": "Quel est le nom de la salle d’escalade ?",
+        "it": "Qual è il nome di questa palestra di arrampicata?"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "name"
+    },
+    "website",
+    "phone",
+    "email",
+    {
+      "builtin": "climbing.fee"
+    },
+    "payment-options",
+    "opening_hours",
+    {
+      "id": "shoe_rental",
+      "question": {
+        "en": "Can one rent climbing shoes here?",
+        "nl": "Kunnen hier klimschoenen gehuurd worden?",
+        "fr": "Peut-on louer des chaussures d'escalade ici ?",
+        "de": "Kann man hier Kletterschuhe ausleihen?"
+      },
+      "mappings": [
+        {
+          "if": "service:rental:climbing_shoes=yes",
+          "then": {
+            "en": "Climbing shoes can be rented here",
+            "nl": "Klimschoenen kunnen hier gehuurd worden",
+            "fr": "Les chaussures d'escalade peuvent être louées ici",
+            "de": "Kletterschuhe können hier ausgeliehen werden"
+          }
+        },
+        {
+          "if": "service:rental:climbing_shoes=no",
+          "then": {
+            "en": "Climbing shoes can <b>not</b> be rented here",
+            "nl": "Hier kunnen <b>geen</b> klimschoenen gehuurd worden",
+            "fr": "Les chaussures d'escalade ne peuvent <b>pas</b> être louées ici",
+            "de": "Kletterschuhe können hier <b>nicht</b> ausgeliehen werden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "harness_rental",
+      "question": {
+        "en": "Can one rent a climbing harness here?",
+        "nl": "Kan een klimgordel hier gehuurd worden?",
+        "fr": "Peut-on louer un baudrier d'escalade ici ?",
+        "de": "Kann man hier einen Klettergurt ausleihen?"
+      },
+      "mappings": [
+        {
+          "if": "service:rental:climbing_harness=yes",
+          "then": {
+            "en": "A climbing harness can be rented here",
+            "nl": "Een klimgordel kan hier gehuurd worden",
+            "fr": "Un baudrier d'escalade peut être loué ici",
+            "de": "Ein Klettergurt kann hier ausgeliehen werden"
+          }
+        },
+        {
+          "if": "service:rental:climbing_harness=no",
+          "then": {
+            "en": "A climbing harness can <b>not</b> be rented here",
+            "nl": "Hier kunnen <b>geen</b> klimgordels gehuurd worden",
+            "fr": "Un baudrier d'escalade ne peut <b>pas</b> être loué ici",
+            "de": "Ein Klettergurt kann hier <b>nicht</b> ausgeliehen werden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rope_rental",
+      "question": {
+        "en": "Can one rent a climbing rope here?",
+        "nl": "Kan een klimtouw hier gehuurd worden?"
+      },
+      "mappings": [
+        {
+          "if": "service:rental:climbing_rope=yes",
+          "then": {
+            "en": "A climbing rope can be rented here",
+            "nl": "Een klimtouw kan hier gehuurd worden"
+          }
+        },
+        {
+          "if": "service:rental:climbing_rope=no",
+          "then": {
+            "en": "A climbing rope can <b>not</b> be rented here",
+            "nl": "Hier kunnen <b>geen</b> klimtouwen gehuurd worden"
+          }
+        }
+      ]
+    },
+    "climbing.toprope",
+    {
+      "builtin": "climbing.average_length",
+      "override": {
+        "condition": "climbing:toprope!=no"
+      }
+    },
+    {
+      "id": "climbing_gym_questions",
+      "builtin": [
+        "climbing.min_difficulty",
+        "climbing.max_difficulty",
+        "climbing.bouldering",
+        "climbing.sportclimbing"
+      ]
+    },
+    {
+      "builtin": "climbing.max_bolts",
+      "override": {
+        "condition": "climbing:sport=yes"
+      }
+    },
+    {
+      "id": "Speed climbing?",
+      "question": {
+        "de": "Gibt es hier eine Speedkletter-Wand?",
+        "en": "Is there a speed climbing wall?",
+        "nl": "Is er een snelklimmuur (speed climbing)?",
+        "ja": "スピードクライミングウォールはありますか?",
+        "it": "È presente una prete per l’arrampicata di velocità?",
+        "fr": "Y a-t-il un mur d'escalade de vitesse ?"
+      },
+      "mappings": [
+        {
+          "if": "climbing:speed=yes",
+          "then": {
+            "de": "Hier gibt es eine Speedkletter-Wand",
+            "en": "There is a speed climbing wall",
+            "nl": "Er is een snelklimmuur voor speed climbing",
+            "ja": "スピードクライミングウォールがある",
+            "it": "È presente una parete per l’arrampicata di velocità",
+            "fr": "Il y a un mur d'escalade de vitesse"
+          }
+        },
+        {
+          "if": "climbing:speed=no",
+          "then": {
+            "de": "Hier gibt es keine Speedkletter-Wand",
+            "en": "There is no speed climbing wall",
+            "nl": "Er is geen snelklimmuur voor speed climbing",
+            "ja": "スピードクライミングウォールがない",
+            "it": "Non è presente una parete per l’arrampicata di velocità",
+            "fr": "Il n'y a pas de mur d'escalade de vitesse"
+          }
+        },
+        {
+          "if": "climbing:speed~*",
+          "then": {
+            "de": "Hier gibt es {climbing:speed} Speedkletter-Routen",
+            "en": "There are {climbing:speed} speed climbing walls",
+            "nl": "Er zijn hier {climbing:speed} snelklimmuren",
+            "ja": "{climbing:speed} のスピードクライミングウォールがある",
+            "it": "Sono presenti {climbing:speed} pareti per l’arrampicata di velocità",
+            "fr": "Il existe {climbing:speed} murs d'escalade de vitesse"
+          },
+          "hideInAnswer": true
+        }
+      ]
+    },
+    "internet",
+    "internet-fee",
+    "internet-ssid"
+  ],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/themes/climbing/climbing_gym.svg"
+      },
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "icons.isOpen"
+        }
+      ],
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      }
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "Climbing gym",
+        "nl": "Klimzaal",
+        "de": "Kletterhalle"
+      },
+      "tags": [
+        "leisure=sports_centre",
+        "sport=climbing"
+      ]
+    }
+  ]
+}

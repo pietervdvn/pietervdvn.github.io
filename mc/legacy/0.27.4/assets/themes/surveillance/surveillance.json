@@ -1,0 +1,61 @@
+{
+  "id": "surveillance",
+  "title": {
+    "en": "Surveillance under Surveillance",
+    "nl": "Surveillance under Surveillance",
+    "ja": "監視カメラの監視",
+    "zh_Hant": "被監視的監視器",
+    "fr": "Surveillance",
+    "de": "Überwachung unter Überwachung",
+    "it": "Sorveglianza sotto controllo",
+    "hu": "Megfigyelt térfigyelés",
+    "ca": "Vigilància sota vigilància",
+    "nb_NO": "Overvåkning under overvåkning",
+    "da": "Overvågning under Overvågning",
+    "es": "Vigilancia bajo vigilancia",
+    "cs": "Dohled pod dohledem"
+  },
+  "shortDescription": {
+    "en": "Surveillance cameras and other means of surveillance",
+    "nl": "Bewakingscameras en dergelijke",
+    "ja": "監視カメラおよびその他の監視手段",
+    "zh_Hant": "監視鏡頭與其他型式的監視",
+    "fr": "Caméras et autres dispositifs de surveillance",
+    "pl": "Kamery monitorujące i inne środki nadzoru",
+    "de": "Überwachungskameras und andere Mittel zur Überwachung",
+    "it": "Telecamere di sorveglianza e altri mezzi di sorveglianza.",
+    "hu": "Térfigyelő kamerák és más figyelőeszközök",
+    "da": "Overvågningskameraer og andre overvågningsmidler",
+    "nb_NO": "Overvåkningskameraer og andre typer overvåkning",
+    "ca": "Càmeres de vigilància i altres tipus de vigilància",
+    "es": "Cámaras de vigilancia y otros medios de vigilancia",
+    "cs": "Bezpečnostní kamery a další prostředky sledování"
+  },
+  "description": {
+    "en": "On this open map, you can find surveillance cameras.",
+    "nl": "Op deze open kaart kan je bewakingscamera's vinden.",
+    "ja": "このオープンマップでは、監視カメラを確認できます。",
+    "zh_Hant": "在這份開放地圖，你可以找到監視鏡頭。",
+    "fr": "Cette carte indique l’emplacement des caméras de surveillance.",
+    "pl": "Na tej otwartej mapie można znaleźć kamery monitoringu.",
+    "de": "Auf dieser offenen Karte finden Sie Überwachungskameras.",
+    "it": "In questa cartina puoi trovare le telecamera di sorveglianza.",
+    "hu": "Ezen a térképen térfigyelő kamerák láthatók.",
+    "ru": "На этой открытой карте можно найти камеры слежения.",
+    "da": "På dette åbne kort kan du finde overvågningskameraer.",
+    "nb_NO": "Her finner du overvåkningskameraer.",
+    "ca": "A aquest mapa obert pots trobar càmeres de vigilància.",
+    "es": "En este mapa abierto, puede encontrar cámaras de vigilancia.",
+    "cs": "Na této otevřené mapě najdete bezpečnostní kamery."
+  },
+  "icon": "./assets/themes/surveillance/logo.svg",
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "widenFactor": 2,
+  "defaultBackgroundId": "osm",
+  "layers": [
+    "direction",
+    "surveillance_camera"
+  ]
+}

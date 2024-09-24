@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- WARNING: index.html serves as a template. If you want to change something, change it there -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+
+    <title>Surveillance under Surveillance</title>
+<link rel="manifest" href="surveillance.webmanifest">
+
+    <meta property="og:image" content="assets/generated/images/public_assets_generated_images_social_image_surveillance_512.png">
+    <meta property="og:title" content="Surveillance under Surveillance">
+    <meta property="og:description" content="Surveillance cameras and other means of surveillance">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@mapcomplete.osm.be">
+    <meta name="twitter:creator" content="@pietervdvn">
+    <meta name="twitter:title" content="Surveillance under Surveillance">
+    <meta name="twitter:description" content="Surveillance cameras and other means of surveillance">
+    <meta name="twitter:image" content="assets/generated/images/public_assets_generated_images_social_image_surveillance_Wide512.png">
+
+<link rel="icon" href="/mc/legacy/0.27.4/assets/logo-0e0df578.svg" sizes="any" type="image/svg+xml">
+    
+  <script type="module" crossorigin src="/mc/legacy/0.27.4/assets/surveillance-35312825.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/SvelteUIElement-65e2316e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/SubtleButton-eb81d210.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/List-1747898b.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/_commonjsHelpers-edff4021.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/BBox-aa5284c9.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/defineProperty-bf1f4e26.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ChartJs-49671581.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ToSvelte-f31dc93e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/language_translations-d2c4c2fc.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/theme_overview-565fd281.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/MoreScreen-67292bb5.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/language_native-373a312a.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/LanguagePicker-6f35b94e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/UserInformation-6fea1f2a.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ContactLink-5ac5344d.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/BackToIndex-6df98ec5.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/DashboardGui-fdad2a4c.js">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/SvelteUIElement-dd8cb05b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/DashboardGui-86fa991e.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/ToSvelte-c55834a1.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/theme_overview-bd547c90.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/MoreScreen-2dd360f1.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/SubtleButton-1a3bbdfd.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tabbedComponent-82c5367b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="decoration-desktop" style="position: fixed; left: 1em; bottom: 1em; width:35vh; height:35vh;">
+    <!-- A nice decoration while loading or on errors -->
+    <img src='/mc/legacy/0.27.4/assets/logo-0e0df578.svg' width="100%" height="100%">
+</div>
+
+<div class="very-small-screen fixed inset-0 block z-above-controls" id="on-small-screen"></div>
+<div class="fixed inset-0 block z-above-controls hidden hidden-on-very-small-screen md:w-1/3" style="min-width: 28rem" id="fullscreen"></div>
+
+<div class="absolute top-12 sm:top-3 left-3 rounded-3xl z-above-map" id="top-left"></div>
+<div class="absolute top-3 right-2 rounded-3xl z-above-map pl-3 sm:pl-0 w-full sm:w-fit" id="top-right"></div>
+
+<div class="absolute bottom-3 left-3 rounded-3xl z-above-map" id="bottom-left"></div>
+<div class="absolute bottom-3 right-2 rounded-3xl z-above-map" id="bottom-right"></div>
+
+<div class="clutter absolute h-24 left-24 right-24 top-56 text-xl text-center"
+     id="centermessage" style="z-index: 4000">
+    <div style="height: max-content">
+    <div style="margin-top: -3rem">
+        <div class="flex" style="justify-content: center">
+            <img src="/mc/legacy/0.27.4/assets/loading-90179bb2.svg" class="animate-spin" style="width: 1.5rem; height: 1.5rem; min-width: 1.5rem;"/>
+            <h1 style="font-weight: bold; font-size: xx-large; margin-bottom: 1rem; padding-left: 1rem">Loading Surveillance under Surveillance…</h1>
+        </div>
+    <p class="subtle" style="padding-bottom: 1rem">Powered by OpenStreetMap</p>
+    <div style="background: #ffffffaa; padding-bottom: 1rem; border-radius: 0.25rem">
+    Surveillance cameras and other means of surveillance
+    </div>
+    </div>
+    </div>
+</div>
+
+
+<span class="absolute" id="belowmap" style="z-index: -1">Below</span>
+<div id="leafletDiv"></div>
+
+
+
+<script async data-goatcounter="https://pietervdvn.goatcounter.com/count" src="//gc.zgo.at/count.js"></script>
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('Service worker registration successful');
+                },
+                err => {
+                    console.error('Service worker registration failed', err)
+                });
+        } else {
+            console.log("Service workers are not supported")
+        }
+    });
+</script>
+
+</body>
+</html>

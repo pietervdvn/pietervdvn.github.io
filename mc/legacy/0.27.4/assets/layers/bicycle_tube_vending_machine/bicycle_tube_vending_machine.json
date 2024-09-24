@@ -1,0 +1,326 @@
+{
+  "id": "bicycle_tube_vending_machine",
+  "name": {
+    "en": "Bicycle tube vending machine",
+    "nl": "Fietsbanden-verkoopsautomaat",
+    "fr": "Distributeur automatique de chambre à air de vélo",
+    "it": "Distributore automatico di camere d’aria per bici",
+    "de": "Automat für Fahrradschläuche",
+    "ru": "Торговый автомат для велосипедистов",
+    "zh_Hant": "自行車內胎自動售貨機",
+    "pt_BR": "Máquina de venda automática de tubos de bicicleta",
+    "pt": "Máquina de venda automática de tubos de bicicleta",
+    "da": "Automat til salg af cykelslanger",
+    "cs": "Automat na cyklistické duše",
+    "ca": "Màquina expenedora de tubs de bicicleta"
+  },
+  "title": {
+    "render": {
+      "en": "Bicycle tube vending machine",
+      "nl": "Fietsbanden-verkoopsautomaat",
+      "fr": "Distributeur automatique de chambre à air de vélo",
+      "it": "Distributore automatico di camere d’aria per bici",
+      "de": "Fahrradschlauch-Automat",
+      "ru": "Торговый автомат для велосипедистов",
+      "zh_Hant": "自行車內胎自動售貨機",
+      "pt_BR": "Máquina de venda automática de tubos de bicicleta",
+      "pt": "Máquina de venda automática de tubos de bicicleta",
+      "da": "Automat til salg af cykelslanger",
+      "cs": "Automat na cyklistické duše",
+      "ca": "Màquina expenedora de tubs de bicicleta"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "Bicycle tube vending machine {name}"
+      }
+    ]
+  },
+  "titleIcons": [
+    {
+      "render": "<a href='https://fietsambassade.gent.be/' target='_blank'><img src='./assets/themes/cyclofix/fietsambassade_gent_logo_small.svg'/></a>",
+      "condition": "operator=De Fietsambassade Gent"
+    },
+    "icons.defaults"
+  ],
+  "source": {
+    "osmTags": {
+      "and": [
+        "amenity=vending_machine",
+        "vending~.*bicycle_tube.*"
+      ]
+    }
+  },
+  "minzoom": 13,
+  "presets": [
+    {
+      "title": {
+        "en": "a bicycle tube vending machine",
+        "nl": "een fietsbanden-verkoopsautomaat",
+        "fr": "une distributeur automatique de chambre à air de vélo",
+        "it": "una distributore automatico di camere d’aria per bici",
+        "de": "einen Fahrradschlauch-Automaten",
+        "ru": "Торговый автомат для велосипедистов",
+        "zh_Hant": "自行車內胎自動售貨機",
+        "pt_BR": "uma máquina de venda automática de tubos de bicicleta",
+        "pt": "uma máquina de venda automática de tubos de bicicleta",
+        "da": "en automat til salg af cykelslanger",
+        "cs": "automat na cyklistické duše",
+        "ca": "una màquina expenedora de tubs de bicicleta"
+      },
+      "tags": [
+        "amenity=vending_machine",
+        "vending=bicycle_tube",
+        "vending:bicycle_tube=yes"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "question": {
+        "en": "Is this vending machine still operational?",
+        "nl": "Is deze verkoopsautomaat nog steeds werkende?",
+        "fr": "Cette machine est-elle encore opérationelle ?",
+        "it": "Questo distributore automatico funziona ancora?",
+        "ru": "Этот торговый автомат все еще работает?",
+        "de": "Ist dieser Automat in Betrieb?",
+        "zh_Hant": "這個自動販賣機仍有運作嗎？",
+        "pt_BR": "Esta máquina de venda automática ainda está operacional?",
+        "pt": "Esta máquina de venda automática ainda está operacional?",
+        "es": "¿Todavía funciona esta máquina expendedora?",
+        "da": "Er denne salgsautomat stadig i drift?",
+        "cs": "Je tento automat stále v provozu?",
+        "ca": "Aquesta màquina expenedora encara funciona?"
+      },
+      "render": {
+        "en": "The operational status is <i>{operational_status}</i>",
+        "nl": "Deze verkoopsautomaat is <i>{operational_status}</i>",
+        "fr": "L'état opérationnel est <i>{operational_status}</i>",
+        "it": "Lo stato operativo è <i>{operational_status}</i>",
+        "de": "Der Betriebszustand ist <i>{operational_status}</i>",
+        "ru": "Рабочий статус: <i> {operational_status}</i>",
+        "zh_Hant": "運作狀態是 <i>{operational_status}</i>",
+        "pt_BR": "O estado operacional é: <i>{operational_status}</i>",
+        "pt": "O estado operacional é: <i>{operational_status}</i>",
+        "es": "El estado operacional es <i>{operational_status}</i></i>",
+        "da": "Driftsstatus er <i>{operational_status}</i>",
+        "cs": "Provozní stav je <i>{operational_status}</i>",
+        "ca": "L'estat operatiu és <i>{operational_status}</i>"
+      },
+      "freeform": {
+        "key": "operational_status"
+      },
+      "mappings": [
+        {
+          "if": "operational_status=",
+          "then": {
+            "en": "This vending machine works",
+            "nl": "Deze verkoopsautomaat werkt",
+            "fr": "Le distributeur automatique fonctionne",
+            "hu": "Ez az automata működik",
+            "it": "Il distributore automatico funziona",
+            "ru": "Этот торговый автомат работает",
+            "zh_Hans": "这个借还机正常工作",
+            "de": "Dieser Automat ist in Betrieb",
+            "zh_Hant": "這個自動販賣機仍運作",
+            "pt_BR": "Esta máquina de venda automática funciona",
+            "pt": "Esta máquina de venda automática funciona",
+            "da": "Denne salgsautomat virker",
+            "es": "Esta máquina expendedora funciona",
+            "cs": "Tento prodejní automat funguje",
+            "ca": "Aquesta màquina expenedora funciona"
+          }
+        },
+        {
+          "if": "operational_status=broken",
+          "then": {
+            "en": "This vending machine is broken",
+            "nl": "Deze verkoopsautomaat is kapot",
+            "fr": "Le distributeur automatique est en panne",
+            "hu": "Ez az automata elromlott",
+            "it": "Il distributore automatico è guasto",
+            "ru": "Этот торговый автомат сломан",
+            "zh_Hans": "这个借还机已经损坏",
+            "de": "Dieser Automat ist kaputt",
+            "zh_Hant": "這個自動販賣機沒有運作了",
+            "pt_BR": "Esta máquina de venda automática está quebrada",
+            "pt": "Esta máquina de venda automática está quebrada",
+            "es": "Esta máquina exprendedora está rota",
+            "da": "Denne salgsautomat er i stykker",
+            "cs": "Tento prodejní automat je rozbitý",
+            "ca": "Aquesta màquina expenedora està trencada"
+          }
+        },
+        {
+          "if": "operational_status=closed",
+          "then": {
+            "en": "This vending machine is closed",
+            "nl": "Deze verkoopsautomaat is uitgeschakeld",
+            "fr": "Le distributeur automatique est fermé",
+            "hu": "Ez az automata zárva van",
+            "it": "Il distributore automatico è spento",
+            "ru": "Этот торговый автомат закрыт",
+            "zh_Hans": "这个借还机被关闭了",
+            "de": "Dieser Automat ist geschlossen",
+            "zh_Hant": "這個自動販賣機已經關閉了",
+            "pt_BR": "Esta máquina de venda automática está fechada",
+            "pt": "Esta máquina de venda automática está fechada",
+            "es": "Esta máquina exprendedora está cerrada",
+            "da": "Denne salgsautomat er lukket",
+            "cs": "Tento prodejní automat je uzavřen",
+            "ca": "Aquesta màquina expenedora està tancada"
+          }
+        }
+      ],
+      "id": "Still in use?"
+    },
+    {
+      "question": "How much does a bicycle tube cost?",
+      "render": "A bicycle tube costs {charge}",
+      "freeform": {
+        "key": "charge"
+      },
+      "id": "bicycle_tube_vending_machine-charge"
+    },
+    {
+      "id": "vending-machine-payment-methods",
+      "question": "How can one pay at this tube vending machine?",
+      "mappings": [
+        {
+          "if": "payment:coins=yes",
+          "ifnot": "payment:coins=no",
+          "then": "Payment with coins is possible"
+        },
+        {
+          "if": "payment:notes=yes",
+          "ifnot": "payment:notes=no",
+          "then": "Payment with notes is possible"
+        },
+        {
+          "if": "payment:cards=yes",
+          "ifnot": "payment:cards=no",
+          "then": "Payment with cards is possible"
+        }
+      ],
+      "multiAnswer": true
+    },
+    {
+      "question": "Which brand of tubes are sold here?",
+      "freeform": {
+        "key": "brand"
+      },
+      "render": "{brand} tubes are sold here",
+      "mappings": [
+        {
+          "if": "brand=Continental",
+          "then": "Continental tubes are sold here"
+        },
+        {
+          "if": "brand=Schwalbe",
+          "then": "Schwalbe tubes are sold here"
+        }
+      ],
+      "multiAnswer": true,
+      "id": "bicycle_tube_vending_machine-brand"
+    },
+    {
+      "question": "Who maintains this vending machine?",
+      "render": "This vending machine is maintained by {operator}",
+      "mappings": [
+        {
+          "if": "operator=Schwalbe",
+          "then": "Maintained by Schwalbe"
+        },
+        {
+          "if": "operator=Continental",
+          "then": "Maintained by Continental"
+        }
+      ],
+      "freeform": {
+        "key": "operator"
+      },
+      "id": "bicycle_tube_vending_machine-operator"
+    },
+    {
+      "id": "bicycle_tube_vending_maching-other-items",
+      "question": "Are other bicycle bicycle accessories sold here?",
+      "mappings": [
+        {
+          "if": "vending:bicycle_light=yes",
+          "ifnot": "vending:bicycle_light=no",
+          "then": "Bicycle lights are sold here"
+        },
+        {
+          "if": "vending:gloves=yes",
+          "ifnot": "vending:gloves=no",
+          "then": "Gloves are sold here"
+        },
+        {
+          "if": "vending:bicycle_repair_kit=yes",
+          "ifnot": "vending:bicycle_repair_kit=no",
+          "then": "Bicycle repair kits are sold here"
+        },
+        {
+          "if": "vending:bicycle_pump=yes",
+          "ifnot": "vending:bicycle_pump=no",
+          "then": "Bicycle pumps are sold here"
+        },
+        {
+          "if": "vending:bicycle_lock=yes",
+          "ifnot": "vending:bicycle_lock=no",
+          "then": "Bicycle locks are sold here"
+        }
+      ],
+      "multiAnswer": true
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity:={amenity}",
+        "amenity="
+      ]
+    },
+    "neededChangesets": 1
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuraccy": true
+  },
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "pin:#ffffff;./assets/layers/bicycle_tube_vending_machine/pinIcon.svg"
+      },
+      "iconBadges": [
+        {
+          "if": {
+            "or": [
+              "operational_status=broken",
+              "operational_status=closed"
+            ]
+          },
+          "then": "close:#c33"
+        }
+      ],
+      "iconSize": "50,50,bottom",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    },
+    {
+      "color": "#6bc4f7"
+    }
+  ],
+  "description": {
+    "en": "A layer showing vending machines for bicycle tubes (either purpose-built bicycle tube vending machines or classical vending machines with bicycle tubes and optionally additional bicycle related objects such as lights, gloves, locks, …)",
+    "nl": "Een laag met verkoopsautomaten met binnenbanden voor fietsen (dit kan een automaat zijn met énkel fietsbanden, of een gewone automaat met fietsbanden en andere fietsaccessoires zoals lichten, handschoenen, sloten,...)",
+    "de": "Eine Ebene mit Automaten für Fahrradschläuche (entweder spezielle Fahrradschlauch-Automaten oder klassische Automaten mit Fahrradschläuchen und optional zusätzlichen fahrradbezogenen Gegenständen wie Lampen, Handschuhe, Schlösser, …)",
+    "da": "Et lag med automater til cykelslanger (enten specialbyggede cykelslangeautomater eller klassiske automater med cykelslanger og eventuelt andre cykelrelaterede genstande som f.eks. lys, handsker, låse, o.s.v)",
+    "fr": "Une couche affichant des distributeurs automatiques de chambre à air (que ce soit des distributeurs conçus spécifiquement pour les chambres à air ou des distributeurs classiques incluant des chambres à air ainsi des objets apparentés tels que de l'éclairage pour vélo, des gants, des cadenas, ...)",
+    "cs": "Vrstva zobrazující automaty na cyklistické duše (buď speciální automaty na cyklistické duše, nebo klasické automaty s cyklistickými dušemi a případně dalšími předměty souvisejícími s jízdními koly, jako jsou světla, rukavice, zámky, ...)",
+    "ca": "Una capa que mostra màquines expenedores per a tubs de bicicleta (ja siguin màquines expenedores de tubs de bicicleta o màquines expenedores clàssiques amb tubs de bicicleta i opcionalment objectes addicionals relacionats amb la bicicleta com ara llums, guants, panys, ...)"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "About:document": "This is a small scratch which serves to formalize ideas on creating a routing profile",
+  "Name": "Human readable name of the profile, e.g. bicycle",
+  "About": "A longer explanation of this profile. Note: one single file depicts one vehicle type, although parameters can tweak stuff a little more",
+  "About:Parameters": "A list of settings which the user can pick, to further customize",
+  "Parameters": [
+    {
+      "Title": "Avoid cobblestone",
+      "About:Name": "How this variable can be called throughout the profile. Always begins with $",
+      "Name": "$no_sett",
+      "type": "bool",
+      "default": "false"
+    },
+    {
+      "Title": "Average speed (km/h)",
+      "Name": "$speed",
+      "type": "kmh",
+      "default": "20.0"
+    }
+  ],
+  "About:Tags": "Whitelist of tags that have to be calculated or copied into the resulting graph data structure for this profile. If there is a calculation method below, they will _always_ be calculated, otherwise they will be copied. Speed and comfort MUST always be part of this list. If not, the profile is invalid.",
+  "Tags": [
+    "access",
+    "oneway",
+    "surface",
+    "speed",
+    "comfort"
+  ],
+  "About:types": "Types are either an enum (such as bool = [true, false], [forward, backward, both], ...) or a float such as 'kmh' (kilometer an hour), a 'factor' (meant to be multiplied with speed, ideal for comfort and often between 0 and 2.0), of just 'float'",
+  "About:SomeCommonTags": "These are some things most profiles will need. Access decides wether or not a road should be in the data structure. The 'routeplanning speed' should be something as '#speed * #comfort', eventually comfort can be made more or less important by squaring it or summing it, e.g; '#speed * Math.Min(2, #comfort + 1)' or '",
+  "SomeCommonTags": {
+    "access": "Can we enter this road (legally) with this vehicle? Applied both to ways and nodes (e.g. to pick up 'max_height' restrictions, bollards blocking the way, ...)",
+    "oneway": "Must we follow one way or can we go both ways. Applied both on ways and nodes",
+    "speed": "How fast will we go on average in this segment. Applied on ways only",
+    "penalty": "(Applied on nodes only) Crossroads, street lights, pedestrian crossings, turning left/right will cause the traveller to slow down or even stop for a few seconds. This penalty can be calculated with this attribute",
+    "comfort": "How comfortable is this road? This is mostly a 'vague' metric, which can be used to e.g. avoid certain road types, stick to cycling ways, avoid dangerous situation, lower social impact (e.g. avoid schools), ... Applied on ways"
+  },
+  "About:SomeBuiltIns": "These are a few metatags on ways which can be useful. The all start with # (to indicate a tag value) and 'meta:' to indicate that they aren't real tags"
+  "About:relations:0": "Of course, relations make things a whole lot more complicated - especially because stuff can be part of multiple relations",
+  "About:relations:1": "For those, we need some builtins too. If way W (highway=residential) is part of Relation R1 (route=bicycle, name=X) and R2 (route=bicycle, ref=Y), metatags are made and added to the way, becoming: W (highway=residential, #id=some_id, #relation:name=[X, <null>], #relation:ref=[null,Y], #relation:route=[bicycle,bicycle], #relation:role=[null, null]) ",
+  "About:relations:2": "The list-values can be read with 'values-contains', 'values-all', 'values-average', 'values-min', values-max, ... (more to be added as needed). See the 'comfort'-section to see it in practice",
+  "SomeBuiltIns": {
+    "#meta:azimuth": "[-180,180]. The orientation (in degrees) of the segment. Not really useful, added for completeness",
+    "#meta:previous:azimuth": "Float, [-180, 180]. The orientation (in degrees) of the previous/next segment. Only visible when evaluating 'penalty' on a node. Used to calculate the penalty of slowing down."
+    "#meta:previous:azimuth-diff": "Float, [-180, 180]. The orientation difference (in degrees) of the previous/next segment. Only visible when evaluating 'penalty' on a node. Used to calculate the penalty of slowing down."
+    "#meta:id": "A string indicating what id the way/node has, in order to debug",
+    "#relation:role": "The role of the way/node in a relation - if in a relation and is set"
+  },
+  "Access": {
+    "Type": "bool",
+    "About": "Indicates wether or not the vehicle can go over a highway segment",
+    "about:about": "About is an obligated section, just as 'type'. The profile is invalid if the title of the segment is not part of the tags list above (otherwise a dead-code warning should be given). Note that all the return values must obey the type (this must be mechanically checked). At last, it is possible to calculate for each segment what tags it uses to calculate the value",
+    "about:return": "The 'return' element is evaluated top to bottom. The first matching rule is used to calculate the value",
+    "return": [
+      {
+        "Tag": "bicycle",
+        "Value": [
+          "yes",
+          "1",
+          "allowed",
+          "permissive"
+        ],
+        "return": "true"
+      },
+      {
+        "Tag": "bicycle",
+        "value": [
+          "no",
+          "0",
+          "forbidden"
+        ],
+        "return": "false"
+      },
+      {
+        "print": "some_value",
+        "About:debug": "If evaluation reaches this point, the 'some_value' string is printed, together with all the info on the current segment evaluated. This is purely convenience and not obligated. No other tags are interpreted in this segment and it always falls through"
+      },
+      {
+        "return": "false"
+      }
+    ]
+  },
+  "Oneway": {
+    "type": [
+      "forward",
+      "backward",
+      "both"
+    ],
+    "about": "The type of oneway can only be one of the above values. Note that bool is simply a shorthand for [true, false]",
+    "return": [
+      "both"
+    ]
+  },
+  "Max_speed": {
+    "type": "kmh",
+    "return": [
+      {
+        "About": "If this tag is not present, this element will fall through and the defaults will be used",
+        "Tag": "max_speed",
+        "return": "#max_speed"
+      },
+      {
+        "Tag": "highway",
+        "Value": "residential",
+        "return": "30"
+      },
+      {
+        "return": "50"
+      }
+    ]
+  },
+  "Speed": {
+    "type": "kmh",
+    "about:arithmetic": "#max_speed is the value which is loaded from OSM. The value which is associated with the tag 'max_speed' is used as value and parsed as float. Note that e.g. #access will use the formula above to evaluate. Note that using '#speed' will stackoverflow ",
+    "return": [
+      "min(#max_speed, $speed) "
+    ]
+  },
+  "Comfort": {
+    "type": "factor",
+    "about": "Indicates how comfortable the road is. Ideal to tweak road preferences",
+    "return": [
+      {
+        "about:and": "Logical operator, other options are 'not' and 'or'",
+        "and": [
+          {
+            "tag": "relation:type",
+            "about:value-contains": "relation:type is list of all the values. Value-contains checks if at least one value is 'route'",
+            "value-contains": "route",
+            "about:implicit-return": "The return tag is missing, indicating 'true' if the tag matches"
+          },
+          {
+            "tag": "relation:route",
+            "value-contains": "bicycle"
+          }
+        ]
+      }
+    ]
+  }
+}

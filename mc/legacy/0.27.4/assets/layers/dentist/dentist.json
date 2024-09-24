@@ -1,0 +1,82 @@
+{
+  "id": "dentist",
+  "name": {
+    "en": "Dentist",
+    "nl": "Tandarts",
+    "de": "Zahnärzte",
+    "es": "Dentista",
+    "ca": "Dentista"
+  },
+  "description": {
+    "en": "This layer shows dentist offices",
+    "de": "Diese Ebene zeigt Zahnarztpraxen",
+    "nl": "Deze laag toont tandartsen"
+  },
+  "source": {
+    "osmTags": "amenity=dentist"
+  },
+  "title": {
+    "render": {
+      "en": "Dentist Office {name}",
+      "de": "Arztpraxis {name}",
+      "nl": "Tandartspraktijk {name}",
+      "fr": "Cabinet medical {name}"
+    }
+  },
+  "minzoom": 13,
+  "tagRenderings": [
+    "images",
+    "opening_hours",
+    "phone",
+    "email",
+    "website",
+    {
+      "question": {
+        "en": "What is the name of this dentist?",
+        "de": "Wie lautet der Name dieses Zahnarztes?",
+        "nl": "Hoe heet deze tandarts?",
+        "ca": "Com s'anomena aquest dentista?"
+      },
+      "render": {
+        "en": "This dentist is called {name}",
+        "de": "Dieser Zahnarzt heißt {name}",
+        "nl": "Deze tandarts heet {name}",
+        "ca": "El dentista s'anomena {name}"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "name"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a dentists office",
+        "de": "eine Zahnarztpraxis",
+        "nl": "een tandartspraktijk",
+        "fr": "un cabinet de dentistes"
+      },
+      "tags": [
+        "amenity=dentist"
+      ]
+    }
+  ],
+  "filter": [
+    "open_now"
+  ],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "circle:white;./assets/layers/dentist/dentist.svg"
+      },
+      "iconSize": "40,40,center",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "deletion": true,
+  "allowMove": true
+}

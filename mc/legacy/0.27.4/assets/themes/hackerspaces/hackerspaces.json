@@ -1,0 +1,52 @@
+{
+  "id": "hackerspaces",
+  "title": {
+    "en": "Hackerspaces",
+    "de": "Hackerspaces",
+    "it": "Hackerspace",
+    "ru": "Хакерспейсы",
+    "zh_Hant": "駭客空間",
+    "hu": "Hackerspace-ek",
+    "nl": "Hackerspaces",
+    "fr": "Ateliers numériques ouvertS",
+    "da": "Hackerspaces",
+    "ca": "Espai per a hackers",
+    "pa_PK": "ہیکر دے تھاں",
+    "cs": "Hackerspaces",
+    "es": "Hackerspaces"
+  },
+  "shortDescription": {
+    "en": "A map of hackerspaces",
+    "de": "Eine Karte von Hackerspaces",
+    "it": "Una cartina degli hackerspace",
+    "zh_Hant": "駭客空間的地圖",
+    "hu": "Hackerspace-ek térképe",
+    "nl": "Een kaart van hackerspaces",
+    "fr": "Une carte des ateliers numériques ouverts",
+    "da": "Et kort over hackerspaces",
+    "cs": "Mapa označující Hackerspaces",
+    "es": "Un mapa de hackerspaces",
+    "ca": "Un mapa dels hackerspaces"
+  },
+  "description": {
+    "en": "On this map you can see hackerspaces, add a new hackerspace or update data directly",
+    "de": "Auf dieser Karte können Sie Hackerspaces sehen, einen neuen Hackerspace hinzufügen oder Daten direkt aktualisieren",
+    "it": "Su questa cartina è possibile vedere gli hackerspace, aggiungerne di nuovi o aggiornare le informazioni tutto in maniera pratica",
+    "zh_Hant": "在這份地圖上你可以看到駭客空間，新增或直接更新資料",
+    "hu": "Ezen a térképen hackerspace-ek láthatók, új hackerspace-eket lehet fölrajzolni vagy meglévők adatait frissíteni",
+    "nl": "Op deze kaart kan je hackerspaces zien, toevoegen en updaten",
+    "fr": "Retrouvez, renseignez ou modifiez des ateliers numériques ouverts",
+    "da": "På dette kort kan du se hackerspaces, tilføje et nyt hackerspace eller opdatere data direkte",
+    "es": "En este mapa puedes ver hackerspaces, añadir un nuevo hackerspace o actualizar datos directamente",
+    "cs": "Na této mapě si můžete prohlédnout hackerspaces, přidat nový hackerspace nebo přímo aktualizovat data",
+    "ca": "En aquest mapa podeu veure els hackerspaces, afegir un nou hackerspace o actualitzar les dades directament"
+  },
+  "icon": "./assets/themes/hackerspaces/glider.svg",
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "widenFactor": 5,
+  "layers": [
+    "hackerspace"
+  ]
+}

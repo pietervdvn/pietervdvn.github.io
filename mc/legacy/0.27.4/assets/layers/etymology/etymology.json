@@ -1,0 +1,310 @@
+{
+  "id": "etymology",
+  "#": "A layer showing all objects having etymology info (either via `name:etymology:wikidata` or `name:etymology`. The intention is that this layer is reused for a certain category to also _ask_ for information",
+  "name": {
+    "en": "Has etymology",
+    "nl": "Heeft etymology info",
+    "de": "Objekte mit Namensherkunft",
+    "fr": "A une étymologie"
+  },
+  "minzoom": 12,
+  "source": {
+    "osmTags": {
+      "and": [
+        {
+          "or": [
+            "name:etymology:wikidata~*",
+            "name:etymology~*"
+          ]
+        }
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "*": "{name}"
+    }
+  },
+  "description": {
+    "en": "All objects which have an etymology known",
+    "nl": "Alle lagen met een gelinkt etymology",
+    "de": "Alle Objekte, die eine bekannte Namensherkunft haben",
+    "hu": "Minden olyan objektum, amelynél ismert a nevének az eredete",
+    "fr": "Tous les objets dont l’étymologie est connue"
+  },
+  "calculatedTags": [
+    "_same_name_ids=feat.closestn('*', 250, undefined, 2500)?.filter(f => f.feat.properties.name === feat.properties.name)?.map(f => f.feat.properties.id)??[]"
+  ],
+  "tagRenderings": [
+    {
+      "id": "etymology-images-from-wikipedia",
+      "render": {
+        "*": "{image_carousel(name:etymology:wikidata)}"
+      }
+    },
+    {
+      "id": "wikipedia-etymology",
+      "question": {
+        "en": "What is the Wikidata-item that this object is named after?",
+        "nl": "Wat is het Wikidata-item van hetgeen dit object is naar vernoemd?",
+        "de": "Was ist das Wikidata-Element, nach dem dieses Objekt benannt ist?",
+        "fr": "Quel est l'Item Wikidata auquel l'objet fait référence ?"
+      },
+      "freeform": {
+        "key": "name:etymology:wikidata",
+        "type": "wikidata",
+        "helperArgs": [
+          "name",
+          {
+            "notInstanceOf": [
+              "Q79007",
+              "Q22698"
+            ],
+            "removePrefixes": {
+              "#": "no-translations",
+              "nl": [
+                "(basis|lagere |middelbare |secondaire| secundaire)?school"
+              ],
+              "fr": [
+                "allée (des |de la |de l'|de |du |d')?",
+                "autoroute (des |de la |de l'|de |du |d')?",
+                "avenue (des |de la |de l'|de |du |d')?",
+                "bibliothèque (des |de la |de l'|de |du |d')?",
+                "boulevard (des |de la |de l'|de |du |d')?",
+                "centre (culturel |sportif |nautique )?(des |de la |de l'|de |du |d')?",
+                "chaussée (des |de la |de l'|de |du |d')?",
+                "chemin (des |de la |de l'|de |du |d')?",
+                "clos (des |de la |de l'|de |du |d')?",
+                "collège (privé |public )?(des |de la |de l'|de |du |d')?",
+                "complexe sportif (des |de la |de l'|de |du |d')?",
+                "corniche (des |de la |de l'|de |du |d')?",
+                "cours (des |de la |de l'|de |du |d')?",
+                "drève (des |de la |de l'|de |du |d')?",
+                "école (maternelle |primaire |élémentaire |secondaire )?(privée |publique )?(des |de la |de l'|de |du |d')?",
+                "esplanade (des |de la |de l'|de |du |d')?",
+                "groupe scolaire (privé |public )?(des |de la |de l'|de |du |d')?",
+                "gymnase (des |de la |de l'|de |du |d')?",
+                "impasse (des |de la |de l'|de |du |d')?",
+                "lotissement (des |de la |de l'|de |du |d')?",
+                "lycée (privé |public |technologique |professionnel )*(des |de la |de l'|de |du |d')?",
+                "mail (des |de la |de l'|de |du |d')?",
+                "médiathèque (des |de la |de l'|de |du |d')?",
+                "musée (des |de la |de l'|de |du |d')?",
+                "parc (des |de la |de l'|de |du |d')?",
+                "passage (des |de la |de l'|de |du |d')?",
+                "passerelle (des |de la |de l'|de |du |d')?",
+                "place (des |de la |de l'|de |du |d')?",
+                "quai (des |de la |de l'|de |du |d')?",
+                "résidence (des |de la |de l'|de |du |d')?",
+                "route (des |de la |de l'|de |du |d')?",
+                "rue (des |de la |de l'|de |du |d')?",
+                "sente (des |de la |de l'|de |du |d')?",
+                "sentier (des |de la |de l'|de |du |d')?",
+                "square (des |de la |de l'|de |du |d')?",
+                "stade (des |de la |de l'|de |du |d')?",
+                "villa (des |de la |de l'|de |du |d')?"
+              ]
+            },
+            "removePostfixes": {
+              "#": "no-translations",
+              "nl": [
+                "baan",
+                "boulevard",
+                "dreef",
+                "heirbaan",
+                "kaai",
+                "kerk",
+                "laan",
+                "lei",
+                "pad",
+                "park",
+                "plein",
+                "ring",
+                "steenweg",
+                "straat",
+                "weg",
+                "wegel"
+              ],
+              "fr": [
+                "parque"
+              ],
+              "de": [
+                "straße",
+                "strasse",
+                "platz",
+                "gasse",
+                "graben",
+                "grundschule",
+                "gymnasium",
+                "platz",
+                "rain",
+                "schule",
+                "(-)?straße",
+                "(-)?strasse",
+                "weg"
+              ],
+              "en": [
+                "avenue",
+                "boulevard",
+                "church",
+                "path",
+                "plaza",
+                "square",
+                "street"
+              ]
+            }
+          }
+        ]
+      },
+      "render": {
+        "en": "<h3>Wikipedia article of the name giver</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "nl": "<h3>Wikipedia artikel van de naamgever</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "de": "<h3>Wikipedia Artikel zur Namensherkunft</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "fr": "<h3>Article Wikipedia de la référence au nom</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}",
+        "ca": "<h3> Article de la Viquipèdia del nom donant</h3>{wikipedia(name:etymology:wikidata):max-height:20rem}"
+      },
+      "condition": "name:etymology!=unknown"
+    },
+    {
+      "id": "zoeken op inventaris onroerend erfgoed",
+      "render": {
+        "nl": "<a href='https://inventaris.onroerenderfgoed.be/erfgoedobjecten?tekst={name}' target='_blank'>Zoeken op inventaris onroerend erfgoed</a>",
+        "en": "<a href='https://inventaris.onroerenderfgoed.be/erfgoedobjecten?tekst={name}' target='_blank'>Search on inventaris onroerend erfgoed</a>",
+        "de": "<a href='https://inventaris.onroerenderfgoed.be/erfgoedobjecten?tekst={name}' target='_blank'>Suche auf inventaris onroerend erfgoed</a>",
+        "fr": "<a href='https://inventaris.onroerenderfgoed.be/erfgoedobjecten?tekst={name}' target='_blank'>Chercher sur inventaris onroerend erfgoed</a>"
+      },
+      "condition": "_country=be"
+    },
+    {
+      "id": "simple etymology",
+      "question": {
+        "en": "What is this object named after?",
+        "nl": "Naar wat is dit object vernoemd?",
+        "de": "Wonach ist dieses Objekt benannt?",
+        "fr": "En référence à quoi cet objet est-il nommé ?"
+      },
+      "render": {
+        "en": "Named after {name:etymology}",
+        "nl": "Vernoemd naar {name:etymology}",
+        "de": "Benannt nach {name:etymology}",
+        "da": "Opkaldt efter {name:etymology}",
+        "fr": "Nommé en référence à {name:etymology}"
+      },
+      "freeform": {
+        "key": "name:etymology"
+      },
+      "mappings": [
+        {
+          "if": "name:etymology=unknown",
+          "then": {
+            "en": "The origin of this name is unknown in all literature",
+            "nl": "De oorsprong van deze naam is onbekend in de literatuur",
+            "de": "Der Ursprung dieses Namens ist in der gesamten Literatur unbekannt",
+            "da": "Oprindelsen af dette navn er ukendt i al litteratur",
+            "fr": "L'origine de ce nom est inconnu"
+          }
+        }
+      ],
+      "condition": {
+        "or": [
+          "name:etymology~*",
+          "name:etymology:wikidata="
+        ]
+      },
+      "questionHint": {
+        "en": "This might be written on the street name sign",
+        "nl": "Dit staat mogelijks vermeld op het straatnaambordje",
+        "de": "Das könnte auf einem Straßenschild stehen",
+        "fr": "Cela peut être indiqué sur le panneau de la rue",
+        "ca": "Això podria estar escrit al cartell del nom del carrer"
+      }
+    },
+    "questions",
+    {
+      "id": "street-name-sign-image",
+      "render": {
+        "en": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Add image of a street name sign)}",
+        "nl": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Voeg afbeelding van straatnaambordje toe)}",
+        "de": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Bild eines Straßenschildes hinzufügen)}",
+        "fr": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Ajouter une photo de la plaque de rue)}",
+        "ca": "{image_carousel(image:streetsign)}<br/>{image_upload(image:streetsign, Afegeix una imatge de la placa amb el nom del carrer)}"
+      }
+    },
+    {
+      "id": "minimap",
+      "render": {
+        "*": "{minimap(18, id, _same_name_ids):height:10rem}"
+      }
+    },
+    {
+      "id": "etymology_multi_apply",
+      "render": {
+        "en": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Auto-applying data on all segments with the same name, true)}",
+        "nl": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Wijzigingen worden automatisch gedaan op alle segmenten met dezelfde naam, true)}",
+        "de": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Automatische Datenübernahme auf alle Segmente mit demselben Namen, true)}",
+        "fr": "{multi_apply(_same_name_ids, name:etymology:wikidata;name:etymology, Appliquer automatiquement aux segments avec le même nom, true)}"
+      }
+    },
+    {
+      "id": "wikipedia",
+      "#": "Note that this is a _read_only_ option, to prevent people entering a 'wikidata'-link instead of 'name:etymology:wikidata'",
+      "render": {
+        "en": "A Wikipedia article about this <b>street</b> exists:<br/>{wikipedia():max-height:25rem}",
+        "nl": "Een Wikipedia artikel over deze <b>straat</b> bestaat:<br/>{wikipedia():max-height:25rem}",
+        "de": "Zu dieser <b>Straße</b> existiert ein Wikipedia-Artikel:<br/>{wikipedia():max-height:25rem}",
+        "fr": "Un article Wikipédia à propos de cette <b>rue</b> existe :<br/>{wikipedia():max-height:25rem}"
+      },
+      "condition": "wikidata~*"
+    }
+  ],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "pin:#05d7fcaa",
+        "mappings": [
+          {
+            "if": {
+              "and": [
+                "name:etymology=",
+                "name:etymology:wikidata="
+              ]
+            },
+            "then": "pin:#fcca05aa"
+          }
+        ]
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "location": [
+        "point"
+      ]
+    },
+    {
+      "color": {
+        "render": "#05d7fcaa",
+        "mappings": [
+          {
+            "if": {
+              "and": [
+                "name:etymology=",
+                "name:etymology:wikidata="
+              ]
+            },
+            "then": "#fcca05aa"
+          }
+        ]
+      },
+      "fill": "no",
+      "width": {
+        "render": "8",
+        "mappings": [
+          {
+            "if": "_geometry:type=Polygon",
+            "then": "16"
+          }
+        ]
+      }
+    }
+  ]
+}

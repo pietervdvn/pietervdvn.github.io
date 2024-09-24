@@ -1,0 +1,459 @@
+{
+  "id": "atm",
+  "name": {
+    "en": "ATMs",
+    "de": "Geldautomaten",
+    "fr": "DABs",
+    "nl": "Geldautomaten",
+    "ca": "Caixers Automàtics",
+    "nb_NO": "Minibanker",
+    "cs": "Bankomaty"
+  },
+  "description": {
+    "en": "ATMs to withdraw money",
+    "de": "Geldautomaten zum Geld abheben",
+    "fr": "DABs pour retirer de l'argent",
+    "nl": "Geldautomaten om geld op te nemen",
+    "ca": "Caixers automàtics per a retirar diners",
+    "nb_NO": "Minibanker fo rå ta ut penger",
+    "cs": "Bankomaty pro výběr peněz",
+    "es": "Cajeros automáticos para retirar dinero"
+  },
+  "title": {
+    "render": {
+      "en": "ATM",
+      "de": "Geldautomat",
+      "fr": "DAB",
+      "nl": "Geldautomaat",
+      "nb_NO": "Minibank",
+      "ca": "Caixer Automàtic",
+      "cs": "Bankomat"
+    },
+    "mappings": [
+      {
+        "if": "brand~*",
+        "then": {
+          "en": "{brand} ATM",
+          "de": "{brand}-Geldautomat",
+          "fr": "DAB {brand}",
+          "nl": "{brand} Geldautomaat",
+          "nb_NO": "{brand}-minibank",
+          "ca": "Caixer automàtic {brand}",
+          "cs": "Bankomat {brand}"
+        }
+      }
+    ]
+  },
+  "source": {
+    "osmTags": "amenity=atm"
+  },
+  "minzoom": 13,
+  "presets": [
+    {
+      "tags": [
+        "amenity=atm"
+      ],
+      "title": {
+        "en": "an ATM",
+        "de": "einen Geldautomaten",
+        "fr": "un DAB",
+        "nl": "een geldautomaat",
+        "ca": "un caixer automàtic",
+        "nb_NO": "en minibank",
+        "cs": "bankomat"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "name",
+      "render": {
+        "en": "The name of this ATM is {name}",
+        "de": "Der Name des Geldautomaten ist {name}",
+        "fr": "Le nom de ce DAB est {name}",
+        "nl": "De naam van deze geldautomaat is {name}",
+        "ca": "El nom d'aquest caixer és {name}",
+        "nb_NO": "Navnet på denne minibanken er {name}",
+        "cs": "Název tohoto bankomatu je {name}"
+      },
+      "condition": "name~*"
+    },
+    {
+      "id": "brand",
+      "question": {
+        "en": "What brand is this ATM?",
+        "de": "Von welcher Marke ist dieser Geldautomat?",
+        "fr": "De quelle marque est ce DAB ?",
+        "nl": "Van welk merk is deze geldautomaat?",
+        "ca": "De quina marca és aquest caixer?",
+        "nb_NO": "Hvilet merke har denne minibanken?",
+        "cs": "Jaká je značka bankomatu?"
+      },
+      "freeform": {
+        "key": "brand",
+        "type": "string",
+        "placeholder": {
+          "en": "Brand name",
+          "de": "Markenname",
+          "fr": "Nom de marque",
+          "nl": "Merknaam",
+          "nb_NO": "Merkenavn",
+          "ca": "Nom de la marca",
+          "cs": "Obchodní značka"
+        }
+      },
+      "render": {
+        "en": "The brand of this ATM is {brand}",
+        "de": "Die Marke des Geldautomaten ist {brand}",
+        "fr": "La marque de ce DAB est {brand}",
+        "nl": "Het merk van deze geldautomaat is {brand}",
+        "nb_NO": "Merkenavnet for denne minibanken er {brand}",
+        "ca": "La marca d'aquest caixer és {brand}",
+        "cs": "Značka tohoto bankomatu je {brand}"
+      }
+    },
+    {
+      "id": "operator",
+      "condition": "amenity!=bank",
+      "question": {
+        "en": "What company operates this ATM?",
+        "de": "Welches Unternehmen betreibt den Geldautomaten?",
+        "fr": "Quelle société exploite ce DAB ?",
+        "nl": "Welk bedrijf beheert deze geldautomaat?",
+        "nb_NO": "Hvilket selskap driver denne minibanken?",
+        "ca": "Quina companyia opera aquest caixer?",
+        "cs": "Která společnost provozuje tento bankomat?"
+      },
+      "freeform": {
+        "key": "operator",
+        "type": "string",
+        "placeholder": {
+          "en": "Operator",
+          "de": "Betreiber",
+          "fr": "Opérateur",
+          "nl": "Beheerder",
+          "ca": "Operador",
+          "cs": "Operátor"
+        }
+      },
+      "render": {
+        "en": "The ATM is operated by {operator}",
+        "de": "Der Geldautomat wird betrieben von {operator}",
+        "fr": "Ce DAB est exploité par {operator}",
+        "nl": "Deze geldautomaat wordt beheerd door {operator}",
+        "nb_NO": "Minibanken drives av {operator}",
+        "ca": "{operator} opera aquest caixer",
+        "cs": "Bankomat provozuje {operator}"
+      }
+    },
+    "opening_hours",
+    {
+      "id": "cash_out",
+      "question": {
+        "en": "Can you withdraw cash from this ATM?",
+        "de": "Kann man an diesem Geldautomaten Bargeld abheben?",
+        "nl": "Kan je geld ophalen bij deze geldautomaat?",
+        "nb_NO": "Kan man gjøre uttak fra denne minibanken?",
+        "ca": "Pots retirar diners des d'aquest caixer?",
+        "cs": "Lze z tohoto bankomatu vybírat hotovost?"
+      },
+      "mappings": [
+        {
+          "if": "cash_out=",
+          "then": {
+            "en": "You can withdraw cash from this ATM",
+            "de": "Sie können an diesem Geldautomaten Bargeld abheben",
+            "nl": "Je kan geld ophalen bij deze geldautomaat",
+            "ca": "Pots retirar diners a aquest caixer",
+            "nb_NO": "Du kan gjøre uttak i denne minibanken",
+            "cs": "Z tohoto bankomatu můžete vybírat hotovost"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "cash_out=yes",
+          "then": {
+            "en": "You can withdraw cash from this ATM",
+            "de": "An diesem Geldautomaten können Sie Bargeld abheben",
+            "nl": "Je kan geld ophalen bij deze geldautomaat",
+            "ca": "Pots retirar diners des d'aquest caixer",
+            "cs": "Z tohoto bankomatu můžete vybírat hotovost"
+          }
+        },
+        {
+          "if": "cash_out=no",
+          "then": {
+            "en": "You cannot withdraw cash from this ATM",
+            "de": "Sie können an diesem Geldautomaten kein Bargeld abheben",
+            "nl": "Je kan geen geld ophalen bij deze geldautomaat",
+            "ca": "No pots retirar diners des d'aquest caixer",
+            "cs": "Z tohoto bankomatu nelze vybírat hotovost"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cash_in",
+      "question": {
+        "en": "Can you deposit cash into this ATM?",
+        "de": "Kann man an diesem Geldautomaten Bargeld einzahlen?",
+        "nl": "Kan je geld storten bij deze geldautomaat?",
+        "ca": "Pots dipositar diners a aquest caixer?",
+        "cs": "Můžete do tohoto bankomatu vložit hotovost?",
+        "fr": "Pouvez-vous déposer de l'argent liquide dans ce DAB ?"
+      },
+      "mappings": [
+        {
+          "if": "cash_in=",
+          "then": {
+            "en": "You probably cannot deposit cash into this ATM",
+            "de": "Sie können wahrscheinlich kein Bargeld in diesen Geldautomaten einzahlen",
+            "nl": "Je kan waarschijnlijk geen geld deponeren in deze geldautomaat",
+            "ca": "Probablement no pots ingressar diners a aquest caixer",
+            "nb_NO": "Du kan antagelig ikke gjøre innskudd i denne minibanken",
+            "cs": "Do tohoto bankomatu pravděpodobně nelze vložit hotovost",
+            "fr": "Vous ne pouvez probablement pas déposer d'argent liquide dans ce DAB"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "cash_in=yes",
+          "then": {
+            "en": "You can deposit cash into this ATM",
+            "de": "Sie können Bargeld in diesen Geldautomaten einzahlen",
+            "nl": "Je kan geld deponeren in deze geldautomaat",
+            "nb_NO": "Du kan ikke gjøre innskudd i denne minibanken",
+            "ca": "Pots dipositar diners a aquest caixer",
+            "cs": "Do tohoto bankomatu můžete vkládat hotovost",
+            "fr": "Vous pouvez déposer de l'argent liquide dans ce DAB"
+          }
+        },
+        {
+          "if": "cash_in=no",
+          "then": {
+            "en": "You cannot deposit cash into this ATM",
+            "de": "Sie können an diesem Geldautomaten kein Bargeld einzahlen",
+            "nl": "Je kan geen geld deponeren in deze geldautomaat",
+            "nb_NO": "Du kan ikke gjøre innskudd i denne minibanken",
+            "ca": "No pots dipositar diners a aquest caixer",
+            "cs": "Do tohoto bankomatu nelze vkládat hotovost",
+            "fr": "Vous ne pouvez pas déposer d'agent liquide dans ce DAB"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cash_out-denominations-notes",
+      "condition": {
+        "and": [
+          {
+            "or": [
+              "cash_out=",
+              "cash_out=yes"
+            ]
+          },
+          {
+            "or": [
+              "_country=",
+              "_country=at",
+              "_country=be",
+              "_country=cy",
+              "_country=de",
+              "_country=ee",
+              "_country=es",
+              "_country=fi",
+              "_country=fr",
+              "_country=gr",
+              "_country=hr",
+              "_country=ie",
+              "_country=it",
+              "_country=lt",
+              "_country=lu",
+              "_country=lv",
+              "_country=mt",
+              "_country=nl",
+              "_country=pt",
+              "_country=si",
+              "_country=sk"
+            ]
+          }
+        ]
+      },
+      "question": {
+        "en": "What notes can you withdraw here?",
+        "nl": "Welke bankbiljetten kan je hier afhalen?",
+        "fr": "Quels billets pouvez-vous retirer ici ?",
+        "de": "Welche Geldscheine können Sie hier abheben?"
+      },
+      "multiAnswer": true,
+      "mappings": [
+        {
+          "if": "cash_out:notes:denominations=5 EUR",
+          "icon": "./assets/tagRenderings/5euro.svg",
+          "then": {
+            "en": "5 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 5 euro afhalen",
+            "de": "5-Euro-Scheine können abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=10 EUR",
+          "icon": "./assets/tagRenderings/10euro.svg",
+          "then": {
+            "en": "10 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 10 euro afhalen",
+            "de": "10-Euro-Scheine können abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=20 EUR",
+          "icon": "./assets/tagRenderings/20euro.svg",
+          "then": {
+            "en": "20 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 20 euro afhalen",
+            "de": "20-Euro-Scheine können abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=50 EUR",
+          "icon": "./assets/tagRenderings/50euro.svg",
+          "then": {
+            "en": "50 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 50 euro afhalen",
+            "de": "Es können 50-Euro-Scheine abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=100 EUR",
+          "icon": "./assets/tagRenderings/100euro.svg",
+          "then": {
+            "en": "100 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 100 euro afhalen",
+            "de": "100-Euro-Scheine können abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=200 EUR",
+          "icon": "./assets/tagRenderings/200euro.svg",
+          "then": {
+            "en": "200 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 200 euro afhalen",
+            "de": "200-Euro-Scheine können abgehoben werden"
+          }
+        },
+        {
+          "if": "cash_out:notes:denominations=500 EUR",
+          "icon": "./assets/tagRenderings/500euro.svg",
+          "then": {
+            "en": "500 euro notes can be withdrawn",
+            "nl": "Je kunt biljetten van 500 euro afhalen",
+            "de": "500-Euro-Scheine können abgehoben werden"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speech_output",
+      "question": {
+        "en": "Does this ATM have speech output for visually impaired users?",
+        "de": "Verfügt dieser Geldautomat über eine Sprachausgabe für sehbehinderte Benutzer?",
+        "nl": "Heeft deze automaat spraak voor slechtziende en blinde gebruikers?",
+        "ca": "Aquest caixer té un lector de pantalla per a usuaris amb discapacitat visual?",
+        "cs": "Má tento bankomat hlasový výstup pro zrakově postižené uživatele?"
+      },
+      "mappings": [
+        {
+          "if": "speech_output=yes",
+          "then": {
+            "en": "This ATM has speech output, usually available through a headphone jack",
+            "de": "Dieser Geldautomat verfügt über eine Sprachausgabe, die normalerweise über eine Kopfhörerbuchse verfügbar ist",
+            "nl": "Deze automaat heeft spraak, waarschijnlijk beschikbaar via een hoofdtelefoon-aansluiting",
+            "ca": "Aquest caixer té lector de pantalla, normalment disponible a través d'un connector d'auriculars \"jack\"",
+            "cs": "Tento bankomat má řečový výstup, který je obvykle dostupný přes konektor pro sluchátka"
+          }
+        },
+        {
+          "if": "speech_output=no",
+          "then": {
+            "en": "This ATM does not have speech output",
+            "de": "Dieser Geldautomat hat keine Sprachausgabe",
+            "nl": "Deze automaat heeft geen spraak",
+            "ca": "Aquest caixer no té lector de pantalla",
+            "cs": "Tento bankomat nemá hlasový výstup"
+          }
+        }
+      ]
+    },
+    {
+      "id": "speech_output_language",
+      "condition": "speech_output=yes",
+      "render": {
+        "special": {
+          "type": "language_chooser",
+          "key": "speech_output",
+          "question": {
+            "en": "In which languages does this ATM have speech output?",
+            "de": "In welchen Sprachen hat dieser Geldautomat eine Sprachausgabe?",
+            "nl": "In welke taal is de spraak van deze geldautomaat?",
+            "ca": "En quins idiomes té sortida de veu aquest caixer?",
+            "cs": "V jakých jazycích má tento bankomat řečový výstup?"
+          },
+          "render_list_item": {
+            "en": "This ATM has speech output in {language():font-bold}",
+            "de": "Dieser Geldautomat hat eine Sprachausgabe in {language():font-bold}",
+            "nl": "Deze geldautomaat heeft spraak in {language():font-bold}",
+            "ca": "Aquest caixer té sortida de veu en {language():font-bold}",
+            "cs": "Tento bankomat má řečový výstup v {language():font-bold}"
+          },
+          "render_single_language": {
+            "en": "This ATM has speech output in {language():font-bold}",
+            "de": "Dieser Geldautomat hat eine Sprachausgabe in {language():font-bold}",
+            "nl": "Deze automaat heeft spraak in {language():font-bold}",
+            "ca": "Aquest caixer té sortida de veu en {language():font-bold}",
+            "cs": "Tento bankomat má řečový výstup v {language():font-bold}"
+          }
+        }
+      }
+    }
+  ],
+  "mapRendering": [
+    {
+      "icon": "circle:white;./assets/layers/atm/atm.svg",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  },
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity=atm",
+        "amenity="
+      ]
+    }
+  },
+  "filter": [
+    "open_now",
+    {
+      "id": "speech_output",
+      "options": [
+        {
+          "question": {
+            "en": "With speech output",
+            "de": "Mit Sprachausgabe",
+            "nl": "Heeft spraak",
+            "ca": "Amb sortida de veu",
+            "cs": "S hlasovým výstupem"
+          },
+          "osmTags": "speech_output=yes"
+        }
+      ]
+    }
+  ]
+}

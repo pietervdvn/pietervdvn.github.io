@@ -1,0 +1,141 @@
+{
+  "id": "doctors",
+  "name": {
+    "en": "Doctors",
+    "de": "Ärzte",
+    "nl": "Dokters",
+    "fr": "Médecins",
+    "pa_PK": "ڈاکٹر",
+    "ca": "Metges"
+  },
+  "description": {
+    "en": "This layer shows doctor offices",
+    "de": "Diese Ebene zeigt Arztpraxen, Zahnärzte und andere Gesundheitseinrichtungen",
+    "nl": "Deze laag toont dokterspraktijken"
+  },
+  "source": {
+    "osmTags": "amenity=doctors"
+  },
+  "title": {
+    "render": {
+      "en": "Doctors Office {name}",
+      "de": "Arztpraxis {name}",
+      "nl": "Dokterspraktijk {name}",
+      "fr": "Cabinet medical {name}"
+    }
+  },
+  "minzoom": 13,
+  "tagRenderings": [
+    "images",
+    {
+      "question": {
+        "en": "What is the name of this doctors place?",
+        "de": "Wie heißt diese Arztpraxis?",
+        "nl": "Wat is de naam van deze dokterspraktijk?",
+        "fr": "Comment s'appelle ce cabinet médical ?",
+        "ca": "Com es diu aquesta consulta mèdica?"
+      },
+      "render": {
+        "en": "This doctors place is called {name}",
+        "de": "Diese Arztpraxis heißt {name}",
+        "nl": "Deze dokterspraktijk heet {name}",
+        "fr": "Ce cabinet médical s'appelle {name}"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "name"
+    },
+    "opening_hours_by_appointment",
+    "phone",
+    "email",
+    "website",
+    {
+      "id": "specialty",
+      "render": {
+        "en": "This doctor is specialized in {healthcare:speciality}",
+        "de": "Dieser Arzt ist spezialisiert auf {healthcare:speciality}",
+        "nl": "Deze dokter is gespecialiseerd in {healthcare:speciality}",
+        "fr": "Ce médecin est spécialisé dans {healthcare:speciality}"
+      },
+      "question": {
+        "en": "What is this doctor specialized in?",
+        "de": "Worauf ist dieser Arzt spezialisiert?",
+        "nl": "Waar is deze dokter in gespecialiseerd?",
+        "fr": "En quoi ce médecin est-il spécialisé ?"
+      },
+      "freeform": {
+        "key": "healthcare:speciality"
+      },
+      "multiAnswer": true,
+      "mappings": [
+        {
+          "if": "healthcare:speciality=general",
+          "then": {
+            "en": "This is a general practitioner",
+            "de": "Dies ist ein Allgemeinmediziner",
+            "nl": "Dit is een huisarts",
+            "fr": "C'est un médecin généraliste"
+          }
+        },
+        {
+          "if": "healthcare:speciality=gynaecology",
+          "then": {
+            "en": "This is a gynaecologist",
+            "de": "Dies ist ein Gynäkologe",
+            "nl": "Dit is een gynaecoloog",
+            "fr": "C'est un gynécologue"
+          }
+        },
+        {
+          "if": "healthcare:speciality=psychiatry",
+          "then": {
+            "en": "This is a psychiatrist",
+            "de": "Dies ist ein Psychiater",
+            "nl": "Dit is een psychiater",
+            "fr": "C'est un psychiatre"
+          }
+        },
+        {
+          "if": "healthcare:speciality=paediatrics",
+          "then": {
+            "en": "This is a paediatrician",
+            "de": "Dies ist ein Kinderarzt",
+            "nl": "Dit is een kinderarts",
+            "fr": "C'est un pédiatre"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a doctors office",
+        "de": "eine Arztpraxis",
+        "nl": "een dokterspraktijk",
+        "fr": "un cabinet médical"
+      },
+      "tags": [
+        "amenity=doctors"
+      ]
+    }
+  ],
+  "filter": [
+    "open_now"
+  ],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "circle:white;./assets/layers/doctors/doctors.svg"
+      },
+      "iconSize": "40,40,center",
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "deletion": true,
+  "allowMove": true
+}

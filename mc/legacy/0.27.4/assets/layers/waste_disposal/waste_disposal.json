@@ -1,0 +1,241 @@
+{
+  "id": "waste_disposal",
+  "name": {
+    "en": "Waste Disposal Bins",
+    "nl": "Afvalcontainers voor huishoudelijk afval",
+    "de": "Mülltonnen und Müllcontainer",
+    "it": "Contenitori per la raccolta differenziata",
+    "id": "Tempat Pembuangan Limbah",
+    "da": "Affaldsspande",
+    "ca": "Contenidor de brossa",
+    "fr": "Réceptacles destinés à recevoir des déchets"
+  },
+  "description": {
+    "en": "Waste Disposal Bin, medium to large bin for disposal of (household) waste",
+    "nl": "Een grote afvalcontainer voor (huishoudelijk) afval",
+    "de": "Entsorgungsbehälter, mittlerer bis großer Behälter zur Entsorgung von (Haushalts-)Abfällen",
+    "it": "Cestino per lo smaltimento dei rifiuti, contenitore di dimensioni medio grandi per lo smaltimento dei rifiuti (domestici)",
+    "da": "Affaldsspande, mellemstor til stor skraldespand til bortskaffelse af (husholdnings)affald",
+    "fr": "Réceptacle destiné à recevoir des déchets (domestiques) enveloppés dans des sacs en plastique"
+  },
+  "source": {
+    "osmTags": "amenity=waste_disposal"
+  },
+  "minzoom": 18,
+  "minzoomVisible": 18,
+  "title": {
+    "render": {
+      "en": "Waste Disposal",
+      "nl": "Afvalbak",
+      "de": "Mülltonne",
+      "it": "Smaltimento rifiuti",
+      "id": "Pembuangan Limbah",
+      "da": "Bortskaffelse af affald"
+    }
+  },
+  "mapRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "icon": "circle:white;./assets/layers/waste_disposal/waste_disposal.svg"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a waste disposal bin",
+        "nl": "Een afvalcontainer",
+        "de": "eine Mülltonne",
+        "it": "un raccoglitore per lo smaltimento rifiuti",
+        "id": "tempat pembuangan sampahh",
+        "da": "en affaldsbeholder",
+        "ca": "un contenidor de basura"
+      },
+      "tags": [
+        "amenity=waste_disposal"
+      ],
+      "description": {
+        "en": "Medium to large bin for disposal of (household) waste",
+        "nl": "middelgrote of grote afvalcontainer voor (huishoudelijk) afval",
+        "de": "Mittlere bis große Mülltonne für die Entsorgung von (Haushalts-)Abfällen",
+        "it": "Cestino di dimensioni medio-grandi per lo smaltimento dei rifiuti (domestici)",
+        "id": "Tempat sampah sedang hingga besar untuk pembuangan limbah (rumah tangga)",
+        "da": "Mellemstor til stor skraldespand til bortskaffelse af (husholdnings)affald",
+        "ca": "Contenidor mitjà o gran per a dipositar residus (domèstics)"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "type",
+      "description": "Mapping allowing to change between waste_disposal and recycling",
+      "question": {
+        "en": "What kind of waste disposal bin is this?",
+        "de": "Was für ein Abfalleimer ist das?",
+        "ca": "Quin tipus de contenidor de brossa és aquest?"
+      },
+      "mappings": [
+        {
+          "if": "amenity=waste_disposal",
+          "then": {
+            "en": "This is a medium to large bin for disposal of (household) waste",
+            "de": "Dies ist eine Mülltonne oder ein Müllcontainer für (Haushalts-)Abfälle",
+            "ca": "Es tracta d'un contenidor mitjà o gran per a dipositar residus (domèstics)"
+          }
+        },
+        {
+          "if": "amenity=recycling",
+          "then": {
+            "en": "This is actually a recycling container",
+            "de": "Dies ist eigentlich ein Recyclingcontainer",
+            "ca": "En realitat es tracta d'un contenidor de reciclatge"
+          },
+          "addExtraTags": [
+            "recycling_type=container"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "access",
+      "render": {
+        "en": "Access: {access}",
+        "nl": "Toegankelijk voor {access}",
+        "de": "Zugang: {access}",
+        "it": "Accesso: {access}",
+        "id": "Akses: {access}",
+        "da": "Adgang: {access}",
+        "ca": "Accés: {access}"
+      },
+      "question": {
+        "en": "Who can use this waste disposal bin?",
+        "nl": "Wie mag deze afvalcontainer gebruiken?",
+        "de": "Wer darf die Mülltonne nutzen?",
+        "it": "Chi può utilizzare questo cestino per lo smaltimento dei rifiuti?",
+        "id": "Siapa yang bisa menggunakan tempat sampah ini?",
+        "da": "Hvem kan bruge denne affaldsbeholder?",
+        "ca": "Qui pot utilitzar aquest contenidor de brossa?"
+      },
+      "freeform": {
+        "key": "access",
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "access=yes",
+          "then": {
+            "en": "This bin can be used by anyone",
+            "nl": "Iedereen mag deze afvalcontainer gebruiken",
+            "de": "Jeder darf die Mülltonne nutzen",
+            "it": "Questo cestino può essere usato da chiunque",
+            "id": "Tempat sampah ini bisa digunakan oleh siapa saja",
+            "da": "Denne skraldespand kan bruges af alle",
+            "ca": "Aquest contenidor es pot utilitzat per qualsevol"
+          }
+        },
+        {
+          "if": "access=no",
+          "then": {
+            "en": "This bin is private",
+            "nl": "Deze afvalcontainer is enkel voor privaat gebruik",
+            "de": "Niemand darf die Mülltonne nutzen (privat)",
+            "it": "Questo cestino è privato",
+            "id": "Tempat sampah ini bersifat pribadi",
+            "da": "Denne skraldespand er privat",
+            "ca": "Aquest contenidor és privat"
+          }
+        },
+        {
+          "if": "access=residents",
+          "then": {
+            "en": "This bin is only for residents",
+            "nl": "Enkel bewoners mogen deze afvalcontainer gebruiken",
+            "de": "Nur Anwohner dürfen die Mülltonne nutzen",
+            "it": "Questo cestino è solo per residenti",
+            "id": "Tempat sampah ini hanya untuk penghuni",
+            "da": "Denne skraldespand er kun for beboere",
+            "ca": "Aquest contenidor és només per als residents"
+          }
+        }
+      ]
+    },
+    {
+      "id": "disposal-location",
+      "question": {
+        "en": "Where is this container located?",
+        "nl": "Waar bevindt deze container zich?",
+        "de": "Wo befindet sich die Mülltonne?",
+        "it": "Dove si trova questo contenitore?",
+        "id": "Di manakah lokasi kontainer ini?",
+        "da": "Hvor er denne container placeret?",
+        "ca": "On es troba aquest contenidor?"
+      },
+      "mappings": [
+        {
+          "if": "location=underground",
+          "then": {
+            "en": "This is an underground container",
+            "nl": "Dit is een ondergrondse container",
+            "de": "Die Mülltonne befindet sich unter der Erde",
+            "it": "Questo è un contenitore sotterraneo",
+            "id": "Ini adalah kontainer bawah tanah",
+            "da": "Dette er en underjordisk container",
+            "ca": "Aquest contenidor està soterrat"
+          }
+        },
+        {
+          "if": "location=indoor",
+          "then": {
+            "en": "This container is located indoors",
+            "nl": "Deze container bevindt zich binnen",
+            "de": "Die Mülltonne befindet sich in einem Gebäude",
+            "it": "Questo contenitore è al chiuso",
+            "id": "Kontainer ini terletak di dalam ruangan",
+            "da": "Denne container er placeret indendørs",
+            "ca": "Aquest contenidor està situat a l'interior"
+          }
+        },
+        {
+          "if": "location=",
+          "then": {
+            "en": "This container is located outdoors",
+            "nl": "Deze container is buiten",
+            "de": "Die Mülltonne bzw. der Müllcontainer befindet sich im Freien",
+            "it": "Questo contenitore è all'aperto",
+            "id": "Kontainer ini terletak di luar ruangan",
+            "da": "Denne container er placeret udendørs",
+            "ca": "Aquest contenidor està situat a l'aire lliure"
+          }
+        }
+      ]
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": true
+  },
+  "deletion": true,
+  "filter": [
+    {
+      "#": "ignore-possible-duplicate",
+      "id": "public-access",
+      "options": [
+        {
+          "question": {
+            "en": "Only public access",
+            "nl": "Enkel publiek toegankelijke afvalcontainers",
+            "de": "Nur öffentliche Mülltonnen",
+            "it": "Solo accesso pubblico",
+            "id": "Hanya akses publik",
+            "da": "Kun offentlig adgang",
+            "ca": "Només amb accés públic"
+          },
+          "osmTags": "access=yes"
+        }
+      ]
+    }
+  ]
+}

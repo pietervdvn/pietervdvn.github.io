@@ -1,0 +1,219 @@
+{
+  "id": "postal_codes",
+  "title": {
+    "en": "Postal codes",
+    "id": "Kode pos",
+    "hu": "Irányítószámok",
+    "de": "Postleitzahlen",
+    "ca": "Codis postals",
+    "es": "Códigos postales",
+    "nb_NO": "Postkoder",
+    "nl": "Postcodes",
+    "fr": "Codes postaux",
+    "da": "Postnumre",
+    "pa_PK": "ڈاک کوڈ",
+    "cs": "Poštovní směrovací čísla"
+  },
+  "shortDescription": {
+    "en": "Postal codes",
+    "id": "Kode pos",
+    "hu": "Irányítószámok",
+    "de": "Postleitzahlen",
+    "ca": "Codis postals",
+    "es": "Códigos postales",
+    "nb_NO": "Postkoder",
+    "nl": "Postcodes",
+    "fr": "Codes postaux",
+    "da": "Postnumre",
+    "pa_PK": "ڈاک کوڈ",
+    "cs": "Poštovní směrovací čísla"
+  },
+  "description": {
+    "en": "Postal codes",
+    "id": "Kode pos",
+    "hu": "Irányítószámok",
+    "de": "Postleitzahlen",
+    "ca": "Codis postals",
+    "es": "Códigos postales",
+    "nl": "Postcodes",
+    "fr": "Codes postaux",
+    "da": "Postnumre",
+    "nb_NO": "Postnummer",
+    "pa_PK": "ڈاک کوڈ",
+    "cs": "Poštovní směrovací čísla"
+  },
+  "icon": "./assets/themes/postal_codes/townhall.svg",
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "widenFactor": 0.05,
+  "hideFromOverview": true,
+  "clustering": false,
+  "overpassTimeout": 180,
+  "layers": [
+    {
+      "id": "postal_code_boundary",
+      "name": {
+        "en": "postal codes",
+        "id": "kode pos",
+        "hu": "irányítószámok",
+        "de": "Postleitzahlen",
+        "ca": "codis postals",
+        "es": "códigos postales",
+        "nb_NO": "postkoder",
+        "nl": "postcodes",
+        "fr": "codes postaux",
+        "da": "postnumre",
+        "pa_PK": "ڈاک کوڈ",
+        "cs": "poštovní směrovací čísla"
+      },
+      "minzoom": 8,
+      "title": {
+        "render": {
+          "en": "Postal code {postal_code}",
+          "id": "Kode pos {postal_code}",
+          "hu": "Irányítószám: {postal_code}",
+          "de": "Postleitzahl {postal_code}",
+          "es": "Código postal {postal_code}",
+          "nb_NO": "Postkode {postal_code}",
+          "nl": "Postcode {postal_code}",
+          "fr": "Code postal {postal_code}",
+          "da": "Postnummer {postal_code}",
+          "ca": "Codi postal {postal_code}",
+          "cs": "Poštovní směrovací číslo {postal_code}"
+        }
+      },
+      "description": {},
+      "tagRenderings": [
+        {
+          "id": "postal_code",
+          "render": {
+            "en": "The postal code is {postal_code}",
+            "id": "Kode posnya adalah {postal_code}",
+            "hu": "Irányítószám: {postal_code}",
+            "de": "Die Postleitzahl lautet {postal_code}",
+            "es": "El código postal es {postal_code}",
+            "nl": "Deze postcode is {postal_code}",
+            "fr": "Le code postal est {postal_code}",
+            "nb_NO": "Postnummeret er {postal_code}",
+            "da": "Postnummeret er {postal_code}",
+            "ca": "El codi postal és {postal_code}",
+            "cs": "Poštovní směrovací číslo je {postal_code}"
+          }
+        }
+      ],
+      "source": {
+        "osmTags": {
+          "or": [
+            "boundary=postal_code",
+            {
+              "and": [
+                "bounary=administrative",
+                "postal_code~*"
+              ]
+            }
+          ]
+        }
+      },
+      "mapRendering": [
+        {
+          "label": "<div class='text-xl bg-white rounded-full pl-2 pr-2 break-normal'>{postal_code}</div>",
+          "location": [
+            "point",
+            "centroid"
+          ]
+        },
+        {
+          "color": {
+            "render": "#00f"
+          },
+          "width": {
+            "render": "4"
+          },
+          "fill": "no",
+          "dashArray": "8 8"
+        }
+      ],
+      "isShown": "_country=be"
+    },
+    {
+      "id": "wrong_postal_code",
+      "source": {
+        "osmTags": {
+          "and": [
+            "boundary~*",
+            "addr:postcode~*"
+          ]
+        }
+      },
+      "title": "Boundary relation with addr:postcode={addr:postcode}",
+      "mapRendering": [
+        {
+          "color": "#f00",
+          "width": 1
+        }
+      ]
+    },
+    {
+      "id": "town_hall",
+      "name": {
+        "en": "town halls",
+        "id": "balai kota",
+        "hu": "polgármesteri hivatalok",
+        "de": "Rathäuser",
+        "ca": "ajuntaments",
+        "nl": "stadhuizen",
+        "fr": "mairies",
+        "nb_NO": "rådhus",
+        "da": "rådhuse",
+        "es": "Municipios",
+        "cs": "radnice"
+      },
+      "minzoom": 12,
+      "title": {
+        "render": {
+          "en": "Town hall {name}",
+          "id": "Balai kota {name}",
+          "hu": "{name} városháza",
+          "de": "Rathaus {name}",
+          "nl": "Stadhuis {name}",
+          "fr": "Mairie {name}",
+          "da": "Rådhus {name}",
+          "nb_NO": "{name}-rådhuset",
+          "ca": "Ajuntament de {name}",
+          "es": "Municipio {name}",
+          "cs": "Radnice {name}"
+        }
+      },
+      "calculatedTags": [
+        "_postal_code_properties=(() => { const f = feat.overlapWith('postal_code_boundary'); if(f.length===0){return {};}; const p = f[0]?.feat?.properties; return {id:p.id, postal_code: p.postal_code, _closest_town_hall: p._closest_town_hall}; })()",
+        "_postal_code=feat.get('_postal_code_properties')?.postal_code",
+        "_postal_code_center_distance=feat.distanceTo(feat.get('_postal_code_properties').id)"
+      ],
+      "description": {},
+      "tagRenderings": [],
+      "presets": [],
+      "source": {
+        "osmTags": {
+          "or": [
+            "amenity=townhall",
+            "building=church"
+          ]
+        }
+      },
+      "mapRendering": [
+        {
+          "icon": "./assets/themes/postal_codes/townhall.svg",
+          "iconSize": {
+            "render": "40,40,center"
+          },
+          "location": [
+            "point",
+            "centroid"
+          ]
+        }
+      ],
+      "isShown": "_country=be"
+    }
+  ]
+}

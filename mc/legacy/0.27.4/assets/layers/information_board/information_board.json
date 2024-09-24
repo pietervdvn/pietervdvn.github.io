@@ -1,0 +1,94 @@
+{
+  "id": "information_board",
+  "name": {
+    "nl": "Informatieborden",
+    "en": "Information boards",
+    "it": "Pannelli informativi",
+    "fr": "Panneaux d'informations",
+    "de": "Informationstafeln",
+    "ru": "Информационные щиты",
+    "ca": "Panells d'informació",
+    "es": "Paneles informativos"
+  },
+  "minzoom": 12,
+  "source": {
+    "osmTags": {
+      "and": [
+        "information=board"
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "nl": "Informatiebord",
+      "en": "Information board",
+      "it": "Pannello informativo",
+      "fr": "Panneau d'informations",
+      "de": "Informationstafel",
+      "ru": "Информационный щит",
+      "ca": "Panell d'informació",
+      "es": "Panel informativo"
+    }
+  },
+  "tagRenderings": [
+    "images"
+  ],
+  "presets": [
+    {
+      "tags": [
+        "tourism=information",
+        "information=board"
+      ],
+      "title": {
+        "nl": "een informatiebord",
+        "en": "an information board",
+        "it": "una pannello informativo",
+        "fr": "une panneau d'informations",
+        "de": "eine Informationstafel",
+        "ru": "информационный щит",
+        "es": "un panel informativo",
+        "ca": "un tauler informatiu"
+      }
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:tourism:=information",
+        "tourism=",
+        "razed:information=board",
+        "information="
+      ]
+    },
+    "neededChangesets": 1
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuraccy": true
+  },
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/layers/information_board/board.svg"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "location": [
+        "point"
+      ]
+    },
+    {
+      "color": {
+        "render": "#00f"
+      }
+    }
+  ],
+  "description": {
+    "en": "A layer showing touristical, road side information boards (e.g. giving information about the landscape, a building, a feature, a map, …)",
+    "nl": "Deze laag toont informatieborden in de publieke ruimte die uitleg geven over een bezienswaardigheid (bv. uitleg over het landschap, een ruine, een kaart van de omgeving, ...)",
+    "de": "Eine Ebene mit touristischen, straßenseitigen Informationstafeln (z. B. mit Informationen über die Landschaft, ein Gebäude, ein Merkmal, eine Karte, …)",
+    "es": "Una capa que muestra paneles informativos turísticos (ej. informan sobre el paisaje, una construcción, una característica, un mapa, ...)",
+    "ca": "Una capa que mostra panells informatius turístics (p.e. informen sobre el paissatge, una construcció, una característica, un mapa, …)"
+  }
+}

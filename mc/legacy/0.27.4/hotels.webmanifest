@@ -1,0 +1,71 @@
+{
+  "name": "Hotels",
+  "short_name": "Hotels",
+  "start_url": "hotels.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "On this map, you'll find hotels in your area",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_hotel_hotel512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/layers/hotel/hotel.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "direction",
+  "name": {
+    "en": "Direction visualization",
+    "nl": "Richtingsvisualisatie",
+    "fr": "Visualisation de la direction",
+    "it": "Visualizzazione della direzione",
+    "ru": "Визуализация направления",
+    "de": "Aufnahmewinkel der Kamera anzeigen",
+    "ca": "Direcció de la visualització"
+  },
+  "minzoom": 16,
+  "source": {
+    "osmTags": {
+      "or": [
+        "camera:direction~*",
+        "direction~*"
+      ]
+    }
+  },
+  "doNotDownload": true,
+  "passAllFeatures": true,
+  "title": null,
+  "description": {
+    "en": "This layer visualizes directions",
+    "nl": "Deze laag toont de oriëntatie van een object",
+    "fr": "Cette couche visualise les directions",
+    "it": "Questo livello visualizza le direzioni",
+    "de": "Diese Ebene visualisiert Richtungen",
+    "ru": "Этот слой визуализирует направление"
+  },
+  "tagRenderings": [],
+  "stroke": "0",
+  "presets": [],
+  "mapRendering": [
+    {
+      "icon": "direction_gradient:var(--catch-detail-color)",
+      "iconSize": "200,200,center",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "rotation": {
+        "render": "{_direction:numerical}deg"
+      }
+    },
+    {
+      "color": "--catch-detail-color"
+    }
+  ]
+}

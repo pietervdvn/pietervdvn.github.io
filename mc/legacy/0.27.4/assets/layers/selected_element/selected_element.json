@@ -1,0 +1,26 @@
+{
+  "id": "selected_element",
+  "description": {
+    "en": "Highlights the currently selected element. Override this layer to have different colors",
+    "nl": "Toont het geselecteerde element",
+    "de": "Hebt das aktuell ausgewählte Element hervor. Überschreiben Sie diese Ebene, um unterschiedliche Farben zu erhalten",
+    "fr": "Met en surbrillance l'élément actuellement sélectioné. Surcharger cette couche pour avoir d'autres couleurs.",
+    "ca": "Ressalta l'element seleccionat actualment. Anul·leu aquesta capa per tenir diferents colors"
+  },
+  "source": {
+    "osmTags": "selected=yes",
+    "maxCacheAge": 0
+  },
+  "mapRendering": [
+    {
+      "icon": "circle:red",
+      "iconSize": "1,1,center",
+      "location": [
+        "point",
+        "projected_centerpoint"
+      ],
+      "css": "box-shadow: red 0 0 20px 20px; z-index: -1; height: 1px; width: 1px;",
+      "cssClasses": "block relative rounded-full"
+    }
+  ]
+}

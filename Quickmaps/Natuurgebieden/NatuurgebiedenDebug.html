@@ -1,0 +1,183 @@
+<html>
+<head>
+	 <meta charset="UTF-8"> 
+	<title>Natuurgebieden-Plan</title>
+	<link rel="stylesheet" href="../vendor/leaflet/leaflet.css"/>
+	<script src="../vendor/leaflet/leaflet.js"></script>
+	<script src="../vendor/jquery-3.3.1.min.js"></script>
+	<script src="NatuurpuntPopupText.js"></script>
+	<script src="../SortTable.js"></script>
+  	<script src="../LoadFromOverpass.js"></script>
+    <script src="../vendor/leaflet-heat.js"></script>
+	
+	<style>
+		#map{ width: 1500px; height: 800; }
+	</style>
+
+</head>
+
+
+<body>
+
+
+<div id="map"></div>
+
+<h1>Debug</h1>
+
+<table id="DebugList">
+<thead><th onClick='sortTable("DebugList", 0)'>Name</th><th onClick='sortTable("DebugList",1)'>OSM</th></thead>
+</table>
+
+<script>
+
+
+
+function addCell(row, text){
+	var cell = row.insertCell(row.length);
+	cell.innerHTML = text;
+	return cell;
+}
+
+var commonTags = ["area","wikipedia","website","image","curator","phone","email","access","dog"]
+function createHeader(){
+	var table = document.getElementById("DebugList").tHead.children[0];
+	let j = 2;
+	for(let i in commonTags){
+		var th = document.createElement('th');
+		let v = j;
+		th.innerHTML = commonTags[i];
+		th.onclick = function(){sortTable("DebugList", (v))};
+		table.appendChild(th);
+		j = j + 1;
+	}
+	var th = document.createElement('th');
+	th.innerHTML ="Score";
+	th.onclick = function(){sortTable("DebugList", j)};
+	table.appendChild(th);
+}
+createHeader();
+var seen = {}
+
+function addDebugText(tags, area){
+	if(seen[tags.id]){
+		return popupText(tags, area);
+	}
+	seen[tags.id] = tags;
+
+	if(tags.access != "yes"){
+		tags.dog = "<small>no<small>";
+	}
+
+	var table = document.getElementById("DebugList");
+	
+
+
+	var row = table.insertRow(1);
+	addCell(row, "<strong>"+tags.name+"</strong>");
+	addCell(row, "<a href='https://osm.org/"+tags.type+"/"+tags.id+"'>"+tags.type+"</a>");
+	let score = 0;
+	for(var i in commonTags){
+		let tag = commonTags[i]
+		let value = tags[tag];
+		if(value == undefined){
+			addCell(row, "");
+		}else{
+			cell = addCell(row, value)
+			score++;
+		}
+	}
+	cell = addCell(row, score+"/"+commonTags.length)
+	return popupText(tags, area);
+}
+
+function addTotals(){
+
+
+
+	var table = document.getElementById("DebugList");
+	var totalArea = 0.0;
+	var seenTotal = 0;
+	for(var i in seen){
+		if(!isNaN(seen[i].area)){
+			totalArea += seen[i].area;
+		}
+		seenTotal += 1;
+	}
+	var row = table.insertRow(1);
+	addCell(row, "Total area");
+	addCell(row, totalArea);
+	var totals = 0;
+	for(var i in commonTags){
+		let tag = commonTags[i];
+		let found = 0;
+		for(var j in seen){
+			if(seen[j][tag]){
+				found++;
+			}
+		}
+		totals += found;
+		cell = addCell(row, found+"/"+seenTotal);
+		cell.style.textAlign = "center";
+	}
+	cell = addCell(row, totals+"/"+(commonTags.length*seenTotal));
+	cell.style.textAlign = "center"
+
+	
+}
+
+var urlParams = new URLSearchParams(window.location.search);
+
+let afd = urlParams.get('operator')
+let searchIn = urlParams.get('area')
+
+console.log("Getting started...");
+map = initializeMap();
+map.setView([51.222, 3.227], 12);
+
+if(afd == undefined ){
+	alert("You forgot the query string. add '?operator=NAME OF NATURE RESERVE OPERATOR' to the url");
+}
+if(searchIn == undefined){
+    searchIn = "Belgium";
+}
+
+//*
+
+
+function clipAreas(bounds){
+	return function (areas){
+	var clipped = [];
+	for (var i in bounds){
+		for(var j in areas){
+			var clipI = PolygonClip(areas[j], bounds[i]);
+			clipped = clipped.concat(clipI);
+		}
+	}
+	return clipped;}
+}
+
+function continuation(bounds){
+	addTotals();
+	console.log("Got data: ", bounds);
+
+	CachedFirstRender(['"landuse"'], "De Leiemeersen", addDebugText, undefined, {preprocessing: clipAreas(bounds)});
+
+
+}
+var options =  {continuation: continuation, hidden : true};
+
+CachedFirstRender(['"name"="De Leiemeersen"', '"leisure"="nature_reserve"'], "West-Vlaanderen", addDebugText, imageFunction, options);
+
+
+/*/
+$.getJSON("https://raw.githubusercontent.com/pietervdvn/pietervdvn.github.io/master/cache/Natuurgebieden.json",
+	function(json){renderQuery(json.elements, popupText, imageFunction, false, addTotals)});
+//*/
+	
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Small tests</title>
+    
+    <link href="./vendor/leaflet.css" rel="stylesheet"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <meta content="website" property="og:type">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+
+  <script type="module" crossorigin src="/mc/legacy/0.27.4/assets/test-2e850212.js"></script>
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/SvelteUIElement-65e2316e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ToSvelte-f31dc93e.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/language_native-373a312a.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/ContactLink-5ac5344d.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/_commonjsHelpers-edff4021.js">
+  <link rel="modulepreload" crossorigin href="/mc/legacy/0.27.4/assets/BBox-aa5284c9.js">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/SvelteUIElement-dd8cb05b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/ToSvelte-c55834a1.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/test-fd785d11.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tabbedComponent-82c5367b.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/tagrendering-e4d9a4c2.css">
+  <link rel="stylesheet" href="/mc/legacy/0.27.4/assets/wikipedia-d4b8e548.css">
+</head>
+<body>
+
+<div id="maindiv">'maindiv' not attached</div>
+<div id="extradiv">'extradiv' not attached</div>
+
+
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('SW registration successful');
+                },
+                err => {
+                    console.error('SW registration failed', err)
+                });
+        } else {
+            console.error("Service workers are not supported")
+        }
+    });
+</script>
+</body>
+</html>

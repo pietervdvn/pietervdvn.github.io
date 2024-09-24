@@ -1,0 +1,101 @@
+{
+  "id": "bike_themed_object",
+  "name": {
+    "en": "Bike-related object",
+    "nl": "Fietsgerelateerd object",
+    "fr": "Objet cycliste",
+    "de": "Weitere fahrradbezogene Objekte",
+    "it": "Oggetto relativo alle bici",
+    "es": "Objeto relacionado con bicis",
+    "da": "Cykelrelateret genstand",
+    "ca": "Objectes relacionats amb bicicletes"
+  },
+  "minzoom": 13,
+  "source": {
+    "osmTags": {
+      "or": [
+        "theme=bicycle",
+        "theme=cycling",
+        "sport=cycling",
+        "association=cycling",
+        "association=bicycle",
+        "ngo=cycling",
+        "ngo=bicycle",
+        "club=bicycle",
+        "club=cycling"
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "en": "Bike-related object",
+      "nl": "Fietsgerelateerd object",
+      "fr": "Objet cycliste",
+      "de": "Fahrradbezogenes Objekt",
+      "it": "Oggetto relativo alle bici",
+      "es": "Objeto relacionado con bicis",
+      "da": "Cykelrelateret objekt",
+      "ca": "Objecte relacionat amb bicis"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "<i>{name}</i>"
+      },
+      {
+        "if": "leisure=track",
+        "then": {
+          "nl": "Wielerpiste",
+          "en": "Cycle track",
+          "fr": "Piste cyclable",
+          "it": "Pista ciclabile",
+          "de": "Radweg",
+          "ru": "Велотрек",
+          "ca": "Pista ciclable",
+          "es": "Carril bici",
+          "da": "Cykelsti"
+        }
+      }
+    ]
+  },
+  "tagRenderings": [
+    "images",
+    "description",
+    "website",
+    "email",
+    "phone",
+    "opening_hours"
+  ],
+  "presets": [],
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/layers/bike_themed_object/other_services.svg"
+      },
+      "iconSize": {
+        "render": "50,50,bottom"
+      },
+      "location": [
+        "point",
+        "centroid"
+      ]
+    },
+    {
+      "color": {
+        "render": "#AB76D5"
+      },
+      "width": {
+        "render": "2"
+      }
+    }
+  ],
+  "description": {
+    "en": "A layer with bike-themed objects but who don't match any other layer",
+    "nl": "Een laag met fietsgerelateerde diensten, die in geen enkele andere laag konden ondergebracht worden",
+    "de": "Eine Ebene mit Objekten zum Thema Fahrrad, die zu keiner anderen Ebene passen",
+    "es": "Una capa con los objetos relacionados con bicis pero que no coinciden con ninguna otra capa",
+    "fr": "Une couche sur le thème des vélos mais qui ne correspondent à aucune autre couche",
+    "da": "Et lag med objekter med cykeltema, men som ikke matcher noget andet lag",
+    "ca": "Una capa amb els objectes relacionats amb bicis però que no coinxideixen amb cap altra capa"
+  }
+}

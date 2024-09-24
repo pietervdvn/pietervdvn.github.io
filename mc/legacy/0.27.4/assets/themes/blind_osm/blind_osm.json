@@ -1,0 +1,109 @@
+{
+  "id": "blind_osm",
+  "title": {
+    "en": "OSM for the blind",
+    "de": "OSM für Blinde",
+    "nl": "OSM voor blinden",
+    "fr": "OSM pour les malvoyants",
+    "nb_NO": "OSM for blinde",
+    "ca": "OSM per als cecs",
+    "cs": "Mapování systému objektů pro nevidomé",
+    "ru": "OSM для слепых и слабовидящих",
+    "es": "OSM para ciegos"
+  },
+  "description": {
+    "en": "Help to map features relevant for the blind",
+    "de": "Hilfe zur Kartierung blindenrelevanter Merkmale",
+    "nl": "Help zaken die relevant zijn voor blinden in kaart te brengen",
+    "fr": "Aidez à cartographier les caractéristiques importantes pour les malvoyants",
+    "ca": "Ajuda a mapejar elements rellevants per a persones amb discapacitat visual",
+    "cs": "Pomozte zmapovat objekty důležité pro nevidomé",
+    "nb_NO": "Relevante funksjoner for blinde",
+    "es": "Ayuda para cartografiar elementos relevantes para invidentes"
+  },
+  "icon": "./assets/themes/blind_osm/Blindicon.svg",
+  "startLat": 52.99238,
+  "startLon": 6.570614,
+  "startZoom": 20,
+  "defaultBackgroundId": "CartoDB.Positron",
+  "layers": [
+    {
+      "builtin": "cycleways_and_roads",
+      "override": {
+        "title": null,
+        "forceLoad": true,
+        "minzoom": 18,
+        "passAllFeatures": true,
+        "shownByDefault": false
+      }
+    },
+    {
+      "builtin": "crossings",
+      "override": {
+        "mapRendering": [
+          {
+            "iconBadges": [
+              {
+                "if": "tactile_paving=yes",
+                "then": "circle:green"
+              },
+              {
+                "if": "tactile_paving=no",
+                "then": "circle:red"
+              }
+            ]
+          }
+        ]
+      },
+      "hideTagRenderingsWithLabels": [
+        "crossing-bicycle-allowed"
+      ]
+    },
+    {
+      "builtin": "kerbs",
+      "override": {
+        "minzoom": 19,
+        "mapRendering": [
+          {
+            "iconBadges": [
+              {
+                "if": "tactile_paving=yes",
+                "then": "circle:green"
+              },
+              {
+                "if": "tactile_paving=no",
+                "then": "circle:red"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "transit_stops",
+      "override": {
+        "mapRendering": [
+          {
+            "iconBadges": [
+              {
+                "if": "tactile_paving=yes",
+                "then": "circle:green"
+              },
+              {
+                "if": "tactile_paving=no",
+                "then": "circle:red"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "elevator",
+      "override": {
+        "minzoom": 17
+      }
+    },
+    "stairs"
+  ]
+}

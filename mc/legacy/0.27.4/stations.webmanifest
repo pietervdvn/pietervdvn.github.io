@@ -1,0 +1,71 @@
+{
+  "name": "Train Stations",
+  "short_name": "Train Stations",
+  "start_url": "stations.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "View, edit and add details to a train station",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_stations_rail-light512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/themes/stations/rail-light.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

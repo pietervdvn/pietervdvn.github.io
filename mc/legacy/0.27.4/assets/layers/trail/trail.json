@@ -1,0 +1,250 @@
+{
+  "id": "trail",
+  "name": {
+    "en": "Trails",
+    "nl": "Wandeltochten",
+    "ru": "Тропы",
+    "de": "Wanderwege",
+    "fr": "Sentiers",
+    "ca": "Camins",
+    "da": "Stier"
+  },
+  "minzoom": 12,
+  "source": {
+    "osmTags": {
+      "and": [
+        {
+          "or": [
+            "route~.*foot.*",
+            "route~.*hiking.*",
+            "route~.*bycicle.*",
+            "route~.*horse.*"
+          ]
+        }
+      ]
+    }
+  },
+  "title": {
+    "render": {
+      "en": "Trail",
+      "nl": "Wandeltocht",
+      "ru": "Тропа",
+      "de": "Wanderweg",
+      "fr": "Sentier",
+      "ca": "Camí",
+      "da": "Sti"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "{name}"
+      }
+    ]
+  },
+  "tagRenderings": [
+    "images",
+    {
+      "id": "trail-length",
+      "render": {
+        "en": "The trail is {_length:km} kilometers long",
+        "nl": "Deze wandeling is {_length:km} kilometer lang",
+        "de": "Der Wanderweg ist {_length:km} Kilometer lang",
+        "fr": "Le sentier fait {_length:km} kilomètres de long",
+        "da": "Stien er {_length:km} kilometer lang"
+      }
+    },
+    {
+      "question": {
+        "nl": "Wat is de naam van deze wandeling?"
+      },
+      "render": {
+        "nl": "Deze wandeling heet <b>{name}</b>"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "Name"
+    },
+    {
+      "render": {
+        "nl": "Beheer door {operator}"
+      },
+      "question": {
+        "nl": "Wie beheert deze wandeltocht?"
+      },
+      "freeform": {
+        "key": "operator"
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "operator=Natuurpunt"
+            ]
+          },
+          "then": {
+            "nl": "Dit gebied wordt beheerd door Natuurpunt"
+          },
+          "icon": {
+            "path": "./assets/themes/buurtnatuur/Natuurpunt.jpg",
+            "class": "small"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "operator~(n|N)atuurpunt.*"
+            ]
+          },
+          "then": {
+            "nl": "Dit gebied wordt beheerd door {operator}"
+          },
+          "hideInAnswer": true,
+          "icon": {
+            "path": "./assets/themes/buurtnatuur/Natuurpunt.jpg",
+            "class": "small"
+          }
+        }
+      ],
+      "id": "Operator tag"
+    },
+    {
+      "question": {
+        "nl": "Welke kleur heeft deze wandeling?"
+      },
+      "render": {
+        "nl": "Deze wandeling heeft kleur {colour}"
+      },
+      "freeform": {
+        "key": "colour",
+        "type": "color"
+      },
+      "mappings": [
+        {
+          "if": "colour=blue",
+          "then": {
+            "nl": "Blauwe wandeling",
+            "en": "Blue trail",
+            "de": "Blauer Weg",
+            "fr": "Sentier bleu",
+            "da": "Blå sti"
+          }
+        },
+        {
+          "if": "colour=red",
+          "then": {
+            "nl": "Rode wandeling",
+            "en": "Red trail",
+            "de": "Roter Weg",
+            "fr": "Sentier rouge",
+            "da": "Rød sti"
+          }
+        },
+        {
+          "if": "colour=green",
+          "then": {
+            "nl": "Groene wandeling",
+            "en": "Green trail",
+            "de": "Grüner Weg",
+            "fr": "Sentier vert",
+            "da": "Grøn sti"
+          }
+        },
+        {
+          "if": "colour=yellow",
+          "then": {
+            "nl": "Gele wandeling",
+            "en": "Yellow trail",
+            "de": "Gelber Weg",
+            "fr": "Sentier jaune",
+            "da": "Gul sti"
+          }
+        }
+      ],
+      "id": "Color"
+    },
+    {
+      "question": {
+        "nl": "Is deze wandeling toegankelijk met de rolstoel?"
+      },
+      "mappings": [
+        {
+          "then": {
+            "nl": "deze wandeltocht is toegankelijk met de rolstoel"
+          },
+          "if": "wheelchair=yes"
+        },
+        {
+          "then": {
+            "nl": "deze wandeltocht is niet toegankelijk met de rolstoel"
+          },
+          "if": "wheelchair=no"
+        }
+      ],
+      "id": "Wheelchair access"
+    },
+    {
+      "question": {
+        "nl": "Is deze wandeltocht toegankelijk met de buggy?"
+      },
+      "mappings": [
+        {
+          "then": {
+            "nl": "deze wandeltocht is toegankelijk met de buggy"
+          },
+          "if": "pushchair=yes"
+        },
+        {
+          "then": {
+            "nl": "deze wandeltocht is niet toegankelijk met de buggy"
+          },
+          "if": "pushchair=no"
+        }
+      ],
+      "id": "pushchair access"
+    }
+  ],
+  "description": {
+    "nl": "Aangeduide wandeltochten"
+  },
+  "mapRendering": [
+    {
+      "icon": {
+        "render": "./assets/layers/trail/trail.svg",
+        "mappings": [
+          {
+            "if": "wheelchair=yes",
+            "then": "./assets/layers/trail/wheelchair.svg"
+          },
+          {
+            "if": "pushchair=yes",
+            "then": "./assets/layers/trail/pushchair.svg"
+          }
+        ]
+      },
+      "iconSize": {
+        "render": "35,35,center"
+      },
+      "location": [
+        "point"
+      ]
+    },
+    {
+      "color": {
+        "render": "#335D9F",
+        "mappings": [
+          {
+            "if": "colour~*",
+            "then": "{colour}"
+          }
+        ]
+      },
+      "width": {
+        "render": "3"
+      },
+      "dashArray": {
+        "render": "5 5"
+      }
+    }
+  ]
+}

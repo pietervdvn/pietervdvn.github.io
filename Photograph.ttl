@@ -1,0 +1,41 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix v: <http://pietervdvn.github.io/Photograph.ttl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+v:Photograph a rdfs:Class ;
+    rdfs:subClassOf <https://www.wikidata.org/wiki/Q478798> ;
+    rdfs:label "a photograph"@en;
+    rdfs:comment "A photograph is an image created by a device with a photosensor. The photograph can be physical (e.g. printed on a piece of paper or wood) or can be represented digitally".
+
+
+v:depicts a rdfs:Property;
+    rdfs:label "depicts"@en, "toont"@nl;
+    rdfs:comment "this pictures shows the specified object"@en;
+    rdfs:domain v:Photograph.
+
+
+v:madeby a rdfs:Property;
+    rdfs:label "made by"@en, "gemaakt door"@nl;
+    rdfs:comment "this pictures was created by this person"@en;
+    rdfs:domain v:Photograph;
+    rdfs:range <http://xmlns.com/foaf/spec/#term_Person>.
+
+v:creationdate a rdfs:Property;
+    rdfs:label "made on date"@en, "gemaakt op dag"@nl;
+    rdfs:comment "this pictures was created at this moment in time"@en;
+    rdfs:domain v:Photograph;
+    rdfs:range <http://xmlns.com/foaf/spec/#term_Person>.
+
+v:location a rdfs:Property;
+   rdfs:label "made at location"@en, "gemaakt op locatie"@nl;
+    rdfs:comment "this pictures was created at this location"@en;
+    rdfs:domain v:Photograph.
+
+v:license a rdfs:Property;
+   rdfs:label "licensed under"@en;
+    rdfs:comment "this pictures has the following license"@en;
+    rdfs:domain v:Photograph;
+    rdfs:range <https://schema.org/license>.
+

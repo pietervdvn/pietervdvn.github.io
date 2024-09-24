@@ -1,0 +1,180 @@
+{
+  "id": "filters",
+  "description": "This layer acts as library for common filters",
+  "mapRendering": null,
+  "source": {
+    "osmTags": "id~*"
+  },
+  "filter": [
+    {
+      "id": "open_now",
+      "options": [
+        {
+          "question": {
+            "en": "Open now",
+            "nl": "Nu geopened",
+            "de": "Jetzt geöffnet",
+            "ca": "Obert ara",
+            "es": "Abierta ahora",
+            "fr": "Ouvert maintenant",
+            "hu": "Most nyitva van",
+            "da": "Åbent nu",
+            "zh_Hant": "目前開放",
+            "id": "Saat ini buka",
+            "it": "Aperto ora"
+          },
+          "osmTags": "_isOpen=yes"
+        }
+      ]
+    },
+    {
+      "id": "accepts_cash",
+      "options": [
+        {
+          "osmTags": "payment:cash=yes",
+          "question": {
+            "en": "Accepts cash",
+            "de": "Akzeptiert Barzahlung",
+            "nl": "Accepteert cash",
+            "es": "Acepta efectivo",
+            "fr": "Accepte les espèces"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accepts_cards",
+      "options": [
+        {
+          "osmTags": "payment:cards=yes",
+          "question": {
+            "en": "Accepts payment cards",
+            "de": "Akzeptiert Kartenzahlung",
+            "nl": "Accepteert betaalkaarten",
+            "es": "Acepta el pago por tarjeta",
+            "fr": "Accepte les cartes de paiement"
+          }
+        }
+      ]
+    },
+    {
+      "id": "has_image",
+      "options": [
+        {
+          "question": {
+            "en": "With and without images",
+            "nl": "Met en zonder afbeelding",
+            "de": "Mit und ohne Bild"
+          }
+        },
+        {
+          "question": {
+            "en": "Has at least one image",
+            "de": "Hat mindestens ein Bild",
+            "nl": "Heeft minstens één afbeelding"
+          },
+          "osmTags": {
+            "or": [
+              "image~*",
+              "image:0~*",
+              "image:1~*",
+              "image:2~*",
+              "image:3~*",
+              "mapillary~*"
+            ]
+          }
+        },
+        {
+          "question": {
+            "en": "Probably does not have an image",
+            "de": "Hat wahrscheinlich kein Bild",
+            "nl": "Heeft waarschijnlijk geen afbeelding"
+          },
+          "osmTags": {
+            "and": [
+              "image=",
+              "image:0=",
+              "image:1=",
+              "image:2=",
+              "image:3=",
+              "mapillary="
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tactile_paving",
+      "options": [
+        {
+          "question": {
+            "en": "With tactile paving",
+            "de": "Mit taktilem Pflaster",
+            "fr": "Avec revêtement podotactile",
+            "nl": "Met voelbare bestrating"
+          },
+          "osmTags": "tactile_paving=yes"
+        }
+      ]
+    },
+    {
+      "id": "tactile_paving_advanced",
+      "#": "ignore-possible-duplicate",
+      "options": [
+        {
+          "question": {
+            "en": "With or without tactile paving",
+            "de": "Mit oder ohne taktiles Pflaster",
+            "fr": "Avec ou sans revêtement podotactile",
+            "nl": "Met of zonder voelbare bestrating"
+          }
+        },
+        {
+          "question": {
+            "en": "With tactile paving",
+            "de": "Mit taktilem Pflaster",
+            "fr": "Avec revêtement podotactile",
+            "nl": "Met voelbare bestrating"
+          },
+          "osmTags": "tactile_paving=yes"
+        },
+        {
+          "question": {
+            "en": "Without tactile paving",
+            "de": "Ohne taktiles Pflaster",
+            "fr": "Sans revêtement podotactile",
+            "nl": "Zonder voelbare bestrating"
+          },
+          "osmTags": "tactile_paving=no"
+        },
+        {
+          "osmTags": "tactile_paving=",
+          "question": {
+            "en": "No information about tactile paving",
+            "de": "Keine Informationen über taktiles Pflaster",
+            "fr": "Sans information sur le revêtement podotactile",
+            "nl": "Geen informatie over voelbare bestrating"
+          }
+        }
+      ]
+    },
+    {
+      "id": "has_organic",
+      "options": [
+        {
+          "osmTags": {
+            "or": [
+              "organic=yes",
+              "organic=only"
+            ]
+          },
+          "question": {
+            "en": "Has organic options",
+            "de": "Bio-Produkte im Angebot",
+            "nl": "Heeft biologische opties"
+          }
+        }
+      ]
+    }
+  ]
+}

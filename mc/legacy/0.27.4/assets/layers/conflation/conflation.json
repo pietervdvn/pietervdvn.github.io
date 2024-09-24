@@ -1,0 +1,89 @@
+{
+  "id": "conflation",
+  "description": "If the import-button moves OSM points, the imported way points or conflates, a preview is shown. This layer defines how this preview is rendered. This layer cannot be included in a theme.",
+  "minzoom": 1,
+  "source": {
+    "osmTags": {
+      "or": [
+        "move=yes",
+        "newpoint=yes"
+      ]
+    }
+  },
+  "name": "Conflation",
+  "title": "Conflation",
+  "mapRendering": [
+    {
+      "location": "point",
+      "icon": {
+        "render": "addSmall:#000",
+        "mappings": [
+          {
+            "if": "detach=yes",
+            "then": "circle:white;close:#c33"
+          }
+        ]
+      },
+      "iconSize": "10,10,center"
+    },
+    {
+      "location": "end",
+      "icon": {
+        "render": "circle:#0f0",
+        "mappings": [
+          {
+            "if": "reprojection=yes",
+            "then": "none:#f00"
+          },
+          {
+            "if": "move=no",
+            "then": "ring:#0f0"
+          }
+        ]
+      },
+      "iconSize": "10,10,center"
+    },
+    {
+      "location": "start",
+      "icon": {
+        "render": "square:#f00",
+        "mappings": [
+          {
+            "if": "reprojection=yes",
+            "then": "reload:#f00"
+          }
+        ]
+      },
+      "iconSize": {
+        "render": "10,10,center",
+        "mappings": [
+          {
+            "if": "distance<0.1",
+            "then": "0,0,center"
+          }
+        ]
+      }
+    },
+    {
+      "width": {
+        "render": "3",
+        "mappings": [
+          {
+            "if": "distance<0.2",
+            "then": "0"
+          }
+        ]
+      },
+      "color": "#00f",
+      "dasharray": {
+        "render": "",
+        "mappings": [
+          {
+            "if": "resulting-geometry=yes",
+            "then": "6 6"
+          }
+        ]
+      }
+    }
+  ]
+}
