@@ -4505,6 +4505,9 @@
                     },
                     "2": {
                         "then": "Geen veganistische snacks beschikbaar"
+                    },
+                    "3": {
+                        "then": "Geen veganistische snacks beschikbaar"
                     }
                 },
                 "question": "Heeft deze frituur veganistische snacks?"
@@ -4518,6 +4521,9 @@
                         "then": "Slechts enkele vegetarische snacks"
                     },
                     "2": {
+                        "then": "Geen vegetarische snacks beschikbaar"
+                    },
+                    "3": {
                         "then": "Geen vegetarische snacks beschikbaar"
                     }
                 },
@@ -9865,6 +9871,13 @@
         },
         "title": {
             "render": "Afvalbak"
+        }
+    },
+    "waterway_lock": {
+        "tagRenderings": {
+            "max_depth": {
+                "question": "Wat is de maximale toegestane diepgang in deze sluis?"
+            }
         }
     },
     "windturbine": {

@@ -41,6 +41,7 @@
       {
         "if": {
           "and": [
+            "type=",
             {
               "or": [
                 "waterway=river",
@@ -58,6 +59,7 @@
       {
         "if": {
           "and": [
+            "type=",
             {
               "or": [
                 "waterway=river",
@@ -14550,6 +14552,7 @@
               },
               {
                 "and": [
+                  "type=",
                   {
                     "or": [
                       "waterway=river",
@@ -14786,6 +14789,7 @@
               },
               {
                 "and": [
+                  "type=",
                   {
                     "or": [
                       "waterway=river",
@@ -15836,6 +15840,7 @@
               },
               {
                 "and": [
+                  "type=",
                   {
                     "or": [
                       "waterway=river",
@@ -16072,6 +16077,7 @@
               },
               {
                 "and": [
+                  "type=",
                   {
                     "or": [
                       "waterway=river",
@@ -17950,6 +17956,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -18151,6 +18158,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -19200,6 +19208,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -19436,6 +19445,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -20508,6 +20518,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -20744,6 +20755,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -21819,6 +21831,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -22055,6 +22068,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -23132,6 +23146,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -23368,6 +23383,7 @@
           },
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -25456,6 +25472,7 @@
           "tower:type=observation",
           {
             "and": [
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -89740,18 +89757,18 @@
       },
       "mappings": [
         {
-          "if": "diet:vegetarian=yes",
+          "if": "diet:vegetarian=only",
           "then": {
             "en": "Vegetarian snacks are available",
-            "nl": "Er zijn vegetarische snacks aanwezig",
-            "fr": "Des collations végétariens sont disponibles",
-            "de": "Vegetarische Snacks sind erhältlich",
             "ca": "Hi ha snacks vegetarians disponibles",
-            "cs": "Vegetariánské občerstvení je k dispozici"
+            "cs": "Vegetariánské občerstvení je k dispozici",
+            "de": "Vegetarische Snacks sind erhältlich",
+            "fr": "Des collations végétariens sont disponibles",
+            "nl": "Er zijn vegetarische snacks aanwezig"
           }
         },
         {
-          "if": "diet:vegetarian=limited",
+          "if": "diet:vegetarian=yes",
           "then": {
             "en": "Only a small selection of snacks are vegetarian",
             "nl": "Slechts enkele vegetarische snacks",
@@ -89759,6 +89776,17 @@
             "de": "Nur eine kleine Auswahl an vegetarischen Snacks ist erhältlich",
             "ca": "Només una petita selecció de snacks son vegetarians",
             "cs": "Pouze malý výběr občerstvení je vegetariánský"
+          }
+        },
+        {
+          "if": "diet:vegetarian=limited",
+          "then": {
+            "en": "No vegetarian snacks are available",
+            "nl": "Geen vegetarische snacks beschikbaar",
+            "fr": "Pas d'en-cas végétariens disponibles",
+            "de": "Es sind keine vegetarischen Snacks erhältlich",
+            "ca": "No hi han sacks disponibles",
+            "cs": "Vegetariánské občerstvení není k dispozici"
           }
         },
         {
@@ -89797,18 +89825,18 @@
       },
       "mappings": [
         {
-          "if": "diet:vegan=yes",
+          "if": "diet:vegan=only",
           "then": {
             "en": "Vegan snacks are available",
-            "nl": "Er zijn veganistische snacks aanwezig",
-            "fr": "Des collations végétaliens sont disponibles",
-            "de": "Vegane Snacks sind erhältlich",
             "ca": "Hi han snacks vegans disponibles",
-            "cs": "Veganské občerstvení je k dispozici"
+            "cs": "Veganské občerstvení je k dispozici",
+            "de": "Vegane Snacks sind erhältlich",
+            "fr": "Des collations végétaliens sont disponibles",
+            "nl": "Er zijn veganistische snacks aanwezig"
           }
         },
         {
-          "if": "diet:vegan=limited",
+          "if": "diet:vegan=yes",
           "then": {
             "en": "A small selection of vegan snacks are available",
             "nl": "Slechts enkele veganistische snacks",
@@ -89816,6 +89844,17 @@
             "de": "Nur eine kleine Auswahl an veganen Snacks ist erhältlich",
             "ca": "Hi ha una petita selecció de snacks vegans disponibles",
             "cs": "K dispozici je malý výběr veganského občerstvení"
+          }
+        },
+        {
+          "if": "diet:vegan=limited",
+          "then": {
+            "en": "No vegan snacks are available",
+            "nl": "Geen veganistische snacks beschikbaar",
+            "fr": "Pas d'en-cas végétaliens disponibles",
+            "de": "Es sind keine veganen Snacks verfügbar",
+            "ca": "No hi ha snacks vegans disponibles",
+            "cs": "Veganské občerstvení není k dispozici"
           }
         },
         {
@@ -93152,202 +93191,6 @@
       }
     },
     {
-      "question": {
-        "en": "What is the maximum width (beam) of boats using this lock?"
-      },
-      "id": "max_length",
-      "render": {
-        "en": "This lock permits boats with a maximum width of {maxwidth}"
-      },
-      "freeform": {
-        "key": "maxwidth",
-        "unit": "length",
-        "inline": true
-      },
-      "questionHint": {
-        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
-      },
-      "condition": {
-        "and": [
-          "lock=yes",
-          "waterway!=derelict_canal"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "What is the maximum length of boats that may use this lock?"
-      },
-      "id": "2_qyvwk0kx77jcmh2",
-      "multiAnswer": false,
-      "freeform": {
-        "key": "maxlength",
-        "inline": true
-      },
-      "render": {
-        "en": "Boats with a maximum length of {maxlength} may use this lock."
-      },
-      "questionHint": {
-        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
-      },
-      "condition": {
-        "and": [
-          "lock=yes",
-          "waterway!=derelict_canal"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "How far does this lock raise or lower a boat?"
-      },
-      "id": "3_sm4v6ow91r2i4kd",
-      "questionHint": {
-        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
-      },
-      "multiAnswer": false,
-      "freeform": {
-        "key": "lock:height",
-        "type": "nat",
-        "inline": true
-      },
-      "render": {
-        "en": "This lock has a drop height of {lock:height}"
-      },
-      "condition": {
-        "and": [
-          "lock=yes",
-          "waterway!=derelict_canal"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "Is this lock automated?"
-      },
-      "id": "4_pwnx07go36rzk54",
-      "mappings": [
-        {
-          "if": "automated=yes",
-          "then": {
-            "en": "This lock is automated (operated from control panel or control room)"
-          },
-          "addExtraTags": [
-            "manual=no"
-          ]
-        },
-        {
-          "if": "manual=yes",
-          "then": {
-            "en": "This lock is manually operated (with muscle power)"
-          },
-          "addExtraTags": [
-            "automated=no"
-          ]
-        }
-      ],
-      "multiAnswer": false,
-      "condition": {
-        "and": [
-          "lock=yes",
-          "waterway!=derelict_canal"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "What is the maximum draft of boats using this lock?"
-      },
-      "id": "5_1sz01guflvjeyx7",
-      "questionHint": {
-        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
-      },
-      "multiAnswer": false,
-      "render": {
-        "en": "The maximum draft of boats using this lock is {draft}."
-      },
-      "freeform": {
-        "key": "draft",
-        "inline": true
-      },
-      "condition": {
-        "and": [
-          "lock=yes",
-          "waterway!=derelict_canal"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "What is the name of this lock?"
-      },
-      "id": "lock_name",
-      "questionHint": {
-        "en": "The numerical reference code can be added in a follow-up question "
-      },
-      "multiAnswer": false,
-      "render": {
-        "en": "This lock is named {lock_name}"
-      },
-      "freeform": {
-        "key": "lock_name",
-        "inline": true
-      },
-      "condition": {
-        "or": [
-          "lock=yes",
-          "lock=yes"
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "Does this lock have a reference number/code?"
-      },
-      "id": "waterway_lock_ref",
-      "multiAnswer": false,
-      "render": {
-        "en": "This is lock {lock_ref}"
-      },
-      "freeform": {
-        "key": "lock_ref",
-        "inline": true
-      },
-      "condition": {
-        "and": [
-          {
-            "and": [
-              "lock=yes"
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "question": {
-        "en": "What VHF channel should be used to communicate with the control room of this lock?"
-      },
-      "id": "vhf",
-      "render": {
-        "en": "The VHF channelnis {vhf}"
-      },
-      "freeform": {
-        "key": "vhf",
-        "inline": true
-      },
-      "condition": {
-        "and": [
-          "lock=yes",
-          {
-            "or": [
-              "automated=yes",
-              "automated="
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "waterway_lock_opening_hours_24_7",
       "question": {
         "en": "What are the opening hours of {title()}?",
@@ -93449,9 +93292,225 @@
     },
     {
       "question": {
+        "en": "What VHF channel should be used to communicate with the control room of this lock?"
+      },
+      "id": "vhf",
+      "render": {
+        "en": "The VHF channel is {vhf}"
+      },
+      "freeform": {
+        "key": "vhf",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          "lock=yes",
+          {
+            "or": [
+              "automated=yes",
+              "automated="
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "waterway_lock_website",
+      "labels": [
+        "contact"
+      ],
+      "icon": "./assets/layers/icons/website.svg",
+      "question": {
+        "en": "On what website can one find more information about this lock?",
+        "nl": "Wat is de website van {title()}?",
+        "fr": "Quel est le site web de {title()} ?",
+        "gl": "Cal é a páxina web de {title()}?",
+        "nb_NO": "Hva er nettsiden til {title()}?",
+        "ru": "Какой сайт у {title()}?",
+        "id": "Apa situs web dari {title()}?",
+        "zh_Hant": "{title()} 網址是什麼？",
+        "it": "Qual è il sito web di {title()}?",
+        "de": "Wie lautet die Webseite von {title()}?",
+        "pt_BR": "Qual o site de {title()}?",
+        "pl": "Jaka jest strona internetowa {title()}?",
+        "sv": "Vad är webbplatsen för {title()}?",
+        "pt": "Qual é o sítio web de {title()}?",
+        "eo": "Kie estas la retejo de {title()}?",
+        "hu": "Mi a weboldala ennek: {title()}?",
+        "ca": "Quina és la web de {title()}?",
+        "ja": "{title()}のウェブサイトは？",
+        "fil": "Ano ang website ng {title()}?",
+        "es": "¿Cual es el sitio web de {title()}?",
+        "zh_Hans": "{title()} 的网站为何？",
+        "da": "Hvad er webstedet for {title()}?",
+        "cs": "Jaká je webová stránka {title()}?"
+      },
+      "render": {
+        "*": "<a href='{website}' rel='nofollow noopener noreferrer' target='_blank'>{website}</a>"
+      },
+      "freeform": {
+        "key": "website",
+        "type": "url",
+        "addExtraTags": [
+          "contact:website="
+        ]
+      },
+      "mappings": [
+        {
+          "if": "contact:website~*",
+          "then": "<a href='{contact:website}' rel='nofollow noopener noreferrer' target='_blank'>{contact:website}</a>",
+          "hideInAnswer": true,
+          "icon": "./assets/layers/icons/website.svg"
+        }
+      ],
+      "editButtonAriaLabel": {
+        "en": "Edit website",
+        "nl": "Pas website aan",
+        "de": "Webseite bearbeiten",
+        "pl": "Edytuj stronę internetową"
+      },
+      "condition": {
+        "and": [
+          {
+            "and": [
+              "lock=yes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "What is the maximum width (beam) of boats using this lock?"
+      },
+      "id": "max_width",
+      "render": {
+        "en": "This lock permits boats with a maximum width of {maxwidth}"
+      },
+      "freeform": {
+        "key": "maxwidth",
+        "unit": "length",
+        "inline": true
+      },
+      "questionHint": {
+        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
+      },
+      "condition": {
+        "and": [
+          "lock=yes",
+          "waterway!=derelict_canal"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "What is the maximum length of boats that may use this lock?"
+      },
+      "id": "maxlength",
+      "multiAnswer": false,
+      "freeform": {
+        "key": "maxlength",
+        "inline": true
+      },
+      "render": {
+        "en": "Boats with a maximum length of {maxlength} may use this lock."
+      },
+      "questionHint": {
+        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
+      },
+      "condition": {
+        "and": [
+          "lock=yes",
+          "waterway!=derelict_canal"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "What is the maximum draft of boats using this lock?",
+        "nl": "Wat is de maximale toegestane diepgang in deze sluis?"
+      },
+      "id": "max_depth",
+      "questionHint": {
+        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
+      },
+      "multiAnswer": false,
+      "render": {
+        "en": "The maximum draft of boats using this lock is {draft}."
+      },
+      "freeform": {
+        "key": "draft",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          "lock=yes",
+          "waterway!=derelict_canal"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "How far does this lock raise or lower a boat?"
+      },
+      "id": "lock_height_difference",
+      "questionHint": {
+        "en": "Omit units if designated in meters. Feet and inches maybe indicated with apostrophes and quotation marks."
+      },
+      "multiAnswer": false,
+      "freeform": {
+        "key": "lock:height",
+        "type": "nat",
+        "inline": true
+      },
+      "render": {
+        "en": "This lock has a drop height of {lock:height}"
+      },
+      "condition": {
+        "and": [
+          "lock=yes",
+          "waterway!=derelict_canal"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Is this lock automated?"
+      },
+      "id": "automated",
+      "mappings": [
+        {
+          "if": "automated=yes",
+          "then": {
+            "en": "This lock is automated (operated from control panel or control room)"
+          },
+          "addExtraTags": [
+            "manual=no"
+          ]
+        },
+        {
+          "if": "manual=yes",
+          "then": {
+            "en": "This lock is manually operated (with muscle power)"
+          },
+          "addExtraTags": [
+            "automated=no"
+          ]
+        }
+      ],
+      "multiAnswer": false,
+      "condition": {
+        "and": [
+          "lock=yes",
+          "waterway!=derelict_canal"
+        ]
+      }
+    },
+    {
+      "question": {
         "en": "What is the name of the waterway that this lock is on?"
       },
-      "id": "waterway_name",
+      "id": "lock_waterway_name",
       "render": {
         "en": "The waterway is name <b>{name}</b>"
       },
@@ -93463,6 +93522,92 @@
         "or": [
           "lock=yes",
           "lock=yes"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "What is the name of this lock?"
+      },
+      "id": "lock_name",
+      "questionHint": {
+        "en": "The numerical reference code can be added in a follow-up question "
+      },
+      "multiAnswer": false,
+      "render": {
+        "en": "This lock is named {lock_name}"
+      },
+      "freeform": {
+        "key": "lock_name",
+        "inline": true
+      },
+      "condition": {
+        "or": [
+          "lock=yes",
+          "lock=yes"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Does this lock have a reference number/code?"
+      },
+      "id": "waterway_lock_ref",
+      "multiAnswer": false,
+      "render": {
+        "en": "This is lock {lock_ref}"
+      },
+      "freeform": {
+        "key": "lock_ref",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "and": [
+              "lock=yes"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "render": "waterway.access",
+      "id": "waterwayaccess",
+      "condition": {
+        "or": [
+          "lock=yes",
+          "lock=yes"
+        ]
+      }
+    },
+    {
+      "id": "waterway_name",
+      "question": {
+        "en": "What is the name of this waterway?"
+      },
+      "render": {
+        "en": "This waterway is named {name}"
+      },
+      "freeform": {
+        "key": "name",
+        "inline": true
+      },
+      "condition": {
+        "and": [
+          {
+            "and": [
+              "motorboat!=no",
+              "boat!=no",
+              "type=",
+              {
+                "or": [
+                  "waterway=river",
+                  "waterway=canal"
+                ]
+              }
+            ]
+          }
         ]
       }
     },
@@ -93497,6 +93642,7 @@
             "and": [
               "motorboat!=no",
               "boat!=no",
+              "type=",
               {
                 "or": [
                   "waterway=river",
@@ -93512,7 +93658,10 @@
       "question": {
         "en": "Are boats allowed on this waterway?"
       },
-      "id": "3_vyksl7ofya7m97l",
+      "label": [
+        "access"
+      ],
+      "id": "boats_allowed",
       "questionHint": {
         "en": "A boat is a floating craft of which the hull is less then 20 meter long (without rudder or bowsprit)"
       },
@@ -93536,6 +93685,7 @@
       ],
       "condition": {
         "and": [
+          "type=",
           {
             "or": [
               "waterway=river",
@@ -93551,7 +93701,10 @@
       "question": {
         "en": "Are motorboats allowed on this waterway?"
       },
-      "id": "4_yuodfwdyocflwg8",
+      "id": "motorboats_allowed",
+      "label": [
+        "access"
+      ],
       "mappings": [
         {
           "if": "motorboat=yes",
@@ -93568,6 +93721,43 @@
       ],
       "condition": {
         "and": [
+          "type=",
+          {
+            "or": [
+              "waterway=river",
+              "waterway=canal"
+            ]
+          },
+          "boat!=no",
+          "motorboat!=no"
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Are canoes, kayaks and other small, manually powered craft allowed on this waterway?"
+      },
+      "id": "canoes_allowed",
+      "label": [
+        "access"
+      ],
+      "mappings": [
+        {
+          "if": "canoe=yes",
+          "then": {
+            "en": "Canoes, kayaks and manually powered craft are allowed here"
+          }
+        },
+        {
+          "if": "canoe=no",
+          "then": {
+            "en": "Canoes, kayaks and other manually powered craft are <b>not</b> allowed"
+          }
+        }
+      ],
+      "condition": {
+        "and": [
+          "type=",
           {
             "or": [
               "waterway=river",
