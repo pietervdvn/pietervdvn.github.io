@@ -1,0 +1,104 @@
+{
+  "id": "fixme",
+  "name": {
+    "en": "OSM objects with FIXME tags",
+    "de": "OSM-Objekte mit FIXME-Tags",
+    "pl": "Obiekty OSM z znacznikami FIXME",
+    "ca": "Objectes d'OSM amb etiquetes FIXME",
+    "cs": "Objekty OSM se značkami FIXME"
+  },
+  "description": {
+    "en": "OSM objects that likely need to be fixed, based on a FIXME tag.",
+    "de": "OSM-Objekte, die wahrscheinlich korrigiert werden müssen, basierend auf einem FIXME-Tag.",
+    "ca": "Objectes OSM que probablement s'han de solucionar, basats en una etiqueta FIXME.",
+    "cs": "Objekty OSM, které je pravděpodobně nutné opravit na základě značky FIXME."
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "fixme~*",
+        "FIXME~*"
+      ]
+    }
+  },
+  "minzoom": 16,
+  "title": {
+    "render": {
+      "en": "OSM object with FIXME tag",
+      "de": "OSM-Objekt mit FIXME-Tags",
+      "pl": "Obiekt OSM z znacznikiem FIXME",
+      "ca": "Objecte OSM amb etiqueta FIXME",
+      "cs": "Objekt OSM s tagem FIXME"
+    }
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "centroid",
+        "point"
+      ],
+      "label": "<div class='bg-white rounded p-2'>{fixme}</div>",
+      "marker": [
+        {
+          "icon": "./assets/svg/bug.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "#ff0000",
+      "dashArray": "5,5",
+      "width": 2
+    }
+  ],
+  "tagRenderings": [
+    {
+      "id": "fixme",
+      "freeform": {
+        "key": "fixme",
+        "type": "text"
+      },
+      "question": {
+        "en": "What is wrong with this feature?",
+        "de": "Was stimmt mit diesem Objekt nicht?",
+        "pl": "Co jest nie tak z tym obiektem?",
+        "ca": "Que hi ha mal amb aquest element?",
+        "cs": "Co je na této funkci špatného?"
+      },
+      "mappings": [
+        {
+          "if": "fixme=",
+          "then": {
+            "en": "This issue has been resolved",
+            "de": "Dieses Problem wurde behoben",
+            "pl": "Ten problem został rozwiązany",
+            "ca": "Aquest problema s'ha resolt",
+            "cs": "Tento problém byl vyřešen"
+          }
+        }
+      ],
+      "render": {
+        "en": "Fixme Text: {fixme}",
+        "de": "Fixme Text: {fixme}",
+        "ca": "Text Fixme: {fixme}",
+        "cs": "Fixme Text: {fixme}"
+      }
+    },
+    {
+      "id": "note",
+      "condition": "note~*",
+      "render": {
+        "en": "Note Text: {note}",
+        "de": "Notiz Text: {note}",
+        "fr": "Texte de la note : {note}",
+        "pl": "Tekst notatki: {note}",
+        "ca": "Text de la nota: {note}",
+        "cs": "Text poznámky: {note}"
+      }
+    },
+    "all_tags"
+  ],
+  "allowMove": false,
+  "syncSelection": "theme-only"
+}

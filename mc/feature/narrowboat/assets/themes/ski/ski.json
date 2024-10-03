@@ -1,0 +1,56 @@
+{
+  "id": "ski",
+  "title": {
+    "en": "Ski pistes and aerialways",
+    "de": "Skipisten und Seilbahnen",
+    "es": "Pistas de esquí y vías aéreas",
+    "da": "Skiløjper og skilifte",
+    "fr": "Pistes de ski et remontées mécaniques"
+  },
+  "description": {
+    "en": "Everything you need to go skiing",
+    "de": "Alles, was Sie zum Skifahren brauchen",
+    "es": "Todo lo que necesitas para esquiar"
+  },
+  "icon": "./assets/layers/aerialway/chair_lift.svg",
+  "layers": [
+    "ski_piste",
+    "aerialway",
+    {
+      "builtin": [
+        "guidepost",
+        "map",
+        "information_board",
+        "mountain_rescue"
+      ],
+      "override": {
+        "minzoom": 13
+      },
+      "pointRendering": [
+        {
+          "=iconSize": "25,25",
+          "=label": null
+        }
+      ]
+    },
+    {
+      "builtin": [
+        "toilet",
+        "drinking_water",
+        "food",
+        "viewpoint",
+        "binocular"
+      ],
+      "override": {
+        "minzoom": 16,
+        "pointRendering": [
+          {
+            "=iconSize": "25,25",
+            "=label": null
+          }
+        ]
+      }
+    }
+  ],
+  "enableTerrain": true
+}

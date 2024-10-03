@@ -1,0 +1,85 @@
+{
+  "id": "lighthouse",
+  "name": {
+    "en": "lighthouse",
+    "de": "Leuchtturm"
+  },
+  "source": {
+    "osmTags": "man_made=lighthouse"
+  },
+  "minzoom": 5,
+  "title": {
+    "render": {
+      "en": "lighthouse",
+      "de": "Leuchtturm"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "{name}",
+          "de": "{name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "./assets/themes/lighthouses/lighthouse.svg"
+        }
+      ],
+      "anchor": "bottom"
+    }
+  ],
+  "lineRendering": [],
+  "presets": [
+    {
+      "tags": [
+        "man_made=lighthouse"
+      ],
+      "title": {
+        "en": "a lighthouse",
+        "de": "ein Leuchtturm"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "wikipedia",
+    {
+      "render": {
+        "en": "The height of this lighthouse is {height} metres.",
+        "de": "Die Höhe dieses Leuchtturms beträgt {height} Meter."
+      },
+      "question": {
+        "en": "What is the height of this lighthouse, in metres?",
+        "de": "Wie hoch ist dieser Leuchtturm in Metern?"
+      },
+      "freeform": {
+        "key": "height",
+        "type": "pfloat"
+      },
+      "id": "lighthouse-height"
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  },
+  "units": [
+    {
+      "height": {
+        "quantity": "distance",
+        "denominations": [
+          "m"
+        ]
+      }
+    }
+  ]
+}

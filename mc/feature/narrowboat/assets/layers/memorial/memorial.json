@@ -1,0 +1,421 @@
+{
+  "id": "memorial",
+  "name": {
+    "en": "Memorials",
+    "de": "Denkmäler",
+    "fr": "Mémoriaux",
+    "nl": "Gedenktekens"
+  },
+  "description": "Layer showing memorial plaques, based upon a unofficial theme. Can be expanded to have multiple types of memorials later on",
+  "source": {
+    "osmTags": {
+      "or": [
+        "memorial~*",
+        "historic=memorial"
+      ]
+    }
+  },
+  "minzoom": 9,
+  "title": {
+    "render": {
+      "en": "Memorial plaque",
+      "ca": "Placa commemorativa",
+      "cs": "Pamětní deska",
+      "de": "Gedenktafel",
+      "fr": "Plaque commémorative"
+    },
+    "mappings": [
+      {
+        "if": "memorial=plaque",
+        "then": {
+          "en": "Memorial plaque",
+          "de": "Gedenktafel",
+          "ca": "Placa commemorativa",
+          "cs": "Pamětní deska",
+          "fr": "Plaque commémorative"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "centroid",
+        "point"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": {
+            "render": "./assets/layers/memorial/memorial.svg",
+            "mappings": [
+              {
+                "if": "memorial=plaque",
+                "then": "./assets/layers/memorial/plaque.svg"
+              },
+              {
+                "if": {
+                  "or": [
+                    "memorial=bench",
+                    "amenity=bench"
+                  ]
+                },
+                "then": "./assets/layers/bench/bench.svg"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "presets": [
+    {
+      "title": {
+        "en": "a memorial",
+        "de": "ein Denkmal",
+        "fr": "un mémorial",
+        "nl": "een gedenkteken"
+      },
+      "description": {
+        "en": "A memorial is a physical object which remembers a person or event.",
+        "de": "Ein Mahnmal ist ein physischer Gegenstand, der an eine Person oder ein Ereignis erinnert.",
+        "fr": "Un mémorial est un élément physique disposé en mémoire d'une personne ou d'un évènement."
+      },
+      "tags": [
+        "historic=memorial"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "memorial-type",
+      "labels": [
+        "memorial-questions"
+      ],
+      "question": {
+        "en": "What type of memorial is this?",
+        "de": "Was für eine Art von Denkmal ist das?",
+        "fr": "C'est un mémorial de guerre",
+        "sl": "Kakšne vrste spomenik je to?"
+      },
+      "mappings": [
+        {
+          "if": "memorial=statue",
+          "then": {
+            "en": "This is a statue",
+            "de": "Das ist eine Statue",
+            "fr": "C'est une statue",
+            "nl": "Dit is een standbeeld",
+            "sl": "To je kip"
+          },
+          "addExtraTags": [
+            "tourism=artwork",
+            "artwork=statue"
+          ]
+        },
+        {
+          "if": "memorial=plaque",
+          "then": {
+            "en": "This is a plaque",
+            "de": "Dies ist eine Gedenktafel",
+            "fr": "C'est une plaque",
+            "sl": "To je plošča"
+          }
+        },
+        {
+          "if": "memorial=bench",
+          "then": {
+            "en": "This is a commemorative bench",
+            "de": "Dies ist eine Gedenkbank",
+            "fr": "C'est un banc commémoratif",
+            "nl": "Dit is een zitbank die ook als herdenking dienst doet"
+          },
+          "addExtraTags": [
+            "amenity=bench"
+          ]
+        },
+        {
+          "if": "memorial=ghost_bike",
+          "then": {
+            "en": "This is a ghost bike - a bicycle painted white to remember a cyclist whom deceased because of a car crash",
+            "de": "Dies ist ein Geisterrad - ein Fahrrad weiß lackiert, um an einen Radfahrer zu erinnern, der wegen eines Autounfalls verstorben ist",
+            "fr": "C'est un vélo fantôme - un vélo blanc peint en mémoire d'un cycliste mort à cet endroit suite à un accident avec une voiture",
+            "nl": "Dit is een witte fiets of spookfiets - een witgeschilderede fiets die een omgekomen fietsen herdenkt"
+          }
+        },
+        {
+          "if": "memorial=stolperstein",
+          "alsoShowIf": "memorial:type=stolperstein",
+          "then": {
+            "en": "This is a stolperstein (stumbing stone)",
+            "de": "Dies ist ein Stolperstein",
+            "fr": "C'est un stolperstein (pierre d'achoppement)",
+            "nl": "Dit is een struikelsteen (stolperstein)"
+          }
+        },
+        {
+          "if": "memorial=stele",
+          "then": {
+            "en": "This is a stele",
+            "de": "Das ist eine Stele",
+            "fr": "C'est une stèle"
+          }
+        },
+        {
+          "if": "memorial=stone",
+          "then": {
+            "en": "This is a memorial stone",
+            "de": "Das ist ein Gedenkstein",
+            "fr": "C'est une pierre commémorative",
+            "sl": "To je spominski kamen"
+          }
+        },
+        {
+          "if": "memorial=bust",
+          "then": {
+            "en": "This is a bust",
+            "de": "Das ist eine Büste",
+            "fr": "C'est un buste",
+            "sl": "To je doprsni kip"
+          }
+        },
+        {
+          "if": "memorial=sculpture",
+          "then": {
+            "en": "This is a sculpture",
+            "de": "Dies ist eine Skulptur",
+            "fr": "C'est une sculpture",
+            "nl": "Dit is een sculptuur",
+            "sl": "To je skulptura"
+          }
+        },
+        {
+          "if": "memorial=obelisk",
+          "then": {
+            "en": "This is an obelisk",
+            "de": "Das ist ein Obelisk",
+            "es": "Es un obelisco",
+            "fr": "C'est un obélisque",
+            "sl": "To je obelisk"
+          }
+        },
+        {
+          "if": "memorial=cross",
+          "then": {
+            "en": "This is a cross",
+            "de": "Das ist ein Kreuz",
+            "es": "Es una cruz",
+            "fr": "C'est une croix",
+            "nl": "Dit is een kruis",
+            "pl": "To jest krzyż",
+            "sl": "To je križ"
+          }
+        },
+        {
+          "if": "memorial=blue_plaque",
+          "then": {
+            "en": "This is a blue plaque",
+            "de": "Dies ist eine blaue Plaque",
+            "fr": "C'est une plaque bleue (spécifique aux pays anglo-saxons)"
+          },
+          "onlyShowIf": "_country=gb"
+        },
+        {
+          "if": "memorial=tank",
+          "then": {
+            "en": "This is a historic tank, permanently placed in public space as memorial",
+            "de": "Dies ist ein historischer Panzer, der permanent in den öffentlichen Raum als Denkmal platziert wurde",
+            "fr": "C'est un char historique, placé de manière permanente dans l'espace public comme mémorial",
+            "nl": "Dit is een historische tank, permanent in de publieke ruimte geplaatst als gedenkteken",
+            "sl": "To je zgodovinski tank, ki je stalno postavljen v spomin na javnem kraju"
+          }
+        },
+        {
+          "if": "memorial=tree",
+          "then": {
+            "en": "This is a memorial tree",
+            "de": "Das ist ein Baumdenkmal",
+            "fr": "C'est un arbre du souvenir",
+            "sl": "To je spominsko drevo"
+          },
+          "addExtraTags": [
+            "natural=tree"
+          ]
+        },
+        {
+          "if": "historic=tomb",
+          "then": {
+            "en": "This is a gravestone; the person is buried here",
+            "de": "Dies ist ein Grabstein; die Person ist hier begraben",
+            "sl": "To je nagrobni kamen; oseba je pokopana tu",
+            "fr": "C'est une pierre tombale, une personne est enterrée ici"
+          },
+          "addExtraTags": [
+            "memorial="
+          ]
+        }
+      ],
+      "render": {
+        "en": "This is a {memorial}",
+        "de": "Das ist ein {memorial}",
+        "fr": "C'est un {memorial}",
+        "sl": "To je {memorial}",
+        "ca": "Això és un {memorial}"
+      },
+      "freeform": {
+        "key": "memorial"
+      }
+    },
+    {
+      "id": "inscription",
+      "labels": [
+        "memorial-questions"
+      ],
+      "question": {
+        "en": "What is the inscription on this memorial?",
+        "ca": "Quina és la inscripció d'aquest memorial?",
+        "cs": "Jaký je nápis na této desce?",
+        "de": "Wie lautet die Inschrift auf diesem Denkmal?",
+        "fr": "Quelle est l'inscription sur cette plaque ?",
+        "nl": "Wat is het opschrift van dit gedenkteken?",
+        "sl": "Kakšen je napis na tem spomeniku?"
+      },
+      "#:condition": "Benches have a separate inscription question",
+      "condition": {
+        "and": [
+          "memorial!=bench"
+        ]
+      },
+      "render": {
+        "en": "The inscription on this memorial reads: <p><i>{inscription}<i></p>",
+        "ca": "La inscripció d'aquest memorial diu: <p><i>{inscription}<i></p>",
+        "cs": "Nápis na této desce zní: <p><i>{inscription}<i></p>",
+        "de": "Die Inschrift auf diesem Denkmal lautet: <p><i>{inscription}<i></p>",
+        "fr": "L'inscription sur cette plaque indique: <p><i>{inscription}<i></p>",
+        "sl": "Napis na tem spomeniku je: <p><i>{inscription}<i></p>"
+      },
+      "freeform": {
+        "key": "inscription",
+        "type": "text"
+      },
+      "mappings": [
+        {
+          "if": "not:inscription=yes",
+          "then": {
+            "en": "This memorial does not have an inscription",
+            "de": "Dieses Denkmal hat keine Inschrift",
+            "fr": "Il n'y a aucune inscription sur cette plaque",
+            "nl": "Dit gedenkteken heeft geen opschrift",
+            "sl": "Ta spomenik nima napisa"
+          },
+          "addExtraTags": [
+            "inscription="
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memorial-wikidata",
+      "freeform": {
+        "key": "wikidata",
+        "type": "wikidata"
+      },
+      "question": {
+        "en": "What is the Wikipedia page about this memorial?",
+        "de": "Was ist die Wikipedia-Seite über dieses Denkmal?",
+        "fr": "Quelle est la page Wikipedia de ce mémorial ?"
+      },
+      "questionHint": {
+        "en": "This is a about the memorial itself, not about the person or event that the memorial remembers. If this memorial does not have a Wikipedia page or Wikidata entity, skip this question.",
+        "de": "Hier geht es um das Denkmal selbst, nicht um die Person oder das Ereignis, an das die Denkmal erinnert. Wenn diese Gedenkstätte keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+        "fr": "C'est la page Wikipédia du mémorial et non celle de la personne ou de l'évènement commémoré. Si le mémorial n'a pas de page Wikipédia ou d'entité Wikidata, passez cette question."
+      },
+      "render": {
+        "special": {
+          "type": "wikipedia",
+          "keyToShowWikipediaFor": "wikidata"
+        },
+        "before": {
+          "en": "<h3>Wikipedia page about the memorial</h3>",
+          "de": "<h3>Wikipedia-Seite über das Denkmal</h3>",
+          "fr": "<h3>Page Wikipedia du mémorial</h3>"
+        }
+      }
+    },
+    {
+      "id": "subject-wikidata",
+      "freeform": {
+        "key": "subject:wikidata",
+        "type": "wikidata",
+        "helperArgs": [
+          "subject;memorial:conflict;name"
+        ]
+      },
+      "question": {
+        "en": "What is the Wikipedia page about the person or event that is remembered here?",
+        "de": "Was ist die Wikipedia-Seite über die Person oder Veranstaltung, die hier erinnert wird?",
+        "fr": "Quelle est la page Wikipedia qui fait référence à cet évènement ou cette personne?"
+      },
+      "questionHint": {
+        "en": "If the person or event does not have a Wikipedia page or Wikidata entity, skip this question.",
+        "de": "Wenn die Person oder das Ereignis keine Wikipedia-Seite oder Wikidata-Entität hat, überspringe diese Frage.",
+        "fr": "Si la personne ou l'évènement n'a pas de page Wikipedia ou d'entité Wikidata, passez cette question."
+      },
+      "render": {
+        "special": {
+          "type": "wikipedia",
+          "keyToShowWikipediaFor": "subject:wikidata"
+        },
+        "before": {
+          "en": "<h3>Wikipedia page about the remembered event or person</h3>",
+          "de": "<h3>Wikipedia-Seite über das erinnerte Ereignis oder die Person</h3>",
+          "fr": "<h3>Page Wikipedia sur la personne ou l'évènement commémoré</h3>"
+        }
+      }
+    },
+    {
+      "question": {
+        "en": "When was this memorial installed?",
+        "de": "Wann wurde dieses Denkmal installiert?",
+        "fr": "Quand ce mémorial a-t-il été installé ?"
+      },
+      "render": {
+        "nl": "Geplaatst op {start_date}",
+        "en": "Placed on {start_date}",
+        "it": "Piazzata in data {start_date}",
+        "fr": "Placé le {start_date}",
+        "ru": "Установлен {start_date}",
+        "de": "Aufgestellt am {start_date}",
+        "ca": "Col·locat el {start_date}",
+        "cs": "Umístěno {start_date}",
+        "sl": "Datum postavitve {start_date}"
+      },
+      "freeform": {
+        "key": "start_date",
+        "type": "date"
+      },
+      "id": "start_date"
+    },
+    {
+      "builtin": "bench.bench-questions",
+      "override": {
+        "condition": {
+          "+and": [
+            "amenity=bench"
+          ]
+        }
+      }
+    }
+  ],
+  "deletion": true,
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  },
+  "defaultBackgroundId": "protomaps.white"
+}

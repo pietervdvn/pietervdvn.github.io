@@ -1,0 +1,118 @@
+{
+  "id": "waste_assen",
+  "title": {
+    "nl": "Afval - Assen"
+  },
+  "description": {
+    "nl": "Kaart met afvalbakken en recyclingfaciliteiten + een dataset voor Assen."
+  },
+  "icon": "./assets/layers/recycling/recycling-14.svg",
+  "startZoom": 19,
+  "startLat": 53.24865,
+  "startLon": 6.60075,
+  "credits": [
+    "Robin van der Linde"
+  ],
+  "hideFromOverview": true,
+  "layers": [
+    {
+      "builtin": "waste_basket",
+      "override": {
+        "minzoom": 12
+      }
+    },
+    {
+      "id": "waste_basket_assen",
+      "name": "Dataset Afvalbakken Assen",
+      "description": "Laag op basis van externe data",
+      "source": {
+        "osmTags": "OBJECTID~*",
+        "geoJson": "https://opendata.arcgis.com/datasets/5b6953ac5a9d4616a7dc75ab0beeac2f_0.geojson"
+      },
+      "calculatedTags": [
+        "_closest_osm_waste_basket=closest(feat)('waste_basket')?.properties?.id",
+        "_closest_osm_waste_basket_distance=distanceTo(feat)(feat.properties._closest_osm_waste_basket)",
+        "_has_closeby_feature=Number(feat.properties._closest_osm_waste_basket_distance) < 10 ? 'yes' : 'no'"
+      ],
+      "title": "Afvalbak in dataset",
+      "tagRenderings": [
+        "all_tags"
+      ],
+      "pointRendering": [
+        {
+          "location": [
+            "point",
+            "centroid"
+          ],
+          "marker": [
+            {
+              "icon": {
+                "render": "circle:red",
+                "mappings": [
+                  {
+                    "if": "_has_closeby_feature=yes",
+                    "then": "circle:#008000aa"
+                  }
+                ]
+              }
+            }
+          ],
+          "iconSize": "20,20",
+          "anchor": "center"
+        }
+      ],
+      "lineRendering": []
+    },
+    "recycling",
+    {
+      "id": "recycling_assen",
+      "name": "Dataset Recyclingcontainers Assen",
+      "description": "Laag op basis van externe data",
+      "source": {
+        "osmTags": "OBJECTID~*",
+        "geoJson": "https://opendata.arcgis.com/datasets/edb893998e27461b8ed82aad9854d27d_0.geojson"
+      },
+      "calculatedTags": [
+        "_closest_osm_recycling=closest(feat)('recycling')?.properties?.id",
+        "_closest_osm_waste_disposal=closest(feat)('waste_disposal')?.properties?.id",
+        "_closest_osm_recycling_distance=distanceTo(feat)(feat.properties._closest_osm_recycling)",
+        "_closest_osm_waste_disposal_distance=distanceTo(feat)(feat.properties._closest_osm_waste_disposal)",
+        "_has_closeby_recycling=Number(feat.properties._closest_osm_recycling_distance) < 10 ? 'yes' : 'no'",
+        "_has_closeby_waste_disposal=Number(feat.properties._closest_osm_waste_disposal_distance) < 10 ? 'yes' : 'no'"
+      ],
+      "title": "Recyclingcontainer in dataset",
+      "tagRenderings": [
+        "all_tags"
+      ],
+      "pointRendering": [
+        {
+          "location": [
+            "point",
+            "centroid"
+          ],
+          "marker": [
+            {
+              "icon": {
+                "render": "circle:red",
+                "mappings": [
+                  {
+                    "if": "_has_closeby_recycling=yes",
+                    "then": "circle:#008000aa"
+                  },
+                  {
+                    "if": "_has_closeby_waste_disposal=yes",
+                    "then": "circle:#008000aa"
+                  }
+                ]
+              }
+            }
+          ],
+          "iconSize": "20,20",
+          "anchor": "center"
+        }
+      ],
+      "lineRendering": []
+    },
+    "waste_disposal"
+  ]
+}

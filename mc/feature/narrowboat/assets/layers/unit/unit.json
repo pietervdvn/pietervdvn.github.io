@@ -1,0 +1,463 @@
+{
+  "id": "unit",
+  "description": {
+    "en": "Library layer with all common units.  Units can _only_ be imported from this file.",
+    "de": "Bibliotheksebene mit allen gängigen Einrichtungen.  Einrichtungen können _nur_ aus dieser Datei importiert werden."
+  },
+  "source": "special:library",
+  "pointRendering": null,
+  "lineRendering": null,
+  "allowMove": false,
+  "units": [
+    {
+      "quantity": "power",
+      "applicableUnits": [
+        {
+          "canonicalDenomination": "MW",
+          "alternativeDenomination": [
+            "megawatts",
+            "megawatt"
+          ],
+          "human": {
+            "en": "{quantity} megawatts",
+            "nl": "{quantity} megawatt",
+            "fr": "{quantity} megawatts",
+            "de": "{quantity} Megawatt",
+            "eo": "{quantity} megavatoj",
+            "it": "{quantity} megawatt",
+            "ru": "{quantity} мегаватт",
+            "zh_Hant": "{quantity} 百萬瓦",
+            "id": "{quantity} megawat",
+            "hu": "{quantity} megawatt",
+            "ca": "{quantity} megavats",
+            "da": "{quantity} Megawatt",
+            "cs": "{quantity} megawatty"
+          }
+        },
+        {
+          "canonicalDenomination": "kW",
+          "alternativeDenomination": [
+            "kilowatts",
+            "kilowatt"
+          ],
+          "human": {
+            "en": "{quantity} kilowatt",
+            "nl": "{quantity} kilowatt",
+            "fr": "{quantity} kilowatts",
+            "de": "{quantity} Kilowatt",
+            "eo": "{quantity} kilovatoj",
+            "it": "{quantity} kilowatt",
+            "nb_NO": "{quantity} kilowatt",
+            "ru": "{quantity} киловатт",
+            "zh_Hant": "{quantity} 千瓦",
+            "id": "{quantity} kilowat",
+            "hu": "{quantity} kilowatt",
+            "ca": "{quantity} quilovats",
+            "da": "{quantity} Kilowatt",
+            "cs": "{quantity} kilowatty"
+          }
+        },
+        {
+          "canonicalDenomination": "W",
+          "alternativeDenomination": [
+            "watts",
+            "watt"
+          ],
+          "human": {
+            "en": "{quantity} watts",
+            "nl": "{quantity} watt",
+            "fr": "{quantity} watts",
+            "de": "{quantity} Watt",
+            "eo": "{quantity} vatoj",
+            "it": "{quantity} watt",
+            "ru": "{quantity} ватт",
+            "id": "{quantity} watt",
+            "hu": "{quantity} watt",
+            "ca": "{quantity} vats",
+            "da": "{quantity} Watt",
+            "cs": "{quantity} watty",
+            "zh_Hant": "{quantity} 瓦"
+          }
+        },
+        {
+          "canonicalDenomination": "GW",
+          "alternativeDenomination": [
+            "gigawatts",
+            "gigawatt"
+          ],
+          "human": {
+            "en": "{quantity} gigawatts",
+            "nl": "{quantity} gigawatt",
+            "fr": "{quantity} gigawatts",
+            "de": "{quantity} Gigawatt",
+            "eo": "{quantity} gigavatoj",
+            "it": "{quantity} gigawatt",
+            "ru": "{quantity} гигаватт",
+            "id": "{quantity} gigawatt",
+            "hu": "{quantity} gigawatt",
+            "ca": "{quantity} gigavats",
+            "da": "{quantity} Gigawatt",
+            "cs": "{quantity} gigawatty",
+            "zh_Hant": "{quantity} 千兆瓦"
+          }
+        }
+      ],
+      "eraseInvalidValues": true
+    },
+    {
+      "quantity": "voltage",
+      "applicableUnits": [
+        {
+          "canonicalDenomination": "V",
+          "alternativeDenomination": [
+            "v",
+            "volt",
+            "voltage",
+            "Volt"
+          ],
+          "human": {
+            "en": "{quantity} Volt",
+            "nl": "{quantity} volt",
+            "de": "{quantity} Volt"
+          }
+        }
+      ],
+      "eraseInvalidValues": true
+    },
+    {
+      "quantity": "current",
+      "applicableUnits": [
+        {
+          "canonicalDenomination": "A",
+          "alternativeDenomination": [
+            "a",
+            "amp",
+            "amperage",
+            "A"
+          ],
+          "human": {
+            "en": "{quantity} A",
+            "nl": "{quantity} A",
+            "ca": "{quantity} A",
+            "de": "{quantity} A"
+          }
+        }
+      ],
+      "eraseInvalidValues": true
+    },
+    {
+      "quantity": "distance",
+      "eraseInvalidValue": true,
+      "applicableUnits": [
+        {
+          "canonicalDenomination": "m",
+          "useIfNoUnitGiven": true,
+          "alternativeDenomination": [
+            "meter",
+            "meters"
+          ],
+          "human": {
+            "en": "{quantity} meter",
+            "nl": "{quantity} meter",
+            "fr": "{quantity} mètres",
+            "de": "{quantity} Meter",
+            "eo": "{quantity} metro",
+            "it": "{quantity} metri",
+            "ru": "{quantity} метр",
+            "id": "{quantity} meter",
+            "hu": "{quantity} méter",
+            "ca": "{quantity} metre",
+            "da": "{quantity} meter",
+            "cs": "{quantity} metr",
+            "es": "{quantity} metros",
+            "pl": "{quantity} metr",
+            "pa_PK": "{quantity}میٹر",
+            "zh_Hant": "{quantity} 公尺",
+            "nb_NO": "{quantity} meter",
+            "eu": "{quantity} ·metro"
+          },
+          "humanSingular": {
+            "en": "one meter",
+            "fr": "un mètre",
+            "nl": "één meter",
+            "de": "ein Meter",
+            "ca": "un metre"
+          }
+        },
+        {
+          "canonicalDenomination": "cm",
+          "alternativeDenomination": [
+            "centimeter",
+            "centimeters",
+            "cms"
+          ],
+          "human": {
+            "en": "{quantity} centimeter",
+            "fr": "{quantity} centimètres",
+            "de": "{quantity} Zentimeter",
+            "da": "{quantity} centimeter",
+            "nl": "{quantity} centimeter",
+            "ca": "{quantity} centimetre",
+            "cs": "{quantity} centimetr",
+            "pl": "{quantity} centymetr",
+            "ru": "{quantity} сантиметры",
+            "pa_PK": " {quantity}سینٹیمیٹر"
+          },
+          "humanSingular": {
+            "en": "one centimeter",
+            "nl": "één centimeter",
+            "ca": "un centímetre",
+            "de": "ein Zentimeter"
+          }
+        },
+        {
+          "canonicalDenomination": "mm",
+          "alternativeDenomination": [
+            "millimeter",
+            "millimeters"
+          ],
+          "human": {
+            "en": "{quantity} millimeters",
+            "nl": "{quantity} millimeter",
+            "de": "{quantity} Millimeter",
+            "ru": "{quantity} миллиметры",
+            "ca": "{quantity} mil·límetres",
+            "cs": "{quantity} milimetry",
+            "pa_PK": "{quantity} ملیمیٹر"
+          },
+          "humanSingular": {
+            "en": "one millimeter",
+            "nl": "één millimeter",
+            "de": "ein Millimeter",
+            "ca": "un mil·límetre"
+          }
+        },
+        {
+          "canonicalDenomination": "ft",
+          "alternativeDenomination": [
+            "feet",
+            "voet"
+          ],
+          "human": {
+            "en": "{quantity} feet",
+            "nl": "{quantity} voet",
+            "fr": "{quantity} pieds",
+            "de": "{quantity} Fuß",
+            "eo": "{quantity} futo",
+            "it": "{quantity} piedi",
+            "ca": "{quantity} peus",
+            "es": "{quantity} pies",
+            "da": "{quantity} fod",
+            "cs": "{quantity} stopa",
+            "eu": "{quantity} ·hanka",
+            "pl": "{quantity} stopy",
+            "nb_NO": "{quantity} fot",
+            "pa_PK": "{quantity} ؜ فوٹ"
+          }
+        }
+      ]
+    },
+    {
+      "quantity": "speed",
+      "applicableUnits": [
+        {
+          "#": "km/h is the default for a maxspeed; should be empty string",
+          "canonicalDenomination": "kmh",
+          "alternativeDenomination": [
+            "km/u",
+            "km/h",
+            "kph"
+          ],
+          "human": {
+            "en": "{quantity} kilometers/hour",
+            "ca": "{quantity} quilòmetres/hora",
+            "es": "{quantity} kilómetros/hora",
+            "nl": "{quantity} kilometers/uur",
+            "de": "{quantity} Kilometer/Stunde",
+            "cs": "{quantity} kilometry/hodinu",
+            "pa_PK": "{quantity}ہر گھنٹہ وچ کیلومیٹر",
+            "fr": "{quantity} kilomètres/heure"
+          },
+          "humanShort": {
+            "en": "{quantity} km/h",
+            "ca": "{quantity} km/h",
+            "es": "{quantity} km/h",
+            "nl": "{quantity} km/u",
+            "de": "{quantity} km/h",
+            "cs": "{quantity} km/h",
+            "pa_PK": "{quantity}ہر گھنٹے وچ کیلومیٹر",
+            "ru": "{quantity} км/ч",
+            "fr": "{quantity} km/h"
+          }
+        },
+        {
+          "canonicalDenomination": "mph",
+          "addSpace": true,
+          "useIfNoUnitGiven": [
+            "gb",
+            "us"
+          ],
+          "alternativeDenomination": [
+            "m/u",
+            "mh",
+            "m/ph"
+          ],
+          "human": {
+            "en": "{quantity} miles/hour",
+            "ca": "{quantity} milles/hora",
+            "es": "{quantity} millas/hora",
+            "nl": "{quantity} miles/uur",
+            "de": "{quantity} Meilen/Stunde",
+            "cs": "{quantity} míle/hodinu",
+            "fr": "{quantity} miles/heure",
+            "pa_PK": "{quantity} ہر گھنٹہ وچ میل"
+          },
+          "humanShort": {
+            "en": "{quantity} mph",
+            "ca": "{quantity} mph",
+            "es": "{quantity} mph",
+            "nl": "{quantity} mph",
+            "de": "{quantity} mph",
+            "cs": "{quantity} mph",
+            "pa_PK": "{quantity}ہر گھنٹہ وچ میل",
+            "fr": "{quantity} mph"
+          }
+        }
+      ]
+    },
+    {
+      "quantity": "duration",
+      "applicableUnits": [
+        {
+          "canonicalDenomination": "minutes",
+          "addSpace": true,
+          "canonicalDenominationSingular": "minute",
+          "alternativeDenomination": [
+            "m",
+            "min",
+            "mins",
+            "minuten",
+            "mns"
+          ],
+          "human": {
+            "en": "{quantity} minutes",
+            "nl": "{quantity} minuten",
+            "ca": "{quantity} minuts",
+            "de": "{quantity} Minuten",
+            "fr": "{quantity} minutes"
+          },
+          "humanSingular": {
+            "en": "one minute",
+            "nl": "één minuut",
+            "ca": "un minut",
+            "de": "eine Minute",
+            "fr": "une minute"
+          }
+        },
+        {
+          "canonicalDenomination": "hours",
+          "addSpace": true,
+          "canonicalDenominationSingular": "hour",
+          "alternativeDenomination": [
+            "h",
+            "hrs",
+            "hours",
+            "u",
+            "uur",
+            "uren"
+          ],
+          "human": {
+            "en": "{quantity} hours",
+            "nl": "{quantity} uren",
+            "ca": "{quantity} hores",
+            "de": "{quantity} Stunden",
+            "fr": "{quantity} heures"
+          },
+          "humanSingular": {
+            "en": "one hour",
+            "nl": "één uur",
+            "ca": "una hora",
+            "de": "eine Stunde",
+            "fr": "une heure"
+          }
+        },
+        {
+          "canonicalDenomination": "days",
+          "addSpace": true,
+          "canonicalDenominationSingular": "day",
+          "alternativeDenomination": [
+            "dys",
+            "dagen",
+            "dag"
+          ],
+          "human": {
+            "en": "{quantity} days",
+            "nl": "{quantity} day",
+            "ca": "{quantity} dies",
+            "de": "{quantity} Tage",
+            "fr": "{quantity} jours"
+          },
+          "humanSingular": {
+            "en": "one day",
+            "nl": "één dag",
+            "de": "ein Tag",
+            "fr": "un jour"
+          }
+        },
+        {
+          "canonicalDenomination": "weeks",
+          "addSpace": true,
+          "canonicalDenominationSingular": "week",
+          "humanSingular": {
+            "en": "one week",
+            "nl": "één week",
+            "de": "ein Woche",
+            "fr": "une semaine"
+          },
+          "human": {
+            "en": "{quantity} weeks",
+            "nl": "{quantity} weken",
+            "de": "{quantity} Wochen",
+            "fr": "{quantity} semaines"
+          }
+        },
+        {
+          "canonicalDenomination": "months",
+          "addSpace": true,
+          "canonicalDenominationSingular": "month",
+          "humanSingular": {
+            "en": "one month",
+            "nl": "één maand",
+            "de": "ein Monat",
+            "fr": "un mois"
+          },
+          "human": {
+            "en": "{quantity} months",
+            "nl": "{quantity} maanden",
+            "de": "{quantity} Monate",
+            "fr": "{quantity} mois"
+          }
+        },
+        {
+          "canonicalDenomination": "years",
+          "addSpace": true,
+          "canonicalDenominationSingular": "year",
+          "humanSingular": {
+            "en": "one year",
+            "nl": "één jaar",
+            "de": "ein Jahr",
+            "fr": "un an",
+            "ca": "un any"
+          },
+          "human": {
+            "en": "{quantity} years",
+            "nl": "{quantity} jaar",
+            "de": "{quantity} Jahre",
+            "fr": "{quantity} années",
+            "ca": "{quantity} anys"
+          }
+        }
+      ]
+    }
+  ]
+}

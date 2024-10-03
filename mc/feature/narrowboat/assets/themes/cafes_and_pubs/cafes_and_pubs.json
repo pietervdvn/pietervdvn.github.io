@@ -1,0 +1,47 @@
+{
+  "id": "cafes_and_pubs",
+  "title": {
+    "en": "Cafés and pubs",
+    "nl": "Cafés",
+    "de": "Cafés und Kneipen",
+    "it": "Caffè e pub",
+    "nb_NO": "Kafeer og kneiper",
+    "id": "Kafe dan pub",
+    "zh_Hant": "咖啡廳與酒吧",
+    "ru": "Кафе и пабы",
+    "hu": "Kávézók és kocsmák",
+    "ca": "Cafés i bars",
+    "es": "Cafeterías y pubs",
+    "fr": "Cafés et pubs",
+    "da": "Caféer og pubber",
+    "pa_PK": "کیفے یا پب",
+    "cs": "Kavárny a hospody",
+    "eu": "Kafetegiak eta pubak",
+    "pl": "Kawiarnie i puby",
+    "zh_Hans": "咖啡馆和酒吧"
+  },
+  "description": {
+    "en": "Coffeehouses, pubs and bars",
+    "nl": "Cafés, kroegen en drinkgelegenheden",
+    "de": "Cafés, Kneipen und Bars",
+    "ca": "Cafeteries, bars i pubs",
+    "es": "Cafés, pubs y bares",
+    "fr": "Bars et pubs",
+    "da": "Pubber og barer",
+    "nb_NO": "Kneiper og barer",
+    "pa_PK": "پب (بار)",
+    "cs": "Kavárny, hospody a bary",
+    "it": "Caffetterie, pub e bar",
+    "zh_Hant": "咖啡廳、俱樂部與酒吧",
+    "eu": "Kafetegiak, pubak eta tabernak",
+    "pl": "Kawiarnie, puby i bary",
+    "zh_Hans": "咖啡馆、酒吧和酒吧"
+  },
+  "icon": "./assets/layers/cafe_pub/pub.svg",
+  "layers": [
+    "cafe_pub",
+    "outdoor_seating",
+    "food_courts"
+  ],
+  "widenFactor": 1.5
+}

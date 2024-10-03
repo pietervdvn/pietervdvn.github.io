@@ -1,0 +1,1018 @@
+{
+    "address": {
+        "description": "Alamat",
+        "name": "Alamat yang dikenal di OSM",
+        "tagRenderings": {
+            "fixme": {
+                "question": "Apa yang harus diperbaiki di sini? Tolong jelaskan"
+            },
+            "housenumber": {
+                "mappings": {
+                    "0": {
+                        "then": "Bangunan ini tidak memiliki nomor rumah"
+                    }
+                },
+                "question": "Berapa nomor rumah ini?",
+                "render": "Nomor rumah ini <b>{addr:housenumber}</b>"
+            },
+            "street": {
+                "question": "Alamat ini di jalan apa?",
+                "render": "Alamat ini ada di jalan <b>{addr:street}</b>"
+            }
+        },
+        "title": {
+            "render": "Alamat yang diketahui"
+        }
+    },
+    "ambulancestation": {
+        "name": "Peta stasiun ambulans",
+        "presets": {
+            "0": {
+                "description": "Tambahkan stasiun ambulans ke peta",
+                "title": "Stasiun ambulans"
+            }
+        }
+    },
+    "artwork": {
+        "description": "Peta terbuka patung, grafiti, dan karya seni lainnya di seluruh dunia",
+        "name": "Karya seni",
+        "presets": {
+            "0": {
+                "title": "Karya Seni"
+            }
+        },
+        "tagRenderings": {
+            "artwork-artist_name": {
+                "question": "Seniman mana yang menciptakan ini?",
+                "render": "Dibuat oleh {artist_name}"
+            },
+            "artwork-artwork_type": {
+                "mappings": {
+                    "0": {
+                        "then": "Arsitektur"
+                    },
+                    "1": {
+                        "then": "Mural"
+                    },
+                    "10": {
+                        "then": "Azulejo (ubin dekoratif Spanyol)"
+                    },
+                    "2": {
+                        "then": "Lukisan"
+                    },
+                    "3": {
+                        "then": "Patung"
+                    },
+                    "6": {
+                        "then": "Batu"
+                    },
+                    "7": {
+                        "then": "Instalasi"
+                    },
+                    "8": {
+                        "then": "Graffiti"
+                    },
+                    "9": {
+                        "then": "Relief"
+                    }
+                },
+                "question": "Apa jenis karya seni ini?",
+                "render": "Ini adalah {artwork_type}"
+            },
+            "artwork-website": {
+                "question": "Adakah situs web mengenai informasi lebih lanjut tentang karya seni ini?",
+                "render": {
+                    "special": {
+                        "text": "Info lanjut tersedia di laman web ini"
+                    }
+                }
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "Karya Seni <i>{name}</i>"
+                }
+            },
+            "render": "Karya Seni"
+        }
+    },
+    "bench": {
+        "name": "Bangku",
+        "presets": {
+            "0": {
+                "title": "bangku"
+            }
+        },
+        "tagRenderings": {
+            "bench-backrest": {
+                "mappings": {
+                    "1": {
+                        "then": "Sandaran: Ya"
+                    },
+                    "2": {
+                        "then": "Sandaran: Tidak"
+                    }
+                },
+                "question": "Apakah bangku ini memiliki sandaran?"
+            },
+            "bench-colour": {
+                "render": "Warna: {colour}"
+            },
+            "bench-seats": {
+                "render": "{seats} kursi"
+            }
+        },
+        "title": {
+            "render": "Bangku"
+        }
+    },
+    "bench_at_pt": {
+        "tagRenderings": {
+            "bench_at_pt-name": {
+                "render": "{name}"
+            }
+        },
+        "title": {
+            "render": "Bangku"
+        }
+    },
+    "bike_parking": {
+        "tagRenderings": {
+            "Access": {
+                "render": "{access}"
+            }
+        }
+    },
+    "caravansites": {
+        "description": "Tempat camping",
+        "name": "Tempat camping",
+        "tagRenderings": {
+            "caravansites-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Anda perlu membayar untuk menggunakannya"
+                    },
+                    "1": {
+                        "then": "Boleh digunakan tanpa bayaran"
+                    }
+                }
+            },
+            "caravansites-internet": {
+                "mappings": {
+                    "0": {
+                        "then": "Akses Web tersedia"
+                    },
+                    "1": {
+                        "then": "Akses Web tersedia"
+                    },
+                    "2": {
+                        "then": "Tiada akses Web"
+                    }
+                },
+                "question": "Tempat ini berbagi akses Web?"
+            },
+            "caravansites-name": {
+                "question": "Apakah nama tempat ini?",
+                "render": "Tempat ini disebut {name}"
+            },
+            "caravansites-sanitary-dump": {
+                "mappings": {
+                    "0": {
+                        "then": "Tempat ini memiliki tempat pembuangan sanitasi"
+                    },
+                    "1": {
+                        "then": "Tempat ini tidak memiliki tempat pembuangan sampah sanitasi"
+                    }
+                },
+                "question": "Apakah tempat ini memiliki tempat pembuangan sanitasi?"
+            },
+            "caravansites-toilets": {
+                "mappings": {
+                    "0": {
+                        "then": "Tempat sini ada tandas"
+                    },
+                    "1": {
+                        "then": "Tempat sini tiada tandas"
+                    }
+                }
+            },
+            "caravansites-website": {
+                "question": "Tempat sini terada situs web?",
+                "render": "Situs resmi: <a href='{website}'>{website}</a>"
+            }
+        },
+        "title": {
+            "render": "Tempat kemping {name}"
+        }
+    },
+    "climbing_area": {
+        "tagRenderings": {
+            "name": {
+                "render": "<strong>{name}</strong>"
+            }
+        }
+    },
+    "climbing_club": {
+        "tagRenderings": {
+            "climbing_club-name": {
+                "render": "<strong>{name}</strong>"
+            }
+        }
+    },
+    "climbing_opportunity": {
+        "tagRenderings": {
+            "climbing-opportunity-name": {
+                "render": "<strong>{name}</strong>"
+            }
+        }
+    },
+    "climbing_route": {
+        "tagRenderings": {
+            "Name": {
+                "render": "<strong>{name}</strong>"
+            }
+        }
+    },
+    "cycleways_and_roads": {
+        "tagRenderings": {
+            "Maxspeed (for road)": {
+                "mappings": {
+                    "3": {
+                        "then": "Kecepatan maksimum 70 km/jam"
+                    },
+                    "4": {
+                        "then": "Kecepatan maksimum 90 km/jam"
+                    }
+                },
+                "question": "Berapa kecepatan maksimum di jalan ini?",
+                "render": "Kecepatan maksimum di jalan ini adalah {maxspeed} km/jam"
+            },
+            "Surface of the road": {
+                "mappings": {
+                    "1": {
+                        "then": "Jalur sepeda ini diaspal"
+                    },
+                    "10": {
+                        "then": "Jalur sepeda ini terbuat dari kerikil halus"
+                    },
+                    "11": {
+                        "then": "Jalur sepeda ini terbuat dari batu kerikil"
+                    },
+                    "12": {
+                        "then": "Jalur sepeda ini terbuat dari tanah alami"
+                    },
+                    "2": {
+                        "then": "Jalur sepeda ini terbuat dari aspal"
+                    },
+                    "3": {
+                        "then": "Jalur sepeda ini terbuat dari batu paving halus"
+                    },
+                    "4": {
+                        "then": "Jalur sepeda ini terbuat dari beton"
+                    },
+                    "5": {
+                        "then": "Jalur sepeda ini terbuat dari cobblestone (unhewn atau sett)"
+                    },
+                    "6": {
+                        "then": "Jalur sepeda ini terbuat dari batu bulat alami"
+                    },
+                    "8": {
+                        "then": "Jalur sepeda ini terbuat dari kayu"
+                    },
+                    "9": {
+                        "then": "Jalur sepeda ini terbuat dari kerikil"
+                    }
+                },
+                "question": "Permukaan jalannya terbuat dari apa?",
+                "render": "Jalan ini terbuat dari {surface}"
+            },
+            "Surface of the street": {
+                "mappings": {
+                    "0": {
+                        "then": "Dapat digunakan untuk roller tipis: rollerblade, skateboard"
+                    },
+                    "1": {
+                        "then": "Dapat digunakan untuk roda tipis: sepeda balap"
+                    },
+                    "2": {
+                        "then": "Dapat digunakan untuk roda normal: sepeda kota, kursi roda, skuter"
+                    },
+                    "3": {
+                        "then": "Dapat digunakan untuk roda yang kuat: sepeda trekking, mobil, becak"
+                    },
+                    "5": {
+                        "then": "Dapat digunakan untuk kendaraan off-road: kendaraan off-road berat"
+                    },
+                    "6": {
+                        "then": "Dapat digunakan untuk kendaraan off-road khusus: traktor, ATV"
+                    }
+                }
+            },
+            "cyclelan-segregation": {
+                "mappings": {
+                    "0": {
+                        "then": "Jalur sepeda ini dipisahkan oleh garis putus-putus"
+                    },
+                    "1": {
+                        "then": "Jalur sepeda ini dipisahkan oleh garis solid"
+                    },
+                    "2": {
+                        "then": "Jalur sepeda ini dipisahkan oleh jalur parkir"
+                    },
+                    "3": {
+                        "then": "Jalur sepeda ini dipisahkan oleh kerb"
+                    }
+                },
+                "question": "Bagaimana jalur sepeda ini terpisah dari jalan?"
+            },
+            "cycleway-lane-track-traffic-signs": {
+                "mappings": {
+                    "0": {
+                        "then": "Jalur sepeda wajib"
+                    },
+                    "1": {
+                        "then": "Jalur sepeda wajib (dengan tanda tambahan)<br>"
+                    },
+                    "2": {
+                        "then": "Jalur pejalan kaki/sepeda terpisah"
+                    },
+                    "3": {
+                        "then": "Jalur pejalan kaki/sepeda tidak terpisah"
+                    },
+                    "4": {
+                        "then": "Tidak ada rambu lalu lintas"
+                    }
+                },
+                "question": "Rambu lalu lintas apa yang dimiliki jalur sepeda ini?"
+            },
+            "cycleway-segregation": {
+                "mappings": {
+                    "0": {
+                        "then": "Jalur sepeda ini dipisahkan oleh garis putus-putus"
+                    },
+                    "1": {
+                        "then": "Jalur sepeda ini dipisahkan oleh garis solid"
+                    },
+                    "2": {
+                        "then": "Jalur sepeda ini dipisahkan oleh jalur parkir"
+                    },
+                    "3": {
+                        "then": "Jalur sepeda ini dipisahkan oleh kerb"
+                    }
+                },
+                "question": "Bagaimana jalur sepeda ini dipisahkan dari jalan?"
+            },
+            "cycleway-traffic-signs": {
+                "mappings": {
+                    "0": {
+                        "then": "Jalur sepeda wajib"
+                    }
+                }
+            }
+        }
+    },
+    "defibrillator": {
+        "tagRenderings": {
+            "defibrillator-description": {
+                "render": "Informasi tambahan: {description}"
+            }
+        }
+    },
+    "drinking_water": {
+        "name": "Air minum",
+        "presets": {
+            "0": {
+                "title": "air minum"
+            }
+        },
+        "title": {
+            "render": "Air minum"
+        }
+    },
+    "dumpstations": {
+        "description": "Tempat pembuangan sanitasi",
+        "name": "Tempat pembuangan sanitasi"
+    },
+    "filters": {
+        "filter": {
+            "0": {
+                "options": {
+                    "0": {
+                        "question": "Saat ini buka"
+                    }
+                }
+            }
+        }
+    },
+    "ghost_bike": {
+        "tagRenderings": {
+            "ghost_bike-inscription": {
+                "render": "<i>{inscription}</i>"
+            },
+            "ghost_bike-source": {
+                "render": {
+                    "special": {
+                        "text": "Informasi lanjut tersedia"
+                    }
+                }
+            }
+        }
+    },
+    "hydrant": {
+        "tagRenderings": {
+            "hydrant-type": {
+                "mappings": {
+                    "2": {
+                        "then": "Jenis dinding."
+                    }
+                }
+            }
+        }
+    },
+    "last_click": {
+        "pointRendering": {
+            "0": {
+                "label": {
+                    "render": "Klik di sini untuk menambahkan item baru"
+                }
+            }
+        }
+    },
+    "playground": {
+        "tagRenderings": {
+            "playground-email": {
+                "render": "<a href='mailto:{email}'>{email}</a>"
+            },
+            "playground-phone": {
+                "render": "<a href='tel:{phone}'>{phone}</a>"
+            }
+        }
+    },
+    "postboxes": {
+        "description": "Layer yang memperlihatkan kotak pos.",
+        "name": "Kotak pos",
+        "presets": {
+            "0": {
+                "title": "kotak pos"
+            }
+        },
+        "title": {
+            "render": "Kotak pos"
+        }
+    },
+    "postoffices": {
+        "description": "Layer yang menunjukkan kantor pos.",
+        "name": "Kantor pos",
+        "presets": {
+            "0": {
+                "title": "Kantor Pos"
+            }
+        },
+        "tagRenderings": {
+            "opening_hours": {
+                "override": {
+                    "question": "Jam berapa kantor pos ini buka?"
+                }
+            }
+        },
+        "title": {
+            "render": "Kantor Pos"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "denominations-coins": {
+                "mappings": {
+                    "0": {
+                        "then": "1 koin sen diterima"
+                    },
+                    "1": {
+                        "then": "Koin 2 sen diterima"
+                    },
+                    "2": {
+                        "then": "Koin 5 sen diterima"
+                    },
+                    "3": {
+                        "then": "Koin 10 sen diterima"
+                    },
+                    "4": {
+                        "then": "Koin 20 sen diterima"
+                    },
+                    "5": {
+                        "then": "Koin 50 sen diterima"
+                    }
+                }
+            },
+            "description": {
+                "question": "Apakah masih ada sesuatu yang relevan yang tidak dapat Anda berikan dalam pertanyaan sebelumnya? Tambahkan di sini. ",
+                "questionHint": "  Jangan ulangi fakta yang sudah dinyatakan "
+            },
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Anjing diperbolehkan"
+                    },
+                    "1": {
+                        "then": "Anjing <b>tidak</b> diperbolehkan"
+                    },
+                    "2": {
+                        "then": "Anjing diperbolehkan, tetapi mereka harus diikat"
+                    },
+                    "3": {
+                        "then": "Anjing diperbolehkan dan dapat berkeliaran dengan bebas"
+                    }
+                },
+                "question": "Apakah anjing diperbolehkan dalam bisnis ini?"
+            },
+            "email": {
+                "question": "Apa alamat surel dari {title()}?"
+            },
+            "internet": {
+                "mappings": {
+                    "0": {
+                        "then": "Tempat ini menyediakan jaringan internet nirkabel"
+                    },
+                    "1": {
+                        "then": "Tempat ini <b>tidak</b> menyediakan jaringan internet"
+                    },
+                    "2": {
+                        "then": "Tempat ini menyediakan jaringan internet"
+                    },
+                    "3": {
+                        "then": "Tempat ini menyediakan jaringan internet melalui terminal atau komputer"
+                    },
+                    "4": {
+                        "then": "Tempat ini menyediakan jaringan internet kabel"
+                    }
+                },
+                "question": "Apa tempat ini menyediakan jaringan internet?"
+            },
+            "internet-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Ada biaya untuk akses internet di tempat ini"
+                    },
+                    "1": {
+                        "then": "Jaringan internet tersedia gratis di tempat ini"
+                    },
+                    "2": {
+                        "then": "Jaringan internet tersedia gratis di tempat ini, hanya untuk pelanggan"
+                    }
+                },
+                "question": "Apakah ada biaya untuk akses internet?"
+            },
+            "internet-ssid": {
+                "freeform": {
+                    "placeholder": "Masukkan nama jaringan"
+                },
+                "question": "Apa nama jaringan internet nirkabelnya?",
+                "render": "Nama jaringan ini adalah <b>{internet_access:ssid}</b>"
+            },
+            "multilevels": {
+                "override": {
+                    "question": "Pada lantai berapa saja lift ini berjalan?",
+                    "render": "Lift ini berjalan ke lantai {level}"
+                }
+            },
+            "opening_hours": {
+                "question": "Kapan jam buka {title()}?",
+                "render": "<h3>Jam buka</h3>{opening_hours_table(opening_hours)}"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "Buka 24 jam (termasuk hari libur)"
+                        }
+                    }
+                }
+            },
+            "payment-options": {
+                "mappings": {
+                    "0": {
+                        "then": "Pembayaran tunai diterima di sini"
+                    },
+                    "1": {
+                        "then": "Kartu pembayaran diterima di sini"
+                    }
+                },
+                "question": "Metode pembayaran manakah yang di terima disini?"
+            },
+            "payment-options-advanced": {
+                "override": {
+                    "mappings+": {
+                        "0": {
+                            "then": "Pembayaran dilakukan dengan aplikasi khusus"
+                        },
+                        "1": {
+                            "then": "Pembayaran dilakukan dengan kartu anggota"
+                        }
+                    }
+                }
+            },
+            "phone": {
+                "question": "Berapa nomor telepon dari {title()}?"
+            },
+            "single_level": {
+                "mappings": {
+                    "0": {
+                        "then": "Terletak di bawah tanah"
+                    },
+                    "1": {
+                        "then": "Terletak di lantai dasar"
+                    },
+                    "2": {
+                        "then": "Terletak di lantai dasar"
+                    },
+                    "3": {
+                        "then": "Berlokasi di lantai pertama"
+                    },
+                    "4": {
+                        "then": "Terletak di lantai basement pertama"
+                    }
+                },
+                "question": "Pada tingkat apa fitur ini diletakkan?",
+                "render": "Terletak di lantai {level}"
+            },
+            "smoking": {
+                "mappings": {
+                    "0": {
+                        "then": "Merokok <b>diizinkan</b>"
+                    },
+                    "1": {
+                        "then": "Merokok <b>dilarang</b>"
+                    },
+                    "2": {
+                        "then": "Merokok <b>diizinkan di luar ruangan</b>."
+                    }
+                },
+                "question": "Apa diizinkan untuk merokok di {title()}?"
+            },
+            "website": {
+                "question": "Apa situs web dari {title()}?"
+            },
+            "wheelchair-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Tempat ini dirancang khusus untuk pengguna kursi roda"
+                    },
+                    "1": {
+                        "then": "Tempat ini mudah dijangkau dengan kursi roda"
+                    },
+                    "2": {
+                        "then": "Dimungkinkan untuk mencapai tempat ini dengan kursi roda, tetapi tidak mudah"
+                    },
+                    "3": {
+                        "then": "Tempat ini tidak bisa dijangkau dengan kursi roda"
+                    }
+                },
+                "question": "Apakah tempat ini dapat diakses dengan kursi roda?"
+            },
+            "wikipedia": {
+                "mappings": {
+                    "0": {
+                        "then": "Belum ada halaman Wikipedia yang ditautkan"
+                    },
+                    "1": {
+                        "then": "Belum ada halaman Wikipedia yang ditautkan"
+                    }
+                },
+                "question": "Apa entitas Wikidata yang sesuai?"
+            }
+        }
+    },
+    "recycling": {
+        "filter": {
+            "2": {
+                "options": {
+                    "0": {
+                        "question": "Hanya akses publik"
+                    }
+                }
+            },
+            "3": {
+                "options": {
+                    "0": {
+                        "question": "Hanya akses publik"
+                    }
+                }
+            }
+        }
+    },
+    "sports_centre": {
+        "presets": {
+            "0": {
+                "title": "pusat olahraga"
+            }
+        },
+        "title": {
+            "render": "Pusat olahraga"
+        }
+    },
+    "stairs": {
+        "description": "Lapisan ini menunjukkan tangga dan eskalator",
+        "name": "Tangga",
+        "tagRenderings": {
+            "conveying": {
+                "mappings": {
+                    "0": {
+                        "then": "Ini adalah eskalator"
+                    },
+                    "1": {
+                        "then": "Ini bukan eskalator"
+                    },
+                    "2": {
+                        "then": "Ini bukan eskalator"
+                    }
+                }
+            },
+            "handrail": {
+                "mappings": {
+                    "0": {
+                        "then": "Tangga ini memiliki pegangan tangan"
+                    },
+                    "1": {
+                        "then": "Tangga ini <b>tidak </b>memiliki pegangan tangan"
+                    }
+                },
+                "question": "Apakah tangga ini memiliki pegangan?"
+            },
+            "incline": {
+                "mappings": {
+                    "0": {
+                        "then": "Arah ke atas adalah {direction_absolute()}"
+                    },
+                    "1": {
+                        "then": "Arah ke bawah adalah {direction_absolute()}"
+                    }
+                },
+                "question": "Berapa kemiringan tangga ini?",
+                "render": "Tangga ini memiliki kemiringan sebesar {incline}"
+            }
+        }
+    },
+    "tree_node": {
+        "presets": {
+            "2": {
+                "title": "Pohon"
+            }
+        },
+        "tagRenderings": {
+            "tree-heritage": {
+                "mappings": {
+                    "0": {
+                        "then": "Terdaftar sebagai warisan oleh <i>Onroerend Erfgoed</i> Flanders"
+                    },
+                    "1": {
+                        "then": "Terdaftar sebagai warisan budaya oleh <i>Direction du Patrimoine culturel</i> Brussels"
+                    },
+                    "2": {
+                        "then": "Terdaftar sebagai warisan oleh organisasi yang berbeda"
+                    },
+                    "3": {
+                        "then": "Tidak terdaftar sebagai warisan"
+                    },
+                    "4": {
+                        "then": "Terdaftar sebagai warisan oleh organisasi yang berbeda"
+                    }
+                },
+                "question": "Apakah pohon ini merupakan warisan yang terdaftar?"
+            },
+            "tree-leaf_type": {
+                "mappings": {
+                    "0": {
+                        "then": "Berdaun lebar"
+                    },
+                    "1": {
+                        "then": "Berdaun jarum"
+                    },
+                    "2": {
+                        "then": "Tanpa daun permanen"
+                    }
+                }
+            },
+            "tree-species-wikidata": {
+                "question": "Spesies pohon apa ini?"
+            },
+            "tree_node-name": {
+                "mappings": {
+                    "0": {
+                        "then": "Pohon ini tidak memiliki nama."
+                    }
+                },
+                "question": "Apakah pohon ini memiliki nama?",
+                "render": "Nama: {name}"
+            }
+        }
+    },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "Koin 50 sen diterima"
+                    }
+                }
+            }
+        }
+    },
+    "unit": {
+        "units": {
+            "0": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} megawat"
+                    },
+                    "1": {
+                        "human": "{quantity} kilowat"
+                    },
+                    "2": {
+                        "human": "{quantity} watt"
+                    },
+                    "3": {
+                        "human": "{quantity} gigawatt"
+                    }
+                }
+            },
+            "3": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} meter"
+                    }
+                }
+            }
+        }
+    },
+    "usersettings": {
+        "tagRenderings": {
+            "translation-completeness": {
+                "render": "Terjemahan untuk {_theme} dalam {_language} masih {_translation_percentage}%: {_translation_translated_count} string dari {_translation_total} diterjemahkan"
+            }
+        }
+    },
+    "veterinary": {
+        "title": {
+            "render": "Dokter hewan"
+        }
+    },
+    "viewpoint": {
+        "name": "Sudut pandang",
+        "presets": {
+            "0": {
+                "title": "Sudut pandang"
+            }
+        },
+        "tagRenderings": {
+            "viewpoint-description": {
+                "question": "Apakah Anda ingin menambahkan deskripsi?"
+            }
+        },
+        "title": {
+            "render": "Sudut pandang"
+        }
+    },
+    "visitor_information_centre": {
+        "name": "Pusat Informasi Pengunjung",
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "{name}"
+                }
+            },
+            "render": "{name}"
+        }
+    },
+    "waste_basket": {
+        "name": "Keranjang Sampah",
+        "presets": {
+            "0": {
+                "title": "sebuah keranjang sampah"
+            }
+        },
+        "tagRenderings": {
+            "dispensing_dog_bags": {
+                "mappings": {
+                    "0": {
+                        "then": "Keranjang sampah ini memiliki dispenser untuk kantong kotoran (anjing)"
+                    },
+                    "1": {
+                        "then": "Keranjang sampah ini <b> tidak</b> memiliki dispenser untuk kantong kotoran (anjing)"
+                    },
+                    "2": {
+                        "then": "Keranjang sampah ini <b> tidak</b> memiliki dispenser untuk kantong kotoran (anjing)"
+                    }
+                },
+                "question": "Apakah keranjang sampah ini memiliki dispenser untuk kantong kotoran anjing?"
+            },
+            "waste-basket-waste-types": {
+                "mappings": {
+                    "0": {
+                        "then": "Keranjang sampah untuk sampah umum"
+                    },
+                    "1": {
+                        "then": "Keranjang sampah untuk sampah umum"
+                    },
+                    "2": {
+                        "then": "Keranjang sampah untuk kotoran anjing"
+                    },
+                    "3": {
+                        "then": "Keranjang sampah untuk rokok"
+                    },
+                    "4": {
+                        "then": "Keranjang sampah untuk obat-obatan"
+                    },
+                    "5": {
+                        "then": "Keranjang sampah untuk jarum dan benda tajam lainnya"
+                    },
+                    "6": {
+                        "then": "Keranjang sampah untuk plastik"
+                    },
+                    "8": {
+                        "then": "Keranjang sampah untuk kertas"
+                    }
+                },
+                "question": "Keranjang sampah macam apa ini?"
+            }
+        },
+        "title": {
+            "render": "Keranjang Sampah"
+        }
+    },
+    "waste_disposal": {
+        "filter": {
+            "0": {
+                "options": {
+                    "0": {
+                        "question": "Hanya akses publik"
+                    }
+                }
+            }
+        },
+        "name": "Tempat Pembuangan Limbah",
+        "presets": {
+            "0": {
+                "description": "Tempat sampah sedang hingga besar untuk pembuangan limbah (rumah tangga)",
+                "title": "tempat pembuangan sampahh"
+            }
+        },
+        "tagRenderings": {
+            "access": {
+                "mappings": {
+                    "0": {
+                        "then": "Tempat sampah ini bisa digunakan oleh siapa saja"
+                    },
+                    "1": {
+                        "then": "Tempat sampah ini bersifat pribadi"
+                    },
+                    "2": {
+                        "then": "Tempat sampah ini hanya untuk penghuni"
+                    }
+                },
+                "question": "Siapa yang bisa menggunakan tempat sampah ini?",
+                "render": "Akses: {access}"
+            },
+            "disposal-location": {
+                "mappings": {
+                    "0": {
+                        "then": "Ini adalah kontainer bawah tanah"
+                    },
+                    "1": {
+                        "then": "Kontainer ini terletak di dalam ruangan"
+                    },
+                    "2": {
+                        "then": "Kontainer ini terletak di luar ruangan"
+                    }
+                },
+                "question": "Di manakah lokasi kontainer ini?"
+            }
+        },
+        "title": {
+            "render": "Pembuangan Limbah"
+        }
+    },
+    "windturbine": {
+        "tagRenderings": {
+            "turbine-operator": {
+                "question": "Siapa yang mengoperasikan turbin angin ini?",
+                "render": "Turbin angin ini dioperasikan oleh {operator}."
+            },
+            "turbine-output": {
+                "question": "Berapa output daya dari turbin angin ini? (misalnya 2,3 MW)",
+                "render": "Output daya dari turbin angin ini adalah {generator:output:electricity}."
+            },
+            "turbine-start-date": {
+                "question": "Kapan turbin angin ini mulai beroperasi?",
+                "render": "Turbin angin ini mulai beroperasi pada/dalam {start_date}."
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            },
+            "render": "turbin angin"
+        }
+    }
+}

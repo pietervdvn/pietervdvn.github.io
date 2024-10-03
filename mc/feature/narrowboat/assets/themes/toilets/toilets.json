@@ -1,0 +1,50 @@
+{
+  "id": "toilets",
+  "title": {
+    "en": "Public toilets",
+    "de": "Öffentliche Toiletten",
+    "fr": "Toilettes publiques",
+    "nl": "Publieke Toiletten",
+    "ru": "Открытая карта туалетов",
+    "ja": "オープントイレマップ",
+    "zh_Hant": "公共廁所",
+    "pl": "Publiczne toalety",
+    "it": "Servizi igienici pubblici",
+    "nb_NO": "Åpent toalettkart",
+    "hu": "WC-térkép",
+    "ca": "Lavabos públics",
+    "da": "Offentlige toiletter",
+    "es": "Baños públicos",
+    "cs": "Veřejné toalety"
+  },
+  "description": {
+    "en": "A map of public toilets",
+    "de": "Eine Karte mit öffentlich zugänglichen Toiletten",
+    "fr": "Carte affichant les WC et toilettes publiques",
+    "nl": "Een kaart met openbare toiletten",
+    "ru": "Карта общественных туалетов",
+    "ja": "公衆トイレの地図",
+    "zh_Hant": "公共廁所的地圖",
+    "pl": "Mapa toalet publicznych",
+    "it": "Una cartina dei servizi igienici pubblici",
+    "hu": "Nyilvános WC-k térképe",
+    "nb_NO": "Et kart over offentlige toaletter",
+    "da": "Et kort over offentlige toiletter",
+    "ca": "Mapa de lavabos públics",
+    "es": "Mapa de aseos públicos",
+    "cs": "Mapa veřejných toalet"
+  },
+  "icon": "./assets/themes/toilets/toilets.svg",
+  "startZoom": 12,
+  "startLat": 51.2095,
+  "startLon": 3.2222,
+  "layers": [
+    "toilet",
+    "toilet_at_amenity",
+    "shower"
+  ],
+  "overrideAll": {
+    "minzoom": 10
+  },
+  "widenFactor": 3
+}

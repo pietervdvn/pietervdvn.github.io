@@ -1,0 +1,144 @@
+{
+  "id": "waterway",
+  "name": {
+    "en": "Navigable waterways"
+  },
+  "description": {
+    "en": "Waterways which are navigable by small boats, yachts, ..."
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        "motorboat!=no",
+        "boat!=no",
+        {
+          "or": [
+            "waterway=river",
+            "waterway=canal"
+          ]
+        }
+      ]
+    }
+  },
+  "title": {
+    "en": "{name}"
+  },
+  "pointRendering": null,
+  "lineRendering": [
+    {
+      "width": {
+        "mappings": [
+          {
+            "if": "waterway=canal",
+            "then": "8"
+          },
+          {
+            "if": "waterway=river",
+            "then": "8"
+          },
+          {
+            "if": "waterway=stream",
+            "then": "6"
+          }
+        ]
+      },
+      "color": {
+        "render": "blue",
+        "mappings": [
+          {
+            "if": "boat=no",
+            "then": "red"
+          },
+          {
+            "if": "motorboat=yes",
+            "then": "#00ff00"
+          },
+          {
+            "if": "boat=yes",
+            "then": "#00cc00"
+          }
+        ]
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "wikipedia",
+    {
+      "id": "type",
+      "question": {
+        "en": "What type of waterway is this?"
+      },
+      "mappings": [
+        {
+          "if": "waterway=river",
+          "then": {
+            "en": "This is a river"
+          }
+        },
+        {
+          "if": "waterway=canal",
+          "then": {
+            "en": "This is a canal"
+          }
+        },
+        {
+          "if": "waterway=stream",
+          "then": {
+            "en": "This is a stream "
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Are boats allowed on this waterway?"
+      },
+      "id": "3_vyksl7ofya7m97l",
+      "questionHint": {
+        "en": "A boat is a floating craft of which the hull is less then 20 meter long (without rudder or bowsprit)"
+      },
+      "mappings": [
+        {
+          "if": "boat=yes",
+          "then": {
+            "en": "Boats (<20m) are allowed on this waterway"
+          },
+          "alsoShowIf": "motorboat=yes"
+        },
+        {
+          "if": "boat=no",
+          "then": {
+            "en": "Boats (<20m) are <b>not</b> allowed on this waterway"
+          },
+          "addExtraTags": [
+            "motorboat="
+          ]
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Are motorboats allowed on this waterway?"
+      },
+      "id": "4_yuodfwdyocflwg8",
+      "mappings": [
+        {
+          "if": "motorboat=yes",
+          "then": {
+            "en": "Motorized boats are allowed"
+          }
+        },
+        {
+          "if": "motorboat=no",
+          "then": {
+            "en": "Motorized boats are <b>not</b> allowed"
+          }
+        }
+      ]
+    }
+  ],
+  "allowMove": false,
+  "credits": "Pieter Vander Vennet",
+  "credits:uid": 3818858
+}

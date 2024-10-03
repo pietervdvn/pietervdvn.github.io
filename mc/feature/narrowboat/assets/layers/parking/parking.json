@@ -1,0 +1,337 @@
+{
+  "id": "parking",
+  "name": {
+    "en": "Parking",
+    "nl": "Parking",
+    "de": "Parkplätze",
+    "ca": "Aparcament",
+    "es": "Aparcamiento",
+    "fr": "Lieu de stationnement",
+    "pa_PK": "پارکنگ",
+    "pl": "Parking",
+    "cs": "Parkoviště"
+  },
+  "description": {
+    "en": "A layer showing car parkings",
+    "nl": "Deze laag toont autoparkings",
+    "de": "Eine Ebene mit Parkplätzen",
+    "es": "Una capa que muestra aparcamientos para coches",
+    "fr": "Un calque montrant les parkings",
+    "ca": "Una capa que mostra aparcaments per a cotxes",
+    "pl": "Warstwa pokazująca parkingi samochodowe",
+    "cs": "Vrstva zobrazující parkoviště"
+  },
+  "source": {
+    "osmTags": "amenity=parking"
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "nl": "Parking voor auto's",
+      "en": "Car parking",
+      "de": "Parkplatz",
+      "es": "aparcamiento de coches",
+      "fr": "Lieu de stationnement",
+      "pl": "Parking samochodowy",
+      "ca": "Aparcament de cotxes",
+      "cs": "Parkování"
+    }
+  },
+  "pointRendering": [
+    {
+      "iconSize": "36,36",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "iconBadges": [
+        {
+          "if": {
+            "or": [
+              "capacity:disabled>0",
+              "capacity:disabled=yes"
+            ]
+          },
+          "then": "circle:white;./assets/layers/toilet/wheelchair.svg"
+        }
+      ],
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": "./assets/layers/parking/parking.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": 2,
+      "color": "#ddcc00"
+    }
+  ],
+  "presets": [
+    {
+      "tags": [
+        "amenity=parking"
+      ],
+      "title": {
+        "nl": "een parking voor auto's",
+        "en": "a car parking",
+        "de": "einen Parkplatz",
+        "es": "un aparcamiento de coches",
+        "fr": "un lieu de stationnement pour voitures",
+        "ca": "un aparcament per a cotxes",
+        "pl": "parking samochodowy",
+        "cs": "parkoviště"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "level",
+    {
+      "id": "parking-type",
+      "mappings": [
+        {
+          "if": "parking=surface",
+          "then": {
+            "en": "This is a surface parking lot",
+            "nl": "Dit is een bovengronds parkeerterrein",
+            "de": "Dies ist ein oberirdischer Parkplatz",
+            "fr": "C'est un parking en surface",
+            "ca": "Aquest és un aparcament en superfície",
+            "cs": "Jedná se o povrchové parkoviště"
+          }
+        },
+        {
+          "if": "parking=street_side",
+          "then": {
+            "en": "This is a parking bay next to a street",
+            "nl": "Dit is een parkeerplek langs een weg",
+            "de": "Dies ist eine Parkbucht neben einer Straße",
+            "fr": "C'est un lieu de stationnement à côté d'une route",
+            "ca": "Es tracta d'un aparcament al costat d'un carrer",
+            "cs": "Jedná se o parkoviště vedle ulice"
+          }
+        },
+        {
+          "if": "parking=underground",
+          "then": {
+            "en": "This is an underground parking garage",
+            "nl": "Dit is een ondergrondse parkeergarage",
+            "de": "Dies ist eine Tiefgarage",
+            "fr": "C'est un parking souterrain",
+            "ca": "Aquest és un aparcament subterrani",
+            "pl": "To jest podziemny parking",
+            "cs": "Jedná se o podzemní garáž"
+          }
+        },
+        {
+          "if": "parking=multi-storey",
+          "then": {
+            "en": "This is a multi-storey parking garage",
+            "nl": "Dit is een bovengrondse parkeergarage met meerdere verdiepingen",
+            "de": "Dies ist ein mehrstöckiges oberirdisches Parkhaus",
+            "fr": "C'est un parking à plusieurs étages",
+            "pl": "To jest wielopiętrowy parking",
+            "ca": "Es tracta d'un garatge de diverses plantes",
+            "cs": "Jedná se o vícepodlažní parkovací garáž"
+          }
+        },
+        {
+          "if": "parking=rooftop",
+          "then": {
+            "en": "This is a rooftop parking deck",
+            "nl": "Dit is een parkeerdek op een dak",
+            "de": "Dies ist ein Parkdeck auf dem Dach",
+            "fr": "C'est un parking sur le toit",
+            "cs": "Jedná se o střešní parkoviště"
+          }
+        },
+        {
+          "if": "parking=lane",
+          "then": {
+            "en": "This is a lane for parking on the road",
+            "nl": "Dit is een strook voor parkeren op de weg",
+            "de": "Dies ist eine Fahrspur zum Parken auf der Straße",
+            "fr": "C'est une voie de stationnement sur la route",
+            "pl": "To jest pas do parkowania na jezdni",
+            "ca": "Aquest és un carril per aparcar al carrer",
+            "cs": "Jedná se o pruh pro parkování na silnici"
+          }
+        },
+        {
+          "if": "parking=carports",
+          "then": {
+            "en": "This is parking covered by carports",
+            "nl": "Dit is parking overdekt met carports",
+            "de": "Dies ist ein durch Carports überdachter Parkplatz",
+            "fr": "C'est un parking couvert avec des abris auto",
+            "cs": "Jedná se o parkoviště kryté přístřešky pro auta"
+          }
+        },
+        {
+          "if": "parking=garage_boxes",
+          "then": {
+            "en": "This a parking consisting of garage boxes",
+            "nl": "Dit is een parking bestaande uit garageboxen",
+            "de": "Dies ist ein Parkplatz bestehend aus Garagenboxen",
+            "fr": "C'est un parking composé de box de garage",
+            "cs": "Jedná se o parkoviště skládající se z garážových boxů"
+          }
+        },
+        {
+          "if": "parking=layby",
+          "then": {
+            "en": "This is a parking on a layby",
+            "nl": "Dit is een parkeerplek op een layby",
+            "de": "Hier gibt es Parkmöglichkeiten auf einem kleinen Rastplatz",
+            "fr": "C'est un parking sur une aire de stationnement",
+            "ca": "Aquest és un aparcament en una zona de descans",
+            "cs": "Jedná se o parkoviště na odpočívadle"
+          }
+        },
+        {
+          "if": "parking=sheds",
+          "then": {
+            "en": "This is a parking consisting of sheds",
+            "nl": "Dit is een parking bestaande uit schuren",
+            "de": "Hier gibt es Parkmöglichkeiten unter einer offenen Dachkonstruktion",
+            "fr": "C'est un parking composé de cabanons",
+            "cs": "Jedná se o parkoviště tvořené přístřešky"
+          }
+        }
+      ],
+      "question": {
+        "en": "What kind of parking is this?",
+        "nl": "Wat voor parking is dit?",
+        "de": "Was ist das für ein Parkplatz?",
+        "fr": "De quel type de stationnement s'agit-il ?",
+        "ca": "Quin tipus d'aparcament és aquest?",
+        "pl": "Jaki to rodzaj parkingu?",
+        "cs": "Jaký je druh parkování?"
+      }
+    },
+    {
+      "id": "capacity-disabled",
+      "freeform": {
+        "key": "capacity:disabled",
+        "type": "pnat",
+        "placeholder": {
+          "en": "Amount of parking spots reserved for disabled people",
+          "nl": "Aantal parkeerplaatsen voor gehandicapten",
+          "de": "Anzahl barrierefreier Stellplätze",
+          "fr": "Nombre de places de stationnement réservées aux personnes à mobilité réduite",
+          "ca": "Quantitat de places d'aparcament reservades per a persones amb mobilitat reduïda",
+          "pl": "Liczba miejsc parkingowych przeznaczonych dla niepełnosprawnych",
+          "cs": "Počet parkovacích míst vyhrazených pro osoby se zdravotním postižením"
+        }
+      },
+      "mappings": [
+        {
+          "if": "capacity:disabled=yes",
+          "then": {
+            "en": "There are disabled parking spots, but it is not known how many",
+            "nl": "Er zijn parkeerplaatsen voor gehandicapten, maar het is niet bekend hoeveel er zijn",
+            "de": "Es gibt barrierefreie Stellplätze, aber die Anzahl ist unbekannt",
+            "fr": "Il y a des places de stationnement pour personnes à mobilité réduite, mais on ne sait pas combien",
+            "ca": "Hi ha places d'aparcament per a gent amb mobilitat reduïda, però no es sap quantes",
+            "pl": "Są tutaj miejsca parkingowe dla niepełnosprawnych, ale nie wiadomo ile",
+            "cs": "K dispozici jsou parkovací místa pro osoby se zdravotním postižením, ale není známo, kolik jich je"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "capacity:disabled=no",
+          "then": {
+            "en": "There are no disabled parking spots",
+            "nl": "Er zijn geen parkeerplaatsen voor gehandicapten",
+            "de": "Es gibt keine barrierefreien Stellplätze",
+            "fr": "Il n'y a pas de places de stationnement pour personnes à mobilité réduite",
+            "pl": "Nie ma tutaj żadnych miejsc parkingowych dla niepełnosprawnych",
+            "ca": "No hi ha places d'aparcament per a minusvàlids",
+            "cs": "Nejsou zde žádná parkovací místa pro osoby se zdravotním postižením"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "capacity:disabled=0",
+          "then": {
+            "en": "There are no disabled parking spots",
+            "nl": "Er zijn geen parkeerplaatsen voor gehandicapten",
+            "de": "Es gibt keine barrierefreien Stellplätze",
+            "fr": "Il n'y a pas de places de stationnement pour personnes à mobilité réduite",
+            "ca": "No hi ha places d'aparcament per a persones amb mobilitat reduïda",
+            "pl": "Nie ma tutaj żadnych miejsc parkingowych dla niepełnosprawnych",
+            "cs": "Nejsou zde žádná parkovací místa pro osoby se zdravotním postižením"
+          }
+        }
+      ],
+      "question": {
+        "en": "How many disabled parking spots are there at this parking?",
+        "nl": "Hoeveel parkeerplaatsen voor gehandicapten zijn er op deze parking?",
+        "de": "Wie viele barrierefreie Stellplätze gibt es auf diesem Parkplatz?",
+        "fr": "Combien y a-t-il de places de stationnement pour personnes à mobilité réduite dans ce parking ?",
+        "ca": "Quantes places d'aparcament per a persones amb mobilitat reduïda hi ha al parking?",
+        "pl": "Jak wiele miejsc parkingowych dla niepełnosprawnych znajduje się na tym parkingu?",
+        "cs": "Kolik je na tomto parkovišti parkovacích míst pro osoby se zdravotním postižením?"
+      },
+      "render": {
+        "en": "There are {capacity:disabled} disabled parking spots",
+        "nl": "Er zijn {capacity:disabled} parkeerplaatsen voor gehandicapten",
+        "de": "Es gibt {capacity:disabled} barrierefreie Stellplätze",
+        "fr": "Il y a {capacity:disabled} places de stationnement pour personnes à mobilité réduite",
+        "ca": "Hi ha {capacity:disabled} places d'aparcament per a discapacitats",
+        "pl": "Jest {capacity:disabled} miejsc parkingowych dla niepełnosprawnych",
+        "cs": "K dispozici je {capacity:disabled} parkovacích míst pro osoby se zdravotním postižením"
+      }
+    },
+    {
+      "id": "capacity",
+      "freeform": {
+        "key": "capacity",
+        "type": "pnat",
+        "placeholder": {
+          "en": "Amount of parking spots",
+          "nl": "Aantal parkeerplaatsen",
+          "de": "Anzahl der Parkplätze",
+          "fr": "Nombre de places de stationnement",
+          "ca": "Quantitat de places d'aparcament",
+          "pl": "Liczba miejsc parkingowych",
+          "cs": "Počet parkovacích míst"
+        }
+      },
+      "question": {
+        "en": "How many parking spots are there at this parking?",
+        "nl": "Hoeveel parkeerplaatsen zijn er op deze parking?",
+        "de": "Wie viele Stellplätze gibt es auf diesem Parkplatz?",
+        "fr": "Combien de places de stationnement y a-t-il dans ce parking ?",
+        "ca": "Quantes places d'aparcament hi han a aquest aparcament?",
+        "pl": "Ile miejsc parkingowych jest na tym parkingu?",
+        "cs": "Kolik je na tomto parkovišti parkovacích míst?"
+      },
+      "render": {
+        "en": "There are {capacity} parking spots",
+        "nl": "Er zijn {capacity} parkeerplaatsen",
+        "de": "Es gibt {capacity} Stellplätze",
+        "fr": "Il y a {capacity} places de stationnement",
+        "ca": "Hi han {capacity} places d'aparcament",
+        "pl": "Jest {capacity} miejsc parkingowych",
+        "cs": "Počet parkovacích míst {capacity}"
+      }
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity:={amenity}",
+        "amenity="
+      ]
+    },
+    "neededChangesets": 1
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuracy": true
+  }
+}

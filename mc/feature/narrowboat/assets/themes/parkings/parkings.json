@@ -1,0 +1,70 @@
+{
+  "id": "parkings",
+  "title": {
+    "en": "Parking",
+    "nl": "Parking",
+    "de": "Parkplatzkarte",
+    "it": "Parcheggio",
+    "nb_NO": "Parkering",
+    "ru": "Парковка",
+    "zh_Hant": "停車場",
+    "id": "Tempat parkir",
+    "hu": "Parkolás",
+    "fr": "Stationnement",
+    "es": "Aparcamiento",
+    "da": "Parkering",
+    "pa_PK": "پارکنگ",
+    "ca": "Aparcament",
+    "cs": "Parkoviště",
+    "eu": "Aparkalekua",
+    "pl": "Parking"
+  },
+  "description": {
+    "nl": "Deze kaart toont verschillende parkeerplekken",
+    "en": "This map shows different parking spots",
+    "de": "Eine Karte für verschiedene Parkplätze",
+    "it": "Questa cartina mostra diversi posti dove parcheggiare",
+    "zh_Hant": "這地圖顯示不同的停車空間",
+    "id": "Peta ini menunjukkan tempat parkir yang berbeda",
+    "hu": "Ez a térkép különböző parkolókat jelenít meg",
+    "fr": "Cette carte affiche différents lieux de stationnement",
+    "es": "Este mapa muestra diferentes puntos de aparcamiento",
+    "nb_NO": "Forskjellige parkeringsplasser",
+    "da": "Dette kort viser forskellige parkeringspladser",
+    "ca": "Aquest mapa mostra diferents punts d'aparcament",
+    "cs": "Na této mapě jsou vyznačena různá parkovací místa",
+    "pl": "Ta mapa pokazuje różne miejsca parkingowe"
+  },
+  "shortDescription": {
+    "nl": "Deze kaart toont verschillende parkeerplekken",
+    "en": "This map shows different parking spots",
+    "de": "Diese Karte zeigt Parkplätze",
+    "it": "Questa cartina mostra diversi posti dove parcheggiare",
+    "nb_NO": "Dette kartet viser forskjellige parkeringsplasser",
+    "zh_Hant": "這地圖顯示不同的停車空間",
+    "id": "Peta ini menunjukkan tempat parkir yang berbeda",
+    "hu": "Ez a térkép különböző parkolókat jelenít meg",
+    "es": "Este mapa muestra diferentes puntos de aparcamiento",
+    "fr": "Cette montre les emplacements de parking",
+    "da": "Dette kort viser forskellige parkeringspladser",
+    "ca": "Aquest mapa mostra diferents punts d'aparcament",
+    "cs": "Na této mapě jsou vyznačena různá parkovací místa",
+    "pl": "Ta mapa pokazuje różne miejsca parkingowe"
+  },
+  "icon": "./assets/themes/parkings/parkings.svg",
+  "startZoom": 12,
+  "startLat": 51.20875,
+  "startLon": 3.22435,
+  "layers": [
+    "parking",
+    "parking_spaces",
+    "parking_ticket_machine",
+    {
+      "builtin": "charging_station",
+      "override": {
+        "minzoom": 18
+      }
+    }
+  ],
+  "widenFactor": 1.2
+}

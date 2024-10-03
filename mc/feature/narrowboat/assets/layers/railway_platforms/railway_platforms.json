@@ -1,0 +1,116 @@
+{
+  "id": "railway_platforms",
+  "name": {
+    "en": "Railway Platforms",
+    "de": "Bahnsteige",
+    "nl": "Treinperrons",
+    "fr": "Quais de gare",
+    "ca": "Andanes ferroviàries",
+    "cs": "Železniční nástupiště"
+  },
+  "description": {
+    "en": "Find every platform in the station, and the train routes that use them.",
+    "de": "Finden Sie alle Bahnsteige im Bahnhof und die Zugstrecken, die sie benutzen.",
+    "nl": "Vind elk perron in het station, en de routes die ze gebruiken.",
+    "fr": "Trouvez tous les quais dans la gare, et les lignes ferroviaires qui les utilisent.",
+    "ca": "Trobeu totes les andanes de l'estació i les rutes de tren que les fan servir.",
+    "cs": "Najděte všechna nástupiště ve stanici a vlakové trasy, které je používají."
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "railway=platform"
+      ]
+    }
+  },
+  "minzoom": 18,
+  "title": {
+    "render": {
+      "en": "Platform",
+      "de": "Bahnsteig",
+      "nl": "Perron",
+      "fr": "Quai",
+      "ca": "Andana",
+      "cs": "Nástupiště",
+      "pl": "Peron"
+    },
+    "mappings": [
+      {
+        "if": "ref~*",
+        "then": {
+          "en": "Platform {ref}",
+          "de": "Bahnsteig {ref}",
+          "nl": "Perron {ref}",
+          "fr": "Quai {ref}",
+          "ca": "Andana {ref}",
+          "cs": "Nástupiště {ref}",
+          "pl": "Peron {ref}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "ref~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{ref}</div>"
+          }
+        ]
+      },
+      "marker": [
+        {
+          "icon": "./assets/themes/stations/rail-light.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "gray"
+    }
+  ],
+  "tagRenderings": [
+    {
+      "id": "ref",
+      "question": {
+        "en": "What is the number for this platform?",
+        "de": "Wie lautet die Nummer dieses Bahnsteigs?",
+        "nl": "Wat is het nummer van dit perron?",
+        "fr": "Quel est le numéro de ce quai ?",
+        "ca": "Quin és el número d'aquesta andana?",
+        "cs": "Jaké je číslo tohoto nástupiště?",
+        "pl": "Jaki jest numer tego peronu?"
+      },
+      "freeform": {
+        "key": "ref",
+        "type": "string",
+        "placeholder": {
+          "en": "Platform number",
+          "de": "Bahnsteignummer",
+          "nl": "Perronnummer",
+          "fr": "Numéro de quai",
+          "ca": "Nombre d'andana",
+          "cs": "Číslo nástupiště",
+          "pl": "Numer peronu"
+        }
+      },
+      "render": {
+        "en": "Platform {ref}",
+        "de": "Bahnsteig {ref}",
+        "nl": "Perron {ref}",
+        "fr": "Quai {ref}",
+        "ca": "Andana {ref}",
+        "cs": "Nástupiště {ref}",
+        "pl": "Peron {ref}"
+      }
+    },
+    "level"
+  ],
+  "allowMove": false
+}
