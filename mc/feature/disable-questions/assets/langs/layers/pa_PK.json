@@ -1,0 +1,312 @@
+{
+    "address": {
+        "description": "پتے",
+        "name": "او‌ایس‌ایم وچ جاݨ پچھاݨے پتے"
+    },
+    "artwork": {
+        "name": "کلاکاری",
+        "tagRenderings": {
+            "artwork-artwork_type": {
+                "mappings": {
+                    "1": {
+                        "then": "کندھ چتر"
+                    },
+                    "3": {
+                        "then": "مورتی"
+                    },
+                    "6": {
+                        "then": "پتھر"
+                    }
+                }
+            }
+        },
+        "title": {
+            "render": "کلاکاری"
+        }
+    },
+    "barrier": {
+        "name": "رُکاوٹاں",
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "بولارڈ"
+                }
+            },
+            "render": "رُکاوٹ"
+        }
+    },
+    "bench": {
+        "name": "بینچ",
+        "title": {
+            "render": "بینچ"
+        }
+    },
+    "bench_at_pt": {
+        "title": {
+            "render": "بینچ"
+        }
+    },
+    "bike_parking": {
+        "tagRenderings": {
+            "Bicycle parking type": {
+                "mappings": {
+                    "6": {
+                        "then": "شیڈ"
+                    },
+                    "7": {
+                        "then": "بولارڈ"
+                    }
+                }
+            }
+        }
+    },
+    "binocular": {
+        "description": "بائینوکولر",
+        "name": "بائینوکولر",
+        "title": {
+            "render": "بائینوکولر"
+        }
+    },
+    "cafe_pub": {
+        "title": {
+            "render": "پب"
+        }
+    },
+    "caravansites": {
+        "description": "کیمب‌سائیٹاں",
+        "name": "کیمب‌سائیٹاں",
+        "presets": {
+            "0": {
+                "title": "اِک کیمپ‌سائیٹ"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "بے نام کیمپ‌سائیٹ"
+                }
+            }
+        }
+    },
+    "climbing_area": {
+        "tagRenderings": {
+            "Rock type (crag/rock/cliff only)": {
+                "mappings": {
+                    "0": {
+                        "then": "چونہ پتھر"
+                    }
+                }
+            }
+        }
+    },
+    "crossings": {
+        "name": "کراسنگاں",
+        "title": {
+            "render": "کراسنگ"
+        }
+    },
+    "cycle_highways": {
+        "name": "سائیکل‌وے",
+        "title": {
+            "render": "سائیکل‌وے"
+        }
+    },
+    "cycleways_and_roads": {
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "سائیکل‌وے"
+                },
+                "9": {
+                    "then": "سائیکل سڑک"
+                }
+            },
+            "render": "راہ"
+        }
+    },
+    "doctors": {
+        "name": "ڈاکٹر"
+    },
+    "elevator": {
+        "name": "ایلیویٹر",
+        "title": {
+            "render": "ایلیویٹر"
+        }
+    },
+    "entrance": {
+        "name": "دروازہ",
+        "title": {
+            "render": "دروازہ"
+        }
+    },
+    "food": {
+        "title": {
+            "render": "بھون آلہ"
+        }
+    },
+    "governments": {
+        "name": "سرکارسں"
+    },
+    "hackerspace": {
+        "description": "ہیکر دا تھاں",
+        "name": "ہیکر دا تھاں"
+    },
+    "hospital": {
+        "name": "ہسپتال",
+        "title": {
+            "render": "ہسپتال"
+        }
+    },
+    "hydrant": {
+        "title": {
+            "render": "ہائڈرنٹ"
+        }
+    },
+    "indoors": {
+        "name": "اندروں"
+    },
+    "kerbs": {
+        "name": "کرب",
+        "title": {
+            "render": "کرب"
+        }
+    },
+    "map": {
+        "name": "نقشے",
+        "title": {
+            "render": "نقشہ"
+        }
+    },
+    "maxspeed": {
+        "name": "حد رفتار"
+    },
+    "note": {
+        "title": {
+            "render": "نوٹ"
+        }
+    },
+    "parcel_lockers": {
+        "tagRenderings": {
+            "ref": {
+                "freeform": {
+                    "placeholder": "ہوالہ"
+                }
+            }
+        }
+    },
+    "parking": {
+        "name": "پارکنگ"
+    },
+    "pharmacy": {
+        "name": "فارمیسی",
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "فارمیسی"
+                }
+            }
+        }
+    },
+    "playground": {
+        "description": "کھید دے میدان",
+        "name": "کھید دے میدان",
+        "title": {
+            "render": "کھید دے میدان"
+        }
+    },
+    "public_bookcase": {
+        "title": {
+            "render": "کتاباں دی الماری"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "کُتیاں دی اِجازت اے"
+                    }
+                }
+            },
+            "internet-ssid": {
+                "freeform": {
+                    "placeholder": "نیٹورک دا ناں پایو"
+                }
+            },
+            "opening_hours": {
+                "render": "<h3>کھُلھے گھنٹے</h3>{opening_hours_table(opening_hours)}"
+            },
+            "smoking": {
+                "mappings": {
+                    "0": {
+                        "then": "سِگرٹ پیݨ دی ‫<b>‬؜اِجازت‬‫</b>‬ ؜اے"
+                    }
+                }
+            }
+        }
+    },
+    "rainbow_crossings": {
+        "title": {
+            "render": "کراسنگ"
+        }
+    },
+    "recycling": {
+        "name": "ریسائیکلنگ"
+    },
+    "shops": {
+        "name": "دکان",
+        "title": {
+            "render": "دکان"
+        }
+    },
+    "tertiary_education": {
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "کالج"
+                },
+                "2": {
+                    "then": "یونیورسٹی"
+                }
+            }
+        }
+    },
+    "toilet": {
+        "name": "ٹوئیلٹاں",
+        "title": {
+            "render": "ٹوئیلٹ"
+        }
+    },
+    "unit": {
+        "units": {
+            "3": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity}میٹر"
+                    },
+                    "1": {
+                        "human": " {quantity}سینٹیمیٹر"
+                    },
+                    "2": {
+                        "human": "{quantity} ملیمیٹر"
+                    },
+                    "3": {
+                        "human": "{quantity} ؜ فوٹ"
+                    }
+                }
+            },
+            "4": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity}ہر گھنٹہ وچ کیلومیٹر",
+                        "humanShort": "{quantity}ہر گھنٹے وچ کیلومیٹر"
+                    },
+                    "1": {
+                        "human": "{quantity} ہر گھنٹہ وچ میل",
+                        "humanShort": "{quantity}ہر گھنٹہ وچ میل"
+                    }
+                }
+            }
+        }
+    }
+}

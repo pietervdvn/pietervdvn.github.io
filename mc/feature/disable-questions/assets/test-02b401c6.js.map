@@ -1,0 +1,1 @@
+{"version":3,"file":"test-02b401c6.js","sources":["../../src/test.ts"],"sourcesContent":["import SvelteUIElement from \"./UI/Base/SvelteUIElement\"\nimport Test from \"./UI/Test.svelte\"\n\nnew Test({\n    target: document.getElementById(\"maindiv\"),\n})\n"],"names":["Test"],"mappings":"iKAGA,IAAIA,EAAK,CACL,OAAQ,SAAS,eAAe,SAAS,CAC7C,CAAC"}

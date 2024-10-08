@@ -1,0 +1,486 @@
+{
+  "id": "transit_stops",
+  "name": {
+    "en": "Transit Stops",
+    "de": "Haltestellen",
+    "da": "Transitstationer",
+    "fr": "Arrêts de transport en commun",
+    "ca": "Parades de transport públic",
+    "cs": "Tranzitní zastávky"
+  },
+  "description": {
+    "en": "Layer showing different types of transit stops.",
+    "de": "Ebene mit verschiedenen Arten von Haltestellen.",
+    "da": "Lag, der viser forskellige typer transitstop.",
+    "ca": "Capa que mostra diferents tipus de parades de transport públic.",
+    "cs": "Vrstva zobrazující různé typy zastávek veřejné dopravy."
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "highway=bus_stop"
+      ]
+    }
+  },
+  "minzoom": 15,
+  "title": {
+    "render": {
+      "en": "Transit Stop",
+      "de": "Haltestelle",
+      "da": "Transit Stop",
+      "nl": "Bushalte",
+      "ca": "Parada de transport públic",
+      "cs": "Tranzitní zastávka"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "Stop {name}",
+          "de": "Haltestelle {name}",
+          "da": "Stop {name}",
+          "nl": "Halte {name}",
+          "ca": "Parada {name}",
+          "cs": "Zastávka {name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "label": "<div style=\"background: white; display: block\">{name}</div>",
+      "marker": [
+        {
+          "icon": {
+            "render": "./assets/layers/transit_stops/bus_stop.svg",
+            "mappings": []
+          }
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "tagRenderings": [
+    {
+      "id": "stop_name",
+      "render": {
+        "en": "This stop is called <b>{name}</b>",
+        "de": "Der Name der Haltestelle lautet <b>{name}</b>",
+        "da": "Dette stop hedder <b>{name}</b>",
+        "nl": "Deze halte heet <b>{name}</b>",
+        "ca": "Aquesta parada es diu <b>{name}</b>",
+        "fr": "Cet arrêt est nommé <b>{name}</b>",
+        "cs": "Tato zastávka se jmenuje <b>{name}</b>"
+      },
+      "freeform": {
+        "key": "name",
+        "type": "string",
+        "addExtraTags": [
+          "noname="
+        ],
+        "placeholder": {
+          "en": "Name of the stop",
+          "de": "Name der Haltestelle",
+          "da": "Navn på stoppestedet",
+          "nl": "Naam van de halte",
+          "ca": "Nom de la parada",
+          "cs": "Název zastávky"
+        }
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "noname=yes",
+              "name="
+            ]
+          },
+          "then": {
+            "en": "This stop has no name",
+            "de": "Die Haltestelle hat keinen Namen",
+            "da": "Dette stop har intet navn",
+            "nl": "Deze halte heeft geen naam",
+            "ca": "Aquesta parada no té nom",
+            "cs": "Tato zastávka nemá jméno"
+          }
+        }
+      ],
+      "question": {
+        "en": "What is the name of this stop?",
+        "de": "Wie lautet der Name der Haltestelle?",
+        "da": "Hvad er navnet på dette stop?",
+        "nl": "Wat is de naam van deze halte?",
+        "ca": "Quin és el nom d'aquesta parada?",
+        "cs": "Jak se tato zastávka jmenuje?"
+      }
+    },
+    "images",
+    {
+      "id": "shelter",
+      "mappings": [
+        {
+          "if": "shelter=yes",
+          "then": {
+            "en": "This stop has a shelter",
+            "de": "Die Haltestelle hat einen Unterstand",
+            "da": "Dette stop har et ly",
+            "nl": "Deze halte heeft een schuilplaats",
+            "ca": "Aquesta parada té una coberta",
+            "fr": "Cet arrêt a un abri",
+            "cs": "Tato zastávka má přístřešek"
+          }
+        },
+        {
+          "if": "shelter=no",
+          "then": {
+            "en": "This stop does <b>not</b> have a shelter",
+            "de": "Die Haltestelle hat <b>keinen</b> Unterstand",
+            "da": "Dette stop har ikke et ly",
+            "nl": "Deze halte heeft <b>geen</b> schuilplaats",
+            "ca": "Aquesta parada <b>no</b> té una coberta",
+            "fr": "Cet arrêt <b>n'a pas</b> d'abri",
+            "cs": "Tato zastávka <b>nemá</b> přístřešek"
+          }
+        },
+        {
+          "if": "shelter=separate",
+          "then": {
+            "en": "This stop has a shelter, that's separately mapped",
+            "de": "Die Haltestelle hat einen Unterstand, der separat kariert ist",
+            "nl": "Deze halte heeft een schuilplaats, die apart op de kaart staat",
+            "ca": "Aquesta parada té un refugi que està mapejat separadament",
+            "cs": "Tato zastávka má přístřešek, který je samostatně zmapován"
+          },
+          "hideInAnswer": true
+        }
+      ],
+      "question": {
+        "en": "Does this stop have a shelter?",
+        "de": "Hat die Haltestelle einen Unterstand?",
+        "da": "Har dette stop et ly?",
+        "nl": "Heeft deze halte een schuilplaats?",
+        "ca": "Aquesta parada té una coberta?",
+        "fr": "Cet arrêt a-t-il un abri ?",
+        "cs": "Má tato zastávka přístřešek?"
+      }
+    },
+    {
+      "id": "bench",
+      "mappings": [
+        {
+          "if": "bench=yes",
+          "then": {
+            "en": "This stop has a bench",
+            "de": "Die Haltestelle hat eine Bank",
+            "da": "Dette stop har en bænk",
+            "nl": "Deze halte heeft een zitbank",
+            "ca": "Aquesta parada té un banc",
+            "fr": "Cet arrêt a un banc",
+            "cs": "Tato zastávka má lavičku"
+          }
+        },
+        {
+          "if": "bench=no",
+          "then": {
+            "en": "This stop does <b>not</b> have a bench",
+            "de": "Die Haltestelle hat <b>keine</b> Sitzbank",
+            "da": "Dette stoppested har ingen bænk",
+            "nl": "Deze halte heeft <b>geen</b> zitbank",
+            "ca": "Aquesta parada <b>no</b> té un banc",
+            "fr": "Cet arrêt <b>n'a pas</b> de banc",
+            "cs": "Tato zastávka <b>nemá</b> lavičku"
+          }
+        },
+        {
+          "if": "bench=separate",
+          "then": {
+            "en": "This stop has a bench, that's separately mapped",
+            "de": "Die Haltestelle hat eine Bank, die separat kartiert ist",
+            "nl": "Deze halte heeft een zitbank, die los aangegeven is op de kaart",
+            "fr": "Cet arrêt a un banc, cartographié séparément",
+            "ca": "Aquesta parada té un banc que està mapejat separadament",
+            "cs": "Tato zastávka má lavičku, která je samostatně zmapována"
+          },
+          "hideInAnswer": true
+        }
+      ],
+      "question": {
+        "en": "Does this stop have a bench?",
+        "de": "Gibt es an der Haltestelle eine Sitzbank?",
+        "da": "Har dette stop en bænk?",
+        "nl": "Heeft deze halte een zitbank?",
+        "ca": "Aquesta parada té un banc?",
+        "fr": "Est-ce que cet arrêt a un banc ?",
+        "cs": "Má tato zastávka lavičku?"
+      }
+    },
+    {
+      "id": "bin",
+      "mappings": [
+        {
+          "if": "bin=yes",
+          "then": {
+            "en": "This stop has a bin",
+            "de": "Die Haltestelle hat einen Mülleimer",
+            "da": "Dette stop har en skraldespand",
+            "nl": "Deze halte heeft een vuilnisbak",
+            "ca": "Aquesta parada té una paperera",
+            "fr": "Cet arrêt a un poubelle",
+            "cs": "Tato zastávka má odpadkový koš"
+          }
+        },
+        {
+          "if": "bin=no",
+          "then": {
+            "en": "This stop does <b>not</b> have a bin",
+            "de": "Die Haltestelle hat <b>keinen</b> Mülleimer",
+            "da": "Dette stoppested har ikke en skraldespand",
+            "nl": "Deze halte heeft <b>geen</b> vuilnisbak",
+            "ca": "Aquesta parada <b>no</b> té paperera",
+            "fr": "Cet arrêt <b>n'a pas</b> de poubelle",
+            "cs": "Tato zastávka <b>nemá</b> koš"
+          }
+        },
+        {
+          "if": "bin=separate",
+          "then": {
+            "en": "This stop has a bin, that's separately mapped",
+            "de": "Die Haltestelle hat einen Mülleimer, der separat kartiert ist",
+            "nl": "Deze heeft een vuilnisbak, die los op de kaart staat",
+            "ca": "Aquesta parada té una paperera que està mapejada separadament",
+            "cs": "Tato zastávka má koš, který je mapován samostatně"
+          },
+          "hideInAnswer": true
+        }
+      ],
+      "question": {
+        "en": "Does this stop have a bin?",
+        "de": "Hat die Haltestelle einen Mülleimer?",
+        "da": "Har dette stop en skraldespand?",
+        "nl": "Heeft deze halte een vuilnisbak?",
+        "ca": "Aquesta parada té una paperera?",
+        "cs": "Má tato zastávka koš?"
+      }
+    },
+    "wheelchair-access",
+    {
+      "id": "tactile_paving",
+      "mappings": [
+        {
+          "if": "tactile_paving=yes",
+          "then": {
+            "en": "This stop has tactile paving",
+            "de": "Die Haltestelle hat ein taktiles Pflaster",
+            "ca": "Aquesta parada té una superfície podotàctil",
+            "nl": "Deze halte heeft een geleidelijn",
+            "fr": "Cet arrêt a une surface podotactile",
+            "cs": "Tato zastávka má hmatovou dlažbu"
+          }
+        },
+        {
+          "if": "tactile_paving=no",
+          "then": {
+            "en": "This stop does <b>not</b> have tactile paving",
+            "de": "Die Haltestelle hat <b>kein</b> taktiles Pflaster",
+            "ca": "Aquesta parada <b>no</b> té superfície podotàctil",
+            "nl": "Deze halte heeft <b>geen</b> geleidelijn",
+            "fr": "Cet arrêt <b>n'a pas</b> de surface podotactile",
+            "cs": "Tato zastávka <b>nemá</b> hmatovou dlažbu"
+          }
+        }
+      ],
+      "question": {
+        "en": "Does this stop have tactile paving?",
+        "de": "Hat die Haltestelle hat ein taktiles Pflaster?",
+        "ca": "Aquesta parada té una superfície podotàctil?",
+        "nl": "Heeft deze halte een geleidelijn?",
+        "fr": "Cet arrêt a-t-il une surface podotactile ?",
+        "cs": "Má tato zastávka hmatovou dlažbu?"
+      }
+    },
+    {
+      "id": "lit",
+      "mappings": [
+        {
+          "if": "lit=yes",
+          "then": {
+            "en": "This stop is lit",
+            "de": "Die Haltestelle ist beleuchtet",
+            "nl": "Deze halte is verlicht",
+            "ca": "Aquesta parada té il·luminació",
+            "fr": "Cet arrêt est éclairé",
+            "cs": "Tato zastávka je osvětlena"
+          }
+        },
+        {
+          "if": "lit=no",
+          "then": {
+            "en": "This stop is <b>not</b> lit",
+            "de": "Die Haltestelle hat <b>keine</b> Beleuchtung",
+            "da": "Dette stop lyser ikke",
+            "nl": "Deze halte is <b>niet</b> verlicht",
+            "ca": "Aquesta parada <b>no</b> té il·luminació",
+            "fr": "Cet arrêt <b>n'est pas</b> éclairé",
+            "cs": "Tato zastávka <b>není osvětlena</b>"
+          }
+        }
+      ],
+      "question": {
+        "en": "Is this stop lit?",
+        "de": "Ist die Haltestelle beleuchtet?",
+        "nl": "Is deze halte verlicht?",
+        "ca": "Aquesta parada té il·luminació?",
+        "fr": "Cet arrêt est-il éclairé ?",
+        "cs": "Je tato zastávka osvětlena?"
+      }
+    },
+    {
+      "id": "departures_board",
+      "mappings": [
+        {
+          "if": "departures_board=yes",
+          "then": {
+            "en": "This stop has a departures board of unknown type",
+            "de": "Die Haltestelle hat einen Fahrplan, der nicht näher definiert ist",
+            "da": "Dette stoppested har en afgangstavle af ukendt type",
+            "ca": "Aquesta parada té un tauler de sortides de tipus desconegut",
+            "cs": "Tato zastávka má odjezdovou tabuli neznámého typu"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "departures_board=realtime",
+          "then": {
+            "en": "This stop has a board showing realtime departure information",
+            "de": "Die Haltestelle hat einen Fahrplan, der Abfahrtszeiten in Echtzeit anzeigt",
+            "da": "Dette stop har en tavle med oplysninger om afgang i realtid",
+            "fr": "Cet arrêt a un panneau indiquant les départs en temps réel",
+            "ca": "Aquesta parada té un tauló amb els horaris en temps real",
+            "cs": "Tato zastávka má tabuli zobrazující informace o odjezdu v reálném čase"
+          }
+        },
+        {
+          "if": "passenger_information_display=yes",
+          "then": {
+            "en": "This stop has a board showing realtime departure information",
+            "de": "Die Haltestelle hat einen Fahrplan, der Abfahrtszeiten in Echtzeit anzeigt",
+            "da": "Dette stop har en tavle med oplysninger om afgang i realtid",
+            "ca": "Aquesta parada té un tauló amb els horaris en temps real",
+            "cs": "Tato zastávka má tabuli zobrazující informace o odjezdu v reálném čase"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "departures_board=timetable",
+          "then": {
+            "en": "This stop has a timetable showing regular departures",
+            "de": "Die Haltestelle hat einen Fahrplan, der die regulären Abfahrtszeiten anzeigt",
+            "da": "Dette stop har en køreplan, der viser regelmæssige afgange",
+            "ca": "Aquesta parada té un horari que mostra les sortides regulars",
+            "cs": "Tato zastávka má jízdní řád s pravidelnými odjezdy"
+          }
+        },
+        {
+          "if": "departures_board=interval",
+          "then": {
+            "en": "This stop has a timetable containing just the interval between departures",
+            "de": "Die Haltestelle hat einen Fahrplan, der den Abstand zwischen Abfahrten anzeigt",
+            "da": "Dette stop har en køreplan, der kun indeholder intervallet mellem afgangene",
+            "ca": "Aquesta parada té un horari que conté només l'interval entre sortides",
+            "cs": "Tato zastávka má jízdní řád obsahující pouze interval mezi odjezdy"
+          }
+        },
+        {
+          "if": "departures_board=no",
+          "then": {
+            "en": "This stop does <b>not</b> have a departures board",
+            "de": "Die Haltestelle hat <b>keinen</b> Fahrplan",
+            "da": "Dette stop har ikke en afgangstavle",
+            "ca": "Aquesta parada <b>no</b> té un tauler de sortides",
+            "cs": "Tato zastávka <b>nemá</b> tabulku odjezdů"
+          }
+        }
+      ]
+    },
+    {
+      "render": {
+        "en": "<h3>{_contained_routes_count} routes stop at this stop</h3> <ul>{_contained_routes}</ul>",
+        "de": "<h3>{_contained_routes_count} Linien halten an der Haltestelle</h3> <ul>{_contained_routes}</ul>",
+        "da": "<h3>{_contained_routes_count} ruter stopper ved dette stoppested</h3> <ul>{_contained_routes}</ul>",
+        "nl": "<h3>{_contained_routes_count} lijnen stoppen bij deze halte</h3> <ul>{_contained_routes}</ul>",
+        "ca": "<h3>{_contained_routes_count} rutes paren a aquesta parada</h3> <ul>{_contained_routes}</ul>",
+        "cs": "Na této zastávce staví <h3>{_contained_routes_count} tras</h3> <ul>{_contained_routes}</ul>"
+      },
+      "condition": "_contained_routes~*",
+      "id": "contained_routes"
+    }
+  ],
+  "filter": [
+    {
+      "id": "shelter",
+      "options": [
+        {
+          "osmTags": {
+            "or": [
+              "shelter=yes",
+              "shelter=separate"
+            ]
+          },
+          "question": {
+            "en": "With a shelter",
+            "de": "Mit Unterstand",
+            "fr": "Avec un abri",
+            "ca": "Amb refugi",
+            "cs": "S přístřeškem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bench",
+      "options": [
+        {
+          "osmTags": {
+            "or": [
+              "bench=yes",
+              "bench=separate"
+            ]
+          },
+          "question": {
+            "en": "With a bench",
+            "de": "Mit Sitzbank",
+            "fr": "Avec un banc",
+            "ca": "Amb un banc",
+            "cs": "S lavičkou"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bin",
+      "options": [
+        {
+          "osmTags": {
+            "or": [
+              "bin=yes",
+              "bin=separate"
+            ]
+          },
+          "question": {
+            "en": "With a bin",
+            "de": "Mit Mülleimer",
+            "fr": "Avec un poubelle",
+            "ca": "Amb paperera",
+            "cs": "S košem"
+          }
+        }
+      ]
+    },
+    "tactile_paving"
+  ],
+  "allowMove": false
+}

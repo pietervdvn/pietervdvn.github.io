@@ -1,0 +1,71 @@
+{
+  "name": "OSM Community Index",
+  "short_name": "OSM Community Index",
+  "start_url": "osm_community_index.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A list of resources for users of OpenStreetMap. 'Resources' can be links to forums, meetups, Slack groups, IRC channels, mailing lists, and so on. Anything that mappers, especially beginners, might find interesting or helpful.",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_osm_community_index_osm512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/themes/osm_community_index/osm.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

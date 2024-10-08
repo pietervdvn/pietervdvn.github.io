@@ -1,0 +1,71 @@
+{
+  "name": "BAG import helper",
+  "short_name": "BAG import helper",
+  "start_url": "bag.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "This theme helps with importing data from BAG",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_bag_logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/themes/bag/logo.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

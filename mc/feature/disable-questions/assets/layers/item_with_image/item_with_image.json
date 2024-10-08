@@ -1,0 +1,59 @@
+{
+  "id": "item_with_image",
+  "name": {
+    "en": "Items with at least one image",
+    "de": "Element mit mindestens einem Bild"
+  },
+  "description": "All items with an image. All alone, not a layer which is relevant for any MapComplete theme, as it is a random collection of items. However, when put into the databank, this allows to quickly fetch (the URL of) pictures nearby a different object, to quickly link this",
+  "source": {
+    "osmTags": {
+      "or": [
+        "image~*",
+        "image:0~*",
+        "image:1~*",
+        "image:2~*",
+        "image:3~*",
+        "image:4~*",
+        "image:5~*",
+        "image:6~*",
+        "image:7~*",
+        "image:8~*",
+        "image:9~*",
+        "image:10~*"
+      ]
+    }
+  },
+  "minzoom": 14,
+  "title": {
+    "render": {
+      "en": "POI with image",
+      "de": "POI mit Bild"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "*": "name"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "marker": [
+        {
+          "icon": "./assets/layers/item_with_image/camera.svg"
+        }
+      ],
+      "location": [
+        "centroid",
+        "point"
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "tagRenderings": [
+    "images"
+  ],
+  "allowMove": false
+}

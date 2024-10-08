@@ -1,0 +1,35 @@
+{
+  "id": "summary",
+  "description": "Special layer which shows `count`, probably provided by the clustering server or some clustering algorithm",
+  "source": "special",
+  "title": {
+    "render": {
+      "en": "Summary",
+      "de": "Übersicht",
+      "nl": "Samenvatting"
+    }
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "iconSize": "40,40",
+      "label": {
+        "mappings": [
+          {
+            "if": "total_metric!=0",
+            "then": "{total_metric}"
+          }
+        ]
+      },
+      "labelCss": "background: #ffffffbb",
+      "labelCssClasses": "w-12 text-lg rounded-xl p-1 px-2"
+    }
+  ],
+  "tagRenderings": [
+    "all_tags"
+  ],
+  "allowMove": false
+}

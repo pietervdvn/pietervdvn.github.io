@@ -1,0 +1,70 @@
+{
+  "id": "mountain_rescue",
+  "name": {
+    "en": "Mountain rescue stations",
+    "de": "Bergrettungsstationen",
+    "fr": "Postes de secours en montagne",
+    "pl": "Stacje ratownictwa górskiego"
+  },
+  "description": {
+    "en": "A building where first aid responders store material and might be on watch",
+    "de": "Ein Gebäude, in dem die Ersthelfer Material lagern und möglicherweise Wache halten",
+    "fr": "Un bâtiment où les organismes de secours stockent du matériel ou assurent la garde"
+  },
+  "source": {
+    "osmTags": "emergency=mountain_rescue"
+  },
+  "minzoom": 10,
+  "title": {
+    "render": {
+      "en": "Mountain rescue station",
+      "de": "Bergrettungsstation",
+      "fr": "Poste de secours en montagne",
+      "pl": "Stacja ratownictwa górskiego"
+    }
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/mountain_rescue/red_cross.svg"
+        }
+      ],
+      "rotation": "45"
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": "3",
+      "color": "#ed333b"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a mountain rescue station",
+        "de": "eine Bergrettungsstation",
+        "fr": "un poste de secours en montagne",
+        "pl": "stacja ratownictwa górskiego"
+      },
+      "tags": [
+        "emergency=mountain_rescue"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images"
+  ],
+  "deletion": true,
+  "allowMove": {
+    "enableRelocation": false
+  }
+}

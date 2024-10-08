@@ -1,0 +1,91 @@
+{
+  "id": "sports_centre",
+  "name": {
+    "en": "Sports centres",
+    "de": "Sportzentren",
+    "ca": "Centres esportius",
+    "cs": "Sportovní centra"
+  },
+  "description": {
+    "en": "Indoor and outdoor sports centres can be found on this layer",
+    "de": "Hallen- und Freiluftsportzentren sind auf dieser Ebene zu finden",
+    "ca": "En aquesta capa es poden trobar centres esportius interiors i exteriors",
+    "cs": "Na této vrstvě najdete krytá a venkovní sportovní centra"
+  },
+  "source": {
+    "osmTags": "leisure=sports_centre"
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "en": "Sports centre",
+      "de": "Sportzentrum",
+      "ca": "Centre esportiu",
+      "cs": "Sportovní centrum",
+      "id": "Pusat olahraga"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "{name}"
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "icons.isOpen"
+        }
+      ],
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/sports_centre/sports_centre.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "darkgreen",
+      "fill": "no"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a sports centre",
+        "de": "ein Sportzentrum",
+        "ca": "un centre esportiu",
+        "cs": "sportovní centra",
+        "id": "pusat olahraga"
+      },
+      "tags": [
+        "leisure=sports_centre"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "opening_hours",
+    "phone",
+    "website",
+    "email",
+    "wheelchair-access"
+  ],
+  "filter": [
+    "open_now"
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true
+  }
+}

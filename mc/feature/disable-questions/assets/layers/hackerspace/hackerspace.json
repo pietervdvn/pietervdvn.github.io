@@ -1,0 +1,555 @@
+{
+  "id": "hackerspace",
+  "name": {
+    "en": "Hackerspace",
+    "de": "Hackerspaces",
+    "ru": "Хакерспейс",
+    "zh_Hant": "駭客空間",
+    "hu": "Hackerspace",
+    "es": "Espacio hacker",
+    "nl": "Hackerspace",
+    "pa_PK": "ہیکر دا تھاں",
+    "ca": "Espai hacker",
+    "cs": "Hackerspace"
+  },
+  "description": {
+    "en": "Hackerspace",
+    "de": "Hackerspace",
+    "ru": "Хакерспейс",
+    "zh_Hant": "駭客空間",
+    "hu": "Hackerspace",
+    "es": "Espacio hacker",
+    "nl": "Hackerspace",
+    "pa_PK": "ہیکر دا تھاں",
+    "ca": "Espai hacker",
+    "cs": "Hackerspace"
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        "leisure=hackerspace"
+      ]
+    }
+  },
+  "minzoom": 4,
+  "title": {
+    "render": {
+      "en": "Hackerspace",
+      "de": "Hackerspace",
+      "ru": "Хакерспейс",
+      "zh_Hant": "駭客空間",
+      "hu": "Hackerspace",
+      "es": "Espacio Hacker",
+      "nl": "Hackerspace",
+      "ca": "Espai hacker",
+      "cs": "Hackerspace"
+    },
+    "mappings": [
+      {
+        "if": {
+          "and": [
+            "name~*"
+          ]
+        },
+        "then": {
+          "en": " {name}",
+          "de": " {name}",
+          "ru": " {name}",
+          "zh_Hant": " {name}",
+          "hu": " {name}",
+          "ca": " {name}",
+          "es": " {name}",
+          "nl": " {name}",
+          "cs": " {name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "marker": [
+        {
+          "icon": {
+            "render": "./assets/themes/hackerspaces/glider.svg",
+            "mappings": [
+              {
+                "if": {
+                  "and": [
+                    "hackerspace=makerspace"
+                  ]
+                },
+                "then": "./assets/themes/hackerspaces/led.png"
+              }
+            ]
+          }
+        }
+      ],
+      "iconSize": "40,40",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "anchor": "center"
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "#00f",
+      "width": "8"
+    }
+  ],
+  "presets": [
+    {
+      "tags": [
+        "leisure=hackerspace"
+      ],
+      "title": {
+        "en": "a hackerspace",
+        "de": "einen Hackerspace",
+        "ru": "Хакерспейс",
+        "zh_Hant": "駭客空間",
+        "hu": "Hackerspace",
+        "es": "un espacio hacker",
+        "nl": "een hackerspace",
+        "ca": "un espai hacker",
+        "cs": "hackerspace"
+      },
+      "description": {
+        "en": "A hackerspace is an area where people interested in software gather",
+        "de": "Ein Hackerspace ist ein Ort, an dem sich Menschen treffen, die sich für Software interessieren",
+        "zh_Hant": "駭客空間是對軟體有興趣的人聚集的地方",
+        "hu": "A hackerspace egy olyan hely, ahol szoftverek iránt érdeklő emberek találkoznak",
+        "es": "Un espacio hacker es un lugar en el que gente interesada en software se reúne",
+        "nl": "Een hackerspace is een ruimte waar mensen met een interesse in software samenkomen",
+        "ca": "Un espai hacker és un lloc on la gent interesada en el software es reuneix",
+        "cs": "Hackerspace je oblast, kde se shromažďují lidé se zájmem o software"
+      }
+    },
+    {
+      "tags": [
+        "leisure=hackerspace",
+        "hackerspace=makerspace"
+      ],
+      "title": {
+        "en": "a makerspace",
+        "de": "einen Makerspace",
+        "zh_Hant": "創客空間",
+        "hu": "Makerspace",
+        "es": "un espacio maker",
+        "nl": "een makerspace",
+        "ca": "un espai maker"
+      },
+      "description": {
+        "en": "A makerspace is a place where DIY-enthusiasts gather to experiment with electronics such as arduino, LEDstrips, …",
+        "de": "Ein Makerspace ist ein Ort, an dem Heimwerker-Enthusiasten zusammenkommen, um mit Elektronik zu experimentieren, wie Arduino, LED-Strips, …",
+        "zh_Hant": "創客空間是 DIY 愛好者聚集在一起弄電子零件實驗，例如用 arduino、LEDstrips 等...",
+        "hu": "A makerspace olyan hely, ahol a barkácsolás szerelmesei találkoznak, hogy olyan elektronikai eszközökkel kísérletezzenek, mint például az Arduino vagy a LEDstrips…",
+        "es": "Un espacio maker es un lugar donde entusiastas del DIY se reúnen para experimentar con electrónica, como arduino, …",
+        "nl": "Een makerspace is een ruimte waar makers en creatievelingen samenkomen om met electronica te experimenteren en te bouwen, bv. met Arduino, LED-strips, 3D-printers, lasercutters, …",
+        "ca": "Un espai maker és un lloc on entusiastes del DIY es reuneixen per a experimentar amb electrònica com arudino, tires LED, …",
+        "cs": "Makerspace je místo, kde se scházejí kutilové, aby experimentovali s elektronikou, jako je arduino, LED pásky,…"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "reviews",
+    {
+      "id": "is_makerspace",
+      "question": {
+        "en": "Is this a hackerspace or a makerspace?",
+        "de": "Ist dies ein Hackerspace oder ein Makerspace?",
+        "zh_Hant": "這邊是駭客空間還是創客空間？",
+        "hu": "Ez hackerspace vagy makerspace?",
+        "es": "¿Esto es un espacio hacker o un espacio maker?",
+        "nl": "Is dit een hackerspace of een makerspace?",
+        "ca": "Açò és un espai hacker o un espai maker?",
+        "cs": "Je to hackerspace nebo makerspace?"
+      },
+      "mappings": [
+        {
+          "if": "hackerspace=makerspace",
+          "then": {
+            "en": "This is a makerspace",
+            "de": "Dies ist ein Makerspace",
+            "zh_Hant": "這是創客空間",
+            "hu": "Ez egy makerspace",
+            "es": "Este es un espacio maker",
+            "nl": "Dit is een makerspace",
+            "ca": "Aquest és un espai maker",
+            "cs": "Toto je makerspace"
+          }
+        },
+        {
+          "if": "hackerspace=",
+          "then": {
+            "en": "This is a traditional (software oriented) hackerspace",
+            "de": "Dies ist ein traditioneller (softwareorientierter) Hackerspace",
+            "zh_Hant": "這是傳統的 (軟體導向) 駭客空間",
+            "hu": "Ez egy hagyományos (szoftverekkel foglalkozó) hackerspace",
+            "es": "Este es un espacio hacker tradicional (orientado al software)",
+            "nl": "Dit een een traditionele (software-gerichte) hackerspace",
+            "ca": "Aquest és un espai hacker tradicional (orientat al software)",
+            "cs": "Toto je tradiční (softwarově orientovaný) hackerský prostor"
+          }
+        },
+        {
+          "if": "hackerspace=hacklab",
+          "then": {
+            "en": "This is a <b>hacklab</b> which is mostly focussed on basic computer skills, using recycled devices and/or providing internet to the community. This is typically located in autonomous spaces, squats or social facilities",
+            "de": "Dies ist ein <b>Hackerspace/Hack-Lab</b>, das sich hauptsächlich auf grundlegende Computerkenntnisse konzentriert, recycelte Geräte verwendet und/oder der Gemeinschaft Internet bereitstellt. Es befindet sich typischerweise in autonomen Räumen, besetzten Häusern oder sozialen Einrichtungen"
+          }
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "What is the name of this hackerspace?",
+        "de": "Wie lautet der Name dieses Hackerspace?",
+        "zh_Hant": "這個駭客空間的名稱是？",
+        "es": "¿Cual es el nombre de este espacio hacker?",
+        "nl": "Wat is de naam van deze hackerspace?",
+        "ca": "Quin és el nom d'aquest espai hacker?",
+        "cs": "Jak se jmenuje tento hackerspace?"
+      },
+      "render": {
+        "en": "This hackerspace is named <b>{name}</b>",
+        "de": "Dieser Hackerspace heißt <b>{name}</b>",
+        "zh_Hant": "這個駭客空間叫 <b>{name}</b>",
+        "es": "Este espacio hacker se llama <b>{name}</b>",
+        "nl": "Deze hackerspace heet <b>{name}</b>",
+        "ca": "Aquest espai hacker es diu <b>{name}</b>",
+        "cs": "Tento hackerský prostor se jmenuje <b>{name}</b>"
+      },
+      "freeform": {
+        "key": "name"
+      },
+      "id": "hackerspaces-name"
+    },
+    "level",
+    "website",
+    "email",
+    "phone",
+    "mastodon",
+    {
+      "builtin": "opening_hours_24_7",
+      "override": {
+        "question": {
+          "en": "When is this hackerspace opened?",
+          "de": "Wann hat dieser Hackerspace geöffnet?",
+          "zh_Hant": "這個駭客空間的營業時間？",
+          "es": "¿Cuándo está abierto este espacio hacker?",
+          "nl": "Wanneer is deze hackerspace geopend?",
+          "ca": "Quan obri aquest espai hacker?",
+          "cs": "Kdy je tento prostor hackerů otevřen?"
+        }
+      }
+    },
+    {
+      "id": "available_devices",
+      "rewrite": {
+        "sourceString": [
+          "device-key",
+          "{device-name}",
+          "{negative-name}",
+          "{icon}",
+          "{hide_limited}"
+        ],
+        "into": [
+          [
+            "3dprinter",
+            {
+              "en": "a 3D-printer",
+              "nl": "een 3D-printer",
+              "de": "einen 3D-Drucker",
+              "ca": "una impressora 3D",
+              "cs": "3D tiskárna"
+            },
+            {
+              "en": "3D-printer",
+              "nl": "3D-printer",
+              "de": "3D-Drucker",
+              "ca": "Impressora 3D",
+              "cs": "3D-tiskárna"
+            },
+            "./assets/layers/hackerspace/3d_printer.svg",
+            true
+          ],
+          [
+            "lasercutter",
+            {
+              "en": "a laser cutter",
+              "nl": "een lasercutter",
+              "de": "einen Laserschneider",
+              "ca": "un tallador laser",
+              "cs": "laserová řezačka"
+            },
+            {
+              "en": "laser cutter",
+              "nl": "lasercutter",
+              "de": "Laserschneider",
+              "ca": "tallador laser",
+              "cs": "laserová řezačka"
+            },
+            "./assets/layers/hackerspace/lasercutter.svg",
+            true
+          ],
+          [
+            "cnc_drilling_machine",
+            {
+              "en": "a CNC drill",
+              "nl": "een CNC-boormachine",
+              "de": "eine CNC-Fräse",
+              "ca": "un trepant CNC",
+              "cs": "CNC vrtačka"
+            },
+            {
+              "en": "CNC drill",
+              "nl": "CNC-boormachine",
+              "de": "CNC-Fräse",
+              "ca": "trepant CNC",
+              "cs": "CNC vrtačka"
+            },
+            "./assets/layers/hackerspace/cnc.svg",
+            true
+          ],
+          [
+            "media_studio",
+            {
+              "en": "a multimedia studio",
+              "nl": "een multimedia-studio",
+              "de": "ein Multimediastudio"
+            },
+            {
+              "en": "multimedia studio",
+              "nl": "multimedia-studio",
+              "de": "Multimediastudio"
+            },
+            "./assets/layers/hackerspace/media_studio.svg",
+            false
+          ],
+          [
+            "sewing_machine",
+            {
+              "en": "a sewing machine",
+              "de": "eine Nähmaschine",
+              "nl": "een naaimachine"
+            },
+            {
+              "en": "sewing machine",
+              "de": "Nähmaschine",
+              "nl": "naaimachine"
+            },
+            "./assets/layers/hackerspace/sewing_machine.svg",
+            true
+          ],
+          [
+            "workshop:wood",
+            {
+              "en": "a woodworking workshop",
+              "nl": "een houtbewerkingsatelier",
+              "de": "eine Holzwerkstatt"
+            },
+            {
+              "en": "woodworking workshop",
+              "nl": "houtbewerkingsatelier",
+              "de": "Holzwerkstatt"
+            },
+            "./assets/layers/hackerspace/woodworking.svg",
+            false
+          ],
+          [
+            "workshop:ceramics",
+            {
+              "en": "a ceramics workshop",
+              "nl": "een keramiekatelier",
+              "de": "eine Keramikwerkstatt"
+            },
+            {
+              "en": "ceramics workshop",
+              "nl": "keramiekatelier",
+              "de": "Keramikwerkstatt"
+            },
+            "./assets/layers/hackerspace/ceramics.svg",
+            false
+          ],
+          [
+            "workshop:metal",
+            {
+              "en": "a metal workshop",
+              "nl": "een metaalatelier",
+              "de": "eine Metallwerkstatt"
+            },
+            {
+              "en": "metal workshop",
+              "nl": "metaalatelier",
+              "de": "Metallwerkstatt"
+            },
+            "./assets/layers/hackerspace/metal.svg",
+            false
+          ],
+          [
+            "bicycle:diy",
+            {
+              "en": "a bicycle repair workshop",
+              "nl": "een fietsherstelplaats",
+              "de": "eine Fahrradwerkstatt"
+            },
+            {
+              "en": "bicycle repair workshop",
+              "nl": "fietsherstelplaats",
+              "de": "Fahrradwerkstatt"
+            },
+            "./assets/layers/hackerspace/bicycle.svg",
+            false
+          ]
+        ]
+      },
+      "renderings": [
+        {
+          "question": {
+            "en": "Is {device-name} available at this hackerspace?",
+            "nl": "Is er {device-name} beschikbaar in deze hackerspace?",
+            "de": "Gibt es {device-name} in diesem Hackerspace?",
+            "ca": "Hi ha {device-name} disponible a aquest espai hacker?",
+            "cs": "Je {device-name} dostupné v tomto hackerspace?"
+          },
+          "#iconsize": "large",
+          "mappings": [
+            {
+              "if": "service:device-key=yes",
+              "icon": "{icon}",
+              "then": {
+                "en": "There is {device-name} available at this hackerspace",
+                "nl": "Er is {device-name} beschikbaar in deze hackerspace",
+                "de": "In diesem Hackerspace gibt es {device-name}",
+                "ca": "Hi ha {device-name} disponible a aquest espai hacker",
+                "cs": "V tomto prostoru hackerů je k dispozici {device-name}"
+              }
+            },
+            {
+              "if": "service:device-key=no",
+              "then": {
+                "en": "There is no {negative-name} available at this hackerspace",
+                "nl": "Er is geen {negative-name} beschikbaar in deze hackerspace",
+                "de": "In diesem Hackerspace gibt es kein {negative-name}",
+                "ca": "No hi ha {negative-name} disponible a aquest espai hacker",
+                "cs": "V tomto prostoru hackerů není k dispozici žádný {negative-name}"
+              }
+            },
+            {
+              "if": "service:device-key=limited",
+              "then": {
+                "en": "There is a limited {negative-name} available at this hackerspace",
+                "nl": "Er is een beperkte {negative-name} beschikbaar in deze hackerspace",
+                "de": "Es gibt einen limitierten {negative-name} in diesem Hackerspace"
+              },
+              "hideInAnswer": "{hide_limited}"
+            }
+          ],
+          "id": "hackerspaces-service-device-key"
+        }
+      ]
+    },
+    "wheelchair-access",
+    {
+      "id": "hs-club-mate",
+      "question": {
+        "en": "Does this hackerspace serve Club-Mate?",
+        "de": "Gibt es in diesem Hackerspace Club-Mate?",
+        "zh_Hant": "這個駭客空間是否服務俱樂部伙伴？",
+        "nl": "Biedt deze hackerspace Club-Mate aan?",
+        "cs": "Slouží tento hackerský prostor Club-Mate?"
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "drink:club-mate=yes"
+            ]
+          },
+          "then": {
+            "en": "This hackerspace serves Club-Mate",
+            "de": "In diesem Hackerspace gibt es Club-Mate",
+            "zh_Hant": "這個駭客空間服務俱樂部伙伴",
+            "nl": "Deze hackerspace biedt Club-Mate aan",
+            "cs": "Tento hackerský prostor slouží Club-Mate"
+          }
+        },
+        {
+          "if": {
+            "and": [
+              "drink:club-mate=no"
+            ]
+          },
+          "then": {
+            "en": "This hackerspace does not serve Club-Mate",
+            "de": "In diesem Hackerspace gibt es kein Club-Mate",
+            "zh_Hant": "這個駭客空間沒有服務俱樂部伙伴",
+            "nl": "Deze hackerspace biedt geen Club-Mate aan",
+            "cs": "Tento hackerský prostor neslouží Club-Mate"
+          }
+        }
+      ]
+    },
+    {
+      "render": {
+        "en": "This hackerspace was founded at {start_date}",
+        "de": "Dieser Hackerspace wurde gegründet am {start_date}",
+        "zh_Hant": "這駭客空間是 {start_date} 成立的",
+        "es": "Este espacio hacker se fundó el {start_date}",
+        "nl": "Deze hackerspace is opgericht op {start_date}",
+        "ca": "Aquest espai hacker es va fundar el {start_date}",
+        "cs": "Tento hackerský prostor byl založen {start_date}"
+      },
+      "question": {
+        "en": "When was this hackerspace founded?",
+        "de": "Wann wurde dieser Hackerspace gegründet?",
+        "zh_Hant": "這個駭客空間何時成立的？",
+        "es": "¿Cuándo se fundó este espacio hacker?",
+        "nl": "Wanneer is deze hackerspace opgericht?",
+        "ca": "Quan es va fundar aquest espai hacker?",
+        "cs": "Kdy byl tento hackerský prostor založen?"
+      },
+      "freeform": {
+        "key": "start_date",
+        "type": "date"
+      },
+      "id": "hackerspaces-start_date"
+    },
+    "internet-all",
+    "questions"
+  ],
+  "deletion": {
+    "nonDeleteMappings": [
+      {
+        "if": {
+          "and": [
+            "leisure=",
+            "hackerspace=",
+            "amenity=workshop",
+            "repair=assisted_self_service"
+          ]
+        },
+        "then": {
+          "en": "This is an workshop for assisted self service, such as a repair café",
+          "de": "Dies ist eine Werkstatt für unterstützten Selbstservice, wie ein Repair-Café"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "leisure=",
+            "hackerspace=",
+            "office=coworking"
+          ]
+        },
+        "then": {
+          "en": "This is a coworking office",
+          "de": "Dies ist ein Coworking-Büro"
+        }
+      }
+    ]
+  },
+  "allowMove": true
+}

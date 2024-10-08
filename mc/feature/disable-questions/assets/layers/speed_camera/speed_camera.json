@@ -1,0 +1,163 @@
+{
+  "id": "speed_camera",
+  "name": {
+    "en": "Speed Camera",
+    "de": "Blitzer",
+    "nl": "Flitspaal",
+    "es": "Cámara de velocidad",
+    "ca": "Càmera de velocitat",
+    "cs": "Rychlostní radar",
+    "sl": "Hitrostna kamera"
+  },
+  "description": {
+    "en": "Layer showing speed cameras",
+    "de": "Ebene mit Blitzern",
+    "nl": "Laag met flitspalen",
+    "es": "Capa con cámaras de velocidad",
+    "ca": "Capa que mostra càmeres de velocitat",
+    "cs": "Vrstva zobrazující rychlostní radary",
+    "sl": "Sloj prikazuje hitrostne kamere (radarje)"
+  },
+  "source": {
+    "osmTags": "highway=speed_camera"
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "en": "Speed Camera",
+      "de": "Blitzer",
+      "nl": "Flitspaal",
+      "es": "Cámara de velocidad",
+      "ca": "Càmera de velocitat",
+      "cs": "Rychlostní radar"
+    }
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "square",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/speed_camera/speed_camera.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "presets": [
+    {
+      "tags": [
+        "highway=speed_camera"
+      ],
+      "title": {
+        "en": "a speed camera",
+        "de": "einen Blitzer",
+        "nl": "een flitspaal",
+        "es": "una cámara de velocidad",
+        "ca": "una càmera de velocitat",
+        "cs": "rychlostní radar",
+        "sl": "hitrostna kamera"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "maxspeed",
+      "question": {
+        "en": "What is the maximum speed allowed at this speed camera?",
+        "de": "Wie hoch ist die zulässige Höchstgeschwindigkeit an diesem Blitzer?",
+        "nl": "Wat is de maximum toegestane snelheid bij deze flitspaal?",
+        "es": "¿Cuál es la velocidad máxima permitida en este radar?",
+        "fr": "Quelle est la vitesse maximale autorisée au niveau de ce radar ?",
+        "ca": "Quina és la velocitat màxima permesa en aquest radar?",
+        "cs": "Jaká je maximální povolená rychlost na tomto rychlostním radaru?"
+      },
+      "freeform": {
+        "key": "maxspeed",
+        "type": "pnat",
+        "placeholder": {
+          "en": "Maximum speed allowed",
+          "de": "Zulässige Höchstgeschwindigkeit",
+          "nl": "Maximum toegestane snelheid",
+          "es": "Velocidad máxima permitida",
+          "fr": "Vitesse maximale autorisée",
+          "ca": "Velocitat màxima permesa",
+          "cs": "Maximální povolená rychlost"
+        }
+      },
+      "render": {
+        "en": "The maximum speed allowed is {canonical(maxspeed)}",
+        "de": "Die zulässige Höchstgeschwindigkeit beträgt {canonical(maxspeed)}",
+        "nl": "De maximum toegestane snelheid is {canonical(maxspeed)}",
+        "es": "La velocidad máxima permitida es {canonical(maxspeed)}",
+        "fr": "La vitesse maximale autorisée est {canonical(maxspeed)}",
+        "ca": "La velocitat màxima permesa és {canonical(maxspeed)}",
+        "cs": "Maximální povolená rychlost je {canonical(maxspeed)}"
+      }
+    },
+    {
+      "id": "ref",
+      "render": {
+        "en": "The reference number of this speed camera is {ref}",
+        "de": "Die Referenznummer dieses Blitzers ist {ref}",
+        "nl": "De referentie van deze flitspaal is {ref}",
+        "es": "El número de referencia de este radar de velocidad es {ref}",
+        "cs": "Referenční číslo tohoto rychlostního radaru je {ref}"
+      },
+      "condition": "ref~*"
+    },
+    {
+      "question": {
+        "en": "In which geographical direction does this camera film?",
+        "nl": "In welke geografische richting filmt deze camera?",
+        "fr": "Dans quelle direction géographique cette caméra filme-t-elle ?",
+        "it": "In quale direzione geografica punta questa videocamera?",
+        "de": "In welche Himmelsrichtung filmt diese Kamera?",
+        "da": "I hvilken geografisk retning filmer dette kamera?",
+        "ca": "En quina direcció geogràfica apunta aquesta càmera?",
+        "es": "¿A qué dirección geográfica apunta esta cámara?",
+        "cs": "Ve kterém geografickém směru tato kamera snímá?",
+        "sl": "V katero geografsko smer snema ta kamera?"
+      },
+      "render": {
+        "en": "Films to a compass heading of {direction}",
+        "nl": "Filmt in kompasrichting {direction}",
+        "fr": "Filme dans une direction {direction}",
+        "it": "Punta in direzione {direction}",
+        "de": "filmt in Himmelsrichtung {direction}",
+        "da": "Filmer til en kompasretning af {direction}",
+        "ca": "Grava en direcció {direction}",
+        "es": "Graba en dirección a {direction}",
+        "cs": "Snímané oblasti podle směru kompasu {direction}",
+        "sl": "Snema v smeri kompasa {direction}"
+      },
+      "freeform": {
+        "key": "direction",
+        "type": "direction"
+      },
+      "id": "camera_direction"
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  },
+  "units": [
+    {
+      "maxspeed": {
+        "quantity": "speed",
+        "denominations": [
+          "kmh",
+          "mph"
+        ]
+      }
+    }
+  ]
+}

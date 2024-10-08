@@ -1,0 +1,71 @@
+{
+  "name": "Kerbs and crossings",
+  "short_name": "Kerbs and crossings",
+  "start_url": "kerbs_and_crossings.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A map showing kerbs and crossings.",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_layers_kerbs_KerbIcon512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/layers/kerbs/KerbIcon.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

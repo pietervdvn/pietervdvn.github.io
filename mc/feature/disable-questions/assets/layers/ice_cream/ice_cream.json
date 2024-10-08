@@ -1,0 +1,110 @@
+{
+  "id": "ice_cream",
+  "name": {
+    "en": "Ice cream parlors",
+    "de": "Eisdielen",
+    "nl": "IJssalon"
+  },
+  "description": {
+    "en": "A place where ice cream is sold over the counter",
+    "de": "Ein Ort, an dem Eiscreme an der Theke verkauft wird",
+    "nl": "Een plaats waar voornamelijk ijsjes verkocht worden, bedoeld voor onmiddelijke consumptie"
+  },
+  "source": {
+    "osmTags": "amenity=ice_cream"
+  },
+  "minzoom": 14,
+  "title": {
+    "render": {
+      "en": "Ice cream parlor",
+      "de": "Eisdiele",
+      "nl": "IJssalon"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "{name}",
+          "de": "{name}",
+          "pl": "{name}",
+          "nl": "{name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "label": {
+        "render": "{name}",
+        "condition": "name~*"
+      },
+      "labelCssClasses": "bg-white rounded px-2",
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/ice_cream/ice_cream.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": 1,
+      "color": "blue"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "an ice cream parlor",
+        "de": "eine Eisdiele",
+        "fr": "un glacier",
+        "nl": "een ijssalon"
+      },
+      "tags": [
+        "amenity=ice_cream"
+      ],
+      "description": {
+        "en": "A shop where one can buy only icecream and related items. Ice cream is normally hand-scooped.",
+        "de": "Ein Geschäft, in dem man nur Eiscreme und damit verbundene Artikel kaufen kann. Normalerweise wird das Eis mit der Hand portioniert.",
+        "nl": "Een plaats waar men voornamelijk ijsjes koopt, meestal met de hand geschept en bedoeld om onmiddellijk op te eten."
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "reviews",
+    {
+      "question": {
+        "en": "What is the name of this ice cream parlor?",
+        "nl": "Wat is de naam van dit ijssalon?",
+        "de": "Wie heißt diese Eisdiele?"
+      },
+      "id": "1",
+      "freeform": {
+        "key": "name"
+      },
+      "render": {
+        "en": "This ice cream parlor is named <b>{name}</b>",
+        "nl": "Dit ijssalon heet <b>{name}</b>",
+        "de": "Diese Eisdiele heißt <b>{name}</b>"
+      }
+    },
+    "opening_hours",
+    "contact",
+    "diets",
+    "payment-options",
+    "wheelchair-access"
+  ],
+  "allowMove": true,
+  "credits": [
+    "Pieter Vander Vennet"
+  ]
+}
