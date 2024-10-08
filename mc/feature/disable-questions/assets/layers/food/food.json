@@ -1044,16 +1044,22 @@
         {
           "if": "diet:vegetarian=only",
           "then": {
-            "en": "Vegetarian snacks are available",
-            "ca": "Hi ha snacks vegetarians disponibles",
-            "cs": "Vegetariánské občerstvení je k dispozici",
-            "de": "Vegetarische Snacks sind erhältlich",
-            "fr": "Des collations végétariens sont disponibles",
-            "nl": "Er zijn vegetarische snacks aanwezig"
+            "en": "Serves only vegetarian snacks and burgers"
           }
         },
         {
           "if": "diet:vegetarian=yes",
+          "then": {
+            "en": "Vegetarian snacks are available",
+            "nl": "Er zijn vegetarische snacks aanwezig",
+            "fr": "Des collations végétariens sont disponibles",
+            "de": "Vegetarische Snacks sind erhältlich",
+            "ca": "Hi ha snacks vegetarians disponibles",
+            "cs": "Vegetariánské občerstvení je k dispozici"
+          }
+        },
+        {
+          "if": "diet:vegetarian=limited",
           "then": {
             "en": "Only a small selection of snacks are vegetarian",
             "nl": "Slechts enkele vegetarische snacks",
@@ -1061,17 +1067,6 @@
             "de": "Nur eine kleine Auswahl an vegetarischen Snacks ist erhältlich",
             "ca": "Només una petita selecció de snacks son vegetarians",
             "cs": "Pouze malý výběr občerstvení je vegetariánský"
-          }
-        },
-        {
-          "if": "diet:vegetarian=limited",
-          "then": {
-            "en": "No vegetarian snacks are available",
-            "nl": "Geen vegetarische snacks beschikbaar",
-            "fr": "Pas d'en-cas végétariens disponibles",
-            "de": "Es sind keine vegetarischen Snacks erhältlich",
-            "ca": "No hi han sacks disponibles",
-            "cs": "Vegetariánské občerstvení není k dispozici"
           }
         },
         {
@@ -1102,16 +1097,22 @@
         {
           "if": "diet:vegan=only",
           "then": {
-            "en": "Vegan snacks are available",
-            "ca": "Hi han snacks vegans disponibles",
-            "cs": "Veganské občerstvení je k dispozici",
-            "de": "Vegane Snacks sind erhältlich",
-            "fr": "Des collations végétaliens sont disponibles",
-            "nl": "Er zijn veganistische snacks aanwezig"
+            "en": "Serves only vegan snacks and burgers"
           }
         },
         {
           "if": "diet:vegan=yes",
+          "then": {
+            "en": "Vegan snacks are available",
+            "nl": "Er zijn veganistische snacks aanwezig",
+            "fr": "Des collations végétaliens sont disponibles",
+            "de": "Vegane Snacks sind erhältlich",
+            "ca": "Hi han snacks vegans disponibles",
+            "cs": "Veganské občerstvení je k dispozici"
+          }
+        },
+        {
+          "if": "diet:vegan=limited",
           "then": {
             "en": "A small selection of vegan snacks are available",
             "nl": "Slechts enkele veganistische snacks",
@@ -1119,17 +1120,6 @@
             "de": "Nur eine kleine Auswahl an veganen Snacks ist erhältlich",
             "ca": "Hi ha una petita selecció de snacks vegans disponibles",
             "cs": "K dispozici je malý výběr veganského občerstvení"
-          }
-        },
-        {
-          "if": "diet:vegan=limited",
-          "then": {
-            "en": "No vegan snacks are available",
-            "nl": "Geen veganistische snacks beschikbaar",
-            "fr": "Pas d'en-cas végétaliens disponibles",
-            "de": "Es sind keine veganen Snacks verfügbar",
-            "ca": "No hi ha snacks vegans disponibles",
-            "cs": "Veganské občerstvení není k dispozici"
           }
         },
         {

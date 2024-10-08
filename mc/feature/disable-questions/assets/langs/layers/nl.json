@@ -4497,14 +4497,11 @@
             },
             "friture-vegan": {
                 "mappings": {
-                    "0": {
+                    "1": {
                         "then": "Er zijn veganistische snacks aanwezig"
                     },
-                    "1": {
-                        "then": "Slechts enkele veganistische snacks"
-                    },
                     "2": {
-                        "then": "Geen veganistische snacks beschikbaar"
+                        "then": "Slechts enkele veganistische snacks"
                     },
                     "3": {
                         "then": "Geen veganistische snacks beschikbaar"
@@ -4514,14 +4511,11 @@
             },
             "friture-vegetarian": {
                 "mappings": {
-                    "0": {
+                    "1": {
                         "then": "Er zijn vegetarische snacks aanwezig"
                     },
-                    "1": {
-                        "then": "Slechts enkele vegetarische snacks"
-                    },
                     "2": {
-                        "then": "Geen vegetarische snacks beschikbaar"
+                        "then": "Slechts enkele vegetarische snacks"
                     },
                     "3": {
                         "then": "Geen vegetarische snacks beschikbaar"

@@ -4602,14 +4602,11 @@
             },
             "friture-vegan": {
                 "mappings": {
-                    "0": {
+                    "1": {
                         "then": "Veganské občerstvení je k dispozici"
                     },
-                    "1": {
-                        "then": "K dispozici je malý výběr veganského občerstvení"
-                    },
                     "2": {
-                        "then": "Veganské občerstvení není k dispozici"
+                        "then": "K dispozici je malý výběr veganského občerstvení"
                     },
                     "3": {
                         "then": "Veganské občerstvení není k dispozici"
@@ -4619,14 +4616,11 @@
             },
             "friture-vegetarian": {
                 "mappings": {
-                    "0": {
+                    "1": {
                         "then": "Vegetariánské občerstvení je k dispozici"
                     },
-                    "1": {
-                        "then": "Pouze malý výběr občerstvení je vegetariánský"
-                    },
                     "2": {
-                        "then": "Vegetariánské občerstvení není k dispozici"
+                        "then": "Pouze malý výběr občerstvení je vegetariánský"
                     },
                     "3": {
                         "then": "Vegetariánské občerstvení není k dispozici"
