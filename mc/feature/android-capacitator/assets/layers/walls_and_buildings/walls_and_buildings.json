@@ -1,0 +1,150 @@
+{
+  "id": "walls_and_buildings",
+  "description": {
+    "en": "Special builtin layer providing all walls and buildings. This layer is useful in presets for objects which can be placed against walls (e.g. AEDs, postboxes, entrances, addresses, surveillance cameras, …). This layer is invisible by default and not toggleable by the user.",
+    "nl": "Speciale ingebouwde laag voor alle muren en gebouwen. Deze laag is nuttig in voorkeuzen voor objecten die tegen muren geplaatst kunnen worden (bv. AEDs, brievenbussen, ingangen, adressen, beveiligingscamera's,…). Deze laag is standaard onzichtbaar en niet in te schakelen door de gebruiker.",
+    "de": "Spezielle Ebene, die alle Wände und Gebäude bereitstellt. Diese Ebene ist nützlich in Voreinstellungen für Objekte, die an Wänden platziert werden können (z. B. AEDs, Briefkästen, Eingänge, Adressen, Überwachungskameras, ...). Diese Ebene ist standardmäßig unsichtbar und kann vom Benutzer nicht umgeschaltet werden.",
+    "fr": "Couche intégrée spéciale fournissant tous les murs et bâtiments. Cette couche est utile dans les préréglages pour les objets qui peuvent être placés contre les murs (par exemple, les DEA, les boîtes aux lettres, les entrées, les adresses, les caméras de surveillance, …). Ce calque est invisible par défaut et non inchangeable par l'utilisateur.",
+    "da": "Specielt indbygget lag giver alle vægge og bygninger. Dette lag er nyttigt i forudindstillinger til objekter, der kan placeres mod vægge (f.eks. AED'er, postkasser, indgange, adresser, overvågningskameraer, …). Dette lag er usynligt som standard og kan ikke skiftes af brugeren.",
+    "ca": "Capa construïda especial que proporciona totes les parets i edificis. Aquesta capa és útil als predefinits per a objectes que es poden col·locar a les parets (p. ex. DEA, bústies de correus, entrades, adreces, càmeres de vigilància, ...). Aquesta capa és invisible per defecte i no es pot activar per l'usuari.",
+    "es": "Capa especial incorporada que proporciona todas las paredes y edificios. Esta capa es útil en los preajustes para objetos que pueden colocarse contra las paredes (por ejemplo: AEDs, buzones de correos, entradas, direcciones, cámaras de vigilancia, ...). Esta capa es invisible por defecto y no puede ser activada por el usuario.",
+    "cs": "Speciální zabudovaná vrstva poskytující všechny stěny a budovy. Tato vrstva je užitečná v předvolbách pro objekty, které lze umístit ke stěnám (např. AED, poštovní schránky, vchody, adresy, bezpečnostní kamery, …). Tato vrstva je ve výchozím nastavení neviditelná a uživatel ji nemůže přepínat.",
+    "zh_Hant": "特殊的內建圖層顯示所有牆壁與建築。這個圖層對於規畫要靠牆的東西 (例如 AED、郵筒、入口、地址、監視器等) 相當實用。這個圖層預設顯示而且無法由使用者開關。",
+    "pl": "Specjalna warstwa zabudowana zapewniająca wszystkie mury i budynki. Warstwa ta jest przydatna w ustawieniach wstępnych obiektów, które można umieścić przy ścianach (np. AED, skrzynki pocztowe, wejścia, adresy, kamery monitorujące itp.). Warstwa ta jest domyślnie niewidoczna i użytkownik nie może jej przełączać."
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "barrier=wall",
+        "building~*"
+      ]
+    }
+  },
+  "calculatedTags": [
+    "_entrance_properties=overlapWith(feat)('entrance')?.map(e => e.feat.properties)?.filter(p => p !== undefined && p.indoor !== 'door')",
+    "_entrance_properties_with_width=get(feat)('_entrance_properties')?.filter(p => p['width'] !== undefined)",
+    "_entrances_count=get(feat)('_entrance_properties').length",
+    "_entrances_count_without_width_count= get(feat)('_entrances_count') - get(feat)('_entrance_properties_with_width').length",
+    "_biggest_width= Math.max( get(feat)('_entrance_properties').map(p => p.width))",
+    "_biggest_width_properties= /* Can be a list! */ get(feat)('_entrance_properties').filter(p => p.width === get(feat)('_biggest_width'))",
+    "_biggest_width_id=get(feat)('_biggest_width_properties').id"
+  ],
+  "isCounted": false,
+  "minzoom": 18,
+  "shownByDefault": false,
+  "title": {
+    "render": {
+      "en": "Wall or building",
+      "nl": "Muur of gebouw",
+      "de": "Wand oder Gebäude",
+      "es": "Pared o edificio",
+      "fr": "Mur ou bâtiment",
+      "da": "Mur eller bygning",
+      "ca": "Paret o edifici",
+      "cs": "Zeď nebo budova"
+    }
+  },
+  "pointRendering": null,
+  "lineRendering": [
+    {
+      "color": "#fff",
+      "fill": "no",
+      "width": "3"
+    },
+    {
+      "color": "#333",
+      "fill": "no",
+      "width": "2"
+    }
+  ],
+  "passAllFeatures": true,
+  "tagRenderings": [
+    {
+      "id": "entrance_info",
+      "render": {
+        "before": {
+          "en": "<h3>Entrances</h3>This building has {_entrances_count} entrances:",
+          "de": "<h3>Eingänge</h3>Das Gebäude hat {_entrances_count} Eingänge:",
+          "da": "<h3>Indgange</h3>Denne bygning har {_entrances_count} indgange:",
+          "nl": "<h3>Ingangen</h3>Dit gebouw heeft {_entrances_count} ingangen:",
+          "ca": "<h3>Entrades</h3>Aquest edifici té {_entrances_count} entrades:",
+          "cs": "<h3>Vchody</h3>Tato budova má {_entrances_count} vchodů:"
+        },
+        "after": {
+          "en": "{_entrances_count_without_width_count} entrances don't have width information yet",
+          "de": "{_entrances_count_without_width_count} Eingänge haben keine Angaben zur Breite",
+          "da": "{_entrances_count_without_width_count} indgange har endnu ikke oplysninger om bredde",
+          "nl": "{_entrances_count_without_width_count} ingangen hebben nog geen informatie over de breedte",
+          "ca": "{_entrances_count_without_width_count} entrades encara no tenen informació d'amplada",
+          "cs": "{_entrances_count_without_width_count} vchody zatím nemají informace o šířce"
+        },
+        "special": {
+          "type": "multi",
+          "key": "_entrance_properties_with_width",
+          "tagrendering": {
+            "en": "An <a href='#{id}'>entrance</a> of {canonical(width)}",
+            "de": "Ein <a href='#{id}'>Eingang</a> von {canonical(width)}",
+            "da": "En <a href='#{id}'>indgang</a> på {canonical(width)}",
+            "nl": "Een <a href='#{id}'>ingang</a> van {canonical(width)}",
+            "ca": "Una <a href='#{id}'>entrada </a> de {canonical(width)}",
+            "cs": "<a href='#{id}'>vchod</a> {canonical(width)}"
+          }
+        }
+      },
+      "mappings": [
+        {
+          "if": "_entrances_count=0",
+          "then": {
+            "en": "No entrance has been marked",
+            "de": "Es wurde kein Eingang markiert",
+            "da": "Der er ikke markeret nogen indgang",
+            "nl": "Geen ingang is gemarkeerd",
+            "ca": "No s'ha senyalitzat cap entrada",
+            "cs": "Nebyl označen žádný vchod"
+          }
+        },
+        {
+          "if": "_entrances_count_without_width:=_entrances_count",
+          "then": {
+            "en": "None of the {_entrance_count} entrances have width information yet",
+            "de": "Keiner der {_entrance_count} Eingänge hat bisher Angaben zur Breite",
+            "da": "Ingen af {_entrance_count}-indgangene har oplysninger om bredde endnu",
+            "nl": "Geen van de {_entrance_count} ingangen hebben al informatie over de breedte",
+            "ca": "Cap de les {_entrance_count} entrades té informació d'amplada encara",
+            "cs": "Žádný z {_entrance_count} vchodů zatím nemá informace o šířce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "biggest_width",
+      "render": "The <a href='#{_biggest_width_id}'>entrance with the biggest width</a> is {canonical(_biggest_width)} wide",
+      "condition": "_biggest_width_id~*"
+    }
+  ],
+  "allowMove": false,
+  "units": [
+    {
+      "width": {
+        "quantity": "distance",
+        "denominations": [
+          "m",
+          "cm"
+        ]
+      },
+      "_biggest_width": {
+        "quantity": "distance",
+        "denominations": [
+          "m",
+          "cm"
+        ]
+      }
+    }
+  ],
+  "snapName": {
+    "en": "a wall or building",
+    "nl": "een muur of gebouw",
+    "de": "eine Wand oder ein Gebäude",
+    "ca": "un mur o edifici"
+  }
+}

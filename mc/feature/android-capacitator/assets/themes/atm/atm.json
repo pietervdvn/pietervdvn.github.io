@@ -1,0 +1,196 @@
+{
+  "id": "atm",
+  "title": {
+    "en": "ATM Machines",
+    "de": "Geldautomaten",
+    "fr": "Distributeurs DAB",
+    "nl": "Geldautomaten",
+    "ca": "Caixers automàtics",
+    "es": "Cajeros automáticos",
+    "cs": "Bankomaty",
+    "nb_NO": "Minibanker",
+    "zgh": "ⴰⵍⵍⴰⵍⵏ ⵏ ⵓⵙⴽⵙⵍ ⴰⵡⵓⵔⵎⴰⵏ",
+    "id": "Mesin ATM",
+    "zh_Hant": "自動櫃員機",
+    "eu": "Kutxazain automatikoa",
+    "it": "Sportelli bancomat",
+    "pl": "Bankomaty",
+    "da": "Hæveautomater",
+    "zh_Hans": "自动取款机",
+    "uk": "Банкомати",
+    "hu": "Bankautomaták"
+  },
+  "description": {
+    "en": "This map shows ATMs to withdraw or deposit money",
+    "de": "Diese Karte zeigt Geldautomaten zum Abheben oder Einzahlen von Bargeld",
+    "fr": "Cette carte montre les DABs pour retirer ou déposer de l'argent",
+    "nl": "Deze kaart toont geldautomaten waar je geld kunt afhalen of geld op de bank kan zetten",
+    "ca": "Aquest mapa mostra caixers automàtics per a retirar o ingresar diners",
+    "cs": "Tato mapa zobrazuje bankomaty pro výběr nebo vklad peněz",
+    "nb_NO": "Viser minibanker for å ta ut eller sette inn penger",
+    "es": "Este mapa muestra los cajeros automáticos para retirar o ingresar dinero",
+    "id": "Peta ini menunjukkan ATM untuk menarik atau menyetorkan uang",
+    "zh_Hant": "此地圖顯示了提款或存款的自動櫃員機",
+    "eu": "Mapa honek dirua atera edo sartzeko kutxazain automatikoak erakusten ditu",
+    "it": "Questa mappa mostra gli sportelli Bancomat per ritirare o depositare del denaro",
+    "pl": "Ta mapa pokazuje bankomaty, w których można wypłacać lub wpłacać pieniądze",
+    "da": "Dette kort viser hæveautomater, hvor du kan hæve og indsætte kontanter",
+    "zh_Hans": "这张地图显示了可以取款或存款的自动取款机",
+    "uk": "На цій мапі показані банкомати, де можна зняти готівку або поповнити рахунок"
+  },
+  "icon": "./assets/themes/atm/logo.svg",
+  "layers": [
+    "atm",
+    {
+      "builtin": "bank",
+      "override": {
+        "id": "banks_with_atm",
+        "minzoom": 14,
+        "source": {
+          "osmTags": {
+            "and+": [
+              "atm=yes"
+            ]
+          }
+        },
+        "filter": [
+          "open_now"
+        ]
+      }
+    },
+    {
+      "builtin": "bank",
+      "override": {
+        "minzoom": 18,
+        "name": null,
+        "filter": {
+          "sameAs": "banks_with_atm"
+        },
+        "isCounted": false
+      }
+    },
+    {
+      "builtin": "maproulette_challenge",
+      "override": {
+        "minzoom": 5,
+        "source": {
+          "geoJson": "https://maproulette.org/api/v2/challenge/view/39519"
+        },
+        "isShown": "mr_taskStatus=Created",
+        "calculatedTags": [
+          "_closest_osm_poi=closest(feat)('atm')?.properties?.id",
+          "_closest_osm_poi_distance=Math.round(distanceTo(feat)(feat.properties._closest_osm_poi))",
+          "_has_closeby_feature=Number(feat.properties._closest_osm_poi_distance) < 150 ? 'yes' : 'no'"
+        ],
+        "=tagRenderings": [
+          {
+            "id": "import-button",
+            "condition": "_has_closeby_feature=no",
+            "render": {
+              "special": {
+                "type": "import_button",
+                "targetLayer": "atm",
+                "tags": "tags",
+                "maproulette_id": "mr_taskId",
+                "text": {
+                  "en": "Import this ATM",
+                  "de": "Diesen Geldautomaten importieren",
+                  "zh_Hant": "匯入這座 ATM",
+                  "nl": "Voeg deze ATM toe",
+                  "fr": "Importer ce distributeur de billets",
+                  "es": "Importar este ATM",
+                  "ca": "Importar aquest caixer automàtic",
+                  "eu": "Inportatu kutxazain automatiko hau",
+                  "it": "Importa questo sportello bancomat",
+                  "pl": "Importuj ten bankomat",
+                  "cs": "Importovat tento bankomat",
+                  "da": "Importer denne hæveautomat",
+                  "zh_Hans": "导入这个ATM",
+                  "uk": "Імпортувати цей банкомат"
+                },
+                "icon": "./assets/svg/addSmall.svg"
+              }
+            }
+          },
+          {
+            "id": "closeness-indicator",
+            "condition": "_has_closeby_feature=yes",
+            "render": {
+              "en": "OpenStreetMap knows about <a href='#{_closest_osm_poi}'>an ATM which is {_closest_osm_poi_distance} meter away.</a> ",
+              "de": "OpenStreetMap kennt <a href='#{_closest_osm_poi}'>einen Geldautomaten, der {_closest_osm_poi_distance} Meter entfernt ist.</a> ",
+              "es": "OpenStreetMap sabe sobre <a href='#{_closest_osm_poi}'>un ATM que es {_closest_osm_poi_distance} de distancia.</a> ",
+              "ca": "OpenStreetMap sap sobre <a href='#{_closest_osm_poi}'>un caixer automàtic que està a {_closest_osm_poi_distance} de distància.</a> ",
+              "cs": "OpenStreetMap ví o <a href='#{_closest_osm_poi}'> bankomatu, který je {_closest_osm_poi_distance} metr daleko.</a> ",
+              "pl": "OpenStreetMap wie o <a href='#{_closest_osm_poi}'>bankomacie oddalonym o {_closest_osm_poi_distance} metry.</a> ",
+              "nl": "OpenStreetMap kent <a href='#{_closest_osm_poi}'>een geldautomaat die {_closest_osm_poi_distance} meter weg is</a> ",
+              "da": "OpenStreetMap kender <a href='#{_closest_osm_poi}'>en hæveautomatet, som ligger {_closest_osm_poi_distance} meter væk.</a> ",
+              "zh_Hans": "OpenStreetMap 知道有一个<a href='#{_closest_osm_poi}'>自动取款机，它距离你 {_closest_osm_poi_distance} 米。</a> ",
+              "uk": "OpenStreetMap знає про <a href='#{_closest_osm_poi}'>банкомат, що знаходиться за {_closest_osm_poi_distance} метрів від нього.</a> "
+            }
+          },
+          {
+            "id": "tag-apply-button",
+            "condition": "_has_closeby_feature=yes",
+            "render": {
+              "special": {
+                "type": "tag_apply",
+                "tags_to_apply": "$tags",
+                "id_of_object_to_apply_this_one": "_closest_osm_poi",
+                "message": {
+                  "en": "Add all the suggested tags to the closest ATM",
+                  "de": "Füge alle vorgeschlagenen Tags zum nächstgelegenen Geldautomaten hinzu",
+                  "fr": "Ajouter tous les attributs suggérés au distributeur de billets le plus proche",
+                  "es": "Añade todas las etiquetas sugieridas al ATM más cercano",
+                  "ca": "Afegeix totes les etiquetes suggerides al caixer automàtic més proper",
+                  "eu": "Gehitu iradokitako etiketa guztiak hurbilen dagoen kutxazainari",
+                  "pl": "Dodaj wszystkie sugerowane znaczniki do najbliższego bankomatu",
+                  "cs": "Přidání všech navrhovaných značek do nejbližšího bankomatu",
+                  "nl": "Voeg alle gesuggereerde tags toe aan de dichtstbijzijnde geldautomaat",
+                  "da": "Tilføj alle foreslåede tags til den nærmeste hæveautomat",
+                  "zh_Hans": "将所有建议的标签添加到距离最近的自动取款机",
+                  "uk": "Додайте всі запропоновані теги до найближчого банкомату"
+                },
+                "image": "./assets/svg/addSmall.svg",
+                "maproulette_id": "mr_taskId"
+              }
+            }
+          },
+          "maproulette.controls",
+          {
+            "id": "minimap_with_atm",
+            "render": "{minimap(18, id, _closest_osm_poi)}"
+          },
+          "all_tags"
+        ]
+      }
+    },
+    {
+      "builtin": "postoffices",
+      "override": {
+        "id": "post_offices_with_atm",
+        "minzoom": 14,
+        "=presets": [],
+        "source": {
+          "osmTags": {
+            "and+": [
+              "atm=yes"
+            ]
+          }
+        },
+        "filter": [
+          "open_now"
+        ]
+      }
+    },
+    {
+      "builtin": "postoffices",
+      "override": {
+        "minzoom": 18,
+        "name": null,
+        "filter": {
+          "sameAs": "post_offices_with_atm"
+        }
+      }
+    }
+  ]
+}

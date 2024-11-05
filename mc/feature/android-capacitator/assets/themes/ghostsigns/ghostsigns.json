@@ -1,0 +1,95 @@
+{
+  "id": "ghostsigns",
+  "title": {
+    "en": "Ghost Signs",
+    "de": "Geisterzeichen",
+    "es": "Señales fantasma",
+    "cs": "Nápisy na zdech",
+    "uk": "Примарні знаки"
+  },
+  "description": {
+    "en": "A map showing disused signs on buildings",
+    "de": "Eine Karte, die ungenutzte Zeichen auf Gebäuden zeigt",
+    "es": "Un mapa que muestra los rótulos en desuso de los edificios",
+    "ca": "Un mapa que mostra els rètols en desús dels edificis",
+    "cs": "Mapa zobrazující nepoužívané nápisy na budovách",
+    "uk": "Мапа, на якій показані вивіски на будівлях, що не використовуються"
+  },
+  "icon": "./assets/themes/advertising/wall_painting.svg",
+  "layers": [
+    "ghostsign",
+    {
+      "builtin": "advertising",
+      "override": {
+        "id": "advertising_wall_paintings",
+        "minzoom": 18,
+        "=presets": [],
+        "pointRendering": [
+          {
+            "iconSize": "20,20"
+          }
+        ],
+        "isCounted": false
+      }
+    },
+    {
+      "builtin": "artwork",
+      "override": {
+        "minzoom": 16,
+        "presets=": null,
+        "id": "artwork_on_wall",
+        "+tagRenderings": [
+          {
+            "id": "historic_or_not",
+            "question": {
+              "en": "Is this artwork a historic advertisement?",
+              "de": "Ist dieses Kunstwerk eine historische Werbung?",
+              "es": "¿Es esta obra de arte un anuncio histórico?",
+              "cs": "Je toto dílo historickou reklamou?"
+            },
+            "mappings": [
+              {
+                "if": "historic=advertising",
+                "addExtraTags": [
+                  "advertising=wall_painting"
+                ],
+                "then": {
+                  "en": "This artwork is a historic advertisement",
+                  "de": "Dieses Kunstwerk ist eine historische Werbung",
+                  "es": "Esta obra de arte es un anuncio histórico",
+                  "cs": "Toto dílo je historickou reklamou"
+                }
+              },
+              {
+                "if": "historic=",
+                "addExtraTags": [
+                  "advertising="
+                ],
+                "then": {
+                  "en": "This artwork is not a historic advertisement",
+                  "de": "Dieses Kunstwerk ist keine historische Werbung",
+                  "es": "Esta obra de arte no es un anuncio histórico",
+                  "cs": "Toto dílo není historickou reklamou"
+                }
+              }
+            ]
+          }
+        ],
+        "source": {
+          "osmTags": {
+            "and+": {
+              "or": [
+                "artwork_type=mural",
+                "artwork_type=graffiti",
+                "artwork_type=mosaic",
+                "artwork_type=relief",
+                "artwork_type=painting",
+                "artwork_type=mural_painting"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

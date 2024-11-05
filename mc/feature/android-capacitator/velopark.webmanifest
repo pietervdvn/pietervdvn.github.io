@@ -1,0 +1,71 @@
+{
+  "name": "Velopark to OpenStreetMap synchronisation tool",
+  "short_name": "Velopark to OpenStreetMap synchronisation tool",
+  "start_url": "velopark.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "<p><a href='https://velopark.be' target='_blank'>Velopark.be</a> is a website collecting data about bicycle parkings in a semi-crowdsourced way. However, only 'authorized' instances are allowed to make changes there, in practice the operator of the bicycle parking such as SNCB, de Lijn or the municipality. They have now decided to synchronize their dataset with OpenStreetMap, and this MapComplete-instance is set up to help link and import their data into OpenStreetMap.</p> <p class='font-bold link-underline m-4'><a href='#current_view'>See the instructions</a></p>",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/generated/images/assets_themes_velopark_velopark512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/themes/velopark/velopark.svg",
+      "sizes": "513x513",
+      "type": "image/svg"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

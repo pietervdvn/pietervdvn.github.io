@@ -1,0 +1,42 @@
+{
+  "id": "food",
+  "title": {
+    "en": "Restaurants and fast food",
+    "nl": "Eetgelegenheden",
+    "de": "Restaurants und Schnellimbisse",
+    "it": "Ristoranti e fast food",
+    "nb_NO": "Restauranter og søppelmat",
+    "zh_Hant": "餐廳與快餐店",
+    "hu": "Éttermek és büfék",
+    "ca": "Restaurants i menjar ràpid",
+    "es": "Restaurantes y comida rápida",
+    "fr": "Restaurants et restaurants rapides",
+    "da": "Restauranter og fastfood",
+    "cs": "Restaurace a rychlé občerstvení",
+    "ru": "Общественное питание",
+    "pl": "Restauracje i fast foody",
+    "uk": "Ресторани та фаст-фуд"
+  },
+  "description": {
+    "nl": "Restaurants en fast food",
+    "en": "Restaurants and fast food",
+    "de": "Restaurants und Schnellimbisse",
+    "es": "Restaurantes y Comida rápida",
+    "nb_NO": "Restauranter og søppelmat",
+    "fr": "Restaurants et restaurants à service rapide",
+    "da": "Restauranter og fastfood",
+    "ca": "Restaurants i menjar ràpid",
+    "cs": "Restaurace a rychlého občerstvení",
+    "pl": "Restauracje i fast foody",
+    "it": "Ristoranti e fast food",
+    "uk": "Ресторани та фаст-фуд"
+  },
+  "icon": "./assets/layers/food/restaurant.svg",
+  "layers": [
+    "food",
+    "ice_cream",
+    "outdoor_seating",
+    "food_courts"
+  ],
+  "widenFactor": 3
+}

@@ -1,0 +1,107 @@
+{
+  "id": "brothel",
+  "name": {
+    "en": "Brothels",
+    "de": "Bordelle",
+    "cs": "Nevěstince"
+  },
+  "description": {
+    "en": "An establishment specifically dedicated to prostitution. ",
+    "de": "Eine Einrichtung, die speziell der Prostitution gewidmet ist. ",
+    "cs": "Zařízení zaměřené speciálně na prostituci. "
+  },
+  "source": {
+    "osmTags": "amenity=brothel"
+  },
+  "minzoom": 6,
+  "title": {
+    "render": {
+      "en": "Brothel",
+      "de": "Bordell",
+      "ca": "Bordell",
+      "cs": "Nevěstinec"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "*": "{name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "ring",
+          "color": "#fc6488"
+        }
+      ]
+    },
+    {
+      "location": [
+        "centroid",
+        "point"
+      ],
+      "marker": [
+        {
+          "icon": "heart",
+          "color": "#fc6488"
+        }
+      ],
+      "iconSize": "28,28"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a brothel",
+        "de": "ein Bordell",
+        "cs": "nevěstinec"
+      },
+      "tags": [
+        "amenity=brothel"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "reviews",
+    {
+      "multiAnswer": false,
+      "id": "name",
+      "freeform": {
+        "inline": false,
+        "key": "name"
+      },
+      "question": {
+        "en": "What is the name of this brothel?",
+        "de": "Wie lautet der Name des Bordells?",
+        "ca": "Com es diu aquest bordell?",
+        "cs": "Jak se jmenuje tento nevěstinec?"
+      },
+      "render": {
+        "en": "This brothel is named <b>{name}</b>",
+        "de": "Der Name des Bordells lautet <b>{name}</b>",
+        "cs": "Tento nevěstinec se jmenuje <b>{name}</b>"
+      }
+    },
+    "opening_hours",
+    "contact"
+  ],
+  "deletion": {
+    "omitDefaultDeleteReasons": false
+  },
+  "allowMove": true,
+  "allowSplit": false,
+  "enableMorePrivacy": true
+}

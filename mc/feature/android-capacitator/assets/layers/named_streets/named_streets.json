@@ -1,0 +1,22 @@
+{
+  "id": "named_streets",
+  "description": "Hidden layer with all streets which have a name. Useful to detect addresses",
+  "source": {
+    "osmTags": {
+      "and": [
+        "highway~*",
+        "name~*"
+      ]
+    }
+  },
+  "minzoom": 18,
+  "shownByDefault": false,
+  "pointRendering": null,
+  "lineRendering": [
+    {
+      "color": "#ccc",
+      "width": "3"
+    }
+  ],
+  "allowMove": false
+}

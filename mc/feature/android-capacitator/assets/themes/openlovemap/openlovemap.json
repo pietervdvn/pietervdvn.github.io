@@ -1,0 +1,354 @@
+{
+  "id": "openlovemap",
+  "title": {
+    "en": "Open Love Map",
+    "de": "Open Love Map",
+    "es": "Open Love Map",
+    "cs": "Open Love Map",
+    "hu": "Open Love Map - szerelemtérkép"
+  },
+  "description": {
+    "en": "<p><i>Love in the palm of your hand</i></p>Open Love Map lists various adult entries, such as brothels, erotic stores and stripclubs.",
+    "de": "<p><i>Liebe in der Hand</i></p>Open Love Map listet verschiedene Einträge für Erwachsene, wie Bordelle, Erotikshops und Stripclubs.",
+    "es": "<p><i>Amor en la palma de tu mano</i></p>Open Love Map lista varias entradas para adultos, como burdeles, tiendas eróticas y clubs de striptease.",
+    "cs": "<p><i>Láska na dlani</i></p>Open Love Map obsahuje různé položky pro dospělé, například nevěstince, erotické obchody a striptýzové kluby."
+  },
+  "icon": "./assets/layers/stripclub/stripclub.svg",
+  "hideFromOverview": true,
+  "layers": [
+    "brothel",
+    "stripclub",
+    {
+      "builtin": "shops",
+      "override": {
+        "id": "erotic_shop",
+        "source": {
+          "osmTags": "shop=erotic"
+        },
+        "minzoom": 6,
+        "=filter": [
+          "open_now",
+          "fetish",
+          "accepts_cash",
+          "accepts_cards"
+        ],
+        "name": {
+          "en": "Erotic shops",
+          "de": "Erotikgeschäfte",
+          "es": "Tiendas eróticas",
+          "cs": "Erotické obchody"
+        },
+        "=presets": [
+          {
+            "title": {
+              "en": "an erotic shop",
+              "de": "ein Erotikgeschäft",
+              "es": "una tienda erótica",
+              "cs": "erotický obchod"
+            },
+            "tags": [
+              "shop=erotic"
+            ]
+          }
+        ],
+        "tagRenderings+": [
+          {
+            "id": "fetish",
+            "multiAnswer": true,
+            "question": {
+              "en": "Does this shop offer fetish gear?",
+              "de": "Bietet dieser Laden Fetischkleidung an?",
+              "es": "¿Ofrece esta tienda artículos fetichistas?",
+              "cs": "Nabízí tento obchod vybavení pro fetišisty?"
+            },
+            "mappings": [
+              {
+                "if": "fetish:bdsm:soft=yes",
+                "ifnot": "fetish:bdsm:soft=no",
+                "then": {
+                  "en": "This shop offers <b>soft BDSM-gear</b>, such as fluffy handcuffs, a 'fifty-shade-of-grey'-starterset, ...",
+                  "de": "Dieser Laden bietet <b>weiches BDSM-Zubehör</b> an, wie zum Beispiel flauschige Handschellen, ein \"Fifty Shades of Grey\"-Starterset, ...",
+                  "es": "Esta tienda ofrece <b>artículos BDSM suaves</b>, como esposas mullidas, un conjunto de ...",
+                  "cs": "Tento obchod nabízí <b>měkké BDSM pomůcky</b>, jako jsou chlupatá pouta, sada „padesát odstínů šedi“, ..."
+                }
+              },
+              {
+                "if": "fetish:bdsm:specialized=yes",
+                "ifnot": "fetish:bdsm:specialized=no",
+                "then": {
+                  "en": "This shop offers <b>specialized BDSM-gear</b>, such as spreader bars, supplies for needle play, medical bondage supplies, impact tools, shackles, metal colors, cuffs, nipple clamps, shibari accessories, ...",
+                  "de": "Dieser Laden bietet <b>spezialisiertes BDSM-Zubehör</b> an, wie zum Beispiel Spreizstangen, Utensilien für Nadelfolter, medizinische Bondage-Ausrüstung, Schlagwerkzeuge, Fesseln, Metallhalsbänder, Handschellen, Nippelklemmen, Shibari-Zubehör, ...",
+                  "es": "Esta tienda ofrece <b>artículos especializados en BDSM</b>, como barras separadoras, artículos para juegos con agujas, artículos de bondage médico, herramientas de impacto, grilletes, colores metálicos, esposas, pinzas para pezones, accesorios de shibari, ...",
+                  "cs": "Tento obchod nabízí <b>specializované BDSM pomůcky</b>, jako jsou roztahovací tyče, potřeby pro hru na jehlách, potřeby pro lékařskou bondáž, nárazové nástroje, pouta, kovové barvy, pouta, svorky na bradavky, shibari doplňky, ..."
+                }
+              },
+              {
+                "if": "fetish:pet_play=yes",
+                "ifnot": "fetish:pet_play=no",
+                "then": {
+                  "en": "This shop offers <b>pet play</b> accessories, such as puppy masks, animal masks, pony play, tails, hoof shoes, ...",
+                  "de": "Dieser Laden bietet <b>Petplay</b>-Zubehör an, wie zum Beispiel Hundemasken, Tiermasken, Ponyplay-Ausrüstung, Schwänze, Hufschuhe, ...",
+                  "es": "Esta tienda ofrece <b>accesorios para mascotas</b>, como máscaras de cachorros, máscaras de animales, juegos de ponis, colas, herraduras...",
+                  "cs": "Tento obchod nabízí doplňky <b>na hraní si na zvířata</b>, jako jsou masky štěňat, masky zvířat, poníci na hraní, ocasy, boty na kopyta, ..."
+                }
+              },
+              {
+                "if": "fetish:leather=yes",
+                "ifnot": "fetish:leather=no",
+                "then": {
+                  "en": "This shop offers <b>leather gear</b>, including pants and shirts usable in daily life up till leather harnesses",
+                  "de": "Dieser Laden bietet <b>Lederkleidung</b> an, darunter Hosen und Hemden für den Alltag bis hin zu Lederharnissen",
+                  "es": "Esta tienda ofrece <b>ropa de cuero</b>, desde pantalones y camisas de uso diario hasta arneses de cuero",
+                  "cs": "Tento obchod nabízí <b>kožené vybavení</b>, včetně kalhot a košil použitelných v každodenním životě až po kožené postroje"
+                }
+              },
+              {
+                "if": "fetish:uniform=yes",
+                "ifnot": "fetish:uniform=no",
+                "then": {
+                  "en": "This shop offers <b>uniforms</b> for roleplay, such nurse uniforms, military uniforms, police, school girl, french maid, ...",
+                  "de": "Dieser Laden bietet <b>Uniformen</b> für Rollenspiele an, wie Krankenschwester-Uniformen, Militäruniformen, Polizei-, Schulmädchen- und Dienstmädchen-Outfits, ...",
+                  "es": "Esta tienda ofrece <b>uniformes</b> para juegos de rol, tales como uniformes de enfermera, uniformes militares, policía, colegiala, criada francesa, ...",
+                  "cs": "Tento obchod nabízí <b>uniformy</b> pro roleplay, jako jsou uniformy zdravotní sestry, vojenské uniformy, policie, školačky, francouzské pokojské, ..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "shops",
+      "override": {
+        "minzoom": 18,
+        "=presets": [],
+        "=name": null,
+        "isCounted": false,
+        "=filter": {
+          "sameAs": "erotic_shop"
+        }
+      }
+    },
+    {
+      "builtin": "vending_machine",
+      "override": {
+        "id": "condom_vending_machine",
+        "pointRendering": [
+          {
+            "marker": [
+              {
+                "icon": "circle",
+                "color": "white"
+              },
+              {
+                "icon": "ring",
+                "color": "black"
+              }
+            ],
+            "location": [
+              "centroid",
+              "point"
+            ],
+            "iconSize": "40,40",
+            "anchor": "center"
+          },
+          {
+            "marker": [
+              {
+                "icon": "./assets/layers/vending_machine/condom.svg"
+              }
+            ],
+            "location": [
+              "centroid",
+              "point"
+            ],
+            "iconSize": "26,26",
+            "anchor": "center"
+          }
+        ],
+        "=filter": [
+          "open_now"
+        ],
+        "source": {
+          "osmTags": {
+            "=and": [
+              "amenity=vending_machine",
+              "vending=condoms"
+            ]
+          }
+        },
+        "minzoom": 6,
+        "=presets": [
+          {
+            "title": {
+              "en": "a condom vending machine",
+              "de": "ein Kondomautomat",
+              "es": "una máquina de venta de condones",
+              "da": "en kondomautomat",
+              "cs": "automat na kondomy"
+            },
+            "tags": [
+              "amenity=vending_machine",
+              "vending=condoms"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "vending_machine",
+      "override": {
+        "minzoom": 18,
+        "=presets": [],
+        "isCounted": false,
+        "=name": null
+      }
+    },
+    {
+      "builtin": "cinema",
+      "hideTagRenderingsWithLabels": [
+        "wikipedia"
+      ],
+      "override": {
+        "id": "erotic_cinema",
+        "pointRendering": [
+          {
+            "marker": [
+              {
+                "icon": "circle",
+                "color": "white"
+              },
+              {
+                "icon": "ring",
+                "color": "#734a08"
+              }
+            ],
+            "location": [
+              "centroid",
+              "point"
+            ],
+            "iconSize": "40,40",
+            "anchor": "center"
+          },
+          {
+            "marker": [
+              {
+                "icon": "./assets/layers/cinema/cinema.svg"
+              }
+            ],
+            "location": [
+              "centroid",
+              "point"
+            ],
+            "iconSize": "26,26",
+            "anchor": "center"
+          }
+        ],
+        "=filter": [
+          "open_now"
+        ],
+        "tagRenderings+": [
+          "opening_hours"
+        ],
+        "source": {
+          "osmTags": {
+            "=and": [
+              "amenity=cinema",
+              "cinema=erotic"
+            ]
+          }
+        },
+        "minzoom": 6,
+        "=presets": [
+          {
+            "title": {
+              "en": "an erotic cinema",
+              "de": "Ein Sex-Kino",
+              "es": "un cine erótico",
+              "cs": "erotické kino"
+            },
+            "tags": [
+              "amenity=cinema",
+              "cinema=erotic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "cinema",
+      "override": {
+        "minzoom": 18,
+        "=presets": [],
+        "isCounted": false,
+        "=name": null
+      }
+    },
+    "love_hotel",
+    {
+      "builtin": "tourism_accomodation",
+      "override": {
+        "minzoom": 17,
+        "+tagRenderings": [
+          {
+            "id": "hotel-type",
+            "question": {
+              "en": "What type of hotel is this?",
+              "de": "Welche Art von Hotel ist das?",
+              "es": "¿Qué tipo de hotel es este?",
+              "cs": "O jaký typ hotelu se jedná?"
+            },
+            "mappings": [
+              {
+                "if": "tourism=hotel",
+                "then": "This is a regular, tourist hotel where people stay multiple days",
+                "addExtraTags": [
+                  "amenity="
+                ]
+              },
+              {
+                "if": "amenity=love_hotel",
+                "then": "This is a love hotel where people rent rooms for sexual activity. The hotel rent rooms for a few days",
+                "addExtraTags": [
+                  "tourism="
+                ]
+              }
+            ]
+          }
+        ],
+        "isCounted": false,
+        "=presets": []
+      }
+    }
+  ],
+  "overrideAll": {
+    "tagRenderings+": [
+      {
+        "id": "has_video_booth",
+        "question": {
+          "en": "Does {title()} have a private video booth?",
+          "de": "Hat {title()} eine private Videokabine?",
+          "es": "¿Este {title()} tiene una cabina de video privada?",
+          "cs": "Má {title()} soukromou video kabinu?"
+        },
+        "questionHint": {
+          "en": "This is for use by a single person.",
+          "de": "Dies ist für die Nutzung durch eine einzelne Person vorgesehen.",
+          "es": "Esto es para uso de una sola persona.",
+          "cs": "Je určena pro použití jednou osobou."
+        },
+        "mappings": [
+          {
+            "if": "service:private_video_booth=yes",
+            "then": "Private video booths are available"
+          },
+          {
+            "if": "service:private_video_booth=no",
+            "then": "No private video booths"
+          }
+        ]
+      }
+    ]
+  },
+  "enableMorePrivacy": true
+}
