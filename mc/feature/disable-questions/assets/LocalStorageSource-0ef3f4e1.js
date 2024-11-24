@@ -1,2 +1,0 @@
-import{a}from"./UIEventSource-f39c8b5a.js";class n{static GetParsed(e,t){return n.Get(e).sync(r=>{if(r===void 0)return t;try{return JSON.parse(r)}catch{return t}},[],r=>JSON.stringify(r))}static Get(e,t=void 0){try{let r=localStorage.getItem(e);r==="undefined"&&(r=void 0);const c=new a(r??t,"localstorage:"+e);return c.addCallback(o=>{if(o===void 0||o===""||o===null){localStorage.removeItem(e);return}try{localStorage.setItem(e,o)}catch{localStorage.clear()}}),c}catch{return new a(t)}}}export{n as L};
-//# sourceMappingURL=LocalStorageSource-0ef3f4e1.js.map

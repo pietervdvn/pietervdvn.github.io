@@ -652,9 +652,6 @@
                     },
                     "2": {
                         "then": "Adgangen er begrænset til medlemmer af en skole, virksomhed eller organisation"
-                    },
-                    "3": {
-                        "then": "Adgangen er begrænset til medlemmer af en skole, virksomhed eller organisation"
                     }
                 },
                 "question": "Hvem kan bruge denne cykelparkering?",
@@ -2052,7 +2049,7 @@
                 "question": "I hvilken geografisk retning filmer dette kamera?",
                 "render": "Filmer til en kompasretning af {camera:direction}"
             },
-            "is_indoor": {
+            "camera_is_indoor": {
                 "mappings": {
                     "0": {
                         "then": "Dette kamera er placeret indendørs"
@@ -2063,8 +2060,7 @@
                     "2": {
                         "then": "Dette kamera er sandsynligvis placeret udendørs"
                     }
-                },
-                "question": "Er det offentlige rum, der overvåges af dette kamera, et indendørs eller udendørs rum?"
+                }
             }
         },
         "title": {
@@ -2756,14 +2752,6 @@
                         "text": "Hent den private nøgle til din Mangrove-konto"
                     }
                 }
-            },
-            "picture-license": {
-                "mappings": {
-                    "1": {
-                        "then": "Billeder, som du har taget, vil blive udgivet under <b>CC0</b>-licensen og lagt ud i fælleseje. Det betyder, at alle kan bruge dine billeder til ethvert formål."
-                    }
-                },
-                "question": "Under hvilken licens vil du frigive dine billeder?"
             },
             "settings-link": {
                 "render": {

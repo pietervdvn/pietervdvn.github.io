@@ -1210,9 +1210,6 @@
                     },
                     "2": {
                         "then": "L'accés està limitat a membres d'una escola, companyia o organització"
-                    },
-                    "3": {
-                        "then": "L'accés està limitat a membres d'una escola, companyia o organització"
                     }
                 },
                 "question": "Qui pot utilitzar aquest aparcament de bicicletes?",
@@ -2401,10 +2398,10 @@
                     "1": {
                         "then": "Aquest rellotge està muntat en una paret"
                     },
-                    "2": {
+                    "3": {
                         "then": "Aquest rellotge està muntat en una tanca publicitària"
                     },
-                    "3": {
+                    "4": {
                         "then": "Aquest rellotge està al sòl"
                     }
                 },
@@ -2514,17 +2511,6 @@
                     }
                 },
                 "question": "Aquest creuament té una illa al mig?"
-            },
-            "crossing-is-zebra": {
-                "mappings": {
-                    "0": {
-                        "then": "Açò és un pas de vianants"
-                    },
-                    "1": {
-                        "then": "Açò no és un pas de vianants"
-                    }
-                },
-                "question": "Açò és un pas de vianants?"
             },
             "crossing-minimap": {
                 "mappings": {
@@ -7971,6 +7957,19 @@
                 "question": "En quina direcció geogràfica apunta aquesta càmera?",
                 "render": "Grava en direcció {camera:direction}"
             },
+            "camera_is_indoor": {
+                "mappings": {
+                    "0": {
+                        "then": "Aquesta càmera es troba a l'interior"
+                    },
+                    "1": {
+                        "then": "Aquesta càmera es troba a l'exterior"
+                    },
+                    "2": {
+                        "then": "Aquesta càmera probablement es troba a l'exterior"
+                    }
+                }
+            },
             "has_alpr": {
                 "mappings": {
                     "0": {
@@ -7982,20 +7981,6 @@
                 },
                 "question": "Aquesta càmera pot detectar matrícules automàticament?",
                 "questionHint": "Un <b>ALPR</b> (lector automàtic de matrícules, per les seves sigles en anglès) normalment té dues lents i una sèrie de LEDs infrarojos entremig."
-            },
-            "is_indoor": {
-                "mappings": {
-                    "0": {
-                        "then": "Aquesta càmera es troba a l'interior"
-                    },
-                    "1": {
-                        "then": "Aquesta càmera es troba a l'exterior"
-                    },
-                    "2": {
-                        "then": "Aquesta càmera probablement es troba a l'exterior"
-                    }
-                },
-                "question": "L'espai públic vigilat per aquesta càmera és un espai interior o exterior?"
             }
         },
         "title": {
@@ -8956,23 +8941,6 @@
                         "text": "Baixeu la clau privada del vostre compte de Mangrove"
                     }
                 }
-            },
-            "picture-license": {
-                "mappings": {
-                    "0": {
-                        "then": "Les imatges que feu tindran llicència <b>CC0</b> i s'afegiran al domini públic. Això vol dir que tothom pot utilitzar les vostres imatges per a qualsevol propòsit. <span class='subtle'>Aquesta és l'opció predeterminada. </span>"
-                    },
-                    "1": {
-                        "then": "Les imatges que feu tindran llicència <b>CC0</b> i s'afegiran al domini públic. Això vol dir que tothom pot utilitzar les vostres imatges per a qualsevol propòsit."
-                    },
-                    "2": {
-                        "then": "Les fotografies que facis es publicaran sota <b>CC-BY 4.0</b> que requereix que qualsevol que utilitzi la vostra imatge us ha de donar crèdits"
-                    },
-                    "3": {
-                        "then": "Les imatges que feu tindran una llicència amb <b>CC-BY-SA 4.0</b> el que significa que tothom que utilitzi la vostra imatge us ha d'atribuir i que els derivats de la vostra imatge s'han de tornar a compartir amb la mateixa llicència."
-                    }
-                },
-                "question": "Sota quina llicència vols publicar les teves fotos?"
             },
             "profile-description": {
                 "mappings": {
