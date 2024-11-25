@@ -1,0 +1,600 @@
+{
+  "id": "onwheels",
+  "title": {
+    "en": "OnWheels",
+    "de": "Auf Rädern",
+    "fr": "OnWheels",
+    "nl": "OnWheels",
+    "nb_NO": "På hjul",
+    "ca": "Sobre rodes",
+    "pa_PK": "آن‌ویل",
+    "es": "Sobre ruedas",
+    "cs": "Na kolečkách",
+    "eu": "Gurpil gainean",
+    "pl": "Na kółkach",
+    "ru": "Коляски",
+    "uk": "На колесах"
+  },
+  "description": {
+    "en": "On this map, publicly weelchair accessible places are shown and can be easily added",
+    "de": "Auf dieser Karte können Sie öffentlich zugängliche Orte für Rollstuhlfahrer ansehen, bearbeiten oder hinzufügen",
+    "fr": "Sur cette carte nous pouvons voir et ajouter les différents endroits publiques accessibles aux chaises roulantes",
+    "nl": "Op deze kaart kan je rolstoeltoegankelijke plaatsen vinden en toevoegen",
+    "da": "På dette kort vises steder, der er offentligt tilgængelige for kørestolsbrugere, og de kan nemt tilføjes",
+    "cs": "Na této mapě jsou zobrazena veřejně přístupná místa pro vozíčkáře, a lze je také snadno přidat",
+    "es": "En este mapa, se muestran y se pueden agregar fácilmente lugares accesibles para sillas de ruedas",
+    "ca": "En aquest mapa, es mostren llocs públics accessibles per a cadira de rodes i es poden afegir fàcilment",
+    "pl": "Na tej mapie pokazane są miejsca publicznie dostępne dla wózków inwalidzkich, które można łatwo dodać",
+    "it": "Su questa mappa sono indicati i luoghi pubblici accessibili con sedia a rotelle e possono essere facilmente aggiunti",
+    "uk": "На цій мапі показані громадські місця, доступні для осіб в інвалідних візків, їх також можна легко додати"
+  },
+  "icon": "./assets/themes/onwheels/crest.svg",
+  "startZoom": 17,
+  "startLat": 50.86622,
+  "startLon": 4.350103,
+  "hideFromOverview": false,
+  "layers": [
+    {
+      "builtin": "indoors",
+      "override": {
+        "minzoom": 18,
+        "name": null,
+        "passAllFeatures": true
+      }
+    },
+    {
+      "builtin": "pedestrian_path",
+      "override": {
+        "name": null,
+        "tagRendering": null,
+        "title": "null",
+        "minzoom": 18,
+        "shownByDefault": false
+      }
+    },
+    {
+      "builtin": "cycleways_and_roads",
+      "override": {
+        "name": null,
+        "shownByDefault": false
+      }
+    },
+    {
+      "builtin": "cafe_pub",
+      "override": {
+        "minzoom": 15,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/cafe.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom",
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "entrance",
+      "override": {
+        "minzoom": 18,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "circle",
+                "color": "white"
+              },
+              {
+                "icon": "./assets/themes/onwheels/entrance.svg"
+              }
+            ]
+          }
+        ],
+        "syncSelection": "theme-only",
+        "filter": [
+          {
+            "id": "width",
+            "options": [
+              {
+                "question": {
+                  "en": "Any/No width info",
+                  "de": "Beliebig/Keine Breiteninformationen",
+                  "nl": "All kerbs",
+                  "fr": "Toute/aucune information sur la largeur",
+                  "da": "Eventuelle/ingen bredde info",
+                  "cs": "Jakékoliv/žádné informace o šířce",
+                  "es": "Información de ancho/sin información de ancho",
+                  "ca": "Qualsevol/Sense informació d'amplada",
+                  "pl": "Dowolna/brak informacji o szerokości"
+                }
+              },
+              {
+                "osmTags": "width=",
+                "question": {
+                  "en": "Without width info",
+                  "de": "Beliebige Breiteninformationen",
+                  "nl": "Geen breedtes gekend",
+                  "fr": "Pas d’information sur la largeur",
+                  "da": "Uden bredde info",
+                  "cs": "Bez informací o šířce",
+                  "nb_NO": "Uten breddeinfo",
+                  "ca": "Sense informació de l'amplada",
+                  "es": "Sin información de ancho",
+                  "pl": "Bez informacji o szerokości"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "food",
+      "override": {
+        "minzoom": 15,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/restaurant.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom",
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "kerbs",
+      "override": {
+        "minzoom": 18,
+        "syncSelection": "theme-only",
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/cone.svg"
+              }
+            ]
+          }
+        ],
+        "=filter": [
+          {
+            "id": "kerb-type",
+            "options": [
+              {
+                "question": {
+                  "en": "All types of kerbs",
+                  "nl": "Alle typen stoepranden",
+                  "de": "Alle Arten von Bordsteinen",
+                  "fr": "Tous types de ressauts",
+                  "da": "Alle typer kantsten",
+                  "cs": "Všechny typy obrubníků",
+                  "es": "Todos los tipos de bordillos",
+                  "ca": "Tot tipus de vorals",
+                  "pl": "Wszystkie rodzaje kraweżnika"
+                }
+              },
+              {
+                "osmTags": "kerb=raised",
+                "question": {
+                  "en": "Raised kerb (>3 cm)",
+                  "nl": "Hoge stoeprand (>3 cm)",
+                  "de": "Erhöhter Bordstein (>3 cm)",
+                  "fr": "Ressaut surélevé (> 3 cm)",
+                  "da": "Hævet kantsten (>3 cm)",
+                  "cs": "Zvýšený obrubník (>3 cm)",
+                  "es": "Bordillo elevado (>3 cm)",
+                  "ca": "Voral elevat (>3 cm)",
+                  "pl": "Krawężnik podniesiony (>3 cm)"
+                }
+              },
+              {
+                "osmTags": "kerb=lowered",
+                "question": {
+                  "en": "Lowered kerb (~3 cm)",
+                  "nl": "Verlaagde stoeprand (~3 cm)",
+                  "de": "Abgesenkter Bordstein (~3 cm)",
+                  "fr": "Ressaut abaissé (~ 3 cm)",
+                  "da": "Sænket kantsten (~3 cm)",
+                  "cs": "Snížený obrubník (~3 cm)",
+                  "es": "Bordillo rebajado (~3 cm)",
+                  "ca": "Voral baix (~3 cm)",
+                  "pl": "Krawężnik obniżony (~3 cm)"
+                }
+              },
+              {
+                "osmTags": "kerb=flush",
+                "question": {
+                  "en": "Flush kerb (~0cm)",
+                  "nl": "Vlakke stoeprand (~0cm)",
+                  "de": "Bündiger Bordstein (~0cm)",
+                  "fr": "Ressaut à niveau (~ 0 cm)",
+                  "da": "Skyl kantsten (~0 cm)",
+                  "cs": "Zapuštěný obrubník (~0 cm)",
+                  "es": "Bordillo a ras (~0cm)",
+                  "ca": "Voral ras (~0 cm)",
+                  "pl": "Krawężnik zlicowany (~0cm)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "parking",
+      "override": {
+        "minzoom": 15,
+        "lineRendering": [
+          {
+            "color": "#225f92"
+          }
+        ],
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/parking.svg"
+              }
+            ],
+            "anchor": "bottom",
+            "=iconSize": {
+              "render": "20,20",
+              "mappings": [
+                {
+                  "if": {
+                    "or": [
+                      "capacity:disabled>0",
+                      "capacity:disabled=yes"
+                    ]
+                  },
+                  "then": "40,40"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "parking_spaces",
+      "override": {
+        "id": "parking_spaces_disabled",
+        "source": {
+          "osmTags": "parking_space=disabled"
+        },
+        "pointRendering": [
+          {
+            "iconSize": "40,40"
+          }
+        ],
+        "name": {
+          "en": "Disabled parking spaces",
+          "de": "Barrierefreie Parkplätze",
+          "nl": "Parkeerplaatsen voor personen met een beperking",
+          "fr": "Places de stationnement pour personnes handicapées",
+          "cs": "Parkovací místa pro osoby se zdravotním postižením",
+          "es": "Plazas de estacionamiento para discapacitados",
+          "ca": "Places d'aparcament per a minusvàlids",
+          "pl": "Miejsca parkingowe dla niepełnosprawnych",
+          "da": "Handikapparkeringspladser",
+          "it": "Parcheggi per disabili"
+        }
+      },
+      "hideTagRenderingsWithLabels": [
+        "type",
+        "capacity"
+      ]
+    },
+    {
+      "builtin": "shops",
+      "override": {
+        "minzoom": 15,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/shop.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom",
+            "label": null
+          }
+        ],
+        "lineRendering": [
+          {
+            "color": "#ea4a94"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "toilet",
+      "override": {
+        "minzoom": 18,
+        "syncSelection": "theme-only",
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/toilet.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "pharmacy",
+      "override": {
+        "minzoom": 15,
+        "shownByDefault": false,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/pharmacy.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom",
+            "label": null
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "doctors",
+      "shownByDefault": false,
+      "override": {
+        "minzoom": 15,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/doctor.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "hospital",
+      "override": {
+        "minzoom": 15,
+        "shownByDefault": false,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/hospital.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ],
+        "lineRendering": [
+          {
+            "color": "#dd463b"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "reception_desk",
+      "override": {
+        "minzoom": 18,
+        "syncSelection": "theme-only"
+      }
+    },
+    "walls_and_buildings",
+    {
+      "builtin": "elevator",
+      "override": {
+        "minzoom": 18,
+        "syncSelection": "theme-only",
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "circle",
+                "color": "white"
+              },
+              {
+                "icon": "./assets/themes/onwheels/elevator.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "tourism_accomodation",
+      "override": {
+        "minzoom": 15,
+        "shownByDefault": false,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/hotel.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "governments",
+      "override": {
+        "minzoom": 15,
+        "pointRendering": [
+          {
+            "=marker": [
+              {
+                "icon": "./assets/themes/onwheels/government.svg"
+              }
+            ],
+            "iconSize": "40,40",
+            "anchor": "bottom"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "current_view",
+      "override": {
+        "+pointRendering": [
+          {
+            "location": [
+              "point",
+              "centroid"
+            ],
+            "marker": [
+              {
+                "icon": "./assets/svg/statistics.svg"
+              }
+            ]
+          }
+        ],
+        "=title": {
+          "render": {
+            "en": "Statistics",
+            "de": "Statistik",
+            "fr": "Statistiques",
+            "da": "Statistikker",
+            "nb_NO": "Statistikk",
+            "ca": "Estadístiques",
+            "pa_PK": "انکڑے",
+            "nl": "Statistieken",
+            "cs": "Statistiky",
+            "es": "Estadísticas",
+            "eu": "Estatistika",
+            "pl": "Statystyki",
+            "zh_Hant": "統計數據",
+            "it": "Statistiche",
+            "hu": "Statisztika"
+          }
+        },
+        "tagRenderings+": [
+          {
+            "id": "stats",
+            "render": "{statistics()}"
+          }
+        ]
+      }
+    },
+    {
+      "builtin": "maproulette_challenge",
+      "override": {
+        "source": {
+          "geoJson": "https://maproulette.org/api/v2/challenge/view/28012"
+        },
+        "calculatedTags": [
+          "_closest_osm_hotel=closest(feat)('tourism_accomodation')?.properties?.id",
+          "_closest_osm_hotel_distance=distanceTo(feat)(feat.properties._closest_osm_hotel)",
+          "_has_closeby_feature=Number(feat.properties._closest_osm_hotel_distance) < 50 ? 'yes' : 'no'"
+        ],
+        "+tagRenderings": [
+          {
+            "id": "import-button",
+            "condition": "_has_closeby_feature=no",
+            "render": {
+              "special": {
+                "type": "import_button",
+                "targetLayer": "tourism_accomodation",
+                "tags": "tags",
+                "text": {
+                  "en": "Import",
+                  "de": "Import",
+                  "fr": "Importation",
+                  "da": "Importere",
+                  "nb_NO": "Importer",
+                  "ca": "Importar",
+                  "pa_PK": "ایمپورٹ کرو",
+                  "nl": "Importeren",
+                  "cs": "Dovoz",
+                  "es": "Importar",
+                  "eu": "Inportatu",
+                  "pl": "Import",
+                  "zh_Hant": "匯入"
+                },
+                "icon": "./assets/svg/addSmall.svg",
+                "maproulette_id": "mr_taskId"
+              }
+            }
+          },
+          {
+            "id": "tag-apply-button",
+            "condition": "_has_closeby_feature=yes",
+            "render": {
+              "special": {
+                "type": "tag_apply",
+                "tags_to_apply": "$tags",
+                "message": {
+                  "en": "Add all the suggested tags",
+                  "de": "Alle vorgeschlagenen Tags hinzufügen",
+                  "fr": "Ajouter tous les attributs suggérés",
+                  "da": "Tilføj alle de foreslåede tags",
+                  "nb_NO": "Legg til alle foreslåtte",
+                  "nl": "Voeg alle gesuggereerde tags toe",
+                  "cs": "Přidat všechny navrhované značky",
+                  "es": "Agregar todas las etiquetas sugeridas",
+                  "ca": "Afegiu totes les etiquetes suggerides",
+                  "pl": "Dodaj wszystkie sugerowane znaczniki"
+                },
+                "image": "./assets/svg/addSmall.svg",
+                "id_of_object_to_apply_this_one": "_closest_osm_hotel"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "overrideAll": {
+    "+calculatedTags": [
+      "_enclosing_building=enclosingFeatures(feat)('walls_and_buildings')?.map(f => f.feat.properties.id)?.at(0)"
+    ],
+    "tagRenderings+": [
+      {
+        "id": "_stolen_entrances",
+        "condition": {
+          "and": [
+            "entrance=",
+            "kerb=",
+            "current_view!=yes",
+            "door="
+          ]
+        },
+        "render": {
+          "special": {
+            "type": "steal",
+            "featureId": "_enclosing_building",
+            "tagRenderingId": "walls_and_buildings.entrance_info; walls_and_buildings.biggest_width"
+          }
+        }
+      }
+    ]
+  },
+  "enableDownload": true,
+  "widenFactor": 2
+}

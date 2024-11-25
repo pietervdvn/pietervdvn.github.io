@@ -1,0 +1,424 @@
+{
+  "id": "filters",
+  "description": "This layer acts as library for common filters",
+  "source": "special:library",
+  "pointRendering": null,
+  "lineRendering": null,
+  "filter": [
+    {
+      "id": "open_now",
+      "options": [
+        {
+          "emoji": "⏰",
+          "question": {
+            "en": "Open now",
+            "nl": "Nu open",
+            "de": "Jetzt geöffnet",
+            "ca": "Obert ara",
+            "es": "Abierto ahora",
+            "fr": "Ouvert maintenant",
+            "hu": "Most nyitva van",
+            "da": "Åbent nu",
+            "zh_Hant": "目前開放",
+            "id": "Saat ini buka",
+            "it": "Aperto ora",
+            "pl": "Otwarte teraz",
+            "cs": "Nyní otevřeno"
+          },
+          "osmTags": "_isOpen=yes"
+        }
+      ]
+    },
+    {
+      "id": "accepts_cash",
+      "options": [
+        {
+          "emoji": "🪙",
+          "osmTags": "payment:cash=yes",
+          "question": {
+            "en": "Accepts cash",
+            "de": "Akzeptiert Barzahlung",
+            "nl": "Accepteert cash",
+            "es": "Acepta efectivo",
+            "fr": "Accepte les espèces",
+            "pl": "Przyjmuje gotówkę",
+            "ca": "Accepta efectu",
+            "cs": "Přijímá hotovost"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accepts_cards",
+      "options": [
+        {
+          "emoji": "💳",
+          "osmTags": "payment:cards=yes",
+          "question": {
+            "en": "Accepts payment cards",
+            "de": "Akzeptiert Kartenzahlung",
+            "nl": "Accepteert betaalkaarten",
+            "es": "Acepta tarjetas de pago",
+            "fr": "Accepte les cartes de paiement",
+            "pl": "Przyjmuje karty płatnicze",
+            "ca": "Accepta el pagament amb targeta",
+            "cs": "Přijímá platební karty"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accepts_debit_cards",
+      "options": [
+        {
+          "emoji": "💳",
+          "osmTags": "payment:debit_cards=yes",
+          "question": {
+            "en": "Accepts debit cards",
+            "de": "Akzeptiert Debitkarten",
+            "pl": "Przyjmuje karty debetowe",
+            "ca": "Accepta targetes de dèbit",
+            "cs": "Přijímá debetní karty",
+            "es": "Acepta tarjetas de débito"
+          }
+        }
+      ]
+    },
+    {
+      "id": "accepts_credit_cards",
+      "options": [
+        {
+          "emoji": "💳",
+          "osmTags": "payment:credit_cards=yes",
+          "question": {
+            "en": "Accepts credit cards",
+            "de": "Akzeptiert Kreditkarten",
+            "pl": "Przyjmuje karty kredytowe",
+            "ca": "Accepta targetes de crèdit",
+            "cs": "Přijímá kreditní karty",
+            "es": "Acepta tarjetas de crédito"
+          }
+        }
+      ]
+    },
+    {
+      "id": "has_image",
+      "options": [
+        {
+          "question": {
+            "en": "With and without images",
+            "nl": "Met en zonder afbeelding",
+            "de": "Mit und ohne Bild",
+            "pl": "Z oraz bez zdjęć",
+            "ca": "Amb i sense imatges",
+            "cs": "S obrázky i bez nich",
+            "es": "Con y sin imágenes"
+          }
+        },
+        {
+          "question": {
+            "en": "Has at least one image",
+            "de": "Hat mindestens ein Bild",
+            "nl": "Heeft minstens één afbeelding",
+            "pl": "Ma co najmniej jedno zdjęcie",
+            "ca": "Té com a mínim una imatge",
+            "cs": "Má alespoň jeden obrázek",
+            "es": "Tiene al menos una imagen"
+          },
+          "osmTags": {
+            "or": [
+              "image~*",
+              "image:0~*",
+              "image:1~*",
+              "image:2~*",
+              "image:3~*",
+              "mapillary~*"
+            ]
+          }
+        },
+        {
+          "question": {
+            "en": "Probably does not have an image",
+            "de": "Hat wahrscheinlich kein Bild",
+            "nl": "Heeft waarschijnlijk geen afbeelding",
+            "pl": "Prawdopodobnie nie ma zdjęcia",
+            "ca": "Probablement no té una imatge",
+            "cs": "Pravděpodobně nemá obrázek",
+            "es": "Probablemente no tiene imagen"
+          },
+          "osmTags": {
+            "and": [
+              "image=",
+              "image:0=",
+              "image:1=",
+              "image:2=",
+              "image:3=",
+              "mapillary="
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tactile_paving",
+      "options": [
+        {
+          "question": {
+            "en": "With tactile paving",
+            "de": "Mit taktilem Pflaster",
+            "fr": "Avec revêtement podotactile",
+            "nl": "Met voelbare bestrating",
+            "pl": "Z wypustkami dla niewidomych",
+            "ca": "Amb superfícies podotàctils",
+            "cs": "S hmatovou dlažbou",
+            "es": "Con pavimento táctil"
+          },
+          "osmTags": "tactile_paving=yes"
+        }
+      ]
+    },
+    {
+      "id": "tactile_paving_advanced",
+      "#": "ignore-possible-duplicate",
+      "options": [
+        {
+          "question": {
+            "en": "With or without tactile paving",
+            "de": "Mit oder ohne taktiles Pflaster",
+            "fr": "Avec ou sans revêtement podotactile",
+            "nl": "Met of zonder voelbare bestrating",
+            "pl": "Z lub bez wypustek dla niewidomych",
+            "ca": "Amb o sense superfícies podotàctils",
+            "cs": "S nebo bez hmatové dlažby",
+            "es": "Con o sin pavimento táctil"
+          }
+        },
+        {
+          "question": {
+            "en": "With tactile paving",
+            "de": "Mit taktilem Pflaster",
+            "fr": "Avec revêtement podotactile",
+            "nl": "Met voelbare bestrating",
+            "pl": "Z wypustkami dla niewidomych",
+            "ca": "Amb paviments superfícies podotàctils",
+            "cs": "S hmatovou dlažbou",
+            "es": "Con pavimento táctil"
+          },
+          "osmTags": "tactile_paving=yes"
+        },
+        {
+          "question": {
+            "en": "Without tactile paving",
+            "de": "Ohne taktiles Pflaster",
+            "fr": "Sans revêtement podotactile",
+            "nl": "Zonder voelbare bestrating",
+            "pl": "Bez wypustek dla niewidomych",
+            "ca": "Sense superfície podotàctil",
+            "cs": "Bez hmatové dlažby",
+            "es": "Sin pavimento táctil"
+          },
+          "osmTags": "tactile_paving=no"
+        },
+        {
+          "osmTags": "tactile_paving=",
+          "question": {
+            "en": "No information about tactile paving",
+            "de": "Keine Informationen über taktiles Pflaster",
+            "fr": "Sans information sur le revêtement podotactile",
+            "nl": "Geen informatie over voelbare bestrating",
+            "pl": "Brak informacji o wypustkach dla niewidomych",
+            "ca": "No hi ha informació sobre superfícies podotàctils",
+            "cs": "Žádné informace o hmatové dlažbě",
+            "es": "Sin información sobre pavimento táctil"
+          }
+        }
+      ]
+    },
+    {
+      "id": "has_organic",
+      "options": [
+        {
+          "osmTags": {
+            "or": [
+              "organic=yes",
+              "organic=only"
+            ]
+          },
+          "question": {
+            "en": "Has organic options",
+            "de": "Bio-Produkte im Angebot",
+            "nl": "Heeft biologische opties",
+            "ca": "Té opcions orgàniques",
+            "cs": "Má bio možnosti",
+            "es": "Tiene opciones orgánicas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "free",
+      "options": [
+        {
+          "question": {
+            "en": "Free to use",
+            "nl": "Gratis toegankelijk",
+            "de": "Nutzung kostenlos",
+            "fr": "Utilisation gratuite",
+            "da": "Gratis at bruge",
+            "ca": "Ús gratuït",
+            "cs": "Použití zdarma",
+            "es": "De uso gratuito"
+          },
+          "osmTags": {
+            "or": [
+              "fee=no",
+              "fee=0",
+              "charge=0"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dogs",
+      "options": [
+        {
+          "question": {
+            "en": "No preference towards dogs",
+            "nl": "Geen voorkeur voor honden",
+            "de": "Keine Bevorzugung von Hunden",
+            "cs": "Bez preference psů",
+            "es": "Sin preferencia por los perros"
+          }
+        },
+        {
+          "question": {
+            "en": "Dogs allowed",
+            "nl": "Honden toegelaten",
+            "de": "Hunde erlaubt",
+            "cs": "Psi povoleny",
+            "es": "Se permiten perros"
+          },
+          "emoji": "🐕",
+          "osmTags": {
+            "or": [
+              "dog=unleashed",
+              "dog=yes"
+            ]
+          },
+          "icon": "./assets/layers/questions/dogs_allowed.svg"
+        },
+        {
+          "question": {
+            "en": "No dogs allowed",
+            "nl": "Geen honden toegelaten",
+            "de": "Keine Hunde erlaubt",
+            "cs": "Psi nejsou povoleni",
+            "ca": "No s'admeten gossos",
+            "es": "No se permiten perros"
+          },
+          "icon": "./assets/layers/questions/no_dogs.svg",
+          "osmTags": "dog=no"
+        }
+      ]
+    },
+    {
+      "id": "has_internet",
+      "options": [
+        {
+          "question": {
+            "en": "Offers internet",
+            "de": "Internetzugang vorhanden",
+            "cs": "Nabízí internet",
+            "es": "Ofrece internet"
+          },
+          "icon": "wifi",
+          "osmTags": {
+            "or": [
+              "internet_access=wlan",
+              "internet_access=yes",
+              "internet_access=wired"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "has_electricity",
+      "options": [
+        {
+          "question": {
+            "en": "Offers electricity",
+            "de": "Stromanschluss vorhanden",
+            "cs": "Nabízí elektřinu",
+            "es": "Ofrece electricidad"
+          },
+          "osmTags": "service:electricity=yes"
+        }
+      ]
+    },
+    {
+      "id": "sugar_free",
+      "options": [
+        {
+          "question": {
+            "en": "Has a sugar-free offering",
+            "cs": "Má nabídku bez cukru",
+            "de": "Hat zuckerfreie Angebote",
+            "es": "Tiene una oferta sin azúcar"
+          },
+          "osmTags": {
+            "or": [
+              "diet:sugar_free=yes",
+              "diet:sugar_free=only",
+              "diet:sugar_free=limited"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "gluten_free",
+      "options": [
+        {
+          "question": {
+            "en": "Has a gluten free offering",
+            "cs": "Má bezlepkovou nabídku",
+            "de": "Hat glutenfreie Angebote",
+            "es": "Tiene una oferta sin gluten"
+          },
+          "icon": "./assets/layers/questions/glutenfree.svg",
+          "osmTags": {
+            "or": [
+              "diet:gluten_free=yes",
+              "diet:gluten_free=only",
+              "diet:gluten_free=limited"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "lactose_free",
+      "options": [
+        {
+          "question": {
+            "en": "Has a lactose free offering",
+            "cs": "Má nabídku bez laktózy",
+            "de": "Hat laktosefreie Angebote",
+            "es": "Tiene una oferta sin lactosa"
+          },
+          "icon": "./assets/layers/questions/lactose_free.svg",
+          "osmTags": {
+            "or": [
+              "diet:lactose_free=yes",
+              "diet:lactose_free=only",
+              "diet:lactose_free=limited"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "allowMove": false
+}

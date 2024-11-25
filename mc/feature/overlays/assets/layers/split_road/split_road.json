@@ -1,0 +1,49 @@
+{
+  "id": "split_road",
+  "name": null,
+  "description": "Layer rendering the way to split in the 'splitRoadWizard'. This one is used instead of the variable rendering by the themes themselves, as they might not always be very visible",
+  "source": "special",
+  "minzoom": 1,
+  "title": null,
+  "pointRendering": [
+    {
+      "location": [
+        "point"
+      ],
+      "iconSize": "30,30",
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": "bug"
+        }
+      ]
+    },
+    {
+      "location": [
+        "waypoints"
+      ],
+      "iconSize": "4,4",
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": {
+            "render": "circle",
+            "id": "circle"
+          },
+          "color": "#888888"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": "13",
+      "color": "black"
+    },
+    {
+      "width": "8",
+      "color": "white"
+    }
+  ],
+  "allowMove": false
+}

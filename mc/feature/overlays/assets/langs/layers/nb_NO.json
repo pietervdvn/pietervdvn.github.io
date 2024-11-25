@@ -1,0 +1,996 @@
+{
+    "address": {
+        "description": "Adresser",
+        "name": "Kjente adresser i OSM",
+        "tagRenderings": {
+            "fixme": {
+                "question": "Hva bør fikses her? Forklar."
+            },
+            "housenumber": {
+                "mappings": {
+                    "0": {
+                        "then": "Denne bygningen har ikke noe husnummer"
+                    }
+                },
+                "question": "Hvilket husnummer har dette huset?",
+                "render": "Husnummeret er <b>{addr:housenumber}</b>"
+            }
+        },
+        "title": {
+            "render": "Kjent adresse"
+        }
+    },
+    "ambulancestation": {
+        "name": "Kart over ambulansestasjoner",
+        "presets": {
+            "0": {
+                "description": "Legg til en ambulansestasjon på kartet",
+                "title": "en ambulansestasjon"
+            }
+        },
+        "tagRenderings": {
+            "ambulance-name": {
+                "question": "Hva er navnet på denne ambulansestasjonen?",
+                "render": "Denne stasjonen heter {name}."
+            }
+        },
+        "title": {
+            "render": "Ambulansestasjon"
+        }
+    },
+    "artwork": {
+        "description": "Statuer, byster, graffiti, og andre kunstverk verden over",
+        "name": "Kunstverk",
+        "presets": {
+            "0": {
+                "title": "en kunstverk"
+            }
+        },
+        "tagRenderings": {
+            "artwork-artist-wikidata": {
+                "question": "Hvem laget dette kunstverket?"
+            },
+            "artwork-artist_name": {
+                "question": "Hvilken artist lagde dette?",
+                "render": "Laget av {artist_name}"
+            },
+            "artwork-artwork_type": {
+                "mappings": {
+                    "0": {
+                        "then": "Arkitektur"
+                    },
+                    "1": {
+                        "then": "Veggmaleri"
+                    },
+                    "10": {
+                        "then": "Azulejo (Spansk dekorativt flisverk)"
+                    },
+                    "11": {
+                        "then": "Flisarbeid"
+                    },
+                    "12": {
+                        "then": "Treskjæring"
+                    },
+                    "2": {
+                        "then": "Maleri"
+                    },
+                    "3": {
+                        "then": "Skulptur"
+                    },
+                    "4": {
+                        "then": "Statue"
+                    },
+                    "5": {
+                        "then": "Byste"
+                    },
+                    "6": {
+                        "then": "Stein"
+                    },
+                    "7": {
+                        "then": "Installasjon"
+                    },
+                    "8": {
+                        "then": "Graffiti"
+                    },
+                    "9": {
+                        "then": "Relieff"
+                    }
+                },
+                "question": "Hvilken type kunstverk er dette?",
+                "render": "Dette er et kunstverk av typen {artwork_type}"
+            },
+            "artwork-website": {
+                "question": "Finnes det en nettside med mer info om dette kunstverket?",
+                "render": {
+                    "special": {
+                        "text": "Mer info er å finne på denne nettsiden"
+                    }
+                }
+            },
+            "artwork_subject": {
+                "render": "Dette kunstverket viser {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+            },
+            "doubles_as_bench": {
+                "mappings": {
+                    "1": {
+                        "then": "Dette kunstverket tjener ikke funksjonen som benk"
+                    },
+                    "2": {
+                        "then": "Dette kunstverket tjener ikke den hensikten å være en benk"
+                    }
+                },
+                "question": "Tjener dette kunstverket funksjonen som benk?"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "Kunstverk <i>{name}</i>"
+                }
+            },
+            "render": "Kunstverk"
+        }
+    },
+    "atm": {
+        "description": "Minibanker fo rå ta ut penger",
+        "name": "Minibanker",
+        "presets": {
+            "0": {
+                "title": "en minibank"
+            }
+        },
+        "tagRenderings": {
+            "brand": {
+                "freeform": {
+                    "placeholder": "Merkenavn"
+                },
+                "question": "Hvilet merke har denne minibanken?",
+                "render": "Merkenavnet for denne minibanken er {brand}"
+            },
+            "cash_in": {
+                "mappings": {
+                    "0": {
+                        "then": "Du kan antagelig ikke gjøre innskudd i denne minibanken"
+                    },
+                    "1": {
+                        "then": "Du kan ikke gjøre innskudd i denne minibanken"
+                    },
+                    "2": {
+                        "then": "Du kan ikke gjøre innskudd i denne minibanken"
+                    }
+                }
+            },
+            "cash_out": {
+                "mappings": {
+                    "0": {
+                        "then": "Du kan gjøre uttak i denne minibanken"
+                    }
+                },
+                "question": "Kan man gjøre uttak fra denne minibanken?"
+            },
+            "name": {
+                "render": "Navnet på denne minibanken er {name}"
+            },
+            "operator": {
+                "question": "Hvilket selskap driver denne minibanken?",
+                "render": "Minibanken drives av {operator}"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{brand}-minibank"
+                }
+            },
+            "render": "Minibank"
+        }
+    },
+    "bank": {
+        "filter": {
+            "1": {
+                "options": {
+                    "0": {
+                        "question": "Med en minibank"
+                    }
+                }
+            }
+        },
+        "name": "Banker",
+        "tagRenderings": {
+            "has_atm": {
+                "mappings": {
+                    "0": {
+                        "then": "Denne banken har en minibank"
+                    },
+                    "1": {
+                        "then": "Denne banken har <b>ikke</b> en minibank"
+                    }
+                },
+                "question": "Har denne banken en minibank?"
+            }
+        }
+    },
+    "barrier": {
+        "description": "Hindringer for sykling, som f.eks. pullerter og sykkelbarrièrer",
+        "name": "Barrièrer",
+        "presets": {
+            "0": {
+                "description": "En pullert i veien"
+            },
+            "1": {
+                "description": "Sykkelbarrièrer, for å dempe farten",
+                "title": "en sykkelbarrière"
+            }
+        },
+        "tagRenderings": {
+            "Bollard type": {
+                "mappings": {
+                    "0": {
+                        "then": "Senk- eller fjernbar pullert"
+                    },
+                    "1": {
+                        "then": "Fast pullert"
+                    },
+                    "2": {
+                        "then": "Pullert som kan klappes ned"
+                    },
+                    "3": {
+                        "then": "Fleksibel pullert, vanligvis plastikk"
+                    },
+                    "4": {
+                        "then": "Oppstigende pullert"
+                    }
+                },
+                "question": "Hva slags pullert er dette?"
+            },
+            "Cycle barrier type": {
+                "mappings": {
+                    "1": {
+                        "then": "Dobbel, to barrièrer etter hverandre"
+                    },
+                    "2": {
+                        "then": "Trippel, tre barrièrer etter hverandre"
+                    }
+                },
+                "question": "Hva slags sykkelbarrière er dette?"
+            },
+            "MaxWidth": {
+                "render": "Maksimal bredde: {maxwidth:physical} m"
+            }
+        }
+    },
+    "bench": {
+        "name": "Benker",
+        "presets": {
+            "0": {
+                "title": "en benk"
+            }
+        },
+        "tagRenderings": {
+            "bench-backrest": {
+                "mappings": {
+                    "1": {
+                        "then": "Rygglene: Ja"
+                    },
+                    "2": {
+                        "then": "Rygglene: Nei"
+                    }
+                },
+                "question": "Har denne beken et rygglene?"
+            },
+            "bench-colour": {
+                "mappings": {
+                    "0": {
+                        "then": "Farge: brun"
+                    },
+                    "1": {
+                        "then": "Farge: grønn"
+                    },
+                    "2": {
+                        "then": "Farge: grå"
+                    },
+                    "3": {
+                        "then": "Farge: hvit"
+                    },
+                    "4": {
+                        "then": "Farge: rød"
+                    },
+                    "5": {
+                        "then": "Farge: svart"
+                    },
+                    "6": {
+                        "then": "Farge: blå"
+                    },
+                    "7": {
+                        "then": "Farge: gul"
+                    }
+                },
+                "render": "Farge: {colour}"
+            },
+            "bench-material": {
+                "mappings": {
+                    "0": {
+                        "then": "Materiale: tre"
+                    },
+                    "1": {
+                        "then": "Materiale: metall"
+                    },
+                    "2": {
+                        "then": "Materiale: stein"
+                    },
+                    "3": {
+                        "then": "Materiale: betong"
+                    },
+                    "4": {
+                        "then": "Materiale: plastikk"
+                    },
+                    "5": {
+                        "then": "Materiale: stål"
+                    }
+                },
+                "render": "Materiale: {material}"
+            },
+            "bench-seats": {
+                "question": "Hvor mange sitteplasser har denne benken?",
+                "render": "{seats} seter"
+            }
+        },
+        "title": {
+            "render": "Benk"
+        }
+    },
+    "bench_at_pt": {
+        "name": "Benker",
+        "title": {
+            "render": "Benk"
+        }
+    },
+    "bicycle_library": {
+        "tagRenderings": {
+            "bicycle_library-charge": {
+                "mappings": {
+                    "0": {
+                        "then": "Det er gratis å leie en sykkel"
+                    }
+                },
+                "question": "Hvor mye koster det å leie en sykkel?",
+                "render": "Sykkelleie koster {charge}"
+            },
+            "bicycle_library-name": {
+                "question": "Hva heter dette sykkelbiblioteket?",
+                "render": "Dette sykkelbiblioteket heter {name}"
+            }
+        }
+    },
+    "caravansites": {
+        "tagRenderings": {
+            "caravansites-charge": {
+                "question": "pø",
+                "render": "Dette stedet tar {charge}"
+            },
+            "caravansites-description": {
+                "question": "Vil du legge til en generell beskrivelse av dette stedet? (Ikke gjenta info det har blitt spurt om eller som vises ovenfor. Hold det objektivt. Meninger henvises til vurderingene.)",
+                "render": "Flere detaljer om dette stedet: {description}"
+            },
+            "caravansites-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Man må betale for bruk"
+                    },
+                    "1": {
+                        "then": "Kan brukes gratis"
+                    }
+                },
+                "question": "Tar dette stedet en avgift?"
+            },
+            "caravansites-internet": {
+                "mappings": {
+                    "0": {
+                        "then": "Det finnes tilgang til Internett"
+                    },
+                    "1": {
+                        "then": "Det finnes tilgang til Internett"
+                    },
+                    "2": {
+                        "then": "Det finnes ingen tilgang til Internett"
+                    }
+                },
+                "question": "Tilbyr stedet tilgang til Internett?"
+            },
+            "caravansites-internet-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Tilgang til Internett koster ekstra"
+                    },
+                    "1": {
+                        "then": "Man må ikke betale ekstra for tilgang til Internett"
+                    }
+                },
+                "question": "Må man betale for tilgang til Internett?"
+            },
+            "caravansites-long-term": {
+                "mappings": {
+                    "0": {
+                        "then": "Det finnes noen plasser for langtidsleie, men man kan også bruke dem på dagsbasis"
+                    },
+                    "1": {
+                        "then": "Det er ingen permanente gjester her"
+                    },
+                    "2": {
+                        "then": "Det er kun mulig å bo her hvis man har en langtidskontrakt (dette stedet vil forsvinne fra kartet hvis du velger dette)"
+                    }
+                },
+                "question": "Tilbyr dette stedet plasser for langtidsleie?"
+            },
+            "caravansites-name": {
+                "question": "Hva heter dette stedet?",
+                "render": "Dette stedet heter {name}"
+            },
+            "caravansites-toilets": {
+                "mappings": {
+                    "0": {
+                        "then": "Dette stedet har toalettfasiliteter"
+                    },
+                    "1": {
+                        "then": "Dette stedet har ikke toalettfasiliteter"
+                    }
+                },
+                "question": "Har dette stedet toaletter?"
+            },
+            "caravansites-website": {
+                "question": "Har dette stedet en nettside?",
+                "render": "Offisiell nettside: <a href='{website}'>{website}</a>"
+            }
+        }
+    },
+    "climbing": {
+        "tagRenderings": {
+            "bouldering": {
+                "mappings": {
+                    "0": {
+                        "then": "Buldring er mulig her"
+                    },
+                    "1": {
+                        "then": "Buldring er ikke mulig her"
+                    }
+                },
+                "question": "Er buldring mulig her?"
+            }
+        }
+    },
+    "climbing_area": {
+        "presets": {
+            "0": {
+                "description": "En klatremulighet",
+                "title": "en klatremulighet"
+            }
+        },
+        "title": {
+            "render": "Klatremulighet"
+        }
+    },
+    "climbing_club": {
+        "description": "En klatreklubb eller organisasjoner",
+        "name": "Klatreklubb",
+        "presets": {
+            "0": {
+                "description": "En klatreklubb",
+                "title": "en klatreklubb"
+            }
+        },
+        "title": {
+            "render": "Klatreklubb"
+        }
+    },
+    "climbing_opportunity": {
+        "name": "Klatremuligheter?",
+        "tagRenderings": {
+            "climbing-possible": {
+                "mappings": {
+                    "0": {
+                        "then": "Klatring er mulig her"
+                    },
+                    "1": {
+                        "then": "Klatring er ikke mulig her"
+                    },
+                    "2": {
+                        "then": "Klatring er ikke mulig her"
+                    }
+                },
+                "question": "Er klatring mulig her?"
+            }
+        },
+        "title": {
+            "render": "Klatremulighet?"
+        }
+    },
+    "climbing_route": {
+        "name": "Klatreruter",
+        "tagRenderings": {
+            "Length": {
+                "question": "Hvor mange meter er klatreruten?",
+                "render": "Denne ruten er {canonical(climbing:length)} lang"
+            },
+            "Name": {
+                "mappings": {
+                    "0": {
+                        "then": "Denne klatreruten har ikke noe navn"
+                    }
+                },
+                "question": "Hva er navnet på denne klatreruten?",
+                "render": "<strong>{name}</strong>"
+            }
+        },
+        "title": {
+            "render": "Klatrerute"
+        }
+    },
+    "cycle_highways": {
+        "name": "sykkelmotorveier",
+        "title": {
+            "render": "sykkelmotorvei"
+        }
+    },
+    "dumpstations": {
+        "tagRenderings": {
+            "dumpstations-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Du trenger en nettverksnøkkel/kode for å bruke dette"
+                    }
+                }
+            },
+            "dumpstations-charge": {
+                "question": "Hvor mye koster det å bruke dette stedet?",
+                "render": "Dette stedet tar {charge}"
+            },
+            "dumpstations-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Man må betale for bruk"
+                    },
+                    "1": {
+                        "then": "Kan brukes gratis"
+                    }
+                },
+                "question": "Krever dette stedet et gebyr?"
+            },
+            "dumpstations-grey-water": {
+                "mappings": {
+                    "0": {
+                        "then": "Du kan kvitte deg med gråvann her"
+                    },
+                    "1": {
+                        "then": "Du kan ikke kvitte deg med gråvann her"
+                    }
+                },
+                "question": "Kan du kvitte deg med gråvann her?"
+            },
+            "dumpstations-waterpoint": {
+                "mappings": {
+                    "0": {
+                        "then": "Dette stedet har en vannpost"
+                    },
+                    "1": {
+                        "then": "Dette stedet har ikke en vannpost"
+                    }
+                },
+                "question": "Har dette stedet et vannkranssted?"
+            }
+        }
+    },
+    "extinguisher": {
+        "description": "Kartlag for å vise brannslokkere.",
+        "name": "Kart over brannhydranter",
+        "presets": {
+            "0": {
+                "title": "en brannslukker"
+            }
+        },
+        "title": {
+            "render": "Brannslokkere"
+        }
+    },
+    "fire_station": {
+        "name": "Kart over brannstasjoner",
+        "presets": {
+            "0": {
+                "title": "en brannstasjon"
+            }
+        },
+        "tagRenderings": {
+            "station-name": {
+                "render": "Denne stasjonen heter {name}."
+            },
+            "station-operator": {
+                "mappings": {
+                    "0": {
+                        "then": "Stasjonen drives av myndighetene."
+                    }
+                }
+            }
+        },
+        "title": {
+            "render": "Brannstasjon"
+        }
+    },
+    "ghost_bike": {
+        "name": "Spøkelsessykler",
+        "presets": {
+            "0": {
+                "title": "en spøkelsessykler"
+            }
+        },
+        "title": {
+            "render": "Spøkelsessykler"
+        }
+    },
+    "hydrant": {
+        "description": "Kartlag for å vise brannhydranter.",
+        "name": "Kart over brannhydranter",
+        "presets": {
+            "0": {
+                "title": "en brannhydrant"
+            }
+        },
+        "tagRenderings": {
+            "hydrant-color": {
+                "question": "Hvilken farge har brannhydranten?",
+                "render": "Brannhydranter er {colour}"
+            }
+        },
+        "title": {
+            "render": "Brannhydrant"
+        }
+    },
+    "last_click": {
+        "pointRendering": {
+            "0": {
+                "label": {
+                    "render": "Legg til nytt element"
+                }
+            }
+        }
+    },
+    "postboxes": {
+        "name": "Postbokser",
+        "title": {
+            "render": "Postboks"
+        }
+    },
+    "postoffices": {
+        "description": "Et lag som viser postkontor.",
+        "name": "Postkontor",
+        "presets": {
+            "0": {
+                "title": "et postkontor"
+            }
+        },
+        "title": {
+            "render": "Postkontor"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "denominations-coins": {
+                "mappings": {
+                    "0": {
+                        "then": "1-cent mynter aksepteres"
+                    },
+                    "1": {
+                        "then": "2-cent mynter aksepteres"
+                    },
+                    "2": {
+                        "then": "5-cent mynter aksepteres"
+                    },
+                    "3": {
+                        "then": "10-cent mynter aksepteres"
+                    },
+                    "4": {
+                        "then": "20-cent mynter aksepteres"
+                    },
+                    "5": {
+                        "then": "50-cent mynter aksepteres"
+                    },
+                    "6": {
+                        "then": "1-euro mynter aksepteres"
+                    },
+                    "7": {
+                        "then": "2-euro mynter aksepteres"
+                    }
+                },
+                "question": "Hvilke mynter kan brukes til betaling her?"
+            },
+            "description": {
+                "question": "Er det noe mer som er relevant du ikke kunne opplyse om i tidligere svar? Legg det til her.",
+                "questionHint": "Ikke gjenta fakta som allerede er nevnt"
+            },
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Hunder tillates"
+                    },
+                    "1": {
+                        "then": "Hunder tillates <b>ikke</b>"
+                    },
+                    "2": {
+                        "then": "Hunder tillates, men de må være i bånd"
+                    },
+                    "3": {
+                        "then": "Hunder tillates og kan gå fritt"
+                    }
+                },
+                "question": "Tillates hunder i denne forretningen?"
+            },
+            "email": {
+                "question": "Hva er e-postadressen til {title()}?"
+            },
+            "induction-loop": {
+                "mappings": {
+                    "0": {
+                        "then": "Dette stedet har en teleslynge"
+                    },
+                    "1": {
+                        "then": "Dette stedet <b>har ikke</b> en teleslynge"
+                    }
+                },
+                "question": "Har stedet en teleslynge for folk med redusert hørsel?"
+            },
+            "internet": {
+                "mappings": {
+                    "0": {
+                        "then": "Dette stedet tilbyr trådløs tilgang til Internett"
+                    },
+                    "1": {
+                        "then": "Dette stedet tilbyr <b>ikke</b> tilgang til Internett"
+                    },
+                    "2": {
+                        "then": "Dette stedet tilbyr tilgang til Internett"
+                    },
+                    "3": {
+                        "then": "Dette stedet tilbyr tilgang til Internett via en terminal eller datamaskin"
+                    },
+                    "4": {
+                        "then": "Dette stedet tilbyr trådbunden tilgang til Internett"
+                    }
+                },
+                "question": "Tilbyr dette stedet tilgang til Internett?"
+            },
+            "internet-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "Det er et gebyr for tilgang til Internett på dette stedet"
+                    },
+                    "1": {
+                        "then": "Tilgang til Internett er gratis på dette stedet"
+                    },
+                    "2": {
+                        "then": "Tilgang til Internett på dette stedet er gratis, men kun for kunder"
+                    }
+                },
+                "question": "Er det et gebyr for bruk av Internett?"
+            },
+            "internet-ssid": {
+                "freeform": {
+                    "placeholder": "Skriv inn nettverksnavnet"
+                },
+                "question": "Hva er nettverksnavnet for det trådløse nettverket?",
+                "render": "Nettverksnavnet er <b>{internet_access:ssid}</b>"
+            },
+            "multilevels": {
+                "override": {
+                    "question": "Hvilke etasjer går heisen til?",
+                    "render": "Heisen går til etasje {level}"
+                }
+            },
+            "opening_hours": {
+                "question": "Hva er åpningstidene for {title()})",
+                "render": "<h3>Åpningstider</h3>{opening_hours_table(opening_hours)}"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "Døgnåpent (inkludert helligdager)"
+                        }
+                    }
+                }
+            },
+            "opening_hours_by_appointment": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "Kun ved avtale"
+                        },
+                        "1": {
+                            "then": "Kun ved avtale"
+                        }
+                    }
+                }
+            },
+            "payment-options": {
+                "mappings": {
+                    "0": {
+                        "then": "Kontanter godtas her"
+                    },
+                    "1": {
+                        "then": "Betalingskort godtas her"
+                    }
+                },
+                "question": "Hvilke betalingsmetoder godtas her?"
+            },
+            "payment-options-advanced": {
+                "override": {
+                    "mappings+": {
+                        "0": {
+                            "then": "Betaling utføres med et eget program"
+                        },
+                        "1": {
+                            "then": "Betaling utføres med et medlemskort"
+                        }
+                    }
+                }
+            },
+            "payment-options-split": {
+                "override": {
+                    "mappings+": {
+                        "0": {
+                            "then": "Mynter aksepteres her"
+                        },
+                        "1": {
+                            "then": "Sedler aksepteres her"
+                        },
+                        "2": {
+                            "then": "Debetkort aksepteres her"
+                        },
+                        "3": {
+                            "then": "Kredittkort aksepteres her"
+                        }
+                    }
+                }
+            },
+            "phone": {
+                "question": "Hva er telefonnummeret til {title()}?"
+            },
+            "service:electricity": {
+                "mappings": {
+                    "0": {
+                        "then": "Det er massevis av stikkontakter tilgjengelig for kunder som sitter innendørs, der de kan lade elektronikken sin"
+                    },
+                    "1": {
+                        "then": "Det er noen stikkontakter tilgjengelig for kunder som sitter innendørs, der de kan lagre elektronikken sin"
+                    },
+                    "2": {
+                        "then": "Det er ingen tilgjengelige stikkontakter for kunder som sitter innendørs, men lading kan være mulig hvis man spør betjeningen"
+                    },
+                    "3": {
+                        "then": "Det er ingen stikkontakter tilgjengelig for kunder som sitter innendørs"
+                    }
+                },
+                "question": "Har denne fasiliteten stikkontakter, tilgjengelig for kunder innendørs?"
+            },
+            "single_level": {
+                "mappings": {
+                    "0": {
+                        "then": "Under bakken"
+                    },
+                    "1": {
+                        "then": "På gateplan"
+                    },
+                    "2": {
+                        "then": "På gateplan"
+                    },
+                    "3": {
+                        "then": "I andre etasje"
+                    },
+                    "4": {
+                        "then": "Er å finne på første kjellernivå"
+                    }
+                },
+                "question": "Hvilken etasje befinner funksjonen seg i?",
+                "render": "Ligger i {level} etasje"
+            },
+            "smoking": {
+                "mappings": {
+                    "0": {
+                        "then": "Røyking er <b>tillatt</b>"
+                    },
+                    "1": {
+                        "then": "Røyking <b>forbudt</b>"
+                    },
+                    "2": {
+                        "then": "Røyking <b>tillates på utsiden</b>."
+                    }
+                },
+                "question": "Tillates røyking på {title()}?"
+            },
+            "website": {
+                "question": "Hva er nettsiden til {title()}?"
+            },
+            "wheelchair-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Dette stedet er spesielt tilpasset rullestolsbrukere"
+                    },
+                    "1": {
+                        "then": "Dette stedet kan enkelt besøkes med rullestol"
+                    },
+                    "2": {
+                        "then": "Det er mulig å besøke dette stedet i rullestol, men det er ikke lett"
+                    },
+                    "3": {
+                        "then": "Dette stedet er ikke tilgjengelig for besøk med rullestol"
+                    }
+                },
+                "question": "Er dette stedet tilgjengelig for rullestoler?"
+            },
+            "wikipedia": {
+                "mappings": {
+                    "0": {
+                        "then": "Ingen Wikipedia-side lenket enda"
+                    },
+                    "1": {
+                        "then": "Ingen Wikipedia-side lenket enda"
+                    }
+                },
+                "question": "Hva er respektivt Wikipedia-element?"
+            }
+        }
+    },
+    "trolley_bay": {
+        "tagRenderings": {
+            "denominations": {
+                "mappings": {
+                    "0": {
+                        "then": "50-cent mynter aksepteres"
+                    },
+                    "1": {
+                        "then": "1-euro mynter aksepteres"
+                    },
+                    "2": {
+                        "then": "2-euro mynter aksepteres"
+                    }
+                }
+            }
+        }
+    },
+    "unit": {
+        "units": {
+            "0": {
+                "applicableUnits": {
+                    "1": {
+                        "human": "{quantity} kilowatt"
+                    }
+                }
+            },
+            "3": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} meter"
+                    },
+                    "3": {
+                        "human": "{quantity} fot"
+                    }
+                }
+            }
+        }
+    },
+    "usersettings": {
+        "tagRenderings": {
+            "profile-description": {
+                "mappings": {
+                    "0": {
+                        "then": {
+                            "special": {
+                                "text": "Legg til profilbeskrivelse"
+                            }
+                        }
+                    }
+                }
+            },
+            "translation-completeness": {
+                "render": "Oversettelsen for {_theme} i {_language} har {_translation_percentage}% dekning: {_translation_translated_count} strenger av {_translation_total} har blitt oversatt"
+            }
+        }
+    }
+}

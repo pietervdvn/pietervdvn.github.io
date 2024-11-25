@@ -1,0 +1,90 @@
+{
+  "id": "circular_economy",
+  "title": {
+    "en": "Circular economy",
+    "es": "Economía circular",
+    "de": "Kreislaufwirtschaft",
+    "ca": "Economia circular",
+    "cs": "Cirkulární ekonomika",
+    "uk": "Переробна економіка",
+    "hu": "Körforgásos gazdaság",
+    "pl": "Gospodarka o obiegu zamkniętym",
+    "nl": "Circulaire economie",
+    "fr": "Économie circulaire"
+  },
+  "description": {
+    "en": "Various items which help people to share, reuse or recycle.",
+    "es": "Varios artículos que ayudan a las personas a compartir, reutilizar o reciclar.",
+    "de": "Verschiedene Gegenstände, die den Menschen helfen, zu teilen, wiederzuverwenden oder zu recyceln.",
+    "ca": "Varios elements que ajuden a la gent a compartir, reutilitzar o reciclar.",
+    "cs": "Různé předměty, které pomáhají lidem sdílet, znovu používat nebo recyklovat.",
+    "uk": "Різноманітні предмети, які допомагають людям ділитися, повторно використовувати або переробляти.",
+    "pl": "Różne przedmioty, które pomagają ludziom się dzielić, ponownie używać lub poddawać recyklingowi.",
+    "nl": "Verschillende items die mensen helpen om te delen, te hergebruiken of te recycleren."
+  },
+  "icon": "./assets/themes/circular_economy/circular.svg",
+  "layers": [
+    {
+      "builtin": "public_bookcase",
+      "override": {
+        "minzoom": 14
+      }
+    },
+    {
+      "builtin": [
+        "bicycle_library"
+      ],
+      "override": {
+        "minzoom": 10
+      }
+    },
+    "bike_repair_station",
+    "tool_library",
+    "assisted_repair",
+    {
+      "builtin": "shops",
+      "override": {
+        "minzoom": 6,
+        "id": "shops_second_hand",
+        "=name": {
+          "en": "Second hand shops",
+          "es": "Tiendas de segunda mano",
+          "de": "Second-Hand-Läden",
+          "ca": "Tendes de segona mà",
+          "cs": "Obchody s použitým zbožím",
+          "uk": "Магазини секонд-хенду",
+          "pl": "Sklepy second-hand",
+          "nl": "Tweedehandswinkels",
+          "fr": "Commerces de produits d'occasion"
+        },
+        "filter": null,
+        "source": {
+          "=osmTags": {
+            "or": [
+              "shop=second_hand",
+              "shop=charity",
+              {
+                "and": [
+                  "shop~*",
+                  "second_hand=yes",
+                  "second_hand=only"
+                ]
+              }
+            ]
+          }
+        },
+        "presets": null
+      }
+    },
+    {
+      "builtin": "shops",
+      "override": {
+        "minzoom": 17,
+        "name": null,
+        "filter": {
+          "sameAs": "shops_second_hand"
+        }
+      }
+    }
+  ]
+}
