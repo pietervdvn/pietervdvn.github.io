@@ -1,0 +1,73 @@
+{
+  "id": "advertising",
+  "title": {
+    "en": "Advertising",
+    "ca": "Publicitat",
+    "es": "Publicidad",
+    "de": "Werbung",
+    "cs": "Inzerce",
+    "fr": "Publicité",
+    "nl": "Reclame",
+    "zh_Hant": "廣告物件",
+    "eu": "Publizitatea",
+    "pl": "Reklamy",
+    "it": "Pubblicità",
+    "da": "Reklamer",
+    "zh_Hans": "广告",
+    "ru": "Реклама",
+    "uk": "Реклама",
+    "hu": "Reklámok"
+  },
+  "description": {
+    "ca": "Alguna vegada t'has preguntat quanta publictat hi ha als nostres carrers i carreteres? Amb aquest mapa podràs trobar i afegir informació de tots els elements publictaris que t'hi trobes pel carrer",
+    "es": "¿Alguna vez te preguntaste cuánta publicidad hay en nuestras calles y carreteras? Con este mapa puedes encontrar y agregar información sobre todos los elementos publicitarios que encuentres en la calle",
+    "en": "Have you ever wondered how many advertising there are in our streets and roads? With this map you could find and add information about all the advertising features that you can find on the street",
+    "de": "Haben Sie sich schon einmal gefragt, wie viele Werbeanlagen es in unseren Straßen und Wegen gibt? Hier können Sie Informationen über alle Werbeeinrichtungen finden und hinzufügen, die Sie auf der Straße begegnen",
+    "cs": "Přemýšleli jste někdy o tom, kolik je v našich ulicích a na silnicích reklam? Pomocí této mapy můžete najít a doplnit informace o všech reklamních prvcích, které můžete na ulici najít",
+    "fr": "Vous êtes-vous déjà demandé combien de publicité il y a dans nos rue ou sur nos routes ? Avec cette carte vous pouvez trouver et ajouter des informations sur tous les dispositifs publicitaires que vous pouvez trouver dans la rue",
+    "nl": "Heb je je ooit afgevraagd hoeveel reclameborden er zijn in onze straten? Met deze kaart kan je deze vinden en informatie toevoegen",
+    "pt_BR": "Você já se perguntou quantas propagandas existem em nossas ruas e estradas? Com este mapa você pode encontrar e adicionar informações sobre todos os recursos de publicidade que você pode encontrar na rua",
+    "zh_Hant": "你曾經好奇路上有多少廣告物件？有了這份地圖，你可以找到所有路上能夠看到的廣告物件",
+    "eu": "Inoiz pentsatu duzu zenbat iragarki dauden gure kale eta errepideetan? Mapa honekin, kalean aurki ditzakezun publizitate-ezaugarri guztiei buruzko informazioa aurkitu eta erants dezakezu",
+    "pl": "Czy zastanawiałeś się kiedyś, ile reklam jest na naszych ulicach i drogach? Dzięki tej mapie możesz znaleźć i dodać informacje o wszystkich funkcjach reklamowych, które możesz znaleźć na ulicy",
+    "pt": "Já se perguntou quantas propagandas existem nas nossas ruas e estradas? Com este mapa pode encontrar e adicionar informações sobre todos os recursos de publicidade que pode encontrar na rua",
+    "it": "Vi siete mai chiesti quante pubblicità ci sono nelle nostre strade e strade? Con questa mappa è possibile trovare e aggiungere informazioni su tutte le caratteristiche pubblicitarie che si possono trovare sulla strada",
+    "zh_Hans": "你是否曾经想过我们的街道和道路上有多少广告？通过这张地图，你可以查找并添加有关街道上所有广告特征的信息",
+    "uk": "Чи замислювалися ви будь-коли над тим, скільки реклами знаходиться на наших вулицях та дорогах? За допомогою цієї мапи ви можете знайти та додати інформацію про всі рекламні обʼєкти, які ви можете зустріти на вулиці"
+  },
+  "shortDescription": {
+    "ca": "On puc trobar elements publicitaris?",
+    "es": "¿Dónde puedo encontrar elementos publicitarios?",
+    "en": "Where I can find advertising features?",
+    "de": "Wo finde ich Werbeträger?",
+    "cs": "Kde najdu reklamní objekty?",
+    "fr": "Où puis-je trouver des dispositifs publicitaires ?",
+    "nl": "Waar zijn er reclameborden?",
+    "zh_Hant": "我能夠在那裡找到廣告物件？",
+    "eu": "Non aurki ditzaket publizitate ezaugarriak?",
+    "pl": "Gdzie mogę znaleźć obiekty reklamowe?",
+    "zh_Hans": "我可以在哪里找到广告功能？",
+    "uk": "Де я можу знайти рекламні об'єкти?"
+  },
+  "icon": "./assets/themes/advertising/icon.svg",
+  "credits": [
+    "Offsel"
+  ],
+  "layers": [
+    "advertising",
+    {
+      "builtin": "shelter",
+      "override": {
+        "minzoom": 17,
+        "lineRendering+": [
+          {
+            "color": "#000",
+            "width": 2
+          }
+        ]
+      }
+    }
+  ],
+  "widenFactor": 0.01,
+  "maintainer": "Offsel"
+}

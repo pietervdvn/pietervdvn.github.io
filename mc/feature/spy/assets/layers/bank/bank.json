@@ -1,0 +1,152 @@
+{
+  "id": "bank",
+  "name": {
+    "en": "Banks",
+    "de": "Banken",
+    "ca": "Bancs",
+    "nb_NO": "Banker",
+    "nl": "Banken",
+    "cs": "Banky",
+    "he": "בנקים",
+    "eu": "Bankuak",
+    "pl": "Banki",
+    "pt_BR": "Bancos",
+    "es": "Bancos",
+    "pt": "Bancos"
+  },
+  "description": {
+    "en": "A financial institution to deposit money",
+    "de": "Ein Finanzinstitut, um Geld einzuzahlen",
+    "nl": "Een financiële instelling waar je geld kunt",
+    "ca": "Una institució financera per a dipositar diners",
+    "cs": "Finanční instituce pro ukládání peněz",
+    "he": "מוסד פיננסי להפקדת כסף",
+    "pl": "Instytucja finansowa pozwalająca wpłacić pieniądze",
+    "pt_BR": "Um instituição financeira para depositar dinheiro",
+    "es": "Una institución financiera para depositar dinero",
+    "pt": "Uma instituição financeira para depositar dinheiro"
+  },
+  "source": {
+    "osmTags": "amenity=bank"
+  },
+  "title": {
+    "render": "Bank",
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "{name}"
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/bank/bank.svg"
+        }
+      ],
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "has_atm",
+      "question": {
+        "en": "Does this bank have an ATM?",
+        "de": "Hat diese Bank einen Geldautomaten?",
+        "nb_NO": "Har denne banken en minibank?",
+        "nl": "Heeft deze bank een bankautomaat?",
+        "ca": "Aquest banc té un caixer automàtic?",
+        "cs": "Má tato banka bankomat?",
+        "he": "האם לבנק הזה יש כספומט?",
+        "pl": "Czy ten bank ma bankomat?",
+        "pt_BR": "Esse banco tem caixa eletrônico?",
+        "es": "¿Este banco tiene un cajero automático?",
+        "pt": "Este banco tem multibanco?"
+      },
+      "mappings": [
+        {
+          "if": "atm=yes",
+          "then": {
+            "en": "This bank has an ATM",
+            "de": "Diese Bank hat einen Geldautomaten",
+            "nb_NO": "Denne banken har en minibank",
+            "nl": "Deze bank heeft een bankautomaat",
+            "ca": "Aquest banc té un caixer automàtic",
+            "cs": "Tato banka má bankomat",
+            "he": "לבנק הזה יש כספומט",
+            "pl": "Ten bank ma bankomat",
+            "pt_BR": "Este banco tem um caixa eletrônico",
+            "es": "Este banco tiene un cajero automático",
+            "pt": "Este banco tem um multibanco"
+          }
+        },
+        {
+          "if": "atm=no",
+          "then": {
+            "en": "This bank does <b>not</b> have an ATM",
+            "de": "Diese Bank hat <b>keinen</b> Geldautomaten",
+            "nb_NO": "Denne banken har <b>ikke</b> en minibank",
+            "nl": "Deze bank heeft <b>geen</b> bankautomaaat",
+            "ca": "Aquest banc <b>no</b> té un caixer automàtic",
+            "cs": "Tato banka <b>nemá bankomat</b>",
+            "pl": "Ten bank <b>nie ma</b> bankomatu",
+            "pt_BR": "Este banco <b>não</b> tem um caixa eletrônico",
+            "es": "Este banco <b>no</b> tiene un cajero automático",
+            "pt": "Este banco <b>não</b> tem um multibanco"
+          }
+        },
+        {
+          "if": "atm=separate",
+          "then": {
+            "en": "This bank does have an ATM, but it is mapped as a different icon",
+            "de": "Diese Bank hat zwar einen Geldautomaten, aber dieser ist mit einem anderen Symbol dargestellt",
+            "nl": "Deze bank heeft een bankautomaat, maar deze staat apart op de kaart aangeduid",
+            "ca": "Aquest banc té un caixer, però està mapejat com a un element diferent",
+            "cs": "Tato banka má bankomat, ale je namapován jako jiná ikona",
+            "pt_BR": "Este banco tem um caixa eletrônico, mas está mapeado como um ícone diferente",
+            "es": "Este banco tiene un cajero automático, pero se muestra con un icono diferente",
+            "pt": "Este banco tem um multibanco, mas está mapeado como um ícone diferente"
+          }
+        }
+      ]
+    }
+  ],
+  "filter": [
+    "open_now",
+    {
+      "id": "has_atm",
+      "options": [
+        {
+          "question": {
+            "en": "With an ATM",
+            "de": "Mit Geldautomat",
+            "nb_NO": "Med en minibank",
+            "nl": "Met een bankautomaat",
+            "ca": "Amb un caixer automàtic",
+            "cs": "S bankomatem",
+            "he": "עם כספומט",
+            "pl": "Za pomocą bankomatu",
+            "pt_BR": "Com um caixa eletrônico",
+            "es": "Con un cajero automático",
+            "pt": "Com um multibanco"
+          },
+          "osmTags": "atm=yes"
+        }
+      ]
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": "amenity="
+  },
+  "allowMove": true
+}

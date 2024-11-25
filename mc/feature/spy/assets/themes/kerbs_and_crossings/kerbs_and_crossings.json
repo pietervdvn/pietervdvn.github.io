@@ -1,0 +1,96 @@
+{
+  "id": "kerbs_and_crossings",
+  "title": {
+    "en": "Kerbs and crossings",
+    "nl": "Stoepranden en oversteekplaatsen",
+    "de": "Bordsteine und Überwege",
+    "fr": "Ressauts et traversées",
+    "da": "Kantsten og overgange",
+    "cs": "Obrubníky a přechody",
+    "nb_NO": "Fortauskanter og fotgjengerfelt.",
+    "ru": "Бордюры и пешеходные переходы",
+    "es": "Bordillos y cruces",
+    "ca": "Vorals i encreuaments",
+    "pl": "Krawężniki i przejścia",
+    "hu": "Járdaszegélyek és gyalogosátkelők",
+    "uk": "Бордюри та переходи"
+  },
+  "description": {
+    "en": "A map showing kerbs and crossings.",
+    "nl": "Een kaart met stoepranden en oversteekplaatsen.",
+    "de": "Eine Karte mit Bordsteinen und Überwegen.",
+    "fr": "Une carte affichant les ressauts et traversées.",
+    "da": "Et kort, der viser kantsten og overgange.",
+    "cs": "Mapa zobrazující obrubníky a přechody.",
+    "nb_NO": "Fortauskanter og fotgjengerfelt.",
+    "es": "Un mapa que muestra bordillos y cruces.",
+    "ca": "Un mapa amb voreres i encreuaments.",
+    "pl": "Mapa pokazująca krawężniki i przejścia.",
+    "uk": "Мапа з позначенням бордюрів та пішохідних переходів."
+  },
+  "icon": "./assets/layers/kerbs/KerbIcon.svg",
+  "startZoom": 19,
+  "startLat": 53.23776,
+  "startLon": 6.53812,
+  "credits": [
+    "Robin van der Linde"
+  ],
+  "layers": [
+    {
+      "builtin": "cycleways_and_roads",
+      "override": {
+        "title": null,
+        "forceLoad": true,
+        "minzoom": 18,
+        "passAllFeatures": true,
+        "shownByDefault": false
+      }
+    },
+    {
+      "builtin": "crossings",
+      "override": {
+        "id": "crossings_no_traffic_lights",
+        "=presets": [
+          {
+            "title": {
+              "en": "a crossing",
+              "nl": "een oversteekplaats",
+              "de": "eine Kreuzung",
+              "fr": "une traversée",
+              "ca": "un pas de vianants",
+              "da": "en overgang",
+              "es": "un cruce",
+              "eu": "bidegurutze bat",
+              "cs": "křížení",
+              "pl": "przejście",
+              "it": "un incrocio"
+            },
+            "tags": [
+              "highway=crossing"
+            ],
+            "description": {
+              "en": "Crossing for pedestrians and/or cyclists",
+              "nl": "Oversteekplaats voor voetgangers en/of fietsers",
+              "de": "Kreuzung für Fußgänger und/oder Radfahrer",
+              "fr": "Traversée pour piétons et/ou cyclistes",
+              "da": "Overgang for fodgængere og/eller cyklister",
+              "es": "Cruce para peatones y/o ciclistas",
+              "ca": "Creuament per vianants i/o ciclistes",
+              "pl": "Przejście dla pieszych i/lub przejazd dla rowerów",
+              "cs": "Přechod pro chodce a/nebo cyklisty",
+              "it": "Attraversamenti per pedoni e/o ciclisti"
+            },
+            "snapToLayer": [
+              "cycleways_and_roads"
+            ],
+            "maxSnapDistance": 25
+          }
+        ],
+        "source": {
+          "osmTags": "highway=crossing"
+        }
+      }
+    },
+    "kerbs"
+  ]
+}

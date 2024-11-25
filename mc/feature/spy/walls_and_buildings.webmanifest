@@ -1,0 +1,21 @@
+{
+  "name": "Walls and buildings",
+  "short_name": "Walls and buildings",
+  "start_url": "walls_and_buildings.html",
+  "lang": "en",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Special builtin layer providing all walls and buildings. This layer is useful in presets for objects which can be placed against walls (e.g. AEDs, postboxes, entrances, addresses, surveillance cameras, …). This layer is invisible by default and not toggleable by the user.",
+  "orientation": "portrait-primary, landscape-primary",
+  "icons": [
+    {
+      "src": "./assets/layers/walls_and_buildings/walls_and_buildings.png",
+      "sizes": "513x513",
+      "type": "image/png"
+    }
+  ],
+  "categories": [
+    "map",
+    "navigation"
+  ]
+}

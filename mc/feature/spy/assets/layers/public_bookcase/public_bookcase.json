@@ -1,0 +1,663 @@
+{
+  "id": "public_bookcase",
+  "name": {
+    "en": "Bookcases",
+    "nl": "Boekenruilkastjes",
+    "de": "Bücherschränke",
+    "fr": "Microbibliothèque",
+    "ru": "Книжные шкафы",
+    "it": "Microbiblioteche",
+    "hu": "Könyvespolcok",
+    "ca": "Bústies per llibres",
+    "cs": "Knihobudky",
+    "es": "Libreros"
+  },
+  "description": {
+    "en": "A streetside cabinet with books, accessible to anyone",
+    "nl": "Een straatkastje met boeken voor iedereen",
+    "de": "Ein Bücherschrank am Straßenrand mit Büchern, für jedermann zugänglich",
+    "fr": "Une armoire ou une boite contenant des livres en libre accès",
+    "it": "Una vetrinetta ai bordi della strada contenente libri, aperta al pubblico",
+    "ru": "Уличный шкаф с книгами, доступными для всех",
+    "hu": "Egy utcai szekrény könyvekkel, amelyet bárki használhat",
+    "cs": "Skříňka s knihami na ulici, která je přístupná komukoli",
+    "es": "Un armario callejero con libros, accesible para cualquiera"
+  },
+  "source": {
+    "osmTags": "amenity=public_bookcase"
+  },
+  "minzoom": 10,
+  "title": {
+    "render": {
+      "en": "Bookcase",
+      "nl": "Boekenruilkast",
+      "de": "Bücherschrank",
+      "fr": "Microbibliothèque",
+      "ru": "Книжный шкаф",
+      "it": "Microbiblioteca",
+      "hu": "Könyvespolc",
+      "ca": "Bústia per llibres",
+      "pa_PK": "کتاباں دی الماری",
+      "cs": "Knihobudka",
+      "es": "Librero"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "Public bookcase <i>{name}</i>",
+          "nl": "Boekenruilkast <i>{name}</i>",
+          "de": "Öffentlicher Bücherschrank <i>{name}</i>",
+          "fr": "Microbibliothèque <i>{name}</i>",
+          "ru": "Общественный книжный шкаф <i>{name}</i>",
+          "it": "Microbiblioteca pubblica <i>{name}</i>",
+          "hu": "A nyilvános könyvespolc neve: <i>{name}</i>",
+          "ca": "Prestatgeria pública <i>{name}</i>",
+          "cs": "Veřejná knihobudka <i>{name}</i>",
+          "es": "Librero Público <i>{name}</i>"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      },
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "#ffffff"
+        },
+        {
+          "icon": "./assets/themes/bookcases/bookcase.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "#0000ff",
+      "width": "8"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a bookcase",
+        "nl": "een boekenruilkast",
+        "de": "einen Bücherschrank",
+        "fr": "une microbibliothèque",
+        "ru": "Книжный шкаф",
+        "it": "una microbiblioteca",
+        "hu": "Könyvespolc",
+        "ca": "una bústia per a llibres",
+        "cs": "knihobudka",
+        "es": "un librero"
+      },
+      "tags": [
+        "amenity=public_bookcase"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "render": {
+        "en": "The name of this bookcase is {name}",
+        "nl": "De naam van dit boekenruilkastje is {name}",
+        "de": "Der Name des Bücherschranks lautet {name}",
+        "fr": "Le nom de cette microbibliothèque est {name}",
+        "ru": "Название книжного шкафа — {name}",
+        "it": "Questa microbiblioteca si chiama {name}",
+        "hu": "Ennek a könyvespolcnak a neve: {name}",
+        "ca": "El nom d'aquesta prestatgeria és {name}",
+        "cs": "Název této knihobudky je {name}",
+        "es": "El nombre de este librero es {name}"
+      },
+      "question": {
+        "en": "What is the name of this public bookcase?",
+        "nl": "Wat is de naam van dit boekenruilkastje?",
+        "de": "Wie lautet der Name des Bücherschranks?",
+        "fr": "Quel est le nom de cette microbibliothèque ?",
+        "ru": "Как называется этот общественный книжный шкаф?",
+        "it": "Come si chiama questa microbiblioteca pubblica?",
+        "hu": "Mi a neve ennek a nyilvános könyvespolcnak?",
+        "ca": "Com es diu aquesta prestatgeria pública?",
+        "cs": "Jak se jmenuje tato knihobudka?",
+        "es": "¿Cuál es el nombre de este librero público?"
+      },
+      "freeform": {
+        "key": "name",
+        "inline": true
+      },
+      "mappings": [
+        {
+          "if": {
+            "and": [
+              "noname=yes",
+              "name="
+            ]
+          },
+          "then": {
+            "en": "This bookcase doesn't have a name",
+            "nl": "Dit boekenruilkastje heeft geen naam",
+            "de": "Der Bücherschrank hat keinen Namen",
+            "fr": "Cette microbibliothèque n'a pas de nom",
+            "ru": "У этого книжного шкафа нет названия",
+            "it": "Questa microbiblioteca non ha un nome proprio",
+            "hu": "Ennek a könyvespolcnak nincs neve",
+            "ca": "Aquesta prestatgeria no té un nom",
+            "cs": "Tato knihobudka nemá jméno",
+            "es": "Este librero no tiene nombre"
+          }
+        }
+      ],
+      "id": "public_bookcase-name"
+    },
+    {
+      "render": {
+        "en": "{capacity} books fit in this bookcase",
+        "nl": "Er passen {capacity} boeken",
+        "de": "In den Bücherschrank passen ca. {capacity} Bücher",
+        "fr": "{capacity} livres peuvent entrer dans cette microbibliothèque",
+        "it": "Questa microbiblioteca può contenere fino a {capacity} libri",
+        "ru": "{capacity} книг помещается в этот книжный шкаф",
+        "hu": "Ezen a könyvespolcon {capacity} könyv fér el",
+        "ca": "Caben {capacity} llibres en aquesta prestatgeria",
+        "cs": "{capacity} knih se vejde do této knihobudky",
+        "es": "En este librero caben {capacity} libros"
+      },
+      "question": {
+        "en": "How many books fit into this public bookcase?",
+        "nl": "Hoeveel boeken passen er in dit boekenruilkastje?",
+        "de": "Wie viele Bücher passen in den Bücherschrank?",
+        "fr": "Combien de livres peuvent entrer dans cette microbibliothèque ?",
+        "ru": "Сколько книг помещается в этом общественном книжном шкафу?",
+        "it": "Quanti libri può contenere questa microbiblioteca?",
+        "hu": "Hány könyv fér el ezen a nyilvános könyvespolcon?",
+        "ca": "Quants llibres caben en aquesta prestatgeria pública?",
+        "cs": "Kolik knih se vejde do této veřejné knihobudky?",
+        "es": "¿Cuántos libros caben en este librero público?"
+      },
+      "freeform": {
+        "key": "capacity",
+        "type": "nat",
+        "inline": true
+      },
+      "id": "public_bookcase-capacity"
+    },
+    {
+      "id": "bookcase-booktypes",
+      "question": {
+        "en": "What kind of books can be found in this public bookcase?",
+        "nl": "Voor welke doelgroep zijn de meeste boeken in dit boekenruilkastje?",
+        "de": "Welche Bücher kann man im Bücherschrank finden?",
+        "fr": "Quel type de livres peut-on dans cette microbibliothèque ?",
+        "it": "Che tipo di libri si possono trovare in questa microbiblioteca?",
+        "ru": "Какие книги можно найти в этом общественном книжном шкафу?",
+        "hu": "Milyen fajta könyvek találhatók ezen a közösségi könyvespolcon?",
+        "ca": "Quins tipus de llibres pots trobar a aquesta prestatgeria pública?",
+        "cs": "Jaké knihy najdete v této veřejné knihobudce?",
+        "es": "¿Qué tipo de libros se pueden encontrar en este librero público?"
+      },
+      "render": {
+        "nl": "Deze plaats serveert vooral {books}",
+        "en": "This place mostly serves {books}",
+        "de": "An diesem Ort gibt es hauptsächlich {books}",
+        "cs": "Toto místo nabízí hlavně {books}",
+        "es": "Este lugar sirve principalmente para {books}"
+      },
+      "freeform": {
+        "key": "books",
+        "addExtraTags": [
+          "fixme=Freeform tag `books` used, to be doublechecked"
+        ]
+      },
+      "multiAnswer": true,
+      "mappings": [
+        {
+          "if": "books=children",
+          "then": {
+            "en": "Mostly children books",
+            "nl": "Voornamelijk kinderboeken",
+            "de": "Vorwiegend Kinderbücher",
+            "fr": "Livres pour enfants",
+            "ru": "В основном детские книги",
+            "it": "Principalmente libri per l'infanzia",
+            "hu": "Többnyire gyermekkönyvek",
+            "es": "Mayormente libros infantiles",
+            "ca": "Majoritàriament llibres infantils",
+            "cs": "Převážně dětské knihy"
+          }
+        },
+        {
+          "if": "books=adults",
+          "then": {
+            "en": "Mostly books for adults",
+            "nl": "Voornamelijk boeken voor volwassenen",
+            "de": "Vorwiegend Bücher für Erwachsene",
+            "fr": "Livres pour les adultes",
+            "ru": "В основном книги для взрослых",
+            "it": "Principalmente libri per persone in età adulta",
+            "hu": "Többnyire felnőtteknek szóló könyvek",
+            "es": "Mayormente libros para adultos",
+            "ca": "Majoritàriament llibres per a adults",
+            "cs": "Převážně knihy pro dospělé"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bookcase-is-indoors",
+      "question": {
+        "en": "Is this bookcase located outdoors?",
+        "nl": "Staat dit boekenruilkastje binnen of buiten?",
+        "de": "Befindet sich der Bücherschrank im Freien?",
+        "fr": "Cette microbiliothèque est-elle en extérieur ?",
+        "it": "Questa microbiblioteca si trova all'aperto?",
+        "hu": "A szabadban van-e ez a könyvespolc?",
+        "ca": "Aquesta prestatgeria es troba a l'exterior?",
+        "cs": "Je tato knihobudka umístěna venku?",
+        "es": "¿Está este librero situado en el exterior?"
+      },
+      "mappings": [
+        {
+          "then": {
+            "en": "This bookcase is located indoors",
+            "nl": "Dit boekenruilkastje staat binnen",
+            "de": "Der Bücherschrank befindet sich im Innenbereich",
+            "fr": "Cette microbibliothèque est en intérieur",
+            "it": "Questa microbiblioteca si trova al chiuso",
+            "hu": "Ez a könyvespolc beltérben található",
+            "ca": "Aquesta prestatgeria es troba a l'interior",
+            "cs": "Tato knihobudka je umístěna v interiéru",
+            "es": "Este librero está situado en el interior"
+          },
+          "if": "indoor=yes"
+        },
+        {
+          "then": {
+            "en": "This bookcase is located outdoors",
+            "nl": "Dit boekenruilkastje staat buiten",
+            "de": "Dieser Bücherschrank befindet sich im Freien",
+            "fr": "Cette microbibliothèque est en extérieur",
+            "it": "Questa microbiblioteca si trova all'aperto",
+            "hu": "Ez a könyvespolc a szabadban van",
+            "ca": "Aquesta prestatgeria es troba a l'exterior",
+            "cs": "Tato knihobudka se nachází venku",
+            "es": "Este librero está situado en el exterior"
+          },
+          "if": "indoor=no"
+        },
+        {
+          "then": {
+            "en": "This bookcase is located outdoors",
+            "nl": "Dit boekenruilkastje staat buiten",
+            "de": "Der Bücherschrank befindet sich im Freien",
+            "fr": "Cette microbibliothèque est en extérieur",
+            "it": "Questa microbiblioteca si trova all'aperto",
+            "hu": "Ez a könyvszekrény a szabadban van",
+            "ca": "La prestatgeria està ubicada a l'exterior",
+            "cs": "Tato knihobudka se nachází venku",
+            "es": "Este librero está situado en el exterior"
+          },
+          "if": "indoor=",
+          "hideInAnswer": true
+        }
+      ]
+    },
+    {
+      "id": "bookcase-is-accessible",
+      "question": {
+        "en": "Is this public bookcase freely accessible?",
+        "nl": "Is dit boekenruilkastje publiek toegankelijk?",
+        "de": "Ist dieser öffentliche Bücherschrank frei zugänglich?",
+        "fr": "Cette microbibliothèque est-elle librement accèssible ?",
+        "it": "Questa microbiblioteca è ad accesso libero?",
+        "ru": "Имеется ли свободный доступ к этому общественному книжному шкафу?",
+        "hu": "Szabadon hozzáférhető-e ez a közösségi könyvespolc?",
+        "ca": "Aquesta prestatgeria pública és de lliure accés?",
+        "cs": "Je tato veřejná knihobudka volně přístupná?",
+        "es": "¿Es este librero público de libre acceso?"
+      },
+      "condition": "indoor=yes",
+      "mappings": [
+        {
+          "then": {
+            "en": "Publicly accessible",
+            "nl": "Publiek toegankelijk",
+            "de": "Öffentlich zugänglich",
+            "fr": "Accèssible au public",
+            "it": "È ad accesso libero",
+            "ru": "Свободный доступ",
+            "hu": "Nyilvánosan használható",
+            "es": "Accesible al público",
+            "ca": "Accessible al públic",
+            "cs": "Veřejně přístupné"
+          },
+          "if": "access=yes"
+        },
+        {
+          "then": {
+            "en": "Only accessible to customers",
+            "nl": "Enkel toegankelijk voor klanten",
+            "de": "Nur für Kunden zugänglich",
+            "fr": "Accèssible aux clients",
+            "it": "L'accesso è riservato ai clienti",
+            "hu": "Csak ügyfelek használhatják",
+            "es": "Solo accesible para clientes",
+            "ca": "Només accessible per als clients",
+            "cs": "Přístupné pouze zákazníkům"
+          },
+          "if": "access=customers"
+        }
+      ]
+    },
+    {
+      "question": {
+        "en": "Who maintains this public bookcase?",
+        "nl": "Wie is verantwoordelijk voor dit boekenruilkastje?",
+        "de": "Wer betreibt den Bücherschrank?",
+        "fr": "Qui entretien cette microbibliothèque ?",
+        "it": "Chi mantiene questa microbiblioteca?",
+        "hu": "Ki tartja fenn ezt a nyilvános könyvespolcot?",
+        "ca": "Qui gestiona aquesta prestatgeria pública?",
+        "cs": "Kdo tuto veřejnou knihobudku spravuje?",
+        "es": "¿Quién mantiene este librero público?"
+      },
+      "render": {
+        "en": "Operated by {operator}",
+        "nl": "Onderhouden door {operator}",
+        "de": "Betrieben von {operator}",
+        "fr": "Entretenue par {operator}",
+        "it": "È gestita da {operator}",
+        "hu": "Üzemeltető: {operator}",
+        "ca": "Gestionant per {operator}",
+        "cs": "Provozuje {operator}",
+        "es": "Operado por {operator}"
+      },
+      "freeform": {
+        "type": "string",
+        "key": "operator"
+      },
+      "id": "public_bookcase-operator"
+    },
+    {
+      "id": "public_bookcase-brand",
+      "question": {
+        "en": "Is this public bookcase part of a bigger network?",
+        "nl": "Is dit boekenruilkastje deel van een netwerk?",
+        "de": "Gehört der Bücherschrank zu einem Netzwerk?",
+        "fr": "Cette microbibliothèque fait-elle partie d'un réseau/groupe ?",
+        "it": "Questa microbiblioteca fa parte di una rete?",
+        "hu": "Része-e egy nagyobb hálózatnak ez a nyilvános könyvespolc?",
+        "ca": "Aquesta prestatgeria pública forma part d'una xarxa més gran?",
+        "cs": "Je tato veřejná knihobudka součástí větší sítě?",
+        "es": "¿Forma parte este librero público de una red más grande?",
+        "uk": "Чи є ця публічна книжкова шафа частиною більшої мережі?"
+      },
+      "render": {
+        "en": "This public bookcase is part of {brand}",
+        "nl": "Dit boekenruilkastje is deel van het netwerk {brand}",
+        "de": "Dieser Bücherschrank ist Teil von {brand}",
+        "fr": "Cette microbibliothèque fait partie du groupe {brand}",
+        "it": "Questa microbiblioteca fa parte di {brand}",
+        "hu": "Ez a nyilvános könyvespolc a(z) {brand} része",
+        "ca": "Aquesta prestatgeria pública forma part de {brand}",
+        "cs": "Tato veřejná knihobudka je součástí {brand}",
+        "es": "Este librero público forma parte de {brand}",
+        "uk": "Ця публічна книжкова шафа є частиною {brand}"
+      },
+      "condition": "ref=",
+      "freeform": {
+        "key": "brand",
+        "placeholder": {
+          "en": "Name of the network",
+          "de": "Name des Netzwerks",
+          "es": "Nombre de la red"
+        },
+        "addExtraTags": [
+          "nobrand="
+        ]
+      },
+      "mappings": [
+        {
+          "if": "nobrand=yes",
+          "then": {
+            "en": "This public bookcase is not part of a bigger network",
+            "nl": "Dit boekenruilkastje maakt geen deel uit van een netwerk",
+            "de": "Der Bücherschrank gehört zu keinem Netzwerk",
+            "fr": "Cette microbibliothèque ne fait pas partie d'un réseau/groupe",
+            "it": "Fa parte della rete 'Little Free Library'",
+            "hu": "Ez a nyilvános könyvespolc nem része egy nagyobb hálózatnak",
+            "ca": "Aquesta prestatgeria pública no és part d'una xarxa més gran",
+            "cs": "Tato veřejná knihobudka není součástí větší sítě",
+            "es": "Este librero público no forma parte de una red más grande",
+            "uk": "Ця публічна книжкова шафа не є частиною більшої мережі"
+          },
+          "addExtraTags": [
+            "brand:wikidata=",
+            "brand="
+          ]
+        }
+      ]
+    },
+    {
+      "render": {
+        "en": "The reference number of this public bookcase within {brand} is {ref}",
+        "nl": "Het referentienummer binnen {brand} is {ref}",
+        "de": "Die Referenznummer dieses öffentlichen Bücherschranks innerhalb {brand} lautet {ref}",
+        "fr": "Cette microbibliothèque du réseau {brand} possède le numéro {ref}",
+        "it": "Il numero identificativo di questa microbiblioteca nella rete {brand} è {ref}",
+        "hu": "A(z) {brand} márkanéven belül ennek a nyilvános könyvespolcnak az azonosító száma: {ref}",
+        "cs": "Referenční číslo této veřejné knihobudky v rámci {brand} je {ref}",
+        "es": "El número de referencia de este librero público dentro de {brand} es {ref}"
+      },
+      "question": {
+        "en": "What is the reference number of this public bookcase?",
+        "nl": "Wat is het referentienummer van dit boekenruilkastje?",
+        "de": "Wie lautet die Referenznummer dieses öffentlichen Bücherschranks?",
+        "fr": "Quelle est le numéro de référence de cette microbibliothèque ?",
+        "it": "Qual è il numero identificativo di questa microbiblioteca?",
+        "hu": "Mi az azonosító száma ennek a nyilvános könyvespolcnak?",
+        "ca": "Quin és el número de referència d'aquesta prestatgeria pública?",
+        "cs": "Jaké je referenční číslo této veřejné knihobudky?",
+        "es": "¿Cuál es el número de referencia de este librero público?"
+      },
+      "condition": "brand~*",
+      "freeform": {
+        "key": "ref"
+      },
+      "mappings": [
+        {
+          "then": {
+            "en": "This bookcase is not part of a bigger network",
+            "nl": "Dit boekenruilkastje maakt geen deel uit van een netwerk",
+            "de": "Dieser Bücherschrank ist nicht Teil eines größeren Netzwerks",
+            "fr": "Cette microbibliothèque ne fait pas partie d'un réseau/groupe",
+            "it": "Questa biblioteca non fa parte di una rete",
+            "hu": "Ez a könyvespolc nem része egy nagyobb hálózatnak",
+            "ca": "Aquesta prestatgeria no forma part d'una xarxa més gran",
+            "cs": "Tato knihobudka není součástí větší sítě",
+            "es": "Este librero no forma parte de una red más grande",
+            "uk": "Ця книжкова шафа не є частиною більшої мережі"
+          },
+          "if": {
+            "and": [
+              "nobrand=yes",
+              "brand=",
+              "ref="
+            ]
+          }
+        }
+      ],
+      "id": "public_bookcase-ref"
+    },
+    {
+      "question": {
+        "en": "When was this public bookcase installed?",
+        "nl": "Op welke dag werd dit boekenruilkastje geinstalleerd?",
+        "de": "Wann wurde der Bücherschrank aufgebaut?",
+        "fr": "Quand a été installée cette microbibliothèque ?",
+        "it": "Quando è stata inaugurata questa microbiblioteca?",
+        "ru": "Когда был установлен этот общественный книжный шкаф?",
+        "hu": "Mikor állították fel ezt a nyilvános könyvespolcot?",
+        "ca": "Quan es va instal·lar aquesta prestatgeria pública?",
+        "cs": "Kdy byla tato veřejná knihobudka instalována?",
+        "es": "¿Cuándo se instaló este librero público?"
+      },
+      "render": {
+        "en": "Installed on {start_date}",
+        "nl": "Geplaatst op {start_date}",
+        "de": "Installiert am {start_date}",
+        "fr": "Installée le {start_date}",
+        "it": "È stata inaugurata il {start_date}",
+        "ru": "Установлен {start_date}",
+        "hu": "Telepítés dátuma: {start_date}",
+        "ca": "Instal·lat el dia {start_date}",
+        "cs": "Instalováno dne {start_date}",
+        "es": "Instalado el {start_date}"
+      },
+      "freeform": {
+        "key": "start_date",
+        "type": "date"
+      },
+      "id": "public_bookcase-start_date"
+    },
+    {
+      "render": {
+        "special": {
+          "type": "link",
+          "href": "{website}",
+          "text": {
+            "en": "More info on the website",
+            "nl": "Meer info op de website",
+            "de": "Weitere Informationen auf der Webseite",
+            "fr": "Plus d'infos sur le site web",
+            "ru": "Более подробная информация на сайте",
+            "it": "Maggiori informazioni sul sito web",
+            "hu": "További információ ezen a weboldalon",
+            "ca": "Més informació al web",
+            "cs": "Více informací na webových stránkách",
+            "es": "Más información en la web"
+          }
+        }
+      },
+      "question": {
+        "en": "Is there a website with more information about this public bookcase?",
+        "nl": "Is er een website over dit boekenruilkastje?",
+        "de": "Auf welcher Webseite findet man Informationen zu diesem Bücherschrank?",
+        "fr": "Y a-t-il un site web avec plus d'informations sur cette microbibliothèque ?",
+        "it": "C'è un sito web con maggiori informazioni su questa microbiblioteca?",
+        "ru": "Есть ли веб-сайт с более подробной информацией об этом общественном книжном шкафе?",
+        "hu": "Van-e olyan weboldal, ahol további információ található erről a nyilvános könyvespolcról?",
+        "ca": "Hi ha algun lloc web amb més informació sobre aquesta prestatgeria pública?",
+        "cs": "Existuje webová stránka s dalšími informacemi o této veřejné knihobudce?",
+        "es": "¿Hay un sitio web con más información sobre este librero público?"
+      },
+      "freeform": {
+        "key": "website",
+        "type": "url"
+      },
+      "id": "public_bookcase-website"
+    }
+  ],
+  "filter": [
+    {
+      "id": "kid-books",
+      "options": [
+        {
+          "question": {
+            "en": "Has children books",
+            "nl": "Kinderboeken aanwezig",
+            "de": "Hat Kinderbücher",
+            "ca": "Té llibres infantils",
+            "cs": "Má dětské knihy",
+            "es": "¿Tiene libros infantiles?"
+          },
+          "osmTags": "books~i~.*children.*"
+        }
+      ]
+    },
+    {
+      "id": "adult-books",
+      "options": [
+        {
+          "question": {
+            "en": "Has books for adults",
+            "nl": "Boeken voor volwassenen aanwezig",
+            "de": "Hat Bücher für Erwachsene",
+            "ca": "Té llibres per a adults",
+            "cs": "Má knihy pro dospělé",
+            "es": "¿Tiene libros para adultos?"
+          },
+          "osmTags": "books~i~.*adults.*"
+        }
+      ]
+    },
+    {
+      "id": "inside",
+      "options": [
+        {
+          "question": {
+            "nl": "Binnen of buiten",
+            "en": "Indoor or outdoor",
+            "de": "Innen oder Außen",
+            "hu": "Beltéri vagy kültéri",
+            "es": "¿Interior o exterior?",
+            "ca": "Interior o exterior",
+            "cs": "Vnitřní nebo venkovní"
+          }
+        },
+        {
+          "question": {
+            "en": "Located indoors",
+            "nl": "Bevindt zich binnen",
+            "de": "Befindet sich im Innenbereich",
+            "ca": "Situat a l'interior",
+            "cs": "Nachází se v interiéru",
+            "es": "¿Situado en el interior?"
+          },
+          "osmTags": "indoor=yes"
+        },
+        {
+          "question": {
+            "nl": "Bevindt zich buiten",
+            "en": "Located outdoors",
+            "de": "Befindet sich im Freien",
+            "ca": "Situat a l'exterior",
+            "cs": "Nachází se venku",
+            "es": "¿Situado en el exterior?"
+          },
+          "osmTags": {
+            "or": [
+              "indoor=no",
+              "indoor="
+            ]
+          }
+        }
+      ]
+    },
+    "has_image"
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity=public_bookcase",
+        "amenity="
+      ]
+    },
+    "neededChangesets": 5
+  },
+  "allowMove": true
+}

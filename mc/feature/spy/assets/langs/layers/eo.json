@@ -1,0 +1,278 @@
+{
+    "address": {
+        "description": "Adresoj",
+        "name": "Konataj adresoj en OSM"
+    },
+    "bench": {
+        "tagRenderings": {
+            "bench-colour": {
+                "mappings": {
+                    "0": {
+                        "then": "Koloro: bruna"
+                    },
+                    "1": {
+                        "then": "Koloro: verda"
+                    },
+                    "2": {
+                        "then": "Koloro: griza"
+                    },
+                    "3": {
+                        "then": "Koloro: blanka"
+                    },
+                    "4": {
+                        "then": "Koloro: ruĝa"
+                    },
+                    "5": {
+                        "then": "Koloro: nigra"
+                    },
+                    "6": {
+                        "then": "Koloro: blua"
+                    },
+                    "7": {
+                        "then": "Koloro: flava"
+                    }
+                },
+                "render": "Koloro: {colour}"
+            },
+            "bench-material": {
+                "mappings": {
+                    "0": {
+                        "then": "Materialo: ligna"
+                    },
+                    "1": {
+                        "then": "Materialo: metala"
+                    },
+                    "2": {
+                        "then": "Materialo: ŝtona"
+                    },
+                    "3": {
+                        "then": "Materialo: betona"
+                    },
+                    "4": {
+                        "then": "Materialo: plasta"
+                    },
+                    "5": {
+                        "then": "Materialo: ŝtala"
+                    }
+                },
+                "render": "Materialo: {material}"
+            }
+        }
+    },
+    "bench_at_pt": {
+        "tagRenderings": {
+            "bench_at_pt-name": {
+                "render": "{name}"
+            }
+        }
+    },
+    "bicycle_library": {
+        "presets": {
+            "0": {
+                "title": "Fietsbibliotheek"
+            }
+        }
+    },
+    "bicycle_rental": {
+        "tagRenderings": {
+            "rental_types": {
+                "rewrite": {
+                    "into": {
+                        "0": {
+                            "1": "urbaj bicikloj"
+                        },
+                        "1": {
+                            "1": "elektraj bicikloj"
+                        },
+                        "2": {
+                            "1": "bicikloj por infanoj"
+                        },
+                        "3": {
+                            "1": "BMX-bicikloj"
+                        },
+                        "4": {
+                            "1": "montobicikloj"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "bike_parking": {
+        "tagRenderings": {
+            "Access": {
+                "render": "{access}"
+            }
+        }
+    },
+    "extinguisher": {
+        "tagRenderings": {
+            "extinguisher-location": {
+                "render": "Loko: {location}"
+            }
+        }
+    },
+    "ghost_bike": {
+        "name": "Fantombiciklo",
+        "presets": {
+            "0": {
+                "title": "Fantombiciklo"
+            }
+        },
+        "title": {
+            "render": "Fantombiciklo"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "Hundoj estas permesataj"
+                    },
+                    "1": {
+                        "then": "Hundoj estas <b>malpermesataj</b>"
+                    }
+                }
+            },
+            "email": {
+                "question": "Kio estas la retpoŝta adreso de {title()}?"
+            },
+            "opening_hours": {
+                "render": "<h3>Malfermitaj horoj</h3>{opening_hours_table(opening_hours)}"
+            },
+            "phone": {
+                "question": "Kio estas la telefonnumero de {title()}?"
+            },
+            "single_level": {
+                "mappings": {
+                    "1": {
+                        "then": "En la teretaĝo"
+                    },
+                    "2": {
+                        "then": "En la teretaĝo"
+                    },
+                    "3": {
+                        "then": "En la unua etaĝo"
+                    }
+                },
+                "render": "En la {level}a etaĝo"
+            },
+            "website": {
+                "question": "Kie estas la retejo de {title()}?"
+            }
+        }
+    },
+    "shops": {
+        "description": "Butiko",
+        "name": "Butiko",
+        "presets": {
+            "0": {
+                "description": "Enmeti novan butikon",
+                "title": "Butiko"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                },
+                "1": {
+                    "then": "{shop}"
+                }
+            },
+            "render": "Butiko"
+        }
+    },
+    "slow_roads": {
+        "tagRenderings": {
+            "slow_roads-surface": {
+                "mappings": {
+                    "0": {
+                        "then": "La surfaco estas <b>herba</b>"
+                    },
+                    "3": {
+                        "then": "La surfaco estas <b>sabla</b>"
+                    },
+                    "6": {
+                        "then": "La surfaco estas <b>betona</b>"
+                    }
+                },
+                "render": "La surfaco estas <b>{surface}</b>"
+            }
+        }
+    },
+    "tree_node": {
+        "tagRenderings": {
+            "tree_node-name": {
+                "render": "Nomo: {name}"
+            }
+        },
+        "title": {
+            "render": "Arbo"
+        }
+    },
+    "unit": {
+        "units": {
+            "0": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} megavatoj"
+                    },
+                    "1": {
+                        "human": "{quantity} kilovatoj"
+                    },
+                    "2": {
+                        "human": "{quantity} vatoj"
+                    },
+                    "3": {
+                        "human": "{quantity} gigavatoj"
+                    }
+                }
+            },
+            "3": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} metro"
+                    },
+                    "3": {
+                        "human": "{quantity} futo"
+                    }
+                }
+            }
+        }
+    },
+    "viewpoint": {
+        "name": "Vidpunkto",
+        "title": {
+            "render": "Vidpunkto"
+        }
+    },
+    "visitor_information_centre": {
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "{name}"
+                }
+            },
+            "render": "{name}"
+        }
+    },
+    "waste_basket": {
+        "name": "Rubujo",
+        "presets": {
+            "0": {
+                "title": "Rubujo"
+            }
+        }
+    },
+    "windturbine": {
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            }
+        }
+    }
+}

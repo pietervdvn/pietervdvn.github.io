@@ -1,0 +1,104 @@
+{
+  "id": "visitor_information_centre",
+  "name": {
+    "en": "Visitor Information Centre",
+    "nl": "Bezoekerscentrum",
+    "de": "Besucherinformationszentrum",
+    "id": "Pusat Informasi Pengunjung",
+    "es": "Centro de Información al Visitante",
+    "da": "Informationscenter for besøgende",
+    "ca": "Centre d'Informació al Visitant",
+    "cs": "Turistické informační centrum"
+  },
+  "description": {
+    "en": "A visitor center offers information about a specific attraction or place of interest where it is located.",
+    "nl": "Een bezoekerscentrum biedt informatie over een specifieke attractie of bezienswaardigheid waar het is gevestigd.",
+    "de": "Ein Besucherzentrum bietet Informationen über eine bestimmte Attraktion oder Sehenswürdigkeit, an der es sich befindet.",
+    "es": "Un centro de visitantes ofrece información sobre una atracción o lugar de interés específico donde se encuentra.",
+    "ca": "Un centre de visitants ofereix informació sobre una atracció o lloc d'interès específic on es troba.",
+    "cs": "Turistické centrum nabízí informace o konkrétní atrakci nebo zajímavém místě, kde se nachází."
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        {
+          "or": [
+            "information=visitor_centre",
+            "information=office"
+          ]
+        }
+      ]
+    }
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "nl": "{name}",
+      "en": "{name}",
+      "de": "{name}",
+      "ru": "{name}",
+      "eo": "{name}",
+      "fr": "{name}",
+      "ca": "{name}",
+      "id": "{name}",
+      "es": "{name}",
+      "da": "{name}",
+      "cs": "{name}",
+      "zh_Hant": "{name}",
+      "pl": "{name}"
+    },
+    "mappings": [
+      {
+        "if": {
+          "and": [
+            "name:nl~*"
+          ]
+        },
+        "then": {
+          "nl": "{name:nl}"
+        }
+      },
+      {
+        "if": {
+          "and": [
+            "name~*"
+          ]
+        },
+        "then": {
+          "nl": "{name}",
+          "en": "{name}",
+          "de": "{name}",
+          "ru": "{name}",
+          "eo": "{name}",
+          "fr": "{name}",
+          "ca": "{name}",
+          "id": "{name}",
+          "es": "{name}",
+          "da": "{name}",
+          "cs": "{name}",
+          "zh_Hant": "{name}",
+          "pl": "{name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "iconSize": "40,40",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": "./assets/layers/visitor_information_centre/information.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "presets": [],
+  "tagRenderings": [],
+  "allowMove": true
+}

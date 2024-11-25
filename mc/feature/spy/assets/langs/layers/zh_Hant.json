@@ -1,0 +1,1161 @@
+{
+    "address": {
+        "description": "地址",
+        "name": "OSM 上已知的地址",
+        "tagRenderings": {
+            "fixme": {
+                "question": "這裡需要修什麼？請直接解釋"
+            },
+            "housenumber": {
+                "mappings": {
+                    "0": {
+                        "then": "這棟建築沒有門牌"
+                    }
+                },
+                "question": "這間房子的門牌號碼是多少？",
+                "render": "門牌號碼是 <b>{addr:housenumber}</b>"
+            },
+            "street": {
+                "question": "地址所在的道路是？",
+                "render": "此地址位於街道 <b>{addr:street}</b>"
+            }
+        },
+        "title": {
+            "render": "已知的地址"
+        }
+    },
+    "advertising": {
+        "name": "廣告",
+        "presets": {
+            "0": {
+                "title": "一塊告示牌"
+            },
+            "2": {
+                "title": "獨自設立的海報框"
+            }
+        }
+    },
+    "artwork": {
+        "description": "顯示全世界的雕像、半身像、塗鴉以及其他類型的藝術品的地圖",
+        "name": "藝術品",
+        "presets": {
+            "0": {
+                "title": "藝術品"
+            }
+        },
+        "tagRenderings": {
+            "artwork-artist_name": {
+                "question": "創造這個的藝術家是誰？",
+                "render": "{artist_name} 創作"
+            },
+            "artwork-artwork_type": {
+                "mappings": {
+                    "0": {
+                        "then": "建築物"
+                    },
+                    "1": {
+                        "then": "壁畫"
+                    },
+                    "10": {
+                        "then": "Azulejo (西班牙雕塑作品名稱)"
+                    },
+                    "11": {
+                        "then": "瓷磚"
+                    },
+                    "2": {
+                        "then": "繪畫"
+                    },
+                    "3": {
+                        "then": "雕塑"
+                    },
+                    "4": {
+                        "then": "雕像"
+                    },
+                    "5": {
+                        "then": "半身像"
+                    },
+                    "6": {
+                        "then": "石頭"
+                    },
+                    "7": {
+                        "then": "安裝"
+                    },
+                    "8": {
+                        "then": "塗鴨"
+                    },
+                    "9": {
+                        "then": "寬慰"
+                    }
+                },
+                "question": "這是什麼類型的藝術品？",
+                "render": "這是 {artwork_type}"
+            },
+            "artwork-website": {
+                "question": "在那個網站能夠找到更多藝術品的資訊？",
+                "render": {
+                    "special": {
+                        "text": "這個網站有更多資訊"
+                    }
+                }
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "藝術品<i>{name}</i>"
+                }
+            },
+            "render": "藝術品"
+        }
+    },
+    "atm": {
+        "description": "自動櫃員機以提款"
+    },
+    "barrier": {
+        "tagRenderings": {
+            "bicycle=yes/no": {
+                "mappings": {
+                    "0": {
+                        "then": "單車騎士能夠穿越。"
+                    },
+                    "1": {
+                        "then": "單車騎士無法穿越。"
+                    }
+                }
+            }
+        }
+    },
+    "bench": {
+        "name": "長椅",
+        "presets": {
+            "0": {
+                "title": "長椅"
+            }
+        },
+        "tagRenderings": {
+            "bench-backrest": {
+                "mappings": {
+                    "1": {
+                        "then": "靠背：有"
+                    },
+                    "2": {
+                        "then": "此長椅<b>沒有</b>靠背"
+                    }
+                },
+                "question": "這個長椅是否有靠背？"
+            },
+            "bench-colour": {
+                "mappings": {
+                    "0": {
+                        "then": "顏色：棕色"
+                    },
+                    "1": {
+                        "then": "顏色：綠色"
+                    },
+                    "2": {
+                        "then": "顏色：灰色"
+                    },
+                    "3": {
+                        "then": "顏色：白色"
+                    },
+                    "4": {
+                        "then": "顏色：紅色"
+                    },
+                    "5": {
+                        "then": "顏色：黑色"
+                    },
+                    "6": {
+                        "then": "顏色：藍色"
+                    },
+                    "7": {
+                        "then": "顏色：黃色"
+                    }
+                },
+                "question": "這個長椅是什麼顏色的？",
+                "render": "顏色：{colour}"
+            },
+            "bench-direction": {
+                "question": "坐在長椅時是面對那個方向？",
+                "render": "當坐在長椅時，那個人朝向 {direction}°。"
+            },
+            "bench-material": {
+                "mappings": {
+                    "0": {
+                        "then": "材質：木頭"
+                    },
+                    "1": {
+                        "then": "材質：金屬"
+                    },
+                    "2": {
+                        "then": "材質：石頭"
+                    },
+                    "3": {
+                        "then": "材質：水泥"
+                    },
+                    "4": {
+                        "then": "材質：塑膠"
+                    },
+                    "5": {
+                        "then": "材質：鋼鐵"
+                    }
+                },
+                "question": "這個長椅 (座位) 是什麼做的？",
+                "render": "材質：{material}"
+            },
+            "bench-seats": {
+                "question": "這個長椅有幾個位子？",
+                "render": "{seats} 座位數"
+            },
+            "bench-survey:date": {
+                "question": "上一次探察長椅是什麼時候？",
+                "render": "這個長椅最後是在 {survey:date} 探查的"
+            }
+        },
+        "title": {
+            "render": "長椅"
+        }
+    },
+    "bench_at_pt": {
+        "name": "大眾運輸站點的長椅",
+        "tagRenderings": {
+            "bench_at_pt-bench_type": {
+                "mappings": {
+                    "1": {
+                        "then": "站立長椅"
+                    }
+                }
+            },
+            "bench_at_pt-name": {
+                "render": "{name}"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "大眾運輸站點的長椅"
+                },
+                "1": {
+                    "then": "涼亭內的長椅"
+                }
+            },
+            "render": "長椅"
+        }
+    },
+    "bicycle_library": {
+        "description": "能夠長期租用單車的設施",
+        "name": "單車圖書館",
+        "presets": {
+            "0": {
+                "description": "單車圖書館有一大批單車供人租借",
+                "title": "自行車圖書館 ( Fietsbibliotheek)"
+            }
+        },
+        "tagRenderings": {
+            "bicycle-library-target-group": {
+                "mappings": {
+                    "0": {
+                        "then": "提供兒童單車"
+                    },
+                    "1": {
+                        "then": "有提供成人單車"
+                    },
+                    "2": {
+                        "then": "有提供行動不便人士的單車"
+                    }
+                },
+                "question": "誰可以在這裡租單車？"
+            },
+            "bicycle_library-charge": {
+                "mappings": {
+                    "0": {
+                        "then": "租借單車免費"
+                    },
+                    "1": {
+                        "then": "租借單車價錢 €20/year 與 €20 保證金"
+                    }
+                },
+                "question": "租用單車的費用多少？",
+                "render": "租借單車需要 {charge}"
+            },
+            "bicycle_library-name": {
+                "question": "這個單車圖書館的名稱是？",
+                "render": "這個單車圖書館叫做 {name}"
+            }
+        },
+        "title": {
+            "render": "單車圖書館"
+        }
+    },
+    "bike_cafe": {
+        "name": "單車咖啡廳",
+        "presets": {
+            "0": {
+                "title": "單車咖啡廳"
+            }
+        },
+        "tagRenderings": {
+            "bike_cafe-bike-pump": {
+                "mappings": {
+                    "0": {
+                        "then": "這個單車咖啡廳有提供給任何人都能使用的單車打氣甬"
+                    },
+                    "1": {
+                        "then": "這個單車咖啡廳並沒有為所有人提供單車打氣甬"
+                    }
+                },
+                "question": "這個單車咖啡廳有提供給任何人都能使用的單車打氣甬嗎？"
+            },
+            "bike_cafe-name": {
+                "question": "這個單車咖啡廳的名稱是？",
+                "render": "這個單車咖啡廳叫做 {name}"
+            },
+            "bike_cafe-repair-service": {
+                "mappings": {
+                    "0": {
+                        "then": "這個單車咖啡廳修理單車"
+                    },
+                    "1": {
+                        "then": "這個單車咖啡廳並不修理單車"
+                    }
+                },
+                "question": "這個單車咖啡廳是否能修理單車？"
+            },
+            "bike_cafe-repair-tools": {
+                "mappings": {
+                    "0": {
+                        "then": "這個單車咖啡廳提供工具讓你修理"
+                    },
+                    "1": {
+                        "then": "這個單車咖啡廳並沒有提供工具讓你修理"
+                    }
+                },
+                "question": "這裡是否有工具修理你的單車嗎？"
+            },
+            "opening_hours": {
+                "override": {
+                    "question": "何時這個單車咖啡廳營運？"
+                }
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "單車咖啡廳<i>{name}</i>"
+                }
+            },
+            "render": "單車咖啡廳"
+        }
+    },
+    "bike_cleaning": {
+        "name": "單車清理服務",
+        "presets": {
+            "0": {
+                "title": "單車清理服務"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "單車清理服務 <i>{name}</i>"
+                }
+            },
+            "render": "單車清理服務"
+        }
+    },
+    "bike_parking": {
+        "name": "單車停車場",
+        "presets": {
+            "0": {
+                "title": "單車停車場"
+            }
+        },
+        "tagRenderings": {
+            "Access": {
+                "mappings": {
+                    "0": {
+                        "then": "公開可用"
+                    },
+                    "1": {
+                        "then": "通行性主要是為了企業的顧客"
+                    },
+                    "2": {
+                        "then": "通行性僅限學校、公司或組織的成員"
+                    }
+                },
+                "question": "誰可以使用這個單車停車場？",
+                "render": "{access}"
+            },
+            "Bicycle parking type": {
+                "mappings": {
+                    "0": {
+                        "then": "單車架"
+                    },
+                    "2": {
+                        "then": "車輪架/圓圈"
+                    },
+                    "3": {
+                        "then": "車把架"
+                    },
+                    "4": {
+                        "then": "車架"
+                    },
+                    "5": {
+                        "then": "兩層"
+                    },
+                    "6": {
+                        "then": "車棚"
+                    },
+                    "7": {
+                        "then": "柱子"
+                    },
+                    "8": {
+                        "then": "樓層當中標示為單車停車場的區域"
+                    }
+                },
+                "question": "這是那種類型的單車停車場？",
+                "render": "這個單車停車場的類型是：{bicycle_parking}"
+            },
+            "Capacity": {
+                "question": "這個單車停車場能放幾台單車 (包括裝箱單車)？",
+                "render": "{capacity} 單車的地方"
+            },
+            "Cargo bike spaces?": {
+                "mappings": {
+                    "0": {
+                        "then": "這個停車場有地方可以放裝箱單車"
+                    },
+                    "1": {
+                        "then": "這停車場有設計 (官方) 空間給裝箱的單車。"
+                    }
+                },
+                "question": "這個單車停車場有地方放裝箱的單車嗎？"
+            },
+            "Is covered?": {
+                "mappings": {
+                    "0": {
+                        "then": "這個停車場有遮蔽 (有屋頂)"
+                    },
+                    "1": {
+                        "then": "這個停車場沒有遮蔽"
+                    }
+                },
+                "question": "這個停車場是否有車棚？如果是室內停車場也請選擇\"遮蔽\"。"
+            },
+            "Underground?": {
+                "mappings": {
+                    "0": {
+                        "then": "地下停車場"
+                    },
+                    "1": {
+                        "then": "地面停車場"
+                    },
+                    "2": {
+                        "then": "屋頂停車場"
+                    },
+                    "3": {
+                        "then": "地面層停車場"
+                    }
+                },
+                "question": "這個單車停車場的相對位置是？"
+            }
+        },
+        "title": {
+            "render": "單車停車場"
+        }
+    },
+    "cafe_pub": {
+        "name": "咖啡廳與酒吧"
+    },
+    "caravansites": {
+        "description": "露營地",
+        "name": "露營地",
+        "presets": {
+            "0": {
+                "description": "新增正式露營地點，通常是設計給過夜的露營者的地點。看起來像是真的露營地或是一般的停車場，而且也許沒有任何指標，但在城鎮被定議地點。如果一般給露營者的停車場並不是用來過夜，則不是露營地點 ",
+                "title": "露營地"
+            }
+        },
+        "tagRenderings": {
+            "caravansites-capacity": {
+                "question": "多少露營者能夠待在這裡？(如果沒有明顯的空間數字或是允許車輛則可以跳過)",
+                "render": "{capacity} 露營者能夠同時使用這個地方"
+            },
+            "caravansites-charge": {
+                "question": "這個地方收多少費用？",
+                "render": "這個地方收費 {charge}"
+            },
+            "caravansites-description": {
+                "question": "你想要為這個地方加一般的敘述嗎？(不要重覆加先前問過或提供的資訊，請保持敘述性-請將意見留在評價)",
+                "render": "這個地方更詳細的資訊： {description}"
+            },
+            "caravansites-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "你要付費才能使用"
+                    },
+                    "1": {
+                        "then": "可以免費使用"
+                    }
+                },
+                "question": "這個地方收費嗎？"
+            },
+            "caravansites-internet": {
+                "mappings": {
+                    "0": {
+                        "then": "這裡有網路連線"
+                    },
+                    "1": {
+                        "then": "這裡有網路連線"
+                    },
+                    "2": {
+                        "then": "這裡沒有網路連線"
+                    }
+                },
+                "question": "這個地方有提網路連線嗎？"
+            },
+            "caravansites-internet-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "你需要額外付費來使用網路連線"
+                    },
+                    "1": {
+                        "then": "你不需要額外付費來使用網路連線"
+                    }
+                },
+                "question": "你需要為網路連線付費嗎？"
+            },
+            "caravansites-long-term": {
+                "mappings": {
+                    "0": {
+                        "then": "有些地方提供長期租用，但你也可以用天計算費用"
+                    },
+                    "1": {
+                        "then": "這裏沒有永久的客人"
+                    },
+                    "2": {
+                        "then": "如果有長期租用合約才有可能待下來(如果你選擇這個地方則會在這份地圖消失)"
+                    }
+                },
+                "question": "這個地方有提供長期租用嗎？"
+            },
+            "caravansites-name": {
+                "question": "這個地方叫做什麼？",
+                "render": "這個地方叫做 {name}"
+            },
+            "caravansites-sanitary-dump": {
+                "mappings": {
+                    "0": {
+                        "then": "這個地方有衛生設施"
+                    },
+                    "1": {
+                        "then": "這個地方沒有衛生設施"
+                    }
+                },
+                "question": "這個地方有衛生設施嗎？"
+            },
+            "caravansites-toilets": {
+                "mappings": {
+                    "0": {
+                        "then": "這個地方有廁所"
+                    },
+                    "1": {
+                        "then": "這個地方並沒有廁所"
+                    }
+                },
+                "question": "這個地方有廁所嗎？"
+            },
+            "caravansites-website": {
+                "question": "這個地方有網站嗎？",
+                "render": "官方網站：<a href='{website}'>{website}</a>"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "沒有名稱的露營地"
+                }
+            },
+            "render": "露營地 {name}"
+        }
+    },
+    "climbing_club": {
+        "description": "攀岩社團或組織",
+        "name": "攀岩社團",
+        "tagRenderings": {
+            "climbing_club-name": {
+                "render": "<strong>{name}</strong>"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "攀岩 NGO"
+                }
+            },
+            "render": "攀岩社團"
+        }
+    },
+    "cycle_highways": {
+        "name": "單車高速公路",
+        "title": {
+            "render": "單車高速公路"
+        }
+    },
+    "dumpstations": {
+        "description": "垃圾處理站",
+        "name": "垃圾處理站",
+        "presets": {
+            "0": {
+                "description": "新增垃圾站，這通常是提供露營駕駛丟棄廢水與化學性廁所廢水的地方，也會有飲用水與電力。",
+                "title": "垃圾丟棄站"
+            }
+        },
+        "tagRenderings": {
+            "dumpstations-access": {
+                "mappings": {
+                    "0": {
+                        "then": "你需要網路鑰匙/密碼來使用這個設施"
+                    },
+                    "1": {
+                        "then": "你需要是露營/露營地的客戶才能使用這一地方"
+                    },
+                    "2": {
+                        "then": "任何人都可以使用這個衛生廢棄物站"
+                    },
+                    "3": {
+                        "then": "任何人都可以使用這個垃圾站"
+                    }
+                },
+                "question": "誰可以使用這個垃圾站？"
+            },
+            "dumpstations-charge": {
+                "question": "這個地方收費多少？",
+                "render": "這個地方收費 {charge}"
+            },
+            "dumpstations-chemical-waste": {
+                "mappings": {
+                    "0": {
+                        "then": "你可以在這邊丟棄廁所化學廢棄物"
+                    },
+                    "1": {
+                        "then": "你不能在這邊丟棄廁所化學廢棄物"
+                    }
+                },
+                "question": "你能在這裡丟棄廁所化學廢棄物嗎？"
+            },
+            "dumpstations-fee": {
+                "mappings": {
+                    "0": {
+                        "then": "你需要付費才能使用"
+                    },
+                    "1": {
+                        "then": "這裡可以免費使用"
+                    }
+                },
+                "question": "這個地方需要付費嗎？"
+            },
+            "dumpstations-grey-water": {
+                "mappings": {
+                    "0": {
+                        "then": "你可以在這裡排放洗滌水"
+                    },
+                    "1": {
+                        "then": "你無法在這裡排放洗滌水"
+                    }
+                },
+                "question": "你能在這裡排放洗滌水嗎？"
+            },
+            "dumpstations-network": {
+                "question": "這裡是屬於那個網路的？ (沒有則跳過)",
+                "render": "這車站是屬於 {network} 網路的一部分"
+            },
+            "dumpstations-waterpoint": {
+                "mappings": {
+                    "0": {
+                        "then": "這個地方有取水點"
+                    },
+                    "1": {
+                        "then": "這個地方沒有取水點"
+                    }
+                },
+                "question": "這個地方有取水點嗎？"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "垃圾站"
+                }
+            },
+            "render": "{name} 垃圾站"
+        }
+    },
+    "extinguisher": {
+        "description": "顯示消防栓的地圖圖層。"
+    },
+    "filters": {
+        "filter": {
+            "0": {
+                "options": {
+                    "0": {
+                        "question": "目前開放"
+                    }
+                }
+            }
+        }
+    },
+    "ghost_bike": {
+        "name": "幽靈單車",
+        "presets": {
+            "0": {
+                "title": "幽靈單車"
+            }
+        },
+        "title": {
+            "render": "幽靈單車"
+        }
+    },
+    "hackerspace": {
+        "description": "駭客空間",
+        "name": "駭客空間",
+        "presets": {
+            "0": {
+                "description": "駭客空間是對軟體有興趣的人聚集的地方",
+                "title": "駭客空間"
+            },
+            "1": {
+                "description": "創客空間是 DIY 愛好者聚集在一起弄電子零件實驗，例如用 arduino、LEDstrips 等...",
+                "title": "創客空間"
+            }
+        },
+        "tagRenderings": {
+            "hackerspaces-name": {
+                "question": "這個駭客空間的名稱是？",
+                "render": "這個駭客空間叫 <b>{name}</b>"
+            },
+            "hackerspaces-start_date": {
+                "question": "這個駭客空間何時成立的？",
+                "render": "這駭客空間是 {start_date} 成立的"
+            },
+            "hs-club-mate": {
+                "mappings": {
+                    "0": {
+                        "then": "這個駭客空間服務俱樂部伙伴"
+                    },
+                    "1": {
+                        "then": "這個駭客空間沒有服務俱樂部伙伴"
+                    }
+                },
+                "question": "這個駭客空間是否服務俱樂部伙伴？"
+            },
+            "is_makerspace": {
+                "mappings": {
+                    "0": {
+                        "then": "這是創客空間"
+                    },
+                    "1": {
+                        "then": "這是傳統的 (軟體導向) 駭客空間"
+                    }
+                },
+                "question": "這邊是駭客空間還是創客空間？"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "question": "這個駭客空間的營業時間？"
+                }
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": " {name}"
+                }
+            },
+            "render": "駭客空間"
+        }
+    },
+    "hydrant": {
+        "description": "顯示消防栓的地圖圖層。",
+        "name": "消防栓地圖"
+    },
+    "last_click": {
+        "pointRendering": {
+            "0": {
+                "label": {
+                    "render": "點這邊新增新項目"
+                }
+            }
+        }
+    },
+    "maxspeed": {
+        "description": "顯示每條道路的允許速度"
+    },
+    "postboxes": {
+        "description": "這圖層顯示郵筒。",
+        "name": "郵筒",
+        "presets": {
+            "0": {
+                "title": "郵筒"
+            }
+        },
+        "title": {
+            "render": "郵筒"
+        }
+    },
+    "postoffices": {
+        "description": "圖層顯示郵局。",
+        "name": "郵局",
+        "presets": {
+            "0": {
+                "title": "郵局"
+            }
+        },
+        "tagRenderings": {
+            "opening_hours": {
+                "override": {
+                    "question": "這間郵局的開放時間是？"
+                }
+            }
+        },
+        "title": {
+            "render": "郵局"
+        }
+    },
+    "questions": {
+        "tagRenderings": {
+            "description": {
+                "question": "有什麼相關的資訊你無法在先前的問題回應的嗎？請加在這邊吧。",
+                "questionHint": "不要重覆答覆已經知道的事情"
+            },
+            "dog-access": {
+                "mappings": {
+                    "0": {
+                        "then": "允許犬隻"
+                    },
+                    "1": {
+                        "then": "<b>不</b>允許犬隻"
+                    },
+                    "2": {
+                        "then": "允許犬隻，但需要掛牽繩"
+                    },
+                    "3": {
+                        "then": "允許犬隻而且可以自由跑動"
+                    }
+                },
+                "question": "這間商業空間是否允許犬隻？"
+            },
+            "email": {
+                "question": "{title()} 的電子郵件地址是什麼？"
+            },
+            "opening_hours": {
+                "question": "{title()} 的開放時間是什麼？",
+                "render": "<h3>開放時間</h3>{opening_hours_table(opening_hours)}"
+            },
+            "opening_hours_24_7": {
+                "override": {
+                    "+mappings": {
+                        "0": {
+                            "then": "24/7 開放 (包括假日)"
+                        }
+                    }
+                }
+            },
+            "payment-options": {
+                "mappings": {
+                    "0": {
+                        "then": "這邊接受現金"
+                    },
+                    "1": {
+                        "then": "這邊接受現金卡"
+                    }
+                },
+                "question": "這邊接受那種付款方式？"
+            },
+            "payment-options-advanced": {
+                "override": {
+                    "mappings+": {
+                        "0": {
+                            "then": "使用專用應用程式付款"
+                        },
+                        "1": {
+                            "then": "使用會員卡付款"
+                        }
+                    }
+                }
+            },
+            "phone": {
+                "question": "{title()} 的電話號碼是什麼？"
+            },
+            "service:electricity": {
+                "mappings": {
+                    "0": {
+                        "then": "這邊的客戶座位有不少個室內插座，而且可以為電器充電"
+                    },
+                    "1": {
+                        "then": "這邊客戶座位有一些室內插座，可以為電器充電"
+                    },
+                    "2": {
+                        "then": "這邊沒有給客戶用的插座，因此可能需要詢問員工是否能充電"
+                    },
+                    "3": {
+                        "then": "這裡客戶座位沒有室內插座"
+                    }
+                },
+                "question": "這個便利設施有電器設備，能給客戶使用嗎？"
+            },
+            "single_level": {
+                "mappings": {
+                    "0": {
+                        "then": "位於地下"
+                    },
+                    "1": {
+                        "then": "位於 1 樓"
+                    },
+                    "2": {
+                        "then": "位於 1 樓"
+                    },
+                    "3": {
+                        "then": "位於 2 樓"
+                    },
+                    "4": {
+                        "then": "位於地下一樓"
+                    }
+                },
+                "question": "此圖徽位於哪個樓層／層級？",
+                "render": "位於 {level} 樓"
+            },
+            "website": {
+                "question": "{title()} 網址是什麼？"
+            },
+            "wheelchair-access": {
+                "mappings": {
+                    "0": {
+                        "then": "這個地方有特別設計給輪椅使用者"
+                    },
+                    "1": {
+                        "then": "這個地方坐輪椅很容易到達"
+                    },
+                    "2": {
+                        "then": "這個地方可以坐輪椅到達，但並不容易"
+                    },
+                    "3": {
+                        "then": "輪椅無法到達這個地方"
+                    }
+                },
+                "question": "這個地方可以坐輪椅到達嗎？"
+            },
+            "wikipedia": {
+                "mappings": {
+                    "0": {
+                        "then": "還沒有連結到維基百科頁面"
+                    },
+                    "1": {
+                        "then": "還沒有連結到維基百科頁面"
+                    }
+                },
+                "question": "對應的維基資料項目是？"
+            }
+        }
+    },
+    "unit": {
+        "units": {
+            "0": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} 百萬瓦"
+                    },
+                    "1": {
+                        "human": "{quantity} 千瓦"
+                    },
+                    "2": {
+                        "human": "{quantity} 瓦"
+                    },
+                    "3": {
+                        "human": "{quantity} 千兆瓦"
+                    }
+                }
+            },
+            "3": {
+                "applicableUnits": {
+                    "0": {
+                        "human": "{quantity} 公尺"
+                    }
+                }
+            }
+        }
+    },
+    "usersettings": {
+        "tagRenderings": {
+            "edit-profile": {
+                "render": {
+                    "special": {
+                        "text": "編輯你的個人檔敘述"
+                    }
+                }
+            },
+            "profile-description": {
+                "mappings": {
+                    "0": {
+                        "then": {
+                            "special": {
+                                "text": "新增個人檔敘述"
+                            }
+                        }
+                    }
+                }
+            },
+            "translation-completeness": {
+                "render": "{_theme} 的 {_language} 翻譯目前是 {_translation_percentage}%：{_translation_total} 中的 {_translation_translated_count} 已經翻譯了"
+            },
+            "translation-help": {
+                "mappings": {
+                    "0": {
+                        "then": "點字串旁邊的 'translate'-icon 來輸入或是更新一段文字。你需要 Weblate 帳號。用你 OSM 帳號名稱來創建帳號，並且自動解鎖翻譯模式。"
+                    }
+                }
+            }
+        },
+        "title": {
+            "render": "設定"
+        }
+    },
+    "vending_machine": {
+        "tagRenderings": {
+            "operational_status": {
+                "mappings": {
+                    "0": {
+                        "then": "這個自動販賣機仍運作"
+                    },
+                    "1": {
+                        "then": "這個自動販賣機沒有運作了"
+                    },
+                    "2": {
+                        "then": "這個自動販賣機已經關閉了"
+                    },
+                    "3": {
+                        "then": "運作狀態是 <i>{operational_status}</i>"
+                    }
+                },
+                "question": "這個自動販賣機仍有運作嗎？"
+            }
+        }
+    },
+    "visitor_information_centre": {
+        "title": {
+            "mappings": {
+                "1": {
+                    "then": "{name}"
+                }
+            },
+            "render": "{name}"
+        }
+    },
+    "walls_and_buildings": {
+        "description": "特殊的內建圖層顯示所有牆壁與建築。這個圖層對於規畫要靠牆的東西 (例如 AED、郵筒、入口、地址、監視器等) 相當實用。這個圖層預設顯示而且無法由使用者開關。"
+    },
+    "waste_basket": {
+        "filter": {
+            "0": {
+                "options": {
+                    "0": {
+                        "question": "所有類型"
+                    }
+                }
+            }
+        }
+    },
+    "waste_disposal": {
+        "presets": {
+            "0": {
+                "title": "廢棄物處理桶"
+            }
+        },
+        "tagRenderings": {
+            "access": {
+                "mappings": {
+                    "0": {
+                        "then": "這個桶可以給任何人使用"
+                    },
+                    "1": {
+                        "then": "這個桶是私人的"
+                    },
+                    "2": {
+                        "then": "這個桶僅供居民使用"
+                    }
+                },
+                "question": "誰可以使用這個廢棄物處理桶？",
+                "render": "存取：{access}"
+            },
+            "disposal-location": {
+                "mappings": {
+                    "0": {
+                        "then": "這是一個地下容器"
+                    },
+                    "1": {
+                        "then": "這個容器位於室內"
+                    },
+                    "2": {
+                        "then": "這個容器位於室外"
+                    }
+                },
+                "question": "這個容器位於哪裡？"
+            },
+            "type": {
+                "mappings": {
+                    "0": {
+                        "then": "這是一個中型至大型的桶，用於處理（家庭）廢棄物"
+                    },
+                    "1": {
+                        "then": "這實際上是一個回收容器"
+                    }
+                },
+                "question": "這是甚麼種類的廢棄物處理箱？"
+            }
+        },
+        "title": {
+            "render": "廢棄物處理"
+        }
+    },
+    "windturbine": {
+        "description": "現代風車產生電力",
+        "name": "風機",
+        "presets": {
+            "0": {
+                "title": "風機"
+            }
+        },
+        "tagRenderings": {
+            "turbine-diameter": {
+                "question": "這個風力渦輪機的風葉直徑是多少公尺？",
+                "render": "這個風力渦輪機的風葉直徑是 {rotor:diameter} 公尺。"
+            },
+            "turbine-height": {
+                "question": "這個風機的總高度是多少 (包括風葉大小) 公尺？",
+                "render": "這風機的總高度 (包括風葉直徑) 是 {height} 公尺。"
+            },
+            "turbine-operator": {
+                "question": "這個風機營業商是？",
+                "render": "這個風機營業商是 {operator}。"
+            },
+            "turbine-output": {
+                "question": "這個風機的電力輸出是多少？(例如 2.3 MW)",
+                "render": "這個風機的電力輸出是 {generator:output:electricity}。"
+            },
+            "turbine-start-date": {
+                "question": "這個風機何時開始營運？",
+                "render": "這個風機從 {start_date} 開始運轉。"
+            },
+            "windturbine-fixme": {
+                "render": "為 OpenStreetMap 專家提供的額外資訊：{fixme}"
+            }
+        },
+        "title": {
+            "mappings": {
+                "0": {
+                    "then": "{name}"
+                }
+            },
+            "render": "風機"
+        }
+    }
+}

@@ -1,0 +1,958 @@
+{
+  "id": "artwork",
+  "name": {
+    "en": "Artworks",
+    "nl": "Kunstwerken",
+    "fr": "Œuvres d'art",
+    "de": "Kunstwerke",
+    "id": "Karya seni",
+    "it": "Opere d’arte",
+    "ru": "Произведения искусства",
+    "es": "Obras de arte",
+    "ja": "美術品",
+    "zh_Hant": "藝術品",
+    "nb_NO": "Kunstverk",
+    "pt": "Obras de arte",
+    "hu": "Műalkotások",
+    "pl": "Dzieła sztuki",
+    "ca": "Obres d'art",
+    "da": "Kunstværker",
+    "cs": "Umělecká díla",
+    "pa_PK": "کلاکاری",
+    "he": "יצירות אמנות",
+    "eu": "Artelanak",
+    "pt_BR": "Obras de arte",
+    "zh_Hans": "艺术品"
+  },
+  "description": {
+    "en": "An open map of statues, busts, graffitis and other artwork all over the world",
+    "nl": "Een vrije kaart met standbeelden, bustes, graffiti en andere kunstwerken van over de hele wereld",
+    "fr": "Une carte ouverte de statues, bustes, graffitis et autres œuvres d'art de par le monde",
+    "de": "Eine freie Karte mit Statuen, Büsten, Graffitis und anderen Kunstwerken auf der ganzen Welt",
+    "it": "Una mappa libera delle statue, i busti, i graffiti e le altre opere d'arte di tutto il mondo",
+    "ru": "Разнообразные произведения искусства",
+    "es": "Un mapa abierto de estatuas, bustos, grafitis y otras obras de arte de todo el mundo",
+    "ja": "多様な作品",
+    "zh_Hant": "顯示全世界的雕像、半身像、塗鴉以及其他類型的藝術品的地圖",
+    "id": "Peta terbuka patung, grafiti, dan karya seni lainnya di seluruh dunia",
+    "pt": "Um mapa aberto de estátuas, bustos, grafites e outras obras de arte em todo o mundo",
+    "hu": "Szobrok, mellszobrok, graffitik és egyéb műalkotások nyílt világtérképe",
+    "da": "Et åbent kort over statuer, buster, graffitis og andre kunstværker over hele verden",
+    "ca": "Un mapa obert d'estàtues, busts, grafitis i altres obres d'art del tot el món",
+    "cs": "Otevřená mapa soch, bust, graffiti a dalších uměleckých děl po celém světě",
+    "zh_Hans": "一个雕塑、半身像、涂鸦和其他全球艺术品的地图",
+    "nb_NO": "Statuer, byster, graffiti, og andre kunstverk verden over",
+    "zgh": "ⵢⴰⵜ ⵜⴽⴰⵕⴹⴰ ⵉⵕⵥⵎⵏ ⵅⴼ ⵉⵙⴼⵔⵉⵙⵏ, ⵉⵖⵔⴰⵙⵏ ⴷ ⵜⵡⵓⵔⵉⵡⵉⵏ ⵜⵉⵏⴰⵥⵓⵕⵉⵏ ⵢⴰⴹⵏⵉⵏ ⴳ ⵓⵎⴰⴹⴰⵍ",
+    "eu": "Estatuen, bustoen, graffitien eta mundu osoko beste artelan batzuen mapa irekia",
+    "pl": "Otwarta mapa posągów, popiersi, graffiti i innych dzieł sztuki z całego świata",
+    "pt_BR": "Um mapa aberto de estátuas, bustos, grafites e outras obras de arte em todo o mundo",
+    "uk": "Відкрита мапа статуй, бюстів, графіті та інших творів мистецтва по всьому світу"
+  },
+  "source": {
+    "osmTags": "tourism=artwork"
+  },
+  "calculatedTags": [
+    "website:=feat.properties.website ?? feat.properties.url"
+  ],
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "en": "Artwork",
+      "nl": "Kunstwerk",
+      "fr": "Œuvre d'art",
+      "de": "Kunstwerk",
+      "id": "Karya Seni",
+      "it": "Opera d’arte",
+      "ru": "Художественная работа",
+      "es": "Obra de arte",
+      "ja": "アートワーク",
+      "zh_Hant": "藝術品",
+      "nb_NO": "Kunstverk",
+      "fi": "Taideteos",
+      "gl": "Obra de arte",
+      "hu": "Műalkotás",
+      "pl": "Dzieło sztuki",
+      "pt": "Obra de arte",
+      "pt_BR": "Obra de arte",
+      "sv": "Konstverk",
+      "ca": "Obra d'art",
+      "da": "Kunstværk",
+      "cs": "Umělecké dílo",
+      "pa_PK": "کلاکاری",
+      "he": "יצירת אומנות",
+      "eu": "Artelana"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "Artwork <i>{name}</i>",
+          "nl": "Kunstwerk <i>{name}</i>",
+          "fr": "Œuvre d'art <i>{name}</i>",
+          "de": "Kunstwerk <i>{name}</i>",
+          "id": "Karya Seni <i>{name}</i>",
+          "it": "Opera <i>{name}</i>",
+          "ru": "Художественная работа <i>{name}</i>",
+          "es": "Obra de arte <i>{name}</i>",
+          "ja": "アートワーク <i>{name}</i>",
+          "zh_Hant": "藝術品<i>{name}</i>",
+          "fi": "Taideteos <i>{name}</i>",
+          "gl": "Obra de arte <i>{name}</i>",
+          "hu": "Műalkotás <i>{name}</i>",
+          "nb_NO": "Kunstverk <i>{name}</i>",
+          "pl": "Dzieło sztuki <i>{name}</i>",
+          "pt": "Obra de arte <i>{name}</i>",
+          "pt_BR": "Obra de arte <i>{name}</i>",
+          "sv": "Konstverk <i>{name}</i>",
+          "da": "Kunstværk <i>{name}</i>",
+          "cs": "Umělecké dílo <i>{name}</i>",
+          "ca": "Obra d'art <i>{name}</i>",
+          "he": "יצירת אומנות <i>{name}</i>"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/themes/artwork/artwork.svg"
+        }
+      ],
+      "location": [
+        "point",
+        "centroid"
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "#0000ff",
+      "width": "10"
+    }
+  ],
+  "presets": [
+    {
+      "tags": [
+        "tourism=artwork"
+      ],
+      "title": {
+        "en": "an artwork",
+        "nl": "een kunstwerk",
+        "fr": "une œuvre d'art",
+        "de": "ein Kunstwerk",
+        "it": "una opera d’arte",
+        "ru": "Художественная работа",
+        "es": "una obra de arte",
+        "ja": "アートワーク",
+        "zh_Hant": "藝術品",
+        "nb_NO": "en kunstverk",
+        "fi": "Taideteos",
+        "gl": "Obra de arte",
+        "hu": "Műalkotás",
+        "id": "Karya Seni",
+        "pl": "dzieło sztuki",
+        "pt": "uma obra de arte",
+        "pt_BR": "uma obra de arte",
+        "sv": "Konstverk",
+        "da": "et kunstværk",
+        "cs": "umělecké dílo",
+        "ca": "una obra d'art",
+        "zh_Hans": "一个艺术品"
+      }
+    },
+    {
+      "tags": [
+        "tourism=artwork"
+      ],
+      "title": {
+        "en": "an artwork on a wall",
+        "nl": "een kunstwerk op een muur",
+        "ca": "una obra d'art en una paret",
+        "de": "ein Kunstwerk an einer Wand",
+        "cs": "umělecké dílo na zdi",
+        "es": "una obra de arte en una pared",
+        "fr": "une œuvre sur un mur",
+        "pl": "Dzieło sztuki na ścianie",
+        "pt_BR": "uma obra de arte em uma parede",
+        "zh_Hans": "一个墙上的艺术品",
+        "pt": "uma obra de arte numa parede"
+      },
+      "snapToLayer": [
+        "walls_and_buildings"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images_no_blur",
+    {
+      "labels": [
+        "artwork-question"
+      ],
+      "render": {
+        "en": "This is a {artwork_type}",
+        "nl": "Dit is een {artwork_type}",
+        "fr": "Type d'œuvre : {artwork_type}",
+        "de": "Dies ist ein {artwork_type}",
+        "it": "Si tratta di un {artwork_type}",
+        "ru": "Это {artwork_type}",
+        "es": "Se trata de un {artwork_type}",
+        "ja": "これは{artwork_type}です",
+        "zh_Hant": "這是 {artwork_type}",
+        "nb_NO": "Dette er et kunstverk av typen {artwork_type}",
+        "id": "Ini adalah {artwork_type}",
+        "pt": "Isto é um(a) {artwork_type}",
+        "hu": "Ez egy {artwork_type}",
+        "pl": "Jest to {artwork_type}",
+        "da": "Dette er en {artwork_type}",
+        "cs": "Toto je {artwork_type}",
+        "ca": "Aquesta és un {artwork_type}",
+        "he": "זהו {artwork_type}",
+        "pt_BR": "Isso é um(a) {artwork_type}"
+      },
+      "question": {
+        "en": "What is the type of this artwork?",
+        "nl": "Wat voor soort kunstwerk is dit?",
+        "fr": "Quel est le type de cette œuvre d'art ?",
+        "de": "Um welche Art Kunstwerk handelt es sich?",
+        "it": "Che tipo di opera d’arte è questo?",
+        "ru": "К какому типу относится эта работа?",
+        "es": "¿Qué tipo de obra de arte es esta?",
+        "ja": "この作品の種類は何ですか?",
+        "zh_Hant": "這是什麼類型的藝術品？",
+        "nb_NO": "Hvilken type kunstverk er dette?",
+        "id": "Apa jenis karya seni ini?",
+        "pt": "Qual é o tipo desta obra de arte?",
+        "hu": "Milyen fajta műalkotás ez?",
+        "pl": "Jakiego rodzaju jest to dzieło sztuki?",
+        "da": "Hvilken slags kunstværk er det?",
+        "cs": "Jaký je typ tohoto uměleckého díla?",
+        "ca": "Quin tipus d'obra és aquesta peça?",
+        "he": "מהו סוג היצירה הזו?",
+        "pt_BR": "Qual é o tipo dessa obra de arte?"
+      },
+      "freeform": {
+        "key": "artwork_type",
+        "addExtraTags": [
+          "fixme=Freeform field used for artwork type - doublecheck the value"
+        ]
+      },
+      "mappings": [
+        {
+          "if": "artwork_type=architecture",
+          "then": {
+            "en": "Architecture",
+            "nl": "Architectuur",
+            "fr": "Architecture",
+            "de": "Architektur",
+            "it": "Architettura",
+            "ru": "Архитектура",
+            "ja": "建物",
+            "zh_Hant": "建築物",
+            "nb_NO": "Arkitektur",
+            "id": "Arsitektur",
+            "pt": "Arquitetura",
+            "hu": "Építészet",
+            "pl": "Architektura",
+            "es": "Arquitectura",
+            "ca": "Arquitectura",
+            "da": "Arkitektur",
+            "cs": "Architektura",
+            "pt_BR": "Arquitetura",
+            "he": "אדריכלות",
+            "eu": "Arkitektura",
+            "zh_Hans": "建筑",
+            "uk": "Архітектура"
+          }
+        },
+        {
+          "if": "artwork_type=mural",
+          "then": {
+            "en": "Mural",
+            "nl": "Muurschildering",
+            "fr": "Peinture murale",
+            "de": "Wandbild",
+            "it": "Murale",
+            "ru": "Фреска",
+            "ja": "壁画",
+            "zh_Hant": "壁畫",
+            "nb_NO": "Veggmaleri",
+            "id": "Mural",
+            "pt": "Mural",
+            "hu": "Falfestmény",
+            "pl": "Mural",
+            "es": "Mural",
+            "ca": "Mural",
+            "da": "Vægmaleri",
+            "cs": "Nástěnná malba",
+            "pa_PK": "کندھ چتر",
+            "pt_BR": "Mural",
+            "he": "ציור קיר",
+            "eu": "Murala",
+            "zh_Hans": "壁画",
+            "uk": "Мурал"
+          }
+        },
+        {
+          "if": "artwork_type=painting",
+          "then": {
+            "en": "Painting",
+            "nl": "Schilderij",
+            "fr": "Peinture",
+            "de": "Malerei",
+            "it": "Dipinto",
+            "ru": "Живопись",
+            "ja": "絵画",
+            "zh_Hant": "繪畫",
+            "nb_NO": "Maleri",
+            "id": "Lukisan",
+            "pt": "Pintura",
+            "hu": "Festmény",
+            "pl": "Obraz",
+            "es": "Pintura",
+            "ca": "Pintura",
+            "da": "Maleri",
+            "cs": "Malba",
+            "he": "ציור",
+            "eu": "Margolana",
+            "pt_BR": "Pintura",
+            "zh_Hans": "喷绘",
+            "uk": "Живопис"
+          }
+        },
+        {
+          "if": "artwork_type=sculpture",
+          "then": {
+            "en": "Sculpture",
+            "nl": "Beeldhouwwerk",
+            "fr": "Sculpture",
+            "de": "Skulptur",
+            "it": "Scultura",
+            "ru": "Скульптура",
+            "ja": "彫刻",
+            "zh_Hant": "雕塑",
+            "nb_NO": "Skulptur",
+            "id": "Patung",
+            "pt": "Escultura",
+            "hu": "Absztrakt szobor",
+            "pl": "Rzeźba",
+            "es": "Escultura",
+            "ca": "Escultura",
+            "da": "Skulptur",
+            "cs": "Plastika",
+            "pa_PK": "مورتی",
+            "pt_BR": "Escultura",
+            "he": "פיסול",
+            "eu": "Eskultura",
+            "zh_Hans": "雕塑",
+            "uk": "Скульптура"
+          }
+        },
+        {
+          "if": "artwork_type=statue",
+          "then": {
+            "en": "Statue",
+            "nl": "Standbeeld",
+            "fr": "Statue",
+            "de": "Statue",
+            "it": "Statua",
+            "ru": "Статуя",
+            "ja": "彫像",
+            "zh_Hant": "雕像",
+            "nb_NO": "Statue",
+            "pt": "Estátua",
+            "hu": "Szobor",
+            "pl": "Posąg",
+            "es": "Estatua",
+            "ca": "Estàtua",
+            "da": "Statue",
+            "cs": "Socha",
+            "pt_BR": "Estátua",
+            "he": "פסל",
+            "eu": "Estatua",
+            "zh_Hans": "雕像",
+            "uk": "Статуя"
+          }
+        },
+        {
+          "if": "artwork_type=bust",
+          "then": {
+            "en": "Bust",
+            "nl": "Buste",
+            "fr": "Buste",
+            "de": "Büste",
+            "it": "Busto",
+            "ru": "Бюст",
+            "ja": "胸像",
+            "zh_Hant": "半身像",
+            "nb_NO": "Byste",
+            "pt": "Busto",
+            "hu": "Mellszobor",
+            "pl": "Popiersie",
+            "es": "Busto",
+            "ca": "Bust",
+            "da": "Buste",
+            "cs": "Busta",
+            "pt_BR": "Busto",
+            "eu": "Bustoa",
+            "zh_Hans": "半身像",
+            "uk": "Бюст"
+          }
+        },
+        {
+          "if": "artwork_type=stone",
+          "then": {
+            "en": "Stone",
+            "nl": "Steen",
+            "fr": "Rocher",
+            "de": "Stein",
+            "it": "Masso",
+            "ru": "Камень",
+            "ja": "石",
+            "zh_Hant": "石頭",
+            "nb_NO": "Stein",
+            "id": "Batu",
+            "pt": "Pedra",
+            "hu": "Kő",
+            "pl": "Skała",
+            "ca": "Pedra",
+            "es": "Piedra",
+            "da": "Sten",
+            "pa_PK": "پتھر",
+            "cs": "Kámen",
+            "pt_BR": "Pedra",
+            "he": "אבן",
+            "eu": "Harria",
+            "zh_Hans": "石头",
+            "uk": "Камінь"
+          }
+        },
+        {
+          "if": "artwork_type=installation",
+          "then": {
+            "en": "Installation",
+            "nl": "Installatie",
+            "fr": "Installation",
+            "de": "Installation",
+            "it": "Istallazione",
+            "ru": "Инсталляция",
+            "ja": "インスタレーション",
+            "zh_Hant": "安裝",
+            "nb_NO": "Installasjon",
+            "id": "Instalasi",
+            "pt": "Instalação",
+            "hu": "Installáció",
+            "pl": "Instalacja artystyczna",
+            "es": "Instalación",
+            "ca": "Instal·lació",
+            "da": "Installation",
+            "cs": "Instalace",
+            "pt_BR": "Instalação",
+            "eu": "Instalazioa",
+            "zh_Hans": "设施",
+            "uk": "Інсталяція"
+          }
+        },
+        {
+          "if": "artwork_type=graffiti",
+          "then": {
+            "en": "Graffiti",
+            "nl": "Graffiti",
+            "fr": "Graffiti",
+            "de": "Graffiti",
+            "it": "Graffiti",
+            "ru": "Граффити",
+            "ja": "落書き",
+            "zh_Hant": "塗鴨",
+            "nb_NO": "Graffiti",
+            "id": "Graffiti",
+            "pt": "Grafite",
+            "hu": "Graffiti",
+            "pl": "Graffiti",
+            "es": "Grafiti",
+            "ca": "Grafiti",
+            "da": "Graffiti",
+            "cs": "Grafiti",
+            "eu": "Graffitia",
+            "pt_BR": "Grafite",
+            "zh_Hans": "涂鸦/粗糙雕刻",
+            "uk": "Графіті"
+          }
+        },
+        {
+          "if": "artwork_type=relief",
+          "then": {
+            "en": "Relief",
+            "nl": "Reliëf",
+            "fr": "Relief",
+            "de": "Relief",
+            "it": "Rilievo",
+            "ru": "Рельеф",
+            "ja": "レリーフ",
+            "zh_Hant": "寬慰",
+            "nb_NO": "Relieff",
+            "id": "Relief",
+            "pt": "Relevo",
+            "hu": "Dombormű",
+            "pl": "Płaskorzeźba",
+            "ca": "Relleu",
+            "es": "Relieve",
+            "da": "Relief",
+            "cs": "Reliéf",
+            "eu": "Erliebea",
+            "pt_BR": "Relevo",
+            "uk": "Рельєф"
+          }
+        },
+        {
+          "if": "artwork_type=azulejo",
+          "then": {
+            "en": "Azulejo (Spanish decorative tilework)",
+            "nl": "Azulejo (Spaanse siertegels)",
+            "fr": "Azulejo (faïence latine)",
+            "de": "Azulejo (spanische dekorative Fliesenarbeit)",
+            "it": "Azulejo (ornamento decorativo piastrellato spagnolo)",
+            "ru": "Азуле́жу (испанская роспись глазурованной керамической плитки)",
+            "ja": "Azulejo (スペインの装飾タイル)",
+            "zh_Hant": "Azulejo (西班牙雕塑作品名稱)",
+            "nb_NO": "Azulejo (Spansk dekorativt flisverk)",
+            "id": "Azulejo (ubin dekoratif Spanyol)",
+            "pt": "Azulejo (azulejo decorativo espanhol e português)",
+            "hu": "Azulejo (portugál vagy spanyol dekoratív csempe)",
+            "pl": "Azulejo (hiszpańskie płytka dekoracyjna)",
+            "es": "Azulejo (trabajo decorativo en azulejos español)",
+            "da": "Azulejo (spansk dekorativt flisebeklædning)",
+            "cs": "Azulejo (španělské dekorativní dlaždice)",
+            "ca": "Azulejo (Rajoles decoratives espanyoles i portugueses)",
+            "pt_BR": "Azulejo (Revestimento de azulejos decorativos espanhóis)",
+            "zh_Hans": "Azulejo（西班牙装饰瓷砖）",
+            "uk": "Азулехо (іспанська декоративна плитка)"
+          }
+        },
+        {
+          "if": "artwork_type=tilework",
+          "then": {
+            "en": "Tilework",
+            "nl": "Tegelwerk",
+            "fr": "Carrelage",
+            "de": "Fliesenarbeit",
+            "it": "Mosaico di piastrelle",
+            "ru": "Плитка (мозаика)",
+            "ja": "タイルワーク",
+            "zh_Hant": "瓷磚",
+            "nb_NO": "Flisarbeid",
+            "pt": "Ladrilhos",
+            "hu": "Csempe",
+            "pl": "Płyta ceramiczna (fliza)",
+            "ca": "Enrajolat",
+            "es": "Trabajo en azulejo",
+            "da": "flisebeklædning",
+            "cs": "Obklady a dlažba",
+            "he": "יצירת פסיפס",
+            "eu": "Keramika",
+            "pt_BR": "Azulejaria",
+            "uk": "Кахельна плитка"
+          }
+        },
+        {
+          "if": "artwork_type=woodcarving",
+          "then": {
+            "nl": "Houtsculptuur",
+            "en": "Woodcarving",
+            "de": "Holzschnitzerei",
+            "cs": "Dřevořezba",
+            "pt": "Entalhe em madeira",
+            "fr": "Sculpture sur bois",
+            "nb_NO": "Treskjæring",
+            "ca": "Tallat a la fusta",
+            "es": "Talla en madera",
+            "he": "גילוף בעץ",
+            "eu": "Egur taila",
+            "pl": "Rzeźbienie w drewnie",
+            "pt_BR": "Entalhe",
+            "it": "Scultura in legno",
+            "uk": "Різьба по дереву"
+          }
+        }
+      ],
+      "id": "artwork-artwork_type"
+    },
+    {
+      "id": "artwork-artist-wikidata",
+      "labels": [
+        "artwork-question"
+      ],
+      "render": {
+        "en": "This artwork was made by {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "de": "Dieses Kunstwerk wurde geschaffen von {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "nl": "Dit kunstwerk is gemaakt door {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "cs": "Toto dílo vytvořil {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "pt": "Esta obra de arte foi feita por {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "es": "Esta obra de arte fue hecha por {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "ca": "Aquesta obra d'art la va crear {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "fr": "Cette oeuvre a été crée par {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "pl": "To dzieło sztuki zostało zrobione przez {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "pt_BR": "Essa obra de arte foi feita por {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)}",
+        "zh_Hans": "此艺术作品由 {wikidata_label(artist:wikidata):font-weight:bold}<br/>{wikipedia(artist:wikidata)} 创建"
+      },
+      "question": {
+        "en": "Who made this artwork?",
+        "de": "Wer hat dieses Kunstwerk geschaffen?",
+        "nl": "Wie heeft dit kunstwerk gemaakt?",
+        "cs": "Kdo je autorem tohoto díla?",
+        "pt": "Quem fez essa obra de arte?",
+        "es": "¿Quién hizo esta obra de arte?",
+        "fr": "Qui a fait cette oeuvre d'art ?",
+        "ca": "Qui va crear aquesta obra d'art?",
+        "nb_NO": "Hvem laget dette kunstverket?",
+        "he": "מי יצר את היצירה הזו?",
+        "pl": "Kto stworzył to dzieło sztuki?",
+        "pt_BR": "Quem fez essa obra de arte?",
+        "zh_Hans": "这件艺术品是谁创作的？",
+        "uk": "Хто створив цю роботу?"
+      },
+      "freeform": {
+        "key": "artist:wikidata",
+        "type": "wikidata",
+        "helperArgs": [
+          "artist_name",
+          {
+            "instanceOf": [
+              "Q5"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "question": {
+        "en": "Which artist created this?",
+        "nl": "Welke kunstenaar creëerde dit kunstwerk?",
+        "fr": "Quel artiste a créé cette œuvre ?",
+        "de": "Wer hat das Kunstwerk erschaffen?",
+        "it": "Quale artista ha creato quest’opera?",
+        "ru": "Какой художник создал это?",
+        "ja": "どのアーティストが作ったんですか?",
+        "zh_Hant": "創造這個的藝術家是誰？",
+        "nb_NO": "Hvilken artist lagde dette?",
+        "id": "Seniman mana yang menciptakan ini?",
+        "pt": "Que artista criou isto?",
+        "hu": "Melyik művész alkotása ezt?",
+        "pl": "Który artysta to stworzył?",
+        "es": "¿Qué artista lo creó?",
+        "da": "Hvilken kunstner har lavet dette?",
+        "cs": "Který umělec to vytvořil?",
+        "ca": "Quin artista va crear açò?",
+        "pt_BR": "Que artista criou isto?",
+        "he": "איזה אמן יצר את זה?",
+        "zh_Hans": "这是哪位艺术家创作的？"
+      },
+      "render": {
+        "en": "Created by {artist_name}",
+        "nl": "Gecreëerd door {artist_name}",
+        "fr": "Créé par {artist_name}",
+        "de": "Erstellt von {artist_name}",
+        "it": "Creato da {artist_name}",
+        "ru": "Создано {artist_name}",
+        "ja": "作成者:{artist_name}",
+        "zh_Hant": "{artist_name} 創作",
+        "nb_NO": "Laget av {artist_name}",
+        "id": "Dibuat oleh {artist_name}",
+        "pt": "Criado por {artist_name}",
+        "hu": "Alkotó: {artist_name}",
+        "pl": "Stworzone przez {artist_name}",
+        "es": "Creado por {artist_name}",
+        "da": "Lavet af {artist_name}",
+        "cs": "Vytvořil {artist_name}",
+        "ca": "Creat per {artist_name}",
+        "he": "נוצר על ידי {artist_name}",
+        "pt_BR": "Criado por {artist_name}",
+        "zh_Hans": "由{artist_name}创建"
+      },
+      "freeform": {
+        "key": "artist_name"
+      },
+      "condition": {
+        "and": [
+          "artist:wikidata="
+        ]
+      },
+      "id": "artwork-artist_name",
+      "labels": [
+        "artwork-question"
+      ]
+    },
+    {
+      "question": {
+        "en": "Is there a website with more information about this artwork?",
+        "nl": "Is er een website met meer informatie over dit kunstwerk?",
+        "fr": "Existe-t-il un site web où trouver plus d'informations sur cette œuvre d'art ?",
+        "de": "Auf welcher Webseite gibt es weitere Informationen zum Kunstwerk?",
+        "it": "Esiste un sito web con maggiori informazioni su quest’opera?",
+        "ru": "Есть ли сайт с более подробной информацией об этой работе?",
+        "ja": "この作品についての詳しい情報はどのウェブサイトにありますか?",
+        "zh_Hant": "在那個網站能夠找到更多藝術品的資訊？",
+        "nb_NO": "Finnes det en nettside med mer info om dette kunstverket?",
+        "id": "Adakah situs web mengenai informasi lebih lanjut tentang karya seni ini?",
+        "pt": "Existe um site com mais informações sobre esta obra de arte?",
+        "hu": "Van-e olyan honlap, amely további információkat tartalmaz erről a műalkotásról?",
+        "pl": "Gdzie znajdę więcej informacji na temat tego dzieła sztuki?",
+        "es": "¿Hay un sitio web con más información sobre esta obra de arte?",
+        "da": "Er der et websted med mere information om dette kunstværk?",
+        "cs": "Existuje webová stránka s dalšími informacemi o tomto uměleckém díle?",
+        "ca": "Hi ha un lloc web amb més informació sobre aquesta obra d'art?",
+        "he": "האם יש אתר אינטרנט עם מידע נוסף על היצירה הזו?",
+        "pt_BR": "Há um website com mais informações sobre essa arte?"
+      },
+      "render": {
+        "special": {
+          "type": "link",
+          "href": "{website}",
+          "text": {
+            "en": "More information on this website",
+            "nl": "Meer informatie op deze website",
+            "fr": "Plus d'info sûr ce site web",
+            "de": "Weitere Informationen auf dieser Webseite",
+            "id": "Info lanjut tersedia di laman web ini",
+            "it": "Ulteriori informazioni su questo sito web",
+            "ru": "Больше информации на этом сайте",
+            "ja": "Webサイトに詳細情報がある",
+            "zh_Hant": "這個網站有更多資訊",
+            "nb_NO": "Mer info er å finne på denne nettsiden",
+            "pt": "Mais informações neste site",
+            "hu": "További információ ezen a weboldalon",
+            "pl": "Więcej informacji na tej stronie",
+            "es": "Más información en este sitio web",
+            "da": "Yderligere oplysninger på  dette websted",
+            "cs": "Více informací na této webové stránce",
+            "ca": "Més informació a aquesta pàgina web",
+            "pt_BR": "Mais informações nesse website"
+          }
+        }
+      },
+      "freeform": {
+        "key": "website",
+        "type": "url",
+        "addExtraTags": [
+          "url="
+        ]
+      },
+      "id": "artwork-website",
+      "labels": [
+        "artwork-question"
+      ],
+      "pl": {
+        "mappings": {
+          "0": {
+            "then": "To dzieło sztuki pełni również funkcję ławki"
+          },
+          "1": {
+            "then": "To dzieło sztuki nie pełni funkcji ławki"
+          },
+          "2": {
+            "then": "To dzieło sztuki nie pełni funkcji ławki"
+          }
+        },
+        "question": "Czy to dzieło sztuki pełni funkcję ławki?"
+      }
+    },
+    "wikipedia",
+    {
+      "id": "artwork_subject",
+      "condition": {
+        "and": [
+          "subject:wikidata~*"
+        ]
+      },
+      "question": {
+        "en": "What does this artwork depict?",
+        "de": "Was zeigt dieses Kunstwerk?",
+        "nl": "Wat beeldt dit kunstwerk af?",
+        "cs": "Co zobrazuje toto umělecké dílo?",
+        "pt": "O que esta obra de arte representa?",
+        "es": "¿Qué representa esta obra de arte?",
+        "fr": "Que représente cette oeuvre d'art ?",
+        "ca": "Què representa aquesta obra d'art?",
+        "he": "מה מתארת היצירה הזו?",
+        "pl": "Co przedstawia to dzieło sztuki?",
+        "pt_BR": "O que esta obra de arte representa?",
+        "it": "Che cosa rappresenta quest'opera d'arte?"
+      },
+      "freeform": {
+        "key": "subject:wikidata",
+        "type": "wikidata"
+      },
+      "render": {
+        "en": "This artwork depicts {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "de": "Das Kunstwerk zeigt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "nl": "Dit kunstwerk beeldt {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)} af",
+        "cs": "Toto dílo zobrazuje {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "pt": "A obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "es": "Esta obra de arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "nb_NO": "Dette kunstverket viser {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "ca": "Aquesta obra d'art representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "fr": "Cette œuvre dépeint {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "pl": "To dzieło sztuki przedstawia {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "pt_BR": "Essa arte representa {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}",
+        "it": "Quest'opera d'arte rappresenta {wikidata_label(subject:wikidata)}{wikipedia(subject:wikidata)}"
+      },
+      "labels": [
+        "artwork-question"
+      ]
+    },
+    {
+      "id": "doubles_as_memorial",
+      "question": {
+        "en": "Does this artwork serve as a memorial?",
+        "de": "Dient dieses Kunstwerk als Mahnmal?",
+        "fr": "Cet œuvre a-t-elle un rôle de mémorial ?",
+        "cs": "Slouží toto dílo jako památník?",
+        "es": "¿Esta obra de arte sirve como monumento?",
+        "uk": "Чи слугує ця робота меморіалом?"
+      },
+      "mappings": [
+        {
+          "if": "historic=memorial",
+          "then": {
+            "en": "This artwork also serves as a memorial",
+            "de": "Dieses Kunstwerk dient auch als Mahnmal",
+            "ca": "Aquesta obra d'art també serveix com a memorial",
+            "fr": "Cette œuvre est un mémorial",
+            "cs": "Toto dílo slouží také jako památník",
+            "es": "Esta obra de arte también sirve como monumento",
+            "uk": "Цей витвір мистецтва також слугує меморіалом"
+          }
+        },
+        {
+          "if": "historic=",
+          "alsoShowIf": "historic!=memorial",
+          "then": {
+            "en": "This artwork does not serve as a memorial",
+            "de": "Dieses Kunstwerk dient nicht als Denkmal",
+            "uk": "Ця робота не є меморіалом",
+            "cs": "Toto umělecké dílo neslouží jako památník",
+            "es": "Esta obra de arte no sirve como monumento"
+          }
+        }
+      ]
+    },
+    {
+      "builtin": "memorial.memorial-questions",
+      "override": {
+        "condition": {
+          "and+": [
+            "historic=memorial"
+          ]
+        }
+      }
+    },
+    {
+      "id": "doubles_as_bench",
+      "question": {
+        "en": "Does this artwork serve as a bench?",
+        "de": "Dient dieses Kunstwerk auch als Sitzbank?",
+        "fr": "Cette oeuvre d'art sert-elle de banc ?",
+        "nl": "Is dit kunstwerk ook een zitbank?",
+        "nb_NO": "Tjener dette kunstverket funksjonen som benk?",
+        "ca": "Aquesta obra d'art serveix com a un banc?",
+        "cs": "Slouží toto umělecké dílo jako lavička?",
+        "he": "האם היצירה הזו משמשת כספסל?",
+        "pl": "Czy to dzieło sztuki pełni funkcję ławki?",
+        "pt_BR": "Essa obra de arte serve como banco?",
+        "es": "¿Esta obra de arte sirve como banco?",
+        "pt": "Esta obra de arte serve como banco?",
+        "it": "Quest'opera d'arte funge da panchina?",
+        "uk": "Чи слугує ця робота лавкою?"
+      },
+      "mappings": [
+        {
+          "if": "amenity=bench",
+          "then": {
+            "en": "This artwork also serves as a bench",
+            "de": "Dieses Kunstwerk dient auch als Sitzbank",
+            "fr": "Cette oeuvre d'art sert aussi de banc",
+            "nl": "Dit kunstwerk doet ook dienst als zitbank",
+            "ca": "Aquesta obra d'art també serveix com a banc",
+            "cs": "Toto umělecké dílo slouží také jako lavička",
+            "he": "יצירה זו משמשת גם כספסל",
+            "pl": "To dzieło sztuki pełni również funkcję ławki",
+            "pt_BR": "Essa obra de arte também serve como banco",
+            "es": "Esta obra de arte también sirve como banco",
+            "pt": "Esta obra de arte também serve como banco",
+            "it": "Quest'opera d'arte funge anche da panchina",
+            "uk": "Цей витвір мистецтва також слугує лавкою"
+          }
+        },
+        {
+          "if": "amenity=",
+          "then": {
+            "en": "This artwork does not serve as a bench",
+            "de": "Dieses Kunstwerk dient nicht als Sitzbank",
+            "fr": "Cette oeuvre d'art ne sert pas de banc",
+            "nl": "Dit kunstwerk doet geen dienst als zitbank",
+            "nb_NO": "Dette kunstverket tjener ikke funksjonen som benk",
+            "ca": "Aquesta obra d'art no serveix com a banc",
+            "cs": "Toto umělecké dílo neslouží jako lavička",
+            "he": "יצירה זו אינה משמשת כספסל",
+            "pl": "To dzieło sztuki nie pełni funkcji ławki",
+            "pt_BR": "Essa obra de arte não serve como banco",
+            "es": "Esta obra de arte no sirve como banco",
+            "pt": "Esta obra de arte não serve como banco",
+            "it": "Quest'opera d'arte non funge anche da panchina",
+            "uk": "Цей витвір мистецтва не слугує лавкою"
+          }
+        },
+        {
+          "if": "amenity!=bench",
+          "then": {
+            "en": "This artwork does not serve as a bench",
+            "de": "Dieses Kunstwerk dient nicht als Sitzbank",
+            "fr": "Cette oeuvre d'art ne sert pas de banc",
+            "nl": "Dit kunstwerk doet geen dienst als zitbank",
+            "nb_NO": "Dette kunstverket tjener ikke den hensikten å være en benk",
+            "ca": "Aquesta obra d'art no serveix com a un banc",
+            "cs": "Toto umělecké dílo neslouží jako lavička",
+            "he": "יצירה זו אינה משמשת כספסל",
+            "pl": "To dzieło sztuki nie pełni funkcji ławki",
+            "pt_BR": "Essa obra de arte não serve como banco",
+            "es": "Esta obra de arte no sirve como banco",
+            "pt": "Esta obra de arte não serve como banco",
+            "it": "Quest'opera d'arte non funge anche da panchina"
+          },
+          "hideInAnswer": true
+        }
+      ]
+    },
+    {
+      "builtin": "bench.bench-questions",
+      "override": {
+        "condition": {
+          "and+": [
+            "amenity=bench"
+          ]
+        }
+      }
+    }
+  ],
+  "filter": [
+    "has_image",
+    "artwork-artwork_type"
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "razed:tourism=artwork",
+        "tourism="
+      ]
+    },
+    "neededChangesets": 5
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuracy": true
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "vending_machine",
+  "title": {
+    "en": "Vending Machines",
+    "nl": "Verkoopautomaten",
+    "de": "Verkaufsautomaten",
+    "fr": "Distributeurs",
+    "ca": "Màquines expenedores",
+    "cs": "Prodejní automaty",
+    "es": "Máquinas expendedoras",
+    "pl": "Automaty sprzedające",
+    "zh_Hant": "自動販賣機",
+    "da": "Salgsautomater",
+    "it": "Distributori automatici",
+    "ru": "Торговые автоматы",
+    "hu": "Árusító automaták",
+    "uk": "Торгові автомати"
+  },
+  "description": {
+    "en": "Find vending machines for everything",
+    "nl": "Vind verkoopautomaten voor alles",
+    "de": "Finde Verkaufautomaten für Alles",
+    "fr": "Trouver tous les distributeurs",
+    "ca": "Troba màquines expenedores per a tot",
+    "cs": "Najít prodejní automaty na vše",
+    "es": "Encuentra máquinas expendedoras de todo",
+    "pl": "Znajdź wszelakie automaty sprzedające",
+    "it": "Trova distributori automatici per ogni cosa",
+    "uk": "Знайдіть торгові автомати для всього"
+  },
+  "icon": "./assets/layers/vending_machine/vending_machine.svg",
+  "startZoom": 19,
+  "startLat": 53.21102,
+  "startLon": 6.56511,
+  "layers": [
+    "vending_machine",
+    {
+      "builtin": "vending_machine",
+      "override": {
+        "id": "all_vending_machine",
+        "name": null,
+        "isCounted": false,
+        "filter": {
+          "sameAs": "vending_machine"
+        },
+        "minzoom": 18,
+        "=presets": [],
+        "source": {
+          "osmTags": {
+            "and": [
+              "amenity=vending_machine",
+              "vending!~(parking_tickets|elongated_coin|public_transport_tickets)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "builtin": "parking_ticket_machine",
+      "override": {
+        "isCounted": false,
+        "name": null,
+        "minzoom": 18
+      }
+    },
+    {
+      "builtin": "elongated_coin",
+      "override": {
+        "isCounted": false,
+        "name": null,
+        "minzoom": 18
+      }
+    },
+    {
+      "builtin": "ticket_machine",
+      "override": {
+        "isCounted": false,
+        "name": null,
+        "minzoom": 18
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "stripclub",
+  "name": {
+    "en": "Stripclubs",
+    "de": "Stripclubs",
+    "es": "Stripclubs"
+  },
+  "description": {
+    "en": "A venue where erotic dance, striptease, or lap dances are performed commercially. ",
+    "de": "Ein Ort, an dem erotische Tanz-, Striptease- oder Lapdances kommerziell durchgeführt werden. ",
+    "es": "Un local donde se realizan bailes eróticos, striptease o bailes en el regazo de forma comercial. "
+  },
+  "source": {
+    "osmTags": "amenity=stripclub"
+  },
+  "minzoom": 6,
+  "title": {
+    "render": {
+      "en": "Stripclub",
+      "de": "Stripclub",
+      "es": "Club de striptease"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "*": "{name}"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "ring",
+          "color": "#be57b4ff"
+        }
+      ]
+    },
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "./assets/layers/stripclub/stripclub.svg"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a stripclub",
+        "de": "ein Stripclub",
+        "es": "un club de striptease"
+      },
+      "tags": [
+        "amenity=stripclub"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "reviews",
+    {
+      "multiAnswer": false,
+      "id": "name",
+      "freeform": {
+        "inline": false,
+        "key": "name"
+      },
+      "question": {
+        "en": "What is the name of this stripclub?",
+        "de": "Wie lautet der Name des Stripclubs?",
+        "es": "¿Cuál es el nombre de este club de striptease?"
+      },
+      "render": {
+        "en": "This stripclub is named <b>{name}</b>",
+        "de": "Der Name des Stripclubs lautet <b>{name}</b>",
+        "es": "Este club de striptease se llama <b>{name}</b>"
+      }
+    },
+    "opening_hours",
+    "contact"
+  ],
+  "allowMove": true,
+  "enableMorePrivacy": true
+}

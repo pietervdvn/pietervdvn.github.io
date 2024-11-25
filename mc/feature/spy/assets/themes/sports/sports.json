@@ -1,0 +1,103 @@
+{
+  "id": "sports",
+  "title": {
+    "en": "Sports",
+    "nl": "Sport",
+    "de": "Sport",
+    "pa_PK": "کھیڈاں",
+    "fr": "Sports",
+    "ca": "Esports",
+    "es": "Deportes",
+    "cs": "Sport",
+    "zh_Hant": "運動",
+    "eu": "Kirolak",
+    "pl": "Sporty",
+    "it": "Sport",
+    "ru": "Спортивные объекты",
+    "hu": "Sporttérkép",
+    "uk": "Спорт"
+  },
+  "description": {
+    "en": "All about sports, find sport pitches, fitness centres and more.",
+    "nl": "Alles over sport: vind sportvelden, fitnesscentra en meer.",
+    "de": "Alles über Sport. Finden Sie Sportplätze, Fitnesscenter und vieles mehr.",
+    "ca": "Tot sobre esports, troba camps d'esport, gimnasos i molt més.",
+    "es": "Todo sobre deportes, encuentra canchas deportivas, centros de fitness y más.",
+    "cs": "Vše o sportu, sportovní hřiště, fitness centra a další.",
+    "fr": "Tout sur les sports, trouver les terrains de sport, les salles de sport et plus encore.",
+    "pl": "Wszystko o sporcie, znajdź boiska sportowe, centra fitness i nie tylko.",
+    "it": "Tutto sullo sport, trova campi sportivi, centri fitness e molto altro."
+  },
+  "shortDescription": {
+    "en": "Map showing sport facilities.",
+    "nl": "Kaart met sportfaciliteiten.",
+    "de": "Karte mit Sporteinrichtungen.",
+    "fr": "Carte des équipements sportifs.",
+    "ca": "Mapa amb instal·lacions esportives.",
+    "es": "Mapa que muestra instalaciones deportivas.",
+    "cs": "Mapa se sportovními zařízeními.",
+    "zh_Hant": "顯示運動設施的地圖。",
+    "pl": "Mapa pokazująca obiekty sportowe.",
+    "it": "Mappa che mostra gli impianti sportivi.",
+    "uk": "Мапа спортивних обʼєктів."
+  },
+  "icon": "./assets/themes/sports/sport.svg",
+  "layers": [
+    "sport_pitch",
+    "fitness_centre",
+    "fitness_station",
+    "sports_centre",
+    {
+      "builtin": "shops",
+      "override": {
+        "id": "sport_shops",
+        "source": {
+          "osmTags": {
+            "and": [
+              "shop=sports"
+            ]
+          }
+        },
+        "presets": [
+          {
+            "tags": [
+              "shop=sports"
+            ],
+            "title": {
+              "en": "a sports shop",
+              "nl": "een sportwinkel",
+              "de": "ein Sportgeschäft",
+              "ca": "una tenda d'esports",
+              "es": "una tienda de artículos deportivos",
+              "cs": "sportovní obchod",
+              "zh_Hant": "運動用品店",
+              "fr": "une boutique de sport",
+              "pl": "sklep sportowy"
+            },
+            "description": {
+              "en": "Add a new shop selling sports goods.",
+              "nl": "Voeg een nieuwe winkel toe die sportartikelen verkoopt.",
+              "de": "Ein neues Geschäft für Sportartikel hinzufügen.",
+              "fr": "Ajouter un nouveau commerce vendant des équipements sportifs.",
+              "ca": "Afegeix una nova botiga d'articles esportius.",
+              "es": "Agregar una nueva tienda que venda artículos deportivos.",
+              "cs": "Přidejte nový obchod se sportovním zbožím.",
+              "pl": "Dodaj nowy sklep sprzedający artykuły sportowe."
+            }
+          }
+        ],
+        "minzoom": 12,
+        "pointRendering": [
+          {
+            "marker": [
+              {},
+              {
+                "icon": "./assets/layers/id_presets/maki-shop.svg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

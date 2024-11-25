@@ -1,0 +1,899 @@
+{
+  "id": "crossings",
+  "name": {
+    "en": "Crossings",
+    "nl": "Oversteekplaatsen",
+    "de": "Kreuzungen",
+    "fr": "Traversée",
+    "ca": "Encreuaments",
+    "da": "Overgange",
+    "es": "Cruces",
+    "pa_PK": "کراسنگاں",
+    "cs": "Přechody"
+  },
+  "description": {
+    "en": "Crossings for pedestrians and cyclists",
+    "nl": "Oversteekplaatsen voor voetgangers en fietsers",
+    "de": "Übergänge für Fußgänger und Radfahrer",
+    "fr": "Traversée pour piétons et cyclistes",
+    "da": "Overgange for fodgængere og cyklister",
+    "es": "Cruces para peatones y ciclistas",
+    "ca": "Creuaments per a vianants i ciclistes",
+    "cs": "Přechody pro chodce a cyklisty"
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "highway=traffic_signals",
+        "highway=crossing"
+      ]
+    }
+  },
+  "minzoom": 17,
+  "title": {
+    "render": {
+      "en": "Crossing",
+      "nl": "Oversteekplaats",
+      "de": "Kreuzung",
+      "fr": "Traversée",
+      "ca": "Encreuament",
+      "es": "Cruce",
+      "pa_PK": "کراسنگ",
+      "cs": "Přechod"
+    },
+    "mappings": [
+      {
+        "if": "highway=traffic_signals",
+        "then": {
+          "en": "Traffic signal",
+          "nl": "Verkeerslicht",
+          "ru": "Светофор",
+          "de": "Ampel",
+          "fr": "Feu de signalisation",
+          "ca": "Semàfor",
+          "es": "Semáforo",
+          "cs": "Semafor"
+        }
+      },
+      {
+        "if": "crossing=traffic_signals",
+        "then": {
+          "en": "Crossing with traffic signals",
+          "nl": "Oversteekplaats met verkeerslichten",
+          "de": "Kreuzung mit Ampeln",
+          "fr": "Traversée avec feu de signalisation",
+          "es": "Cruce con semáforos",
+          "ca": "Creuament amb semàfors",
+          "cs": "Přechod se světelnou signalizací"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "marker": [
+        {
+          "icon": {
+            "render": "./assets/layers/crossings/pedestrian_crossing.svg",
+            "mappings": [
+              {
+                "if": {
+                  "or": [
+                    "highway=traffic_signals",
+                    "crossing=traffic_signals"
+                  ]
+                },
+                "then": "./assets/layers/crossings/traffic_lights.svg"
+              }
+            ]
+          }
+        }
+      ],
+      "location": [
+        "point"
+      ],
+      "anchor": "center"
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": "5"
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a crossing",
+        "nl": "een oversteekplaats",
+        "de": "eine Kreuzung",
+        "fr": "une traversée",
+        "ca": "un creuament",
+        "da": "en overgang",
+        "es": "un cruce",
+        "cs": "přechod"
+      },
+      "tags": [
+        "highway=crossing"
+      ],
+      "description": {
+        "en": "Crossing for pedestrians and/or cyclists",
+        "nl": "Oversteekplaats voor voetgangers en/of fietsers",
+        "de": "Kreuzung für Fußgänger und/oder Radfahrer",
+        "fr": "Traversée pour piétons et/ou cyclistes",
+        "da": "Overgang for fodgængere og/eller cyklister",
+        "es": "Cruce para peatones y/o ciclistas",
+        "ca": "Creuament per a vianants i/o ciclistes",
+        "cs": "Přechod pro chodce a/nebo cyklisty"
+      },
+      "snapToLayer": [
+        "cycleways_and_roads"
+      ],
+      "maxSnapDistance": 25
+    },
+    {
+      "title": {
+        "en": "a traffic signal",
+        "nl": "een verkeerslicht",
+        "ru": "Светофор",
+        "de": "eine Ampel",
+        "fr": "une feu de signalisation",
+        "da": "et trafiksignal",
+        "es": "un semáforo",
+        "ca": "un semàfor",
+        "cs": "semafor"
+      },
+      "tags": [
+        "highway=traffic_signals"
+      ],
+      "description": {
+        "en": "Traffic signal on a road",
+        "nl": "Verkeerslicht op een weg",
+        "de": "Ampel an einer Straße",
+        "fr": "Feu de signalisation sur la voie",
+        "da": "Trafiksignal på en vej",
+        "es": "Semáforo en una carretera",
+        "ca": "Semàfor en una carretera",
+        "cs": "Semafor na silnici"
+      },
+      "snapToLayer": [
+        "cycleways_and_roads"
+      ],
+      "maxSnapDistance": 25
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "id": "crossing-type",
+      "question": {
+        "en": "What kind of crossing is this?",
+        "nl": "Wat voor oversteekplaats is dit?",
+        "de": "Was ist das für eine Kreuzung?",
+        "es": "¿Qué tipo de cruce es este?",
+        "fr": "Quel type de passage piéton est-ce ?",
+        "ca": "Quin tipus de creuament és aquest?",
+        "cs": "Co je to za přechod?"
+      },
+      "condition": "highway=crossing",
+      "mappings": [
+        {
+          "if": "crossing=uncontrolled",
+          "then": {
+            "en": "Crossing, without traffic lights",
+            "nl": "Oversteekplaats, zonder verkeerslichten",
+            "de": "Kreuzungen ohne Ampeln",
+            "es": "Cruce, sin semáforos",
+            "fr": "Passage piéton, sans feux de signalisation",
+            "ca": "Creuament, sense semàfors",
+            "cs": "Přechod bez světelné signalizace"
+          }
+        },
+        {
+          "if": "crossing=traffic_signals",
+          "then": {
+            "en": "Crossing with traffic signals",
+            "nl": "Oversteekplaats met verkeerslichten",
+            "de": "Kreuzungen mit Ampeln",
+            "es": "Cruce con semáforos",
+            "fr": "Passage piéton avec des feux de signalisation",
+            "ca": "Creuament amb semàfors",
+            "cs": "Přechod se světelnou signalizací"
+          }
+        },
+        {
+          "if": "crossing=zebra",
+          "then": {
+            "en": "Zebra crossing",
+            "nl": "Zebrapad",
+            "de": "Zebrastreifen",
+            "ca": "Pas de zebra",
+            "es": "Paso de peatones",
+            "fr": "Passage piéton",
+            "cs": "Zebra přechod"
+          },
+          "hideInAnswer": true
+        },
+        {
+          "if": "crossing=unmarked",
+          "then": {
+            "en": "Crossing without crossing markings",
+            "nl": "Oversteekplaats zonder kruispuntmarkeringen",
+            "de": "Kreuzung ohne Kreuzungsmarkierungen",
+            "es": "Cruce sin marcas de cruce",
+            "fr": "Passage piéton sans marquages",
+            "ca": "Creuament sense senyalitzar",
+            "cs": "Přechod bez označení přechodu"
+          },
+          "hideInAnswer": true
+        }
+      ]
+    },
+    {
+      "id": "markings",
+      "question": {
+        "en": "What kind of markings does this crossing have?",
+        "nl": "Wat voor markering heeft deze oversteekplaats?",
+        "de": "Welche Art von Markierungen gibt es an diesem Übergang?"
+      },
+      "mappings": [
+        {
+          "if": "crossing:markings=no",
+          "then": {
+            "en": "This crossing has no markings",
+            "nl": "Deze oversteekplaats heeft geen markeringen",
+            "de": "Diese Kreuzung hat keine Markierungen"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/crossing_unmarked.png"
+          }
+        },
+        {
+          "if": "crossing:markings=zebra",
+          "then": {
+            "en": "This crossing has zebra markings",
+            "nl": "Deze oversteekplaats heeft een zebramarkering",
+            "de": "Dieser Übergang ist mit Zebrastreifen markiert"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_zebra.png"
+          }
+        },
+        {
+          "hideInAnswer": true,
+          "then": {
+            "en": "This crossing has markings of an unknown type",
+            "nl": "Deze oversteekplaats heeft markeringen van een onbekend type",
+            "de": "Dieser Übergang weist Markierungen unbekannter Art auf"
+          },
+          "if": "crossing:markings=yes"
+        },
+        {
+          "if": "crossing:markings=lines",
+          "then": {
+            "en": "This crossings has lines on either side of the crossing",
+            "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats",
+            "de": "Dieser Übergang hat Linien auf beiden Seiten des Übergangs"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_lines.png"
+          }
+        },
+        {
+          "if": "crossing:markings=ladder",
+          "then": {
+            "en": "This crossing has lines on either side of the crossing, along with bars connecting them",
+            "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats, met strepen die ze verbinden",
+            "de": "Diese Kreuzung hat Linien auf beiden Seiten der Kreuzung, zusammen mit Stangen, die sie verbinden"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_ladder.png"
+          }
+        },
+        {
+          "if": "crossing:markings=dashes",
+          "then": {
+            "en": "This crossing has dashed lines on either sides of the crossing",
+            "nl": "Deze oversteekplaats heeft onderbroken lijnen aan beide kanten van de oversteekplaats",
+            "de": "Dieser Übergang hat gestrichelte Linien auf beiden Seiten des Übergangs"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_dashes.png"
+          }
+        },
+        {
+          "if": "crossing:markings=dots",
+          "then": {
+            "en": "This crossing has dotted lines on either sides of the crossing",
+            "nl": "Deze oversteekplaats heeft stippellijnen aan beide kanten van de oversteekplaats",
+            "de": "Dieser Übergang hat gestrichelte Linien auf beiden Seiten des Übergangs"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_dots.png"
+          }
+        },
+        {
+          "if": "crossing:markings=surface",
+          "then": {
+            "en": "This crossing is marked by using a different coloured surface",
+            "nl": "Deze oversteekplaats is gemarkeerd door een anders gekleurd wegdek",
+            "de": "Dieser Übergang wird durch eine andersfarbige Oberfläche gekennzeichnet"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_surface.png"
+          }
+        },
+        {
+          "if": "crossing:markings=ladder:skewed",
+          "then": {
+            "en": "This crossing has lines on either side of the crossing, along with angled bars connecting them",
+            "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats, met schuine strepen die ze verbinden",
+            "de": "Diese Kreuzung hat Linien auf beiden Seiten der Kreuzung, zusammen mit abgewinkelten Stangen, die sie verbinden"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_ladder_skewed.png"
+          }
+        },
+        {
+          "if": "crossing:markings=zebra:paired",
+          "then": {
+            "en": "This crossing has zebra markings with an interruption in every bar",
+            "nl": "Deze oversteekplaats heeft zebramarkeringen met een onderbreking van elke streep",
+            "de": "Dieser Übergang hat Zebrastreifen mit einer Unterbrechung in jedem Balken"
+          }
+        },
+        {
+          "if": "crossing:markings=zebra:bicolour",
+          "then": {
+            "en": "This crossing has zebra markings in alternating colours",
+            "nl": "Deze oversteekplaats heeft een zebramarkering in afwisselende kleuren",
+            "de": "Dieser Übergang hat Zebrastreifen in wechselnden Farben"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_zebra_bicolour.png"
+          }
+        },
+        {
+          "if": "crossing:markings=zebra:double",
+          "then": {
+            "en": "This crossing has double zebra markings",
+            "nl": "Deze oversteekplaats heeft een dubbele zebramarkering",
+            "de": "Dieser Übergang hat doppelte Zebrastreifen"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_zebra_double.png"
+          }
+        },
+        {
+          "if": "crossing:markings=pictograms",
+          "then": {
+            "en": "This crossing has pictograms on the road",
+            "nl": "Deze oversteekplaats heeft pictogrammen op de weg",
+            "de": "Diese Kreuzung hat Piktogramme auf der Straße"
+          }
+        },
+        {
+          "if": "crossing:markings=ladder:paired",
+          "then": {
+            "en": "This crossing has lines on either side of the crossing, along with bars connecting them, with an interruption in every bar",
+            "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats, met strepen die ze verbinden, met een onderbreking van elke streep",
+            "de": "Diese Kreuzung hat Linien auf beiden Seiten der Kreuzung und Balken, die sie verbinden, mit einer Unterbrechung in jedem Balken"
+          }
+        },
+        {
+          "if": "crossing:markings=lines:paired",
+          "then": {
+            "en": "This crossing has double lines on either side of the crossing",
+            "nl": "Deze oversteekplaats heeft dubbele lijnen aan beide kanten van de oversteekplaats",
+            "de": "Dieser Übergang hat doppelte Linien auf beiden Seiten des Übergangs"
+          },
+          "icon": {
+            "class": "large",
+            "path": "./assets/layers/crossings/markings_lines_paired.png"
+          }
+        }
+      ],
+      "render": {
+        "en": "This crossing has {crossing:markings} markings",
+        "nl": "Deze oversteekplaats heeft {crossing:markings} markeringen",
+        "de": "Dieser Übergang hat {crossing:markings} Markierungen"
+      },
+      "freeform": {
+        "key": "crossing:markings",
+        "type": "string",
+        "addExtraTags": [
+          "fixme=Free-form value used in MapComplete for crossing:markings"
+        ]
+      },
+      "multiAnswer": true
+    },
+    {
+      "id": "crossing-bicycle-allowed",
+      "question": {
+        "en": "Is this crossing also for bicycles?",
+        "nl": "Is deze oversteekplaats ook voor fietsers",
+        "de": "Können Radfahrer diese Kreuzung nutzen?",
+        "da": "Er denne overgang også for cykler?",
+        "es": "¿Este cruce también es para bicicletas?",
+        "ca": "Aquest creuament també és per a ciclistes?",
+        "fr": "Est-ce que ce passage est également pour les vélos ?",
+        "cs": "Je tento přechod i pro kola?"
+      },
+      "condition": "highway=crossing",
+      "mappings": [
+        {
+          "if": "bicycle=yes",
+          "then": {
+            "en": "A cyclist can use this crossing",
+            "nl": "Een fietser kan deze oversteekplaats gebruiken",
+            "de": "Radfahrer können diese Kreuzung nutzen",
+            "da": "En cyklist kan benytte denne overgang",
+            "es": "Un ciclista puede usar este cruce",
+            "ca": "Un ciclista pot utilitzar aquest creuament",
+            "fr": "Un cycliste peut utiliser ce passage",
+            "cs": "Cyklista může tento přechod využít"
+          }
+        },
+        {
+          "if": "bicycle=no",
+          "then": {
+            "en": "A cyclist can not use this crossing",
+            "nl": "Een fietser kan deze oversteekplaats niet gebruiken",
+            "de": "Radfahrer können diese Kreuzung nicht nutzen",
+            "da": "En cyklist kan ikke benytte denne overgang",
+            "es": "Un ciclista no puede usar este cruce",
+            "ca": "Un ciclista no pot utilitzar aquest creuament",
+            "fr": "Un cycliste ne peut pas utiliser ce passage",
+            "cs": "Cyklista nemůže tento přechod použít"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-has-island",
+      "question": {
+        "en": "Does this crossing have an island in the middle?",
+        "nl": "Heeft deze oversteekplaats een verkeerseiland in het midden?",
+        "de": "Gibt es an diesem Übergang eine Verkehrsinsel?",
+        "es": "¿Este cruce tiene una isla en el medio?",
+        "fr": "Est-ce que ce passage a un refuge au milieu ?",
+        "ca": "Aquest creuament té una illa al mig?",
+        "cs": "Má tento přechod uprostřed ostrůvek?"
+      },
+      "condition": "highway=crossing",
+      "mappings": [
+        {
+          "if": "crossing:island=yes",
+          "then": {
+            "en": "This crossing has an island in the middle",
+            "nl": "Deze oversteekplaats heeft een verkeerseiland in het midden",
+            "de": "Der Übergang hat eine Verkehrsinsel",
+            "es": "Este cruce tiene una isla en el medio",
+            "fr": "Ce passage a un îlot au milieu",
+            "ca": "Aquest creuament té una illa al mig",
+            "cs": "Tento přechod má uprostřed ostrůvek"
+          }
+        },
+        {
+          "if": "crossing:island=no",
+          "then": {
+            "en": "This crossing does not have an island in the middle",
+            "nl": "Deze oversteekplaats heeft geen verkeerseiland in het midden",
+            "de": "Der Übergang hat <b>keine</b> Verkehrsinsel",
+            "es": "Este cruce no tiene una isla en el medio",
+            "fr": "Ce passage n'a pas d'îlot au milieu",
+            "ca": "Aquest creuament no té una illa al mig",
+            "cs": "Tento přechod nemá uprostřed ostrůvek"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-tactile",
+      "question": {
+        "en": "Does this crossing have tactile paving?",
+        "nl": "Heeft deze oversteekplaats een geleidelijn?",
+        "de": "Gibt es an dieser Kreuzung ein Blindenleitsystem?",
+        "es": "¿Este cruce tiene pavimento táctil?",
+        "fr": "Est-ce que ce passage piéton a une surface podotactile ?",
+        "ca": "Aquest creuament té superfície podotàctil?",
+        "cs": "Má tento přechod hmatovou dlažbu?"
+      },
+      "condition": "highway=crossing",
+      "mappings": [
+        {
+          "if": "tactile_paving=yes",
+          "then": {
+            "en": "This crossing has tactile paving",
+            "nl": "Deze oversteekplaats heeft een geleidelijn",
+            "de": "An dieser Kreuzung gibt es ein Blindenleitsystem",
+            "es": "Este cruce tiene pavimento táctil",
+            "fr": "Ce passage piéton a une surface podotactile",
+            "ca": "Este creuament té superfície podotàctil",
+            "cs": "Tento přechod má hmatovou dlažbu"
+          }
+        },
+        {
+          "if": "tactile_paving=no",
+          "then": {
+            "en": "This crossing does not have tactile paving",
+            "nl": "Deze oversteekplaats heeft geen geleidelijn",
+            "de": "Diese Kreuzung hat kein Blindenleitsystem",
+            "es": "Este cruce no tiene pavimento táctil",
+            "fr": "Ce passage piéton n'a pas de surface podotactile",
+            "ca": "Este creuament no té superfície podotàctil",
+            "cs": "Tento přechod nemá hmatovou dlažbu"
+          }
+        },
+        {
+          "if": "tactile_paving=incorrect",
+          "then": {
+            "en": "This crossing has tactile paving, but is not correct",
+            "nl": "Deze oversteekplaats heeft een geleidelijn, die incorrect is.",
+            "de": "Diese Kreuzung hat taktile Pflasterung, ist aber nicht korrekt",
+            "es": "Este cruce tiene pavimento táctil, pero no es correcto",
+            "fr": "Ce passage piéton a une surface podotactile, mais elle n'est pas adéquate",
+            "ca": "Este creuament té superfície podotàctil, però no correctament",
+            "cs": "Tento přechod má hmatovou dlažbu, ale ne správně"
+          },
+          "hideInAnswer": true
+        }
+      ]
+    },
+    {
+      "id": "crossing-button",
+      "question": {
+        "en": "Does this traffic light have a button to request green light?",
+        "nl": "Heeft dit verkeerslicht een knop voor groen licht?",
+        "de": "Hat diese Ampel eine Taste, um ein grünes Signal anzufordern?",
+        "es": "¿Este semáforo tiene un botón para solicitar luz verde?",
+        "ca": "Aquest semàfor té un botó per a demanar la llum verda?",
+        "fr": "Est-ce que ce feu a un bouton pour demander le passage au vert ?",
+        "cs": "Má tento semafor tlačítko pro vyžádání zeleného světla?"
+      },
+      "condition": {
+        "or": [
+          "highway=traffic_signals",
+          "crossing=traffic_signals"
+        ]
+      },
+      "mappings": [
+        {
+          "if": "button_operated=yes",
+          "then": {
+            "en": "This traffic light has a button to request green light",
+            "nl": "Dit verkeerslicht heeft een knop voor groen licht",
+            "de": "Diese Ampel hat eine Taste, um ein grünes Signal anzufordern",
+            "es": "Este semáforo tiene un botón para solicitar luz verde",
+            "ca": "Aquest semàfor té un botó per a demanar la llum verda",
+            "fr": "Ce feu a un bouton pour demander le vert",
+            "cs": "Tento semafor má tlačítko pro vyžádání zeleného světla"
+          }
+        },
+        {
+          "if": "button_operated=no",
+          "then": {
+            "en": "This traffic light does not have a button to request green light",
+            "nl": "Dit verkeerlicht heeft geen knop voor groen licht",
+            "de": "Diese Ampel hat keine Taste, um ein grünes Signal anzufordern",
+            "es": "Este semáforo no tiene un botón para solicitar luz verde",
+            "ca": "Aquest semàfor no té un botó per a demanar la llum verda",
+            "fr": "Ce feu n'a pas de bouton pour demander le vert",
+            "cs": "Tento semafor nemá tlačítko pro vyžádání zeleného světla"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-sound",
+      "question": {
+        "en": "Does this traffic light have sound signals to aid crossing?",
+        "de": "Gibt die Ampel akustische Signale, um das Überqueren zu erleichtern?",
+        "fr": "Est-ce que le feu de signalisation a une signalisation sonore pour aider à traverser ?",
+        "nl": "Heeft dit verkeerslicht geluidssignalen om te helpen bij het oversteken?",
+        "ca": "Aquest semàfor té senyals sonors per facilitar el pas?",
+        "cs": "Má tento semafor zvukové signály pro usnadnění přecházení?",
+        "es": "¿Este semáforo tiene señales sonoras para ayudar a cruzar?"
+      },
+      "condition": "crossing=traffic_signals",
+      "mappings": [
+        {
+          "if": "traffic_signals:sound=yes",
+          "then": {
+            "en": "This traffic light has sound signals to help crossing, both for finding the crossing and for crossing.",
+            "de": "Die Ampel gibt akustische Signale, um das Auffinden und Überqueren der Kreuzung zu erleichtern.",
+            "fr": "Ce feu de signalisation a une alarme sonore pour aider à traverser, à la fois pour trouver le passage piéton, et pour traverser.",
+            "nl": "Dit verkeerslicht heeft geluidssignalen om te helpen bij het oversteken, zowel voor het vinden van de oversteekplaats als voor het oversteken.",
+            "ca": "Aquest semàfor disposa de senyals sonors per ajudar a creuar, tant per trobar l'encreuament com per creuar.",
+            "cs": "Tento semafor je vybaven zvukovými signály pro usnadnění přecházení, a to jak pro vyhledání přechodu, tak pro přecházení.",
+            "es": "Este semáforo tiene señales sonoras para ayudar a cruzar, tanto para encontrar el cruce como para cruzar"
+          }
+        },
+        {
+          "if": "traffic_signals:sound=no",
+          "then": {
+            "en": "This traffic light does not have sound signals to help crossing.",
+            "de": "Die Ampel gibt keine akustischen Signale, um das Überqueren zu erleichtern.",
+            "fr": "Ce feu de signalisation n'a pas de signal sonore pour aider à traverser.",
+            "nl": "Dit verkeerslicht heeft geen geluidssignalen om te helpen bij het oversteken.",
+            "ca": "Aquest semàfor no té senyals sonores per ajudar a creuar.",
+            "cs": "Tento semafor není vybaven zvukovými signály pro usnadnění přecházení.",
+            "es": "Este semáforo no tiene señales sonoras para ayudar a cruzar"
+          }
+        },
+        {
+          "if": "traffic_signals:sound=locate",
+          "then": {
+            "en": "This traffic light has a sound signal to help locate the pole, but no signal to sign that it is safe to cross.",
+            "de": "Die Ampel gibt ein akustisches Signal, zum Auffinden des Mastes, aber kein Signal für die Grünphase.",
+            "nl": "Dit verkeerslicht heeft een geluidssignaal om de paal te vinden, maar niet om aan te geven dat oversteken veilig kan.",
+            "ca": "Aquest semàfor té un senyal sonor per ajudar a localitzar el pal, però cap senyal que indique que és segur creuar.",
+            "fr": "Ce feu a un signal sonore pour aider à situer les poteaux, mais pas de signal pour indiquer qu'on peut traverser en sécurité.",
+            "cs": "Tento semafor má zvukový signál, který pomáhá lokalizovat sloup, ale žádný signál, který by signalizoval, že je bezpečné přejít.",
+            "es": "Este semáforo tiene una señal sonora para ayudar a localizar el poste, pero ninguna señal para indicar que es seguro cruzar"
+          }
+        },
+        {
+          "if": "traffic_signals:sound=walk",
+          "then": {
+            "en": "This traffic light has a sound signal to sign that it is safe to cross, but no signal to help locate the pole.",
+            "de": "Die Ampel gibt ein akustisches Signal für die Grünphase, aber kein Signal zum Auffinden des Mastes.",
+            "nl": "Dit verkeerslicht heeft een geluidssignaal om aan te geven dat oversteken veilig kan, maar geen signaal om de paal te vinden.",
+            "ca": "Aquest semàfor té un senyal sonor per indicar que és segur creuar, però cap senyal que ajude a localitzar el pal.",
+            "fr": "Cet feu a un signal sonore pour indiquer qu'on peut traverser en sécurité, mais pas de signal pour localiser les poteaux.",
+            "cs": "Tento semafor má zvukový signál, který signalizuje, že je bezpečné přejít, ale nemá žádný signál, který by pomohl lokalizovat sloup.",
+            "es": "Este semáforo tiene una señal sonora para indicar que es seguro cruzar, pero ninguna señal para ayudar a localizar el poste"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-vibration",
+      "question": {
+        "en": "Does this traffic light have vibration signals to aid crossing? (usually located at the bottom of the crossing button)",
+        "de": "Gibt die Ampel ein Vibrationssignal, um das Überqueren zu erleichtern? (in der Regel am unteren Ende der Ampeltaste)",
+        "nl": "Heeft dit verkeerslicht een element dat trilt om te helpen bij het oversteken? (meestal onderaan de oversteekknop geplaatst)",
+        "fr": "Est-ce que ce feu a un signal vibrant pour aider à traverser ? (habituellement situé sous le bouton)",
+        "ca": "Aquest semàfor té senyals de vibració per facilitar el pas? (normalment es troba a la part inferior del botó d'encreuament)",
+        "cs": "Má tento semafor vibrační signály pro usnadnění přecházení? (obvykle se nachází ve spodní části tlačítka pro přecházení)",
+        "uk": "Чи має цей світлофор вібраційні сигнали для полегшення переходу? (зазвичай розташовані внизу кнопки переходу)",
+        "es": "¿Este semáforo tiene señales de vibración para ayudar a cruzar? (normalmente ubicado en la parte inferior del botón de cruce)"
+      },
+      "condition": {
+        "and": [
+          "crossing=traffic_signals",
+          "button_operated=yes"
+        ]
+      },
+      "mappings": [
+        {
+          "if": "traffic_signals:vibration=yes",
+          "then": {
+            "en": "The button for this traffic light has a vibration signal to indicate that it is safe to cross.",
+            "de": "Die Ampeltaste vibriert während der Grünphase.",
+            "nl": "De knop bij dit verkeerslicht trilt om aan te geven dat men veilig kan oversteken.",
+            "fr": "Le bouton de ce feu vibre pour indiquer qu'on peut traverser en sécurité.",
+            "ca": "El botó d'aquest semàfor té un senyal de vibració per indicar que és segur creuar.",
+            "cs": "Tlačítko tohoto semaforu má vibrační signál, který signalizuje, že je bezpečné přejít.",
+            "es": "El botón de este semáforo tiene una señal de vibración para indicar que es seguro cruzar"
+          },
+          "icon": {
+            "path": "./assets/layers/crossings/Vibrating_button_illustration.jpg",
+            "class": "large"
+          }
+        },
+        {
+          "if": "traffic_signals:vibration=no",
+          "then": {
+            "en": "The button for this traffic light does not have a vibration signal to indicate that it is safe to cross.",
+            "de": "Die Ampeltaste vibriert nicht während der Grünphase.",
+            "nl": "De knop bij dit verkeerslicht kan <b>niet</b> trillen om aan te geven dat men veilig kan oversteken.",
+            "fr": "Le bouton de ce feu ne vibre pas pour indiquer qu'on peut traverser en sécurité.",
+            "ca": "El botó d'aquest semàfor no té cap senyal de vibració que indiqui que és segur creuar.",
+            "cs": "Tlačítko tohoto semaforu nemá vibrační signál, který by signalizoval, že je bezpečné přejít.",
+            "es": "El botón de este semáforo no tiene una señal de vibración para indicar que es seguro cruzar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-arrow",
+      "question": {
+        "en": "Does this traffic light have an arrow pointing in the direction of crossing?",
+        "de": "Hat diese Ampel einen Pfeil, der in Richtung der Kreuzung zeigt?",
+        "ca": "Aquest semàfor té una fletxa apuntant en la direcció del creuament?",
+        "cs": "Má tento semafor šipku ve směru přecházení?",
+        "es": "¿Este semáforo tiene una flecha que apunta en la dirección del cruce?"
+      },
+      "condition": "crossing=traffic_signals",
+      "mappings": [
+        {
+          "if": "traffic_signals:arrow=yes",
+          "then": {
+            "en": "This traffic light has an arrow pointing in the direction of crossing.",
+            "de": "Diese Ampel hat einen Pfeil, der in Richtung der Kreuzung zeigt.",
+            "ca": "Aquest semàfor té una fletxa apuntant en la direcció del creuament.",
+            "cs": "Tento semafor má šipku ukazující směr přecházení.",
+            "es": "Este semáforo tiene una flecha que apunta en la dirección del cruce"
+          }
+        },
+        {
+          "if": "traffic_signals:arrow=no",
+          "then": {
+            "en": "This traffic light does <b>not</b> have an arrow pointing in the direction of crossing.",
+            "de": "Diese Ampel hat <b>keinen</b> Pfeil, der in Richtung der Kreuzung zeigt.",
+            "ca": "Aquest semàfor <b>no</b> té una fletxa apuntant en la direcció del creuament.",
+            "cs": "Na tomto semaforu <b>není</b> šipka ukazující směr přecházení.",
+            "es": "Este semáforo <b>no</b> tiene una flecha que apunta en la dirección del cruce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-minimap",
+      "question": {
+        "en": "Does this traffic light have a tactile map showing the layout of the crossing?",
+        "de": "Hat die Ampel hat eine taktile Karte, die den Verlauf der Kreuzung zeigt?",
+        "ca": "Aquest semàfor disposa d'un mapa tàctil que mostra el traçat de l'encreuament?",
+        "cs": "Má tento semafor hmatovou mapu s uspořádáním přechodu?",
+        "es": "¿Este semáforo tiene un mapa táctil que muestra el diseño del cruce?"
+      },
+      "condition": "crossing=traffic_signals",
+      "mappings": [
+        {
+          "if": "traffic_signals:minimap=yes",
+          "then": {
+            "en": "This traffic light has a tactile map showing the layout of the crossing.",
+            "de": "Die Ampel hat eine taktile Karte, die den Verlauf der Kreuzung zeigt.",
+            "nl": "Dit verkeerlicht heeft een voelkaart die de indeling van de oversteekplaats laat zien.",
+            "ca": "Aquest semàfor disposa d'un mapa tàctil que mostra el traçat de l'encreuament.",
+            "cs": "Tento semafor má hmatovou mapu zobrazující uspořádání přechodu.",
+            "es": "Este semáforo tiene un mapa táctil que muestra el diseño del cruce"
+          },
+          "icon": {
+            "path": "./assets/layers/crossings/180px-Trairvoja_mapeto.jpg",
+            "class": "large"
+          }
+        },
+        {
+          "if": "traffic_signals:minimap=no",
+          "then": {
+            "en": "This traffic light does <b>not</b> have a tactile map showing the layout of the crossing.",
+            "de": "Die Ampel hat <b>keine</b> taktile Karte, die den Verlauf der Kreuzung zeigt.",
+            "nl": "Dit verkeerlicht heeft <b>geen</b> voelkaart die de indeling van de oversteekplaats laat zien.",
+            "ca": "Aquest semàfor <b>no</b> disposa d'un mapa tàctil que mostra el traçat del pas.",
+            "cs": "Tento semafor <b>nemá</b> hmatovou mapu zobrazující rozložení přechodu.",
+            "es": "Este semáforo <b>no</b> tiene un mapa táctil que muestra el diseño del cruce"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-right-turn-through-red",
+      "question": {
+        "en": "Can a cyclist turn right when the light is red?",
+        "nl": "Mag een fietser rechtsaf slaan als het licht rood is?",
+        "de": "Dürfen Radfahrer bei roter Ampel rechts abbiegen?",
+        "es": "¿Puede un ciclista girar a la derecha cuando la luz está roja?",
+        "fr": "Un cycliste peut-il tourner à droite quand le feu est rouge ?",
+        "ca": "Un ciclista pot girar a la dreta si el semàfor està en roig?",
+        "cs": "Může cyklista odbočit doprava, když svítí červená?"
+      },
+      "condition": "highway=traffic_signals",
+      "mappings": [
+        {
+          "if": "red_turn:right:bicycle=yes",
+          "then": {
+            "en": "A cyclist can turn right if the light is red",
+            "nl": "Een fietser mag wel rechtsaf slaan als het licht rood is",
+            "de": "Ein Radfahrer kann bei roter Ampel rechts abbiegen",
+            "es": "Un ciclista puede girar a la derecha si la luz está roja",
+            "fr": "Un cycliste peut tourner à droite si le feu est rouge",
+            "ca": "Un ciclista pot girar a la dreta si el semàfor està en roig",
+            "cs": "Cyklista může odbočit doprava, pokud svítí červená"
+          },
+          "hideInAnswer": "_country!=be",
+          "icon": {
+            "path": "./assets/layers/crossings/Belgian_road_sign_B22.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "red_turn:right:bicycle=yes",
+          "then": {
+            "en": "A cyclist can turn right if the light is red",
+            "nl": "Een fietser mag wel rechtsaf slaan als het licht rood is",
+            "de": "Radfahrer dürfen bei roter Ampel rechts abbiegen",
+            "es": "Un ciclista puede girar a la derecha si la luz está roja",
+            "fr": "Un cycliste peut tourner à droite si le feu est rouge",
+            "ca": "Un ciclista pot girar a la dreta si el semàfor està en roig",
+            "cs": "Cyklista může odbočit doprava, pokud svítí červená"
+          },
+          "hideInAnswer": "_country=be"
+        },
+        {
+          "if": "red_turn:right:bicycle=no",
+          "then": {
+            "en": "A cyclist can not turn right if the light is red",
+            "nl": "Een fietser mag niet rechtsaf slaan als het licht rood is",
+            "de": "Radfahrer dürfen bei roter Ampel nicht rechts abbiegen",
+            "es": "Un ciclista no puede girar a la derecha si la luz está roja",
+            "fr": "Un cycliste ne peut pas tourner à droite si le feu est rouge",
+            "ca": "Un ciclista no pot girar a la dreta si el semàfor està en roig",
+            "cs": "Cyklista nemůže odbočit vpravo, pokud svítí červená"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crossing-continue-through-red",
+      "question": {
+        "en": "Can a cyclist go straight on when the light is red?",
+        "nl": "Mag een fietser rechtdoor gaan als het licht rood is?",
+        "de": "Dürfen Radfahrer bei roter Ampel geradeaus fahren?",
+        "es": "¿Puede un ciclista seguir recto cuando la luz está roja?",
+        "fr": "Est-ce qu'un cycliste peut aller tout droit quand le feu est rouge ?",
+        "ca": "Un ciclista pot seguir recte si el semàfor està en roig?",
+        "cs": "Může cyklista jet rovně, když svítí červená?"
+      },
+      "condition": "highway=traffic_signals",
+      "mappings": [
+        {
+          "if": "red_turn:straight:bicycle=yes",
+          "then": {
+            "en": "A cyclist can go straight on if the light is red",
+            "nl": "Een fietser mag wel rechtdoor gaan als het licht rood is",
+            "de": "Ein Radfahrer kann bei roter Ampel geradeaus fahren",
+            "es": "Un ciclista puede seguir recto si la luz está roja",
+            "ca": "Un ciclista pot seguir recte si el semàfor està en roig",
+            "cs": "Cyklista může jet rovně, pokud svítí červená"
+          },
+          "hideInAnswer": "_country!=be",
+          "icon": {
+            "path": "./assets/layers/crossings/Belgian_road_sign_B23.svg",
+            "class": "medium"
+          }
+        },
+        {
+          "if": "red_turn:straight:bicycle=yes",
+          "then": {
+            "en": "A cyclist can go straight on if the light is red",
+            "nl": "Een fietser mag wel rechtdoor gaan als het licht rood is",
+            "de": "Radfahrer dürfen bei roter Ampel geradeaus fahren",
+            "es": "Un ciclista puede seguir recto si la luz está roja",
+            "ca": "Un ciclista pot seguir recte si el semàfor està en roig",
+            "cs": "Cyklista může jet rovně, pokud svítí červená"
+          },
+          "hideInAnswer": "_country=be"
+        },
+        {
+          "if": "red_turn:straight:bicycle=no",
+          "then": {
+            "en": "A cyclist can not go straight on if the light is red",
+            "nl": "Een fietser mag niet rechtdoor gaan als het licht rood is",
+            "de": "Radfahrer dürfen bei roter Ampel nicht geradeaus fahren",
+            "es": "Un ciclista no puede seguir recto si la luz está roja",
+            "ca": "Un ciclista no pot seguir recte si el semàfor està en roig",
+            "cs": "Cyklista nemůže jet rovně, pokud svítí červená"
+          }
+        }
+      ]
+    }
+  ],
+  "filter": [
+    "tactile_paving_advanced"
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  }
+}

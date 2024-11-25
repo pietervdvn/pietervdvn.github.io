@@ -1,0 +1,167 @@
+{
+  "id": "ski_piste",
+  "name": {
+    "en": "Ski and snowboard pistes",
+    "de": "Ski- und Snowboardpisten",
+    "fr": "Pistes de ski et de snowboard",
+    "es": "Pistas de esquí y snowboard"
+  },
+  "description": {
+    "en": "Ski and snowboard pistes",
+    "de": "Ski- und Snowboardpisten",
+    "fr": "Pistes de ski et de snowboard",
+    "es": "Pistas de esquí y snowboard"
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        {
+          "or": [
+            "piste:type=downhill",
+            "piste:type=connection"
+          ]
+        },
+        "area!=yes"
+      ]
+    }
+  },
+  "minzoom": 11,
+  "title": {
+    "render": {
+      "en": "Ski piste {name}",
+      "de": "Skipiste {name}",
+      "fr": "Piste de ski {name}",
+      "es": "Pista de esquí {name}"
+    }
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point"
+      ],
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": "10",
+      "color": {
+        "mappings": [
+          {
+            "then": "green",
+            "if": "piste:difficulty=novice"
+          },
+          {
+            "if": "piste:difficulty=easy",
+            "then": "blue"
+          },
+          {
+            "if": "piste:difficulty=intermediate",
+            "then": "red"
+          },
+          {
+            "if": "piste:difficulty=advanced",
+            "then": "black"
+          },
+          {
+            "if": "piste:difficulty=expert",
+            "then": "orange"
+          },
+          {
+            "if": "piste:difficulty=",
+            "then": "gray"
+          }
+        ]
+      },
+      "imageAlongWay": "./assets/png/oneway.png"
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "question": {
+        "en": "What is the difficulty of this piste?",
+        "de": "Was ist der Schwierigkeitsgrad der Piste?",
+        "fr": "Quelle est la difficulté de cette piste ?",
+        "es": "¿Cuál es la dificultad de esta pista?"
+      },
+      "id": "piste_difficulty",
+      "condition": "piste:type!=connection",
+      "mappings": [
+        {
+          "if": "piste:difficulty=novice",
+          "then": {
+            "en": "Novice (green)",
+            "de": "Anfänger (grün)",
+            "fr": "Débutant (vert)",
+            "es": "Principiante (verde)"
+          }
+        },
+        {
+          "if": "piste:difficulty=easy",
+          "then": {
+            "en": "Easy (blue)",
+            "de": "Einfach (blau)",
+            "fr": "Facile (bleu)",
+            "es": "Fácil (azul)"
+          }
+        },
+        {
+          "if": "piste:difficulty=intermediate",
+          "then": {
+            "en": "Intermediate (red)",
+            "de": "Mittel (rot)",
+            "fr": "Intermédiaire (rouge)",
+            "es": "Intermedio (rojo)"
+          }
+        },
+        {
+          "if": "piste:difficulty=advanced",
+          "then": {
+            "en": "Advanced (black)",
+            "de": "Fortgeschritten (schwarz)",
+            "fr": "Avancé (noir)",
+            "es": "Avanzado (negro)"
+          }
+        },
+        {
+          "if": "piste:difficulty=expert",
+          "then": {
+            "en": "Expert (orange/double black)",
+            "de": "Experte (orange/doppel schwarz)",
+            "fr": "Expert (orange/double noir)",
+            "es": "Experto (naranja/doble negro)"
+          }
+        },
+        {
+          "if": "piste:difficulty=freeride",
+          "then": {
+            "en": "Freeride",
+            "de": "Freeride",
+            "fr": "Hors piste",
+            "es": "Freeride"
+          }
+        }
+      ]
+    },
+    {
+      "id": "length",
+      "render": {
+        "en": "This part of the ski piste is {_length:km} kilometer long",
+        "de": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km",
+        "fr": "Ce tronçon de piste de ski mesure {_length:km} kilomètres de long",
+        "es": "Esta parte de la pista de esquí tiene {_length:km} kilómetros de largo",
+        "uk": "Ця частина лижної траси має довжину {_length:km} кілометрів"
+      }
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  }
+}
