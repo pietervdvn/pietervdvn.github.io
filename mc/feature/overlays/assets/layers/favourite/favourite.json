@@ -411,7 +411,8 @@
           "pl": "Mural ścienny",
           "pt_BR": "Pintura mural",
           "zh_Hans": "墙上的画",
-          "pt": "Pintura mural"
+          "pt": "Pintura mural",
+          "uk": "Настінний розпис"
         }
       },
       {
@@ -427,7 +428,8 @@
           "pl": "Mural ścienny",
           "pt_BR": "Pintura mural",
           "zh_Hans": "墙上的画",
-          "pt": "Pintura mural"
+          "pt": "Pintura mural",
+          "uk": "Настінний розпис"
         }
       },
       {
@@ -2797,7 +2799,8 @@
           "pl": "Tablica",
           "pt_BR": "Quadro",
           "zh_Hans": "木板",
-          "pt": "Quadro"
+          "pt": "Quadro",
+          "uk": "Дошка оголошень"
         }
       },
       {
@@ -2812,7 +2815,8 @@
           "pl": "Tablica",
           "pt_BR": "Quadro",
           "zh_Hans": "木板",
-          "pt": "Quadro"
+          "pt": "Quadro",
+          "uk": "Дошка оголошень"
         }
       },
       {
@@ -3102,7 +3106,8 @@
           "pl": "Pudełko plakatowe",
           "pt_BR": "Caixa de pôster",
           "zh_Hans": "海报盒",
-          "pt": "Caixa de pôster"
+          "pt": "Caixa de pôster",
+          "uk": "Поштова скринька"
         }
       },
       {
@@ -3116,7 +3121,8 @@
           "pl": "Pudełko plakatowe",
           "pt_BR": "Caixa de pôster",
           "zh_Hans": "海报盒",
-          "pt": "Caixa de pôster"
+          "pt": "Caixa de pôster",
+          "uk": "Поштова скринька"
         }
       },
       {
@@ -5675,7 +5681,8 @@
           "pl": "Bilbord",
           "pt_BR": "Outdoor",
           "zh_Hans": "广告牌",
-          "pt": "Outdoor"
+          "pt": "Outdoor",
+          "uk": "Білборд"
         }
       },
       {
@@ -5690,7 +5697,8 @@
           "pl": "Bilbord",
           "pt_BR": "Outdoor",
           "zh_Hans": "广告牌",
-          "pt": "Outdoor"
+          "pt": "Outdoor",
+          "uk": "Білборд"
         }
       },
       {
@@ -5757,7 +5765,8 @@
           "en": "Ski piste {name}",
           "de": "Skipiste {name}",
           "fr": "Piste de ski {name}",
-          "es": "Pista de esquí {name}"
+          "es": "Pista de esquí {name}",
+          "cs": "Lyžařská sjezdovka {name}"
         }
       },
       {
@@ -5776,7 +5785,8 @@
           "en": "Ski piste {name}",
           "de": "Skipiste {name}",
           "fr": "Piste de ski {name}",
-          "es": "Pista de esquí {name}"
+          "es": "Pista de esquí {name}",
+          "cs": "Lyžařská sjezdovka {name}"
         }
       },
       {
@@ -16438,7 +16448,8 @@
         "pt_BR": "Isso é uma {advertising}",
         "zh_Hans": "这是一个{advertising}",
         "pt": "Isto é uma {advertising}",
-        "fr": "C'est un {advertising}"
+        "fr": "C'est un {advertising}",
+        "uk": "Це {advertising}"
       },
       "question": {
         "ca": "Quin tipus d'element publicitari és aquest?",
@@ -16450,7 +16461,8 @@
         "pl": "Jakiego rodzaju jest to obiekt reklamowy?",
         "pt_BR": "Que tipo de recurso de publicitário é este?",
         "zh_Hans": "这是哪种类型的广告功能？",
-        "pt": "Que tipo de recurso de publicitário é este?"
+        "pt": "Que tipo de recurso de publicitário é este?",
+        "uk": "Який це тип рекламного об'єкту?"
       },
       "freeform": {
         "key": "advertising",
@@ -16513,7 +16525,8 @@
             "pt_BR": "Isto é uma coluna",
             "pl": "To jest kolumna",
             "zh_Hans": "这是一个专栏",
-            "pt": "Isto é uma coluna"
+            "pt": "Isto é uma coluna",
+            "uk": "Це стовпчик"
           },
           "icon": {
             "path": "./assets/themes/advertising/column.svg",
@@ -16618,7 +16631,8 @@
             "pl": "To jest znak",
             "zh_Hans": "这是一个标志",
             "pt": "Isto é uma placa",
-            "nl": "Dit is een teken"
+            "nl": "Dit is een teken",
+            "uk": "Це знак"
           },
           "icon": {
             "path": "./assets/themes/advertising/sign.svg",
@@ -16637,7 +16651,8 @@
             "pl": "To jest plandeka (odporny na warunki atmosferyczne kawałek materiału tekstylnego z przekazem reklamowym)",
             "pt_BR": "Isso é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)",
             "zh_Hans": "这是防水布（带有广告信息的防风雨纺织品）",
-            "pt": "Isto é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)"
+            "pt": "Isto é uma lona (uma peça de tecido à prova de intempéries com uma mensagem publicitária)",
+            "uk": "Це брезент (стійкий до погодних умов шматок текстилю з рекламним повідомленням)"
           },
           "icon": {
             "path": "./assets/themes/advertising/tarp.svg",
@@ -16657,7 +16672,8 @@
             "pt_BR": "Isso é um totem",
             "zh_Hans": "这是一个图腾",
             "pt": "Isto é um totem",
-            "nl": "Dit is een reclamezuil"
+            "nl": "Dit is een reclamezuil",
+            "uk": "Це тотем"
           },
           "icon": {
             "path": "./assets/themes/advertising/totem.svg",
@@ -21012,6 +21028,7 @@
       ],
       "metacondition": "_supports_sharing=yes",
       "render": {
+        "cs": "{share_link(,Sdílet tuto lokalitu)}",
         "de": "{share_link(,Standort teilen)}",
         "en": "{share_link(,Share this location)}",
         "es": "{share_link(,Compartir esta ubicación)}",
@@ -22270,6 +22287,7 @@
       ],
       "classes": "flex items-center gap-x-2",
       "render": {
+        "cs": "{qr_code()}Naskenováním tohoto kódu otevřete toto umístění na jiném zařízení",
         "da": "{qr_code()}Skan denne kode for at åbne dette sted på en anden enhed",
         "de": "{qr_code()}QR Code scannen, um diesen Ort auf einem anderen Gerät zu öffnen",
         "en": "{qr_code()}Scan this code to open this location on another device",
@@ -37499,7 +37517,8 @@
             "en": "This crossing has no markings",
             "nl": "Deze oversteekplaats heeft geen markeringen",
             "de": "Diese Kreuzung hat keine Markierungen",
-            "es": "Este cruce no está señalizado"
+            "es": "Este cruce no está señalizado",
+            "cs": "Tento přechod nemá žádné značení"
           },
           "icon": {
             "class": "large",
@@ -37512,7 +37531,8 @@
             "en": "This crossing has zebra markings",
             "nl": "Deze oversteekplaats heeft een zebramarkering",
             "de": "Dieser Übergang ist mit Zebrastreifen markiert",
-            "es": "Este paso de cebra está señalizado"
+            "es": "Este paso de cebra está señalizado",
+            "cs": "Tento přechod má označení zebra"
           },
           "icon": {
             "class": "large",
@@ -37525,7 +37545,8 @@
             "en": "This crossing has markings of an unknown type",
             "nl": "Deze oversteekplaats heeft markeringen van een onbekend type",
             "de": "Dieser Übergang weist Markierungen unbekannter Art auf",
-            "es": "Este cruce tiene marcas de tipo desconocido"
+            "es": "Este cruce tiene marcas de tipo desconocido",
+            "cs": "Tento přejezd má značení neznámého typu"
           },
           "if": "crossing:markings=yes"
         },
@@ -37535,7 +37556,8 @@
             "en": "This crossings has lines on either side of the crossing",
             "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats",
             "de": "Dieser Übergang hat Linien auf beiden Seiten des Übergangs",
-            "es": "Este cruce tiene líneas a ambos lados del cruce"
+            "es": "Este cruce tiene líneas a ambos lados del cruce",
+            "cs": "Tento přechod má čáry na obou stranách přechodu"
           },
           "icon": {
             "class": "large",
@@ -37548,7 +37570,8 @@
             "en": "This crossing has lines on either side of the crossing, along with bars connecting them",
             "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats, met strepen die ze verbinden",
             "de": "Diese Kreuzung hat Linien auf beiden Seiten der Kreuzung, zusammen mit Stangen, die sie verbinden",
-            "es": "Este cruce tiene líneas a ambos lados, junto con barras que las conectan"
+            "es": "Este cruce tiene líneas a ambos lados, junto con barras que las conectan",
+            "cs": "Tento přechod má na obou stranách čáry a spojovací pruhy"
           },
           "icon": {
             "class": "large",
@@ -37561,7 +37584,8 @@
             "en": "This crossing has dashed lines on either sides of the crossing",
             "nl": "Deze oversteekplaats heeft onderbroken lijnen aan beide kanten van de oversteekplaats",
             "de": "Dieser Übergang hat gestrichelte Linien auf beiden Seiten des Übergangs",
-            "es": "Este cruce tiene líneas discontinuas a ambos lados del cruce"
+            "es": "Este cruce tiene líneas discontinuas a ambos lados del cruce",
+            "cs": "Tento přechod má po obou stranách přerušované čáry"
           },
           "icon": {
             "class": "large",
@@ -37574,7 +37598,8 @@
             "en": "This crossing has dotted lines on either sides of the crossing",
             "nl": "Deze oversteekplaats heeft stippellijnen aan beide kanten van de oversteekplaats",
             "de": "Dieser Übergang hat gestrichelte Linien auf beiden Seiten des Übergangs",
-            "es": "Este cruce tiene líneas de puntos a ambos lados del cruce"
+            "es": "Este cruce tiene líneas de puntos a ambos lados del cruce",
+            "cs": "Tento přechod má tečkované čáry na obou stranách přechodu"
           },
           "icon": {
             "class": "large",
@@ -37622,7 +37647,8 @@
             "en": "This crossing has zebra markings in alternating colours",
             "nl": "Deze oversteekplaats heeft een zebramarkering in afwisselende kleuren",
             "de": "Dieser Übergang hat Zebrastreifen in wechselnden Farben",
-            "es": "Este paso tiene marcas de cebra en colores alternos"
+            "es": "Este paso tiene marcas de cebra en colores alternos",
+            "cs": "Tento přechod má označení zebry ve střídavých barvách"
           },
           "icon": {
             "class": "large",
@@ -37635,7 +37661,8 @@
             "en": "This crossing has double zebra markings",
             "nl": "Deze oversteekplaats heeft een dubbele zebramarkering",
             "de": "Dieser Übergang hat doppelte Zebrastreifen",
-            "es": "Este paso de cebra tiene doble señalización"
+            "es": "Este paso de cebra tiene doble señalización",
+            "cs": "Tento přechod má dvojité značení zebry"
           },
           "icon": {
             "class": "large",
@@ -37648,7 +37675,8 @@
             "en": "This crossing has pictograms on the road",
             "nl": "Deze oversteekplaats heeft pictogrammen op de weg",
             "de": "Diese Kreuzung hat Piktogramme auf der Straße",
-            "es": "Este cruce tiene pictogramas en la calzada"
+            "es": "Este cruce tiene pictogramas en la calzada",
+            "cs": "Tento přejezd má na silnici piktogramy"
           }
         },
         {
@@ -37657,7 +37685,8 @@
             "en": "This crossing has lines on either side of the crossing, along with bars connecting them, with an interruption in every bar",
             "nl": "Deze oversteekplaats heeft lijnen aan beide kanten van de oversteekplaats, met strepen die ze verbinden, met een onderbreking van elke streep",
             "de": "Diese Kreuzung hat Linien auf beiden Seiten der Kreuzung und Balken, die sie verbinden, mit einer Unterbrechung in jedem Balken",
-            "es": "Este cruce tiene líneas a cada lado del cruce, junto con barras que las conectan, con una interrupción en cada barra"
+            "es": "Este cruce tiene líneas a cada lado del cruce, junto con barras que las conectan, con una interrupción en cada barra",
+            "cs": "Tento přechod má na obou stranách čáry a spojovací pruhy, přičemž v každém pruhu je přerušení"
           }
         },
         {
@@ -37666,7 +37695,8 @@
             "en": "This crossing has double lines on either side of the crossing",
             "nl": "Deze oversteekplaats heeft dubbele lijnen aan beide kanten van de oversteekplaats",
             "de": "Dieser Übergang hat doppelte Linien auf beiden Seiten des Übergangs",
-            "es": "Este cruce tiene líneas dobles a cada lado del cruce"
+            "es": "Este cruce tiene líneas dobles a cada lado del cruce",
+            "cs": "Tento přechod má dvojité čáry na obou stranách přechodu"
           },
           "icon": {
             "class": "large",
@@ -50933,6 +50963,7 @@
         "en": "Is this charging station part of a network?",
         "nl": "Is dit oplaadpunt deel van een groter netwerk?",
         "ca": "Aquesta estació de càrrega forma part d'una xarxa?",
+        "cs": "Je tato nabíjecí stanice součástí sítě?",
         "de": "Ist diese Ladestation Teil eines Netzwerks?",
         "es": "¿Este punto de carga forma parte de una red?",
         "pl": "Czy ta stacja ładowania jest częścią sieci?",
@@ -50958,6 +50989,7 @@
           "then": {
             "en": "Not part of a bigger network",
             "nl": "Maakt geen deel uit van een groter netwerk",
+            "cs": "Není součástí větší sítě",
             "de": "Nicht Teil eines größeren Netzwerks",
             "es": "No forma parte de una red mayor",
             "pl": "Nie jest częścią większej sieci",
@@ -52855,7 +52887,8 @@
             "nl": "Fietsverhuurzaak",
             "de": "Fahrradverleih",
             "uk": "Пункт прокату велосипедів",
-            "es": "Tienda de alquiler de bicicletas"
+            "es": "Tienda de alquiler de bicicletas",
+            "cs": "Půjčovna jízdních kol"
           }
         },
         {
@@ -76289,13 +76322,15 @@
         "en": "What is the brand of this shop?",
         "de": "Zu welcher Marke gehört dieses Geschäft?",
         "uk": "Яка марка цього магазину?",
-        "es": "¿Cuál es la marca de esta tienda?"
+        "es": "¿Cuál es la marca de esta tienda?",
+        "cs": "Jaká je značka tohoto obchodu?"
       },
       "render": {
         "en": "Part of <b>{brand}</b>",
         "de": "Teil von <b>{brand}</b>",
         "es": "Parte de <b>{brand}</b>",
-        "uk": "Частина <b>{brand}</b>"
+        "uk": "Частина <b>{brand}</b>",
+        "cs": "Část <b>{brand}</b>"
       },
       "freeform": {
         "key": "brand",
@@ -76308,7 +76343,8 @@
             "en": "This shop does not have a specific brand, it is not part of a bigger chain",
             "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
             "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі",
-            "es": "Esta tienda no tiene una marca específica, no forma parte de una cadena más grande"
+            "es": "Esta tienda no tiene una marca específica, no forma parte de una cadena más grande",
+            "cs": "Tento obchod nemá konkrétní značku, není součástí většího řetězce"
           }
         }
       ],
@@ -76666,12 +76702,14 @@
       "question": {
         "en": "Does this shop offer a binding service?",
         "de": "Bietet dieser Laden einen Bindeservice an?",
-        "es": "¿Esta tienda ofrece un servicio de encuadernación?"
+        "es": "¿Esta tienda ofrece un servicio de encuadernación?",
+        "cs": "Nabízí tento obchod službu vazby?"
       },
       "questionHint": {
         "en": "Does this shop bind a bundle of pages into a small book, e.g. with a comb, a spiral, wire or by gluing?",
         "de": "Bindet dieser Laden ein Bündel von Seiten zu einem kleinen Buch, z.B. mit einer Kamm-, Spiral-, Drahtbindung oder durch Kleben?",
-        "es": "¿Esta tienda encuaderna un conjunto de páginas en un pequeño libro, por ejemplo, con un peine, una espiral, alambre o pegamento?"
+        "es": "¿Esta tienda encuaderna un conjunto de páginas en un pequeño libro, por ejemplo, con un peine, una espiral, alambre o pegamento?",
+        "cs": "Váže tento obchod svazek stránek do malé knihy, např. hřebenem, spirálou, drátem nebo lepením?"
       },
       "mappings": [
         {
@@ -76679,7 +76717,8 @@
           "then": {
             "en": "This shop binds papers into a booklet",
             "de": "Dieser Laden bindet Papiere zu einem Heft",
-            "es": "Esta tienda encuaderna papeles en un folleto"
+            "es": "Esta tienda encuaderna papeles en un folleto",
+            "cs": "Tento obchod váže papíry do brožury"
           }
         },
         {
@@ -76687,7 +76726,8 @@
           "then": {
             "en": "This shop does bind books",
             "de": "Dieser Laden bindet Bücher",
-            "es": "Esta tienda encuaderna libros"
+            "es": "Esta tienda encuaderna libros",
+            "cs": "Tento obchod váže knihy"
           }
         }
       ]
@@ -76697,7 +76737,8 @@
       "question": {
         "en": "Does this shop offer key cutting?",
         "de": "Bietet dieser Laden Schlüsselschneiden an?",
-        "es": "¿Esta tienda ofrece el corte de llaves?"
+        "es": "¿Esta tienda ofrece el corte de llaves?",
+        "cs": "Nabízí tento obchod výrobu klíčů?"
       },
       "mappings": [
         {
@@ -76708,7 +76749,8 @@
           "then": {
             "en": "This shop is also specialized in key cutting",
             "de": "Dieser Laden ist auch auf das Schlüsselschneiden spezialisiert",
-            "es": "Esta tienda también está especializada en el corte de llaves"
+            "es": "Esta tienda también está especializada en el corte de llaves",
+            "cs": "Tento obchod se také specializuje na výrobu klíčů"
           },
           "addExtraTags": [
             "service:key_cutting=yes"
@@ -76721,7 +76763,8 @@
             "en": "This shop offers key cutting as a service",
             "de": "Dieser Laden bietet Schlüsselschneiden als Dienstleistung an",
             "nl": "Deze winkel kopieert sleutels",
-            "es": "Esta tienda ofrece el corte de llaves como servicio"
+            "es": "Esta tienda ofrece el corte de llaves como servicio",
+            "cs": "Tento obchod nabízí výrobu klíčů jako službu"
           }
         },
         {
@@ -76734,7 +76777,8 @@
           "then": {
             "en": "This shops does not offer key cutting as a service",
             "de": "Dieser Laden bietet kein Schlüsselschneiden als Dienstleistung an",
-            "es": "Esta tienda no ofrece el corte de llaves como servicio"
+            "es": "Esta tienda no ofrece el corte de llaves como servicio",
+            "cs": "Tyto obchody nenabízejí výrobu klíčů jako službu"
           }
         }
       ],
@@ -76911,7 +76955,8 @@
             "fr": "Ce magasin vend des vélos nouveaux",
             "de": "Dieses Geschäft verkauft neue Fahrräder",
             "es": "Esta tienda vende bicicletas nuevas",
-            "uk": "У цьому магазині продають нові велосипеди"
+            "uk": "У цьому магазині продають нові велосипеди",
+            "cs": "Tento obchod prodává nová kola"
           }
         },
         {
@@ -76922,7 +76967,8 @@
             "fr": "Ce magasin ne vend pas de vélo nouveaux",
             "de": "Dieses Geschäft verkauft keine neuen Fahrräder",
             "es": "Esta tienda no vende bicicletas nuevas",
-            "uk": "Цей магазин не продає нові велосипеди"
+            "uk": "Цей магазин не продає нові велосипеди",
+            "cs": "Tento obchod neprodává nová kola"
           }
         }
       ]
@@ -77363,7 +77409,8 @@
         "en": "This is about rental for e.g. tourists who need a bike. Some bicycle repair shops offer a bicycle to use while your bicycle is being repaired but this is not considered rental for this question.",
         "de": "Es geht um die Vermietung, z.B. an Touristen, die ein Fahrrad benötigen. Einige Fahrradwerkstätten bieten ein Fahrrad an, das man benutzen kann, während das eigene Fahrrad repariert wird, aber dies wird für diese Frage nicht als Vermietung betrachtet.",
         "uk": "Йдеться про прокат для туристів, яким потрібен велосипед. Деякі майстерні з ремонту велосипедів пропонують велосипед на час ремонту, але це не вважається прокатом в даному випадку.",
-        "es": "Esto se refiere al alquiler para, por ejemplo, turistas que necesitan una bicicleta. Algunas tiendas de reparación de bicicletas ofrecen una bicicleta para usar mientras se repara la suya, pero esto no se considera alquiler para esta pregunta."
+        "es": "Esto se refiere al alquiler para, por ejemplo, turistas que necesitan una bicicleta. Algunas tiendas de reparación de bicicletas ofrecen una bicicleta para usar mientras se repara la suya, pero esto no se considera alquiler para esta pregunta.",
+        "cs": "Jedná se o pronájem např. turisté, kteří potřebují kolo. Některé opravny jízdních kol nabízejí jízdní kolo k použití při opravě kola, ale u této otázky se to nepovažuje za pronájem."
       },
       "mappings": [
         {
@@ -82587,7 +82634,8 @@
             "en": "This clock is mounted directly on a wall",
             "nl": "Deze klok is rechtstreeks aan een muur bevestigd",
             "es": "Este reloj está montado directamente en una pared",
-            "de": "Diese Uhr ist direkt an einer Wand montiert"
+            "de": "Diese Uhr ist direkt an einer Wand montiert",
+            "cs": "Tyto hodiny jsou připevněné přímo na zeď"
           }
         },
         {
@@ -82703,7 +82751,8 @@
         "en": "Is this clock indoors?",
         "nl": "Is deze klok binnen?",
         "de": "Befindet sich diese Uhr in Innenräumen?",
-        "es": "¿Este reloj está en el interior?"
+        "es": "¿Este reloj está en el interior?",
+        "cs": "Jsou tyto hodiny uvnitř?"
       },
       "mappings": [
         {
@@ -82712,7 +82761,8 @@
             "en": "This clock is indoors",
             "nl": "Deze klok is binnen",
             "de": "Diese Uhr befindet sich in Innenräumen",
-            "es": "Este reloj está en un espacio interior"
+            "es": "Este reloj está en un espacio interior",
+            "cs": "Tyto hodiny jsou uvnitř"
           }
         },
         {
@@ -82721,7 +82771,8 @@
             "en": "This clock is outdoors",
             "nl": "Deze klok is buiten",
             "de": "Diese Uhr ist im Freien",
-            "es": "Este reloj está en un espacio exterior"
+            "es": "Este reloj está en un espacio exterior",
+            "cs": "Tyto hodiny jsou venku"
           }
         }
       ],
@@ -84427,6 +84478,7 @@
         "de": "Zu welcher Marke gehört dieses Geschäft?",
         "uk": "Яка марка цього магазину?",
         "es": "¿Cuál es la marca de esta tienda?",
+        "cs": "Jaká je značka tohoto obchodu?",
         "_context": "layers:shops.tagRenderings.brand.question"
       },
       "render": {
@@ -84434,6 +84486,7 @@
         "de": "Teil von <b>{brand}</b>",
         "es": "Parte de <b>{brand}</b>",
         "uk": "Частина <b>{brand}</b>",
+        "cs": "Část <b>{brand}</b>",
         "_context": "layers:shops.tagRenderings.brand.render"
       },
       "freeform": {
@@ -84448,6 +84501,7 @@
             "de": "Das Geschäft gehört zu keiner Marke oder Handelskette",
             "uk": "Цей магазин не має певного бренду, він не є частиною великої мережі",
             "es": "Esta tienda no tiene una marca específica, no forma parte de una cadena más grande",
+            "cs": "Tento obchod nemá konkrétní značku, není součástí většího řetězce",
             "_context": "layers:shops.tagRenderings.brand.mappings.0.then"
           }
         }
@@ -86210,7 +86264,7 @@
         "en": "How much does a a condom cost?",
         "ca": "Quant costa un preservatiu?",
         "de": "Wie viel kostet ein Kondom?",
-        "cs": "Kolik stojí a condom?",
+        "cs": "Kolik stojí kondom?",
         "nl": "Hoeveel kost een condoom?",
         "pt_BR": "Quanto custa a condom?",
         "es": "¿Cuánto cuesta un/una preservativo?",
@@ -86220,7 +86274,7 @@
         "en": "a condom costs {charge:condom}",
         "ca": "un preservatiu costa {charge:condom}",
         "de": "ein Kondom kostet {charge:condom}",
-        "cs": "a condom {charge:condom}",
+        "cs": "kondom {charge:condom}",
         "nl": "een condoom kost {charge:condom}",
         "pt_BR": "a condom custa {charge:condom}",
         "es": "Un/Una preservativo cuesta {charge:condom}",
@@ -88846,7 +88900,8 @@
       "question": {
         "en": "What educational theory is applied on this school?",
         "de": "Welche Bildungstheorie wird auf dieser Schule angewendet?",
-        "es": "¿Qué teoría educativa se aplica en esta escuela?"
+        "es": "¿Qué teoría educativa se aplica en esta escuela?",
+        "cs": "Jaká pedagogická teorie je na této škole aplikována?"
       },
       "mappings": [
         {
@@ -88854,7 +88909,8 @@
           "then": {
             "en": "This school does not use a specific pedagogy",
             "de": "Diese Schule benutzt keine spezifische Pädagogik",
-            "es": "Esta escuela no utiliza una pedagogía específica"
+            "es": "Esta escuela no utiliza una pedagogía específica",
+            "cs": "Tato škola nepoužívá specifickou pedagogiku"
           }
         },
         {
@@ -88862,7 +88918,8 @@
           "then": {
             "en": "This school uses the Montessori method of education",
             "de": "Diese Schule nutzt die Montessori Methode der Bildung",
-            "es": "Esta escuela utiliza el método Montessori de educación"
+            "es": "Esta escuela utiliza el método Montessori de educación",
+            "cs": "Tato škola využívá Montessori metodu vzdělávání"
           }
         },
         {
@@ -88870,7 +88927,8 @@
           "then": {
             "en": "This school is associated with the Freinet Modern School Movement",
             "de": "Diese Schule ist mit der Freinet Modern School Movement verbunden",
-            "es": "Esta escuela está asociada con el Movimiento de Escuelas Modernas Freinet"
+            "es": "Esta escuela está asociada con el Movimiento de Escuelas Modernas Freinet",
+            "cs": "Tato škola je spojena s Freinet Modern School Movement"
           }
         },
         {
@@ -88878,7 +88936,8 @@
           "then": {
             "en": "This school uses the Jenaplan teaching concept",
             "de": "Diese Schule nutzt das Lehrkonzept von Jenaplan",
-            "es": "Esta escuela utiliza el concepto de enseñanza Jenaplan"
+            "es": "Esta escuela utiliza el concepto de enseñanza Jenaplan",
+            "cs": "Tato škola využívá koncept výuky Jenaplan"
           }
         },
         {
@@ -88886,7 +88945,8 @@
           "then": {
             "en": "This school uses the Steiner/Waldorf educational philosophy",
             "de": "Diese Schule nutzt die Steiner/Waldorfer Bildungsphilosophie",
-            "es": "Esta escuela utiliza la filosofía educativa Waldorf/Steiner"
+            "es": "Esta escuela utiliza la filosofía educativa Waldorf/Steiner",
+            "cs": "Tato škola využívá filozofii vzdělávání Steiner/Waldorf"
           }
         },
         {
@@ -88894,7 +88954,8 @@
           "then": {
             "en": "This school uses the Dalton plan teaching concept",
             "de": "Diese Schule nutzt das Dalton Plan Lehrkonzept",
-            "es": "Esta escuela utiliza el concepto de enseñanza del plan Dalton"
+            "es": "Esta escuela utiliza el concepto de enseñanza del plan Dalton",
+            "cs": "Tato škola využívá koncept výuky podle Daltonského plánu"
           }
         },
         {
@@ -88902,7 +88963,8 @@
           "then": {
             "en": "This school uses outdoor learning",
             "de": "Diese Schule nutzt Outdoor-Lernen",
-            "es": "Esta escuela utiliza el aprendizaje al aire libre"
+            "es": "Esta escuela utiliza el aprendizaje al aire libre",
+            "cs": "Tato škola využívá venkovní výuku"
           }
         },
         {
@@ -88910,7 +88972,8 @@
           "then": {
             "en": "This school uses the Reggio Emilia approach",
             "de": "Diese Schule nutzt den Reggio Emilia-Ansatz",
-            "es": "Esta escuela utiliza el enfoque Reggio Emilia"
+            "es": "Esta escuela utiliza el enfoque Reggio Emilia",
+            "cs": "Tato škola využívá přístup Reggio Emilia"
           }
         },
         {
@@ -88918,14 +88981,16 @@
           "then": {
             "en": "This school uses the Sudbury system",
             "de": "Diese Schule nutzt das Sudbury-System",
-            "es": "Esta escuela utiliza el sistema Sudbury"
+            "es": "Esta escuela utiliza el sistema Sudbury",
+            "cs": "Tato škola používá systém Sudbury"
           }
         }
       ],
       "render": {
         "en": "This school uses {pedagogy}",
         "de": "Diese Schule benutzt {pedagogy}",
-        "es": "Esta escuela utiliza {pedagogy}"
+        "es": "Esta escuela utiliza {pedagogy}",
+        "cs": "Tato škola používá {pedagogy}"
       },
       "freeform": {
         "key": "pedagogy",
@@ -102641,7 +102706,8 @@
         "en": "What is the difficulty of this piste?",
         "de": "Was ist der Schwierigkeitsgrad der Piste?",
         "fr": "Quelle est la difficulté de cette piste ?",
-        "es": "¿Cuál es la dificultad de esta pista?"
+        "es": "¿Cuál es la dificultad de esta pista?",
+        "cs": "Jaká je obtížnost této sjezdovky?"
       },
       "id": "piste_difficulty",
       "condition": {
@@ -102663,7 +102729,8 @@
             "en": "Novice (green)",
             "de": "Anfänger (grün)",
             "fr": "Débutant (vert)",
-            "es": "Principiante (verde)"
+            "es": "Principiante (verde)",
+            "cs": "Nováček (zelená)"
           }
         },
         {
@@ -102672,7 +102739,8 @@
             "en": "Easy (blue)",
             "de": "Einfach (blau)",
             "fr": "Facile (bleu)",
-            "es": "Fácil (azul)"
+            "es": "Fácil (azul)",
+            "cs": "Snadná (modrá)"
           }
         },
         {
@@ -102681,7 +102749,8 @@
             "en": "Intermediate (red)",
             "de": "Mittel (rot)",
             "fr": "Intermédiaire (rouge)",
-            "es": "Intermedio (rojo)"
+            "es": "Intermedio (rojo)",
+            "cs": "Střední (červená)"
           }
         },
         {
@@ -102690,7 +102759,8 @@
             "en": "Advanced (black)",
             "de": "Fortgeschritten (schwarz)",
             "fr": "Avancé (noir)",
-            "es": "Avanzado (negro)"
+            "es": "Avanzado (negro)",
+            "cs": "Pokročilá(černá)"
           }
         },
         {
@@ -102699,7 +102769,8 @@
             "en": "Expert (orange/double black)",
             "de": "Experte (orange/doppel schwarz)",
             "fr": "Expert (orange/double noir)",
-            "es": "Experto (naranja/doble negro)"
+            "es": "Experto (naranja/doble negro)",
+            "cs": "Expert (oranžová/dvojitá černá)"
           }
         },
         {
@@ -102708,7 +102779,8 @@
             "en": "Freeride",
             "de": "Freeride",
             "fr": "Hors piste",
-            "es": "Freeride"
+            "es": "Freeride",
+            "cs": "Freeride"
           }
         }
       ]
@@ -102720,7 +102792,8 @@
         "de": "Dieser Teil der Skipiste hat eine Länge von {_length:km} km",
         "fr": "Ce tronçon de piste de ski mesure {_length:km} kilomètres de long",
         "es": "Esta parte de la pista de esquí tiene {_length:km} kilómetros de largo",
-        "uk": "Ця частина лижної траси має довжину {_length:km} кілометрів"
+        "uk": "Ця частина лижної траси має довжину {_length:km} кілометрів",
+        "cs": "Tato část sjezdovky je dlouhá {_length:km} km"
       },
       "condition": {
         "and": [
