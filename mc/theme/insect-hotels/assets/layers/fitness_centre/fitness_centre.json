@@ -1,0 +1,140 @@
+{
+  "id": "fitness_centre",
+  "name": {
+    "en": "Fitness Centres",
+    "de": "Fitnessstudios",
+    "ca": "Centre de fitnes o gimnàs",
+    "nl": "Fitnesscentra",
+    "cs": "Fitness centra",
+    "es": "Centros de Fitness"
+  },
+  "description": {
+    "en": "Layer showing fitness centres",
+    "de": "Ebene mit Fitnessstudios",
+    "ca": "Capa que mostra centres de fitnes o gimnasos",
+    "nl": "Laag die fitnesscentra toon",
+    "cs": "Vrstva zobrazující fitness centra",
+    "es": "Capa que muestra centros de fitness"
+  },
+  "source": {
+    "osmTags": "leisure=fitness_centre"
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "en": "Fitness Centre",
+      "de": "Fitnessstudio",
+      "nl": "Fitness-centrum",
+      "ca": "Centre de fitness",
+      "cs": "Fitness centrum",
+      "es": "Centro de Fitness"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "{name}"
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "iconSize": "40,40",
+      "label": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>",
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "icons.isOpen"
+        }
+      ],
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "white"
+        },
+        {
+          "icon": "./assets/layers/fitness_centre/gym.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "presets": [
+    {
+      "tags": [
+        "leisure=fitness_centre"
+      ],
+      "title": {
+        "en": "a fitness centre",
+        "de": "ein Fitnessstudio",
+        "nl": "een fitness-centrum",
+        "ca": "un centre de fitness",
+        "cs": "fitness centra",
+        "es": "un centro de fitness"
+      },
+      "icon": "./assets/layers/fitness_centre/gym.svg"
+    }
+  ],
+  "tagRenderings": [
+    {
+      "id": "name",
+      "question": {
+        "en": "What is the name of this fitness centre?",
+        "de": "Wie lautet der Name des Fitnessstudios?",
+        "nl": "Wat is de naam van dit fitness-centrum?",
+        "ca": "Quin és el nom d'aquest centre de fitness?",
+        "cs": "Jak se jmenuje toto fitness centrum?",
+        "es": "¿Cuál es el nombre de este centro de fitness?"
+      },
+      "freeform": {
+        "key": "name",
+        "placeholder": {
+          "en": "Name of fitness centre",
+          "de": "Name des Fitnessstudios",
+          "nl": "Naam van dit fitness-centrum",
+          "ca": "Nom del centre de fitness",
+          "cs": "Název fitness centra",
+          "es": "Nombre del centro de fitness"
+        },
+        "type": "string"
+      },
+      "mappings": [
+        {
+          "if": "noname=yes",
+          "then": {
+            "en": "This fitness centre has no name",
+            "de": "Das Fitnessstudio hat keinen Namen",
+            "nl": "Dit fitness-centrum heeft geen naam",
+            "ca": "Aquest centre de fitness no té nom",
+            "cs": "Tento fitness centrum nemá žádné jméno",
+            "es": "Este centro de fitness no tiene nombre"
+          }
+        }
+      ],
+      "render": {
+        "en": "This fitness centre is called {name}",
+        "de": "Das Fitnessstudio heißt {name}",
+        "nl": "Dit fitness-centrum heet {name}",
+        "ca": "Aquest gimnàs / centre de fitness s'anomena {name}",
+        "cs": "Toto fitness centrum se jmenuje {name}",
+        "es": "Este centro de fitness se llama {name}"
+      }
+    },
+    "images",
+    "phone",
+    "email",
+    "website",
+    "opening_hours",
+    "wheelchair-access",
+    "level",
+    "reviews"
+  ],
+  "filter": [
+    "open_now"
+  ],
+  "allowMove": true
+}

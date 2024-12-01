@@ -1,0 +1,202 @@
+{
+  "id": "pharmacy",
+  "name": {
+    "en": "Pharmacies",
+    "de": "Apotheken",
+    "nl": "Apotheken",
+    "pa_PK": "فارمیسی",
+    "ca": "Farmàcies",
+    "fr": "Pharmacies",
+    "cs": "Lékárny",
+    "es": "Farmacias",
+    "uk": "Аптеки"
+  },
+  "description": {
+    "en": "A layer showing pharmacies, which (probably) dispense prescription drugs",
+    "de": "Eine Ebene mit Apotheken, die (wahrscheinlich) verschreibungspflichtige Medikamente ausgeben",
+    "nl": "Deze laag toont apotheken, welke (waarschijnlijk) ook medicijnen onder voorschrift verkopen",
+    "fr": "Une couche affichant les pharmacie qui (probablement) délivrent des médicaments",
+    "ca": "Una capa que mostra les farmàcies, que (probablement) distribueixen medicaments amb recepta",
+    "cs": "Vrstva zobrazující lékárny, které (pravděpodobně) vydávají léky na předpis",
+    "es": "Una capa que muestra farmacias, que (probablemente) dispensan medicamentos con receta"
+  },
+  "source": {
+    "osmTags": {
+      "and": [
+        "amenity=pharmacy"
+      ]
+    }
+  },
+  "minzoom": 13,
+  "title": {
+    "render": {
+      "en": "{name}",
+      "de": "{name}",
+      "nl": "{name}",
+      "fr": "{name}",
+      "ca": "{name}",
+      "cs": "{name}",
+      "pl": "{name}",
+      "es": "{name}"
+    },
+    "mappings": [
+      {
+        "if": "name=",
+        "then": {
+          "en": "Pharmacy",
+          "de": "Apotheke",
+          "nl": "Apotheek",
+          "pa_PK": "فارمیسی",
+          "fr": "Pharmacie",
+          "ca": "Farmàcia",
+          "cs": "Lékárna",
+          "pl": "Apteka",
+          "es": "Farmacia"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "iconSize": "40,40",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "iconBadges": [
+        {
+          "if": "opening_hours~*",
+          "then": "icons.isOpen"
+        }
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      },
+      "anchor": "bottom",
+      "marker": [
+        {
+          "icon": "./assets/layers/pharmacy/pharmacy.svg"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "presets": [
+    {
+      "tags": [
+        "amenity=pharmacy"
+      ],
+      "title": {
+        "en": "a pharmacy",
+        "nl": "een apotheek",
+        "de": "eine Apotheke",
+        "fr": "une pharmacie",
+        "ca": "una farmàcia",
+        "cs": "lékárna",
+        "es": "una farmacia"
+      }
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    "reviews",
+    {
+      "id": "name",
+      "freeform": {
+        "key": "name",
+        "type": "string",
+        "placeholder": {
+          "en": "Name of the pharmacy",
+          "de": "Name der Apotheke",
+          "nl": "Naam van de apotheek",
+          "fr": "Nom de la pharmacie",
+          "ca": "Nom de la farmàcia",
+          "cs": "Název lékárny",
+          "es": "Nombre de la farmacia"
+        }
+      },
+      "question": {
+        "en": "What is the name of the pharmacy?",
+        "de": "Wie lautet der Name der Apotheke?",
+        "nl": "Wat is de naam van deze apotheek?",
+        "fr": "Quel est le nom de cette pharmacie ?",
+        "ca": "Quin és el nom de la farmàcia?",
+        "cs": "Jak se lékárna jmenuje?",
+        "pl": "Jak nazywa się ta apteka?",
+        "es": "¿Cuál es el nombre de la farmacia?",
+        "uk": "Як називається аптека?"
+      },
+      "render": {
+        "en": "This pharmacy is called {name}",
+        "de": "Der Name der Apotheke lautet {name}",
+        "nl": "Deze apotheek heet {name}",
+        "ca": "Aquesta farmàcia es diu {name}",
+        "fr": "Cette pharmacie s'appelle {name}",
+        "cs": "Tato lékárna se jmenuje {name}",
+        "pl": "Nazwa tej apteki to {name}",
+        "es": "Esta farmacia se llama {name}",
+        "uk": "Ця аптека називається {name}"
+      },
+      "onSoftDelete": [
+        "name="
+      ]
+    },
+    "opening_hours",
+    "contact",
+    "payment-options",
+    "wheelchair"
+  ],
+  "filter": [
+    {
+      "id": "drive-through",
+      "options": [
+        {
+          "question": {
+            "en": "Has drive through",
+            "de": "Bietet einen Durchfahr-Service an",
+            "nl": "Heeft een drive-through",
+            "fr": "A une drive",
+            "ca": "Té autoservei",
+            "cs": "Má průjezd",
+            "es": "¿Tiene servicio de auto-recogida?",
+            "uk": "Має проїзд"
+          },
+          "osmTags": "drive_through=yes"
+        }
+      ]
+    },
+    {
+      "id": "dispensing",
+      "options": [
+        {
+          "question": {
+            "en": "Pharmacy able to provide prescription drugs",
+            "de": "Apotheke, die verschreibungspflichtige Arzneimittel ausgibt",
+            "nl": "Deze apotheek verdeelt medicijnen met voorschrift",
+            "fr": "Pharmacie pouvant délivrer des médicaments sous prescription",
+            "ca": "Farmàcia que subministra medicaments amb recepta",
+            "cs": "Lékárna schopná poskytovat léky na předpis",
+            "es": "¿La farmacia puede proporcionar medicamentos con receta?",
+            "uk": "Аптека, здатна надавати рецептурні ліки"
+          },
+          "osmTags": "dispensing=yes"
+        }
+      ]
+    },
+    "open_now"
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "amenity=",
+        "fixme="
+      ]
+    }
+  },
+  "allowMove": true
+}

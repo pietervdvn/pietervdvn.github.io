@@ -1,0 +1,138 @@
+{
+  "id": "conflation",
+  "name": "Conflation",
+  "description": "If the import-button moves OSM points, the imported way points or conflates, a preview is shown. This layer defines how this preview is rendered. This layer cannot be included in a theme.",
+  "source": "special",
+  "minzoom": 1,
+  "title": "Conflation",
+  "pointRendering": [
+    {
+      "location": [
+        "point"
+      ],
+      "marker": [
+        {
+          "color": {
+            "render": "#000",
+            "mappings": [
+              {
+                "if": "detach=yes",
+                "then": "white"
+              }
+            ]
+          },
+          "icon": {
+            "render": "addSmall",
+            "mappings": [
+              {
+                "if": "detach=yes",
+                "then": "white"
+              }
+            ]
+          }
+        },
+        {
+          "icon": {
+            "mappings": [
+              {
+                "if": "detach=yes",
+                "then": "close"
+              }
+            ]
+          },
+          "color": "#C33"
+        }
+      ],
+      "iconSize": "10,10",
+      "anchor": "center"
+    },
+    {
+      "location": [
+        "end"
+      ],
+      "marker": [
+        {
+          "icon": {
+            "render": "circle",
+            "mappings": [
+              {
+                "if": "reprojection=yes",
+                "then": "none"
+              },
+              {
+                "if": "move=no",
+                "then": "ring"
+              }
+            ]
+          },
+          "color": {
+            "render": "#0f0",
+            "mappings": [
+              {
+                "if": "reprojection=yes",
+                "then": "#f00"
+              },
+              {
+                "if": "move=no",
+                "then": "#0f0"
+              }
+            ]
+          }
+        }
+      ],
+      "iconSize": "10,10",
+      "anchor": "center"
+    },
+    {
+      "location": [
+        "start"
+      ],
+      "marker": [
+        {
+          "icon": {
+            "render": "square",
+            "mappings": [
+              {
+                "if": "reprojection=yes",
+                "then": "reload"
+              }
+            ]
+          },
+          "color": {
+            "render": "#f00",
+            "mappings": [
+              {
+                "if": "reprojection=yes",
+                "then": "#f00"
+              }
+            ]
+          }
+        }
+      ],
+      "iconSize": {
+        "render": "10,10,center",
+        "mappings": [
+          {
+            "if": "distance<0.1",
+            "then": "0,0,center"
+          }
+        ]
+      }
+    }
+  ],
+  "lineRendering": [
+    {
+      "width": {
+        "render": "3",
+        "mappings": [
+          {
+            "if": "distance<0.2",
+            "then": "0"
+          }
+        ]
+      },
+      "color": "#00f"
+    }
+  ],
+  "allowMove": false
+}

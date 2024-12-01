@@ -1,0 +1,67 @@
+
+
+
+.mapping-icon-small-height {
+    /* A mapping icon type */
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    width: unset;
+}
+
+.mapping-icon-medium-height {
+    /* A mapping icon type */
+    height: 3rem;
+    margin-right: 0.5rem;
+    width: unset;
+}
+
+.mapping-icon-large-height {
+    /* A mapping icon type */
+    height: 5rem;
+    margin-right: 0.5rem;
+    width: unset;
+}
+
+
+
+.mapping-icon-small-width {
+    width: 1.5rem;
+}
+
+.mapping-icon-medium-width {
+    width: 3rem;
+}
+
+.mapping-icon-large-width {
+    width: 5rem;
+}
+
+
+.mapping-icon-small {
+    /* A mapping icon type */
+    width: 2rem;
+    height: fit-content;
+
+    max-height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.mapping-icon-medium {
+    /* A mapping icon type */
+    width: 3rem;
+    height: fit-content;
+    max-height: 3rem;
+    margin-right: 1rem
+}
+
+.mapping-icon-large {
+    /* A mapping icon type */
+    width: 6rem;
+    height: fit-content;
+    max-height: 5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 1.5rem;
+}
+
+

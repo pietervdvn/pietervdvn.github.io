@@ -1,0 +1,841 @@
+{
+  "id": "mapcomplete-changes",
+  "title": {
+    "en": "Changes made with MapComplete",
+    "de": "Änderungen mit MapComplete",
+    "cs": "Změny provedené pomocí MapComplete",
+    "es": "Cambios realizados con MapComplete",
+    "fr": "Modifications faites avec MapComplete",
+    "nl": "Wijzigingen gemaakt met MapComplete"
+  },
+  "shortDescription": {
+    "en": "Shows changes made by MapComplete",
+    "de": "Zeigt die von MapComplete vorgenommenen Änderungen an",
+    "cs": "Zobrazuje změny provedené nástrojem MapComplete",
+    "es": "Muestra los cambios realizados por MapComplete",
+    "fr": "Afficher les modifications faites avec MapComplete",
+    "nl": "Toont wijzigingen gemaakt met MapComplete"
+  },
+  "description": {
+    "en": "This maps shows all the changes made with MapComplete",
+    "de": "Diese Karte zeigt alle mit MapComplete vorgenommenen Änderungen",
+    "es": "Este mapa muestra todos los cambios realizados con MapComplete",
+    "pl": "Ta mapa pokazuje wszystkie zmiany wprowadzone za pomocą MapComplete",
+    "cs": "Tyto mapy zobrazují všechny změny provedené pomocí MapComplete",
+    "fr": "Cette carte montre tous les changements effectués avec MapComplete",
+    "nl": "Deze kaarten tonen alle wijzigingen die zijn gemaakt met MapComplete"
+  },
+  "icon": "./assets/svg/logo.svg",
+  "hideFromOverview": true,
+  "startLat": 0,
+  "startLon": 0,
+  "startZoom": 1,
+  "layers": [
+    {
+      "id": "mapcomplete-changes",
+      "name": {
+        "en": "Changeset centers",
+        "de": "Changeset-Zentren",
+        "es": "Centros de conjuntos de cambios",
+        "fr": "Centre du groupe de modifications",
+        "nl": "Changeset centra",
+        "cs": "Changeset centra"
+      },
+      "minzoom": 0,
+      "source": {
+        "osmTags": "editor~*",
+        "geoJson": "https://raw.githubusercontent.com/pietervdvn/MapComplete-data/main/mapcomplete-changes/tile_{z}_{x}_{y}.geojson",
+        "geoJsonZoomLevel": 8
+      },
+      "title": {
+        "render": {
+          "en": "Changeset for {theme}",
+          "de": "Änderungssatz für {theme}",
+          "cs": "Sada změn pro {theme}",
+          "es": "Conjunto de cambios para {theme}",
+          "nl": "Changeset voor {theme}"
+        }
+      },
+      "description": {
+        "en": "Shows all MapComplete changes",
+        "de": "Zeigt alle MapComplete-Änderungen",
+        "es": "Muestra todos los cambios de MapComplete",
+        "cs": "Zobrazí všechny změny MapComplete",
+        "nl": "Toon alle MapComplete-wijzigingen"
+      },
+      "tagRenderings": [
+        {
+          "id": "show_changeset_id",
+          "render": {
+            "en": "Changeset <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>",
+            "de": "Änderungssatz <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>",
+            "cs": "Sada změn <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>",
+            "es": "Conjunto de cambios <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>",
+            "nl": "Changeset <a href='https://openstreetmap.org/changeset/{id}' target='_blank'>{id}</a>"
+          }
+        },
+        {
+          "id": "contributor",
+          "question": {
+            "en": "What contributor did make this change?",
+            "de": "Wer hat zu dieser Änderung beigetragen?",
+            "cs": "Který přispěvatel provedl tuto změnu?",
+            "es": "¿Qué colaborador realizó este cambio?",
+            "nl": "Welke bijdrager maakte deze verandering?"
+          },
+          "freeform": {
+            "key": "user"
+          },
+          "render": {
+            "en": "Change made by <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>",
+            "de": "Änderung vorgenommen von <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>",
+            "cs": "Změna provedena uživatelem <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>",
+            "es": "Cambio realizado por <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>",
+            "fr": "Modification faite par <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>",
+            "nl": "Wijziging aangebracht door <a href='https://openstreetmap.org/user/{user}' target='_blank'>{user}</a>"
+          }
+        },
+        {
+          "id": "theme-id",
+          "question": {
+            "en": "What theme was used to make this change?",
+            "de": "Welches Thema wurde für diese Änderung verwendet?",
+            "cs": "Jaký motiv byl použit k provedení této změny?",
+            "es": "¿Qué tema se utilizó para realizar este cambio?",
+            "nl": "Welk thema werd gebruikt voor deze wijziging?"
+          },
+          "freeform": {
+            "key": "theme"
+          },
+          "render": {
+            "en": "Change with theme <a href='https://mapcomplete.org/{theme}'>{theme}</a>",
+            "de": "Änderung mit Thema <a href='https://mapcomplete.org/{theme}'>{theme}</a>",
+            "es": "Cambio con el tema <a href='https://mapcomplete.org/{theme}'>{theme}</a>",
+            "nl": "Verander met thema <a href='https://mapcomplete.org/{theme}'>{theme}</a>",
+            "cs": "Změna pomocí tématu <a href='https://mapcomplete.org/{theme}'>{theme}</a>"
+          }
+        },
+        {
+          "id": "locale",
+          "freeform": {
+            "key": "locale"
+          },
+          "question": {
+            "en": "What locale (language) was this change made in?",
+            "de": "In welcher Sprache (Locale) wurde diese Änderung vorgenommen?",
+            "cs": "V jakém prostředí (jazyce) byla tato změna provedena?",
+            "es": "¿En qué configuración regional (idioma) se realizó este cambio?",
+            "nl": "In welke 'locale' (taal) is deze wijziging gemaakt?"
+          },
+          "render": {
+            "en": "User locale is {locale}",
+            "de": "Die Benutzersprache ist {locale}",
+            "cs": "Uživatelské prostředí je {locale}",
+            "es": "Configuración regional del usuario es {locale}",
+            "nl": "De gebruikerstaal (locale) is {locale}"
+          }
+        },
+        {
+          "id": "host",
+          "render": {
+            "en": "Change with with <a href='{host}'>{host}</a>",
+            "de": "Änderung mit <a href='{host}'>{host}</a>",
+            "cs": "Změnit pomocí <a href='{host}'>{host}</a>",
+            "es": "Cambio realizado con <a href='{host}'>{host}</a>",
+            "nl": "Gewijzigd met <a href='{host}'>{host}</a>"
+          },
+          "question": {
+            "en": "What host (website) was this change made with?",
+            "de": "Bei welchem Host (Website) wurde diese Änderung vorgenommen?",
+            "cs": "U jakého hostitele (webové stránky) byla tato změna provedena?",
+            "es": "¿Con qué anfitrión (sitio web) se realizó este cambio?",
+            "nl": "Met welke host (website) is deze wijziging gemaakt?"
+          },
+          "freeform": {
+            "key": "host"
+          },
+          "mappings": [
+            {
+              "if": "host=www.waldbrand-app.de",
+              "then": "waldbrand-app.de",
+              "hideInAnswer": true
+            },
+            {
+              "if": "host~https://pietervdvn.github.io/mc/develop/.*",
+              "then": "Develop",
+              "hideInAnswer": true
+            }
+          ]
+        },
+        {
+          "id": "version",
+          "question": {
+            "en": "What version of MapComplete was used to make this change?",
+            "de": "Welche Version von MapComplete wurde verwendet, um diese Änderung vorzunehmen?",
+            "cs": "Jaká verze aplikace MapComplete byla použita k provedení této změny?",
+            "es": "¿Qué versión de MapComplete se utilizó para realizar este cambio?",
+            "fr": "Quelle version de MapCompletee a été utilisée pour faire cette modification ?",
+            "nl": "Welke versie van MapComplete is gebruikt voor deze wijziging?"
+          },
+          "render": {
+            "en": "Made with {editor}",
+            "de": "Erstellt mit {editor}",
+            "cs": "Vytvořeno pomocí {editor}",
+            "es": "Hecho con {editor}",
+            "fr": "Fait avec {editor}",
+            "nl": "Gemaakt met {editor}"
+          },
+          "freeform": {
+            "key": "editor"
+          }
+        }
+      ],
+      "pointRendering": [
+        {
+          "location": [
+            "point",
+            "centroid"
+          ],
+          "marker": [
+            {
+              "icon": {
+                "render": "teardrop:#00cc00",
+                "mappings": [
+                  {
+                    "if": "theme=advertising",
+                    "then": "./assets/themes/advertising/icon.svg"
+                  },
+                  {
+                    "if": "theme=aed",
+                    "then": "./assets/themes/aed/aed.svg"
+                  },
+                  {
+                    "if": "theme=artwork",
+                    "then": "./assets/themes/artwork/artwork.svg"
+                  },
+                  {
+                    "if": "theme=atm",
+                    "then": "./assets/themes/atm/logo.svg"
+                  },
+                  {
+                    "if": "theme=bag",
+                    "then": "./assets/themes/bag/logo.svg"
+                  },
+                  {
+                    "if": "theme=benches",
+                    "then": "./assets/themes/benches/bench_poi.svg"
+                  },
+                  {
+                    "if": "theme=bicycle_parkings",
+                    "then": "./assets/themes/bicycle_parkings/logo.svg"
+                  },
+                  {
+                    "if": "theme=bicycle_rental",
+                    "then": "./assets/themes/bicycle_rental/logo.svg"
+                  },
+                  {
+                    "if": "theme=bicyclelib",
+                    "then": "./assets/themes/bicyclelib/logo.svg"
+                  },
+                  {
+                    "if": "theme=binoculars",
+                    "then": "./assets/layers/binocular/telescope.svg"
+                  },
+                  {
+                    "if": "theme=blind_osm",
+                    "then": "./assets/themes/blind_osm/Blindicon.svg"
+                  },
+                  {
+                    "if": "theme=bookcases",
+                    "then": "./assets/themes/bookcases/bookcase.svg"
+                  },
+                  {
+                    "if": "theme=buurtnatuur",
+                    "then": "./assets/themes/buurtnatuur/logo.svg"
+                  },
+                  {
+                    "if": "theme=cafes_and_pubs",
+                    "then": "./assets/layers/cafe_pub/pub.svg"
+                  },
+                  {
+                    "if": "theme=campersite",
+                    "then": "./assets/themes/campersite/caravan.svg"
+                  },
+                  {
+                    "if": "theme=charging_stations",
+                    "then": "./assets/themes/charging_stations/logo.svg"
+                  },
+                  {
+                    "if": "theme=circular_economy",
+                    "then": "./assets/themes/circular_economy/circular.svg"
+                  },
+                  {
+                    "if": "theme=climbing",
+                    "then": "./assets/themes/climbing/climbing_icon.svg"
+                  },
+                  {
+                    "if": "theme=clock",
+                    "then": "./assets/layers/clock/clock.svg"
+                  },
+                  {
+                    "if": "theme=cycle_highways",
+                    "then": "./assets/themes/cycle_highways/fietssnelwegen-logo.svg"
+                  },
+                  {
+                    "if": "theme=cycle_infra",
+                    "then": "./assets/themes/cycle_infra/cycle-infra.svg"
+                  },
+                  {
+                    "if": "theme=cyclenodes",
+                    "then": "./assets/themes/cyclenodes/logo.svg"
+                  },
+                  {
+                    "if": "theme=cyclestreets",
+                    "then": "./assets/themes/cyclestreets/logo.svg"
+                  },
+                  {
+                    "if": "theme=cyclofix",
+                    "then": "./assets/themes/cyclofix/logo.svg"
+                  },
+                  {
+                    "if": "theme=disaster_response",
+                    "then": "./assets/themes/disaster_response/CivilDefence.svg"
+                  },
+                  {
+                    "if": "theme=drinking_water",
+                    "then": "./assets/themes/drinking_water/logo.svg"
+                  },
+                  {
+                    "if": "theme=education",
+                    "then": "./assets/layers/school/college.svg"
+                  },
+                  {
+                    "if": "theme=elongated_coin",
+                    "then": "./assets/themes/elongated_coin/penny.svg"
+                  },
+                  {
+                    "if": "theme=etymology",
+                    "then": "./assets/layers/etymology/logo.svg"
+                  },
+                  {
+                    "if": "theme=facadegardens",
+                    "then": "./assets/themes/facadegardens/geveltuin.svg"
+                  },
+                  {
+                    "if": "theme=fireplace",
+                    "then": "./assets/layers/assembly_point/fire.svg"
+                  },
+                  {
+                    "if": "theme=food",
+                    "then": "./assets/layers/food/restaurant.svg"
+                  },
+                  {
+                    "if": "theme=fritures",
+                    "then": "./assets/themes/fritures/logo.svg"
+                  },
+                  {
+                    "if": "theme=ghostbikes",
+                    "then": "./assets/themes/ghostbikes/logo.svg"
+                  },
+                  {
+                    "if": "theme=ghostsigns",
+                    "then": "./assets/themes/advertising/wall_painting.svg"
+                  },
+                  {
+                    "if": "theme=glutenfree",
+                    "then": "./assets/layers/questions/glutenfree.svg"
+                  },
+                  {
+                    "if": "theme=grb",
+                    "then": "./assets/themes/grb/logo.svg"
+                  },
+                  {
+                    "if": "theme=guideposts",
+                    "then": "./assets/layers/guidepost/guidepost.svg"
+                  },
+                  {
+                    "if": "theme=hackerspaces",
+                    "then": "./assets/themes/hackerspaces/glider.svg"
+                  },
+                  {
+                    "if": "theme=hailhydrant",
+                    "then": "./assets/themes/hailhydrant/logo.svg"
+                  },
+                  {
+                    "if": "theme=healthcare",
+                    "then": "./assets/layers/doctors/doctors.svg"
+                  },
+                  {
+                    "if": "theme=hotels",
+                    "then": "./assets/layers/tourism_accomodation/hotel.svg"
+                  },
+                  {
+                    "if": "theme=icecream",
+                    "then": "./assets/layers/ice_cream/ice_cream.svg"
+                  },
+                  {
+                    "if": "theme=indoors",
+                    "then": "./assets/layers/entrance/entrance.svg"
+                  },
+                  {
+                    "if": "theme=insects",
+                    "then": "./assets/layers/insect_hotel/insect_hotel.svg"
+                  },
+                  {
+                    "if": "theme=items_with_image",
+                    "then": "./assets/layers/item_with_image/camera.svg"
+                  },
+                  {
+                    "if": "theme=kerbs_and_crossings",
+                    "then": "./assets/layers/kerbs/KerbIcon.svg"
+                  },
+                  {
+                    "if": "theme=lactosefree",
+                    "then": "./assets/layers/questions/lactose_free.svg"
+                  },
+                  {
+                    "if": "theme=lighthouses",
+                    "then": "./assets/themes/lighthouses/lighthouse.svg"
+                  },
+                  {
+                    "if": "theme=mapcomplete-changes",
+                    "then": "./assets/svg/logo.svg"
+                  },
+                  {
+                    "if": "theme=maproulette",
+                    "then": "./assets/layers/maproulette/logomark.svg"
+                  },
+                  {
+                    "if": "theme=maps",
+                    "then": "./assets/themes/maps/logo.svg"
+                  },
+                  {
+                    "if": "theme=maxspeed",
+                    "then": "./assets/themes/maxspeed/maxspeed_logo.svg"
+                  },
+                  {
+                    "if": "theme=memorials",
+                    "then": "./assets/layers/memorial/memorial.svg"
+                  },
+                  {
+                    "if": "theme=nature",
+                    "then": "./assets/themes/nature/logo.svg"
+                  },
+                  {
+                    "if": "theme=notes",
+                    "then": "./assets/themes/notes/logo.svg"
+                  },
+                  {
+                    "if": "theme=observation_towers",
+                    "then": "./assets/layers/observation_tower/Tower_observation.svg"
+                  },
+                  {
+                    "if": "theme=onwheels",
+                    "then": "./assets/themes/onwheels/crest.svg"
+                  },
+                  {
+                    "if": "theme=openlovemap",
+                    "then": "./assets/layers/stripclub/stripclub.svg"
+                  },
+                  {
+                    "if": "theme=openwindpowermap",
+                    "then": "./assets/themes/openwindpowermap/logo.svg"
+                  },
+                  {
+                    "if": "theme=osm_community_index",
+                    "then": "./assets/themes/osm_community_index/osm.svg"
+                  },
+                  {
+                    "if": "theme=parkings",
+                    "then": "./assets/themes/parkings/parkings.svg"
+                  },
+                  {
+                    "if": "theme=personal",
+                    "then": "./assets/svg/addSmall.svg"
+                  },
+                  {
+                    "if": "theme=pets",
+                    "then": "./assets/layers/dogpark/dog-park.svg"
+                  },
+                  {
+                    "if": "theme=play_forests",
+                    "then": "./assets/layers/play_forest/icon.svg"
+                  },
+                  {
+                    "if": "theme=playgrounds",
+                    "then": "./assets/themes/playgrounds/playground.svg"
+                  },
+                  {
+                    "if": "theme=postal_codes",
+                    "then": "./assets/themes/postal_codes/townhall.svg"
+                  },
+                  {
+                    "if": "theme=postboxes",
+                    "then": "./assets/layers/postboxes/postbox.svg"
+                  },
+                  {
+                    "if": "theme=rainbow_crossings",
+                    "then": "./assets/themes/rainbow_crossings/logo.svg"
+                  },
+                  {
+                    "if": "theme=shops",
+                    "then": "./assets/themes/shops/shop.svg"
+                  },
+                  {
+                    "if": "theme=ski",
+                    "then": "./assets/layers/aerialway/chair_lift.svg"
+                  },
+                  {
+                    "if": "theme=speelplekken",
+                    "then": "./assets/themes/speelplekken/logo.svg"
+                  },
+                  {
+                    "if": "theme=sport_pitches",
+                    "then": "./assets/layers/sport_pitch/table_tennis.svg"
+                  },
+                  {
+                    "if": "theme=sports",
+                    "then": "./assets/themes/sports/sport.svg"
+                  },
+                  {
+                    "if": "theme=stations",
+                    "then": "./assets/themes/stations/rail-light.svg"
+                  },
+                  {
+                    "if": "theme=street_lighting",
+                    "then": "./assets/layers/street_lamps/street_lamp.svg"
+                  },
+                  {
+                    "if": "theme=street_lighting_assen",
+                    "then": "./assets/layers/street_lamps/street_lamp.svg"
+                  },
+                  {
+                    "if": "theme=surveillance",
+                    "then": "./assets/themes/surveillance/logo.svg"
+                  },
+                  {
+                    "if": "theme=toerisme_vlaanderen",
+                    "then": "./assets/themes/toerisme_vlaanderen/logo.svg"
+                  },
+                  {
+                    "if": "theme=toilets",
+                    "then": "./assets/themes/toilets/toilets.svg"
+                  },
+                  {
+                    "if": "theme=transit",
+                    "then": "./assets/layers/transit_stops/bus_stop.svg"
+                  },
+                  {
+                    "if": "theme=trees",
+                    "then": "./assets/themes/trees/logo.svg"
+                  },
+                  {
+                    "if": "theme=uk_addresses",
+                    "then": "./assets/themes/uk_addresses/housenumber_unknown.svg"
+                  },
+                  {
+                    "if": "theme=velopark",
+                    "then": "./assets/themes/velopark/velopark.svg"
+                  },
+                  {
+                    "if": "theme=vending_machine",
+                    "then": "./assets/layers/vending_machine/vending_machine.svg"
+                  },
+                  {
+                    "if": "theme=walkingnodes",
+                    "then": "./assets/themes/walkingnodes/logo.svg"
+                  },
+                  {
+                    "if": "theme=walls_and_buildings",
+                    "then": "./assets/layers/walls_and_buildings/walls_and_buildings.png"
+                  },
+                  {
+                    "if": "theme=waste",
+                    "then": "./assets/layers/recycling/recycling-14.svg"
+                  },
+                  {
+                    "if": "theme=waste_assen",
+                    "then": "./assets/layers/recycling/recycling-14.svg"
+                  },
+                  {
+                    "if": "theme=waste_basket",
+                    "then": "./assets/themes/waste_basket/waste_basket.svg"
+                  },
+                  {
+                    "if": "theme=width",
+                    "then": "./assets/themes/width/icon.svg"
+                  }
+                ]
+              }
+            }
+          ],
+          "iconSize": "30,30",
+          "anchor": "center"
+        }
+      ],
+      "filter": [
+        {
+          "id": "theme-search",
+          "options": [
+            {
+              "osmTags": "theme~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "Themename contains {search}",
+                "de": "Themenname enthält {search}",
+                "es": "El nombre del tema contiene {search}",
+                "pl": "Nazwa tematu zawiera {search}",
+                "cs": "Název obsahuje {search}",
+                "fr": "Le nom du thème contient {search}",
+                "nl": "Themanaam bevat {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "theme-not-search",
+          "options": [
+            {
+              "osmTags": "theme!~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "Themename does <b>not</b> contain {search}",
+                "de": "Themename enthält <b>nicht</b> {search}",
+                "es": "El nombre del tema <b>no</b> contiene {search}",
+                "cs": "Název motivu <b>neobsahuje</b> {search}",
+                "fr": "Le nom du thème <b>ne contient pas</b> {search}",
+                "nl": "Themanaam bevat <b>geen</b> {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "created_by",
+          "options": [
+            {
+              "osmTags": "user~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "Made by contributor {search}",
+                "de": "Erstellt von Mitwirkendem {search}",
+                "es": "Hecho por el colaborador {search}",
+                "cs": "Vytvořeno přispěvatelem {search}",
+                "fr": "Fait par le·a contributeur·trice {search}",
+                "nl": "Toegevoegd door {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "not_created_by",
+          "options": [
+            {
+              "osmTags": "user!~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "<b>Not</b> made by contributor {search}",
+                "de": "<b>Nicht</b> erstellt von Mitwirkendem {search}",
+                "es": "<b>No</b> hecho por el colaborador {search}",
+                "cs": "<b>Nevytvořeno</b> přispěvatelem {search}",
+                "fr": "<b>Pas</b> fait par le·a contributeur·trice {search}",
+                "nl": "<b>Niet</b> toegevoegd door {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "made_before",
+          "options": [
+            {
+              "osmTags": "date<{search}",
+              "fields": [
+                {
+                  "name": "search",
+                  "type": "date"
+                }
+              ],
+              "question": {
+                "en": "Made before {search}",
+                "de": "Erstellt vor {search}",
+                "es": "Hecho antes de {search}",
+                "cs": "Vytvořeno před {search}",
+                "fr": "Fait avant {search}",
+                "nl": "Toegevoegd vóór {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "made_after",
+          "options": [
+            {
+              "osmTags": "date>{search}",
+              "fields": [
+                {
+                  "name": "search",
+                  "type": "date"
+                }
+              ],
+              "question": {
+                "en": "Made after {search}",
+                "de": "Erstellt nach {search}",
+                "es": "Hecho después de {search}",
+                "cs": "Vytvořeno po {search}",
+                "fr": "Fait après {search}",
+                "nl": "Toegevoegd na {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "locale-filter",
+          "options": [
+            {
+              "osmTags": "locale~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "User language (iso-code) {search}",
+                "de": "Benutzersprache (ISO-Code) {search}",
+                "es": "Idioma del usuario (código ISO) {search}",
+                "cs": "Jazyk uživatele (iso-kód) {search}",
+                "fr": "Langage utilisateur (code iso) {search}",
+                "nl": "Gebruikerstaal (iso-code) {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "host_name",
+          "options": [
+            {
+              "osmTags": "host~i~.*{search}.*",
+              "fields": [
+                {
+                  "name": "search"
+                }
+              ],
+              "question": {
+                "en": "Made with host {search}",
+                "de": "Erstellt mit Host {search}",
+                "cs": "Vytvořeno pomocí hostitele {search}",
+                "es": "Hecho con el anfitrión {search}",
+                "nl": "Gemaakt met {search}"
+              }
+            }
+          ]
+        },
+        {
+          "id": "added-image",
+          "options": [
+            {
+              "osmTags": "add-image>0",
+              "question": {
+                "en": "Changeset added at least one image",
+                "de": "Changeset hat mindestens ein Bild hinzugefügt",
+                "cs": "Sada změn přidala alespoň jeden obrázek",
+                "es": "El conjunto de cambios agregó al menos una imagen",
+                "nl": "Changeset voegde minstens één afbeelding toe"
+              }
+            }
+          ]
+        },
+        {
+          "id": "exclude_grb",
+          "options": [
+            {
+              "osmTags": "theme!=grb",
+              "question": {
+                "en": "Exclude GRB theme",
+                "de": "GRB-Thema ausschließen",
+                "cs": "Vyloučit motiv GRB",
+                "es": "Excluir el tema GRB",
+                "nl": "GRB-thema uitsluiten"
+              }
+            }
+          ]
+        },
+        {
+          "id": "exclude_etymology",
+          "options": [
+            {
+              "osmTags": "theme!=etymology",
+              "question": {
+                "en": "Exclude etymology theme",
+                "de": "Etymologie-Thema ausschließen",
+                "es": "Excluir el tema de etimología",
+                "cs": "Vyloučit etymologii tématu",
+                "nl": "Thema etymologie uitsluiten"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "builtin": "current_view",
+      "override": {
+        "title": "Statistics on changesets in the current view",
+        "tagRenderings+": [
+          {
+            "id": "link_to_more",
+            "render": {
+              "en": "More statistics can be found <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>here</a>",
+              "de": "Weitere Statistiken findest du <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>hier</a>",
+              "cs": "Další statistiky najdete <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>zde</a>",
+              "es": "Puedes encontrar más estadísticas <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>aquí</a>",
+              "fr": "Plus de statistiques peuvent être trouvées <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>ici</a>",
+              "nl": "Meer statistieken vind je <a href='https://github.com/pietervdvn/MapComplete/tree/develop/Docs/Tools/graphs' target='_blank'>hier</a>"
+            }
+          },
+          {
+            "id": "hist_themes",
+            "render": "{histogram(_embedded_cs:themes, Themename, Number of changesets)}"
+          },
+          {
+            "id": "hist_users",
+            "render": "{histogram(_embedded_cs:users, Contributor, Number of changesets)}"
+          }
+        ],
+        "calculatedTags": [
+          "_embedded_cs=overlapWith(feat)('mapcomplete-changes').map(f => f.feat.properties)",
+          "_embedded_cs:themes=feat.get('_embedded_cs').map(cs => cs.theme)",
+          "_embedded_cs:users=feat.get('_embedded_cs').map(cs => cs['_last_edit:contributor'])"
+        ],
+        "+pointRendering": [
+          {
+            "location": [
+              "point"
+            ],
+            "marker": [
+              {
+                "icon": "./assets/svg/statistics.svg"
+              }
+            ],
+            "iconSize": "30,30",
+            "anchor": "center"
+          }
+        ]
+      }
+    }
+  ]
+}

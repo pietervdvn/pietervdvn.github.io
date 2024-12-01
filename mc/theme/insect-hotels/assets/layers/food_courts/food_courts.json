@@ -1,0 +1,92 @@
+{
+  "id": "food_courts",
+  "name": {
+    "en": "Food Courts",
+    "de": "Food Courts",
+    "es": "Plazas de comida"
+  },
+  "description": {
+    "en": "Food courts with a variety of food options.",
+    "de": "Food-Courts mit einer Vielzahl von Essensmöglichkeiten.",
+    "es": "Plazas de comida con una variedad de opciones gastronómicas."
+  },
+  "source": {
+    "osmTags": "amenity=food_court"
+  },
+  "minzoom": 12,
+  "title": {
+    "render": {
+      "en": "Food Court",
+      "de": "Food Court",
+      "es": "Plaza de comida"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": "{name}"
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "marker": [
+        {
+          "icon": "./assets/layers/food_courts/food_court.svg"
+        }
+      ],
+      "label": {
+        "mappings": [
+          {
+            "if": "name~*",
+            "then": "<div style='background: white; padding: 0.25em; border-radius:0.5em'>{name}</div>"
+          }
+        ]
+      }
+    }
+  ],
+  "lineRendering": [
+    {
+      "color": "#C77400",
+      "fillColor": "#C774004D"
+    }
+  ],
+  "tagRenderings": [
+    {
+      "id": "name",
+      "question": {
+        "en": "What is the name of this food court?",
+        "de": "Wie lautet der Name dieses Food-Courts?",
+        "es": "¿Cuál es el nombre de esta plaza de comida?"
+      },
+      "freeform": {
+        "key": "name",
+        "type": "string",
+        "placeholder": {
+          "en": "Name of the food court",
+          "de": "Name des Food-Courts",
+          "es": "Nombre de la plaza de comida"
+        }
+      },
+      "render": {
+        "en": "This food court is called <b>{name}</b>.",
+        "de": "Dieser Food Court heißt <b>{name}</b>.",
+        "es": "Esta plaza de comida se llama <b>{name}</b>."
+      }
+    },
+    "reviews",
+    "images",
+    "opening_hours",
+    "wheelchair-access",
+    "website",
+    "phone",
+    "smoking"
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  }
+}

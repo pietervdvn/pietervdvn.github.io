@@ -1,0 +1,20 @@
+{
+  "id": "range",
+  "name": null,
+  "description": "Meta-layer, simply showing a bbox in red",
+  "source": "special",
+  "shownByDefault": false,
+  "title": null,
+  "pointRendering": [],
+  "lineRendering": [
+    {
+      "width": 3,
+      "fill": "no",
+      "color": "#cc00cc"
+    }
+  ],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  }
+}

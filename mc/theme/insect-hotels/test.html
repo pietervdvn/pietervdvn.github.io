@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Small tests</title>
+    <link href="./css/mobile.css" rel="stylesheet"/>
+    <link href="./css/openinghourstable.css" rel="stylesheet"/>
+    <link href="./css/tagrendering.css" rel="stylesheet"/>
+    <link href="./css/index-tailwind-output.css" rel="stylesheet"/>
+    <link href="./css/wikipedia.css" rel="stylesheet"/>
+    <link href="css/ReviewElement.css" rel="stylesheet"/>
+    <meta content="website" property="og:type">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+
+  <script type="module" crossorigin src="./assets/test-c47c75f4.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/UIEventSource-e54bf5d1.js">
+  <link rel="modulepreload" crossorigin href="./assets/index-16520134.js">
+  <link rel="modulepreload" crossorigin href="./assets/GeoOperations-3d290d9d.js">
+  <link rel="modulepreload" crossorigin href="./assets/ImageProvider-969c0ec1.js">
+  <link rel="modulepreload" crossorigin href="./assets/Constants-93cd77aa.js">
+  <link rel="modulepreload" crossorigin href="./assets/Translation-3563d7bc.js">
+  <link rel="modulepreload" crossorigin href="./assets/FileSelector-0f05f06b.js">
+</head>
+<body>
+
+<div id="maindiv" class="w-full">'maindiv' not attached</div>
+
+
+
+<script>
+    window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+            // register service worker
+            navigator.serviceWorker.register('/service-worker.js').then(
+                () => {
+                    console.log('SW registration successful');
+                },
+                err => {
+                    console.error('SW registration failed', err)
+                });
+        } else {
+            console.error("Service workers are not supported")
+        }
+    });
+</script>
+</body>
+</html>

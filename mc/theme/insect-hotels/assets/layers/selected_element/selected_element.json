@@ -1,0 +1,33 @@
+{
+  "id": "selected_element",
+  "description": {
+    "en": "Highlights the currently selected element. Override this layer to have different colors",
+    "nl": "Toont het geselecteerde element",
+    "de": "Hebt das aktuell ausgewählte Element hervor. Überschreiben Sie diese Ebene, um unterschiedliche Farben zu erhalten",
+    "fr": "Met en surbrillance l'élément actuellement sélectioné. Surcharger cette couche pour avoir d'autres couleurs.",
+    "ca": "Ressalta l'element seleccionat actualment. Anul·leu aquesta capa per tenir diferents colors",
+    "cs": "Zvýrazní aktuálně vybraný prvek. Přepište tuto vrstvu, aby měla různé barvy",
+    "es": "Resalta el elemento seleccionado actualmente. Sobrescribe esta capa para tener colores diferentes"
+  },
+  "source": "special",
+  "pointRendering": [
+    {
+      "iconSize": "1,1",
+      "location": [
+        "point",
+        "projected_centerpoint"
+      ],
+      "css": "box-shadow: red 0 0 20px 20px; z-index: -1; height: 1px; width: 1px;",
+      "cssClasses": "block relative rounded-full",
+      "anchor": "center",
+      "marker": [
+        {
+          "icon": "circle",
+          "color": "red"
+        }
+      ]
+    }
+  ],
+  "lineRendering": [],
+  "allowMove": false
+}

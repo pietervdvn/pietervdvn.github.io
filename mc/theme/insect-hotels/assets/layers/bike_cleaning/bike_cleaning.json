@@ -1,0 +1,364 @@
+{
+  "id": "bike_cleaning",
+  "name": {
+    "en": "Bike cleaning service",
+    "nl": "Fietsschoonmaakpunt",
+    "fr": "Service de nettoyage de vélo",
+    "it": "Servizio lavaggio bici",
+    "de": "Fahrrad-Reinigungsdienste",
+    "zh_Hant": "單車清理服務",
+    "pt_BR": "Serviço de limpeza de bicicletas",
+    "pt": "Serviço de limpeza de bicicletas",
+    "ru": "Услуги по чистке велосипедов",
+    "es": "Servicio de limpieza de bicicletas",
+    "da": "Cykelrengøring",
+    "cs": "Služba mytí jízdních kol",
+    "ca": "Servei de neteja de bicicletes",
+    "pl": "Usługa czyszczenia rowerów"
+  },
+  "description": {
+    "en": "A layer showing facilities where one can clean their bike",
+    "nl": "Een laag die plaatsen toont waar je je fiets kunt wassen",
+    "de": "Eine Ebene mit Einrichtungen, in denen man sein Fahrrad reinigen kann",
+    "es": "Una capa que muestra las instalaciones donde se puede limpiar la bicicleta",
+    "da": "Et lag med faciliteter, hvor man kan rengøre sin cykel",
+    "fr": "Une couche affichant les lieux où l'on peut nettoyer son vélo",
+    "cs": "Vrstva zobrazující zařízení, kde si můžete umýt kolo",
+    "ca": "Una capa que mostra les instal·lacions on pots netejar la teva bicicleta",
+    "pt_BR": "Uma camada que mostra instalações onde é possível limpar a sua bicicleta",
+    "pt": "Uma camada que mostra instalações onde é possível limpar a sua bicicleta",
+    "pl": "Warstwa pokazująca obiekty, gdzie można wyczyścić swój rower"
+  },
+  "source": {
+    "osmTags": {
+      "or": [
+        "service:bicycle:cleaning=yes",
+        "service:bicycle:cleaning=diy",
+        "amenity=bicycle_wash"
+      ]
+    }
+  },
+  "minzoom": 13,
+  "title": {
+    "render": {
+      "en": "Bike cleaning service",
+      "nl": "Fietsschoonmaakpunt",
+      "fr": "Service de nettoyage de vélo",
+      "it": "Servizio lavaggio bici",
+      "de": "Fahrrad-Reinigungsdienst",
+      "zh_Hant": "單車清理服務",
+      "pt_BR": "Serviço de limpeza de bicicletas",
+      "pt": "Serviço de limpeza de bicicletas",
+      "ru": "Услуги по чистке велосипедов",
+      "es": "Servicio de limpieza de bicicletas",
+      "da": "Cykel rengøringsservice",
+      "cs": "Služba mytí jízdních kol",
+      "ca": "Servei de neteja de bicicletes"
+    },
+    "mappings": [
+      {
+        "if": "name~*",
+        "then": {
+          "en": "Bike cleaning service <i>{name}</i>",
+          "nl": "Fietsschoonmaakpunt <i>{name}</i>",
+          "fr": "Service de nettoyage de vélo <i>{name}</i>",
+          "it": "Servizio lavaggio bici <i>{name}</i>",
+          "de": "Fahrrad-Reinigungsdienst<i>{name}</i>",
+          "zh_Hant": "單車清理服務 <i>{name}</i>",
+          "pt_BR": "Serviço de limpeza de bicicletas <i>{name}</i>",
+          "pt": "Serviço de limpeza de bicicletas <i>{name}</i>",
+          "es": "Servicio de limpieza de bicicletas <i>{name}</i>",
+          "da": "Cykelrengøringstjeneste <i>{name}</i>",
+          "cs": "Služba mytí kol <i>{name}</i>",
+          "ca": "Servei de neteja de bicicletes <i>{name}</i>"
+        }
+      }
+    ]
+  },
+  "pointRendering": [
+    {
+      "iconBadges": [
+        {
+          "if": {
+            "and": [
+              "service:bicycle:cleaning~*",
+              "amenity!=bicycle_wash"
+            ]
+          },
+          "then": {
+            "render": "./assets/layers/bike_cleaning/bike_cleaning_icon.svg",
+            "roaming": true
+          }
+        }
+      ],
+      "iconSize": "50,50",
+      "location": [
+        "point",
+        "centroid"
+      ],
+      "anchor": "bottom",
+      "marker": [
+        {
+          "icon": "./assets/layers/bike_cleaning/bike_cleaning.svg"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "title": {
+        "en": "a bike cleaning service",
+        "nl": "een fietsschoonmaakpunt",
+        "fr": "une service de nettoyage de vélo",
+        "it": "una servizio lavaggio bici",
+        "de": "eine Fahrrad-Reinigung",
+        "zh_Hant": "單車清理服務",
+        "pt_BR": "uma serviço de limpeza de bicicletas",
+        "pt": "uma serviço de limpeza de bicicletas",
+        "ru": "Услуги по чистке велосипедов",
+        "es": "un servicio de limpieza de bicicletas",
+        "da": "en cykelrengøring",
+        "cs": "služba mytí jízdních kol",
+        "ca": "un servei de neteja de bicicletes",
+        "pl": "usługa czyszczenia rowerów"
+      },
+      "tags": [
+        "amenity=bicycle_wash"
+      ]
+    }
+  ],
+  "tagRenderings": [
+    "images",
+    {
+      "question": {
+        "en": "How much does it cost to use the cleaning service?",
+        "de": "Wie viel kostet die Nutzung des Reinigungsdienstes?",
+        "nl": "Hoeveel kost het gebruik van het fietsschoonmaakpunt?",
+        "es": "¿Cuánto cuesta usar el servicio de limpieza?",
+        "fr": "Combien coûte le service de nettoyage ?",
+        "da": "Hvor meget koster det at bruge rengøringsservicen?",
+        "cs": "Kolik stojí využívání služby mytí?",
+        "ca": "Molt costa utilitzar el servei de rentat?",
+        "pt_BR": "Quanto custa para usar o serviço de limpeza?"
+      },
+      "render": {
+        "en": "Using the cleaning service costs {service:bicycle:cleaning:charge}",
+        "de": "Der Reinigungsservice kostet {service:bicycle:cleaning:charge}",
+        "nl": "Het gebruik van het fietsschoonmaakpunt kost {service:bicycle:cleaning:charge}",
+        "es": "Usar el servicio de limpieza cuesta {service:bicycle:cleaning:charge}",
+        "fr": "Le service de nettoyage coûte {service:bicycle:cleaning:charge}",
+        "da": "Brug af rengøringsservice koster {service:bicycle:cleaning:charge}",
+        "cs": "Využití služby mytí stojí {service:bicycle:cleaning:charge}",
+        "ca": "Utilitzar el servei de rentat costa {service:bicycle:cleaning:charge}",
+        "pt_BR": "Usar o serviço de limpeza custa {service:bicycle:cleaning:charge}",
+        "pt": "Usar o serviço de limpeza custa {service:bicycle:cleaning:charge}"
+      },
+      "condition": {
+        "and": [
+          "amenity!=bicycle_wash",
+          "service:bicycle:cleaning!=no",
+          "service:bicycle:cleaning!="
+        ]
+      },
+      "freeform": {
+        "key": "service:bicycle:cleaning:charge",
+        "addExtraTags": [
+          "service:bicycle:cleaning:fee=yes"
+        ],
+        "inline": false
+      },
+      "mappings": [
+        {
+          "if": "service:bicycle:cleaning:fee=no",
+          "then": {
+            "en": "The cleaning service is free to use",
+            "de": "Der Reinigungsservice ist kostenlos",
+            "nl": "Het fietsschoonmaakpunt is gratis",
+            "es": "El servicio de limpieza es gratuito",
+            "fr": "Le service de nettoyage est gratuit",
+            "da": "Rengøringsservicen er gratis at bruge",
+            "cs": "Služba mytí je k dispozici zdarma",
+            "ca": "El servei de rentat és gratuït",
+            "pt_BR": "O serviço de limpeza é grátis para usar",
+            "pt": "O serviço de limpeza é grátis para usar"
+          },
+          "addExtraTags": [
+            "service:bicycle:cleaning:charge="
+          ]
+        },
+        {
+          "if": {
+            "and": [
+              "service:bicycle:cleaning:fee=yes",
+              "service:bicycle:cleaning:charge="
+            ]
+          },
+          "then": {
+            "en": "Free to use",
+            "de": "Kostenlose Nutzung",
+            "nl": "Gratis te gebruiken",
+            "es": "Gratuito",
+            "fr": "Utilisation gratuite",
+            "da": "Gratis at bruge",
+            "cs": "Bezplatné používání",
+            "ca": "Debades",
+            "pt_BR": "Grátis para usar",
+            "pl": "Darmowa"
+          },
+          "hideInAnswer": true
+        }
+      ],
+      "id": "bike_cleaning-service_bicycle_cleaning_charge"
+    },
+    {
+      "question": {
+        "en": "How much does it cost to use the cleaning service?",
+        "de": "Wie viel kostet die Nutzung des Reinigungsdienstes?",
+        "nl": "Hoeveel kost het gebruik van het fietsschoonmaakpunt?",
+        "es": "¿Cuánto cuesta usar el servicio de limpieza?",
+        "fr": "Combien cela coûte-t-il d'utiliser le service de nettoyage ?",
+        "da": "Hvor meget koster det at bruge rengøringsservicen?",
+        "cs": "Kolik stojí využívání služby mytí?",
+        "ca": "Molt costa utilitzar aquest servei de neteja?",
+        "pt_BR": "Quanto custa para usar esse serviço de limpeza?",
+        "pt": "Quanto custa para usar este serviço de limpeza?"
+      },
+      "render": {
+        "en": "Using the cleaning service costs {charge}",
+        "de": "Die Nutzung des Reinigungsdienstes kostet {charge}",
+        "nl": "Het gebruik van het fietsschoonmaakpunt kost {charge}",
+        "es": "Usar el servicio de limpieza cuesta {charge}",
+        "fr": "L’utilisation du service de nettoyage coûte {charge}",
+        "da": "Brug af rengøringsservice koster {charge}",
+        "cs": "Využití služby mytí stojí {charge}",
+        "ca": "L'ús del servei de neteja costa {charge}",
+        "pt_BR": "Usar o serviço de limpeza custa {charge}",
+        "pt": "Usar o serviço de limpeza custa {charge}"
+      },
+      "condition": {
+        "or": [
+          "amenity=bicycle_wash"
+        ]
+      },
+      "freeform": {
+        "key": "charge",
+        "addExtraTags": [
+          "fee=yes"
+        ]
+      },
+      "mappings": [
+        {
+          "if": "fee=no",
+          "then": {
+            "en": "This cleaning service is free to use",
+            "de": "Der Reinigungsservice ist kostenlos",
+            "nl": "Dit fietsschoonmaakpunt is gratis te gebruiken",
+            "es": "Este servicio de limpieza es gratuito",
+            "fr": "Service de nettoyage gratuit",
+            "da": "Gratis at bruge rengøringsservice",
+            "cs": "Tato mycí služba je bezplatná",
+            "ca": "Aquest servei de neteja és gratuït",
+            "pt_BR": "Esse serviço de limpeza é grátis para usar",
+            "pt": "Esst serviço de limpeza é grátis para usar"
+          },
+          "addExtraTags": [
+            "charge="
+          ]
+        },
+        {
+          "if": "fee=yes",
+          "then": {
+            "en": "There is a fee to use this cleaning service",
+            "nl": "Dit fietsschoonmaakpunt is betalend",
+            "es": "Hay un cargo por utilizar este servicio de limpieza",
+            "ca": "Hi ha un cost per utilitzar aquest servei de neteja",
+            "de": "Dieser Reinigungsservice ist kostenpflichtig",
+            "cs": "Využití úklidové služby je zpoplatněno",
+            "pt_BR": "Há uma taxa para utilizar esse serviço de limpeza",
+            "pt": "Há uma taxa para utilizar este serviço de limpeza"
+          }
+        }
+      ],
+      "id": "bike_cleaning-charge"
+    },
+    {
+      "question": {
+        "en": "Is this bicycle cleaning service automated?",
+        "nl": "Is dit fietsschoonmaakpunt geautomatiseerd?",
+        "de": "Ist dieser Fahrradreinigungsdienst automatisiert?",
+        "cs": "Je tato služba čištění kol bez obsluhy?",
+        "es": "¿Está este servicio de limpieza de bicicletas automatizado?"
+      },
+      "id": "automated",
+      "mappings": [
+        {
+          "if": "automated=no",
+          "then": {
+            "en": "This is a manual bike washing station",
+            "nl": "Dit is een handmatig fietsschoonmaakpunt",
+            "de": "Dies ist eine manuelle Fahrradwaschanlage",
+            "cs": "Jedná se o ruční mycí stanici kol",
+            "es": "Esta es una estación manual de lavado de bicicletas"
+          }
+        },
+        {
+          "if": "automated=yes",
+          "then": {
+            "en": "This is an automated bike wash",
+            "nl": "Dit is een automatisch fietsschoonmaakpunt",
+            "de": "Dies ist eine automatische Fahrradwaschanlage",
+            "cs": "Jedná se o mytí kol bez obsluhy",
+            "es": "Esta es una estación automática de lavado de bicicletas"
+          }
+        }
+      ],
+      "condition": "amenity=bicycle_wash"
+    },
+    {
+      "question": {
+        "nl": "Is dit fietsschoonmaakpunt zelfbediening?",
+        "en": "Is this cleaning service self-service?",
+        "de": "Muss die Reinigung selbständig erfolgen?",
+        "cs": "Je tato mycí služba samoobslužná?",
+        "es": "¿Es este servicio de limpieza de autoservicio?"
+      },
+      "id": "self_service",
+      "mappings": [
+        {
+          "if": "self_service=yes",
+          "then": {
+            "nl": "Dit fietsschoonmaakpunt is zelfbediening",
+            "en": "This cleaning service is self-service",
+            "de": "Die Reinigung erfolgt selbständig",
+            "cs": "Tato mycí služba je samoobslužná",
+            "es": "Este servicio de limpieza es de autoservicio"
+          }
+        },
+        {
+          "if": "self_service=no",
+          "then": {
+            "nl": "Dit fietsschoonmaakpunt wordt bediend door aanwezig personeel",
+            "en": "This cleaning service is operated by an employee",
+            "de": "Dieser Reinigungsdienst wird von einem Angestellten betrieben",
+            "cs": "Tuto mycí službu provozuje zaměstnanec",
+            "es": "Este servicio de limpieza está operado por un empleado"
+          }
+        }
+      ],
+      "condition": "amenity=bicycle_wash"
+    }
+  ],
+  "deletion": {
+    "softDeletionTags": {
+      "and": [
+        "disused:amenity:={amenity}",
+        "amenity="
+      ]
+    },
+    "neededChangesets": 1
+  },
+  "allowMove": {
+    "enableRelocation": false,
+    "enableImproveAccuracy": true
+  }
+}
