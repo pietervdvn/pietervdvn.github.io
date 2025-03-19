@@ -1,0 +1,3570 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.3 eb200aeb",
+  "osm3s": {
+    "timestamp_osm_base": "2020-05-13T23:26:03Z",
+    "timestamp_areas_base": "2020-05-13T23:11:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 3369895390,
+  "lat": 50.8072454,
+  "lon": 4.9329197,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Twiet-o-theek"
+  }
+},
+{
+  "type": "node",
+  "id": 3450919493,
+  "lat": 50.8222164,
+  "lon": 4.3449975,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 3665814628,
+  "lat": 51.0199400,
+  "lon": 4.4598128,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "VrijBOEKpark",
+    "operator": "Provincie Antwerpen",
+    "public_bookcase:type": "sculpture"
+  }
+},
+{
+  "type": "node",
+  "id": 4077844349,
+  "lat": 50.8268764,
+  "lon": 4.3489006,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "100",
+    "image": "https://www.mapillary.com/map/im/mapillary=TDPfB6a9v9gKTRYA7K04RA",
+    "mapillary": "TDPfB6a9v9gKTRYA7K04RA",
+    "name": "la boite a livres",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2017-04-06"
+  }
+},
+{
+  "type": "node",
+  "id": 4294823142,
+  "lat": 50.5607743,
+  "lon": 4.6923510,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boîte à livres d'autres mondes"
+  }
+},
+{
+  "type": "node",
+  "id": 4435773176,
+  "lat": 50.8433341,
+  "lon": 4.4252821,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4435773177,
+  "lat": 50.8780042,
+  "lon": 4.3172225,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "colour": "blue",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Boekenruilkast_in_Ganshoren.jpg",
+    "name": "Boîte à livres - Boekenbox",
+    "name:fr": "Boîte à livres",
+    "name:nl": "Boekenbox",
+    "opening_hours": "24/7",
+    "operator": "Commune de Ganshoren - Gemeente Ganshoren",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 4622440413,
+  "lat": 50.4154162,
+  "lon": 5.2997360,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4821800753,
+  "lat": 51.0701680,
+  "lon": 4.4505755,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/ZZzDKVKYOAYdD49-YMd_lA",
+    "mapillary": "ZZzDKVKYOAYdD49-YMd_lA",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-08-20"
+  }
+},
+{
+  "type": "node",
+  "id": 4884717490,
+  "lat": 51.0699230,
+  "lon": 4.4584400,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/3tMsY6CVrQnwTqi_QwsB_Q",
+    "mapillary": "3tMsY6CVrQnwTqi_QwsB_Q",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2018-10-28"
+  }
+},
+{
+  "type": "node",
+  "id": 4897477495,
+  "lat": 50.8582874,
+  "lon": 4.0679140,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897481895,
+  "lat": 50.8567675,
+  "lon": 4.0741962,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897545798,
+  "lat": 50.8658948,
+  "lon": 4.0890437,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897545799,
+  "lat": 50.8640013,
+  "lon": 4.1061388,
+  "tags": {
+    "amenity": "public_bookcase",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 4897545801,
+  "lat": 50.8596753,
+  "lon": 4.1139796,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897550457,
+  "lat": 50.8675944,
+  "lon": 4.0780467,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897550459,
+  "lat": 50.8644690,
+  "lon": 4.0800439,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897660821,
+  "lat": 50.8604330,
+  "lon": 4.0871374,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897660822,
+  "lat": 50.8632734,
+  "lon": 4.0918641,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897664599,
+  "lat": 50.8716916,
+  "lon": 4.0810481,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4897666612,
+  "lat": 50.8716311,
+  "lon": 4.0974981,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4948669086,
+  "lat": 51.2380381,
+  "lon": 4.8242366,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "operator": "De Bib",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 4961374470,
+  "lat": 51.0157245,
+  "lon": 4.0961201,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 4962546079,
+  "lat": 51.0346897,
+  "lon": 4.4215266,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/Sw8JQL7nyDftgdzhRTktyQ",
+    "mapillary": "Sw8JQL7nyDftgdzhRTktyQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-05-29"
+  }
+},
+{
+  "type": "node",
+  "id": 5143506687,
+  "lat": 51.0605491,
+  "lon": 4.4720261,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 5247769171,
+  "lat": 51.0532925,
+  "lon": 4.4128641,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/eS5SgNNa8DfnNzrCI6Ursw",
+    "mapillary": "eS5SgNNa8DfnNzrCI6Ursw",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2018-02-03"
+  }
+},
+{
+  "type": "node",
+  "id": 5277461914,
+  "lat": 51.2355393,
+  "lon": 5.1215581,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "LittleFreeLibrary",
+    "image": "https://www.mapillary.com/map/im/pGacP4W4bMbNq1qXfJ27sw",
+    "mapillary": "pGacP4W4bMbNq1qXfJ27sw",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2017-03-26"
+  }
+},
+{
+  "type": "node",
+  "id": 5495859832,
+  "lat": 50.6111336,
+  "lon": 3.3907312,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5536410522,
+  "lat": 51.1985248,
+  "lon": 3.2037440,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "100",
+    "description": "Dit boekenruilkastje op het pleintje in de Ontmijnerslaan is een initiatief van de wijkvereniging. Naast het boekenkastje werd een leesbank geplaatst zodat je er op een zonnige dag rustig in de boeken kan snuisteren.",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00Pd000000ekd8PEAQ",
+    "name": "Little Free Library Sanderkwartier",
+    "opening_hours": "24/7",
+    "operator": "Sanderskwartier",
+    "public_bookcase:type": "reading_box",
+    "ref": "40403",
+    "start_date": "2016-09-04",
+    "website": "http://sanderkwartier.brugsebuurten.be/OnsLittleFreeLibrary"
+  }
+},
+{
+  "type": "node",
+  "id": 5557580435,
+  "lat": 50.4729707,
+  "lon": 5.6728520,
+  "tags": {
+    "amenity": "public_bookcase",
+    "operator:phone": "+32 4 364 05 47"
+  }
+},
+{
+  "type": "node",
+  "id": 5559964961,
+  "lat": 50.4608793,
+  "lon": 5.7198979,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "200",
+    "image": "https://www.mapillary.com/map/im/Jjh1skVLzghFjDdSHZ-7kQ",
+    "mapillary": "Jjh1skVLzghFjDdSHZ-7kQ",
+    "name": "Boîte à Trésoirs",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_shelter"
+  }
+},
+{
+  "type": "node",
+  "id": 5562878497,
+  "lat": 50.4689222,
+  "lon": 5.7353679,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "25",
+    "contact:phone": "+32 4 36 05 47",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 5568693115,
+  "lat": 51.2179199,
+  "lon": 3.2154662,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "25",
+    "description": "Deze boekenruilkast vindt je recht tegenover de Pim Pam Poem",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Ruilboekenkast_Stubbekwartier.jpg",
+    "name": "Stubbekwartier-buurtbibliotheek",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 5581683328,
+  "lat": 51.0580515,
+  "lon": 4.4878483,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "LittleFreeLibrary.org",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 5667505626,
+  "lat": 51.2003035,
+  "lon": 3.2671270,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "150",
+    "description": "Sinds 2014 vind je een boekenruilkastje in Hoeve Hangerijn. Het kastje is te vinden in de stallen en werd gerealiseerd met de steun van de Brugse buurtcheques.",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00Pd000000R03iTEAR",
+    "name": "Little Free Library Hoeve Hangerijn",
+    "opening_hours": "24/7",
+    "operator": "Hoeve Hangerijn",
+    "public_bookcase:type": "woorden_closet",
+    "start_date": "2014"
+  }
+},
+{
+  "type": "node",
+  "id": 5701045996,
+  "lat": 51.0468716,
+  "lon": 4.4218247,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/F9E3EjfbFW3XmkAu7Xlvgw",
+    "mapillary": "F9E3EjfbFW3XmkAu7Xlvgw",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-04-10"
+  }
+},
+{
+  "type": "node",
+  "id": 5737207815,
+  "lat": 51.0687390,
+  "lon": 4.2830009,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5771741386,
+  "lat": 50.4966266,
+  "lon": 5.0948617,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5781580183,
+  "lat": 49.6644615,
+  "lon": 5.4961224,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5781580184,
+  "lat": 49.6771794,
+  "lon": 5.4747177,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5793894239,
+  "lat": 50.5977978,
+  "lon": 4.3241453,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/pkZ8Sv6l3cwIl0UuYytX-g",
+    "mapillary": "pkZ8Sv6l3cwIl0UuYytX-g",
+    "opening_hours": "24/7",
+    "survey:date": "2017-08-20"
+  }
+},
+{
+  "type": "node",
+  "id": 5813512253,
+  "lat": 50.6095987,
+  "lon": 5.2716763,
+  "tags": {
+    "addr:city": "Chapon-Seraing",
+    "addr:housenumber": "11",
+    "addr:postcode": "4537",
+    "addr:street": "Rue Guillaume Bolly",
+    "amenity": "public_bookcase",
+    "noname": "yes",
+    "operator": "Comité Culturel de Verlaine",
+    "website": "http://www.verlaine.be/fichiers-pdf/ccv/plan_boites_a-_livres.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 5813512254,
+  "lat": 50.6051916,
+  "lon": 5.3222335,
+  "tags": {
+    "addr:city": "Verlaine",
+    "addr:housenumber": "32",
+    "addr:postcode": "4537",
+    "addr:street": "Vinâve des Stréats",
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "operator": "Comité Culturel de Verlaine",
+    "website": "http://www.verlaine.be/fichiers-pdf/ccv/plan_boites_a-_livres.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 5813512255,
+  "lat": 50.6196397,
+  "lon": 5.3013280,
+  "tags": {
+    "addr:city": "Verlaine",
+    "addr:postcode": "4537",
+    "addr:street": "Rue de Verlaine",
+    "amenity": "public_bookcase",
+    "name": "Seraing le Château",
+    "opening_hours": "24/7",
+    "operator": "Comité Culturel de Verlaine",
+    "website": "http://www.verlaine.be/fichiers-pdf/ccv/plan_boites_a-_livres.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 5813512256,
+  "lat": 50.5888835,
+  "lon": 5.3125748,
+  "tags": {
+    "addr:city": "Verlaine",
+    "addr:postcode": "4537",
+    "addr:street": "Rue Trixhelette",
+    "amenity": "public_bookcase",
+    "name": "Bodegnée Carrefour",
+    "opening_hours": "24/7",
+    "operator": "Comité Culturel de Verlaine",
+    "website": "http://www.verlaine.be/fichiers-pdf/ccv/plan_boites_a-_livres.pdf"
+  }
+},
+{
+  "type": "node",
+  "id": 5833021240,
+  "lat": 50.4606255,
+  "lon": 3.9997905,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boîte à Livres du Bois d'Havré",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 5838312699,
+  "lat": 50.6706320,
+  "lon": 4.6161025,
+  "tags": {
+    "amenity": "public_bookcase",
+    "indoor": "yes",
+    "level": "1",
+    "name": "Bibliothèque participative de l'Esplanade"
+  }
+},
+{
+  "type": "node",
+  "id": 5870255993,
+  "lat": 51.0930897,
+  "lon": 3.7114847,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "40"
+  }
+},
+{
+  "type": "node",
+  "id": 5889147000,
+  "lat": 50.6220823,
+  "lon": 6.0403221,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5889147001,
+  "lat": 50.6220404,
+  "lon": 6.0402998,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5936819264,
+  "lat": 50.6824066,
+  "lon": 4.2680824,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/crF7_9MB6TE72wx4keVYpQ",
+    "mapillary": "crF7_9MB6TE72wx4keVYpQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-08-12"
+  }
+},
+{
+  "type": "node",
+  "id": 5936819265,
+  "lat": 50.6811714,
+  "lon": 4.2643538,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/-QHouGj3y0l7MIN9Yc9bFg",
+    "mapillary": "-QHouGj3y0l7MIN9Yc9bFg",
+    "opening_hours": "24/7",
+    "survey:date": "2019-08-12"
+  }
+},
+{
+  "type": "node",
+  "id": 5943621345,
+  "lat": 49.5614040,
+  "lon": 5.8307059,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 5949660621,
+  "lat": 50.6319961,
+  "lon": 4.4496630,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6013446710,
+  "lat": 50.8264617,
+  "lon": 4.3384684,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Book Box"
+  }
+},
+{
+  "type": "node",
+  "id": 6058648355,
+  "lat": 50.7316756,
+  "lon": 4.4902695,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6066807890,
+  "lat": 50.4502347,
+  "lon": 3.9520294,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6116480535,
+  "lat": 51.2123460,
+  "lon": 3.2327525,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "40",
+    "description": "In 2018 we started a facebook-like city district-wide community IT platform and someone suggested there to place a little free library. Another person offered to build it and a third person had connection to the city council .",
+    "email": "hennonr@gmail.com",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Boekenruilkast_Sint-Anna.jpg/576px-Boekenruilkast_Sint-Anna.jpg",
+    "name": "Little Free Library Sint-Anna",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "ref": "81342",
+    "start_date": "2018"
+  }
+},
+{
+  "type": "node",
+  "id": 6141870455,
+  "lat": 50.7429126,
+  "lon": 4.2526048,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6141870456,
+  "lat": 50.7435636,
+  "lon": 4.2518229,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6141870457,
+  "lat": 50.7519190,
+  "lon": 4.2670417,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fixme": "verifieer exacte positie"
+  }
+},
+{
+  "type": "node",
+  "id": 6142732610,
+  "lat": 51.2426377,
+  "lon": 2.9592857,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "80",
+    "name": "Boekenruilkast 'Les Colombiers'"
+  }
+},
+{
+  "type": "node",
+  "id": 6142736780,
+  "lat": 51.2502529,
+  "lon": 2.9792402,
+  "tags": {
+    "addr:city": "Bredene",
+    "addr:housenumber": "87",
+    "addr:postcode": "8450",
+    "addr:street": "Koningin Astridlaan",
+    "amenity": "public_bookcase",
+    "capacity": "200",
+    "description": "Holiday at last… time to immerge yourself in a good book!\n\nYou can borrow a wide range of books from our pop-up library, for free.\n\nShould you want to add a book of yours to our library, feel free to do so. Our guests will certainly appreciate new arrival",
+    "name": "Pop-Up Bib Veld & Duin",
+    "operator": "Veld & Duin",
+    "website": "http://www.veldenduin.be/en/amenities/pop-up-library.html"
+  }
+},
+{
+  "type": "node",
+  "id": 6153533949,
+  "lat": 51.2163913,
+  "lon": 3.2063610,
+  "tags": {
+    "amenity": "public_bookcase",
+    "books": "children",
+    "brand": "Little Free Library",
+    "capacity": "70",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Boekenkast_Sint-Lodewijks.jpg/1024px-Boekenkast_Sint-Lodewijks.jpg",
+    "mapillary": "wweALGY5g8_T8UjGkcWCfw",
+    "name": "Little Free Library Sint-Lodewijks",
+    "opening_hours": "24/7",
+    "operator": "Sint-Lodewijkscollege",
+    "public_bookcase:type": "reading_box",
+    "ref": "48318",
+    "wikimedia_commons": "File:Boekenkast Sint-Lodewijks.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6156187094,
+  "lat": 51.2037968,
+  "lon": 3.1862056,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "capacity:adult_books": "20",
+    "capacity:children_books": "30",
+    "description": "De kast bestaat uit 2 delen. In het ene deel vindt je boeken voor volwassenen, in het onderste deel vinden kinderen hun gading.",
+    "image": "https://i1.wp.com/www.brugsalternatiefforum.be/wp-content/uploads/2018/12/boekenruilkastMoutstraat7.jpg",
+    "name": "Boekenruilkast Moutstraat",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6156873339,
+  "lat": 51.1842679,
+  "lon": 3.1907591,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "capacity": "40",
+    "description": "De eigenaar van dit kastje vindt in deze drukke tijden zelfzorg erg belangrijk. Zelfzorg betekent voor haar in alle rust een boek lezen, zich helemaal inleven in het verhaal en even de realiteit vergeten.",
+    "description_1": "Met deze little free library hoopt ze mensen te kunnen aanzetten om terug meer te lezen (en te ontspannen).",
+    "image": "https://littlefreelibrary.secure.force.com/servlet/servlet.FileDownload?file=00P0W000011VJGjUAO",
+    "name": "Minibib Sint-Michiels",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "ref": "65231",
+    "start_date": "2018-07-27"
+  }
+},
+{
+  "type": "node",
+  "id": 6168664975,
+  "lat": 51.1086600,
+  "lon": 4.3860585,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://www.mapillary.com/map/im/liuq8qCOMaq1i6jmnMx4ew",
+    "mapillary": "liuq8qCOMaq1i6jmnMx4ew",
+    "name": "Minibib - Reet",
+    "opening_hours": "24/7",
+    "survey:date": "2017-09-10"
+  }
+},
+{
+  "type": "node",
+  "id": 6174916640,
+  "lat": 50.9294111,
+  "lon": 3.0872801,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "15"
+  }
+},
+{
+  "type": "node",
+  "id": 6174920532,
+  "lat": 50.9519676,
+  "lon": 3.1075949,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6208364473,
+  "lat": 51.0482841,
+  "lon": 3.2283515,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "mapillary": "pEO7pxMmfOku1KmWb244Lw",
+    "operator": "Bibliotheek Wingene",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6221170102,
+  "lat": 51.2185334,
+  "lon": 3.2188596,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "35",
+    "description": "In samenwerking met het OCMW dienstencentrum ’t Werftje werd tijdens de Kattefeesten het project “Little Free Library” officieel in gebruik genomen. Een wijkbibliotheekje waar iedereen van de buurt samen zorg voor draagt.",
+    "image": "https://i2.wp.com/www.stubbekwartier.be/wp-content/uploads/2016/03/bibliotheekhuisje.jpg?zoom=2&resize=682%2C351",
+    "name": "Boekenruilkastje Werfplein",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6223608165,
+  "lat": 51.2302709,
+  "lon": 3.2431685,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "description": "Hallo, welkom bij de boekenruilkast (t.h.v Zagersweg 16). Ik wens jullie veel lees- en ruilgenot. Hopelijk beleven jullie enig leesplezier aan deze kast.",
+    "description_1": "Om dit plezier te bevorderen zien we volgende boeken liever niet in de kast verschijnen: encyclopedieën, woordenboeken, (teveel) kookboeken en te oude of versleten boeken. Ruil boeken voor wat je zelf zou meenemen.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Boekenruilkastje_De_Zagersweg.jpg",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/4/45/Logo_Boekenruilkast_zagersweg.jpg",
+    "name": "Ruilkast Zagersweg",
+    "opening_hours": "24/7",
+    "operator": "De Huisbewoner",
+    "start_date": "2019-01-01",
+    "website": "https://www.facebook.com/Boekenruilkast-Zagersweg-1152033248293786/"
+  }
+},
+{
+  "type": "node",
+  "id": 6226133732,
+  "lat": 51.0578726,
+  "lon": 3.6868177,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "brand:wikidata": "Q6650101",
+    "ref": "26891",
+    "wikimedia_commons": "File:Little Free Library Gent Bourgoyen.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6231085656,
+  "lat": 51.1874599,
+  "lon": 4.6486157,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/U1RevCTiaSjwRIgck4pbPg",
+    "mapillary": "U1RevCTiaSjwRIgck4pbPg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet",
+    "source": "survey;mapillary",
+    "survey:date": "2018-05-27"
+  }
+},
+{
+  "type": "node",
+  "id": 6264754879,
+  "lat": 51.1178550,
+  "lon": 3.2919517,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://images1.persgroep.net/rcs/eh2y1Mp0uKhOePmjMS1Sf5cLWLA/diocontent/101070589/_crop/0/0/1620/1080/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8",
+    "name": "Ruilbib",
+    "operator": "Bulskampveld",
+    "start_date": "2014-09-27"
+  }
+},
+{
+  "type": "node",
+  "id": 6272057134,
+  "lat": 51.1908646,
+  "lon": 3.2439454,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Boekenruilkast_in_Odegemstraat.jpg",
+    "name": "Boekenruilkast",
+    "opening_hours": "24/7",
+    "operator": "De huisbewoner"
+  }
+},
+{
+  "type": "node",
+  "id": 6277341776,
+  "lat": 51.1845721,
+  "lon": 3.2098215,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "140",
+    "email": "monique.van.parys@gmail.com",
+    "image": "https://i.imgur.com/Q3rNBbP.jpg",
+    "name": "MoniqueBib",
+    "opening_hours": "24/7",
+    "operator": "Monique Van Parys",
+    "public_bookcase:type": "wooden_box",
+    "start_date": "2018-10"
+  }
+},
+{
+  "type": "node",
+  "id": 6277384689,
+  "lat": 51.1821803,
+  "lon": 3.2223278,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "40",
+    "image": "https://i.pinimg.com/564x/ee/46/88/ee4688e255bb96f7f7efe4f84192102e.jpg",
+    "name": "Minibib",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6283063833,
+  "lat": 51.0867836,
+  "lon": 3.4874163,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/ba/ab/bd/baabbdab7b1354457c7a803c467c6632.jpg",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6285018889,
+  "lat": 50.6801503,
+  "lon": 4.7099990,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "File:Boite à livres (Rue du Gros Médart - Chaumont-Gistoux).jpg",
+    "name": "Boite à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6285665341,
+  "lat": 51.1353310,
+  "lon": 5.4459103,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "brand:wikidata": "Q6650101",
+    "brand:wikipedia": "en:Little Free Library",
+    "name": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6290839098,
+  "lat": 51.0817285,
+  "lon": 3.4389072,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://images0.persgroep.net/rcs/l0vnAOrO8IekGZpIwSVNAJ-60oE/diocontent/103579869/_crop/0/0/1580/1185/_fitwidth/763?appId=2dc96dd3f167e919913d808324cbfeb2&quality=0.8",
+    "name": "Boekenasiel",
+    "operator": "Bibliotheek Aalter",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6291105978,
+  "lat": 49.5601489,
+  "lon": 5.8376697,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6302084200,
+  "lat": 51.1992404,
+  "lon": 3.8097891,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6302084212,
+  "lat": 51.1971153,
+  "lon": 3.8155937,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6302084213,
+  "lat": 51.1956706,
+  "lon": 3.7908800,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6302084215,
+  "lat": 51.1951517,
+  "lon": 3.8260545,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "name": "Christoffels boekenkastje"
+  }
+},
+{
+  "type": "node",
+  "id": 6309001387,
+  "lat": 50.6771656,
+  "lon": 4.6390779,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fixme": "resurvey exact position",
+    "name": "Boite à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6309001611,
+  "lat": 50.6953548,
+  "lon": 4.6401950,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fixme": "resurvey exact position",
+    "name": "Boite à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6309001612,
+  "lat": 50.6824984,
+  "lon": 4.6971123,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boite à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6312700669,
+  "lat": 49.5708701,
+  "lon": 5.8379097,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6320921238,
+  "lat": 50.8575083,
+  "lon": 4.6799934,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6323670327,
+  "lat": 50.7333809,
+  "lon": 4.2319966,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6333312360,
+  "lat": 50.7930426,
+  "lon": 3.1257577,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "bevind zich in de bibliotheek",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 6333356542,
+  "lat": 50.9721966,
+  "lon": 3.1386292,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/bc/79/06/bc79061538f4940756c8605356456e4b.jpg",
+    "mapillary": "Zu2FEDfi1pHZBwnz-NlaSA",
+    "name": "Mini bib",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6333366726,
+  "lat": 50.9550564,
+  "lon": 3.1362311,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/ad/e4/59/ade459aec23afe0b69210cdb7da75740.jpg",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6335176497,
+  "lat": 50.4637225,
+  "lon": 5.7317636,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6356197283,
+  "lat": 50.6775062,
+  "lon": 4.3718746,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6356999270,
+  "lat": 51.2046194,
+  "lon": 3.1845657,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Boekenruilkast_Koude_Keuken.jpg",
+    "lit": "no",
+    "name": "Boekenruilkast Sint-Hubertus",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6357001212,
+  "lat": 51.1998555,
+  "lon": 3.1768209,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "40",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Boekenruilkast_Zandstraat.jpg",
+    "lit": "no",
+    "name": "Boekenruilkast Zandstraat"
+  }
+},
+{
+  "type": "node",
+  "id": 6357728548,
+  "lat": 51.2327229,
+  "lon": 2.9227846,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Boekenruilkast.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6357993578,
+  "lat": 51.2036087,
+  "lon": 4.9794904,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6359988409,
+  "lat": 50.8096907,
+  "lon": 3.1840121,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/wR_UqJamtnw9xUvQ5E7n1A openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Boekenruilkastje_GBS_Loudesgrot_Wevelgem.jpg",
+    "mapillary": "wR_UqJamtnw9xUvQ5E7n1A",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360015567,
+  "lat": 50.8179716,
+  "lon": 3.1872569,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/BIuA9VpRvuXniQvqTZgMbw openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Boekenruilkastje_Veldstraat_Wevelgem.jpg",
+    "mapillary": "BIuA9VpRvuXniQvqTZgMbw",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6360027601,
+  "lat": 50.8187668,
+  "lon": 3.1673093,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/7U2CjHTs5TAYfmwyZ1fE3Q openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Boekenruilkastje_Wallaysplein_Wevelgem.jpg",
+    "mapillary": "7U2CjHTs5TAYfmwyZ1fE3Q",
+    "opening_hours": "24/7",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360047792,
+  "lat": 50.8377686,
+  "lon": 3.1559344,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/VD263fcG99nssWbOYng6JA openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boekenruilkastje_Ter_Gracht_Wevelgem.jpg",
+    "mapillary": "VD263fcG99nssWbOYng6JA",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360057232,
+  "lat": 50.8435219,
+  "lon": 3.1605066,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/VD263fcG99nssWbOYng6JA openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Boekenruilkastje_Hofbos_Wevelgem.jpg",
+    "mapillary": "VD263fcG99nssWbOYng6JA",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360062023,
+  "lat": 50.8506157,
+  "lon": 3.1653533,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/cPb7pcvpPDh6hL4eF7BtdQ openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Boekenruilkastje_Meerlaanstraat_Wevelgem.jpg",
+    "mapillary": "cPb7pcvpPDh6hL4eF7BtdQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360069589,
+  "lat": 50.8438683,
+  "lon": 3.2045256,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/Ga2qbcJwV8gagjaJaYVnCQ openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Boekenruilkastje_Dorpsplein_Gullegem.jpg",
+    "mapillary": "Ga2qbcJwV8gagjaJaYVnCQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360075740,
+  "lat": 50.8426971,
+  "lon": 3.2043801,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/qD21YEVclYFUjz4BsvXGTg openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/23/Boekenruilkastje_Koningin_Fabiolastraat_Gullegem.jpg",
+    "mapillary": "qD21YEVclYFUjz4BsvXGTg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360129475,
+  "lat": 50.8398262,
+  "lon": 3.2037404,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/hiB721_86ZILbAcWUsdm0Q openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Boekenruilkastje_Gulleheem_Gullegem.jpg",
+    "mapillary": "hiB721_86ZILbAcWUsdm0Q",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360226624,
+  "lat": 50.8048796,
+  "lon": 3.1773327,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-25",
+    "description": "https://www.mapillary.com/map/im/aC53EZc80mPHh8jQEfp98Q openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Boekenruilkastje_WZC_Elkerlyc_Wevelgem.jpg",
+    "mapillary": "aC53EZc80mPHh8jQEfp98Q",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6360251298,
+  "lat": 50.8072217,
+  "lon": 3.1918790,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-24",
+    "description": "https://www.mapillary.com/map/im/ps3NPgFOniQpTwCs6DUayw openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Boekenruilkastje_Kolverikstraat_Wevelgem.jpg",
+    "mapillary": "ps3NPgFOniQpTwCs6DUayw",
+    "opening_hours": "24/7",
+    "website": "https://www.wevelgem.be/ook-een-boekenruilkastje-jouw-buurt"
+  }
+},
+{
+  "type": "node",
+  "id": 6366335005,
+  "lat": 50.9358727,
+  "lon": 3.1524541,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/3A90A_lJzDG6UzfY66ro7Q",
+    "mapillary": "3A90A_lJzDG6UzfY66ro7Q",
+    "name": "Boekenruilkastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6369869161,
+  "lat": 51.1885677,
+  "lon": 3.5851405,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/59/73/4a/59734afdd02391b3c743a40db6600241.jpg",
+    "name": "Boekenruilkast",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6370991064,
+  "lat": 51.2300460,
+  "lon": 2.9118076,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "in bloemenperk .",
+    "description_1": "https://www.mapillary.com/map/im/VCNaIplHiwf_k3NR2zwPaQ openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Boekenruilkastje_Koningstraat_Oostende.jpg",
+    "mapillary": "VCNaIplHiwf_k3NR2zwPaQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6370992104,
+  "lat": 51.2293190,
+  "lon": 2.9143822,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description_1": "https://www.mapillary.com/map/im/S9K8oufHATPRnnMTv2Z3Xg openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Boekenruilkastje_Leopoldpark_Oostende.jpg",
+    "mapillary": "S9K8oufHATPRnnMTv2Z3Xg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371013094,
+  "lat": 51.2299942,
+  "lon": 2.9156784,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "achteraan gang richting toilet",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Boekenruilkastje_De_Grote_Post_Oostende.jpg",
+    "mapillary": "cSlsKxXRUgSLbfKg_61dlQ",
+    "opening_hours": "Mo-Su 08:30-23:00",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371028686,
+  "lat": 51.2267143,
+  "lon": 2.9054318,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/fK1BtDLCnks6ogjYrasxsw openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Boekenruilkastje_Koninginnelaan_Oostende.jpg",
+    "mapillary": "fK1BtDLCnks6ogjYrasxsw",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371032938,
+  "lat": 51.2235198,
+  "lon": 2.9104073,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/2mw6WSoisy407ogSufEr6Q openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Boekenruilkastje_Koninginnelaan_-_Prinsen_Stafanieplein_Oostende.jpg",
+    "mapillary": "2mw6WSoisy407ogSufEr6Q",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371062347,
+  "lat": 51.2249448,
+  "lon": 2.9156375,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description_1": "https://www.mapillary.com/map/im/8YvpSWB5kT-LGHMCTbtoBg openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Boekenruilkastje_Romestraat_36_Oostende.jpg",
+    "mapillary": "8YvpSWB5kT-LGHMCTbtoBg",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371082976,
+  "lat": 51.2261873,
+  "lon": 2.9175422,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "tweede verdiep naast lok 208",
+    "description_1": "https://www.mapillary.com/map/im/QYz7O3SiJForj8Vcf6Uxbw openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Boekenruilkastje_%281%29_Vindictivelaan_1_stadhuis_Oostende.jpg",
+    "level": "2",
+    "mapillary": "QYz7O3SiJForj8Vcf6Uxbw",
+    "opening_hours": "Mo-We 08:00-17:00; Th 08:00-20:00; Fr 08:00-12:30",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371082978,
+  "lat": 51.2262913,
+  "lon": 2.9180337,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "Eerste verdiep bij lokaal communicatie",
+    "description_1": "https://www.mapillary.com/map/im/rJO0msAm6W0z6AwLYaEgUQ openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Boekenruilkastje_Vindictivelaan_1_stadhuis_Oostende.jpg",
+    "level": "1",
+    "mapillary": "rJO0msAm6W0z6AwLYaEgUQ",
+    "opening_hours": "Mo-We 08:00-17:00; Th 08:00-20:00; Fr 08:00-12:30",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371103092,
+  "lat": 51.2190321,
+  "lon": 2.9101650,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/y71NeSOOowNILvu4Zgny4Q openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Boekenruilkastje_Leffingestraat_Oostende.jpg",
+    "mapillary": "y71NeSOOowNILvu4Zgny4Q",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371137350,
+  "lat": 51.2175321,
+  "lon": 2.9163576,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/VHqhLbPURH5Nu0gRDBrLow openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Boekenruilkastje_Fr%C3%A8re-Orbanstraat_vogelzangpark_Oostende.jpg",
+    "mapillary": "VHqhLbPURH5Nu0gRDBrLow",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371144549,
+  "lat": 51.2254797,
+  "lon": 2.9242937,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/ffRtmNCSzfd0eQleNLDpSw openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Boekenruilkastje_Hazegras_Oostende.jpg",
+    "mapillary": "ffRtmNCSzfd0eQleNLDpSw",
+    "name": "Hazegras",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6371146435,
+  "lat": 51.2149790,
+  "lon": 2.9360528,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-03-29",
+    "description": "https://www.mapillary.com/map/im/OfDCO9wNMjhnUWkxneWFMA openstreetview",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Boekenruilkastje_Dienstencentrum_De_Schaperye_Oostende.jpg",
+    "mapillary": "OfDCO9wNMjhnUWkxneWFMA",
+    "opening_hours": "Mo-Fr 09:30-17:00",
+    "public_bookcase:type": "shelf"
+  }
+},
+{
+  "type": "node",
+  "id": 6378786228,
+  "lat": 51.2123718,
+  "lon": 2.8763621,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "https://www.mapillary.com/map/im/7KYE-d1ktqswYI4zDjK8Dw",
+    "mapillary": "7KYE-d1ktqswYI4zDjK8Dw",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6378936603,
+  "lat": 51.2126940,
+  "lon": 2.8800648,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "https://www.mapillary.com/map/im/oMzU3iyVjS-sjOfLebg-6g openstreetview",
+    "description_1": "onder afdak naar ingang",
+    "mapillary": "oMzU3iyVjS-sjOfLebg-6g",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6378961171,
+  "lat": 51.2092590,
+  "lon": 2.8842182,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "https://www.mapillary.com/map/im/6FMG0k7EcVfYJhdiinUq6g openstreetview",
+    "mapillary": "6FMG0k7EcVfYJhdiinUq6g",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6381935725,
+  "lat": 51.0671938,
+  "lon": 3.0815537,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "https://www.mapillary.com/map/im/LGPE6XTVPH38MIN0WwAX8w openstreetview",
+    "mapillary": "LGPE6XTVPH38MIN0WwAX8w",
+    "name": "Boekenruilkast",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6386905025,
+  "lat": 51.0637620,
+  "lon": 3.0990853,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/236x/cd/d3/c1/cdd3c19b67a5e0ae789caf0d86aa8bcd.jpg",
+    "name": "Minibib",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.facebook.com/Minibib-Torhout-1079327445488450s"
+  }
+},
+{
+  "type": "node",
+  "id": 6386911954,
+  "lat": 51.0646197,
+  "lon": 3.1025752,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/f0/99/30/f099305551e02704df4b81cffc8babb7.jpg",
+    "name": "Minibib",
+    "opening_hours": "Mo-Th 16:00-18:00; We 09:00-12:00,14:00-18:00; Fr,Sa 10:00-12:00,14:00-18:00",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.facebook.com/Minibib-Torhout-1079327445488450s"
+  }
+},
+{
+  "type": "node",
+  "id": 6387812532,
+  "lat": 50.9333783,
+  "lon": 3.1904548,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fixme": "positie te dubbelchecken"
+  }
+},
+{
+  "type": "node",
+  "id": 6387885580,
+  "lat": 50.7020542,
+  "lon": 4.6487314,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "File:Boite à livres (Avenue du Grand Pré - Dion-le-Mont).jpg",
+    "name": "Boite à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6390569629,
+  "lat": 50.8613214,
+  "lon": 4.6595032,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6392369771,
+  "lat": 51.0985095,
+  "lon": 4.9481164,
+  "tags": {
+    "amenity": "public_bookcase",
+    "operator": "Little Free Library",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6409315432,
+  "lat": 51.1577786,
+  "lon": 2.9668940,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "https://www.mapillary.com/map/im/g4sVd6V5FMYWM-UXuq5XjQ streetwiew",
+    "mapillary": "g4sVd6V5FMYWM-UXuq5XjQ",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6411988882,
+  "lat": 51.1543991,
+  "lon": 2.9612996,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/a8/11/eb/a811eb187a3af5c51d9530a60f36cc90.jpg",
+    "name": "Boekenruilkastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6416756432,
+  "lat": 51.2079878,
+  "lon": 3.2882667,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Minibieb_Pelderijnstraat.jpg",
+    "name": "Minibieb",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6417074014,
+  "lat": 51.2149122,
+  "lon": 3.2740142,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Ruilkast.jpg",
+    "name": "Ruilkast",
+    "opening_hours": "24/7",
+    "operator": "Brugge Plus - Uitwijken"
+  }
+},
+{
+  "type": "node",
+  "id": 6422583315,
+  "lat": 51.1503749,
+  "lon": 2.7201952,
+  "tags": {
+    "amenity": "public_bookcase",
+    "email": "bibliotheek@nieuwpoort.be",
+    "image": "https://i.pinimg.com/564x/5d/bb/ab/5dbbabb5d7953d372b7e1c28d1f414ed.jpg",
+    "name": "Zwerfbibliotheek",
+    "opening_hours": "24/7",
+    "operator": "Nieuwpoort"
+  }
+},
+{
+  "type": "node",
+  "id": 6443611136,
+  "lat": 50.6834425,
+  "lon": 4.3751746,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/pOefIVluIbZShhxLCfqRxg",
+    "lit": "yes",
+    "mapillary": "pOefIVluIbZShhxLCfqRxg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-02-17"
+  }
+},
+{
+  "type": "node",
+  "id": 6448667102,
+  "lat": 51.1811363,
+  "lon": 3.2401819,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Boekenruilkast_Assebroek.jpg",
+    "lit": "no",
+    "name": "Mini Bib",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6452220400,
+  "lat": 51.1741838,
+  "lon": 2.9366929,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6457371238,
+  "lat": 51.0020329,
+  "lon": 3.3366473,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/44/fe/dd/44fedd7fabfaea7f3d74c2bef6a053fe.jpg",
+    "mapillary": "https://www.mapillary.com/map/im/HIuvYILJLPx6SgWnkRRPng",
+    "name": "Boekenruilkastje",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6509564264,
+  "lat": 50.9274512,
+  "lon": 3.2136840,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilkast"
+  }
+},
+{
+  "type": "node",
+  "id": 6511813628,
+  "lat": 50.8480746,
+  "lon": 3.2870356,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilkast"
+  }
+},
+{
+  "type": "node",
+  "id": 6512786148,
+  "lat": 50.7575627,
+  "lon": 3.4291130,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/67/5c/b0/675cb00ad6c10e0f9082c59742859d40.jpg",
+    "name": "Boekenhuisje",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6516295534,
+  "lat": 50.8624427,
+  "lon": 4.2932868,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6521604013,
+  "lat": 50.8528261,
+  "lon": 4.3657020,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6528089680,
+  "lat": 51.1523702,
+  "lon": 3.6046250,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "brand:wikidata": "Q6650101",
+    "brand:wikipedia": "en:Little Free Library",
+    "name": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6532442053,
+  "lat": 51.1075829,
+  "lon": 4.4646737,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://www.mapillary.com/map/im/rkAum6ieaIsLPyzxWvSLyQ",
+    "mapillary": "rkAum6ieaIsLPyzxWvSLyQ",
+    "name": "Boekenruilhuisje",
+    "opening_hours": "24/7",
+    "survey:date": "2019-08-03"
+  }
+},
+{
+  "type": "node",
+  "id": 6536646777,
+  "lat": 50.6520280,
+  "lon": 4.5522198,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6536772553,
+  "lat": 50.8438965,
+  "lon": 4.3131258,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6537306540,
+  "lat": 51.0556509,
+  "lon": 4.7743505,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Boekenkastje"
+  }
+},
+{
+  "type": "node",
+  "id": 6545052494,
+  "lat": 51.1213415,
+  "lon": 3.5535857,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "brand:wikidata": "Q6650101",
+    "brand:wikipedia": "en:Little Free Library",
+    "name": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 6553691875,
+  "lat": 51.0541465,
+  "lon": 3.0959007,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6563171704,
+  "lat": 50.9226596,
+  "lon": 3.2301422,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Ruilboekenkast"
+  }
+},
+{
+  "type": "node",
+  "id": 6566248396,
+  "lat": 50.8128945,
+  "lon": 3.3332822,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6566553351,
+  "lat": 50.8733596,
+  "lon": 4.3342277,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Boekenruilkast_Jette.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6569818414,
+  "lat": 51.2324271,
+  "lon": 2.9194141,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i-h2.pinimg.com/564x/00/80/3a/00803a3ec554c7f3a3c8b8ce38e668aa.jpg",
+    "name": "Boekenruilhuisje",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6587330374,
+  "lat": 50.8762258,
+  "lon": 4.3372969,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/38/Boekenruilkast_in_Jette.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6589646924,
+  "lat": 50.8328776,
+  "lon": 3.2597786,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Boekenruilkastje_Overleiestraat_Kortrijk.jpg",
+    "mapillary": "xPuMI6LdGAyJ5drRBTYsqQ",
+    "opening_hours": "24/7",
+    "survey:date": "2019-07-04"
+  }
+},
+{
+  "type": "node",
+  "id": 6589727277,
+  "lat": 50.8541687,
+  "lon": 3.2837547,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Boekenruilkastje_Boomgaardstraat_11_Kuurne.jpg",
+    "opening_hours": "24/7",
+    "survey:date": "2019-07-04"
+  }
+},
+{
+  "type": "node",
+  "id": 6589735219,
+  "lat": 50.8520571,
+  "lon": 3.2802196,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Boekenruilkastje_Vlindertuin_Kuurne.jpg",
+    "opening_hours": "24/7",
+    "survey:date": "2019-07-04"
+  }
+},
+{
+  "type": "node",
+  "id": 6589793652,
+  "lat": 50.8556731,
+  "lon": 3.3480533,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Boekenruilkastje_Groeningestraat_10_Deerlijk.jpg",
+    "opening_hours": "24/7",
+    "survey:date": "2019-07-04"
+  }
+},
+{
+  "type": "node",
+  "id": 6594507098,
+  "lat": 50.9656198,
+  "lon": 4.4938645,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "10",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Boekenruilkast_in_Elewijt.jpg",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Inhoud_van_een_boekenruilkast_in_Elewijt.jpg",
+    "name": "Boekenruilstoel",
+    "opening_hours": "24/7",
+    "operator": "Het Stoelencommité"
+  }
+},
+{
+  "type": "node",
+  "id": 6599228749,
+  "lat": 51.2251732,
+  "lon": 4.2700031,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/LSm2ynR0UvLjz4BQeoxGoQ",
+    "mapillary": "LSm2ynR0UvLjz4BQeoxGoQ",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6599699517,
+  "lat": 51.0120384,
+  "lon": 4.1935955,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/5f/d8/04/5fd804d7f2fc52b24f92d5e5c66486aa.jpg",
+    "name": "Little Free Library",
+    "public_bookcase:type": "reading_box",
+    "website": "https://booksinboxes.eu/36504-collegestraat-1-9255-buggenhout/"
+  }
+},
+{
+  "type": "node",
+  "id": 6611651280,
+  "lat": 51.0777218,
+  "lon": 3.7520226,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6627729413,
+  "lat": 51.0390544,
+  "lon": 3.7010949,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Boekenruilkast_Konigin_Fabiolalaan.jpg",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6628440479,
+  "lat": 50.8727891,
+  "lon": 4.3144639,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Boekenruilkast_Ganshoren_nabij_zwembad.jpg",
+    "name": "Boîte à livres - Boekenbox",
+    "name:fr": "Boîte à livres",
+    "name:nl": "Boekenbox",
+    "opening_hours": "24/7",
+    "operator": "Commune de Ganshoren - Gemeente Ganshoren"
+  }
+},
+{
+  "type": "node",
+  "id": 6644338404,
+  "lat": 50.8717851,
+  "lon": 4.3366667,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "A book box added on the bicycle lockers",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/33/Book_Box.jpg",
+    "name": "Book Box"
+  }
+},
+{
+  "type": "node",
+  "id": 6646407696,
+  "lat": 50.8609426,
+  "lon": 4.3315260,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_vanhuffelplein.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6648377537,
+  "lat": 50.8738089,
+  "lon": 4.3139336,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "colour": "blue",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Boekenruilkast_op_het_Guido_Gezelleplein.jpg",
+    "image_1": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Inhoud_van_het_boekenruilkastje_in_het_Guido_Gezelleplein.jpg",
+    "image_2": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_G_Gezelleplein.jpg",
+    "lit": "yes",
+    "name": "Boîte a livres - Boekenbox",
+    "name:fr": "Boîte a livres",
+    "name:nl": "Boekenbox",
+    "opening_hours": "24/7",
+    "operator": "Gemeente Ganshoren",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6672796412,
+  "lat": 50.8143095,
+  "lon": 4.3605416,
+  "tags": {
+    "amenity": "public_bookcase",
+    "operator": "Commune d'Uccle - Gemeente Ukkel"
+  }
+},
+{
+  "type": "node",
+  "id": 6673594716,
+  "lat": 50.8374767,
+  "lon": 3.1137557,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "E1wjxbgNKDtd1XpRc9S_Od",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 6673642499,
+  "lat": 51.1627978,
+  "lon": 5.0635598,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "littlefreelibrary.org",
+    "mapillary": "3N033H7lpxzUb24D7g3-DQ",
+    "opening_hours": "24/7",
+    "operator": "littlefreelibrary"
+  }
+},
+{
+  "type": "node",
+  "id": 6677204329,
+  "lat": 49.5690435,
+  "lon": 5.8063218,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6680469720,
+  "lat": 50.4656655,
+  "lon": 4.8655851,
+  "tags": {
+    "amenity": "public_bookcase",
+    "check_date": "2019-08-03",
+    "description": "access if musea is open",
+    "opening_hours": "Tu-Su 10:00-18:00",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6680607731,
+  "lat": 50.4625352,
+  "lon": 4.8623922,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "access if musea is open",
+    "name": "Jardin des Poètes",
+    "opening_hours": "Tu-Sa 10:00-18:00; Su 13:00-18:00",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6680609285,
+  "lat": 50.8128051,
+  "lon": 4.3816613,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6690780035,
+  "lat": 51.1712155,
+  "lon": 4.3533475,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/VXTfZdIdKwNdMMJQWdLGmA",
+    "mapillary": "VXTfZdIdKwNdMMJQWdLGmA",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet",
+    "survey:date": "2019-08-06"
+  }
+},
+{
+  "type": "node",
+  "id": 6691087662,
+  "lat": 50.8265169,
+  "lon": 4.3608862,
+  "tags": {
+    "amenity": "public_bookcase",
+    "public_bookcase:type": "building"
+  }
+},
+{
+  "type": "node",
+  "id": 6695463594,
+  "lat": 50.8274213,
+  "lon": 4.3733914,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fee": "no",
+    "image": "https://www.mapillary.com/map/im/HQjGbmyVcamykyV5ohzBpQ",
+    "mapillary": "HQjGbmyVcamykyV5ohzBpQ",
+    "name": "La Boîte à lire - De Boekenbox",
+    "name:fr": "La Boîte à lire",
+    "name:nl": "De Boekenbox",
+    "opening_hours": "24/7",
+    "survey:date": "2019-06-20"
+  }
+},
+{
+  "type": "node",
+  "id": 6695466318,
+  "lat": 50.8214693,
+  "lon": 4.3784537,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fee": "no",
+    "name": "La Boîte à lire - De Boekenbox",
+    "name:fr": "La Boîte à lire",
+    "name:nl": "De Boekenbox"
+  }
+},
+{
+  "type": "node",
+  "id": 6700366223,
+  "lat": 50.8827980,
+  "lon": 4.7219505,
+  "tags": {
+    "amenity": "public_bookcase",
+    "lit": "no",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6700366224,
+  "lat": 50.8647782,
+  "lon": 4.7246702,
+  "tags": {
+    "amenity": "public_bookcase",
+    "lit": "no",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6703785607,
+  "lat": 51.0400749,
+  "lon": 4.4443717,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/ARPe76jt5LOP94Y6703cuQ",
+    "mapillary": "ARPe76jt5LOP94Y6703cuQ",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-04-09"
+  }
+},
+{
+  "type": "node",
+  "id": 6703807701,
+  "lat": 51.1665439,
+  "lon": 4.9459298,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/c4/56/27/c4562749f21c9a360a32d2eab86573f2.jpg",
+    "name": "Zwerfbib Larum",
+    "website": "https://booksinboxes.eu/26882-larum-2440-geel/"
+  }
+},
+{
+  "type": "node",
+  "id": 6711953577,
+  "lat": 50.4313165,
+  "lon": 5.3630038,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fixme": "exact location to determine, driveby mapped"
+  }
+},
+{
+  "type": "node",
+  "id": 6715355505,
+  "lat": 50.2025104,
+  "lon": 5.3139079,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Boites_a_livres_dans_la_gare_de_Marloie.jpg",
+    "indoor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6722796067,
+  "lat": 49.7068503,
+  "lon": 5.3319018,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "100",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Cabine_%C3%A0_livres.jpg",
+    "name": "Cabine à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 6722914823,
+  "lat": 51.2525189,
+  "lon": 2.9744948,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "2q06qRjByeXqgtLzTczwcw",
+    "name": "Zwerfboeken"
+  }
+},
+{
+  "type": "node",
+  "id": 6724833568,
+  "lat": 51.0751376,
+  "lon": 2.6030520,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "http://www.depanne.be/adaptive-image_1-275-255_size_33023.jpg",
+    "website": "http://www.depanne.be/nieuwsdetail/1019/de-ruilbib-neem-een-boek-geef-een-boek"
+  }
+},
+{
+  "type": "node",
+  "id": 6728797622,
+  "lat": 51.0349693,
+  "lon": 4.1927446,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "sZ_sHC2bAwNfwS-jXdQeiA",
+    "name": "Minibieb",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6738456423,
+  "lat": 50.8475015,
+  "lon": 4.3952595,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bookcase_-_Le_Chaperon_Rouge.jpg",
+    "lit": "no",
+    "name": "Le Chaperon Rouge",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6744639780,
+  "lat": 51.1424462,
+  "lon": 3.1275043,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/98/Boekenruilkastje_Kronestraat_14_Zedelgem.jpg",
+    "name": "Mini Bib",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-08-25"
+  }
+},
+{
+  "type": "node",
+  "id": 6746899949,
+  "lat": 50.8501291,
+  "lon": 4.3929901,
+  "tags": {
+    "addr:city": "Schaerbeek",
+    "addr:housenumber": "56",
+    "addr:postcode": "1030",
+    "addr:street": "avenue Émile Max",
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bookcase_-_Woodee.jpg",
+    "lit": "no",
+    "name": "Woodee's Bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6757715032,
+  "lat": 51.2370664,
+  "lon": 2.9762733,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/18/55/36/18553638740340829be0f4e82139defe.jpg",
+    "name": "Boeken Ruil Kast",
+    "opening_hours": "24/7",
+    "operator": "owners housenumber 160",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-08-29"
+  }
+},
+{
+  "type": "node",
+  "id": 6759451467,
+  "lat": 51.0608752,
+  "lon": 3.2755291,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Boekenruilkastje_Wingene_De_Alk.jpg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6759838048,
+  "lat": 51.0272373,
+  "lon": 3.0960356,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "see on https://www.mapillary.com/map/im/7koNgRzkOLQxytpz4vXA8w",
+    "mapillary": "7koNgRzkOLQxytpz4vXA8w",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6760605634,
+  "lat": 50.9326759,
+  "lon": 3.1909077,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/31/e5/c2/31e5c25389204b3f4bf347b911ed9e8a.jpg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6762217465,
+  "lat": 51.0263154,
+  "lon": 4.2169417,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "charter 48317",
+    "image": "https://i.pinimg.com/564x/de/e8/1c/dee81c184901b6ff260a596467072fee.jpg",
+    "opening_hours": "24/7",
+    "operator": "Little Free Library",
+    "public_bookcase:type": "reading_box",
+    "survey:date": "2019-08-31 : location, organisation, well stocked"
+  }
+},
+{
+  "type": "node",
+  "id": 6768499697,
+  "lat": 50.8494717,
+  "lon": 4.3910555,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Bookcase_-_Accordéon.jpg",
+    "lit": "no",
+    "name": "Accordion Bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6769266422,
+  "lat": 50.6093939,
+  "lon": 5.3125857,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Chapon",
+    "opening_hours": "24/7",
+    "operator": "Comité Culturel de Verlaine"
+  }
+},
+{
+  "type": "node",
+  "id": 6769967527,
+  "lat": 50.8483944,
+  "lon": 4.3950648,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bookcase_-_Biblio-rue.jpg",
+    "name": "Biblio-rue",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6778177816,
+  "lat": 50.9957496,
+  "lon": 4.0669346,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "bBfs_BZXtdg0rfk4i2x5Pw",
+    "name": "Little Free Library",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6778181158,
+  "lat": 51.0254267,
+  "lon": 4.0998235,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekennestkastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6778201341,
+  "lat": 51.0289347,
+  "lon": 4.1798546,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "3sSzKmhCNtvVY780WXoKXQ",
+    "name": "Boekenruilkastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6779447190,
+  "lat": 51.2156570,
+  "lon": 3.2245804,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "email": "rappe.joannes@telenet.be",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Boekenruilkast_Sint-Gillis.jpg",
+    "name": "Ruilbib 't Reitje",
+    "opening_hours": "24/7",
+    "operator": "Joannes Rappe",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6781308617,
+  "lat": 50.8509243,
+  "lon": 4.3960826,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bookcase_-_Musicbox.jpg",
+    "lit": "no",
+    "name": "Musicbox",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6786651263,
+  "lat": 50.7815977,
+  "lon": 5.6941279,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6792255000,
+  "lat": 50.8165356,
+  "lon": 4.4095417,
+  "tags": {
+    "amenity": "public_bookcase",
+    "fee": "no",
+    "name": "Formes de vie",
+    "operator": "Japanese School of Brussels",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6793834745,
+  "lat": 51.0376812,
+  "lon": 3.8087975,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/f1/54/e0/f154e030173a7850255f695e049a35f9.jpg",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6815787596,
+  "lat": 51.2190457,
+  "lon": 2.8851252,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilhuisje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6816986661,
+  "lat": 51.1898806,
+  "lon": 3.5732635,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilkast",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6817397495,
+  "lat": 50.6423228,
+  "lon": 5.7910218,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 6818301755,
+  "lat": 51.3490708,
+  "lon": 4.3892990,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "48",
+    "lit": "no",
+    "mapillary": "960K3P4YTckE823llOWVyA",
+    "name": "Boeken huisle",
+    "opening_hours": "24/7",
+    "operator": "Karin",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 6818422578,
+  "lat": 51.1019927,
+  "lon": 3.6665666,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/13/9d/9b/139d9beae2a58ad66a31d06433aeae41.jpg",
+    "mapillary": "UaiVwwwIHplmd-ctc456VA",
+    "name": "Little Free Library",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6818439283,
+  "lat": 51.1207096,
+  "lon": 3.7306859,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/aa/13/3c/aa133c913dbbe56232f7c15c64e76883.jpg",
+    "mapillary": "aMa8nFI6il5psXz79O9BtQ",
+    "name": "Little Free Library",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6818492040,
+  "lat": 51.1409773,
+  "lon": 3.7313417,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/0d/04/48/0d044872e6cfcf18882afdc048419317.jpg",
+    "mapillary": "bH6LBYeMq50_XYrG5myHIQ",
+    "name": "Little Free Library",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6836936681,
+  "lat": 50.8742654,
+  "lon": 4.6834209,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Boekenruilkast_Groenveldstraat.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 6838194534,
+  "lat": 50.8724477,
+  "lon": 4.6939367,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Boekenruilkast_Redingenstraat.jpg",
+    "name": "Koninklijke Atheneum Redingenhof"
+  }
+},
+{
+  "type": "node",
+  "id": 6855577366,
+  "lat": 50.8515926,
+  "lon": 4.3499977,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "Indoor public bookcase, not visible from the outside.",
+    "location": "indoor",
+    "opening_hours": "Mo-Fr 09:00-12:30,13:30-16:30; PH off",
+    "operator": "Brussels Ouderenplatform"
+  }
+},
+{
+  "type": "node",
+  "id": 6859044397,
+  "lat": 51.0632759,
+  "lon": 3.7120307,
+  "tags": {
+    "amenity": "public_bookcase",
+    "location": "indoor",
+    "name": "Boekenruilvensterbank",
+    "public_bookcase:type": "shelf"
+  }
+},
+{
+  "type": "node",
+  "id": 6873828607,
+  "lat": 50.9189439,
+  "lon": 4.1547548,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/0KgGW__lHTIn8elbM0E4TP",
+    "mapillary": "Kjo9KZOaZurBa_lCUU8tua",
+    "opening_hours": "24/7",
+    "survey:date": "2019-10-12"
+  }
+},
+{
+  "type": "node",
+  "id": 6918843218,
+  "lat": 51.1401466,
+  "lon": 3.7598739,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/5a/dc/66/5adc669a94fa94cf3b66ebd466eb14ee.jpg",
+    "name": "Little Free Library",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6928676395,
+  "lat": 50.7993809,
+  "lon": 3.5032157,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/4f/e5/73/4fe5731aa1b8bda66e99008eda0b4667.jpg",
+    "name": "Boekenhuisje",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 6948426675,
+  "lat": 51.2028950,
+  "lon": 2.9233132,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilhuisje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7023445295,
+  "lat": 51.1896011,
+  "lon": 3.5392075,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/54/d2/cb/54d2cb86c21176dd81bb93f554fe7c44.jpg",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7038736453,
+  "lat": 50.5065362,
+  "lon": 5.7295486,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7041422778,
+  "lat": 51.1965830,
+  "lon": 4.4203438,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "KinderzwerfboekStation",
+    "opening_hours": "Mo 12:00-20:00; Tu-Fr 08:00-20:00; Sa 08:00-19:00; Su 08:00-12:00",
+    "website": "https://www.kinderzwerfboek.nl/"
+  }
+},
+{
+  "type": "node",
+  "id": 7041506560,
+  "lat": 51.0832010,
+  "lon": 4.8037633,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://www.mapillary.com/map/im/3IQi9fjxqW2neYSqL6u-iw",
+    "mapillary": "3IQi9fjxqW2neYSqL6u-iw",
+    "opening_hours": "24/7",
+    "operator": "Little Free Library"
+  }
+},
+{
+  "type": "node",
+  "id": 7049473692,
+  "lat": 51.0782539,
+  "lon": 3.4482639,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://nbocdn.akamaized.net/Assets/Images_Upload/2016/06/10/boekenasiel.jpg",
+    "indoor": "yes",
+    "name": "Boekenasiel",
+    "operator": "Bibliotheek Aalter",
+    "public_bookcase:type": "metal_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7059767986,
+  "lat": 50.9972280,
+  "lon": 3.7067270,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://2.bp.blogspot.com/-X477y_82nMc/VtG69ldaP4I/AAAAAAAAMjc/AIVzOkR9ITk/s1600/160217_DSC04920_res.jpg",
+    "name": "Little Free Library",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7069241782,
+  "lat": 50.7740233,
+  "lon": 3.8919183,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/f3/d6/37/f3d6377defe7dd985b070d9cf093fba3.jpg",
+    "name": "Minibib",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7069266948,
+  "lat": 50.8896630,
+  "lon": 3.9909681,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://nbocdn.akamaized.net/Assets/Images_Upload/2017/06/29/20160622_Boekenruilkastjes_in_Haaltert_-_2.jpg?maxheight=460&maxwidth=638",
+    "name": "Boekenruilkastje",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7069969462,
+  "lat": 51.0934874,
+  "lon": 4.0074547,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Ruilbibliotheekkast"
+  }
+},
+{
+  "type": "node",
+  "id": 7077841730,
+  "lat": 49.7273082,
+  "lon": 5.5393922,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7080328023,
+  "lat": 51.0443704,
+  "lon": 3.7254515,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7111951329,
+  "lat": 51.1704746,
+  "lon": 4.4323702,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Boekentil",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7160364290,
+  "lat": 50.8718658,
+  "lon": 4.0169021,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boekenruilkastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7160962597,
+  "lat": 51.0676773,
+  "lon": 5.0889969,
+  "tags": {
+    "amenity": "public_bookcase",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7169170076,
+  "lat": 50.6414878,
+  "lon": 5.2695755,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Viemme"
+  }
+},
+{
+  "type": "node",
+  "id": 7169192472,
+  "lat": 50.6401358,
+  "lon": 5.2200205,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 7171686533,
+  "lat": 51.2031297,
+  "lon": 3.5190395,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/54/d2/cb/54d2cb86c21176dd81bb93f554fe7c44.jpg",
+    "name": "Boekenruilkast",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7176875705,
+  "lat": 51.0301371,
+  "lon": 3.7156574,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7177238695,
+  "lat": 50.6539350,
+  "lon": 5.2461601,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 7177238696,
+  "lat": 50.6230652,
+  "lon": 5.2561929,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 7177238697,
+  "lat": 50.5682243,
+  "lon": 5.2694191,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "50",
+    "name": "Boîte à livres"
+  }
+},
+{
+  "type": "node",
+  "id": 7179559655,
+  "lat": 51.0329870,
+  "lon": 2.8549366,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Mini bieb kastje",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7187081785,
+  "lat": 50.8585140,
+  "lon": 4.7042728,
+  "tags": {
+    "amenity": "public_bookcase",
+    "lit": "no",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7191534573,
+  "lat": 50.9731441,
+  "lon": 3.8008447,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "10",
+    "description": "Minibibliotheek, boek uithalen en boek achterlaten",
+    "lit": "no",
+    "opening_hours": "24/7",
+    "operator": "gemeente Oosterzele",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7221156354,
+  "lat": 50.6007604,
+  "lon": 4.9869238,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boîte aux livres"
+  }
+},
+{
+  "type": "node",
+  "id": 7221182501,
+  "lat": 50.5925246,
+  "lon": 4.9501459,
+  "tags": {
+    "amenity": "public_bookcase",
+    "name": "Boîte aux livres",
+    "public_bookcase:type": "Chapel"
+  }
+},
+{
+  "type": "node",
+  "id": 7236508668,
+  "lat": 50.6829198,
+  "lon": 4.2719211,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7237079161,
+  "lat": 51.2308248,
+  "lon": 2.9143612,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7287665826,
+  "lat": 50.8326226,
+  "lon": 4.3672765,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7288024073,
+  "lat": 50.7432271,
+  "lon": 4.2572140,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7296347303,
+  "lat": 51.2135472,
+  "lon": 2.9078781,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7317175259,
+  "lat": 50.8709162,
+  "lon": 4.7034852,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "35",
+    "image": "https://i.pinimg.com/564x/b4/61/7d/b4617da040f2dff1c3482d84ebcc7507.jpg",
+    "name": "Boekentil Weldadigheidsstraat",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7317210002,
+  "lat": 50.7491109,
+  "lon": 4.6160805,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "150",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "glass_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7326292429,
+  "lat": 51.2264494,
+  "lon": 3.1929597,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "15",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Boekenruilbox_Sint-Pieters.jpg",
+    "image:1": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Boekenruilkast_Sint-Pieters_geopend.jpg",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7326613413,
+  "lat": 50.8297937,
+  "lon": 4.3471022,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "60",
+    "image": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_parvis_st_gilles.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 7327957931,
+  "lat": 50.8425390,
+  "lon": 4.3455160,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "60",
+    "image": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_rouppeplein.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 7328002989,
+  "lat": 50.8629904,
+  "lon": 4.3169350,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "20",
+    "image": "https://commons.wikimedia.org/wiki/File:Ruilboekenkast_bastenakenplein.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 7328014214,
+  "lat": 50.8726568,
+  "lon": 4.2983431,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_M_Oostenrijkplein.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 7328016641,
+  "lat": 50.8658686,
+  "lon": 4.3118313,
+  "tags": {
+    "amenity": "public_bookcase",
+    "capacity": "30",
+    "image": "https://commons.wikimedia.org/wiki/File:Deelboekenkast_basilieklaan.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 7355020064,
+  "lat": 51.0844644,
+  "lon": 3.7713888,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7356068782,
+  "lat": 51.0856719,
+  "lon": 3.7269737,
+  "tags": {
+    "amenity": "public_bookcase",
+    "description": "gelijkvloers dicht bij de uitgang",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Boekenruilkastje_CC_Meulestede.jpg",
+    "level": "0",
+    "location": "indoor",
+    "opening_hours": "\" openinguren CC Meulestede \"",
+    "public_bookcase:type": "shelf"
+  }
+},
+{
+  "type": "node",
+  "id": 7362045765,
+  "lat": 50.8642907,
+  "lon": 4.7112534,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7385800817,
+  "lat": 50.6566375,
+  "lon": 4.5552698,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7397494615,
+  "lat": 50.8761879,
+  "lon": 4.6874030,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7402510202,
+  "lat": 50.6502729,
+  "lon": 4.5347523,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7410572663,
+  "lat": 50.7421343,
+  "lon": 4.2358288,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7411840949,
+  "lat": 50.8609470,
+  "lon": 4.3844765,
+  "tags": {
+    "amenity": "public_bookcase",
+    "covered": "yes",
+    "note": "the bookcase is not accessible when the bar is closed"
+  }
+},
+{
+  "type": "node",
+  "id": 7412039934,
+  "lat": 50.8628686,
+  "lon": 4.3763218,
+  "tags": {
+    "amenity": "public_bookcase",
+    "mapillary": "https://www.mapillary.com/map/im/pJPjZXsewewAD_y54Jn0yw",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 7416386075,
+  "lat": 51.3220692,
+  "lon": 4.9378412,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://commons.wikimedia.org/wiki/File:Boekenruilkastje_station_Turnhout.jpg",
+    "name": "Zwerfboek",
+    "opening_hours": "\"Opening station\"",
+    "operator": "Bibliotheek Turnhout",
+    "public_bookcase:type": "metal_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7416704756,
+  "lat": 50.9588459,
+  "lon": 3.8975074,
+  "tags": {
+    "amenity": "public_bookcase",
+    "image": "https://i.pinimg.com/564x/8b/66/e5/8b66e56ea89d73138a255e4f12ad8e28.jpg",
+    "name": "Ruilbib",
+    "opening_hours": "24/7",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7433950955,
+  "lat": 50.5913869,
+  "lon": 4.3224536,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7444383146,
+  "lat": 51.0324602,
+  "lon": 3.8554183,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7448061310,
+  "lat": 50.9741235,
+  "lon": 3.9561413,
+  "tags": {
+    "amenity": "public_bookcase",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7448061319,
+  "lat": 50.9602523,
+  "lon": 3.9519862,
+  "tags": {
+    "amenity": "public_bookcase",
+    "public_bookcase:type": "wooden_cabinet"
+  }
+},
+{
+  "type": "node",
+  "id": 7453518550,
+  "lat": 50.6002374,
+  "lon": 4.3227220,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 7454276981,
+  "lat": 50.6804136,
+  "lon": 4.2992403,
+  "tags": {
+    "amenity": "public_bookcase"
+  }
+},
+{
+  "type": "node",
+  "id": 7473980941,
+  "lat": 50.9325933,
+  "lon": 4.2578656,
+  "tags": {
+    "amenity": "public_bookcase",
+    "lit": "no",
+    "public_bookcase:type": "reading_box"
+  }
+},
+{
+  "type": "node",
+  "id": 7494561380,
+  "lat": 50.9192539,
+  "lon": 4.4770347,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 7505715296,
+  "lat": 51.0273644,
+  "lon": 3.7573657,
+  "tags": {
+    "amenity": "public_bookcase",
+    "brand": "Little Free Library",
+    "brand:wikidata": "Q6650101",
+    "brand:wikipedia": "en:Little Free Library",
+    "name": "Little Free Library",
+    "opening_hours": "24/7",
+    "operator": "leesclub Moscou",
+    "public_bookcase:type": "reading_box",
+    "website": "https://www.facebook.com/ruilboekenkastjeMoscou/"
+  }
+},
+{
+  "type": "node",
+  "id": 7505737887,
+  "lat": 51.0273370,
+  "lon": 3.7592312,
+  "tags": {
+    "amenity": "public_bookcase",
+    "opening_hours": "24/7",
+    "operator": "Santo"
+  }
+},
+{
+  "type": "node",
+  "id": 7515781865,
+  "lat": 50.6759499,
+  "lon": 4.3804791,
+  "tags": {
+    "amenity": "public_bookcase",
+    "operator": "Commune de Braine-'Alleud",
+    "public_bookcase:type": "reading_box"
+  }
+}
+
+  ]
+}

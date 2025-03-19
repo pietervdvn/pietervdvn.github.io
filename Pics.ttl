@@ -1,0 +1,21 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix v: <http://pietervdvn.github.io/Photograph.ttl#> .
+@prefix wd: <https://www.wikidata.org/entity/>.
+@prefix osm: <https://openstreetmap.org/user/>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+<https://commons.wikimedia.org/wiki/File:John_F._Kennedy_meeting_with_Willy_Brandt,_March_13,_1961.jpg> a v:Photograph ;
+    v:depicts wd:Q2514, wd:Q9696;
+    v:madeby wd:Q61750181;
+    v:creationdate "1961-03-13";
+    v:location wd:Q35525;
+    v:license <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+
+<https://stateofthemap.eu/images/Photo.png> a v:Photograph;
+    v:depicts osm:xivk, osm:Pieter%20Vander%20Vennet, osm:joost%20schouppe;
+    v:creationdate "2023-11".
+
+osm:Pieter%20Vander%20Vennet owl:sameAs <https://en.osm.town/@pietervdvn>.

@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/"
+  },
+  "@id": "https://en.osm.town/@pietervdvn",
+  "@type": "foaf:Person",
+  "foaf:name": "Pieter Vander Vennet",
+  "foaf:givenName": "Pieter",
+  "foaf:familyName": "Vander Vennet",
+  "foaf:mbox": "pietervdvn@posteo.net",
+  "foaf:birthday": "11-07",
+  "foaf:topic": [
+    "https://www.wikidata.org/wiki/Q936",
+    "https://www.wikidata.org/wiki/Q80006"
+  ],
+  "https://schema.org/participant": "https://pietercolpaert.be/teaching/kg/#2023-2024",
+  "foaf:OnlineAccount": [
+    "https://en.osm.town/@pietervdvn",
+    "https://openstreetmap.org/Pieter%20Vander%20Vennet"
+  ],
+  "foaf:knows": [
+    {
+      "@id": "https://mastodon.green/@StevenRogge",
+      "foaf:name": "Steven Rogge",
+      "foaf:OnlineAccount": "https://mastodon.green/@StevenRogge",
+      "foaf:Organisation": "Q1137665",
+      "https://projects.kmi.open.ac.uk/smartproducts/ontologies/latest/food.owl#DietType": "https://www.wikidata.org/wiki/Q7918273"
+    },
+    {
+      "foaf:name": "Pieter Morlion",
+      "foaf:OnlineAccount": "https://www.linkedin.com/in/pietermorlion/",
+      "@id": "https://www.linkedin.com/in/pietermorlion/"
+    }
+  ]
+}
